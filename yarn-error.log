@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add next-i18next react-i18next i18next
+
+PATH: 
+  /opt/homebrew/lib/ruby/gems/3.3.0/gems/cocoapods-1.15.2/lib/cocoapods.rb:/Users/izzeddinashour/.gem/bin:/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/opt/homebrew/lib/ruby/gems/3.3.0/gems/cocoapods-1.15.2/lib/cocoapods.rb:/Users/izzeddinashour/.gem/bin:/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/apache-maven-3.9.6/bin:/usr/local/mysql-8.3.0-macos14-arm64/bin:/Users/izzeddinashour/Library/Android/sdk/tools/bin:/Users/izzeddinashour/Library/Android/sdk/platform-tools:/Users/izzeddinashour/Library/Android/sdk/emulator:/Users/izzeddinashour/.rvm/bin:/Applications/apache-maven-3.9.6/bin:/usr/local/mysql-8.3.0-macos14-arm64/bin:/Users/izzeddinashour/Library/Android/sdk/tools/bin:/Users/izzeddinashour/Library/Android/sdk/platform-tools:/Users/izzeddinashour/Library/Android/sdk/emulator:/Users/izzeddinashour/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/izzeddinashour/Desktop/ashley/node_modules/core-js'
+
+npm manifest: 
+  {
+    "name": "ashley-nextjs",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "date-fns": "^2.30.0",
+      "formik": "^2.4.2",
+      "gray-matter": "^4.0.3",
+      "gsap": "^3.11.5",
+      "next": "13.4.3",
+      "parallax-js": "^3.1.0",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "remark": "^14.0.3",
+      "remark-html": "^15.0.2",
+      "sass": "^1.49.7",
+      "swiper": "^9.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
