@@ -1,22 +1,31 @@
 'use client'
-import React from 'react'
 import { useRouter } from "next/router";
-const LanguageSwitch = () => {
-    const {locale , locales, push } =useRouter();
-    const handleClick = l => {
-      push('/',undefined,{locale:l})
-    }
-  return (
-    <div>
-    {
-      locales.map(l=>(
-        <button key={l} onClick={handleClick(l)}>
-          {l}
-        </button>  
-      ))
-    }
-  </div>
-  )
-}
+import { useEffect } from "react";
+import Link from "next/link";
 
-export default LanguageSwitch
+const LanguageSwitch = () => {
+  const router = useRouter();
+  const { locales, locale: activeLocale } = router;
+  const otherLocales = locales.filter((locale) => locale !== activeLocale);
+
+  useEffect(() => {
+    document.body.dir = activeLocale === 'ar' ? 'rtl' : 'ltr';
+    // If you're using i18n, uncomment the following line to set the document title
+    // document.title = t('app_title');
+  }, [activeLocale]);
+
+  return (
+    <span style={{ display: 'flex', gap: '20px', position: 'absolute', zIndex: 10, top: '54px', right: '10%', color: '#fff' }}>
+      {otherLocales.map((locale, localeIndex) => {
+        const { pathname, query } = router;
+        return (
+          <Link key={localeIndex} href={{ pathname, query }} locale={locale}>
+            {locale}
+          </Link>
+        );
+      })}
+    </span>
+  );
+};
+
+export default LanguageSwitch;

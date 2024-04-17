@@ -26,14 +26,10 @@ body {
         font-size: $text - 1px;
     }
 }
-body {
-    direction: ltr; /* Default direction */
-  }
+
   
   /* RTL support for Arabic */
-  body.ar {
-    direction: rtl;
-  }
+ 
 
 *::selection {
     color: inherit;

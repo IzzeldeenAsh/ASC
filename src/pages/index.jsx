@@ -10,11 +10,13 @@ import { useRouter } from "next/router";
 const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import nextI18NextConfig from '../../next-i18next.config'
+import nextI18NextConfig from '../../next-i18next.config';
+import LanguageSwitch from "../components/LanguageSwitch";
 const Home1 = (props) => {
   const {locale} = useRouter();
   return (
-    <Layouts>
+    <Layouts >
+      <LanguageSwitch style={{'position':'absolute'}}/>
       <HeroOneSection />
       <AboutSection />
       <ServicesSection />
