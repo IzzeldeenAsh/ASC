@@ -1,3 +1,6 @@
 {
-  "title": "Your English title here"
+  "heroTitle": "Your English title here",
+  "heroDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+  "heroButton1" : "WHAT WE DO",
+  "heroButton2" : "VIEW WORK"
 }

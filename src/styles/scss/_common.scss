@@ -325,7 +325,7 @@ a {
     &:before {
         content: '';
         position: absolute;
-        right: calc(100% + 30px);
+        inset-inline-end: calc(100% + 30px) !important;
         top: 10px;
         width: 600px;
         height: 1px;
@@ -348,7 +348,21 @@ a {
             }
         }
     }
+    &.mil-suptitle-left {
+        text-align: left;
 
+        &:before {
+            left: calc(100% + 30px);
+        }
+
+        @media screen and (max-width: 768px) {
+            text-align: center;
+
+            &:before {
+                display: none;
+            }
+        }
+    }
     &.mil-suptitle-dark {
         &:before {
             background-color: $dark;
@@ -486,7 +500,7 @@ button
     background-color: $accent;
     color: $dark;
     border-radius: 70px;
-    padding: 0 15px 0 50px;
+    padding: 0 20px 0 20px;
     height: 70px;
     text-transform: uppercase;
     font-weight: 500;
@@ -511,7 +525,7 @@ button
     }
 
     &.mil-icon-button {
-        padding: 15px;
+        padding: 10px;
 
         & svg {
             margin-left: 0;
@@ -883,7 +897,7 @@ spaces
 }
 
 .mil-btn-space {
-    margin-right: 30px;
+    margin: 0px 30px;
 
     @media screen and (max-width: 500px) {
         margin-right: 50px;

@@ -1,7 +1,10 @@
 import Data from "@data/sections/about.json";
 import LinesIcon from "@layouts/svg-icons/Lines";
-
+import  { useLocale } from '@/utils/getLocale';
 const AboutSection = () => {
+    const {activeLocale, t} = useLocale();
+    console.log('first')
+    console.log("active locale: " + activeLocale)
     return (
         <>
             {/* about */}
@@ -9,7 +12,6 @@ const AboutSection = () => {
                 <div className="container mil-p-120-30">
                     <div className="row justify-content-between align-items-center">
                         <div className="col-lg-6 col-xl-5">
-
                             <div className="mil-mb-90">
                                 <h2 className="mil-up mil-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
                                 <div className="mil-text mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.description}} />
@@ -18,7 +20,7 @@ const AboutSection = () => {
                                     <div className="mil-avatar mil-up">
                                         <img src={Data.avatar.image} alt={Data.avatar.alt} />
                                     </div>
-                                    <h6 className="mil-quote mil-up" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
+                                    <h6 className="mil-quote mil-up"  style={activeLocale ==='ar' ? {'paddingRight' : '30px'} : {'paddingLeft' : '30px'}} dangerouslySetInnerHTML={{__html : Data.subtitle}} />
                                 </div>
                             </div>
 

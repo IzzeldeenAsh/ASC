@@ -35,7 +35,9 @@ const PricingSection = () => {
                             <div className="col-lg-2">
                                 <div className="mil-adaptive-right mil-mb-30">
                                     <div className="mil-button mil-icon-button-sm mil-arrow-place">
-                                        <ArrowIcon />
+                                    <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' , 'paddingTop' : '5px'} : {'transform' : 'rotate(0deg)' , 'paddingTop' : '5px'}} >
+                                <ArrowIcon />
+                                </div>
                                     </div>
                                 </div>
                             </div>

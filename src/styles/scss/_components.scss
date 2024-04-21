@@ -821,7 +821,6 @@ circle text
 
 .mil-circle-text {
     position: absolute;
-    right: 0;
     bottom: 90px;
     display: flex;
     justify-content: center;
@@ -1130,7 +1129,6 @@ about
     }
 
     & .mil-quote {
-        padding-left: 30px;
         width: calc(100% - 90px);
     }
 
@@ -1149,7 +1147,6 @@ about
 
         & .mil-quote {
             font-size: 16px;
-            padding-left: 30px;
             width: calc(100% - 70px);
         }
     }
@@ -2009,7 +2006,6 @@ footer
     & .mil-button {
         position: absolute;
         top: 15px;
-        right: 15px;
     }
 
     &.mil-subscribe-form-2 {

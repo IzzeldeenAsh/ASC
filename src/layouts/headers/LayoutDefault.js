@@ -32,7 +32,8 @@ const DefaultHeader = ({ extraClass }) => {
 
   const clickedMobileMenuItemParent = (e) => {
     e.preventDefault();
-
+    const router = useRouter();
+    const {  locale: activeLocale } = router;
     const lists = document.querySelectorAll(".mil-has-children ul");
     lists.forEach((list) => {
       list.classList.remove("mil-active");
@@ -259,7 +260,7 @@ const DefaultHeader = ({ extraClass }) => {
         </div>
 
         <div className="mil-frame-bottom">
-          <div className="mil-current-page" />
+          <div className="mil-current-page"  style={activeLocale ==='ar' ? {"transform": "rotate(-90deg) translateX(138px) translateY(138px)"} : {"transform": "rotate(-90deg) translateX(138px) translateY(-138px)"}}/>
 
           <BackToTop />
         </div>

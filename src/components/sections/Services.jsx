@@ -2,8 +2,9 @@ import Data from "@data/sections/services.json";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
-
+import { useLocale } from "@/utils/getLocale";
 const ServicesSection = () => {
+    const {activeLocale , t} = useLocale();
   return (
     <>
         {/* services */}
@@ -22,20 +23,22 @@ const ServicesSection = () => {
                     <div className="mil-mb-120">
                         <div className="row">
                             <div className="col-lg-10">
-                                <span className="mil-suptitle mil-light-soft mil-suptitle-right mil-up" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
+                                <span className="mil-suptitle-right mil-suptitle mil-light-soft  mil-up"  dangerouslySetInnerHTML={{__html : Data.subtitle}} />
                             </div>
                         </div>
 
-                        <div className="mil-complex-text justify-content-center mil-up mil-mb-15">
+                        <div className="mil-complex-text justify-content-center mil-up mil-mb-15" style={{'gap':'10px'}}>
                             <span className="mil-text-image"><img src="img/photo/2.jpg" alt="team" /></span>
                             <h2 className="mil-h1 mil-muted mil-center" dangerouslySetInnerHTML={{__html : Data.title1}} />
                         </div>
 
-                        <div className="mil-complex-text justify-content-center mil-up">
+                        <div className="mil-complex-text justify-content-center mil-up"  style={{'gap':'10px'}}>
                             <h2 className="mil-h1 mil-muted mil-center" dangerouslySetInnerHTML={{__html : Data.title2}} />
                             <Link href={Data.button.link} className="mil-services-button mil-button mil-arrow-place">
                                 <span>{Data.button.label}</span>
+                                <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' , 'paddingTop' : '5px'} : {'transform' : 'rotate(0deg)' , 'paddingTop' : '5px'}} >
                                 <ArrowIcon />
+                                </div>
                             </Link>
                         </div>
                     </div>
@@ -48,7 +51,9 @@ const ServicesSection = () => {
                                 <h5 className="mil-muted mil-mb-30" dangerouslySetInnerHTML={{__html : item.title}} />
                                 <p className="mil-light-soft mil-mb-30">{item.text}</p>
                                 <div className="mil-button mil-icon-button-sm mil-arrow-place">
-                                    <ArrowIcon />
+                                <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' , 'paddingTop' : '5px'} : {'transform' : 'rotate(0deg)' , 'paddingTop' : '5px'}} >
+                                <ArrowIcon />
+                                </div>
                                 </div>
                             </Link>
 

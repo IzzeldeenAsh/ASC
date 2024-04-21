@@ -2,9 +2,9 @@ import Data from "@data/sections/hero-1.json";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
-import { useTranslation } from 'next-i18next'
+import { useLocale } from "@/utils/getLocale";
 const HeroOne = () => {
-    const { t } = useTranslation('common')
+    const {activeLocale , t} = useLocale();
     return ( 
         <>
             {/* banner */}
@@ -27,25 +27,30 @@ const HeroOne = () => {
                     <div className="container">
                         <div className="mil-banner-content mil-up">
 
-                            <h1 className="mil-muted mil-mb-60" dangerouslySetInnerHTML={{__html : t("title")}} />
+                            <h1 className="mil-muted mil-mb-60" dangerouslySetInnerHTML={{__html : t("heroTitle")}} />
 
                             <div className="row">
                                 <div className="col-md-7 col-lg-5">
-                                    <p className="mil-light-soft mil-mb-60">{Data.description}</p>
+                                    <p className="mil-light-soft mil-mb-60">{t("heroDescription")}</p>
                                 </div>
                             </div>
 
                             <Link href={Data.button1.link} className="mil-button mil-arrow-place mil-btn-space">
-                                <span>{Data.button1.label}</span>
+                                <span>{t("heroButton1")}</span>
+                                <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' , 'paddingTop' : '5px'} : {'transform' : 'rotate(0deg)' , 'paddingTop' : '5px'}} >
                                 <ArrowIcon />
+                                </div>
                             </Link>
 
                             <Link href={Data.button2.link} className="mil-link mil-muted mil-arrow-place">
-                                <span>{Data.button2.label}</span>
-                                <ArrowIcon />
+                                <span>{t("heroButton2")}</span>
+                                <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)'} : {'transform' : 'rotate(0deg)'}} >
+                                <ArrowIcon  />
+                                </div>
+                               
                             </Link>
 
-                            <div className="mil-circle-text">
+                            <div className="mil-circle-text" style={ activeLocale === 'ar' ? {'left' : '0px'} : {'right' : '0px'}}>
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300" enableBackground="new 0 0 300 300" xmlSpace="preserve" className="mil-ct-svg mil-rotate" data-value="360">
                                     <defs>
                                         <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
@@ -53,7 +58,7 @@ const HeroOne = () => {
                                     <circle cx="150" cy="100" r="75" fill="none" />
                                     <g>
                                         <use xlinkHref="#circlePath" fill="none" />
-                                        <text style={{"letterSpacing": "6.5px"}}>
+                                        <text style={{"letterSpacing": "6.5px"}} textAnchor={activeLocale === 'ar' ? 'end' : 'start'}>
                                             {/* circle text */}
                                             <textPath xlinkHref="#circlePath">Scroll down - Scroll down - </textPath>
                                         </text>

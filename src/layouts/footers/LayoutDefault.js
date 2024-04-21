@@ -2,8 +2,9 @@ import Link from "next/link";
 import AppData from "@data/app.json";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useRouter } from 'next/router';
-
+import { useLocale } from "@/utils/getLocale";
 const DefaultFooter = ( { extraClass } ) => {
+    const {activeLocale , t} = useLocale();
   const { asPath } = useRouter();
   
   return (
@@ -20,11 +21,12 @@ const DefaultFooter = ( { extraClass } ) => {
                         <p className="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
 
                         <form action={AppData.settings.mailchimp.url} method="post" target="_blank" className="mil-subscribe-form mil-up">
-                            <input type="email" placeholder="Enter our email" name="EMAIL" required />
+                            <input type="email" placeholder="Enter our email" name="EMAIL" required  style={{'padding' :'0 20px'}}/>
                             <input type="hidden" name={AppData.settings.mailchimp.key} />
-                            <button type="submit" className="mil-button mil-icon-button-sm mil-arrow-place">
+                                <button style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' , 'left': '15px'} : {'transform' : 'rotate(0deg)' , 'right': '15px'}} type="submit" className="mil-button mil-icon-button-sm mil-arrow-place">
                                 <ArrowIcon />
-                            </button>
+                               </button>
+                               
                         </form>
 
                     </div>
