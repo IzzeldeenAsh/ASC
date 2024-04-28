@@ -6,6 +6,10 @@
         }
     }
 }
+
+li{
+    list-style: none;
+}
 /* -------------------------------------------
 
 preloader
@@ -180,7 +184,7 @@ frame
 ------------------------------------------- */
 
 .mil-logo {
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 500;
     line-height: 100%;
     
@@ -188,7 +192,15 @@ frame
         font-size: 36px;
     }
 }
-
+.hero-toggler{
+    & span,
+    & span:after,
+    & span:before {
+        background: $light;
+        width: 10px;
+        height: 1px;
+    }
+}
 .mil-frame {
     padding: 50px 60px 60px 60px;
     position: fixed;
@@ -213,7 +225,7 @@ frame
     & .mil-frame-top {
         @media screen and (max-width: 1200px) {
             height: 90px;
-            background-color: $dt-95;
+            background-color: $dark;
             border-bottom: solid 1px $lt-10;
             padding: 0 30px;
             backdrop-filter: blur(8px);
@@ -271,6 +283,72 @@ frame
     & .mil-logo {
         pointer-events: all;
         color: $dark;
+    }
+}
+
+/* -------------------------------------------
+
+menu button hero
+
+------------------------------------------- */
+.mil-menu-btn-hero {
+    pointer-events: all;
+    height: 28px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: $t-md;
+
+    @media screen and (max-width: 992px) {
+        transform: scale(0.85);
+    }
+
+
+    & span,
+    & span:after,
+    & span:before {
+        content: "";
+        display: block;
+        width: 28px;
+        height: 2.5px;
+        background: #fff;
+        backface-visibility: hidden;
+        transition: inherit;
+    }
+
+    & span {
+        position: relative;
+
+        &:after,
+        &:before {
+            position: absolute;
+        }
+
+        &:before {
+            top: -9px;
+        }
+
+        &:after {
+            width: 18px;
+            top: 9px;
+        }
+    }
+
+    &.mil-active {
+        & span {
+            transform: rotate(45deg);
+
+            &:before {
+                transform: translate(0px, 9px) rotate(-90deg);
+            }
+
+            &:after {
+                opacity: 0;
+                width: 24px;
+                transform: translate(0px, -9px) rotate(-90deg);
+            }
+        }
     }
 }
 

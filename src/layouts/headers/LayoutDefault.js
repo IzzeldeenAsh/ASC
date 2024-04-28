@@ -119,7 +119,7 @@ const DefaultHeader = ({ extraClass }) => {
                 </nav>
               </div>
               <div className="col-xl-7">
-              <LanguageSwitch/>
+             
                 <div className="mil-menu-right-frame">
                   <div className="mil-animation-in">
                     <div className="mil-animation-frame">

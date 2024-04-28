@@ -410,7 +410,7 @@ link
     font-weight: 500;
     text-transform: uppercase;
     ;
-    font-size: 14px;
+    font-size: 12px;
 
     & svg {
         margin-left: 15px;
@@ -495,13 +495,12 @@ button
     align-items: center;
     justify-content: center;
     border: none;
-    ;
-    font-size: 14px;
+    font-size: 12px;
     background-color: $accent;
     color: $dark;
     border-radius: 70px;
-    padding: 0 20px 0 20px;
-    height: 70px;
+    padding: 0 15px 0 15px;
+    height: 50px;
     text-transform: uppercase;
     font-weight: 500;
     transition: $t-md;
@@ -513,8 +512,8 @@ button
     & svg {
         margin-left: 30px;
         border-radius: 50%;
-        width: 40px;
-        height: 40px;
+        width: 38px;
+        height: 38px;
         padding: 10px;
         background-color: $dark;
         transition: $t-md;
@@ -717,6 +716,29 @@ backgrounds
         pointer-events: none;
         z-index: 2;
         backdrop-filter: invert(100%);
+
+    }
+    & .mi-invert-fix {
+        height: 100%;
+        position: relative;
+        pointer-events: none;
+        z-index: 3;
+        & .container {
+            pointer-events: all;
+            
+        }
+    }
+}
+.mil-dark-bg-hero {
+    position: relative;
+    &:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        pointer-events: none;
+        z-index: 2;
+        background-color: $dark;
 
     }
     & .mi-invert-fix {
