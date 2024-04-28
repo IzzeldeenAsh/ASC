@@ -5,4 +5,7 @@ module.exports = {
   reactStrictMode: true,
   // Add the i18n configuration to Next.js
   i18n,
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
 };

@@ -21,7 +21,7 @@ const Layouts = ({
   useEffect(() => {
     //PreloaderAnimation();
     ScrollAnimation();
-    CursorAnimation();
+    // CursorAnimation();
     AnchorSscroll();
     CurrentPageLabel();
   }, []);
