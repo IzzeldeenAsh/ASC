@@ -1,8 +1,8 @@
 import Data from "@data/sections/related-services.json";
 import Link from "next/link";
-
+import { useLocale } from "@/utils/getLocale";
 const RelatedServicesSection = ( { services } ) => {
-
+    const {activeLocale , t} = useLocale();
     return (
         <>
             {/* related services */}
@@ -32,6 +32,9 @@ const RelatedServicesSection = ( { services } ) => {
                                     <li className="mil-up" key={`services-${key}-list-${list_key}`}>{list_item.label}</li>
                                     ))}
                                 </ul>
+                                 {/* <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                            <ArrowIcon  />
+                            </div> */}
                                 <div className="mil-link mil-dark mil-arrow-place mil-up">
                                     <span>Read more</span>
                                 </div>

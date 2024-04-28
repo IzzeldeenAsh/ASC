@@ -9,8 +9,9 @@ import Link from "next/link";
 
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import LinesIcon from "@layouts/svg-icons/Lines";
-
+import { useLocale } from "@/utils/getLocale";
 const Services = (props) => {
+  const {activeLocale , t} = useLocale();
   return (
     <Layouts>
       {/* banner */}
@@ -43,7 +44,9 @@ const Services = (props) => {
                                           </ul>
                                           <div className="mil-link mil-accent mil-arrow-place mil-up">
                                               <span>Read more</span>
-                                              <ArrowIcon />
+                                              <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                            <ArrowIcon  />
+                            </div>
                                           </div>
                                       </Link>
                                   </div>

@@ -8,17 +8,20 @@ const AboutSection = () => {
     return (
         <>
             {/* about */}
-            <section id="about">
+            <section id="about" className="mil-soft-bg" >
                 <div className="container mil-p-120-30">
                     <div className="row justify-content-between align-items-center">
                         <div className="col-lg-6 col-xl-5">
                             <div className="mil-mb-90">
-                                <h2 className="mil-up mil-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
+                                <h2 className="mil-up mil-mb-60">
+                                {t("aboutDiscover")} <br/>{t("aboutOur")} <span className="mil-thin">{t("aboutWe")}</span>
+                                </h2>
                                 <div className="mil-text mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.description}} />
-                                
+                                <p >{t("aboutText1")}.</p>
+                                <p style={{padding:'40px 0'}}> {t("aboutText2")}.</p>
                                 <div className="mil-about-quote">
                                     <div className="mil-avatar mil-up">
-                                        <img src={Data.avatar.image} alt={Data.avatar.alt} />
+                                        <img  src={Data.avatar.image} alt={Data.avatar.alt}  />
                                     </div>
                                     <h6 className="mil-quote mil-up"  style={activeLocale ==='ar' ? {'paddingRight' : '30px'} : {'paddingLeft' : '30px'}} dangerouslySetInnerHTML={{__html : Data.subtitle}} />
                                 </div>
@@ -28,11 +31,11 @@ const AboutSection = () => {
                         <div className="col-lg-5">
 
                             <div className="mil-about-photo mil-mb-90">
-                                <div className="mil-lines-place">
+                                {/* <div className="mil-lines-place">
                                     <LinesIcon />
-                                </div>
+                                </div> */}
                                 <div className="mil-up mil-img-frame" style={{"paddingBottom": "160%"}}>
-                                    <img src={Data.image.url} alt={Data.image.alt} className="mil-scale" data-value-1="1" data-value-2="1.2" />
+                                    <img src={Data.image.url} alt={Data.image.alt} className="mil-scale " data-value-1="1" data-value-2="1.2" />
                                 </div>
                             </div>
 

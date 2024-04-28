@@ -1,9 +1,10 @@
 import Data from "@data/sections/call-to-action.json";
 import Link from "next/link";
-
+import { useLocale } from "@/utils/getLocale";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 
 const CallToActionSection = ( { bg } ) => {
+    const {activeLocale , t} = useLocale();
   return (
     <>
         {/* call to action */}
@@ -19,7 +20,9 @@ const CallToActionSection = ( { bg } ) => {
                     <div className="mil-up">
                         <Link href={Data.button.link} className="mil-button mil-arrow-place">
                             <span>{Data.button.label}</span>
-                            <ArrowIcon />
+                            <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                            <ArrowIcon  />
+                            </div>
                         </Link>
                     </div>
                 </div>

@@ -8,9 +8,9 @@ const HeroOne = () => {
     return ( 
         <>
             {/* banner */}
-            <section className="mil-banner mil-dark-bg">
+            <section className="mil-banner mil-dark-bg" style={{backgroundColor:'#f5e4cf'}}>
                 <div className="mi-invert-fix">
-                    <div className="mil-animation-frame">
+                    {/* <div className="mil-animation-frame">
                         <div className="mil-animation mil-position-1 mil-scale" data-value-1="7" data-value-2="1.6">
                             <Pentagon />
                         </div>
@@ -20,14 +20,14 @@ const HeroOne = () => {
                         <div className="mil-animation mil-position-3 mil-scale" data-value-1="1.2" data-value-2=".1">
                             <Pentagon />
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="mil-gradient" />
 
                     <div className="container">
                         <div className="mil-banner-content mil-up">
 
-                            <h1 className="mil-muted mil-mb-60" dangerouslySetInnerHTML={{__html : t("heroTitle")}} />
+                            <h2 className=" mil-h2  mil-muted mil-mb-60" dangerouslySetInnerHTML={{__html : t("heroTitle")}} />
 
                             <div className="row">
                                 <div className="col-md-7 col-lg-5">
@@ -47,7 +47,6 @@ const HeroOne = () => {
                                 <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)'} : {'transform' : 'rotate(0deg)'}} >
                                 <ArrowIcon  />
                                 </div>
-                               
                             </Link>
 
                             <div className="mil-circle-text" style={ activeLocale === 'ar' ? {'left' : '0px'} : {'right' : '0px'}}>
@@ -59,12 +58,12 @@ const HeroOne = () => {
                                     <g>
                                         <use xlinkHref="#circlePath" fill="none" />
                                         <text style={{"letterSpacing": "6.5px"}} textAnchor={activeLocale === 'ar' ? 'end' : 'start'}>
-                                            {/* circle text */}
-                                            <textPath xlinkHref="#circlePath">Scroll down - Scroll down - </textPath>
+                                          
+                                            {/* <textPath xlinkHref="#circlePath">Scroll down - Scroll down - </textPath> */}
                                         </text>
                                     </g>
                                 </svg>
-                                <a href="#about" className="mil-button mil-arrow-place mil-icon-button mil-arrow-down">
+                                <a href="#servcise" className="mil-button mil-arrow-place mil-icon-button mil-arrow-down" style={{padding:'5px', height:'50px'}}>
                                     <ArrowIcon />
                                 </a>
                             </div>

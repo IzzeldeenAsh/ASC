@@ -3,9 +3,9 @@ import Data from "@data/sections/pricing.json";
 import Link from "next/link";
 
 import ArrowIcon from "@layouts/svg-icons/Arrow";
-
+import { useLocale } from "@/utils/getLocale";
 const PricingSection = () => {
-    
+    const {activeLocale , t} = useLocale();
     return (
         <>
         {/* prices */}
@@ -48,7 +48,9 @@ const PricingSection = () => {
                     <div className="mil-center mil-mt-60">
                         <Link href={Data.button.link} className="mil-button  mil-arrow-place">
                             <span>{Data.button.label}</span>
-                            <ArrowIcon />
+                            <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                            <ArrowIcon  />
+                            </div>
                         </Link>
                     </div>
 

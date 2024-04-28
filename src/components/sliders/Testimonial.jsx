@@ -3,8 +3,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import Data from '@data/sliders/testimonial';
 import ArrowIcon from "@layouts/svg-icons/Arrow";
+import { useLocale } from "@/utils/getLocale";
+
 
 const TestimonialSlider = () => {
+  const {activeLocale , t} = useLocale();
   return (
     <>
       {/* reviews */}
@@ -26,10 +29,14 @@ const TestimonialSlider = () => {
 
                       <div className="mil-slider-nav mil-soft mil-reviews-nav mil-up">
                           <div className="mil-slider-arrow mil-prev mil-revi-prev mil-arrow-place">
-                            <ArrowIcon />
+                           <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                            <ArrowIcon  />
+                            </div>
                           </div>
                           <div className="mil-slider-arrow mil-revi-next mil-arrow-place">
-                            <ArrowIcon />
+                           <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                            <ArrowIcon  />
+                            </div>
                           </div>
                       </div>
 

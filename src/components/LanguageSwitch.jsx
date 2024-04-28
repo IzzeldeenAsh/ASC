@@ -15,12 +15,34 @@ const LanguageSwitch = () => {
   }, [activeLocale]);
 
   return (
-    <span style={{ display: 'flex', gap: '20px', position: 'absolute', zIndex: 10, top: '54px', right: '10%', color: '#fff' }}>
+    <span style={
+     activeLocale === 'ar' ? 
+     {
+      display: 'flex',
+      gap: '20px',
+      position: 'absolute', 
+      zIndex: 10, 
+      top: '60px',
+      left: '12%',
+      color: '#cfcfcf'
+       }
+       :
+       {
+        display: 'flex',
+        gap: '20px',
+        position: 'absolute', 
+        zIndex: 10, 
+        top: '60px',
+        right: '12%',
+        color: '#cfcfcf'
+         }
+       
+       }>
       {otherLocales.map((locale, localeIndex) => {
         const { pathname, query } = router;
         return (
           <Link key={localeIndex} href={{ pathname, query }} locale={locale}>
-            {locale}
+            {locale === 'ar' ? 'عربي' : 'English'}
           </Link>
         );
       })}

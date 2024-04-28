@@ -1,8 +1,10 @@
 import Data from "@data/sections/related-posts.json";
 import Date from '@library/date';
 import Link from "next/link";
+import { useLocale } from "@/utils/getLocale";
 
 const RelatedPostsSection = ( Content ) => {
+    const {activeLocale , t} = useLocale();
 
     return (
         <>

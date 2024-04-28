@@ -9,14 +9,13 @@ const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import nextI18NextConfig from '../../next-i18next.config';
-import LanguageSwitch from "../components/LanguageSwitch";
+
 const Home1 = (props) => {
   return (
     <Layouts >
-      <LanguageSwitch style={{'position':'absolute'}}/>
       <HeroOneSection />
-      <AboutSection />
       <ServicesSection />
+      <AboutSection />
       <TeamSection />
       <TestimonialSlider />
       <PartnersSlider />

@@ -2,8 +2,9 @@ import Data from "@data/sections/hero-2.json";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
-
+import { useLocale } from "@/utils/getLocale";
 const HeroTwo = () => {
+    const {activeLocale , t} = useLocale();
     return (
         <>
             {/* banner */}
@@ -28,7 +29,9 @@ const HeroTwo = () => {
                                             <span className="mil-suptitle mil-suptitle-dark mil-mb-60" dangerouslySetInnerHTML={{__html : Data.text}} />
                                             <Link href={Data.button.link} className="mil-link mil-dark mil-arrow-place">
                                                 <span>{Data.button.label}</span>
-                                                <ArrowIcon />
+                                                <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)'} : {'transform' : 'rotate(0deg)'}} >
+                                                <ArrowIcon  />
+                                                </div>
                                             </Link>
                                         </div>
                                     </div>
@@ -45,16 +48,18 @@ const HeroTwo = () => {
                             <h5>{Data.bottom.title}</h5>
 
                             <div className="mil-right">
-                                <div className="mil-social-frame">
+                                <div className="mil-social-frame mx-2" >
                                     <ul className="mil-social-icons mil-dark">
                                         {Data.bottom.social.map((social, key2) => (
-                                        <li key={`hero2-social-${key2}`}><a href={social.link} target="_blank" className="social-icon" title={social.title}> <i className={social.icon} /></a></li>
+                                        <li style={ activeLocale === 'ar' ? { marginRight: '15px' } :{ marginLeft: '15px' }} key={`hero2-social-${key2}`}><a href={social.link} target="_blank" className="social-icon" title={social.title}> <i className={social.icon} /></a></li>
                                         ))}
                                     </ul>
                                 </div>
                                 <Link href={Data.bottom.button.link} className="mil-button mil-arrow-place">
                                     <span>{Data.bottom.button.label}</span>
-                                    <ArrowIcon />
+                                    <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                                        <ArrowIcon  />
+                                    </div>
                                 </Link>
                             </div>
                         </div>

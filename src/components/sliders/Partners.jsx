@@ -1,9 +1,10 @@
 import { SliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import Data from '@data/sliders/partners';
 
+
 const PartnersSlider = () => {
+
   return (
     <>
     {/* partners */}
