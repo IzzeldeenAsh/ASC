@@ -1,9 +1,12 @@
+
 import Link from "next/link";
 import { useState } from "react";
 import AppData from "@data/app.json";
 import { useRouter } from "next/router";
 import BackToTop from "../back-to-top/Index";
 import Pentagon from "@layouts/pentagon/Index";
+import LanguageSwitch from "../../components/LanguageSwitch";
+import { LinesIcon } from '@layouts/svg-icons/Lines';
 const DefaultHeader = ({ extraClass }) => {
   const [toggle, setToggle] = useState(false);
 
@@ -11,7 +14,6 @@ const DefaultHeader = ({ extraClass }) => {
 
   const { asPath } = useRouter();
   const router = useRouter();
-
   const { locales, locale: activeLocale } = router;
   const otherLocales = locales.filter((locale) => !locale.activeLocale);
   AppData.header.menu.forEach((item, index) => {
@@ -32,7 +34,6 @@ const DefaultHeader = ({ extraClass }) => {
 
   const clickedMobileMenuItemParent = (e) => {
     e.preventDefault();
-
     const lists = document.querySelectorAll(".mil-has-children ul");
     lists.forEach((list) => {
       list.classList.remove("mil-active");
@@ -49,18 +50,25 @@ const DefaultHeader = ({ extraClass }) => {
 
   return (
     <>
-     
+      <div>
+          <LanguageSwitch/>
+            </div>
       {/* menu */}
+
       <div className={`mil-menu-frame ${toggle ? "mil-active" : ""}`}>
+      
         {/* frame clone */}
         <div className="mil-frame-top">
+      
           <Link href={AppData.header.logo.link} className="mil-logo">
             {AppData.header.logo.symbol}
           </Link>
+        
           <div
             className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
             onClick={() => setToggle(!toggle)}
           >
+           
             <span />
           </div>
         </div>
@@ -106,10 +114,12 @@ const DefaultHeader = ({ extraClass }) => {
                         )}
                       </li>
                     ))}
+                  
                   </ul>
                 </nav>
               </div>
               <div className="col-xl-7">
+              <LanguageSwitch/>
                 <div className="mil-menu-right-frame">
                   <div className="mil-animation-in">
                     <div className="mil-animation-frame">
@@ -236,31 +246,32 @@ const DefaultHeader = ({ extraClass }) => {
       {/* curtain */}
       <div className="mil-curtain" />
       {/* curtain end */}
-
+     
       {/* frame */}
+         
       <div className="mil-frame">
         <div className="mil-frame-top">
             
           <Link href={AppData.header.logo.link} className="mil-logo">
-            {AppData.header.logo.symbol}
+            {AppData.header.logo.symbol} 
           </Link>
-
+        
           <div style={{'display':'flex', 'gap' :'20px'}}>
-            <div>
-         
-            </div>
+           
             <div
               className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
-              onClick={() => setToggle(!toggle)}
-            >
+              onClick={() => setToggle(!toggle)} 
+            > 
+      
               <span />
+          
             </div>
+            
           </div>
         </div>
 
         <div className="mil-frame-bottom">
-          <div className="mil-current-page" />
-
+          <div className="mil-current-page"  style={activeLocale ==='ar' ? {"transform": "rotate(-90deg) translateX(138px) translateY(138px)"} : {"transform": "rotate(-90deg) translateX(138px) translateY(-138px)"}}/>
           <BackToTop />
         </div>
       </div>

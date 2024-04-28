@@ -1,3 +1,11 @@
 {
-  "title": "Your English title here"
+  "heroTitle": "The Stratigies <span class=\"mil-thin\">That</span>  <br> <span class=\"mil-thin\">Reshape</span>  Tommorrow",
+  "heroDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+  "heroButton1" : "WHAT WE DO",
+  "heroButton2" : "VIEW WORK",
+  "aboutDiscover" : "Who",
+  "aboutOur" : "Are",
+  "aboutWe" : "We",
+  "aboutText1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut consectetur adipiscing elit, labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+  "aboutText2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  consectetur adipiscing elit, ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut"
 }

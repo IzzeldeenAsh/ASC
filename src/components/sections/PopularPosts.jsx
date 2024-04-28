@@ -2,8 +2,10 @@ import Data from "@data/sections/popular-posts.json";
 import Date from '@library/date';
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
+import { useLocale } from "@/utils/getLocale";
 
 const PopularPostsSection = ( { posts } ) => {
+    const {activeLocale , t} = useLocale();
     
     return (
         <>
@@ -18,7 +20,9 @@ const PopularPostsSection = ( { posts } ) => {
                             <div className="mil-adaptive-right mil-up">
                                 <a href={Data.button.link} className="mil-link mil-dark mil-arrow-place">
                                     <span>{Data.button.label}</span>
-                                    <ArrowIcon />
+                                    <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                            <ArrowIcon  />
+                            </div>
                                 </a>
                             </div>
                         </div>
@@ -40,7 +44,9 @@ const PopularPostsSection = ( { posts } ) => {
                                     <p className="mil-post-text mil-up mil-mb-30">{item.short}</p>
                                     <div className="mil-link mil-dark mil-arrow-place mil-up">
                                         <span>Read more</span>
-                                        <ArrowIcon />
+                                        <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                            <ArrowIcon  />
+                            </div>
                                     </div>
                                 </div>
                             </Link>

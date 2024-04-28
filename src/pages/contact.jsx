@@ -2,10 +2,11 @@ import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import { Formik } from 'formik';
 import AppData from "@data/app.json";
-
+import { useLocale } from "@/utils/getLocale";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 
 const Contact = () => {
+    const {activeLocale , t} = useLocale();
   return (
     <Layouts>
         <PageBanner pageTitle={"Get in touch!"} breadTitle={"Contact"} anchorLabel={"Send message"} anchorLink={"#contact"} paddingBottom={1} align={"center"} />
@@ -127,7 +128,9 @@ const Contact = () => {
                         <div className="mil-adaptive-right mil-up mil-mb-30">
                             <button type="submit" className="mil-button mil-arrow-place">
                                 <span>Send message</span>
-                                <ArrowIcon />
+                                <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                            <ArrowIcon  />
+                            </div>
                             </button>
                         </div>
                     </div>

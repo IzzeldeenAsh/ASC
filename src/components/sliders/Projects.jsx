@@ -5,10 +5,12 @@ import { useEffect } from "react";
 
 import Link from "next/link";
 
+import { useLocale } from "@/utils/getLocale";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
 
 const ProjectsSlider = ( { projects } ) => {
+    const {activeLocale , t} = useLocale();
     useEffect(() => {
         ScrollAnimation();
     }, []);
@@ -48,7 +50,9 @@ const ProjectsSlider = ( { projects } ) => {
                                     <div data-swiper-parallax-y="120" data-swiper-parallax-opacity="0">
                                         <Link href={`/projects/${item.id}`} className="mil-button mil-arrow-place">
                                             <span>View Project</span>
-                                            <ArrowIcon />
+                                            <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                                        <ArrowIcon  />
+                                              </div>
                                         </Link>
                                     </div>
                                 </div>
@@ -62,11 +66,15 @@ const ProjectsSlider = ( { projects } ) => {
                             <div className="mil-portfolio-btns-frame">
                                 <div className="swiper-portfolio-pagination" />
                                 <div className="mil-slider-nav">
-                                    <div className="mil-slider-arrow mil-prev mil-portfolio-prev mil-arrow-place">
-                                        <ArrowIcon />
+                                    <div className="mx-2 mil-slider-arrow mil-prev mil-portfolio-prev mil-arrow-place">
+                                         <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                                        <ArrowIcon  />
+                                              </div>
                                     </div>
-                                    <div className="mil-slider-arrow mil-portfolio-next mil-arrow-place">
-                                        <ArrowIcon />
+                                    <div className="mx-2 mil-slider-arrow mil-portfolio-next mil-arrow-place">
+                                         <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                                        <ArrowIcon  />
+                                              </div>
                                     </div>
                                 </div>
                             </div>

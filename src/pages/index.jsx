@@ -5,21 +5,17 @@ import HeroOneSection from "@components/sections/HeroOne"
 import AboutSection from "@components/sections/About";
 import ServicesSection from "@components/sections/Services";
 import TeamSection from "@components/sections/Team";
-import LatestPostsSection from "@components/sections/LatestPosts";
-import { useRouter } from "next/router";
 const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import nextI18NextConfig from '../../next-i18next.config';
-import LanguageSwitch from "../components/LanguageSwitch";
+
 const Home1 = (props) => {
-  const {locale} = useRouter();
   return (
     <Layouts >
-      <LanguageSwitch style={{'position':'absolute'}}/>
       <HeroOneSection />
-      <AboutSection />
       <ServicesSection />
+      <AboutSection />
       <TeamSection />
       <TestimonialSlider />
       <PartnersSlider />

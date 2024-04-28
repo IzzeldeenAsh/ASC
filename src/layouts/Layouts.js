@@ -10,7 +10,6 @@ import Header from "./headers/Index";
 //import Preloader from "./preloader/Index";
 import Cursor from "./cursor/Index";
 import ScrollbarProgress from "./scrollbar-progress/Index";
-
 const Layouts = ({
   children,
   header,
@@ -28,7 +27,9 @@ const Layouts = ({
   }, []);
 
   return (
+    
     <div className="mil-wrapper" id="top">
+       
       <Cursor />
 
       {/* <Preloader /> */}

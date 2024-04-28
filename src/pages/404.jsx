@@ -3,8 +3,9 @@ import Link from "next/link";
 
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
-
+import { useLocale } from "@/utils/getLocale";
 const E404 = () => {
+  const {activeLocale , t} = useLocale();
   return (
     <Layouts noFooter>
       {/* 404 */}
@@ -25,7 +26,9 @@ const E404 = () => {
 
                       <Link href="/" className="mil-button mil-arrow-place">
                         <span>Back to homepage</span>
-                        <ArrowIcon />
+                        <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                            <ArrowIcon  />
+                            </div>
                       </Link>
                   </div>
               </div>

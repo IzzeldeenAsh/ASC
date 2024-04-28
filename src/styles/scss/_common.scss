@@ -246,7 +246,7 @@ blockquote {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    letter-spacing: 2px;
+    ;
 }
 
 .mil-bold {
@@ -325,7 +325,7 @@ a {
     &:before {
         content: '';
         position: absolute;
-        right: calc(100% + 30px);
+        inset-inline-end: calc(100% + 30px) !important;
         top: 10px;
         width: 600px;
         height: 1px;
@@ -348,7 +348,21 @@ a {
             }
         }
     }
+    &.mil-suptitle-left {
+        text-align: left;
 
+        &:before {
+            left: calc(100% + 30px);
+        }
+
+        @media screen and (max-width: 768px) {
+            text-align: center;
+
+            &:before {
+                display: none;
+            }
+        }
+    }
     &.mil-suptitle-dark {
         &:before {
             background-color: $dark;
@@ -395,8 +409,8 @@ link
     align-items: center;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 12px;
+    ;
+    font-size: 14px;
 
     & svg {
         margin-left: 15px;
@@ -481,12 +495,12 @@ button
     align-items: center;
     justify-content: center;
     border: none;
-    letter-spacing: 2px;
-    font-size: 12px;
+    ;
+    font-size: 14px;
     background-color: $accent;
     color: $dark;
     border-radius: 70px;
-    padding: 0 15px 0 50px;
+    padding: 0 20px 0 20px;
     height: 70px;
     text-transform: uppercase;
     font-weight: 500;
@@ -511,7 +525,7 @@ button
     }
 
     &.mil-icon-button {
-        padding: 15px;
+        padding: 10px;
 
         & svg {
             margin-left: 0;
@@ -579,7 +593,7 @@ textarea {
     width: 100%;
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    ;
     font-weight: 500;
     font-family: $font-1;
     color: $dark;
@@ -594,7 +608,7 @@ textarea {
     &::placeholder {
         font-size: 12px;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        ;
         font-weight: 500;
         color: $dt-50;
     }
@@ -638,7 +652,7 @@ breadcrumbs
         & a {
             color: $dark;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            ;
             font-weight: 500;
             font-size: 12px;
             white-space: nowrap;
@@ -695,7 +709,6 @@ backgrounds
 ------------------------------------------- */
 .mil-dark-bg {
     position: relative;
-    
     &:before {
         content: '';
         width: 100%;
@@ -704,22 +717,23 @@ backgrounds
         pointer-events: none;
         z-index: 2;
         backdrop-filter: invert(100%);
-    }
 
+    }
     & .mi-invert-fix {
         height: 100%;
         position: relative;
         pointer-events: none;
         z-index: 3;
-
         & .container {
             pointer-events: all;
+            
         }
     }
 }
 
 .mil-soft-bg {
     background-color: $gs-5;
+    
 }
 
 /* -------------------------------------------
@@ -883,7 +897,7 @@ spaces
 }
 
 .mil-btn-space {
-    margin-right: 30px;
+    margin: 0px 30px;
 
     @media screen and (max-width: 500px) {
         margin-right: 50px;

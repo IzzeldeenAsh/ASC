@@ -1,8 +1,9 @@
 import Data from "@data/sections/subscribe.json";
 import AppData from "@data/app.json";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
-
+import { useLocale } from "@/utils/getLocale";
 const SubscribeSection = () => {
+    const {activeLocale , t} = useLocale();
   return (
     <>
         {/* call to action */}
@@ -20,9 +21,13 @@ const SubscribeSection = () => {
                             <form action={AppData.settings.mailchimp.url} method="post" target="_blank" className="mil-subscribe-form mil-subscribe-form-2 mil-up">
                                 <input type="email" placeholder="Enter our email" name="EMAIL" required />
                                 <input type="hidden" name={AppData.settings.mailchimp.key} />
+                                <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' ,display:'flex'} : {'transform' : 'rotate(0deg)' , display:'flex'}} >
                                 <button type="submit" className="mil-button mil-icon-button-sm mil-arrow-place">
-                                    <ArrowIcon />
-                                </button>
+                            <ArrowIcon  />
+                               </button>
+                               
+                                </div>
+                              
                             </form>
                         </div>
                     </div>

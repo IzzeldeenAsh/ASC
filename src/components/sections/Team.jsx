@@ -2,8 +2,9 @@ import Data from "@data/sections/team.json";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import LinesIcon from "@layouts/svg-icons/Lines";
-
+import { useLocale } from "@/utils/getLocale";
 const TeamSection = () => {
+    const {activeLocale , t} = useLocale();
   return (
     <>
         {/* team */}
@@ -12,11 +13,15 @@ const TeamSection = () => {
                 <div className="row justify-content-between align-items-center">
                     <div className="col-lg-5 col-xl-4">
 
-                        <div className="mil-mb-90">
+                        <div className="mil-mb-90" >
                             <h2 className="mil-up mil-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
                             <div className="mil-text mil-up mil-mb-60" dangerouslySetInnerHTML={{__html : Data.description}} />
                             
-                            <div className="mil-up"><Link href={Data.button.link} className="mil-button mil-arrow-place mil-mb-60"><span>{Data.button.label}</span><ArrowIcon /></Link></div>
+                            <div className="mil-up"><Link href={Data.button.link} className="mil-button mil-arrow-place mil-mb-60"><span>{Data.button.label}</span>
+                            <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' , 'display' : 'flex'} : {'transform' : 'rotate(0deg)' ,'display' : 'flex'}} >
+                                <ArrowIcon  />
+                                </div>
+                            </Link></div>
 
                             <h4 className="mil-up" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
                         </div>

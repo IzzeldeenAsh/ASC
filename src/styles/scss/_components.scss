@@ -1,3 +1,11 @@
+@mixin rtl-fix() {
+    [dir="rtl"] & { // Target elements within an RTL context
+        &:before { 
+            left: auto; // Reset left
+            right: 0;   // Set right
+        }
+    }
+}
 /* -------------------------------------------
 
 preloader
@@ -98,7 +106,7 @@ cursor
         color: $lt-90;
         font-size: 12px;
         font-weight: 500;
-        letter-spacing: 2px;
+        ;
         text-transform: uppercase;
         transform: scale(0);
     }
@@ -175,7 +183,7 @@ frame
     font-size: 42px;
     font-weight: 500;
     line-height: 100%;
-
+    
     @media screen and (max-width: 992px) {
         font-size: 36px;
     }
@@ -240,7 +248,7 @@ frame
             pointer-events: none;
             font-weight: 500;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            ;
             font-size: 12px;
             width: 300px;
             color: $dark;
@@ -582,7 +590,7 @@ menu
                             display: block;
                             font-size: 12px;
                             color: $lt-40;
-                            letter-spacing: 2px;
+                            ;
                             font-weight: 500;
                             text-transform: uppercase;
 
@@ -821,7 +829,6 @@ circle text
 
 .mil-circle-text {
     position: absolute;
-    right: 0;
     bottom: 90px;
     display: flex;
     justify-content: center;
@@ -1130,7 +1137,6 @@ about
     }
 
     & .mil-quote {
-        padding-left: 30px;
         width: calc(100% - 90px);
     }
 
@@ -1149,7 +1155,6 @@ about
 
         & .mil-quote {
             font-size: 16px;
-            padding-left: 30px;
             width: calc(100% - 70px);
         }
     }
@@ -1204,6 +1209,48 @@ services
             margin-left: 0;
             margin-top: 60px;
         }
+    }
+}
+.mil-squares {
+    display: flex; /* Arrange squares horizontally */
+    gap: 10px;     /* Space between squares */
+    position: absolute;
+    bottom: 30px;  /* Example positioning - adjust as needed */
+    top: 0;
+    transition: $t-md; /* Same transition as other elements */
+}
+
+.mil-services-grid-item:hover .mil-square {
+    animation: squareAppear .5s forwards;
+}
+
+.mil-services-grid-item:hover .mil-square:first-child {
+    animation-delay: .3s !important; /* Delay for the first square */
+}
+
+.mil-services-grid-item:hover .mil-square:nth-child(2){
+    animation-delay: .5s !important; /* Delay for the second square */
+}
+
+.mil-services-grid-item:hover .mil-square:nth-child(3) {
+    animation-delay: .7s !important; /* Delay for the third square */
+}
+
+.mil-square {
+    width: 5px;
+    height: 5px;
+    background-color: $accent; /* Same color as your line */
+    transform: translateX(-50%) scale(0); /* Initially hidden */
+    opacity: 0;
+    transition: $t-md;
+}
+
+@keyframes squareAppear {
+    0% { opacity: 0; }  /* Start with opacity 0 */
+    50% { opacity: 0; }  /* Remain hidden until halfway */ 
+    100% {
+        transform: translateX(-50%) scale(1); 
+        opacity: 1;
     }
 }
 
@@ -1261,7 +1308,8 @@ services
         content: '';
         position: absolute;
         top: 0;
-        left: 0;
+        @include rtl-fix();
+        inset-inline-start: 0;
         height: 4px;
         width: 0;
         background-color: $accent;
@@ -1281,7 +1329,7 @@ services
         }
 
         &:before {
-            width: 100%;
+            width: 84%;
         }
     }
 
@@ -1300,13 +1348,13 @@ services
 }
 
 .mil-services-grid {
-    border-top: solid 1px $lt-10;
+    border-top: solid 1px $dt-10;
 
     & .mil-services-grid-item {
-        border-right: solid 1px $lt-10;
+        border-right: solid 1px $dt-10;
 
         &:first-child {
-            border-left: solid 1px $lt-10;
+            border-left: solid 1px $dt-10;
         }
     }
 
@@ -1314,10 +1362,10 @@ services
         padding-bottom: 90px;
 
         & .mil-services-grid-item {
-            border-bottom: solid 1px $lt-10;
+            border-bottom: solid 1px $dt-10;
 
             &:nth-child(3) {
-                border-left: solid 1px $lt-10;
+                border-left: solid 1px $dt-10;
             }
         }
     }
@@ -1326,8 +1374,8 @@ services
         padding-bottom: 90px;
 
         & .mil-services-grid-item {
-            border-left: solid 1px $lt-10;
-            border-bottom: solid 1px $lt-10;
+            border-left: solid 1px $dt-10;
+            border-bottom: solid 1px $dt-10;
         }
     }
 }
@@ -1389,7 +1437,7 @@ services
         list-style-type: none;
         padding: 15px 0;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        ;
         font-weight: 500;
         font-size: 12px;
 
@@ -1539,7 +1587,7 @@ social icons
 
     & li {
         list-style-type: none;
-        margin-right: 15px;
+        
 
         &:last-child {
             margin-right: 0;
@@ -1799,7 +1847,7 @@ blog
         & .mil-post-descr {
             width: calc(100% - 450px);
             padding: 0;
-            padding-left: 60px;
+            padding:0px 60px;
         }
 
         @media screen and (max-width: 992px) {
@@ -1887,7 +1935,7 @@ blog
             text-transform: uppercase;
             font-size: 12px;
             font-weight: 500;
-            letter-spacing: 2px;
+            ;
             transition: $t-md;
 
             &:hover {
@@ -1981,7 +2029,7 @@ footer
         font-size: 12px;
         font-weight: 500;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        ;
         border: none;
         border-radius: 70px;
         padding: 0 0 0 50px;
@@ -1993,7 +2041,7 @@ footer
             font-size: 12px;
             font-weight: 500;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            ;
         }
 
         &:focus {
@@ -2009,7 +2057,6 @@ footer
     & .mil-button {
         position: absolute;
         top: 15px;
-        right: 15px;
     }
 
     &.mil-subscribe-form-2 {
@@ -2193,7 +2240,7 @@ portfolio
     white-space: nowrap;
     font-size: 12px;
     font-weight: 500;
-    letter-spacing: 2px;
+    ;
     text-transform: uppercase;
     padding: 0 15px;
 }
@@ -2207,7 +2254,7 @@ portfolio
     border-bottom: solid 1px $dt-10;
     text-transform: uppercase;
     font-size: 12px;
-    letter-spacing: 2px;
+    ;
     font-weight: 500;
 
     @media screen and (max-width: 768px) {
@@ -2332,7 +2379,7 @@ accordion
         & .mil-accordion-head {
             font-size: 12px;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            ;
             font-weight: 500;
             color: $dark;
         }
@@ -2632,3 +2679,23 @@ html.is-animating {
         transition-delay: .3s;
     }
 }
+/***************************
+
+Button Language switch
+
+***************************/
+.language{
+    display: flex;
+    gap: 20px;
+    position: absolute; 
+    zIndex: 10; 
+    top: 54px;
+    color: #cfcfcf;
+}
+.language-links-right {
+    right: 10%;
+  }
+  
+  .language-links-left {
+    left: 10%;
+  }

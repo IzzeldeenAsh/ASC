@@ -2,9 +2,9 @@ import Data from "@data/sections/latest-posts.json";
 import Date from '@library/date';
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
-
+import { useLocale } from "@/utils/getLocale";
 const LatestPostsSection = ( { posts, layout, imageHorizontal } ) => {
-    
+    const {activeLocale , t} = useLocale();
     return (
         <>
             {/* blog */}
@@ -18,7 +18,9 @@ const LatestPostsSection = ( { posts, layout, imageHorizontal } ) => {
                             <div className="mil-adaptive-right mil-up">
                                 <a href={Data.button.link} className="mil-link mil-dark mil-arrow-place">
                                     <span>{Data.button.label}</span>
-                                    <ArrowIcon />
+                                    <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                            <ArrowIcon  />
+                            </div>
                                 </a>
                             </div>
                         </div>
@@ -40,7 +42,9 @@ const LatestPostsSection = ( { posts, layout, imageHorizontal } ) => {
                                     <p className="mil-post-text mil-up mil-mb-30">{item.short}</p>
                                     <div className="mil-link mil-dark mil-arrow-place mil-up">
                                         <span>Read more</span>
-                                        <ArrowIcon />
+                                        <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                            <ArrowIcon  />
+                            </div>
                                     </div>
                                 </div>
                             </Link>
