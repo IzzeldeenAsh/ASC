@@ -164,6 +164,22 @@ h3,
         font-size: $h3 - 12px;
     }
 }
+.mil-h2half {
+    font-size: $h25;
+
+    @media screen and (max-width: 1200px) {
+        font-size: $h25 - 3px;
+    }
+
+    @media screen and (max-width: 992px) {
+        font-size: $h25 - 6px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: $h25 - 12px;
+    }
+}
+
 
 h4,
 .mil-h4 {
@@ -503,7 +519,7 @@ button
     color: $dark;
     border-radius: 70px;
     padding: 0 15px 0 15px;
-    height: 50px;
+    height: 58px;
     text-transform: uppercase;
     font-weight: 500;
     transition: $t-md;

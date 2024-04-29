@@ -59,7 +59,7 @@ const HeroOne = () => {
                         <div className="mil-banner-content mil-up">
                        
                            <div className="py-5">
-                           <h3 className=" mil-h3  mil-muted " dangerouslySetInnerHTML={{__html : t("heroTitle")}} />
+                           <h3 className=" mil-h2half  mil-muted " dangerouslySetInnerHTML={{__html : t("heroTitle")}} />
                            </div>
                             <div className="row">
                                 <div className="col-md-7 col-lg-5">
