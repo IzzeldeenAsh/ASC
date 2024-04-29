@@ -8,7 +8,7 @@ import { CurrentPageLabel } from "../common/utilits";
 import Footer from "./footers/Index";
 import Header from "./headers/Index";
 //import Preloader from "./preloader/Index";
-import Cursor from "./cursor/Index";
+// import Cursor from "./cursor/Index";
 import ScrollbarProgress from "./scrollbar-progress/Index";
 const Layouts = ({
   children,
@@ -30,7 +30,7 @@ const Layouts = ({
     
     <div className="mil-wrapper" id="top">
        
-      <Cursor />
+      {/* <Cursor /> */}
 
       {/* <Preloader /> */}
 
