@@ -1,3 +1,4 @@
+
 /* -------------------------------------------
 
 main
@@ -15,13 +16,11 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: $font-1;
     font-size: $text;
     font-weight: 300;
     color: $dt-50;
     line-height: 150%;
     overscroll-behavior: none;
-
     @media screen and (max-width: 768px) {
         font-size: $text - 1px;
     }
@@ -29,7 +28,12 @@ body {
 
   
   /* RTL support for Arabic */
- 
+.rtl-font{
+    font-family: "Rubik", sans-serif !important;
+}
+.ltr-font{
+    font-family: 'Outfit', "Readex Pro", sans-serif !important;
+}
 
 *::selection {
     color: inherit;
@@ -93,7 +97,7 @@ h5,
 .mil-h5,
 h6,
 .mil-h6 {
-    font-family: $font-1;
+    // font-family: $font-1;
     color: $dark;
     font-weight: 500;
     line-height: 120%;
@@ -591,9 +595,7 @@ textarea {
     width: 100%;
     font-size: 12px;
     text-transform: uppercase;
-    ;
     font-weight: 500;
-    font-family: $font-1;
     color: $dark;
     border: none;
     border-bottom: solid 1px $dt-20;
@@ -917,8 +919,12 @@ spaces
     }
 }
 
+[dir="rtl"] .mil-btn-space { /* Target elements within an RTL context */
+    margin: 0 0 0 30px; /* Adjusted margin values */
+}
 .mil-btn-space {
-    margin: 0px 30px;
+   
+    margin: 0px 30px 0px 0px;
 
     @media screen and (max-width: 500px) {
         margin-right: 50px;

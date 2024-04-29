@@ -3,8 +3,6 @@ import LinesIcon from "@layouts/svg-icons/Lines";
 import  { useLocale } from '@/utils/getLocale';
 const AboutSection = () => {
     const {activeLocale, t} = useLocale();
-    console.log('first')
-    console.log("active locale: " + activeLocale)
     return (
         <>
             {/* about */}
