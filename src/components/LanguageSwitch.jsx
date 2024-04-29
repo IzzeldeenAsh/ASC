@@ -11,7 +11,7 @@ const LanguageSwitch = () => {
   useEffect(() => {
     document.body.dir = activeLocale === 'ar' ? 'rtl' : 'ltr';
     document.body.classList.remove('rtl-font','ltr-font');
-    document.body.classList.add(activeLocale === 'ar' ? 'rtl-font' : 'ltr-font')
+    document.body.classList.add(activeLocale === 'ar' ? 'ltr-font' : 'ltr-font')
     // If you're using i18n, uncomment the following line to set the document title
     // document.title = t('app_title');
   }, [activeLocale]);

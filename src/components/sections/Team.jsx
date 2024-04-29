@@ -30,16 +30,21 @@ const TeamSection = () => {
                     <div className="col-lg-6">
 
                         <div className="mil-team-list">
-                            <div className="mil-lines-place">
+                            {/* <div className="mil-lines-place">
                                 <LinesIcon />
-                            </div>
+                            </div> */}
 
                             <div className="row mil-mb-60">
                                 <div className="col-sm-6">
                                     
                                     {Data.col1_items.map((item, key) => (
 
-                                    <div key={`services1-item-${key}`} className="mil-team-card mil-up mil-mb-30">
+                                    <div key={`services1-item-${key}`} className="mil-team-card mil-up mil-mb-30" style={{position:'relative'}}>
+                                        <div className="mil-squares team-squares"  style={{right:'-4px'}}>
+                                    <span className="mil-square"></span>
+                                    <span className="mil-square"></span>
+                                    <span className="mil-square"></span>
+                                </div>
                                         <img src={item.image} alt={item.name} />
                                         <div className="mil-description">
                                             <div className="mil-secrc-text">
@@ -63,7 +68,12 @@ const TeamSection = () => {
                                     
                                     {Data.col2_items.map((item, key) => (
                                     
-                                    <div key={`services2-item-${key}`} className="mil-team-card mil-up mil-mb-30">
+                                    <div key={`services2-item-${key}`} className="mil-team-card mil-up mil-mb-30" style={{position:'relative'}}>
+                                           <div className="mil-squares team-squares"  style={{right:'-4px'}}>
+                                    <span className="mil-square"></span>
+                                    <span className="mil-square"></span>
+                                    <span className="mil-square"></span>
+                                </div>
                                         <img src={item.image} alt={item.name} />
                                         <div className="mil-description">
                                             <div className="mil-secrc-text">
