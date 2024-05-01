@@ -1,11 +1,11 @@
 ---
 #preview details
-title: "Branding and Identity Design"
+title: "Smart Cities and Mobility"
 preview_title: "Branding and <br>Identity Design"
 short: "Our creative agency is a team of professionals focused on helping your brand grow."
 
 #full details
-introTitle: Branding<br> and <span class="mil-thin">Identity Design</span>
+introTitle: service1IDPageName
 
 description:
   title: Your <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Work Specifics</span>

@@ -10,5 +10,9 @@
   "aboutText2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  consectetur adipiscing elit, ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
   "servicesSubtitle1": "Our management and Industrial experts <br> will work with you every step of the way.",
   "servicesTitle1": "Insights <span class=\"mil-thin\">that Empower</span>",
-  "servicesTitle2": "decision-making <span class=\"mil-thin\">with data.</span>"
+  "servicesTitle2": "decision-making <span class=\"mil-thin\">with data.</span>",
+  "service1Name" : "Smart Cities<br> and Mobility",
+  "service2Name" : "Digital<br> Transformation ",
+  "service3Name" : "Renewable Energy<br> Transformation ",
+  "service1IDPageName" : "Smart Cities<br> and <span class=\"mil-thin\">Mobility</span>"
 }

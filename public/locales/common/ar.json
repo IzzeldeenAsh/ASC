@@ -10,5 +10,10 @@
     "aboutText2" : "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق ",
     "servicesSubtitle1": "خبراء الإدارة والصناعة لدينا <br> سيعملون معك في كل خطوة على الطريق.",
     "servicesTitle1": "رؤى <span class=\"mil-thin\">تمكن</span>",
-    "servicesTitle2": "صنع القرار <span class=\"mil-thin\">بالبيانات</span>."
+    "servicesTitle2": "صنع القرار <span class=\"mil-thin\">بالبيانات</span>.",
+    "service1Name" : "المدن الذكية<br> والتنقل",
+    "service2Name" : "الرقمي<br> التحول ",
+    "service3Name" : "المتجددة<br> تحويل الطاقة  ",
+    "service1IDPageName" : "المدن الذكية<br> <span class=\"mil-thin\"> والتنقل </span>"
+   
   }

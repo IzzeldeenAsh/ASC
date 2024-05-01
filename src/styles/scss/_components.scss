@@ -1459,7 +1459,7 @@ services
         }
 
         &:before {
-            width: 82%;
+            width: calc(100% - 50px);
         }
     }
 
@@ -1482,7 +1482,7 @@ services
 
     & .mil-services-grid-item {
         border-right: solid 1px $dt-10;
-
+        flex: 1;
         &:first-child {
             border-left: solid 1px $dt-10;
         }

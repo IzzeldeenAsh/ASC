@@ -2,7 +2,7 @@ import Layouts from "@layouts/Layouts";
 import PageBanner from "@/src/components/PageBanner";
 
 import { useEffect } from "react";
-
+import { useLocale } from "@/utils/getLocale";
 import { Accordion } from "../../common/utilits";
 
 import Link from "next/link";
@@ -14,6 +14,7 @@ import RelatedServices from "@components/sections/RelatedServices";
 
 const ServiceDetail = ( { data, related } ) => {
   const postData = data;
+  const {activeLocale , t} = useLocale();
 
   useEffect(() => {
     Accordion();
@@ -21,7 +22,7 @@ const ServiceDetail = ( { data, related } ) => {
 
   return (
     <Layouts>
-      <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"About service"} anchorLink={"#service"} />
+      <PageBanner pageTitle={t(postData.introTitle)} breadTitle={postData.title} anchorLabel={"About service"} anchorLink={"#service"} />
 
       {/* service */}
       <section id="service">
