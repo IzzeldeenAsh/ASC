@@ -53,7 +53,7 @@ const ServicesSection = () => {
                                     <span className="mil-square"></span>
                                 </div>
                             <Link href={item.link} className="mil-service-card-sm mil-up">
-                                <h5 className=" mil-mb-30" dangerouslySetInnerHTML={{__html : item.title}} />
+                                <h5 className=" mil-mb-30" dangerouslySetInnerHTML={{__html : t(item.title)}} />
                                 <p className="mil-light-soft mil-mb-30">{item.text}</p>
                                 <div className="mil-button mil-icon-button-sm mil-arrow-place">
                                 <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' , 'paddingTop' : '5px'} : {'transform' : 'rotate(0deg)' , 'paddingTop' : '5px'}} >
