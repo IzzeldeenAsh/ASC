@@ -1,4 +1,3 @@
-'use client'
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import Link from "next/link";
@@ -9,42 +8,28 @@ const LanguageSwitch = () => {
   const otherLocales = locales.filter((locale) => locale !== activeLocale);
 
   useEffect(() => {
-    document.body.dir = activeLocale === 'ar' ? 'rtl' : 'ltr';
-    document.body.classList.remove('rtl-font','ltr-font');
-    document.body.classList.add(activeLocale === 'ar' ? 'ltr-font' : 'ltr-font')
-    // If you're using i18n, uncomment the following line to set the document title
-    // document.title = t('app_title');
+    document.body.dir = activeLocale === "ar" ? "rtl" : "ltr";
   }, [activeLocale]);
 
+  const isArabic = activeLocale === 'ar';
+
   return (
-    <span style={
-     activeLocale === 'ar' ? 
-     {
+    <span style={{
       display: 'flex',
       gap: '20px',
-      position: 'absolute', 
-      zIndex: 10, 
-      top: '60px',
-      left: '12%',
-      color: '#cfcfcf'
-       }
-       :
-       {
-        display: 'flex',
-        gap: '20px',
-        position: 'absolute', 
-        zIndex: 10, 
-        top: '60px',
-        right: '12%',
-        color: '#cfcfcf'
-         }
-       
-       }>
+      position: 'absolute',
+      zIndex: 10,
+      top: '53px',
+      color: '#cfcfcf',
+      // Align based on 'isArabic'
+      left: isArabic ? '12%' : undefined,
+      right: isArabic ? undefined : '12%',
+    }}>
       {otherLocales.map((locale, localeIndex) => {
         const { pathname, query } = router;
         return (
           <Link key={localeIndex} href={{ pathname, query }} locale={locale}>
-            {locale === 'ar' ? 'عربي' : 'English'}
+            {locale === "ar" ? "عربي" : "English"}
           </Link>
         );
       })}

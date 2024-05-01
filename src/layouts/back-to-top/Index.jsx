@@ -8,7 +8,7 @@ const BackToTopModule = () => {
         <>
             {/* back to top */}
             <div className="mil-back-to-top"  style={activeLocale ==='ar' ? {"transform": " rotate(-90deg) translateX(130px) translateY(-130px)"} : {"transform": "  rotate(-90deg) translateX(130px) translateY(130px)"}}>
-                <a href="#top" className="mil-link mil-dark mil-arrow-place">
+                <a href="#top" className="mil-link mil-dark mil-arrow-place" aria-label={"Link"}>
                     <span>Back to top</span>
                     <ArrowIcon />
                 </a>

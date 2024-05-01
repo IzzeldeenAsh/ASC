@@ -7,6 +7,7 @@ import BackToTop from "../back-to-top/Index";
 import Pentagon from "@layouts/pentagon/Index";
 import LanguageSwitch from "../../components/LanguageSwitch";
 import { LinesIcon } from '@layouts/svg-icons/Lines';
+import LightEnglishLogo from "../svg-icons/LightEnglishLogo";
 const DefaultHeader = ({ extraClass }) => {
   const [toggle, setToggle] = useState(false);
 
@@ -61,7 +62,8 @@ const DefaultHeader = ({ extraClass }) => {
         <div className="mil-frame-top">
       
           <Link href={AppData.header.logo.link} className="mil-logo">
-            {AppData.header.logo.symbol}
+            {/* {AppData.header.logo.symbol} */}
+            <LightEnglishLogo/>
           </Link>
         
           <div
@@ -193,22 +195,22 @@ const DefaultHeader = ({ extraClass }) => {
 
                         <ul className="mil-menu-list">
                           <li>
-                            <a href="#." className="mil-light-soft">
+                            <a href="#." className="mil-light-soft" aria-label={"Link"}> 
                               Privacy Policy
                             </a>
                           </li>
                           <li>
-                            <a href="#." className="mil-light-soft">
+                            <a href="#." className="mil-light-soft" aria-label={"Link"}>
                               Terms and conditions
                             </a>
                           </li>
                           <li>
-                            <a href="#." className="mil-light-soft">
+                            <a href="#." className="mil-light-soft" aria-label={"Link"}>
                               Cookie Policy
                             </a>
                           </li>
                           <li>
-                            <a href="#." className="mil-light-soft">
+                            <a href="#." className="mil-light-soft" aria-label={"Link"}>
                               Careers
                             </a>
                           </li>
@@ -253,7 +255,8 @@ const DefaultHeader = ({ extraClass }) => {
         <div className="mil-frame-top">
             
           <Link href={AppData.header.logo.link} className="mil-logo">
-            {AppData.header.logo.symbol} 
+            {/* {AppData.header.logo.symbol}  */}
+            <LightEnglishLogo/>
           </Link>
         
           <div style={{'display':'flex', 'gap' :'20px'}}>

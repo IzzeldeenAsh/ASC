@@ -58,7 +58,7 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
             <h2 className={anchorLink != 0 ? "mil-mb-60" : ""} dangerouslySetInnerHTML={{__html : pageTitle}} />
             }
             {anchorLink != 0 &&
-            <a href={anchorLink} className="mil-link mil-dark mil-arrow-place mil-down-arrow">
+            <a href={anchorLink} className="mil-link mil-dark mil-arrow-place mil-down-arrow" aria-label={"Link"}>
                 <span>{anchorLabel}</span>
                 <ArrowIcon />
             </a>

@@ -11,7 +11,7 @@ const ProjectInner5 = ({ postData, prev, next }) => {
             {typeof postData.fullImage != "undefined" &&
             <div className="mil-image-frame mil-fw mil-up">
                 <img src={postData.fullImage} alt={postData.title} />
-                <a data-fancybox="gallery" data-no-swup href={postData.fullImage} className="mil-zoom-btn">
+                <a data-fancybox="gallery" data-no-swup href={postData.fullImage} className="mil-zoom-btn" aria-label={"Link"}>
                     <img src="/img/icons/zoom.svg" alt="zoom" />
                 </a>
             </div>
@@ -37,7 +37,7 @@ const ProjectInner5 = ({ postData, prev, next }) => {
 
                                 <div className="mil-image-frame mil-square mil-drag">
                                     <img src={item.image} alt={item.alt} />
-                                    <a data-fancybox="gallery" data-no-swup href={item.image} className="mil-zoom-btn">
+                                    <a data-fancybox="gallery" data-no-swup href={item.image} className="mil-zoom-btn" aria-label={"Link"}>
                                         <img src="/img/icons/zoom.svg" alt="zoom" />
                                     </a>
                                 </div>
@@ -70,7 +70,7 @@ const ProjectInner5 = ({ postData, prev, next }) => {
                         {postData.gallery2.items.map((item, key) => (
                         <div className="mil-image-frame mil-horizontal mil-up mil-mb-120" key={`gallery2-item-${key}`}>
                             <img src={item.image} alt={item.alt} />
-                            <a data-fancybox="gallery" data-no-swup href={item.image} className="mil-zoom-btn">
+                            <a data-fancybox="gallery" data-no-swup href={item.image} className="mil-zoom-btn" aria-label={"Link"}>
                                 <img src="/img/icons/zoom.svg" alt="zoom" />
                             </a>
                         </div>

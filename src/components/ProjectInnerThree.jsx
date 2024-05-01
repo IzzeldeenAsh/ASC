@@ -21,7 +21,7 @@ const ProjectInner3 = ({ postData, prev, next }) => {
 
                             <div className="mil-image-frame mil-horizontal mil-drag">
                                 <img src={item.image} alt={item.alt} />
-                                <a data-fancybox="gallery" data-no-swup href={item.image} className="mil-zoom-btn">
+                                <a data-fancybox="gallery" data-no-swup href={item.image} className="mil-zoom-btn" aria-label={"Link"}>
                                     <img src="/img/icons/zoom.svg" alt="zoom" />
                                 </a>
                             </div>

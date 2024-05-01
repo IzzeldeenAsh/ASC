@@ -5,7 +5,6 @@ import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
 import { useLocale } from "@/utils/getLocale";
 import LightEnglishLogo from"@layouts/svg-icons/LightEnglishLogo"
-import LightLogoArabic from"@layouts/svg-icons/LightLogoArabic"
 const HeroOne = () => {
     const [toggle, setToggle] = useState(false);
     const {activeLocale , t} = useLocale();
@@ -13,32 +12,15 @@ const HeroOne = () => {
         <>
             {/* banner */}
             <section className="mil-banner mil-dark-bg-hero ">
-           {activeLocale === 'ar' ?
-              <>
-              <div className="" style={{position:'absolute',top:'40px' , right : '60px', zIndex:10}}>
+            <div className={activeLocale === 'ar' ? 'logo-container right-aligned-logo' : 'logo-container left-aligned-logo'}>
                  <LightEnglishLogo/>
+            </div>
+
+            <div className={activeLocale === 'ar' ? 'menu-container right-aligned-hero' : 'menu-container left-aligned-hero'}>
+                <div className="mil-menu-btn-hero">
+                    <span style={{backgroundColor:'#fff'}} />
                 </div>
-                <div className="pointer" style={{position:'absolute',top:'53px' , left : '60px', zIndex:5}}>
-                   <div
-              className="mil-menu-btn-hero " 
-             >
-               <span style={{backgroundColor:'#fff'}} />
-             </div>
-                   </div>
-                </>
-           :
-         <>
-           <div className="" style={{position:'absolute',top:'35px' , left : '60px', zIndex:10}}>
-                <LightEnglishLogo/>
-                </div>
-                   <div className="pointer" style={{position:'absolute',top:'53px' , right : '60px', zIndex:5}}>
-                   <div
-              className="mil-menu-btn-hero " 
-             >
-               <span style={{backgroundColor:'#fff'}} />
-             </div>
-                   </div></>
-          } 
+            </div>
                 <div className="mi-invert-fix">
                     {/* <div className="mil-animation-frame">
                         <div className="mil-animation mil-position-1 mil-scale" data-value-1="7" data-value-2="1.6">
@@ -59,7 +41,7 @@ const HeroOne = () => {
                         <div className="mil-banner-content mil-up">
                        
                            <div className="py-5">
-                           <h3 className=" mil-h2half  mil-muted " dangerouslySetInnerHTML={{__html : t("heroTitle")}} />
+                           <h3 className=" mil-h2half  mil-muted " dangerouslySetInnerHTML={{__html : t("heroTitle")}} style={{lineHeight:'1.5'}} />
                            </div>
                             <div className="row">
                                 <div className="col-md-7 col-lg-5">
@@ -95,7 +77,7 @@ const HeroOne = () => {
                                         </text>
                                     </g>
                                 </svg>
-                                <a href="#servcise" className="mil-button mil-arrow-place mil-icon-button mil-arrow-down" style={{padding:'5px', height:'50px'}}>
+                                <a href="#servcise" className="mil-button mil-arrow-place mil-icon-button mil-arrow-down" style={{padding:'5px', height:'50px'}} aria-label={"Link"}>
                                     <ArrowIcon />
                                 </a>
                             </div>

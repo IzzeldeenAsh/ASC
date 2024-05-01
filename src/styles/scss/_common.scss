@@ -25,15 +25,8 @@ body {
         font-size: $text - 1px;
     }
 }
-
   
-  /* RTL support for Arabic */
-.rtl-font{
-    font-family: "Rubik", sans-serif !important;
-}
-.ltr-font{
-    font-family: 'Outfit', "Readex Pro", sans-serif !important;
-}
+
 
 *::selection {
     color: inherit;
@@ -961,4 +954,9 @@ spaces
             margin-bottom: 0;
         }
     }
+}
+.title-yellow-head{
+    position: absolute;
+    width: 45px;
+    top: -12px;
 }

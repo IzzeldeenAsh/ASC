@@ -52,7 +52,7 @@ const TeamSection = () => {
                                                 <p className="mil-link mil-light-soft mil-mb-10">{item.role}</p>
                                                 <ul className="mil-social-icons mil-center">
                                                     {item.social.map((social, key2) => (
-                                                    <li key={`services1-item${key}-social-${key2}`}><a href={social.link} target="_blank" className="social-icon" title={social.title}> <i className={social.icon} /></a></li>
+                                                    <li key={`services1-item${key}-social-${key2}`}><a href={social.link} target="_blank" className="social-icon" title={social.title}> <i className={social.icon}  aria-label={"Link"} /></a></li>
                                                     ))}
                                                 </ul>
                                             </div>
@@ -81,7 +81,7 @@ const TeamSection = () => {
                                                 <p className="mil-link mil-light-soft mil-mb-10">{item.role}</p>
                                                 <ul className="mil-social-icons mil-center">
                                                     {item.social.map((social, key2) => (
-                                                    <li key={`services2-item${key}-social-${key2}`}><a href={social.link} target="_blank" className="social-icon" title={social.title}> <i className={social.icon} /></a></li>
+                                                    <li key={`services2-item${key}-social-${key2}`}><a href={social.link} target="_blank" className="social-icon" title={social.title} aria-label={"Link"}> <i className={social.icon} /></a></li>
                                                     ))}
                                                 </ul>
                                             </div>

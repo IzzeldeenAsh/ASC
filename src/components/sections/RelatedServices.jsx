@@ -14,7 +14,7 @@ const RelatedServicesSection = ( { services } ) => {
                         </div>
                         <div className="col-lg-6 mil-mb-30">
                             <div className="mil-adaptive-right mil-up">
-                                <a href={Data.button.link} className="mil-link mil-dark mil-arrow-place">
+                                <a href={Data.button.link} className="mil-link mil-dark mil-arrow-place" aria-label={"Link"}>
                                     <span>{Data.button.label}</span>
                                 </a>
                             </div>

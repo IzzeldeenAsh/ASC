@@ -31,7 +31,7 @@ const ProjectInner2 = ({ postData, prev, next }) => {
                         }
 
                         {typeof postData.demoLink != "undefined" &&
-                        <a data-no-swup href={postData.demoLink} target="_blank" className="mil-link mil-dark mil-up mil-arrow-place">
+                        <a data-no-swup href={postData.demoLink} target="_blank" className="mil-link mil-dark mil-up mil-arrow-place" aria-label={"Link"}>
                             <span>Visit website</span>
                         </a>
                         }
@@ -46,7 +46,7 @@ const ProjectInner2 = ({ postData, prev, next }) => {
                         {postData.gallery.items.map((item, key) => (
                         <div className="mil-image-frame mil-horizontal mil-up mil-mb-30" key={`gallery-item-${key}`}>
                             <img src={item.image} alt={item.alt} />
-                            <a data-fancybox="gallery" data-no-swup href={item.image} className="mil-zoom-btn">
+                            <a data-fancybox="gallery" data-no-swup href={item.image} className="mil-zoom-btn" aria-label={"Link"}>
                                 <img src="/img/icons/zoom.svg" alt="zoom" />
                             </a>
                         </div>
