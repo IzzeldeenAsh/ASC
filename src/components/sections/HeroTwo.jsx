@@ -51,7 +51,7 @@ const HeroTwo = () => {
                                 <div className="mil-social-frame mx-2" >
                                     <ul className="mil-social-icons mil-dark">
                                         {Data.bottom.social.map((social, key2) => (
-                                        <li style={ activeLocale === 'ar' ? { marginRight: '15px' } :{ marginLeft: '15px' }} key={`hero2-social-${key2}`}><a href={social.link} target="_blank" className="social-icon" title={social.title}> <i className={social.icon} /></a></li>
+                                        <li style={ activeLocale === 'ar' ? { marginRight: '15px' } :{ marginLeft: '15px' }} key={`hero2-social-${key2}`}><a href={social.link} target="_blank" className="social-icon" title={social.title} aria-label={"Link"}> <i className={social.icon} /></a></li>
                                         ))}
                                     </ul>
                                 </div>

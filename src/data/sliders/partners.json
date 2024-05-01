@@ -2,19 +2,23 @@
     "items": [
         {
             "image": "/img/partners/1.svg",
-            "alt": "logo"
+            "alt": "logo",
+            "link": "https://alokab.co/ar/"
         },
         {
             "image": "/img/partners/2.svg",
-            "alt": "logo"
+            "alt": "logo",
+            "link": "https://alokab.co/ar/"
         },
         {
             "image": "/img/partners/1.svg",
-            "alt": "logo"
+            "alt": "logo",
+            "link": "https://alokab.co/ar/"
         },
         {
             "image": "/img/partners/2.svg",
-            "alt": "logo"
+            "alt": "logo",
+            "link": "https://alokab.co/ar/"
         }
     ]
 }

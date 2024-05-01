@@ -40,10 +40,10 @@ const DefaultFooter = ( { extraClass } ) => {
                             </div>
                             <div className="col-md-6 col-lg-5">
                                 <ul className="mil-menu-list mil-up mil-mb-60">
-                                    <li><a href="#." className="mil-light-soft">Privacy Policy</a></li>
-                                    <li><a href="#." className="mil-light-soft">Terms and conditions</a></li>
-                                    <li><a href="#." className="mil-light-soft">Cookie Policy</a></li>
-                                    <li><a href="#." className="mil-light-soft">Careers</a></li>
+                                    <li><a href="#." className="mil-light-soft" aria-label={"Link"}>Privacy Policy</a></li>
+                                    <li><a href="#." className="mil-light-soft" aria-label={"Link"}>Terms and conditions</a></li>
+                                    <li><a href="#." className="mil-light-soft" aria-label={"Link"}>Cookie Policy</a></li>
+                                    <li><a href="#." className="mil-light-soft" aria-label={"Link"}>Careers</a></li>
                                 </ul>
                             </div>
                         </div>

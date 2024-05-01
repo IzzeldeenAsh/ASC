@@ -291,6 +291,33 @@ frame
 menu button hero
 
 ------------------------------------------- */
+.logo-container {
+    position: absolute;
+    top: 35px; 
+    z-index : 10;
+  }
+  
+  .menu-container {
+    position: absolute;
+    z-index: 5;
+    top: 55px;
+  }
+
+  .left-aligned-logo {
+    left: 60px;
+  }
+  .right-aligned-logo {
+    right: 60px;
+  }
+    
+    
+  .left-aligned-hero{
+    right: 60px;
+  }
+  
+  .right-aligned-hero {
+    left: 60px;
+  }
 .mil-menu-btn-hero {
     pointer-events: all;
     height: 28px;
@@ -351,7 +378,11 @@ menu button hero
         }
     }
 }
-
+.pointer {
+    position: absolute;
+    top: 35px;
+    z-index: 5;
+}
 /* -------------------------------------------
 
 menu button

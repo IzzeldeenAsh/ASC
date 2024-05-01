@@ -8,217 +8,49 @@ const TeamData = [
         "image": "/img/faces/1.jpg",
         "name": "Anna Oldman",
         "role": "Art Director",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
+        
     },
     {
         "image": "/img/faces/3.jpg",
         "name": "Oscar Freeman",
         "role": "Frontend Dev",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
+       
     },
     {
         "image": "/img/faces/2.jpg",
         "name": "Emma Newman",
         "role": "Founder",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
+        
     },
     {
         "image": "/img/faces/4.jpg",
         "name": "Lisa Trueman",
         "role": "UI/UX Designer",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
+       
     },
     {
         "image": "/img/faces/5.jpg",
         "name": "Tom Oldman",
         "role": "Art Director",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
+       
     },
     {
         "image": "/img/faces/6.jpg",
         "name": "Corey Trueman",
         "role": "Technical Director",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
+       
     },
     {
         "image": "/img/faces/7.jpg",
         "name": "Justin Newman",
         "role": "Copywriter",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
+       
     },
     {
         "image": "/img/faces/8.jpg",
         "name": "Spunkie",
         "role": "Paw giver",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
+       
     }
 ]
 
@@ -240,11 +72,7 @@ const Team = () => {
                                 <div className="mil-secrc-text">
                                     <h5 className="mil-muted mil-mb-5">{item.name}</h5>
                                     <p className="mil-link mil-light-soft mil-mb-10">{item.role}</p>
-                                    <ul className="mil-social-icons mil-center">
-                                        {item.social.map((social_item, social_key) => (
-                                        <li key={`team-item-${key}-${social_key}`}><a href={social_item.link} target="_blank" className="social-icon"><i className={social_item.icon}></i></a></li>
-                                        ))}
-                                    </ul>
+                                   
                                 </div>
                             </div>
                         </div>

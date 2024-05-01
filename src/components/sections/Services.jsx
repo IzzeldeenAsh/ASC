@@ -3,6 +3,7 @@ import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
 import { useLocale } from "@/utils/getLocale";
+import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 const ServicesSection = () => {
     const {activeLocale , t} = useLocale();
   return (
@@ -29,7 +30,14 @@ const ServicesSection = () => {
 
                         <div className="mil-complex-text  justify-content-center mil-up mil-mb-15" style={activeLocale ==='ar' ? {flexDirection:'row','gap':'10px'} :{flexDirection:'column','gap':'10px'} }>
                          
-                            <h2  className="mil-h2half  mil-center" dangerouslySetInnerHTML={{__html : t("servicesTitle1")}} />
+                           <span style={{position:'relative'}}>
+                            <div className="title-yellow-head"
+                            style={activeLocale ==='ar' ? {right : '-40px', transform:'rotateY(180deg)'} : {left:'-40px'}}
+                            >
+                            <TitleHead/>
+                            </div>
+                           <h2  className="mil-h2half  mil-center" dangerouslySetInnerHTML={{__html : t("servicesTitle1")}} />
+                           </span>
                           
                             <h2 className="mil-h2half mil-center" dangerouslySetInnerHTML={{__html :  t("servicesTitle2")}} />
                         </div>

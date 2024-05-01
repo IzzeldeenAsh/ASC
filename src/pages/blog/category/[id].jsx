@@ -40,7 +40,7 @@ const PostsDetail = ( props ) => {
                   {posts.map((item, key) => (              
                   <div className="col-lg-12" key={`posts-item-${key}`}>
 
-                      <a href={`/blog/${item.id}`} className="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
+                      <a href={`/blog/${item.id}`} className="mil-blog-card mil-blog-card-hori mil-more mil-mb-60" aria-label={"Link"}>
                           <div className="mil-cover-frame mil-up">
                               <img src={item.image} alt={item.title} />
                           </div>
