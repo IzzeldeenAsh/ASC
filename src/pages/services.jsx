@@ -14,12 +14,14 @@ const Services = (props) => {
   const {activeLocale , t} = useLocale();
   return (
     <Layouts>
+      
       {/* banner */}
       <div className="mil-dark-bg">
-          <PageBannerDark pageTitle={"This is <span className=\"mil-thin\">what</span><br> we do <span className=\"mil-thin\">best</span>"} breadTitle={"Services"} anchorLabel={"Our services"} anchorLink={"#services"} />
+      <h1 className="text-center">NOT AVAILABLE</h1>
+          {/* <PageBannerDark pageTitle={"This is <span className=\"mil-thin\">what</span><br> we do <span className=\"mil-thin\">best</span>"} breadTitle={"Services"} anchorLabel={"Our services"} anchorLink={"#services"} /> */}
 
           {/* services */}
-          <section id="services">
+          {/* <section id="services">
               <div className="mi-invert-fix">
                   <div className="container mil-p-120-60">
                       <div className="row">
@@ -56,11 +58,11 @@ const Services = (props) => {
                       </div>
                   </div>
               </div>
-          </section>
+          </section> */}
       </div>
       {/* services end */}
 
-      <CallToActionSection />
+      {/* <CallToActionSection /> */}
       
     </Layouts>
   );

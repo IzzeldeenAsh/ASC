@@ -191,16 +191,7 @@
               }
             },
             "list": {
-              "items": [{
-                "label": {
-                "english": "",
-                "arabic": ""
-                },
-                "value": {
-                "english": "",
-                "arabic": "   "
-                }
-                }]
+              "items": []
             }
           }
       ]
