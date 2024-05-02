@@ -17,13 +17,13 @@
               "arabic": "وكالتنا الإبداعية هي فريق من المحترفين متخصصين في مساعدة علامتك التجارية على النمو."
             },
             "introTitle": {
-              "english": "Smart Cities and Mobility",
-              "arabic": "المدن الذكية والتنقل<"
+              "english": "Smart Cities<br> and <span class=\"mil-thin\">Mobility</span>",
+              "arabic": "المدن الذكية<br> و<span class=\"mil-thin\">التنقل</span>"
             },
             "description": {
               "title": {
-                "english": "key  <span class=\"mil-thin\">technologies and </span> <br> smart<span class=\"mil-thin\">  solutions </span>",
-                "arabic": "التقنيات الرئيسية و<span class=\"mil-thin\"> الحلول </span>  الذكية"
+                "english": "key  technologies and  smart solutions ",
+                "arabic": "التقنيات الرئيسية و الحلول   الذكية"
               },
               "content": {
                 "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer, we guide our clients in navigating the complexity of this ecosystem.",
@@ -84,7 +84,7 @@
             },
             "description": {
               "title": {
-                "english": "Adopting <span class=\"mil-thin\"> the right</span> <br> digital <span class=\"mil-thin\">technologies</span> ",
+                "english": "Adopting  the right digital technologies",
                 "arabic": "اعتماد التقنيات  <br>الرقمية الصحيحة"
               },
               "content": {

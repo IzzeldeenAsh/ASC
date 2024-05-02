@@ -46,9 +46,9 @@ span>{postD                              <ata.description.button.label}</span>
 
                   </div>
                   <div className="col-lg-6">
-                  {postData.list != undefined && postData.list.items[0].label.english!=='' &&
-                  <>
-                      {postData.list.items.map((item, key) => (
+    {postData.list && postData.list.items && postData.list.items[0].label.english !== '' &&
+        <>
+            {postData.list.items.map((item, key) => (
                 <div className="mil-accordion-group mil-up" key={`service-list-${key}`}>
                     <div className="mil-accordion-menu">
                         <p className="mil-accordion-head">{activeLocale === 'ar' ? item.label.arabic : item.label.english}</p>
@@ -57,14 +57,14 @@ span>{postD                              <ata.description.button.label}</span>
                             <div className="mil-minus">-</div>
                         </div>
                     </div>
-                    <div className="mil-accordion-content mil-text"  >
-                      {activeLocale === 'ar' ? item.value.arabic : item.value.english}
+                    <div className="mil-accordion-content mil-text">
+                        {activeLocale === 'ar' ? item.value.arabic : item.value.english}
                     </div>
                 </div>
-                      ))}
-                  </>
-                  }
-                  </div>
+            ))}
+        </>
+    }
+</div>
               </div>
           </div>
       </section>
