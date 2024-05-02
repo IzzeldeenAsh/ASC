@@ -31,13 +31,9 @@ const ServiceDetail = () => {
           <div className="container mil-p-120-90">
               <div className="row justify-content-between">
               <div className={ `${postData.list.items.length > 0 ? "col-lg-4" :""} mil-relative mil-mb-90`}>
+              <h4 className="mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? postData.description.title.arabic : postData.description.title.english}} />
+              <p className="mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale==='ar' ? postData.description.content.arabic : postData.description.content.english}} />
 
-                      <h4 className="mil-up mil-mb-30"  >
-                        {activeLocale ==='ar' ? postData.description.title.arabic : postData.description.title.english}
-                      </h4>
-                      <p className="mil-up mil-mb-30"  >
-                      {activeLocale==='ar' ? postData.description.content.arabic : postData.description.content.english}
-                      </p>
                       {/* <div className="mil-up">
                           <Link href={postData.description.button.link} className="mil-link mil-dark mil-arrow-place">
 span>{postD                              <ata.description.button.label}</span>
@@ -58,10 +54,8 @@ span>{postD                              <ata.description.button.label}</span>
                             <div className="mil-minus">-</div>
                         </div>
                     </div>
-                    <div className="mil-accordion-content mil-text">
-                        {activeLocale === 'ar' ? item.value.arabic : item.value.english}
-                    </div>
-                </div>
+                    <div className="mil-accordion-content mil-text" dangerouslySetInnerHTML={{__html : activeLocale === 'ar' ? item.value.arabic : item.value.english}} />
+                                    </div>
             ))}
         </>
     }
