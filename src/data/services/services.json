@@ -17,8 +17,8 @@
               "arabic": "وكالتنا الإبداعية هي فريق من المحترفين متخصصين في مساعدة علامتك التجارية على النمو."
             },
             "introTitle": {
-              "english": "Smart Cities<br> and <span class=\"mil-thin\">Mobility</span>",
-              "arabic": "المدن الذكية<br> و<span class=\"mil-thin\">التنقل</span>"
+              "english": "Smart Cities and Mobility",
+              "arabic": "المدن الذكية والتنقل<"
             },
             "description": {
               "title": {
@@ -191,7 +191,16 @@
               }
             },
             "list": {
-              "items": []
+              "items": [{
+                "label": {
+                "english": "",
+                "arabic": ""
+                },
+                "value": {
+                "english": "",
+                "arabic": "   "
+                }
+                }]
             }
           }
       ]
