@@ -30,7 +30,7 @@ const ServiceDetail = () => {
       <section id="service">
           <div className="container mil-p-120-90">
               <div className="row justify-content-between">
-              <div className={ `${postData.list.items[0].label.english!=='' ? "col-lg-4" :""} mil-relative mil-mb-90`}>
+              <div className="mil-relative mil-mb-90">
 
                       <h4 className="mil-up mil-mb-30"  >
                         {activeLocale ==='ar' ? postData.description.title.arabic : postData.description.title.english}
@@ -45,7 +45,7 @@ span>{postD                              <ata.description.button.label}</span>
                       </div> */}
 
                   </div>
-
+              
               </div>
           </div>
       </section>
