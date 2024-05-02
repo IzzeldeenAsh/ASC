@@ -32,7 +32,7 @@ const ServiceDetail = ( { data, related } ) => {
       <section id="service">
           <div className="container mil-p-120-90">
               <div className="row justify-content-between">
-              <div className={ `${postData.list && postData.list.items.length > 0 ? "col-lg-4" :""} mil-relative mil-mb-90`}>
+              <div className={ `${postData.list && postData.list.items && postData.list.items.length > 0 ? "col-lg-4" :""} mil-relative mil-mb-90`}>
 
                       <h4 className="mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? postData.description.title.arabic : postData.description.title.english}} />
                       <p className="mil-up mil-mb-30" dangerouslySetInnerHTML={{__html :activeLocale==='ar' ? postData.description.content.arabic : postData.description.content.english}} />
