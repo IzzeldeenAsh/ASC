@@ -2,14 +2,14 @@ import Head from 'next/head';
 import Link from "next/link";
 import { useRouter } from 'next/router';
 import AppData from "@data/app.json";
-
+import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
-
+import { useLocale } from "@/utils/getLocale";
 const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddingBottom, align, headingSize = 1 }) => {
   const { asPath } = useRouter();
   let clearBreadTitle;
-
+  const {activeLocale , t} = useLocale();
   if ( breadTitle != undefined ) {
     clearBreadTitle = breadTitle;
   } else {
@@ -52,10 +52,26 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
               <li><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>
             </ul>
             {headingSize == 1 &&
-            <h1 className="mil-mb-60" dangerouslySetInnerHTML={{__html : pageTitle}} />
+             <div style={{position:'relative'}}>
+             <div className="title-yellow-head"
+             style={activeLocale ==='ar' ? {right : '-40px', transform:'rotateY(180deg)'} : {left:'-40px'}}
+             >
+             <TitleHead/>
+             </div>
+             <h1 className="mil-mb-60" dangerouslySetInnerHTML={{__html : pageTitle}} />
+            </div>
+           
             }
             {headingSize == 2 &&
+            <div style={{position:'relative'}}>
+            <div className="title-yellow-head"
+            style={activeLocale ==='ar' ? {right : '-40px', transform:'rotateY(180deg)'} : {left:'-40px'}}
+            >
+            <TitleHead/>
+            </div>
             <h2 className={anchorLink != 0 ? "mil-mb-60" : ""} dangerouslySetInnerHTML={{__html : pageTitle}} />
+           </div>
+          
             }
             {anchorLink != 0 &&
             <a href={anchorLink} className="mil-link mil-dark mil-arrow-place mil-down-arrow" aria-label={"Link"}>
