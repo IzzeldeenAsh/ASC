@@ -1,7 +1,7 @@
 import PageBannerDark from "@components/PageBannerDark";
 import Layouts from "@layouts/Layouts";
 
-// import { getSortedServicesData } from "@library/services";
+import { getSortedServicesData } from "@library/services";
 
 import CallToActionSection from "@components/sections/CallToAction";
 
