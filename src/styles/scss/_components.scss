@@ -2818,7 +2818,7 @@ Button Language switch
     display: flex;
     gap: 20px;
     position: absolute; 
-    zIndex: 10; 
+    z-index: 10; 
     top: 54px;
     color: #cfcfcf;
 }

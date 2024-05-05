@@ -9,4 +9,5 @@ module.exports = {
     },
     ns: ['common'],
     serializeConfig:false,
+    
   } 

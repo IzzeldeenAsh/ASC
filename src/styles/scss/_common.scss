@@ -965,3 +965,50 @@ spaces
     font-size: 20px;
     line-height: 1.5;
 }
+.service-image{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    overflow: hidden; 
+    position: relative;
+}
+.service-image img{
+    width: 100%;
+    height: 0%;
+    object-fit: cover;
+    transition: transform .7s ease-in-out;
+    transform: translateY(-100%); /* Initially, move the image above the container */
+    // padding: 0 10px;
+}
+.banner-title-and-image-container{
+    display: flex;
+}
+
+
+.service-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: 2;
+    background-color: #f5d74c; 
+    transform: translateY(-100%);
+    transition: transform .7s ease-in-out;
+}
+
+.service-image.reveal::before { 
+    transform: translateY(97%);
+
+}
+
+.service-image.reveal img {
+    transform: translateY(0); /* Show the image */
+}
+
+@media (max-width:764px) {
+    .banner-title-and-image-container{
+     flex-direction: column;
+    }
+}

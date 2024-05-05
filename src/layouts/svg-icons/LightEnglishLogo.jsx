@@ -4,7 +4,7 @@ import Link from "next/link"
 const LightEnglishLogo = ({url}) => {
   return (
     <Link href="/" >
-       <Image src={url} priority  alt="Eng-logo"  width={55} 
+       <Image src={url} priority={true}  alt="Eng-logo"  width={55} 
           height={40}  /> 
     </Link>
   )

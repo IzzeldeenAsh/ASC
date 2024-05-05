@@ -6,6 +6,6 @@ module.exports = {
   // Add the i18n configuration to Next.js
   i18n,
   images: {
-    domains: ['res.cloudinary.com'],
+    domains: ['res.cloudinary.com','asset.cloudinary.com'],
   },
 };
