@@ -13,6 +13,16 @@ const ServiceDetail = () => {
     const router = useRouter();
     const {id} = router.query;
     const service = servicesData.services.find(service => service.id === id);
+    const logoStyleEn = {
+      position:"absolute",
+      top:'45px',
+      left:'64px'
+    }
+    const logoStyleAr = {
+      position:"absolute",
+      top:'45px',
+      right:'64px'
+    }
     useEffect(() => {
             Accordion();
       }, []);
@@ -25,7 +35,7 @@ const ServiceDetail = () => {
     const postData =  service
   return (
     <Layouts>
-        <div style={{position:"absolute",top:'45px',left:'64px'}}>
+        <div style={activeLocale === 'ar' ? logoStyleAr : logoStyleEn}>
         <LightEnglishLogo url={imageURL}/>
         </div>
       <PageBanner pageTitle={activeLocale === 'ar' ?  postData.introTitle.arabic : postData.introTitle.english} breadTitle={activeLocale === 'ar' ?postData.title.arabic : postData.title.english}  anchorLink={"#service"} />
@@ -34,9 +44,9 @@ const ServiceDetail = () => {
       <section id="service">
           <div className="container mil-p-120-90">
               <div className="row justify-content-between">
-              <div className={ `${postData.list.items.length > 0 ? "col-lg-4" :""} mil-relative mil-mb-90`}>
-              <h4 className="mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? postData.description.title.arabic : postData.description.title.english}} />
-              <p className="mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale==='ar' ? postData.description.content.arabic : postData.description.content.english}} />
+              <div className={ `${postData.list.items.length > 0 ? "col-lg-5" :""} mil-relative mil-mb-90`}>
+              <h3 className="mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? postData.description.title.arabic : postData.description.title.english}} />
+              <p className="mil-up mil-mb-30 mil-text-gray-800" dangerouslySetInnerHTML={{__html : activeLocale==='ar' ? postData.description.content.arabic : postData.description.content.english}} />
 
                       {/* <div className="mil-up">
                           <Link href={postData.description.button.link} className="mil-link mil-dark mil-arrow-place">
