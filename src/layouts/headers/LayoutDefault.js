@@ -6,8 +6,7 @@ import { useRouter } from "next/router";
 import BackToTop from "../back-to-top/Index";
 import Pentagon from "@layouts/pentagon/Index";
 import LanguageSwitch from "../../components/LanguageSwitch";
-import { LinesIcon } from '@layouts/svg-icons/Lines';
-import LightEnglishLogo from "../svg-icons/LightEnglishLogo";
+import Image from "next/image";
 const DefaultHeader = ({ extraClass }) => {
   const [toggle, setToggle] = useState(false);
 
@@ -53,7 +52,7 @@ const DefaultHeader = ({ extraClass }) => {
     <>
       <div>
           <LanguageSwitch/>
-            </div>
+      </div>
       {/* menu */}
 
       <div className={`mil-menu-frame ${toggle ? "mil-active" : ""}`}>
@@ -61,9 +60,10 @@ const DefaultHeader = ({ extraClass }) => {
         {/* frame clone */}
         <div className="mil-frame-top">
       
-          <Link href={AppData.header.logo.link} className="mil-logo">
-            {/* {AppData.header.logo.symbol} */}
-            <LightEnglishLogo/>
+          <Link style={{opacity:'0'}} href={AppData.header.logo.link} className="mil-logo">
+          {AppData.header.logo.symbol}
+          {/* <Image src="https://res.cloudinary.com/dsiku9ipv/image/upload/v1714889771/logo_A_B-01-svg_2_wksfyd.png" priority  alt="Eng-logo"  width={55} 
+          height={40}  />  */}
           </Link>
         
           <div
@@ -254,9 +254,9 @@ const DefaultHeader = ({ extraClass }) => {
       <div className="mil-frame">
         <div className="mil-frame-top">
             
-          <Link href={AppData.header.logo.link} className="mil-logo">
-            {/* {AppData.header.logo.symbol}  */}
-            <LightEnglishLogo/>
+          <Link style={{opacity:'0'}} href={AppData.header.logo.link} className="mil-logo">
+            {AppData.header.logo.symbol}
+            {/* <LightEnglishLogo/> */}
           </Link>
         
           <div style={{'display':'flex', 'gap' :'20px'}}>
@@ -280,6 +280,7 @@ const DefaultHeader = ({ extraClass }) => {
       </div>
       {/* frame end */}
     </>
+   
   );
 };
 export default DefaultHeader;

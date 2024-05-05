@@ -6,7 +6,9 @@ import { Accordion } from "../../common/utilits";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useRouter } from "next/router"; 
 import servicesData from "@data/dummy/services.json"
+import LightEnglishLogo from"@layouts/svg-icons/LightEnglishLogo"
 const ServiceDetail = () => {
+  const imageURL = "https://res.cloudinary.com/dsiku9ipv/image/upload/fl_preserve_transparency/v1714892946/logo_A_B-01_zrmhva.jpg"
     const {activeLocale,t} = useLocale();
     const router = useRouter();
     const {id} = router.query;
@@ -23,7 +25,9 @@ const ServiceDetail = () => {
     const postData =  service
   return (
     <Layouts>
-       
+        <div style={{position:"absolute",top:'45px',left:'64px'}}>
+        <LightEnglishLogo url={imageURL}/>
+        </div>
       <PageBanner pageTitle={activeLocale === 'ar' ?  postData.introTitle.arabic : postData.introTitle.english} breadTitle={activeLocale === 'ar' ?postData.title.arabic : postData.title.english}  anchorLink={"#service"} />
 
       {/* service */}

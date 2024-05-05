@@ -8,36 +8,17 @@ import LightEnglishLogo from"@layouts/svg-icons/LightEnglishLogo"
 const HeroOne = () => {
     const [toggle, setToggle] = useState(false);
     const {activeLocale , t} = useLocale();
+    const imageURL = "https://res.cloudinary.com/dsiku9ipv/image/upload/v1714471419/eng-light-okab-logo_1_1_xxoju9.png"
     return ( 
         <>
+           <div style={{position:"absolute",top:'45px',left:'64px',zIndex:'100'}}>
+        <LightEnglishLogo url={imageURL}/>
+        </div>
             {/* banner */}
-            <section className="mil-banner mil-dark-bg-hero ">
-            <div className={activeLocale === 'ar' ? 'logo-container right-aligned-logo' : 'logo-container left-aligned-logo'}>
-                 <LightEnglishLogo/>
-            </div>
-
-            <div className={activeLocale === 'ar' ? 'menu-container right-aligned-hero' : 'menu-container left-aligned-hero'}>
-                <div className="mil-menu-btn-hero">
-                    <span style={{backgroundColor:'#fff'}} />
-                </div>
-            </div>
+            <section className="mil-banner mil-dark-bg " style={{backgroundColor:"#f5e4cf"}}>
                 <div className="mi-invert-fix">
-                    {/* <div className="mil-animation-frame">
-                        <div className="mil-animation mil-position-1 mil-scale" data-value-1="7" data-value-2="1.6">
-                            <Pentagon />
-                        </div>
-                        <div className="mil-animation mil-position-2 mil-scale" data-value-1="4" data-value-2="1">
-                            <Pentagon />
-                        </div>
-                        <div className="mil-animation mil-position-3 mil-scale" data-value-1="1.2" data-value-2=".1">
-                            <Pentagon />
-                        </div>
-                    </div> */}
-
                     <div className="mil-gradient" />
-
                     <div className="container"> 
-                   
                         <div className="mil-banner-content mil-up">
                        
                            <div className="py-5">
@@ -63,24 +44,7 @@ const HeroOne = () => {
                                 </div>
                             </Link>
 
-                            <div className="mil-circle-text" style={ activeLocale === 'ar' ? {'left' : '0px'} : {'right' : '0px'}}>
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300" enableBackground="new 0 0 300 300" xmlSpace="preserve" className="mil-ct-svg mil-rotate" data-value="360">
-                                    <defs>
-                                        <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
-                                    </defs>
-                                    <circle cx="150" cy="100" r="75" fill="none" />
-                                    <g>
-                                        <use xlinkHref="#circlePath" fill="none" />
-                                        <text style={{"letterSpacing": "6.5px"}} textAnchor={activeLocale === 'ar' ? 'end' : 'start'}>
-                                          
-                                            {/* <textPath xlinkHref="#circlePath">Scroll down - Scroll down - </textPath> */}
-                                        </text>
-                                    </g>
-                                </svg>
-                                <a href="#servcise" className="mil-button mil-arrow-place mil-icon-button mil-arrow-down" style={{padding:'5px', height:'50px'}} aria-label={"Link"}>
-                                    <ArrowIcon />
-                                </a>
-                            </div>
+                         
 
                         </div>
                     </div>
@@ -88,6 +52,7 @@ const HeroOne = () => {
             </section>
             {/* banner end */}
         </>
+        
     );
 }
 export default HeroOne;
