@@ -58,7 +58,7 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
              >
              <TitleHead/>
              </div>
-             <h1 className="mil-mb-60" dangerouslySetInnerHTML={{__html : pageTitle}} />
+             <h2 className=" mil-mb-60" dangerouslySetInnerHTML={{__html : pageTitle}} />
             </div>
            
             }

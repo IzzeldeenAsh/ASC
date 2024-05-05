@@ -8,10 +8,22 @@ import LightEnglishLogo from"@layouts/svg-icons/LightEnglishLogo"
 const HeroOne = () => {
     const [toggle, setToggle] = useState(false);
     const {activeLocale , t} = useLocale();
+    const LogoStyleAr= {
+        position:"absolute",
+        top:'45px',
+        right:'64px',
+        zIndex:'100'
+    }
+    const LogoStyleEn= {
+        position:"absolute",
+        top:'45px',
+        left:'64px',
+        zIndex:'100'
+    }
     const imageURL = "https://res.cloudinary.com/dsiku9ipv/image/upload/v1714471419/eng-light-okab-logo_1_1_xxoju9.png"
     return ( 
         <>
-           <div style={{position:"absolute",top:'45px',left:'64px',zIndex:'100'}}>
+           <div style={activeLocale ==='ar' ? LogoStyleAr : LogoStyleEn}>
         <LightEnglishLogo url={imageURL}/>
         </div>
             {/* banner */}
