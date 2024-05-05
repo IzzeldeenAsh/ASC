@@ -38,7 +38,7 @@ const ServiceDetail = () => {
         <div style={activeLocale === 'ar' ? logoStyleAr : logoStyleEn}>
         <LightEnglishLogo url={imageURL}/>
         </div>
-      <PageBanner pageTitle={activeLocale === 'ar' ?  postData.introTitle.arabic : postData.introTitle.english} breadTitle={activeLocale === 'ar' ?postData.title.arabic : postData.title.english}  anchorLink={"#service"} />
+      <PageBanner pageTitle={activeLocale === 'ar' ?  postData.introTitle.arabic : postData.introTitle.english} breadTitle={activeLocale === 'ar' ?postData.title.arabic : postData.title.english}  anchorLink={"#service"} imgUrl={postData.imgURL} />
 
       {/* service */}
       <section id="service">
@@ -116,3 +116,4 @@ export async function getServerSideProps({ locale }) {
 //       }
 //     }
 // }
+
