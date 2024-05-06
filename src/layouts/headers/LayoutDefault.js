@@ -60,7 +60,7 @@ const DefaultHeader = ({ extraClass }) => {
         {/* frame clone */}
         <div className="mil-frame-top">
       
-          <Link style={{opacity:'0'}} href={AppData.header.logo.link} className="mil-logo">
+          <Link style={{opacity:0}} href={AppData.header.logo.link} className="mil-logo">
           {AppData.header.logo.symbol}
           {/* <Image src="https://res.cloudinary.com/dsiku9ipv/image/upload/v1714889771/logo_A_B-01-svg_2_wksfyd.png" priority  alt="Eng-logo"  width={55} 
           height={40}  />  */}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layouts from "@layouts/Layouts";
 import dynamic from "next/dynamic";
 import HeroOneSection from "@components/sections/HeroOne"
@@ -10,8 +10,8 @@ const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import nextI18NextConfig from '../../next-i18next.config';
-
 const Home1 = (props) => {
+  
   return (
     <Layouts >
       <NextSeo

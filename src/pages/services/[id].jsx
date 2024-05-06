@@ -3,12 +3,12 @@ import PageBanner from "@/src/components/PageBanner";
 import { useEffect } from "react";
 import { useLocale } from "@/utils/getLocale";
 import { Accordion } from "../../common/utilits";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+// import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useRouter } from "next/router"; 
 import servicesData from "@data/dummy/services.json"
 import LightEnglishLogo from"@layouts/svg-icons/LightEnglishLogo"
 const ServiceDetail = () => {
-  const imageURL = "https://res.cloudinary.com/dsiku9ipv/image/upload/fl_preserve_transparency/v1714892946/logo_A_B-01_zrmhva.jpg"
+  const LogoURL = "https://res.cloudinary.com/dsiku9ipv/image/upload/fl_preserve_transparency/v1714892946/logo_A_B-01_zrmhva.jpg"
     const {activeLocale,t} = useLocale();
     const router = useRouter();
     const {id} = router.query;
@@ -36,7 +36,7 @@ const ServiceDetail = () => {
   return (
     <Layouts>
         <div style={activeLocale === 'ar' ? logoStyleAr : logoStyleEn}>
-        <LightEnglishLogo url={imageURL}/>
+        <LightEnglishLogo url={LogoURL}/>
         </div>
       <PageBanner pageTitle={activeLocale === 'ar' ?  postData.introTitle.arabic : postData.introTitle.english} breadTitle={activeLocale === 'ar' ?postData.title.arabic : postData.title.english}  anchorLink={"#service"} imgUrl={postData.imgURL} />
 
@@ -47,7 +47,17 @@ const ServiceDetail = () => {
               <div className={ `${postData.list.items.length > 0 ? "col-lg-5" :""} mil-relative mil-mb-90`}>
               <h3 className="mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? postData.description.title.arabic : postData.description.title.english}} />
               <p className="mil-up mil-mb-30 mil-text-gray-800" dangerouslySetInnerHTML={{__html : activeLocale==='ar' ? postData.description.content.arabic : postData.description.content.english}} />
-
+              {/* {postData.list.highlights.map((highlight,key)=>(
+                  <div className="highlight-title"></div>
+                  <>
+                  <p></p>
+                ))} */}
+                {postData.list.highlights.map((item, key) => (
+                <div key={`service-list-${key}`}>
+                     <div className=" mil-up highlight-title mil-text-highlight"  dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? item.title.arabic : item.title.english}}></div>
+                    <p  className="mil-up mil-mb-30 mil-text-gray-800" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? item.content.arabic : item.content.english}}></p>
+                </div>
+            ))}
                       {/* <div className="mil-up">
                           <Link href={postData.description.button.link} className="mil-link mil-dark mil-arrow-place">
 span>{postD                              <ata.description.button.label}</span>
@@ -88,13 +98,13 @@ span>{postD                              <ata.description.button.label}</span>
 };
 export default ServiceDetail;
 
-export async function getServerSideProps({ locale }) {
-    return {
-      props: {
-        ...(await serverSideTranslations(locale, ['common'])),
-      },
-    };
-  }
+// export async function getServerSideProps({ locale }) {
+//     return {
+//       props: {
+//         ...(await serverSideTranslations(locale, ['common'])),
+//       },
+//     };
+//   }
 
 
 // export async function getStaticPaths() {
