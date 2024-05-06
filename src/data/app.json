@@ -1,6 +1,6 @@
 {
     "settings": {
-        "siteName": "Ashley",
+        "siteName": "Alokab",
         "formspreeURL": "https://formspree.io/f/your_api_key",
         "mailchimp": {
             "url": "",
@@ -9,7 +9,7 @@
     },
     "header": {
         "logo": { 
-            "symbol": "A&B",
+            "symbol": "",
             "link": "/"
         },
         "menu": [
