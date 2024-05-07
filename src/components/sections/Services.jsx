@@ -4,6 +4,7 @@ import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
 import { useLocale } from "@/utils/getLocale";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
+import Quotaions from "@layouts/svg-icons/Quotaions"
 const ServicesSection = () => {
     const {activeLocale , t} = useLocale();
   return (
@@ -54,7 +55,11 @@ const ServicesSection = () => {
                                 </div>
                             <Link href={item.link} className="mil-service-card-sm mil-up">
                                 <h5 className=" mil-mb-30" dangerouslySetInnerHTML={{__html : t(item.title)}} />
-                                <p className="mil-light-soft mil-mb-30">{item.text}</p>
+                               <div>
+                                <Quotaions side={'right'} align={'right'} className="quotations"/>
+                               <p className="mil-mb-30">{item.text}</p>
+                               {/* <Quotaions side={'left'}  align={'right'}/> */}
+                               </div>
                                 <div className="mil-button mil-icon-button-sm mil-arrow-place">
                                 <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' , 'paddingTop' : '5px'} : {'transform' : 'rotate(0deg)' , 'paddingTop' : '5px'}} >
                                 <ArrowIcon />
