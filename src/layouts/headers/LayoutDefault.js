@@ -102,10 +102,11 @@ const DefaultHeader = ({ extraClass }) => {
                               <li
                                 key={`header-submenu${key}-item-${key2}`}
                                 className={
+                                  
                                   (asPath.indexOf(subitem.link) != -1 &&
                                     subitem.link != "/") ||
                                   asPath == subitem.link
-                                    ? "mil-active"
+                                    ? "mil-active "
                                     : ""
                                 }
                               >

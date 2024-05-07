@@ -16,36 +16,47 @@
             {
                 "label": "Homepage",
                 "link": "/",
-                "children": [
-                    {
-                        "label": "Landing Page",
-                        "link": "/"
-                    },
-                    {
-                        "label": "Personal",
-                        "link": "/home-2"
-                    },
-                    {
-                        "label": "Home Slider",
-                        "link": "/projects-3"
-                    }
-                ]
+                "children": []
             },
             {
-                "label": "Portfolio",
+                "label": "Sectors",
                 "link": "/projects",
                 "children": [
                     {
-                        "label": "Grid Type 1",
+                        "label": "Manufacturing",
                         "link": "/projects"
                     },
                     {
-                        "label": "Grid Type 2",
+                        "label": "Energy",
                         "link": "/projects-2"
                     },
                     {
-                        "label": "Slider",
+                        "label": "Transportation",
                         "link": "/projects-3"
+                    },
+                    {
+                        "label": "Agriculture",
+                        "link": "/projects-4"
+                    },
+                    {
+                        "label": "Construction",
+                        "link": "/projects-5"
+                    },
+                    {
+                        "label": "Healthcare",
+                        "link": "/projects-6"
+                    },
+                    {
+                        "label": "Information Technology",
+                        "link": "/projects-7"
+                    },
+                    {
+                        "label": "Finance",
+                        "link": "/projects-8"
+                    },
+                    {
+                        "label": "Retail",
+                        "link": "/projects-9"
                     }
                 ]
             },
@@ -53,28 +64,14 @@
                 "label": "Services",
                 "link": "/services",
                 "children": [
-                    {
-                        "label": "Services List",
-                        "link": "/services"
-                    },
-                    {
-                        "label": "Single Service",
-                        "link": "/services/service-1"
-                    }
+                  
                 ]
             },
             {
-                "label": "Blog",
+                "label": "About",
                 "link": "/blog",
                 "children": [
-                    {
-                        "label": "Blog list",
-                        "link": "/blog"
-                    },
-                    {
-                        "label": "Publication",
-                        "link": "/blog/play-to-your-strength-and-supercharge-your-business-4"
-                    }
+                  
                 ]
             },
             {
