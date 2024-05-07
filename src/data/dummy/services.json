@@ -9,8 +9,8 @@
               "arabic": "المدن الذكية والتنقل"
             },
             "preview_title": {
-              "english": "Branding and <br>Identity Design",
-              "arabic": "العلامة التجارية وتصميم <br>الهوية"
+              "english": "Smart Cities<br> and Mobility",
+              "arabic":"المدن الذكية"
             },
             "short": {
               "english": "Our creative agency is a team of professionals focused on helping your brand grow.",
@@ -74,11 +74,11 @@
               "arabic": "التحول الرقمي"
             },
             "preview_title": {
-              "english": "Digital Transformation",
+              "english": "Digital <br> Transformation",
               "arabic": "التحول الرقمي"
             },
             "short": {
-              "english": "Adopting the right digital technologies and integrating them into the various aspects of an organization's operations, culture, and customer experience has become essential for businesses to remain competitive.",
+              "english":   "Our creative agency is a team of professionals focused on helping your brand grow.",
               "arabic": "أصبح من الضروري للشركات الاعتماد على التقنيات الرقمية الصحيحة ودمجها في مختلف جوانب عمليات المؤسسة وثقافتها وتجربة العملاء للبقاء تنافسية."
             },
             "introTitle": {
@@ -173,7 +173,7 @@
               "arabic": "تحويل الطاقة المتجددة"
             },
             "short": {
-              "english": "Empowering organizations to embrace renewable energy solutions for a sustainable future.",
+              "english":   "Our creative agency is a team of professionals focused on helping your brand grow.",
               "arabic": "تمكين المنظمات من اعتماد حلول الطاقة المتجددة لمستقبل مستدام."
             },
             "introTitle": {
@@ -215,7 +215,7 @@
               "arabic": "التصنيع المستدام"
             },
             "short": {
-              "english": "Sustainable Manufacturing",
+              "english":   "Our creative agency is a team of professionals focused on helping your brand grow.",
               "arabic": "التصنيع المستدام"
             },
             "introTitle": {
@@ -224,7 +224,7 @@
             },
             "description": {
               "title": {
-                "english": "Empowering organizations",
+                "english": "Environmental Excellence",
                 "arabic": "تمكين المنظمات"
               },
               "content": {

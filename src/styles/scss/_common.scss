@@ -962,9 +962,10 @@ spaces
 }
 .mil-text-gray-800{
     color: #4a4e54;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
 }
+
 .mil-text-primary{
     color: $dark;
     font-size: 20px;
@@ -976,25 +977,13 @@ spaces
     line-height: 1.5;
     font-weight: 500;
     width: fit-content;
-    padding: 9px;
-    margin: 15px 0;
-    position: relative;
+    margin: 15px auto;
+    font-style: italic;
+    border-bottom: 2px solid $accent;
+    background-color: #fffaf4;
 }
-.mil-highlight-title{
-    position: relative;
-    z-index: 3;
-}
-.mil-text-highlight::after{
-    content:'';
-    position: absolute;
-    height: 7px;
-    width: 96%;
-    position: absolute;
-    display: block;
-    background-color: #f5d74c94;
-    bottom: 12px;
-    transform: skewX(-29deg);
-}
+
+
 .fw-bold{
     font-weight: 500;
 }

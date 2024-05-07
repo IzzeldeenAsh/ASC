@@ -48,12 +48,13 @@ const ServicesSection = () => {
                     <div className="row mil-services-grid m-0">
                         {Data.items.map((item, key) => (
                         <div key={`services-item-${key}`} className="col-md-6 col-lg-3 mil-services-grid-item p-0 " style={{position:'relative'}}>
-                                <div className="mil-squares service-squares" style={activeLocale==='ar' ?{left:'4px'} : {right:'-4px'}}>
+                               
+                            <Link href={item.link} className="mil-service-card-sm mil-up">
+                            <div className="mil-squares service-squares" style={activeLocale==='ar' ?{left:'4px'} : {right:'-4px'}}>
                                     <span className="mil-square"></span>
                                     <span className="mil-square"></span>
                                     <span className="mil-square"></span>
                                 </div>
-                            <Link href={item.link} className="mil-service-card-sm mil-up">
                                 <h5 className=" mil-mb-30" dangerouslySetInnerHTML={{__html : t(item.title)}} />
                                <div>
                                 <Quotaions side={'right'} align={'right'} className="quotations"/>

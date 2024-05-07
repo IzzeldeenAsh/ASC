@@ -662,7 +662,7 @@ menu
             &.mil-active {
                 & > a {
                     color: $accent;
-
+                 
                     &:hover {
                         color: $accent !important;
                         filter: brightness(110%);
@@ -671,6 +671,7 @@ menu
             }
 
             &.mil-has-children {
+
                 & > a {
                     &:hover {
                         color: $light;
@@ -683,18 +684,17 @@ menu
                 }
 
                 ul {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
                     padding-left: 25px;
                     overflow: hidden;
                     max-height: 0;
                     transition: $t-lg;
-
+                 
                     li {
                         margin-bottom: 5px;
-
-                        &:first-child {
-                            margin-top: 40px;
-                        }
-
+                        
+                       
                         a {
                             display: block;
                             font-size: 12px;
@@ -702,6 +702,7 @@ menu
                             ;
                             font-weight: 500;
                             text-transform: uppercase;
+                            width: 142px;
 
                             &:before {
                                 display: none;
@@ -716,6 +717,7 @@ menu
 
                     &.mil-active {
                         max-height: 200px;
+                        padding: 33px 0;
                     }
                 }
             }
@@ -1335,21 +1337,6 @@ services
     bottom: 0;
 }
 
-.mil-services-grid-item:hover .mil-square {
-    animation: squareAppear .7s forwards;
-}
-
-.mil-services-grid-item:hover .mil-square:first-child {
-    animation-delay: .3s !important; /* Delay for the first square */
-}
-
-.mil-services-grid-item:hover .mil-square:nth-child(2){
-    animation-delay: .55s !important; /* Delay for the second square */
-}
-
-.mil-services-grid-item:hover .mil-square:nth-child(3) {
-    animation-delay: .8s !important; /* Delay for the third square */
-}
 
 .mil-team-card:hover .mil-square {
     animation: squareAppear .7s forwards;
@@ -1452,6 +1439,22 @@ services
     }
 
     &:hover {
+        
+    .mil-square {
+        animation: squareAppear .7s forwards;
+    }
+
+    .mil-square:first-child {
+        animation-delay: .3s !important; /* Delay for the first square */
+    }
+
+    .mil-square:nth-child(2){
+        animation-delay: .55s !important; /* Delay for the second square */
+    }
+
+    .mil-square:nth-child(3) {
+        animation-delay: .8s !important; /* Delay for the third square */
+    }
         & p {
             opacity: 1;
             color:$gs-70;
@@ -2527,9 +2530,12 @@ accordion
 .mil-accordion-content {
     height: 0;
     overflow: hidden;
+    color: $gs-50;
 }
 
-.mil-active + .mil-accordion-content {
+.mil-active + .mil-accordion-content,
+.mil-accordion-group.mil-active .mil-accordion-content {
+    height: auto;
     margin-bottom: 30px;
 }
 

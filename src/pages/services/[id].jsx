@@ -1,6 +1,6 @@
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@/src/components/PageBanner";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useLocale } from "@/utils/getLocale";
 import { Accordion } from "../../common/utilits";
 // import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -8,21 +8,28 @@ import { useRouter } from "next/router";
 import servicesData from "@data/dummy/services.json"
 import LightEnglishLogo from"@layouts/svg-icons/LightEnglishLogo"
 const ServiceDetail = () => {
-  const LogoURL = "https://res.cloudinary.com/dsiku9ipv/image/upload/fl_preserve_transparency/v1714892946/logo_A_B-01_zrmhva.jpg"
     const {activeLocale,t} = useLocale();
     const router = useRouter();
     const {id} = router.query;
+    const [activeAccordion, setActiveAccordion] = useState(0);
+
+const toggleAccordion = (key) => {
+    setActiveAccordion(key === activeAccordion ? -1 : key);
+};
     const service = servicesData.services.find(service => service.id === id);
-    const logoStyleEn = {
+    const LogoStyleAr= {
       position:"absolute",
       top:'45px',
-      left:'64px'
-    }
-    const logoStyleAr = {
+      right:'64px',
+      zIndex:'100'
+  }
+  const LogoStyleEn= {
       position:"absolute",
       top:'45px',
-      right:'64px'
-    }
+      left:'64px',
+      zIndex:'100'
+  }
+  const imageURL = "https://res.cloudinary.com/dsiku9ipv/image/upload/v1714892946/logo_A_B-01_zrmhva.svg"
     useEffect(() => {
             Accordion();
       }, []);
@@ -35,9 +42,9 @@ const ServiceDetail = () => {
     const postData =  service
   return (
     <Layouts>
-        <div style={activeLocale === 'ar' ? logoStyleAr : logoStyleEn}>
-        <LightEnglishLogo url={LogoURL}/>
-        </div>
+      <div style={activeLocale ==='ar' ? LogoStyleAr : LogoStyleEn}>
+    <LightEnglishLogo url={imageURL}/>
+    </div>
       <PageBanner pageTitle={activeLocale === 'ar' ?  postData.introTitle.arabic : postData.introTitle.english} breadTitle={activeLocale === 'ar' ?postData.title.arabic : postData.title.english}  anchorLink={"#service"} imgUrl={postData.imgURL} />
 
       {/* service */}
@@ -47,14 +54,10 @@ const ServiceDetail = () => {
               <div className={ `${postData.list.items.length > 0 ? "col-lg-5" :""} mil-relative mil-mb-90`}>
               <h3 className="mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? postData.description.title.arabic : postData.description.title.english}} />
               <p className="mil-up mil-mb-30 mil-text-gray-800" dangerouslySetInnerHTML={{__html : activeLocale==='ar' ? postData.description.content.arabic : postData.description.content.english}} />
-              {/* {postData.list.highlights.map((highlight,key)=>(
-                  <div className="highlight-title"></div>
-                  <>
-                  <p></p>
-                ))} */}
+           
                 {postData.list.highlights.map((item, key) => (
                 <div key={`service-list-${key}`}>
-                     <div className=" mil-up highlight-title mil-text-highlight"  dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? item.title.arabic : item.title.english}}></div>
+                     <div className=" mil-up "  dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? item.title.arabic : item.title.english}}></div>
                     <p  className="mil-up mil-mb-30 mil-text-gray-800" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? item.content.arabic : item.content.english}}></p>
                 </div>
             ))}
@@ -69,18 +72,20 @@ span>{postD                              <ata.description.button.label}</span>
                     
                   {postData.list && postData.list.items && postData.list.items.length > 0 &&
         <>
-            {postData.list.items.map((item, key) => (
-                <div className="mil-accordion-group mil-up" key={`service-list-${key}`}>
-                    <div className="mil-accordion-menu">
-                        <p className="mil-accordion-head">{activeLocale === 'ar' ? item.label.arabic : item.label.english}</p>
-                        <div className="mil-symbol mil-h3 ">
-                            <div className="mil-plus">+</div>
-                            <div className="mil-minus">-</div>
-                        </div>
-                    </div>
-                    <div className="mil-accordion-content mil-text" dangerouslySetInnerHTML={{__html : activeLocale === 'ar' ? item.value.arabic : item.value.english}} />
-                                    </div>
-            ))}
+        {postData.list.items.map((item, key) => (
+    <div className="mil-accordion-group mil-up" key={`service-list-${key}`}>
+        <div className={key === activeAccordion ? "mil-accordion-menu mil-active" : "mil-accordion-menu"} onClick={() => toggleAccordion(key)}>
+            <p className="mil-accordion-head">{activeLocale === 'ar' ? item.label.arabic : item.label.english}</p>
+            <div className="mil-symbol mil-h3">
+                <div  style={{ display: key === activeAccordion ? 'none' : 'block' }}>+</div>
+                <div  style={{ display: key === activeAccordion ? 'block' : 'none' }}>-</div>
+            </div>
+        </div>
+        <div className="mil-accordion-content mil-text" dangerouslySetInnerHTML={{__html: activeLocale === 'ar' ? item.value.arabic : item.value.english}} style={{ height: key === activeAccordion ? 'auto' : '0' }} />
+    </div>
+))}
+
+
         </>
     }
 </div>

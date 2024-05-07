@@ -2,25 +2,23 @@ import Head from 'next/head';
 import Link from "next/link";
 import { useRouter } from 'next/router';
 import AppData from "@data/app.json";
-
+import { useLocale } from "@/utils/getLocale";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
 
 const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
   const { asPath } = useRouter();
   let clearBreadTitle;
-
+ 
   if ( breadTitle != undefined ) {
     clearBreadTitle = breadTitle;
-  } else {
-    const regex = /(<([^>]+)>)/gi;
-    clearBreadTitle = pageTitle.replace(regex, "");
   }
 
   const headTitle = `${AppData.settings.siteName} - ${clearBreadTitle}`;
 
   return (
     <>
+   
       <Head>
         <title>{headTitle}</title>
       </Head>
