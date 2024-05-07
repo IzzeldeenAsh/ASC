@@ -1418,16 +1418,20 @@ services
     padding: 60px 30px;
 
     & p {
-        opacity: 0;
-        transform: translateY(10px);
+        opacity: 0.8;
         overflow: hidden;
         display: -webkit-box;
+        color:$gs-30;
         -webkit-line-clamp: 3;
         line-clamp: 3;
         -webkit-box-orient: vertical;
         transition: $t-md;
     }
-
+    & .quotations svg{
+        fill:$gs-30;
+        transform: scale(0.8);
+        transition: $t-md;
+    }
     & .mil-button {
         transform: scale(.3);
         filter: grayscale(100%);
@@ -1441,6 +1445,7 @@ services
         @include rtl-fix();
         inset-inline-start: 0;
         height: 7px;
+       
         width: 0;
         background-color: $accent;
         transition: $t-lg;
@@ -1449,9 +1454,12 @@ services
     &:hover {
         & p {
             opacity: 1;
-            transform: translateY(0);
+            color:$gs-70;
         }
-
+        & .quotations svg{
+            fill:$accent;
+            transform: scale(1);
+        }
         & .mil-button {
             transform: scale(1);
             filter: grayscale(0);
