@@ -201,6 +201,17 @@ frame
         height: 1px;
     }
 }
+.hero-image{
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .mil-frame {
     padding: 50px 60px 60px 60px;
     position: fixed;

@@ -2,15 +2,16 @@ import Data from "@data/sections/hero-1.json";
 import Link from "next/link";
 import { useState } from "react";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
-import Pentagon from "@layouts/pentagon/Index";
 import { useLocale } from "@/utils/getLocale";
-import LightEnglishLogo from"@layouts/svg-icons/LightEnglishLogo"
+import ABLogoLight from"@layouts/svg-icons/AB-Logo-Light"
 const HeroOne = () => {
     const [toggle, setToggle] = useState(false);
     const {activeLocale , t} = useLocale();
     const LogoStyleAr= {
         position:"absolute",
         top:'45px',
+        width:'70px',
+        height:'51px',
         right:'64px',
         zIndex:'100'
     }
@@ -18,27 +19,32 @@ const HeroOne = () => {
         position:"absolute",
         top:'45px',
         left:'64px',
-        zIndex:'100'
+        zIndex:'100',
+        width:'70px',
+        height:'51px',
     }
-    const imageURL = "https://res.cloudinary.com/dsiku9ipv/image/upload/v1714471419/eng-light-okab-logo_1_1_xxoju9.png"
+
+    const bgImage = "https://i.ibb.co/j3cqbNR/image.webp"
     return ( 
         <>
            <div style={activeLocale ==='ar' ? LogoStyleAr : LogoStyleEn}>
-        <LightEnglishLogo url={imageURL}/>
+          <ABLogoLight/>
         </div>
+  
             {/* banner */}
             <section className="mil-banner mil-dark-bg " style={{backgroundColor:"#f5e4cf"}}>
+            <div className="hero-image" style={{backgroundImage: `url(${bgImage})`}}></div>
                 <div className="mi-invert-fix">
                     <div className="mil-gradient" />
                     <div className="container"> 
                         <div className="mil-banner-content mil-up">
                        
                            <div className="py-5">
-                           <h3 className=" mil-h2half  mil-muted " dangerouslySetInnerHTML={{__html : t("heroTitle")}} style={{lineHeight:'1.5'}} />
+                           <h2 className=" mil-h2  mil-muted " dangerouslySetInnerHTML={{__html : t("heroTitle")}} style={{lineHeight:'1.5'}} />
                            </div>
                             <div className="row">
                                 <div className="col-md-7 col-lg-5">
-                                    <p className="mil-light-soft mil-mb-60">{t("heroDescription")}</p>
+                                    <p className="mil-light-soft mil-mb-60" style={{fontSize:'18px'}}>{t("heroDescription")}</p>
                                 </div>
                             </div>
 

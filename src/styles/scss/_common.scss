@@ -157,7 +157,7 @@ h3,
         font-size: $h3 - 12px;
     }
 }
-.mil-h2half {
+.mil-h25 {
     font-size: $h25;
 
     @media screen and (max-width: 1200px) {
@@ -300,7 +300,7 @@ a {
 }
 
 .mil-light-soft {
-    color: $lt-40;
+    color: $lt-60;
 }
 
 .mil-dark-soft {
@@ -422,7 +422,7 @@ link
     align-items: center;
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
 
     & svg {
         margin-left: 15px;
@@ -507,7 +507,7 @@ button
     align-items: center;
     justify-content: center;
     border: none;
-    font-size: 12px;
+    font-size: 14px;
     background-color: $accent;
     color: $dark;
     border-radius: 70px;
@@ -1033,4 +1033,13 @@ spaces
     .banner-title-and-image-container{
      flex-direction: column;
     }
+}
+.mil-highlight-title {
+    text-align: center;
+    display: block;
+    font-style: italic;
+    border-bottom: 2px solid $accent;
+    width: fit-content;
+    font-weight: 500;
+    margin:20px auto;
 }

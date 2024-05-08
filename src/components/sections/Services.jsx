@@ -37,10 +37,10 @@ const ServicesSection = () => {
                             >
                             <TitleHead/>
                             </div>
-                           <h2  className="mil-h2half  mil-center" dangerouslySetInnerHTML={{__html : t("servicesTitle1")}} />
+                           <h2  className="mil-h25  mil-center" dangerouslySetInnerHTML={{__html : t("servicesTitle1")}} />
                            </span>
                           
-                            <h2 className="mil-h2half mil-center" dangerouslySetInnerHTML={{__html :  t("servicesTitle2")}} />
+                            <h2 className="mil-h25 mil-center" dangerouslySetInnerHTML={{__html :  t("servicesTitle2")}} />
                         </div>
 
                     </div>
