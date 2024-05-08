@@ -26,7 +26,7 @@ const LogoStyleEn= {
     height:'51px',
 }
 const [isMounted,setIsMounted] = useState(false); // Need this for the react-tooltip
-const props =servicesData;
+const props = servicesData.services.sort((a, b) => b.list.items.length - a.list.items.length);
 if(!props){
   return <div>...Loading</div>
 }
@@ -49,13 +49,13 @@ useEffect(() => {
                   <div className="row">
                       <div className="col-lg-12">
                           <div className="row">
-                              {props.services.map((item, key) => (
+                              {props.map((item, key) => (
                               <div className="col-md-4 col-lg-4 mil-mb-60" key={`services-item-${key}`}>
                                   <Link href={`/services/${item.id}`} className= "mil-service-card-lg mil-more mil-accent-cursor ">
                                       <h4 className="mil-muted mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale === 'en' ? item.preview_title.english :item.preview_title.arabic }} />
                                       <p className="mil-descr mil-light-soft mil-up mil-mb-30">{ activeLocale === 'en' ? item.short.english :item.short.arabic }</p>
                                       <ul className="mil-service-list mil-light mil-mb-30">
-                                        {item.list.items.slice(0, 4).map((list_item, list_key) => (
+                                        {item.list.items.slice(0, 3).map((list_item, list_key) => (
                                         <li className="mil-up" key={`services-item-${key}-list-${list_key}`}>{ activeLocale === 'en' ? list_item.label.english :list_item.label.arabic }</li>
                                         ))}
                                       </ul>

@@ -46,7 +46,7 @@ const ServicesSection = () => {
                     </div>
 
                     <div className="row mil-services-grid m-0">
-                        {Data.items.map((item, key) => (
+                        {Data.items.slice(0,4).map((item, key) => (
                         <div key={`services-item-${key}`} className="col-md-6 col-lg-3 mil-services-grid-item p-0 " style={{position:'relative'}}>
                                
                             <Link href={item.link} className="mil-service-card-sm mil-up">
