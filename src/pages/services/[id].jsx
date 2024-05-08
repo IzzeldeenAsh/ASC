@@ -64,12 +64,6 @@ const toggleAccordion = (key) => {
                     <p  className="mil-up mil-mb-30 mil-text-gray-800" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? item.content.arabic : item.content.english}}></p>
                 </div>
             ))}
-                      {/* <div className="mil-up">
-                          <Link href={postData.description.button.link} className="mil-link mil-dark mil-arrow-place">
-span>{postD                              <ata.description.button.label}</span>
-                          </Link>
-                      </div> */}
-
                   </div>
                   <div className="col-lg-6">
                     

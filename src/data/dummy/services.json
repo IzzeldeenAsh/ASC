@@ -207,11 +207,11 @@
             "id": "service-4",
             "contentHtml": "",
             "title": {
-              "english": "Sustainable Manufacturing",
+              "english": "Sustainable <br> Manufacturing",
               "arabic": "التصنيع المستدام"
             },
             "preview_title": {
-              "english": "Sustainable Manufacturing",
+              "english": "Sustainable <br> Manufacturing",
               "arabic": "التصنيع المستدام"
             },
             "short": {
@@ -264,7 +264,71 @@
                 }
               ]
             }
+          },
+          {
+            "imgURL": "",
+            "id": "service-5",
+            "contentHtml": "",
+            "title": {
+              "english": "Agriculture",
+              "arabic": "الزراعة"
+            },
+            "preview_title": {
+              "english": "Sustainable <br> Agriculture",
+              "arabic": "الزراعة المستدامة"
+            },
+            "short": {
+              "english": "Tailored strategies for sustainable agricultural growth.",
+              "arabic": "استراتيجيات مخصصة لنمو زراعي مستدام."
+            },
+            "introTitle": {
+              "english": "Sustainable <br> <span class=\"mil-thin\">Agriculture</span>",
+              "arabic": "الزراعة <br> <span class=\"mil-thin\">المستدامة</span>"
+            },
+            "description": {
+              "title": {
+                "english": "Tailored strategies for sustainable agricultural growth.",
+              "arabic": "استراتيجيات مخصصة لنمو زراعي مستدام."
+              },
+              "content": {
+                "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies that contribute to organizations’ long-term success. From crop rotation and soil and water management to navigating the complexities of agriculture markets, technologies, and regulations, we are committed to providing strategic recommendations based on actual needs and unique conditions. We help our clients grow sustainably.",
+                "arabic":"تشمل سلسلة قيمة الزراعة بأكملها، خبراؤنا في الزراعة يصممون الاستراتيجيات التي تسهم في نجاح المؤسسات على المدى الطويل. من دورات المحاصيل وإدارة التربة والمياه إلى التنقل في تعقيدات أسواق الزراعة والتكنولوجيا والتشريعات، نحن ملتزمون بتقديم توصيات استراتيجية استنادًا إلى الاحتياجات الفعلية والظروف الفريدة. نساعد عملائنا على النمو بشكل مستدام."
+              }
+            },
+            "button": {
+              "link": "/projects",
+              "label": {
+                "english": "View Our Projects",
+                "arabic": "عرض المشاريع الخاصة بنا"
+              }
+            },
+            "list": {
+              "items": [
+                {
+                  "label": {
+                    "english": "Agriculture Markets",
+                    "arabic": "أسواق الزراعة"
+                  },
+                  "value": {
+                    "english": "To be the tallest sunflower in the field, we can never emphasize enough the importance of identifying the right potential markets for your product before you plant your seeds of success. Researching the demand for a certain product requires a robust analysis of the potential market demographics and consumer behavior patterns data. A&B gap analysis will uncover the pathway to becoming distinguished among competitors of similar agricultural products and help your agriculture business stand out and flourish. ",
+                    "arabic": "لتكون أطول دوار الشمس في الحقل، لا يمكننا التأكيد بما فيه الكفاية على أهمية تحديد الأسواق المحتملة المناسبة لمنتجك قبل أن تزرع بذور النجاح. يتطلب بحث الطلب عن منتج معين تحليلًا قويًا لبيانات الديموغرافيا وأنماط سلوك المستهلكين في السوق المحتملة. سيكشف تحليل الفجوة بين الأهداف (A&B) عن المسار لتحقيق التميز بين منافسين لمنتجات زراعية مماثلة ويساعد عملك الزراعي على التألق والازدهار."
+                  }
+                },
+                {
+                  "label": {
+                    "english": "AgriTech",
+                    "arabic": "التقنية الزراعية"
+                  },
+                  "value": {
+                    "english": "No matter what the challenges may be, utilizing the most suitable technology will definitely take your efficiency and yield to another level. Agritech Innovation is constantly accelerating encompassing new technologies such as AI, machine learning and blockchain. A&B Agritech experts are always ahead of the curve and work closely with clients as they craft the strategy that will make them benefit the most from the adopted technology.",
+                    "arabic": "مهما كانت التحديات، فإن استخدام التكنولوجيا الأنسب سيأخذ بك بالتأكيد إلى مستوى جديد من الكفاءة والإنتاجية. إن الابتكار في مجال التكنولوجيا الزراعية يتسارع باستمرار، ويشمل تقنيات جديدة مثل الذكاء الاصطناعي وتعلم الآلة والبلوكتشين. يكون خبراء A&B في التكنولوجيا الزراعية دائمًا في مقدمة الحدث ويعملون عن كثب مع العملاء أثناء صياغة الاستراتيجية التي ستجعلهم يستفيدون الأكثر من التكنولوجيا المعتمدة."
+                  }
+                }
+              ],
+              "highlights": []
+            }
           }
+          
       ]
 
 }
