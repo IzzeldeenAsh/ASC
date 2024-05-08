@@ -6,7 +6,7 @@ import { Accordion } from "../../common/utilits";
 // import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useRouter } from "next/router"; 
 import servicesData from "@data/dummy/services.json"
-import LightEnglishLogo from"@layouts/svg-icons/LightEnglishLogo"
+import ABLogoDark from"@layouts/svg-icons/AB-Logo-Dark"
 const ServiceDetail = () => {
     const {activeLocale,t} = useLocale();
     const router = useRouter();
@@ -18,18 +18,21 @@ const toggleAccordion = (key) => {
 };
     const service = servicesData.services.find(service => service.id === id);
     const LogoStyleAr= {
-      position:"absolute",
-      top:'45px',
-      right:'64px',
-      zIndex:'100'
-  }
-  const LogoStyleEn= {
-      position:"absolute",
-      top:'45px',
-      left:'64px',
-      zIndex:'100'
-  }
-  const imageURL = "https://res.cloudinary.com/dsiku9ipv/image/upload/v1714892946/logo_A_B-01_zrmhva.svg"
+        position:"absolute",
+        top:'45px',
+        width:'70px',
+        height:'51px',
+        right:'64px',
+        zIndex:'100'
+    }
+    const LogoStyleEn= {
+        position:"absolute",
+        top:'45px',
+        left:'64px',
+        zIndex:'100',
+        width:'70px',
+        height:'51px',
+    }
     useEffect(() => {
             Accordion();
       }, []);
@@ -43,7 +46,7 @@ const toggleAccordion = (key) => {
   return (
     <Layouts>
       <div style={activeLocale ==='ar' ? LogoStyleAr : LogoStyleEn}>
-    <LightEnglishLogo url={imageURL}/>
+    <ABLogoDark />
     </div>
       <PageBanner pageTitle={activeLocale === 'ar' ?  postData.introTitle.arabic : postData.introTitle.english} breadTitle={activeLocale === 'ar' ?postData.title.arabic : postData.title.english}  anchorLink={"#service"} imgUrl={postData.imgURL} />
 

@@ -2,7 +2,7 @@ import PageBannerDark from "@components/PageBannerDark";
 import Layouts from "@layouts/Layouts";
 import CallToActionSection from "@components/sections/CallToAction";
 import Link from "next/link";
-import LightEnglishLogo from"@layouts/svg-icons/LightEnglishLogo"
+import ABLogoLight from"@layouts/svg-icons/AB-Logo-Light"
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
 import { useState , useEffect} from "react";
@@ -12,6 +12,8 @@ const {activeLocale , t} = useLocale();
 const LogoStyleAr= {
     position:"absolute",
     top:'45px',
+    width:'70px',
+    height:'51px',
     right:'64px',
     zIndex:'100'
 }
@@ -19,7 +21,9 @@ const LogoStyleEn= {
     position:"absolute",
     top:'45px',
     left:'64px',
-    zIndex:'100'
+    zIndex:'100',
+    width:'70px',
+    height:'51px',
 }
 const [isMounted,setIsMounted] = useState(false); // Need this for the react-tooltip
 const props =servicesData;
@@ -29,12 +33,11 @@ if(!props){
 useEffect(() => {
     setIsMounted(true);
 },[]);
-  const imageURL = "https://res.cloudinary.com/dsiku9ipv/image/upload/v1714471419/eng-light-okab-logo_1_1_xxoju9.png"
   return (isMounted &&
     <Layouts>
-    <div style={activeLocale ==='ar' ? LogoStyleAr : LogoStyleEn}>
-    <LightEnglishLogo url={imageURL}/>
-    </div>
+       <div style={activeLocale ==='ar' ? LogoStyleAr : LogoStyleEn}>
+          <ABLogoLight/>
+        </div>
   {/* banner */}
   <div className="mil-dark-bg" style={{backgroundColor:"#f5e4cf"}}>
       <PageBannerDark pageTitle={"Service List"} breadTitle={"Services"} anchorLabel={"Our services"} anchorLink={"#services"} />
