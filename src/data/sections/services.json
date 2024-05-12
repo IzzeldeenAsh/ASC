@@ -9,23 +9,34 @@
     "items": [
         {
             "title": "service1Name",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "text": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development.",
             "link": "/services/service-1"
         },
         {
             "title": "service2Name",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "text": "We partner with clients to foster the needed digital culture.",
             "link": "/services/service-2"
         },
         {
             "title": "service3Name",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "text": "Helping organizations harness the power of reneweble energy.",
             "link": "/services/service-3"
         },
         {
             "title": "service4Name",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
             "link": "/services/service-4"
+        },
+        {
+            "title": "service5Name",
+            "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
+            "link": "/services/service-5"
+        },
+        
+        {
+            "title": "service6Name",
+            "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
+            "link": "/services/service-5"
         }
 
     ]

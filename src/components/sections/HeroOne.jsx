@@ -41,7 +41,7 @@ const HeroOne = () => {
                         <div className="mil-banner-content mil-up">
                        
                            <div className="py-5">
-                           <h2 className=" mil-h2  mil-muted " dangerouslySetInnerHTML={{__html : t("heroTitle")}} style={{lineHeight:'1.5'}} />
+                           <h2 className=" mil-h2  mil-muted " dangerouslySetInnerHTML={{__html : t("heroTitle")}} style={activeLocale==='ar' ? {lineHeight:'1.5'} :  {lineHeight:'1.1'} } />
                            </div>
                             <div className="row">
                                 <div className="col-md-7 col-lg-5">
