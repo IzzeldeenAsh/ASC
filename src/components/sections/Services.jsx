@@ -12,7 +12,7 @@ const ServicesSection = () => {
       {/* services */}
       <section id="servcise">
         <div className="mi-invert-fix">
-          <div className="mil-animation-frame">
+          {/* <div className="mil-animation-frame">
             <div
               className="mil-animation mil-position-1 mil-scale"
               data-value-1="2.4"
@@ -29,7 +29,7 @@ const ServicesSection = () => {
             >
               <Pentagon />
             </div>
-          </div>
+          </div> */}
           <div className="container mil-p-120-0">
             <div className="mil-mb-120">
               <div className="row">
@@ -72,7 +72,10 @@ const ServicesSection = () => {
                 />
               </div>
             </div>
-
+            <div className="featured">
+              <div>{t("featured")}</div>
+              <div><Link href="/services">{t("seeAll")}</Link></div>
+            </div>
             <div className="row mil-services-grid m-0">
               {Data.items.slice(0, 4).map((item, key) => (
                 <div
@@ -95,9 +98,8 @@ const ServicesSection = () => {
                     </div>
                     <h5
                       className=" mil-mb-30"
-                      dangerouslySetInnerHTML={{ __html: t(item.title) }}
-                    />
-                    <div className="quotations">  <ABQuoations  /></div>
+                      dangerouslySetInnerHTML={{ __html: t(item.title) }}/>
+                    <div className="quotations" style={activeLocale ==='ar' ? {transformOrigin:'100%'} : {transformOrigin:'0%'}}><ABQuoations side={'right'}/></div>
                   
                       <p className="mil-mb-30">{item.text}</p>
                       {/* <Quotaions side={'left'}  align={'right'}/> */}

@@ -21,44 +21,7 @@
             {
                 "label": "Sectors",
                 "link": "/projects",
-                "children": [
-                    {
-                        "label": "Manufacturing",
-                        "link": "/projects"
-                    },
-                    {
-                        "label": "Energy",
-                        "link": "/projects-2"
-                    },
-                    {
-                        "label": "Transportation",
-                        "link": "/projects-3"
-                    },
-                    {
-                        "label": "Agriculture",
-                        "link": "/projects-4"
-                    },
-                    {
-                        "label": "Construction",
-                        "link": "/projects-5"
-                    },
-                    {
-                        "label": "Healthcare",
-                        "link": "/projects-6"
-                    },
-                    {
-                        "label": "Information Technology",
-                        "link": "/projects-7"
-                    },
-                    {
-                        "label": "Finance",
-                        "link": "/projects-8"
-                    },
-                    {
-                        "label": "Retail",
-                        "link": "/projects-9"
-                    }
-                ]
+              "children":[]
             },
             {
                 "label": "Services",

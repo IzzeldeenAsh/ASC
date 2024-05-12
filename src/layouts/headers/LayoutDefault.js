@@ -1,21 +1,29 @@
-
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import AppData from "@data/app.json";
 import { useRouter } from "next/router";
 import BackToTop from "../back-to-top/Index";
 import Pentagon from "@layouts/pentagon/Index";
 import LanguageSwitch from "../../components/LanguageSwitch";
 import Image from "next/image";
+import MenuServicesList from "@/src/components/MenuServicesList";
+import MenuSectorsList from "@/src/components/MenuSectorsList"
 const DefaultHeader = ({ extraClass }) => {
   const [toggle, setToggle] = useState(false);
-
+  const [activeTab ,setActiveTab] = useState("")
   const navItems = [];
-
   const { asPath } = useRouter();
   const router = useRouter();
-  const { locales, locale: activeLocale } = router;
-  const otherLocales = locales.filter((locale) => !locale.activeLocale);
+  const { locale: activeLocale } = router;
+  useEffect(()=>{
+   if (asPath.split("/")[1] ==='services'){
+    setActiveTab("/services")
+   }
+  },[asPath,navItems])
+console.log("asPath",asPath)
+  const handleChildLinkClick =() =>{
+    setToggle(false);
+  }
   AppData.header.menu.forEach((item, index) => {
     let s_class1 = "";
 
@@ -51,26 +59,27 @@ const DefaultHeader = ({ extraClass }) => {
   return (
     <>
       <div>
-          <LanguageSwitch/>
+        <LanguageSwitch />
       </div>
       {/* menu */}
 
       <div className={`mil-menu-frame ${toggle ? "mil-active" : ""}`}>
-      
         {/* frame clone */}
         <div className="mil-frame-top">
-      
-          <Link style={{opacity:0}} href={AppData.header.logo.link} className="mil-logo">
-          {AppData.header.logo.symbol}
-          {/* <Image src="https://res.cloudinary.com/dsiku9ipv/image/upload/v1714889771/logo_A_B-01-svg_2_wksfyd.png" priority  alt="Eng-logo"  width={55} 
+          <Link
+            style={{ opacity: 0 }}
+            href={AppData.header.logo.link}
+            className="mil-logo"
+          >
+            {AppData.header.logo.symbol}
+            {/* <Image src="https://res.cloudinary.com/dsiku9ipv/image/upload/v1714889771/logo_A_B-01-svg_2_wksfyd.png" priority  alt="Eng-logo"  width={55} 
           height={40}  />  */}
           </Link>
-        
+
           <div
             className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
             onClick={() => setToggle(!toggle)}
           >
-           
             <span />
           </div>
         </div>
@@ -82,161 +91,33 @@ const DefaultHeader = ({ extraClass }) => {
                 <nav className="mil-main-menu" id="swupMenu">
                   <ul>
                     {navItems.map((item, key) => (
+                     
                       <li
                         className={item.classes}
                         key={`header-menu-item-${key}`}
+                        onClick={()=>setActiveTab(item.link)}
                       >
-                        <Link
-                          href={item.link}
-                          onClick={
-                            item.children != 0
-                              ? (e) => clickedMobileMenuItemParent(e)
-                              : ""
+                        { item.link ==='/services' &&
+                         <div className={activeTab ==='/services' || asPath.split('/')[1] ==='services' ? "custom-menu-nav mil-active" : "custom-menu-nav"}>{item.label}</div>
                           }
-                        >
-                          {item.label}
-                        </Link>
-                        {item.children != 0 && (
-                          <ul>
-                            {item.children.map((subitem, key2) => (
-                              <li
-                                key={`header-submenu${key}-item-${key2}`}
-                                className={
-                                  
-                                  (asPath.indexOf(subitem.link) != -1 &&
-                                    subitem.link != "/") ||
-                                  asPath == subitem.link
-                                    ? "mil-active "
-                                    : ""
-                                }
-                              >
-                                <Link href={subitem.link}>{subitem.label}</Link>
-                              </li>
-                            ))}
-                          </ul>
-                        )}
+                          {
+                            item.link !== '/projects' && item.link !== '/services' && 
+                            <Link href={item.link}>{item.label}</Link>
+                          }
                       </li>
                     ))}
-                  
                   </ul>
                 </nav>
               </div>
               <div className="col-xl-7">
-             
                 <div className="mil-menu-right-frame">
-                  <div className="mil-animation-in">
-                    <div className="mil-animation-frame">
-                      <div
-                        className="mil-animation mil-position-1 mil-scale"
-                        data-value-1="2"
-                        data-value-2="2"
-                      >
-                        <Pentagon />
-                      </div>
-                    </div>
-                  </div>
                   <div className="mil-menu-right">
                     <div className="row">
-                      <div className="col-lg-8 mil-mb-60">
-                        <h6 className="mil-muted mil-mb-30">Projects</h6>
-
-                        <ul className="mil-menu-list">
-                          <li>
-                            <Link
-                              href="/projects/project-1"
-                              className="mil-light-soft"
-                            >
-                              Interior design studio
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="/projects/project-2"
-                              className="mil-light-soft"
-                            >
-                              Home Security Camera
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="/projects/project-3"
-                              className="mil-light-soft"
-                            >
-                              Kemia Honest Skincare
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="/projects/project-4"
-                              className="mil-light-soft"
-                            >
-                              Cascade of Lava
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="/projects/project-5"
-                              className="mil-light-soft"
-                            >
-                              Air Pro by Molekule
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="/projects/project-6"
-                              className="mil-light-soft"
-                            >
-                              Tony's Chocolonely
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="col-lg-4 mil-mb-60">
-                        <h6 className="mil-muted mil-mb-30">Useful links</h6>
-
-                        <ul className="mil-menu-list">
-                          <li>
-                            <a href="#." className="mil-light-soft" aria-label={"Link"}> 
-                              Privacy Policy
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#." className="mil-light-soft" aria-label={"Link"}>
-                              Terms and conditions
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#." className="mil-light-soft" aria-label={"Link"}>
-                              Cookie Policy
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#." className="mil-light-soft" aria-label={"Link"}>
-                              Careers
-                            </a>
-                          </li>
-                        </ul>
+                      <div className="col-lg-12 mil-mb-60">
+                     { asPath ==`/services${activeTab}` || activeTab ==='/services' &&  <MenuServicesList onLinkClick={handleChildLinkClick}/> }  
                       </div>
                     </div>
-                    <div className="mil-divider mil-mb-60"></div>
-                    <div className="row justify-content-between">
-                      <div className="col-lg-4 mil-mb-60">
-                        <h6 className="mil-muted mil-mb-30">Canada</h6>
-
-                        <p className="mil-light-soft mil-up">
-                          71 South Los Carneros Road, California{" "}
-                          <span className="mil-no-wrap">+51 174 705 812</span>
-                        </p>
-                      </div>
-                      <div className="col-lg-4 mil-mb-60">
-                        <h6 className="mil-muted mil-mb-30">Germany</h6>
-
-                        <p className="mil-light-soft">
-                          Leehove 40, 2678 MC De Lier, Netherlands{" "}
-                          <span className="mil-no-wrap">+31 174 705 811</span>
-                        </p>
-                      </div>
-                    </div>
+                   
                   </div>
                 </div>
               </div>
@@ -249,39 +130,50 @@ const DefaultHeader = ({ extraClass }) => {
       {/* curtain */}
       <div className="mil-curtain" />
       {/* curtain end */}
-     
+
       {/* frame */}
-         
+
       <div className="mil-frame">
         <div className="mil-frame-top">
-            
-          <Link style={{opacity:'0'}} href={AppData.header.logo.link} className="mil-logo">
+          <Link
+            style={{ opacity: "0" }}
+            href={AppData.header.logo.link}
+            className="mil-logo"
+          >
             {AppData.header.logo.symbol}
             {/* <LightEnglishLogo/> */}
           </Link>
-        
-          <div style={{'display':'flex', 'gap' :'20px'}}>
-           
+
+          <div style={{ display: "flex", gap: "20px" }}>
             <div
               className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
-              onClick={() => setToggle(!toggle)} 
-            > 
-      
+              onClick={() => setToggle(!toggle)}
+            >
               <span />
-          
             </div>
-            
           </div>
         </div>
 
         <div className="mil-frame-bottom">
-          <div className="mil-current-page"  style={activeLocale ==='ar' ? {"transform": "rotate(-90deg) translateX(138px) translateY(138px)"} : {"transform": "rotate(-90deg) translateX(138px) translateY(-138px)"}}/>
+          <div
+            className="mil-current-page"
+            style={
+              activeLocale === "ar"
+                ? {
+                    transform:
+                      "rotate(-90deg) translateX(138px) translateY(138px)",
+                  }
+                : {
+                    transform:
+                      "rotate(-90deg) translateX(138px) translateY(-138px)",
+                  }
+            }
+          />
           <BackToTop />
         </div>
       </div>
       {/* frame end */}
     </>
-   
   );
 };
 export default DefaultHeader;
