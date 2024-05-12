@@ -24,7 +24,8 @@ const HeroOne = () => {
         height:'51px',
     }
 
-    const bgImage = "https://i.ibb.co/j3cqbNR/image.webp"
+    const bgImageEn = "https://res.cloudinary.com/dsiku9ipv/image/upload/v1715501825/image_1_v34uc9.webp"
+    const bgImageAr = "https://res.cloudinary.com/dsiku9ipv/image/upload/v1715502208/hero-banner-ar_yv4mu0.jpg"
     return ( 
         <>
            <div style={activeLocale ==='ar' ? LogoStyleAr : LogoStyleEn}>
@@ -33,7 +34,7 @@ const HeroOne = () => {
   
             {/* banner */}
             <section className="mil-banner mil-dark-bg " style={{backgroundColor:"#f5e4cf"}}>
-            <div className="hero-image" style={{backgroundImage: `url(${bgImage})`}}></div>
+            <div className="hero-image" style={{backgroundImage: `url(${activeLocale ==='ar' ? bgImageAr:bgImageEn})`}}></div>
                 <div className="mi-invert-fix">
                     <div className="mil-gradient" />
                     <div className="container"> 
