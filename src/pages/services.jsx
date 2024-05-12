@@ -40,7 +40,7 @@ useEffect(() => {
         </div>
   {/* banner */}
   <div className="mil-dark-bg" style={{backgroundColor:"#f5e4cf"}}>
-      <PageBannerDark pageTitle={"Service List"} breadTitle={"Services"} anchorLabel={"Our services"} anchorLink={"#services"} />
+      <PageBannerDark pageTitle={"Services List"} breadTitle={"Services"} anchorLabel={"Our services"} anchorLink={"#services"} />
 
       {/* services */}
       <section id="services">
@@ -55,7 +55,7 @@ useEffect(() => {
                                       <h4 className="mil-muted mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale === 'en' ? item.preview_title.english :item.preview_title.arabic }} />
                                       <p className="mil-descr mil-light-soft mil-up mil-mb-30">{ activeLocale === 'en' ? item.short.english :item.short.arabic }</p>
                                       <ul className="mil-service-list mil-light mil-mb-30">
-                                        {item.list.items.slice(0, 3).map((list_item, list_key) => (
+                                        {item.list.items.map((list_item, list_key) => (
                                         <li className="mil-up" key={`services-item-${key}-list-${list_key}`}>{ activeLocale === 'en' ? list_item.label.english :list_item.label.arabic }</li>
                                         ))}
                                       </ul>

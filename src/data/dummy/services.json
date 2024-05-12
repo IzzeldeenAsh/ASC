@@ -13,8 +13,8 @@
               "arabic":"المدن الذكية"
             },
             "short": {
-              "english": "Our creative agency is a team of professionals focused on helping your brand grow.",
-              "arabic": "وكالتنا الإبداعية هي فريق من المحترفين متخصصين في مساعدة علامتك التجارية على النمو."
+              "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development.",
+              "arabic": "نستفيد من التقنيات الرئيسية والحلول الذكية للتعامل مع تعقيدات تطوير المدن الذكية والتنقل."
             },
             "introTitle": {
               "english": "Smart Cities<br> and <span class=\"mil-thin\">Mobility</span>",
@@ -66,7 +66,7 @@
           }
           ,
           {
-            "imgURL" : "https://res.cloudinary.com/dsiku9ipv/image/upload/fl_preserve_transparency/v1714914124/serve_wol9hr.jpg?_s=public-apps",
+            "imgURL" : "https://firebasestorage.googleapis.com/v0/b/webartpath.appspot.com/o/futuristic-christmas-celebration-concept_23-2150979860.png?alt=media&token=cdd269f2-4cdf-4f3f-94b2-09857b157861",
             "id": "service-2",
             "contentHtml": "",
             "title": {
@@ -78,7 +78,7 @@
               "arabic": "التحول الرقمي"
             },
             "short": {
-              "english":   "Our creative agency is a team of professionals focused on helping your brand grow.",
+              "english":   "We partner with clients to foster the needed digital culture.",
               "arabic": "أصبح من الضروري للشركات الاعتماد على التقنيات الرقمية الصحيحة ودمجها في مختلف جوانب عمليات المؤسسة وثقافتها وتجربة العملاء للبقاء تنافسية."
             },
             "introTitle": {
@@ -173,7 +173,7 @@
               "arabic": "تحويل الطاقة المتجددة"
             },
             "short": {
-              "english":   "Our creative agency is a team of professionals focused on helping your brand grow.",
+              "english":   "A&B team of experts is dedicated to helping businesses and organizations lower their energy costs and reduce their carbon footprint.",
               "arabic": "تمكين المنظمات من اعتماد حلول الطاقة المتجددة لمستقبل مستدام."
             },
             "introTitle": {
@@ -207,7 +207,7 @@
             "id": "service-4",
             "contentHtml": "",
             "title": {
-              "english": "Sustainable <br> Manufacturing",
+              "english": "Sustainable Manufacturing",
               "arabic": "التصنيع المستدام"
             },
             "preview_title": {
@@ -215,7 +215,7 @@
               "arabic": "التصنيع المستدام"
             },
             "short": {
-              "english":   "Our creative agency is a team of professionals focused on helping your brand grow.",
+              "english":   "Sustainable Manufacturing offers clean manufacturing solutions for environmental excellence, aiding organizations in reducing their carbon footprint and energy costs while meeting sustainability goals. ",
               "arabic": "التصنيع المستدام"
             },
             "introTitle": {
@@ -224,8 +224,8 @@
             },
             "description": {
               "title": {
-                "english": "Environmental Excellence",
-                "arabic": "تمكين المنظمات"
+                "english": "Clean Manufacturing is an opportunity",
+                "arabic": " التصنيع النظيف هو فرصة "
               },
               "content": {
                 "english": "In today's world, our understanding of the importance of sustainable manufacturing across various industries makes us committed to helping our clients achieve their environmental goals while maintaining a competitive edge in the market. To offer you an effective strategy, we start by conducting comprehensive assessments of your operations, facility, and product.<br><br><span class=\"mil-text-primary fw-bold\">Clean Manufacturing</span><br><br>Our clean manufacturing transformation strategy focuses on reducing the environmental impact of manufacturers and businesses and improving their sustainability. A&B provides strategic solutions that would lead to innovative manufacturing processes and helps clients adopt and Implement practices that not only benefit the environment but also improve their operational efficiency and reduce costs.",
@@ -244,8 +244,8 @@
               "highlights": [
                 {
                   "title": {
-                    "english": "<span class=\"mil-highlight-title mil-text-primary\">Clean Manufacturing is an opportunity</span>",
-                    "arabic": "<span class=\"mil-highlight-title mil-text-primary\">التصنيع النظيف هو فرصة</span>"
+                    "english": "<span class=\"mil-highlight-title\">Clean Manufacturing is an opportunity</span>",
+                    "arabic": "<span class=\"mil-highlight-title\">التصنيع النظيف هو فرصة</span>"
                   },
                   "content": {
                     "english": "Although clean manufacturing may seem like a responsibility, we see it as an opportunity. Institutions can differentiate themselves in the market by contributing to their local economy and meeting the demands of the increasing number of environmentally conscious consumers.",
@@ -254,8 +254,8 @@
                 },
                 {
                   "title": {
-                    "english": "<span class=\"mil-highlight-title mil-text-primary\">Comprehensive assessments of Operations, Products and Facility</span>",
-                    "arabic": "<span class=\"mil-highlight-title mil-text-primary\">تقييمات شاملة للعمليات والمنتجات والمرافق</span>"
+                    "english": "<span class=\"mil-highlight-title\">Comprehensive assessments of Operations, Products and Facility</span>",
+                    "arabic": "<span class=\"mil-highlight-title\">تقييمات شاملة للعمليات والمنتجات والمرافق</span>"
                   },
                   "content": {
                     "english": "A&B sustainability experts stress the fact that to identify areas for improvement and develop customized clean manufacturing strategies, organizations need to undergo comprehensive assessments focusing on key quantitative indicators for environmental performance, which will lead to clean manufacturing processes that are to be integrated into the implemented practices and day-to-day operations.",
@@ -328,7 +328,70 @@
               "highlights": []
             }
           }
-          
+          ,
+          {
+            "imgURL": "",
+            "id": "service-6",
+            "contentHtml": "",
+            "title": {
+              "english": "Operations",
+              "arabic": "العمليات"
+            },
+            "preview_title": {
+              "english": "Operations <br> Consultancy",
+              "arabic": "استشارات العمليات"
+            },
+            "short": {
+              "english": "Operations Consulting",
+               "arabic": "استشارات العمليات"
+            },
+            "introTitle": {
+              "english": "Transforming <span class=\"mil-thin\">Strategies</span> <br>  <span class=\"mil-thin\">into</span>  success",
+               "arabic": "تحويل الاستراتيجيات إلى نجاح"
+            },
+            "description": {
+              "title": {
+                "english": "Operations",
+                "arabic": "العمليات"
+              },
+              "content": {
+                "english": "To successfully achieve strategic goals, organizations must have a clearly defined strategy and operations processes that are thoroughly tailored to lead to the desired objectives efficiently and sustainably. At A&B, our management and operations consultants help clients transform their organizations’ strategies into success by analyzing their current operating model, pinpointing areas for improvement, and solving operational challenges. They examine the entire value chain and employ all data-driven insights to craft new operating models that meet the needs of our clients.",
+                "arabic": "لتحقيق الأهداف الاستراتيجية بنجاح ، يجب على المؤسسات أن تكون لديها استراتيجية محددة بوضوح وعمليات تشغيل مصممة بعناية لتحقيق الأهداف المرجوة بكفاءة وباستدامة. في A&B ، يساعد مستشارو الإدارة والعمليات عملاءنا على تحويل استراتيجيات منظماتهم إلى نجاح من خلال تحليل نموذجهم التشغيلي الحالي وتحديد المجالات التي يمكن تحسينها وحل التحديات التشغيلية. يفحصون سلسلة القيمة بأكملها ويستخدمون جميع البيانات المدفوعة بالبيانات لصياغة نماذج تشغيل جديدة تلبي احتياجات عملائنا."
+              }
+            },
+            "button": {
+              "link": "/projects",
+              "label": {
+                "english": "View Our Projects",
+                "arabic": "عرض المشاريع الخاصة بنا"
+              }
+            },
+            "list": {
+              "items": [
+                {
+                  "label": {
+                    "english": "Logistics and Supply Chain",
+                     "arabic": "الخدمات اللوجستية وسلسلة التوريد"
+                  },
+                  "value": {
+                    "english": "From procurement to distribution, an efficient logistics model can be decisive in achieving organizations' strategic goals. Our supply chain management consultants emphasize the importance of having an efficient and flexible logistics model that helps maintain our clients’ competitive edge. With costs in mind, our strategies are tailored with extreme care, allowing for agile and stakeholder-monitored operations throughout the different stages of the supply chain.",
+                    "arabic": "من التوريد إلى التوزيع ، يمكن أن يكون النموذج اللوجستي الفعال حاسمًا في تحقيق الأهداف الاستراتيجية للمؤسسات. يؤكد مستشارو إدارة سلسلة التوريد لدينا على أهمية وجود نموذج لوجستي فعال ومرن يساعد في الحفاظ على البند التنافسي لعملائنا. بتكاليف في الاعتبار ، يتم تصميم استراتيجياتنا بعناية فائقة ، مما يسمح بعمليات مرنة ومراقبة من قبل أصحاب المصلحة على مدى مراحل مختلفة من سلسلة التوريد."
+                  }
+                },
+                {
+                  "label": {
+                    "english": "Service Operations",
+                    "arabic": "عمليات الخدمة"
+                  },
+                  "value": {
+                    "english": "From our consulting experts' standpoint, the strategies encompassing service delivery operations must position customer satisfaction at the center of its mission and vision. Adequate allocation of resources is also paramount to expediting processes and reducing costs.",
+                    "arabic": "من وجهة نظر خبراء الاستشارة لدينا ، يجب أن تضع الاستراتيجيات التي تشمل عمليات تقديم الخدمات رضا العملاء في مركز مهمتها ورؤيتها. توزيع كاف للموارد أمر أساسي أيضًا لتسريع العمليات وتقليل التكاليف."
+                  }
+                }
+              ],
+              "highlights": []
+            }
+          }
       ]
 
 }

@@ -4,77 +4,122 @@ import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
 import { useLocale } from "@/utils/getLocale";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
-import Quotaions from "@layouts/svg-icons/Quotaions"
+import ABQuoations from "@layouts/svg-icons/AB-Quotations";
 const ServicesSection = () => {
-    const {activeLocale , t} = useLocale();
+  const { activeLocale, t } = useLocale();
   return (
     <>
-        {/* services */}
-        <section id="servcise">
-            <div className="mi-invert-fix">
-                <div className="mil-animation-frame">
-                    <div className="mil-animation mil-position-1 mil-scale" data-value-1="2.4" data-value-2="1.4" style={{"top": "300px", "right": "-100px"}}>
-                        <Pentagon />
-                    </div>
-                    <div className="mil-animation mil-position-2 mil-scale" data-value-1="2" data-value-2="1" style={{"left": "150px"}}>
-                        <Pentagon />
-                    </div>
-                </div>
-                <div className="container mil-p-120-0">
-
-                    <div className="mil-mb-120">
-                        <div className="row">
-                            <div className="col-lg-10">
-                                <span className="mil-suptitle-right mil-suptitle mil-suptitle-dark mil-up"  dangerouslySetInnerHTML={{__html : t("servicesSubtitle1")}} />
-                            </div>
-                        </div>
-
-                        <div className="mil-complex-text  justify-content-center mil-up mil-mb-15" style={activeLocale ==='ar' ? {flexDirection:'row','gap':'10px'} :{flexDirection:'column','gap':'10px'} }>
-                         
-                           <span style={{position:'relative'}}>
-                            <div className="title-yellow-head"
-                            style={activeLocale ==='ar' ? {right : '-40px', transform:'rotateY(180deg)'} : {left:'-40px'}}
-                            >
-                            <TitleHead/>
-                            </div>
-                           <h2  className="mil-h25  mil-center" dangerouslySetInnerHTML={{__html : t("servicesTitle1")}} />
-                           </span>
-                          
-                            <h2 className="mil-h25 mil-center" dangerouslySetInnerHTML={{__html :  t("servicesTitle2")}} />
-                        </div>
-
-                    </div>
-
-                    <div className="row mil-services-grid m-0">
-                        {Data.items.slice(0,4).map((item, key) => (
-                        <div key={`services-item-${key}`} className="col-md-6 col-lg-3 mil-services-grid-item p-0 " style={{position:'relative'}}>
-                               
-                            <Link href={item.link} className="mil-service-card-sm mil-up">
-                            <div className="mil-squares service-squares" style={activeLocale==='ar' ?{left:'4px'} : {right:'-4px'}}>
-                                    <span className="mil-square"></span>
-                                    <span className="mil-square"></span>
-                                    <span className="mil-square"></span>
-                                </div>
-                                <h5 className=" mil-mb-30" dangerouslySetInnerHTML={{__html : t(item.title)}} />
-                               <div>
-                                <Quotaions side={'right'} align={'right'} className="quotations"/>
-                               <p className="mil-mb-30">{item.text}</p>
-                               {/* <Quotaions side={'left'}  align={'right'}/> */}
-                               </div>
-                                <div className="mil-button mil-icon-button-sm mil-arrow-place">
-                                <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' , 'paddingTop' : '5px'} : {'transform' : 'rotate(0deg)' , 'paddingTop' : '5px'}} >
-                                <ArrowIcon />
-                                </div>
-                                </div>
-                            </Link>
-
-                        </div>
-                        ))}
-                    </div>
-                </div>
+      {/* services */}
+      <section id="servcise">
+        <div className="mi-invert-fix">
+          <div className="mil-animation-frame">
+            <div
+              className="mil-animation mil-position-1 mil-scale"
+              data-value-1="2.4"
+              data-value-2="1.4"
+              style={{ top: "300px", right: "-100px" }}
+            >
+              <Pentagon />
             </div>
-        </section>
-        {/* services end */}
+            <div
+              className="mil-animation mil-position-2 mil-scale"
+              data-value-1="2"
+              data-value-2="1"
+              style={{ left: "150px" }}
+            >
+              <Pentagon />
+            </div>
+          </div>
+          <div className="container mil-p-120-0">
+            <div className="mil-mb-120">
+              <div className="row">
+                <div className="col-lg-10">
+                  <span
+                    className="mil-suptitle-right mil-suptitle mil-suptitle-dark mil-up"
+                    dangerouslySetInnerHTML={{ __html: t("servicesSubtitle1") }}
+                  />
+                </div>
+              </div>
+
+              <div
+                className="mil-complex-text  justify-content-center mil-up mil-mb-15"
+                style={
+                  activeLocale === "ar"
+                    ? { flexDirection: "row", gap: "10px" }
+                    : { flexDirection: "column", gap: "10px" }
+                }
+              >
+                <span style={{ position: "relative" }}>
+                  <div
+                    className="title-yellow-head"
+                    style={
+                      activeLocale === "ar"
+                        ? { right: "-40px", transform: "rotateY(180deg)" }
+                        : { left: "-40px" }
+                    }
+                  >
+                    <TitleHead />
+                  </div>
+                  <h2
+                    className="mil-h25  mil-center"
+                    dangerouslySetInnerHTML={{ __html: t("servicesTitle1") }}
+                  />
+                </span>
+
+                <h2
+                  className="mil-h25 mil-center"
+                  dangerouslySetInnerHTML={{ __html: t("servicesTitle2") }}
+                />
+              </div>
+            </div>
+
+            <div className="row mil-services-grid m-0">
+              {Data.items.slice(0, 4).map((item, key) => (
+                <div
+                  key={`services-item-${key}`}
+                  className="col-md-6 col-lg-3 mil-services-grid-item p-0 "
+                  style={{ position: "relative" }}
+                >
+                  <Link href={item.link} className="mil-service-card-sm mil-up">
+                    <div
+                      className="mil-squares service-squares"
+                      style={
+                        activeLocale === "ar"
+                          ? { left: "4px" }
+                          : { right: "-4px" }
+                      }
+                    >
+                      <span className="mil-square"></span>
+                      <span className="mil-square"></span>
+                      <span className="mil-square"></span>
+                    </div>
+                    <h5
+                      className=" mil-mb-30"
+                      dangerouslySetInnerHTML={{ __html: t(item.title) }}
+                    />
+                    <div className="quotations">  <ABQuoations  /></div>
+                  
+                      <p className="mil-mb-30">{item.text}</p>
+                      {/* <Quotaions side={'left'}  align={'right'}/> */}
+                    <div className="mil-button mil-icon-button-sm mil-arrow-place">
+                      <div
+                        style={
+                          activeLocale === "ar"
+                            ? { transform: "rotate(180deg)", paddingTop: "5px" }
+                            : { transform: "rotate(0deg)", paddingTop: "5px" }
+                        }
+                      >
+                        <ArrowIcon />
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* services end */}
     </>
   );
 };

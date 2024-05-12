@@ -3,8 +3,6 @@ import Link from "next/link";
 import { useRouter } from 'next/router';
 import AppData from "@data/app.json";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
-import ArrowIcon from "@layouts/svg-icons/Arrow";
-import Pentagon from "@layouts/pentagon/Index";
 import { useLocale } from "@/utils/getLocale";
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
@@ -37,11 +35,8 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
       {/* banner */}
       <div className={paddingBottom ? "mil-inner-banner mil-p-0-120" : "mil-inner-banner"}>
         <div className={align == "center" ? "mil-banner-content mil-center mil-up" : "mil-banner-content mil-up"}>
-          {/* <div className="mil-animation-frame">
-            <div className="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="6" data-value-2="1.4"><Pentagon /></div>
-          </div> */}
           <div className="container">
-            <ul className={align == "center" ? "mil-breadcrumbs mil-center mil-mb-60" : "mil-breadcrumbs mil-mb-60"}>
+            <ul  className={align == "center" ? "mil-breadcrumbs mil-center mil-mb-60" : "mil-breadcrumbs mil-mb-60"}>
               <li><Link href="/">Homepage</Link></li>
               {asPath.indexOf('/blog/') != -1 &&
               <li>
@@ -88,12 +83,12 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
            </div>
           
             }
-            {anchorLink != 0 &&
+            {/* {anchorLink != 0 &&
             <a href={anchorLink} className="mil-link mil-dark mil-arrow-place mil-down-arrow" aria-label={"Link"}>
                 <span>{anchorLabel}</span>
                 <ArrowIcon />
             </a>
-            }
+            } */}
           </div>
         </div>
       </div>

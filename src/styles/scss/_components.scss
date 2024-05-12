@@ -230,12 +230,12 @@ frame
     @media screen and (max-width: 1200px) {
         padding: 0;
         z-index: 999;
-        height: 90px;
+        height: 100px;
     }
 
     & .mil-frame-top {
         @media screen and (max-width: 1200px) {
-            height: 90px;
+            height: 100px;
             background-color: $dark;
             border-bottom: solid 1px $lt-10;
             padding: 0 30px;
@@ -1416,7 +1416,8 @@ services
     padding: 60px 30px;
 
     & p {
-        opacity: 0.8;
+        opacity: 0;
+        transform: translateY(-10px);
         overflow: hidden;
         display: -webkit-box;
         color:$gs-30;
@@ -1425,9 +1426,9 @@ services
         -webkit-box-orient: vertical;
         transition: $t-md;
     }
-    & .quotations svg{
-        fill:$gs-30;
-        transform: scale(0.8);
+    & .quotations  {
+        transform-origin: 0%;
+        transform: scale(0) !important;
         transition: $t-md;
     }
     & .mil-button {
@@ -1469,10 +1470,10 @@ services
         & p {
             opacity: 1;
             color:$gs-70;
+            transform: translateY(0px);
         }
-        & .quotations svg{
-            fill:$accent;
-            transform: scale(1);
+        & .quotations  {
+            transform: scale(1) !important;
         }
         & .mil-button {
             transform: scale(1);
@@ -2858,3 +2859,10 @@ Button Language switch
   .break-on-en{
     display: block;
   }
+  .mil-link-contact{
+   color:#f2b807;
+  border-bottom: 2px solid #f2b807;;
+}
+.text-primary{
+    color: $accent
+}
