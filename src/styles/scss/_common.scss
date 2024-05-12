@@ -709,6 +709,92 @@ breadcrumbs
         justify-content: center;
     }
 }
+.mil-lines-highlight-en {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        right: calc(100% + 30px);
+        top: 20px;
+        width: 100vw;
+        height: 1px;
+        background-color: $dt-10;
+    }
+
+    & li {
+        list-style-type: none;
+
+       
+
+    }
+
+    &.mil-light {
+        &:before {
+            background-color: $lt-10;
+        }
+
+        & li {
+            &:after {
+                color: $lt-90;
+            }
+
+            & a {
+                &:hover {
+                    color: $accent !important;
+                }
+            }
+        }
+    }
+
+    &.mil-center {
+        justify-content: center;
+    }
+}
+.mil-lines-highlight-ar {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        left: calc(100% + 30px);
+        top: 20px;
+        width: 100vw;
+        height: 1px;
+        background-color: $dt-10;
+    }
+
+    & li {
+        list-style-type: none;
+
+       
+
+    }
+
+    &.mil-light {
+        &:before {
+            background-color: $lt-10;
+        }
+
+        & li {
+            &:after {
+                color: $lt-90;
+            }
+
+            & a {
+                &:hover {
+                    color: $accent !important;
+                }
+            }
+        }
+    }
+
+    &.mil-center {
+        justify-content: center;
+    }
+}
 
 
 /* -------------------------------------------
@@ -1021,7 +1107,7 @@ spaces
 }
 
 .service-image.reveal::before { 
-    transform: translateY(97%);
+    transform: translateY(98%);
 
 }
 
@@ -1038,8 +1124,13 @@ spaces
     text-align: center;
     display: block;
     font-style: italic;
-    border-bottom: 2px solid $accent;
+    color:#bf9d03;
     width: fit-content;
     font-weight: 500;
-    margin:20px auto;
+}
+.ab-quoations{
+    display: flex;
+    gap: 3px;
+    padding: 9px 0px;
+   
 }
