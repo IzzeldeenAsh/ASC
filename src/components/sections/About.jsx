@@ -12,11 +12,9 @@ const AboutSection = () => {
                         <div className="col-lg-6 col-xl-5">
                             <div className="mil-mb-90">
                                 <h2 className="mil-up mil-mb-60">
-                                {t("aboutDiscover")} <br/>{t("aboutOur")} <span className="mil-thin">{t("aboutWe")}</span>
+                                {t("aboutDiscover")} <br/>{t("aboutWe")} <span className="mil-thin"> {t("aboutOur")} </span>
                                 </h2>
-                                <div className="mil-text mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.description}} />
-                                <p >{t("aboutText1")}.</p>
-                                <p style={{padding:'40px 0'}}> {t("aboutText2")}.</p>
+                                <div className="mil-text mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.description.arabic : Data.description.english}} />
                                 <div className="mil-about-quote">
                                     <div className="mil-avatar mil-up">
                                         <img  src={Data.avatar.image} alt={Data.avatar.alt}  />

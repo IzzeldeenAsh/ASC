@@ -32,9 +32,8 @@
             },
             {
                 "label": "About",
-                "link": "/blog",
+                "link": "/about",
                 "children": [
-                  
                 ]
             },
             {

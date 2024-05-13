@@ -2860,3 +2860,22 @@ Button Language switch
 .text-primary {
   color: $accent;
 }
+
+/* -------------------------------------------
+
+Seach and filter
+
+------------------------------------------- */
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 25px;
+    gap: 10px;
+}
+.search-bar input{
+  width: fit-content;
+  background: none;
+  min-width: 250px;
+  border: 1px solid #c8c8c8;
+}

@@ -20,7 +20,6 @@ const DefaultHeader = ({ extraClass }) => {
     setActiveTab("/services")
    }
   },[asPath,navItems])
-console.log("asPath",asPath)
   const handleChildLinkClick =() =>{
     setToggle(false);
   }

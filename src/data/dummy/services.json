@@ -4,6 +4,7 @@
         { "imgURL" : "https://res.cloudinary.com/dsiku9ipv/image/upload/fl_preserve_transparency/v1714914124/serve_wol9hr.jpg?_s=public-apps",
             "id": "service-1",
             "contentHtml": "",
+            "sector": ["Transportation"],
             "title": {
               "english": "Smart Cities and Mobility",
               "arabic": "المدن الذكية والتنقل"
@@ -69,6 +70,7 @@
             "imgURL" : "https://firebasestorage.googleapis.com/v0/b/webartpath.appspot.com/o/futuristic-christmas-celebration-concept_23-2150979860.png?alt=media&token=cdd269f2-4cdf-4f3f-94b2-09857b157861",
             "id": "service-2",
             "contentHtml": "",
+            "sector": ["Information Technology (IT)"],
             "title": {
               "english": "Digital  Transformation",
               "arabic": "التحول الرقمي"
@@ -164,6 +166,7 @@
             "imgURL" : "",
             "id": "service-3",
             "contentHtml": "",
+            "sector": ["Energy and Sustainability"],
             "title": {
               "english": "Renewable Energy Transformation",
               "arabic": "تحويل الطاقة المتجددة"
@@ -206,6 +209,7 @@
             "imgURL": "",
             "id": "service-4",
             "contentHtml": "",
+            "sector": ["Industrial"],
             "title": {
               "english": "Sustainable Manufacturing",
               "arabic": "التصنيع المستدام"
@@ -269,6 +273,7 @@
             "imgURL": "",
             "id": "service-5",
             "contentHtml": "",
+            "sector": ["Agricultural"],
             "title": {
               "english": "Agriculture",
               "arabic": "الزراعة"
@@ -333,6 +338,7 @@
             "imgURL": "",
             "id": "service-6",
             "contentHtml": "",
+            "sector": ["Management Consulting"],
             "title": {
               "english": "Operations",
               "arabic": "العمليات"

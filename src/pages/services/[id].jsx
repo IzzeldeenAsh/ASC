@@ -62,6 +62,7 @@ const ServiceDetail = () => {
 
       {/* service */}
       <section id="service">
+       
         <div className="container mil-p-90-90">
           <div className="row justify-content-between">
             <div
@@ -120,7 +121,6 @@ const ServiceDetail = () => {
               />
               {postData.list.highlights.map((item, key) => (
                 <div key={`service-list-${key}`}>
-                 
                   <p
                     className="mil-up mil-mb-30 mil-text-gray-800"
                     dangerouslySetInnerHTML={{

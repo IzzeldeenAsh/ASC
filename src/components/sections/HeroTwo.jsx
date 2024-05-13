@@ -26,7 +26,7 @@ const HeroTwo = () => {
                                     <h1 className="mil-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
                                     <div className="row justify-content-center">
                                         <div className="col-lg-8">
-                                            <span className="mil-suptitle mil-suptitle-dark mil-mb-60" dangerouslySetInnerHTML={{__html : Data.text}} />
+                                            <span     style={{opacity: "0.7"}} className="mil-suptitle mil-suptitle-dark mil-mb-60" dangerouslySetInnerHTML={{__html : Data.text}} />
                                             <Link href={Data.button.link} className="mil-link mil-dark mil-arrow-place">
                                                 <span>{Data.button.label}</span>
                                                 <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)'} : {'transform' : 'rotate(0deg)'}} >
