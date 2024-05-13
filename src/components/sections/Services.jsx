@@ -34,8 +34,9 @@ const ServicesSection = () => {
             <div className="mil-mb-120">
               <div className="row">
                 <div className="col-lg-10">
-                  <span
+                  <span 
                     className="mil-suptitle-right mil-suptitle mil-suptitle-dark mil-up"
+                    style={{opacity: "0.7"}}
                     dangerouslySetInnerHTML={{ __html: t("servicesSubtitle1") }}
                   />
                 </div>

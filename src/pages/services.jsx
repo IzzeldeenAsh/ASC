@@ -7,6 +7,9 @@ import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
 import { useState , useEffect} from "react";
 import servicesData from "@data/dummy/services.json"
+import {  TextInput } from '@mantine/core';
+import { IoIosSearch } from "react-icons/io";
+import { Select } from '@mantine/core';
 const Services = () => {
 const {activeLocale , t} = useLocale();
 const LogoStyleAr= {
@@ -26,7 +29,22 @@ const LogoStyleEn= {
     height:'51px',
 }
 const [isMounted,setIsMounted] = useState(false); // Need this for the react-tooltip
+const [selectedSector , setSelectedSector] = useState('All');
+const [searchTerm,setSearchTerm] = useState('');
 const props = servicesData.services.sort((a, b) => b.list.items.length - a.list.items.length);
+const uniqueSectors = ['All', ...new Set(props.flatMap(service => service.sector))];
+const filteredProps = props.filter(service => {
+    const matchesSector = selectedSector === 'All' ||
+                          service.sector.some(s => s.toLowerCase() === selectedSector.toLowerCase());
+
+    // Search in both English and Arabic titles
+    const matchesSearch = searchTerm.trim() === '' ||
+                         service.title.english.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                         service.title.arabic.toLowerCase().includes(searchTerm.toLowerCase());
+
+    return matchesSector && matchesSearch;
+  });
+
 if(!props){
   return <div>...Loading</div>
 }
@@ -44,12 +62,36 @@ useEffect(() => {
 
       {/* services */}
       <section id="services">
+      <div className="search container ">
+           <div className="search-bar mil-up">
+           <TextInput 
+         onChange={(e) => setSearchTerm(e.target.value)}
+            label="Search"
+            leftSection={<IoIosSearch />}
+            styles={(theme) => ({
+        input: {
+          borderColor: '#666666', // Change border color
+        },
+      })} />
+           </div>
+           <div className="sector-filter search-bar mil-up">
+           <Select
+          onChange={setSelectedSector}
+          label="Sector"
+          data={uniqueSectors}
+          defaultValue={uniqueSectors[0]} // Default to 'All'
+          styles={(theme) => ({
+            input: { minWidth: '150px', borderColor: '#666666' },
+          })}
+        />
+           </div>
+        </div>
           <div className="mi-invert-fix">
-              <div className="container mil-p-120-60">
+              <div className="container mil-p-90-90">
                   <div className="row">
                       <div className="col-lg-12">
                           <div className="row">
-                              {props.map((item, key) => (
+                              {filteredProps.map((item, key) => (
                               <div className="col-md-4 col-lg-4 mil-mb-60" key={`services-item-${key}`}>
                                   <Link href={`/services/${item.id}`} className= "mil-service-card-lg mil-more mil-accent-cursor ">
                                       <h4 className="mil-muted mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale === 'en' ? item.preview_title.english :item.preview_title.arabic }} />

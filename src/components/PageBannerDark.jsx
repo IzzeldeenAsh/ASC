@@ -27,9 +27,9 @@ const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
       <div className="mil-inner-banner">
         <div className="mi-invert-fix">
           <div className="mil-banner-content mil-up">
-            <div className="mil-animation-frame">
+            {/* <div className="mil-animation-frame">
               <div className="mil-animation mil-position-4 mil-scale" data-value-1="6" data-value-2="1.4"><Pentagon /></div>
-            </div>
+            </div> */}
             <div className="container">
               <ul className="mil-breadcrumbs mil-light mil-mb-60">
                 <li><Link href="/">Homepage</Link></li>

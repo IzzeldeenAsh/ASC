@@ -16,7 +16,7 @@ const TestimonialSlider = () => {
 
               <div className="row">
                   <div className="col-lg-10">
-                      <span className="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
+                      <span     style={{opacity: "0.7"}} className="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
                   </div>
               </div>
 

@@ -1,19 +1,30 @@
+import React from 'react'
 import Layouts from "@layouts/Layouts";
-import { getAllPostsIds, getPostData, getRelatedPosts } from "@library/posts";
 import Date from '@library/date';
 import PageBanner from "@components/PageBanner";
 import RelatedPostsSection from "@components/sections/RelatedPosts";
+import { useMemo } from 'react';
+import  { useLocale } from '@/utils/getLocale';
+import aboutData from "@/src/data/sections/aboutUs.json" 
+const about = () => {
+  const postData = aboutData;
+  const {activeLocale} = useLocale();
+  const bannerData = useMemo(() => ({
+    pageTitle: activeLocale === 'ar' ? postData.introTitle.arabic : postData.introTitle.english,
+    breadTitle: activeLocale === 'ar' ? postData.title.arabic : postData.title.english }), [postData, activeLocale]);
 
-const PostsDetail = ( props ) => {
-
-  const postData = props.data;
 
   return (
     <Layouts>
-      <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} align={"center"} headingSize={2} />
+      <PageBanner 
+      pageTitle={bannerData.pageTitle}
+      breadTitle={bannerData.breadTitle}
+      align={"center"} 
+      headingSize={2} 
+    />
       
       {/* publication */}
-      <section id="blog">
+      {/* <section id="blog">
           <div className="container mil-p-120-90">
               <div className="row justify-content-center">
                   <div className="col-lg-12">
@@ -63,32 +74,12 @@ const PostsDetail = ( props ) => {
                   </div>
               </div>
           </div>
-      </section>
+      </section> */}
       {/* publication end */}
 
-      <RelatedPostsSection items={props.related} />
+      {/* <RelatedPostsSection items={props.related} /> */}
     </Layouts>
-  );
-};
-export default PostsDetail;
-
-export async function getStaticPaths() {
-    const paths = getAllPostsIds()
-
-    return {
-      paths,
-      fallback: false
-    }
+  )
 }
 
-export async function getStaticProps({ params }) {
-    const postData = await getPostData(params.id)
-    const relatedPosts = await getRelatedPosts(params.id)
-
-    return {
-      props: {
-        data: postData,
-        related: relatedPosts
-      }
-    }
-}
+export default about

@@ -8,6 +8,9 @@
         "alt": "Founder"
     },
     "title": "Discover <br/>Our <span class=\"mil-thin\">Studio</span>",
-    "description": "",
+    "description": {
+        "english": "<p>We have accumulated a wealth of diverse yet integrated expertise that offers solutions to a wide range of sectors. <br><br> With our consulting -expert-led solutions to the private and government sectors, we benchmark and brainstorm the available opportunities and carry out intensive market intelligence to help our clients achieve unrivaled success.<br><br> our Motivation stems from our commitment to helping our communities develop economically and environmentally.</p>",
+        "arabic": "<p>لقد تراكمت لدينا ثروة من الخبرات المتنوعة والمتكاملة التي تقدم حلولًا لمجموعة واسعة من القطاعات. <br><br> مع حلولنا الاستشارية الخبيرة للقطاعين الخاص والحكومي ، نقوم بتحديد المعايير ونقوم بإجراء تفكير استراتيجي للفرص المتاحة ونقوم بإجراء استخبارات السوق الشاملة لمساعدة عملائنا على تحقيق نجاح لا مثيل له. <br><br> ينبع دافعنا من التزامنا بمساعدة مجتمعاتنا على التطور اقتصاديًا وبيئيًا.</p>"
+    },
     "subtitle": "Passionately Creating <span class=\"mil-thin\">Design Wonders:</span> Unleashing <span class=\"mil-thin\">Boundless Creativity</span>"
 }
