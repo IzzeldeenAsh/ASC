@@ -26,6 +26,14 @@ const MenuServicesList = ({onLinkClick}) => {
          </Link>
        </li>
      ))}
+      <li>
+         <Link
+         href={`/services`} 
+           className="mil-light-soft text-primary"
+         >
+           {activeLocale==='ar' ? "قائمة الخدمات " : "Services List" }
+         </Link>
+       </li>
     </ul>
     </>
   )

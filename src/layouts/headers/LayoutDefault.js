@@ -7,7 +7,6 @@ import Pentagon from "@layouts/pentagon/Index";
 import LanguageSwitch from "../../components/LanguageSwitch";
 import Image from "next/image";
 import MenuServicesList from "@/src/components/MenuServicesList";
-import MenuSectorsList from "@/src/components/MenuSectorsList"
 const DefaultHeader = ({ extraClass }) => {
   const [toggle, setToggle] = useState(false);
   const [activeTab ,setActiveTab] = useState("")
