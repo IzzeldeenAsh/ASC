@@ -18,7 +18,7 @@ body {
     margin: 0;
     font-size: $text;
     font-weight: 300;
-    color: $dt-50;
+    color: $dt-70;
     line-height: 150%;
     overscroll-behavior: none;
     @media screen and (max-width: 768px) {
@@ -812,7 +812,7 @@ backgrounds
         pointer-events: none;
         z-index: 2;
         backdrop-filter: invert(100%);
-
+        -webkit-backdrop-filter: invert(100%);
     }
     & .mi-invert-fix {
         height: 100%;
@@ -821,7 +821,6 @@ backgrounds
         z-index: 3;
         & .container {
             pointer-events: all;
-            
         }
     }
 }

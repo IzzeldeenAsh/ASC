@@ -73,13 +73,13 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
            
             }
             {headingSize == 2 &&
-            <div style={{position:'relative'}}>
+            <div style={{position:'relative',width:"fit-content",margin:"0 auto"}}>
             <div className="title-yellow-head"
             style={activeLocale ==='ar' ? {right : '-40px', transform:'rotateY(180deg)'} : {left:'-40px'}}
             >
             <TitleHead/>
             </div>
-            <h2 className={anchorLink != 0 ? "mil-mb-60" : ""} dangerouslySetInnerHTML={{__html : pageTitle}} />
+            <h2   className={anchorLink != 0 ? "mil-mb-60" : ""} dangerouslySetInnerHTML={{__html : pageTitle}} />
            </div>
           
             }
