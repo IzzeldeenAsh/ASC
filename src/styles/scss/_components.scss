@@ -1213,7 +1213,19 @@ dodecahedron
 about
 
 ------------------------------------------- */
+.mil-avatar {
+  /* Modern outline properties */
+  outline: 1px solid $accent; 
+  outline-offset: 0;
+  transition: outline-offset 0.1s ease-in-out, outline 0.12s ease-in-out; /* Transition both */
+  cursor: pointer;
+}
 
+.mil-avatar:hover {
+  outline-offset: 2px;
+  outline: 2px solid $accent; 
+  /* Fallback for older browsers (IE) */
+}
 .mil-about-quote {
   display: flex;
   justify-content: space-between;
@@ -1224,7 +1236,8 @@ about
     height: 90px;
     border-radius: 50%;
     position: relative;
-
+    transition: all 0.2 ease-in-out;
+ 
     &:after {
       content: ' " ';
       color: $dark;
@@ -1631,8 +1644,7 @@ team
   position: relative;
   overflow: hidden;
   padding-bottom: 130%;
-   background-color: #F6D84D;
-  // background-color:#E8ECEE;
+  background-color:#E8ECEE;
   &:after {
     content: "";
     position: absolute;
@@ -1673,7 +1685,7 @@ team
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 60px 30px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
