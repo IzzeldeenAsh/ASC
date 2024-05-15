@@ -399,7 +399,7 @@ a {
     overflow: hidden;
     width: 100%;
     padding-bottom: 140%;
-
+  
     & img {
         position: absolute;
         top: 0;
@@ -409,6 +409,7 @@ a {
         object-fit: cover;
         object-position: center;
     }
+  
 }
 
 /* -------------------------------------------

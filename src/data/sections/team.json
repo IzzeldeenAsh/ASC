@@ -1,25 +1,40 @@
 {
     "title": "Meet <br>Our Team",
+    "avatar": {
+        "image": "/img/faces/khaldoun-zomot.png",
+        "alt": "CEO & CO-Founder"
+    },
     "description": "<p>We are talented individuals who are passionate about bringing ideas to life. With a diverse range of backgrounds and skill sets, we collaborate to produce effective solutions for our clients.</p><p>Together, our creative team is committed to delivering impactful work that exceeds expectations.</p>",
-    "subtitle": "<span class=\"mil-thin\">We</span> delivering <br><span class=\"mil-thin\">exceptional</span> results.",
+    "subtitle": "<span class=\"mil-thin\"></span> Khaldun Zomot <br><span class=\"mil-thin\">CEO</span> ",
     "button": {
         "link": "/team",
-        "label": "Read more"
+        "label": {
+            "english":"View All Staff",
+            "arabic": "تعرَف على الفريق"
+        }
     },
     "note": "",
     "col1_items": [
         {
-            "image": "/img/faces/1.png",
-            "name": "Khaldun Zomot",
-            "role": "CEO & CO-FOUNDER",
+            "image": "/img/faces/Ateef.png",
+            "name": "Dr. Atef Abu Al-Rub",
+            "role": "Consultant",
             "social": [
               
             ]
         },
         {
-            "image": "/img/faces/4.png",
-            "name": "Oscar Freeman",
-            "role": "Frontend Dev",
+            "image": "/img/faces/Maher.png",
+            "name": "Dr. Maher Khudr",
+            "role": "Consultant",
+            "social": [
+               
+            ]
+        },
+        {
+            "image": "/img/faces/mahmoud-zomot.png",
+            "name": "Mohammed Zomot",
+            "role": "Consultant",
             "social": [
                
             ]
@@ -27,35 +42,51 @@
     ],
     "col2_items": [
         {
-            "image": "/img/faces/2.png",
-            "name": "Emma Newman",
-            "role": "Founder",
+            "image": "/img/faces/Adeeb.png",
+            "name": "Dr. Adeeb Al-Saify",
+            "role": "Consultant",
             "social": [
               
             ]
         },
         {
-            "image": "/img/faces/5.jpg",
-            "name": "Lisa Trueman",
-            "role": "UI/UX Designer",
+            "image": "/img/faces/Nasim-zomot.png",
+            "name": "Dr. Nasim Zomot",
+            "role": "Consultant",
             "social": [
                 
+            ]
+        },
+        {
+            "image": "/img/faces/ramahi.png",
+            "name": "Mahmmoud Alramahi",
+            "role": "Consultant",
+            "social": [
+               
             ]
         }
     ],
     "col3_items": [
         {
-            "image": "/img/faces/3.png",
-            "name": "Emma Newman",
-            "role": "Founder",
+            "image": "/img/faces/singlaoy.png",
+            "name": "Dr. Omar Singlawi",
+            "role": "Consultant",
             "social": [
                
             ]
         },
         {
-            "image": "/img/faces/6.jpg",
-            "name": "Lisa Trueman",
-            "role": "UI/UX Designer",
+            "image": "/img/faces/Zreaqat.png",
+            "name": "Dr. Mohammed Alzrikaat",
+            "role": "Consultant",
+            "social": [
+               
+            ]
+        },
+        {
+            "image": "/img/faces/Rami-Hamam.png",
+            "name": "Rami Hamam",
+            "role":"Consultant",
             "social": [
                
             ]

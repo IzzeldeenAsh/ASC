@@ -16,12 +16,7 @@ const AboutSection = () => {
                                 {t("aboutDiscover")} <br/>{t("aboutWe")} <span className="mil-thin"> {t("aboutOur")} </span>
                                 </h2>
                                 <div className="mil-text mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.description.arabic : Data.description.english}} />
-                                <div className="mil-about-quote">
-                                    <div className="mil-avatar mil-up">
-                                        <img  src={Data.avatar.image} alt={Data.avatar.alt}  />
-                                    </div>
-                                    <h6 className="mil-quote mil-up"  style={activeLocale ==='ar' ? {'paddingRight' : '30px'} : {'paddingLeft' : '30px'}} dangerouslySetInnerHTML={{__html : Data.subtitle}} />
-                                </div>
+                               
                             </div>
                             <div className="mil-up">
                             <Link href={Data.button.link} className="mil-button mil-arrow-place mil-mb-60"><span>{Data.button.label}</span>

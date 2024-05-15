@@ -1,7 +1,6 @@
 import Data from "@data/sections/team.json";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
-import LinesIcon from "@layouts/svg-icons/Lines";
 import { useLocale } from "@/utils/getLocale";
 const TeamSection = () => {
   const { activeLocale, t } = useLocale();
@@ -18,16 +17,22 @@ const TeamSection = () => {
                   dangerouslySetInnerHTML={{ __html: Data.title }}
                 />
                 <div
-                  className="mil-text mil-up mil-mb-60"
+                  className="mil-text mil-up mil-mb-30 "
                   dangerouslySetInnerHTML={{ __html: Data.description }}
                 />
-
+     <div className="mil-about-quote mil-mb-60">
+                                    <Link href={"/"} className="mil-avatar mil-up">
+                                        <img  src={Data.avatar.image} alt={Data.avatar.alt}  />
+                                    </Link>
+                                    <h6 className="mil-quote mil-up"  style={activeLocale ==='ar' ? {'paddingRight' : '30px'} : {'paddingLeft' : '30px'}} dangerouslySetInnerHTML={{__html : Data.subtitle}} />
+                                </div>
                 <div className="mil-up">
                   <Link
                     href={Data.button.link}
                     className="mil-button mil-arrow-place mil-mb-60"
                   >
-                    <span>{Data.button.label}</span>
+                    <span>{activeLocale ==="ar" ? Data.button.label.arabic : Data.button.label.english}</span>
+                    
                     <div
                       style={
                         activeLocale === "ar"
@@ -40,18 +45,11 @@ const TeamSection = () => {
                   </Link>
                 </div>
 
-                <h4
-                  className="mil-up"
-                  dangerouslySetInnerHTML={{ __html: Data.subtitle }}
-                />
+           
               </div>
             </div>
             <div className="col-lg-6">
               <div className="mil-team-list">
-                {/* <div className="mil-lines-place">
-                                <LinesIcon />
-                            </div> */}
-
                 <div className="row mil-mb-60">
                   <div className="col-sm-4">
                     {Data.col1_items.map((item, key) => (
@@ -71,7 +69,7 @@ const TeamSection = () => {
                         <img src={item.image} alt={item.name} />
                         <div className="mil-description">
                           <div className="mil-secrc-text">
-                            <h5 className="mil-muted mil-mb-5">{item.name}</h5>
+                            <h6 className="mil-muted">{item.name}</h6>
                             <p className="mil-link mil-light-soft mil-mb-10">
                               {item.role}
                             </p>
@@ -101,7 +99,7 @@ const TeamSection = () => {
                   <div className="col-sm-4">
                     <p
                       className="mil-mobile-hidden mil-text-sm mil-mb-30"
-                      style={{ height: "30px" }}
+                      style={{ height: "20px" }}
                       dangerouslySetInnerHTML={{ __html: Data.note }}
                     />
 
@@ -196,6 +194,7 @@ const TeamSection = () => {
                       </div>
                     ))}
                   </div>
+                  
                 </div>
               </div>
             </div>
