@@ -1,5 +1,6 @@
 import Data from "@data/sections/about.json";
-import LinesIcon from "@layouts/svg-icons/Lines";
+import Link from "next/link";
+import ArrowIcon from "@layouts/svg-icons/Arrow";
 import  { useLocale } from '@/utils/getLocale';
 const AboutSection = () => {
     const {activeLocale, t} = useLocale();
@@ -10,7 +11,7 @@ const AboutSection = () => {
                 <div className="container mil-p-120-30">
                     <div className="row justify-content-between align-items-center">
                         <div className="col-lg-6 col-xl-5">
-                            <div className="mil-mb-90">
+                            <div className="mil-mb-60">
                                 <h2 className="mil-up mil-mb-60">
                                 {t("aboutDiscover")} <br/>{t("aboutWe")} <span className="mil-thin"> {t("aboutOur")} </span>
                                 </h2>
@@ -22,6 +23,12 @@ const AboutSection = () => {
                                     <h6 className="mil-quote mil-up"  style={activeLocale ==='ar' ? {'paddingRight' : '30px'} : {'paddingLeft' : '30px'}} dangerouslySetInnerHTML={{__html : Data.subtitle}} />
                                 </div>
                             </div>
+                            <div className="mil-up">
+                            <Link href={Data.button.link} className="mil-button mil-arrow-place mil-mb-60"><span>{Data.button.label}</span>
+                            <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' , 'display' : 'flex'} : {'transform' : 'rotate(0deg)' ,'display' : 'flex'}} >
+                                <ArrowIcon  />
+                                </div>
+                            </Link></div>
 
                         </div>
                         <div className="col-lg-5">
@@ -36,6 +43,7 @@ const AboutSection = () => {
                             </div>
 
                         </div>
+                    
                     </div>
                 </div>
             </section>

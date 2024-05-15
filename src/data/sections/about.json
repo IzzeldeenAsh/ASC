@@ -1,10 +1,10 @@
 {
     "image": {
-        "url": "/img/photo/1.jpg",
+        "url": "https://img.freepik.com/free-photo/front-view-off-office-desk_23-2149034544.jpg?t=st=1715707943~exp=1715711543~hmac=a2390fbff3154ba37365479f269c5a6771410930fde4abf094015f3cac098492&w=900",
         "alt": "img"
     },
     "avatar": {
-        "image": "/img/faces/customers/2.jpg",
+        "image": "https://res-console.cloudinary.com/dsiku9ipv/thumbnails/v1/image/upload/v1715708301/S2hhbGR1bl9ab21vdF91NmpvMGo=/drilldown",
         "alt": "Founder"
     },
     "title": "Discover <br/>Our <span class=\"mil-thin\">Studio</span>",
@@ -12,5 +12,9 @@
         "english": "<p>We have accumulated a wealth of diverse yet integrated expertise that offers solutions to a wide range of sectors. <br><br> With our consulting -expert-led solutions to the private and government sectors, we benchmark and brainstorm the available opportunities and carry out intensive market intelligence to help our clients achieve unrivaled success.<br><br> our Motivation stems from our commitment to helping our communities develop economically and environmentally.</p>",
         "arabic": "<p>لقد تراكمت لدينا ثروة من الخبرات المتنوعة والمتكاملة التي تقدم حلولًا لمجموعة واسعة من القطاعات. <br><br> مع حلولنا الاستشارية الخبيرة للقطاعين الخاص والحكومي ، نقوم بتحديد المعايير ونقوم بإجراء تفكير استراتيجي للفرص المتاحة ونقوم بإجراء استخبارات السوق الشاملة لمساعدة عملائنا على تحقيق نجاح لا مثيل له. <br><br> ينبع دافعنا من التزامنا بمساعدة مجتمعاتنا على التطور اقتصاديًا وبيئيًا.</p>"
     },
-    "subtitle": "Passionately Creating <span class=\"mil-thin\">Design Wonders:</span> Unleashing <span class=\"mil-thin\">Boundless Creativity</span>"
+    "subtitle": "Passionately Creating <span class=\"mil-thin\">Design Wonders:</span> Unleashing <span class=\"mil-thin\">Boundless Creativity</span>",
+    "button":{
+        "link": "/about",
+        "label": "Read more"
+    }
 }

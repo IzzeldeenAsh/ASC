@@ -1631,7 +1631,8 @@ team
   position: relative;
   overflow: hidden;
   padding-bottom: 130%;
-
+   background-color: #F6D84D;
+  // background-color:#E8ECEE;
   &:after {
     content: "";
     position: absolute;
@@ -2888,6 +2889,7 @@ Timeline
   display: flex;
   background-color: #F2F2F2;
   padding: 0 100px;
+
   &:hover {
     .tl-item {
       width: 23.3333%;

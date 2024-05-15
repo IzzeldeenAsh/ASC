@@ -6,116 +6,58 @@
         "link": "/team",
         "label": "Read more"
     },
-    "note": "<span class=\"mil-accent\">*</span> The founders of our agency",
+    "note": "",
     "col1_items": [
         {
-            "image": "/img/faces/1.jpg",
-            "name": "Anna Oldman",
-            "role": "Art Director",
+            "image": "/img/faces/1.png",
+            "name": "Khaldun Zomot",
+            "role": "CEO & CO-FOUNDER",
             "social": [
-                {
-                    "icon": "fab fa-behance",
-                    "link": "https://behance.com",
-                    "title": "behance"
-                },
-                {
-                    "icon": "fab fa-dribbble",
-                    "link": "https://dribbble.com",
-                    "title": "dribbble"
-                },
-                {
-                    "icon": "fab fa-twitter",
-                    "link": "https://twitter.com",
-                    "title": "twitter"
-                },
-                {
-                    "icon": "fab fa-github",
-                    "link": "https://github.com",
-                    "title": "github"
-                }
+              
             ]
         },
         {
-            "image": "/img/faces/3.jpg",
+            "image": "/img/faces/4.png",
             "name": "Oscar Freeman",
             "role": "Frontend Dev",
             "social": [
-                {
-                    "icon": "fab fa-behance",
-                    "link": "https://behance.com",
-                    "title": "behance"
-                },
-                {
-                    "icon": "fab fa-dribbble",
-                    "link": "https://dribbble.com",
-                    "title": "dribbble"
-                },
-                {
-                    "icon": "fab fa-twitter",
-                    "link": "https://twitter.com",
-                    "title": "twitter"
-                },
-                {
-                    "icon": "fab fa-github",
-                    "link": "https://github.com",
-                    "title": "github"
-                }
+               
             ]
         }
     ],
     "col2_items": [
         {
-            "image": "/img/faces/2.jpg",
+            "image": "/img/faces/2.png",
             "name": "Emma Newman",
             "role": "Founder",
             "social": [
-                {
-                    "icon": "fab fa-behance",
-                    "link": "https://behance.com",
-                    "title": "behance"
-                },
-                {
-                    "icon": "fab fa-dribbble",
-                    "link": "https://dribbble.com",
-                    "title": "dribbble"
-                },
-                {
-                    "icon": "fab fa-twitter",
-                    "link": "https://twitter.com",
-                    "title": "twitter"
-                },
-                {
-                    "icon": "fab fa-github",
-                    "link": "https://github.com",
-                    "title": "github"
-                }
+              
             ]
         },
         {
-            "image": "/img/faces/4.jpg",
+            "image": "/img/faces/5.jpg",
             "name": "Lisa Trueman",
             "role": "UI/UX Designer",
             "social": [
-                {
-                    "icon": "fab fa-behance",
-                    "link": "https://behance.com",
-                    "title": "behance"
-                },
-                {
-                    "icon": "fab fa-dribbble",
-                    "link": "https://dribbble.com",
-                    "title": "dribbble"
-                },
-                {
-                    "icon": "fab fa-twitter",
-                    "link": "https://twitter.com",
-                    "title": "twitter"
-                },
-                {
-                    "icon": "fab fa-github",
-                    "link": "https://github.com",
-                    "title": "github"
-                }
+                
+            ]
+        }
+    ],
+    "col3_items": [
+        {
+            "image": "/img/faces/3.png",
+            "name": "Emma Newman",
+            "role": "Founder",
+            "social": [
+               
+            ]
+        },
+        {
+            "image": "/img/faces/6.jpg",
+            "name": "Lisa Trueman",
+            "role": "UI/UX Designer",
+            "social": [
+               
             ]
         }
     ]
