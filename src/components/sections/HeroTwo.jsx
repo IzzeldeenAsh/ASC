@@ -4,7 +4,7 @@ import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
 import { useLocale } from "@/utils/getLocale";
 const HeroTwo = () => {
-   
+    const {activeLocale, t} = useLocale();
     return (
         <>
             {/* banner */}

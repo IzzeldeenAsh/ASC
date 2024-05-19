@@ -14,17 +14,17 @@ const TeamSection = () => {
               <div className="mil-mb-90">
                 <h2
                   className="mil-up mil-mb-60"
-                  dangerouslySetInnerHTML={{ __html: Data.title }}
+                  dangerouslySetInnerHTML={{ __html: activeLocale ==="ar" ? Data.title.arabic : Data.title.english }}
                 />
                 <div
                   className="mil-text mil-up mil-mb-30 "
-                  dangerouslySetInnerHTML={{ __html: Data.description }}
+                  dangerouslySetInnerHTML={{ __html: activeLocale ==="ar" ? Data.description.arabic : Data.description.english  }}
                 />
      <div className="mil-about-quote mil-mb-60">
                                     <Link href={"/CEO-Word"} className="mil-avatar mil-up">
                                         <img  src={Data.avatar.image} alt={Data.avatar.alt}  />
                                     </Link>
-                                    <h6 className="mil-quote mil-up"  style={activeLocale ==='ar' ? {'paddingRight' : '30px'} : {'paddingLeft' : '30px'}} dangerouslySetInnerHTML={{__html : Data.subtitle}} />
+                                    <h7 className="mil-quote mil-up"  style={activeLocale ==='ar' ? {'paddingRight' : '30px'} : {'paddingLeft' : '30px'}} dangerouslySetInnerHTML={{__html : activeLocale ==="ar" ?  Data.subtitle.arabic :Data.subtitle.english }} />
                                 </div>
                 <div className="mil-up">
                   <Link
@@ -69,8 +69,8 @@ const TeamSection = () => {
                         <img src={item.image} alt={item.name} />
                         <div className="mil-description">
                           <div className="mil-secrc-text">
-                            <h6 className="mil-muted">{item.name}</h6>
-                            <p className="mil-link mil-light-soft mil-mb-10">
+                            <h6 className="mil-muted"  style={{"fontSize":"14px"}}>{item.name}</h6>
+                            <p className="mil-link mil-light-soft mil-mb-10" style={{"fontSize":"12px"}}>
                               {item.role}
                             </p>
                             <ul className="mil-social-icons mil-center">
@@ -120,8 +120,8 @@ const TeamSection = () => {
                         <img src={item.image} alt={item.name} />
                         <div className="mil-description">
                           <div className="mil-secrc-text">
-                            <h5 className="mil-muted mil-mb-5">{item.name}</h5>
-                            <p className="mil-link mil-light-soft mil-mb-10">
+                            <h6  style={{"fontSize":"14px"}} className="mil-muted mil-mb-5">{item.name}</h6>
+                            <p   className="mil-h7 mil-link mil-light-soft mil-mb-10" style={{"fontSize":"12px"}}>
                               {item.role}
                             </p>
                             <ul className="mil-social-icons mil-center">
@@ -169,8 +169,8 @@ const TeamSection = () => {
                         <img src={item.image} alt={item.name} />
                         <div className="mil-description">
                           <div className="mil-secrc-text">
-                            <h5 className="mil-muted mil-mb-5">{item.name}</h5>
-                            <p className="mil-link mil-light-soft mil-mb-10">
+                            <h6  style={{"fontSize":"14px"}} className="mil-muted mil-mb-5">{item.name}</h6>
+                            <p  className="mil-link mil-light-soft mil-mb-10" style={{"fontSize":"12px"}}>
                               {item.role}
                             </p>
                             <ul className="mil-social-icons mil-center">

@@ -1,0 +1,291 @@
+{
+    "TeamData" : [
+        {
+            "image": "/img/faces/staff/idk.png",
+            "name": "Kamal Eghrayeb",
+            "role": "Agricultural consultant"
+            
+        },
+        {
+            "image": "/img/faces/staff/Ameen-ghanayem.png",
+            "name": "Ameen Ghanayem",
+            "role": "IT consultant"
+            
+        },
+        {
+            "image": "/img/faces/staff/Bahaa-othman.png",
+            "name": "Bahaa Othman",
+            "role": "HR consultant"
+            
+        },
+        {
+            "image": "/img/faces/staff/emad-nasser.png",
+            "name": "Emad Nasser",
+            "role": "Head of Business Development Dep."
+           
+        },
+        {
+            "image": "/img/faces/staff/rand-hamam.png",
+            "name": "Rand Hmam",
+            "role": "Senior Business Analyst."
+            
+        },
+        
+        {
+            "image": "/img/faces/staff/ALKHUDARI.png",
+            "name": "Mohammad Alkhudari",
+            "role": "Cybersecurity consultant"
+            
+        },
+        {
+            "image": "/img/faces/staff/Miias.png",
+            "name": "Mohammad Myyas",
+            "role": "Project Coordinator."
+           
+        },
+        {
+            "image": "/img/faces/staff/awad-salem.png",
+            "name": "Awad Salem",
+            "role": "HRM & Director."
+           
+        },
+        {
+            "image": "/img/faces/staff/Rami-Obaidat.png",
+            "name": "Rami Obaidat",
+            "role": "Accountant."            
+        },
+        {
+            "image": "/img/faces/staff/Ahmed-obeidat.png",
+            "name": "Ahmad Obeidat",
+            "role": "Accountant."            
+        },
+        {
+            "image": "/img/faces/staff/Roaa-Abed-Al-Mahmoud.png",
+            "name": "Ro`a Al Mahmood",
+            "role": "Head of Governance and Project Management Dep."
+           
+        },
+          {
+            "image": "/img/faces/staff/Rofaida-Alokour.png",
+            "name": "Rofaida Okour",
+            "role": "Head of Investment Strategies Dep."
+           
+        },
+        {
+            "image": "/img/faces/staff/Motaz-B-Hamad.png",
+            "name": "Moataz Banihamad",
+            "role": "Head of Feasibility Studies."
+           
+        },
+        {
+            "image": "/img/faces/staff/marma.png",
+            "name": "Maram Eleemat",
+            "role": "Business Analyst."
+           
+        },
+        {
+            "image": "/img/faces/staff/Jowan_ALsaeed.png",
+            "name": "Jewan Al-Said",
+            "role": "Business Analyst."
+           
+        },
+        {
+            "image": "/img/faces/staff/Dana-Ibrahim.png",
+            "name": "Dana Al-Haj Ebrahem",
+            "role": "Senior Business Analyst."
+           
+        },
+        {
+            "image": "/img/faces/staff/Sfaa-A-badarneh.png",
+            "name": "Safa’ Al-Badarneh",
+            "role": "Senior Business Analyst."
+           
+        },
+        {
+            "image": "/img/faces/staff/Nibras-fawzy.png",
+            "name": "Nibras-fawzy",
+            "role": "Sr. BI analyst."
+           
+        },
+        {
+            "image": "/img/faces/staff/Rahaf-Khassawneh.png",
+            "name": "Rahaf Khassawneh",
+            "role": "Studies Manager."
+            
+        },
+        {
+            "image": "/img/faces/staff/Abdulrahman-al-taher.png",
+            "name": "Abdulrahman Al-taher",
+            "role": "Sr. Project Manager."
+            
+        },
+        {
+            "image": "/img/faces/staff/Shatha_Alraba_a.png",
+            "name": "Shatha Al-Rabaa.",
+            "role": "Head of Market Study Dep."
+            
+        },
+        {
+            "image": "/img/faces/staff/Bahaa.png",
+            "name": "Baha' Al-Omari.",
+            "role": "Junior Business Analyst."
+            
+        },
+        {
+            "image": "/img/faces/staff/Nadeen.png",
+            "name": "Nadeen Alsmadi",
+            "role": "Junior Business Analyst"
+            
+        },
+        {
+            "image": "/img/faces/staff/Ali.png",
+            "name": "Ali Mahmoud",
+            "role": "Junior Business Analyst"
+            
+        },
+        {
+            "image": "/img/faces/staff/Maeen_tneshat.png",
+            "name": "Maen Tubieshat",
+            "role": "Junior Business Analyst"
+            
+        },
+        {
+            "image": "/img/faces/staff/LOUI_BANI-MFRREJ.png",
+            "name": "Loui Bani Mfrrej",
+            "role": "Junior Business Analyst"
+            
+        },
+        {
+            "image": "/img/faces/staff/alaa-alqady.png",
+            "name": "Alaa Al-Qady",
+            "role": "Business Analyst"
+            
+        },
+        {
+            "image": "/img/faces/staff/Dina-Baniyasin.png",
+            "name": "Dina Baniyasin",
+            "role": "Junior Business Analyst"
+            
+        },
+        {
+            "image": "/img/faces/staff/Laith_Obeidat.png",
+            "name": "Laith Obeidat",
+            "role": "Business Analyst"
+            
+        },
+        {
+            "image": "/img/faces/staff/saba.png",
+            "name": "Saba Ibrahim",
+            "role": "Junior Business Analyst"
+            
+        },
+        {
+            "image": "/img/faces/staff/LEEN_AL-JAYOUSI.png",
+            "name": "Leen Jayousi",
+            "role": "Junior Business Analyst"
+            
+        },
+        {
+            "image": "/img/faces/staff/ahmed-alhamori.png",
+            "name": "Ahmad Alhamouri",
+            "role": "Head of the Export Studies Dep."
+            
+        },
+        {
+            "image": "/img/faces/staff/ahmed-abu-assi.png",
+            "name": "Ahmad Abuassi",
+            "role": "Senior Business Analyst."
+            
+        },
+        {
+            "image": "/img/faces/staff/saga.png",
+            "name": "Saja Hazaimeh",
+            "role": "Junior Business Analyst."
+            
+        },
+        {
+            "image": "/img/faces/staff/Hamzeh-Alkhaldi.png",
+            "name": "Hamza Al-khaldi",
+            "role": "Head of Database Dep."
+            
+        },
+        {
+            "image": "/img/faces/staff/zain.png",
+            "name": "Zein Almomani",
+            "role": "Business Analyst."
+            
+        },
+        {
+            "image": "/img/faces/staff/raya.png",
+            "name": "Raya Aldohni",
+            "role": "Data Analyst."
+            
+        },
+        {
+            "image": "/img/faces/staff/Hanen.png",
+            "name": "Haneen Abu Alhaija",
+            "role": "Data Analyst."
+            
+        },
+        {
+            "image": "/img/faces/staff/Sewar-Aljarrah.png",
+            "name": "Sewar Al-Jarrah",
+            "role": "Business Analysis and Research Specialist."
+            
+        },
+        {
+            "image": "/img/faces/staff/Odai.png",
+            "name": "Audai Al-Saedeen",
+            "role": "Business Analyst."
+            
+        },
+        {
+            "image": "/img/faces/staff/abdulrazzaq.png",
+            "name": "Abdel Razzaq Alrababah",
+            "role": "Data Analyst."
+            
+        },
+        {
+            "image": "/img/faces/staff/Ola-Abdalla.png",
+            "name": "Ola Abdallah",
+            "role": "Senior Data Analyst."
+            
+        },
+        {
+            "image": "/img/faces/staff/Wasan-Yaqob.png",
+            "name": "Wasan Yacoub",
+            "role": "Senior Data Analyst."
+            
+        },
+        {
+            "image": "/img/faces/staff/anwar.png",
+            "name": "Anwar Alshiyab",
+            "role": "Head of Design Dep."
+            
+        },
+        {
+            "image": "/img/faces/staff/Mohammad_Alqudah.png",
+            "name": "Mohammad Alqudah",
+            "role": "Associate Content Editor."
+            
+        }
+        ,
+        {
+            "image": "/img/faces/staff/Maram_Kanan.png",
+            "name": "Maram Kanaan",
+            "role": "Graphic Designer."
+            
+        },
+        {
+            "image": "/img/faces/staff/al-sukhni.png",
+            "name": "Mohammad Alsukhni",
+            "role": "IT Support."            
+        },
+        {
+            "image": "/img/faces/staff/Izzeldeen.png",
+            "name": "Izzeldeen Ashour",
+            "role": "Software Engineer."            
+        }
+    ]
+    
+}

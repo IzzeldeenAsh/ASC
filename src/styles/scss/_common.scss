@@ -218,7 +218,23 @@ h6,
         font-size: $h6 + 3px;
     }
 }
+h6,
+.mil-h6 {
+    font-size: $h7;
+    line-height: 150%;
 
+    @media screen and (max-width: 1200px) {
+        font-size: $h7 - 1px;
+    }
+
+    @media screen and (max-width: 992px) {
+        font-size: $h7 - 2px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: $h7 + 3px;
+    }
+}
 .mil-no-wrap {
     white-space: nowrap;
 }
@@ -634,7 +650,13 @@ textarea {
 breadcrumbs
 
 ------------------------------------------- */
-
+body[dir="ltr"] .mil-breadcrumbs:before {
+    right: calc(100% + 30px);
+}
+/* For right-to-left languages */
+body[dir="rtl"] .mil-breadcrumbs:before {
+    left: calc(100% + 30px);
+}
 .mil-breadcrumbs {
     display: inline-flex;
     align-items: center;
@@ -643,11 +665,11 @@ breadcrumbs
     &:before {
         content: '';
         position: absolute;
-        right: calc(100% + 30px);
-        top: 10px;
+        top: 14px;
         width: 100vw;
         height: 1px;
         background-color: $dt-10;
+     
     }
 
     & li {
