@@ -776,12 +776,12 @@ banner
   & .container {
     height: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
   }
 
   & .mil-banner-content {
     width: 100%;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     position: relative;
 
     @media screen and (max-width: 992px) {
@@ -1232,8 +1232,8 @@ about
   align-items: center;
 
   & .mil-avatar {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 130px;
     border-radius: 100%;
     position: relative;
     transition: all 0.2 ease-in-out;
@@ -1259,7 +1259,7 @@ about
       width: 100%;
       height: 100%;
       object-fit: cover;
-      object-position: top;
+      object-position: 25% 26%;
     }
   }
 
@@ -1655,8 +1655,7 @@ team
     background-color: $accent;
     transition: $t-lg;
   }
-
-  & img {
+& img {
     position: absolute;
     top: 0;
     left: 0;
@@ -1679,7 +1678,11 @@ team
   & .mil-description {
     opacity: 0;
     text-align: center;
-    background-color: $dt-80;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.8372141092765231) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.8372141092765231) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.8372141092765231) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
     position: absolute;
     top: 0;
     left: 0;
@@ -1715,7 +1718,7 @@ team
     }
 
     &:after {
-      width: 80%;
+      width: calc(100% - 50px)
     }
 
     & .mil-description {
@@ -2541,7 +2544,7 @@ accordion
     }
 
     & .mil-accordion-head {
-      font-size: 14px;
+      font-size: 16px;
       text-transform: uppercase;
       font-weight: 500;
       color: $dark;
@@ -2552,7 +2555,7 @@ accordion
 .mil-accordion-content {
   height: 0;
   overflow: hidden;
-  color: $gs-50;
+  color: $gs-70;
 }
 
 .mil-active + .mil-accordion-content,
