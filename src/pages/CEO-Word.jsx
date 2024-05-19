@@ -1,24 +1,43 @@
 import React from 'react'
 import Data from "@data/sections/hero-2.json";
 import Layouts from "@layouts/Layouts";
-import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
+import Link from "next/link";
 import { useLocale } from "@/utils/getLocale";
 import Pentagon from "@layouts/pentagon/Index";
 const CEOWord = () => {
+    const LogoStyleAr = {
+        position: "absolute",
+        top: "45px",
+        right: "64px",
+        zIndex:3
+      };
+      const LogoStyleEn = {
+        position: "absolute",
+        top: "45px",
+        left: "64px",
+        zIndex:3
+      };
     const { activeLocale, t } = useLocale();
   return (
     <>
     {/* banner */}
-    <Layouts>
-    <section className="mil-banner-personal">
 
+    <Layouts>
+    <div style={activeLocale === "ar" ? LogoStyleAr : LogoStyleEn}>
+    <Link href={"/"} className="mil-link mil-dark  mil-arrow-place">
+                                <div style={ activeLocale === 'en' ? {'transform' : 'rotate(180deg)'} : {'transform' : 'rotate(0deg)'}} >
+                                <ArrowIcon  />
+                                </div>
+    </Link>
+
+      </div>
+    <section className="mil-banner-personal">
         <div className="mil-animation-frame">
             <div className="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="7" data-value-2="1.4" style={{"right": "25%"}}>
                 <Pentagon />
             </div>
         </div>
-
         <div className="container">
             <div className="mil-banner-content mil-up">
 
