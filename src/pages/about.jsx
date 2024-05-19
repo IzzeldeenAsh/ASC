@@ -43,7 +43,7 @@ const about = () => {
             <div className="col-lg-8">
               <div
                 className="mil-text mil-up mil-mb-60"
-                style={{ textAlign: "center" }}
+                style={{ textAlign: "justify" }}
                 dangerouslySetInnerHTML={{ __html: getContentHtml }}
               />
 

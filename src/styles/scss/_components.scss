@@ -809,18 +809,17 @@ banner
 .mil-banner-personal {
   height: 100vh;
   background-color: $dt-10;
-
+  overflow: auto;
+  padding-bottom: 100px;
   & .mil-banner-content {
     position: relative;
-    padding-top: 90px;
-
+    padding-top: 20px;
+    overflow: auto;
     @media screen and (max-width: 992px) {
       padding-top: 180px;
     }
 
     & .mil-personal-text {
-      margin-bottom: 300px;
-
       @media screen and (max-width: 992px) {
         margin-bottom: 80px;
         text-align: center;
@@ -829,14 +828,12 @@ banner
 
     & .mil-banner-panel {
       display: flex;
-      align-items: center;
+      flex-direction: column;
+      gap: 30px;
       justify-content: space-between;
-      padding: 0 60px 0 90px;
+      padding: 80px 60px 30px 90px;
       background-color: $light;
-      height: 180px;
-      position: absolute;
-      top: calc(100vh - 180px);
-      left: 0;
+      height: fit-content;
       width: 100%;
 
       @media screen and (max-width: 992px) {
@@ -901,10 +898,20 @@ banner
     height: auto;
   }
 }
-
+body[dir="ltr"] .mil-portrait-frame {
+  right: 70px;
+}
+body[dir="rtl"] .mil-portrait-frame {
+  left: 70px;
+}
 .mil-portrait-frame {
-  position: relative;
-  width: 300px;
+  position: absolute;
+  top: -221px;
+  width: 220px;
+  z-index: 1;
+  @media screen and (max-width: 909px) {
+    display: none;
+  }
   & img {
     position: relative;
     bottom: 0;
@@ -1233,7 +1240,7 @@ about
 
   & .mil-avatar {
     width: 180px;
-    height: 130px;
+    height: 146px;
     border-radius: 100%;
     position: relative;
     transition: all 0.2 ease-in-out;
@@ -1754,7 +1761,7 @@ social icons
   padding: 0;
   margin: 0;
   display: flex;
-
+  gap: 20px;
   &.mil-center {
     justify-content: center;
   }
@@ -2140,7 +2147,7 @@ footer
 ------------------------------------------- */
 
 .mil-footer-menu {
-  margin-bottom: 120px;
+  margin-bottom: 20px;
 
   & ul {
     & li {
@@ -2150,7 +2157,7 @@ footer
       & a {
         display: block;
         font-weight: 500;
-        font-size: $h4;
+        font-size: $h6;
         color: $lt-90;
         transition: $t-md;
 

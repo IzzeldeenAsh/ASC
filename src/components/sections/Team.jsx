@@ -24,7 +24,7 @@ const TeamSection = () => {
                                     <Link href={"/CEO-Word"} className="mil-avatar mil-up">
                                         <img  src={Data.avatar.image} alt={Data.avatar.alt}  />
                                     </Link>
-                                    <h7 className="mil-quote mil-up"  style={activeLocale ==='ar' ? {'paddingRight' : '30px'} : {'paddingLeft' : '30px'}} dangerouslySetInnerHTML={{__html : activeLocale ==="ar" ?  Data.subtitle.arabic :Data.subtitle.english }} />
+                                    <h6 className="mil-quote mil-up"  style={activeLocale ==='ar' ? {'paddingRight' : '30px'} : {'paddingLeft' : '30px'}} dangerouslySetInnerHTML={{__html : activeLocale ==="ar" ?  Data.subtitle.arabic :Data.subtitle.english }} />
                                 </div>
                 <div className="mil-up">
                   <Link

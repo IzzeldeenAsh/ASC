@@ -7,11 +7,23 @@
         "label": "More about me"
     },
     "image": {
-        "url": "/img/faces/large/Khaldun-Zomot.webp",
+        "url": "/img/faces/large/khaldoun-zomot.png",
         "alt": "Portrait"
     },
     "bottom": {
-        "title": "Designing a Better World Today",
+        "title": {
+            "english": "Dear Esteemed Partners and Stakeholders,",
+            "arabic":"Dear Esteemed Partners and Stakeholders,"
+        },
+        "ending": {
+            "english": "Thank you for choosing A&B Consulting.",
+            "arabic":"Thank you for choosing A&B Consulting."
+        },
+        "content":{
+            "english": "Since our establishment in 2000, A&B Consulting has remained steadfast in our commitment to delivering unparalleled consulting services across a diverse spectrum of sectors. Through years of dedicated effort, we have cultivated a wealth of expertise, enabling us to provide innovative solutions to both private and government entities.<br><br>At A&B, we take pride in our ability to not only identify opportunities but also to develop and implement strategies that drive success for our clients. From industries such as renewable energy, healthcare, and digital technology to education, tourism, and beyond, we are dedicated to empowering our clients to thrive in today's competitive environment.<br><br>Our success is a testament to our unwavering dedication to excellence, critical thinking, and the strategic application of our expertise. Through collaborative partnerships with governmental and non-governmental organizations, we consistently deliver impactful results, positioning ourselves as leaders in the consulting industry. <br><br>What truly distinguishes us is our intrinsic commitment to driving positive change within our communities, both economically and environmentally. This commitment fuels our passion for success and motivates us to continually innovate and adapt to meet our client's evolving needs.<br><br>As a data-driven company, we leverage the power of data science and cutting-edge methodologies to provide our clients with actionable insights and strategies. Through thorough research, extensive experience, and unwavering determination, we empower our clients to make informed decisions that drive efficiency, quality, and sustainability. <br><br>At A&B Consulting, our mission is clear: to collaborate with our clients on their path to success, leaving a lasting impact on their growth and prosperity. We sincerely appreciate the trust you have placed in us, and we remain dedicated to surpassing your expectations at every opportunity.<br><br>",
+            "arabic":"Since our establishment in 2000, A&B Consulting has remained steadfast in our commitment to delivering unparalleled consulting services across a diverse spectrum of sectors. Through years of dedicated effort, we have cultivated a wealth of expertise, enabling us to provide innovative solutions to both private and government entities.<br><br>At A&B, we take pride in our ability to not only identify opportunities but also to develop and implement strategies that drive success for our clients. From industries such as renewable energy, healthcare, and digital technology to education, tourism, and beyond, we are dedicated to empowering our clients to thrive in today's competitive environment.<br><br>Our success is a testament to our unwavering dedication to excellence, critical thinking, and the strategic application of our expertise. Through collaborative partnerships with governmental and non-governmental organizations, we consistently deliver impactful results, positioning ourselves as leaders in the consulting industry. <br><br>What truly distinguishes us is our intrinsic commitment to driving positive change within our communities, both economically and environmentally. This commitment fuels our passion for success and motivates us to continually innovate and adapt to meet our client's evolving needs.<br><br>As a data-driven company, we leverage the power of data science and cutting-edge methodologies to provide our clients with actionable insights and strategies. Through thorough research, extensive experience, and unwavering determination, we empower our clients to make informed decisions that drive efficiency, quality, and sustainability. <br><br>At A&B Consulting, our mission is clear: to collaborate with our clients on their path to success, leaving a lasting impact on their growth and prosperity. We sincerely appreciate the trust you have placed in us, and we remain dedicated to surpassing your expectations at every opportunity.<br><br>"
+        },
+        
         "button": {
             "link": "/projects",
             "label": "View portfolio"

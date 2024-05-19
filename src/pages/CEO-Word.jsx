@@ -1,22 +1,43 @@
 import React from 'react'
 import Data from "@data/sections/hero-2.json";
-import Link from "next/link";
+import Layouts from "@layouts/Layouts";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
+import Link from "next/link";
 import { useLocale } from "@/utils/getLocale";
 import Pentagon from "@layouts/pentagon/Index";
 const CEOWord = () => {
+    const LogoStyleAr = {
+        position: "absolute",
+        top: "45px",
+        right: "64px",
+        zIndex:3
+      };
+      const LogoStyleEn = {
+        position: "absolute",
+        top: "45px",
+        left: "64px",
+        zIndex:3
+      };
     const { activeLocale, t } = useLocale();
   return (
     <>
     {/* banner */}
-    <section className="mil-banner-personal">
 
+    <Layouts>
+    <div style={activeLocale === "ar" ? LogoStyleAr : LogoStyleEn}>
+    <Link href={"/"} className="mil-link mil-dark  mil-arrow-place">
+                                <div style={ activeLocale === 'en' ? {'transform' : 'rotate(180deg)'} : {'transform' : 'rotate(0deg)'}} >
+                                <ArrowIcon  />
+                                </div>
+    </Link>
+
+      </div>
+    <section className="mil-banner-personal">
         <div className="mil-animation-frame">
             <div className="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="7" data-value-2="1.4" style={{"right": "25%"}}>
                 <Pentagon />
             </div>
         </div>
-
         <div className="container">
             <div className="mil-banner-content mil-up">
 
@@ -32,21 +53,29 @@ const CEOWord = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-5">
-                        <div className="mil-portrait-frame">
-                            <img src={Data.image.url} alt={Data.image.alt} />
+                </div>
+                <div style={{position:"relative"}}>
+                    <div className="mil-portrait-frame" >
+                                <img src={Data.image.url} alt={Data.image.alt} />
+                            </div>
+                            <div className="mil-banner-panel">
+                    <h5 dangerouslySetInnerHTML={{__html:Data.bottom.title.english}}/>
+                    <p  dangerouslySetInnerHTML={{__html:Data.bottom.content.english}}/>
+                    <h5 dangerouslySetInnerHTML={{__html:Data.bottom.ending.english}}/>
+                    <div className="text-dark" style={{display:"flex" , flexDirection:"column",fontWeight:"bolder"}}>
+                        <span>CEO, A&B Consulting</span>
+                        <span>KHALDUN ZOMOT</span>
                         </div>
-                    </div>
+                    <div></div>
                 </div>
-
-                <div className="mil-banner-panel">
-                    <h5>{Data.bottom.title}</h5>
                 </div>
+               
 
             </div>
         </div>
 
     </section>
+    </Layouts>
     {/* banner end */}
 </>
   )
