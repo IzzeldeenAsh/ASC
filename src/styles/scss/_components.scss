@@ -776,12 +776,12 @@ banner
   & .container {
     height: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
   }
 
   & .mil-banner-content {
     width: 100%;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     position: relative;
 
     @media screen and (max-width: 992px) {
