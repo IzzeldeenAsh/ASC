@@ -20,7 +20,9 @@ const MenuServicesList = ({onLinkClick}) => {
          <Link
          href={`/services/${service.id}`} 
            className="mil-light-soft"
+           style={{maxWidth:"200px"}}
            onClick={onLinkClick}
+         
          >
            {activeLocale==='ar' ? service.title.arabic : service.title.english }
          </Link>

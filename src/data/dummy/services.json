@@ -168,7 +168,7 @@
             "contentHtml": "",
             "sector": ["Energy and Sustainability"],
             "title": {
-              "english": "Renewable Energy Transformation",
+              "english": "Renewable Energy  Transformation",
               "arabic": "تحويل الطاقة المتجددة"
             },
             "preview_title": {
@@ -397,7 +397,63 @@
               ],
               "highlights": []
             }
-          }
+          },
+          {
+            "imgURL": "",
+            "id": "service-7",
+            "contentHtml": "",
+            "sector": ["Management Consulting"],
+            "title": {
+            "english": "Entrepreneurship",
+            "arabic": "ريادة الأعمال"
+            
+            },
+            "preview_title": {
+              "english": "Entrepreneurship",
+              "arabic": "ريادة الأعمال"
+            },
+            "short": {
+            "english": "Empowering Entrepreneurs, Igniting Innovation, Building Communities",
+            "arabic": "تمكين رواد الأعمال، إشعال الابتكار، بناء المجتمعات"
+            },
+            "introTitle": {
+            "english": "Entrepreneurship",
+            "arabic": "ريادة الأعمال"
+            },
+            "description": {
+            "title": {
+             
+              "english": "We help you weave the threads to incubate success",
+            "arabic": "نحن نساعدك على نسج الخيوط لاحتضان النجاح"
+            },
+            "content": {
+            "english": "Stating as entrepreneurs, A&B puts entrepreneurship at the center of its interest and we value the role startups play in economic growth, innovation, and community development. We help organizations develop strategies that will effectively yield the needed support for entrepreneurs and help them reach the lift-off point and head confidently to their desired destination.",
+            "arabic": ""
+            },
+            "button":{
+              "link":"/projects",
+              "label":{
+                 "english":"View Our Projects",
+                 "arabic":"عرض المشاريع الخاصة بنا"
+              }
+           }
+            },
+            "list": {
+            "items": [
+              {
+                "label":{
+                   "english":"Logistics and Supply Chain",
+                   "arabic":"الخدمات اللوجستية وسلسلة التوريد"
+                },
+                "value":{
+                   "english":"Although business incubators may seem like a convenient workspace with a desk and a network cable, they, in reality, are way more complex than they may seem. The value business incubators have is beyond measure as their sole purpose is to unlock limitless possibilities.<br><br>Our entrepreneurial strategies involve researching sector-related challenges and opportunities incubators need to focus on to help them maintain a competitive edge as successful business incubators in the market. We project to our clients the technical, financial, and market analysis to highlight their success roadmap and locate available funding sources. Our experts will project the potential revenue streams that will help stakeholders attract future startups.",
+                   "arabic":"على الرغم من أن مراكز التكوين العملية قد تبدو وكأنها مساحة عمل مريحة مع مكتب وكابل شبكة، إلا أنها في الواقع أكثر تعقيدًا بكثير مما قد تبدو عليه. القيمة التي تمتلكها مراكز التكوين العملية لا تُقدر بثمن، حيث يكمن هدفها الوحيد في فتح أفاق لا حدود لها.<br><br>إستراتيجياتنا الريادية تتضمن البحث في التحديات والفرص ذات الصلة بالقطاع التي يجب على مراكز التكوين العملية التركيز عليها لمساعدتها على الحفاظ على النصب التنافسي كمراكز تكوين عملية ناجحة في السوق. نقدم لعملائنا التحليل التقني والمالي والسوقي لتسليط الضوء على خريطة النجاح الخاصة بهم وتحديد مصادر التمويل المتاحة. سيقوم خبراؤنا بتقدير مصادر الدخل المحتملة التي ستساعد الأطراف المعنية على جذب الشركات الناشئة في المستقبل."
+                }
+             }
+            ],
+            "highlights": []
+            }
+            }
       ]
 
 }
