@@ -1,13 +1,13 @@
 {
-    "title": "Ashley <br/>Goodman",
-    "subtitle": "Hello! My name is",
-    "text": "Passionately Creating Design Wonders: <br/>Unleashing Boundless Creativity",
+    "title": "Khaldoun <br/>Zomot",
+    "subtitle": "",
+    "text": "CEO & CO-FOUNDER",
     "button": {
         "link": "/services",
         "label": "More about me"
     },
     "image": {
-        "url": "/img/faces/large/1.png",
+        "url": "/img/faces/large/Khaldun-Zomot.webp",
         "alt": "Portrait"
     },
     "bottom": {

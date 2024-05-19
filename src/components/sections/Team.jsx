@@ -21,7 +21,7 @@ const TeamSection = () => {
                   dangerouslySetInnerHTML={{ __html: Data.description }}
                 />
      <div className="mil-about-quote mil-mb-60">
-                                    <Link href={"/"} className="mil-avatar mil-up">
+                                    <Link href={"/CEO-Word"} className="mil-avatar mil-up">
                                         <img  src={Data.avatar.image} alt={Data.avatar.alt}  />
                                     </Link>
                                     <h6 className="mil-quote mil-up"  style={activeLocale ==='ar' ? {'paddingRight' : '30px'} : {'paddingLeft' : '30px'}} dangerouslySetInnerHTML={{__html : Data.subtitle}} />

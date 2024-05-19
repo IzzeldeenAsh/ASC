@@ -85,7 +85,7 @@ const ServiceDetail = () => {
                   }
                 >
                   <li>
-                    <h3
+                    <h4
                       style={{ fontStyle: "italic" }}
                       className="mil-up mil-mb-30 "
                       dangerouslySetInnerHTML={{
