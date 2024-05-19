@@ -898,10 +898,14 @@ banner
     height: auto;
   }
 }
-
+body[dir="ltr"] .mil-portrait-frame {
+  right: 70px;
+}
+body[dir="rtl"] .mil-portrait-frame {
+  left: 70px;
+}
 .mil-portrait-frame {
   position: absolute;
-  right: 70px;
   top: -221px;
   width: 220px;
   z-index: 1;
