@@ -1,5 +1,6 @@
 import React from 'react'
 import Data from "@data/sections/hero-2.json";
+import Layouts from "@layouts/Layouts";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
@@ -9,6 +10,7 @@ const CEOWord = () => {
   return (
     <>
     {/* banner */}
+    <Layouts>
     <section className="mil-banner-personal">
 
         <div className="mil-animation-frame">
@@ -32,21 +34,29 @@ const CEOWord = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-5">
-                        <div className="mil-portrait-frame">
-                            <img src={Data.image.url} alt={Data.image.alt} />
+                </div>
+                <div style={{position:"relative"}}>
+                    <div className="mil-portrait-frame" >
+                                <img src={Data.image.url} alt={Data.image.alt} />
+                            </div>
+                            <div className="mil-banner-panel">
+                    <h5 dangerouslySetInnerHTML={{__html:Data.bottom.title.english}}/>
+                    <p  dangerouslySetInnerHTML={{__html:Data.bottom.content.english}}/>
+                    <h5 dangerouslySetInnerHTML={{__html:Data.bottom.ending.english}}/>
+                    <div className="text-dark" style={{display:"flex" , flexDirection:"column",fontWeight:"bolder"}}>
+                        <span>CEO, A&B Consulting</span>
+                        <span>KHALDUN ZOMOT</span>
                         </div>
-                    </div>
+                    <div></div>
                 </div>
-
-                <div className="mil-banner-panel">
-                    <h5>{Data.bottom.title}</h5>
                 </div>
+               
 
             </div>
         </div>
 
     </section>
+    </Layouts>
     {/* banner end */}
 </>
   )

@@ -14,7 +14,7 @@ const Team = () => {
       
         {/* team */}
         <section id="team">
-            <div className="container mil-p-90-90">
+            <div className="container">
                 <div className="row">
                     {TeamData.map((item, key) => (
                     <div className="col-sm-6 col-md-4 col-lg-3" key={`team-item-${key}`}  style={{ position: "relative" }}>
