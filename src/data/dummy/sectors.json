@@ -1,0 +1,559 @@
+
+{
+    "sectors" :     [
+        { "imgURL" : "https://res.cloudinary.com/dahiaq28x/image/upload/v1716206580/steel-construction-metal-frame_1_pupkek.webp",
+            "id": "sector-1",
+            "contentHtml": "",
+            "title": {
+              "english": "Industrial",
+              "arabic": "الصناعة"
+            },
+            "preview_title": {
+              "english": "Industrial",
+              "arabic": "الصناعة"
+            },
+            "short": {
+              "english": "A&B Consulting boosts economic growth by optimizing industrial profits through advanced evaluations. We streamline operations with automation and develop sustainable manufacturing strategies to reduce environmental impact.",
+              "arabic": "تعمل A&B Consulting على تعزيز النمو الاقتصادي من خلال تحسين الأرباح الصناعية باستخدام تقييمات متقدمة. نقوم بتحسين العمليات باستخدام الأتمتة وتطوير استراتيجيات تصنيع مستدامة لتقليل الأثر البيئي."
+            },
+            "introTitle": {
+              "english": "Industrial",
+              "arabic": "الصناعة"
+            },
+            "description": {
+              "title": {
+                "english": "Driving Industrial Excellence for a Sustainable Future",
+                "arabic": "نحو التميز الصناعي من أجل مستقبل مستدام"
+              },
+              "content": {
+                "english": "Marching steadily towards economic growth by supporting the industrial sector, our industrial strategies and solutions help organizations realize optimum potential profits using a sophisticated industrial business evaluation matrix that goes beyond technical feasibility.<br><br>A&B consulting experts work with clients to encompass crucial investment factors such as market trends and competition. We help them utilize automation to streamline operations and achieve efficient energy consumption. Our industrial experts always extend a helping hand to manufacturers and businesses by thoroughly examining their ventures and crafting insightful <a class=\"hyper-link\" href=\"/services/service-4\" target=\"__blank\">clean manufacturing</a> strategies to improve their sustainability and reduce their environmental impact.",
+                "arabic": "نسير بخطى ثابتة نحو النمو الاقتصادي من خلال دعم القطاع الصناعي، تساعد استراتيجياتنا وحلولنا الصناعية المنظمات على تحقيق أقصى قدر من الأرباح المحتملة باستخدام مصفوفة تقييم الأعمال الصناعية المتطورة التي تتجاوز الجدوى التقنية.<br><br>يعمل خبراء A&B الاستشاريون مع العملاء لتغطية عوامل الاستثمار الهامة مثل اتجاهات السوق والمنافسة. نحن نساعدهم على استخدام الأتمتة لتبسيط العمليات وتحقيق كفاءة استهلاك الطاقة. دائمًا ما يمد خبراؤنا الصناعيون يد العون للمصنعين والشركات من خلال فحص مشاريعهم بدقة وصياغة استراتيجيات <a class=\"hyper-link\" href=\"/services/service-4\" target=\"__blank\">التصنيع النظيف</a> المثمرة لتحسين استدامتهم وتقليل تأثيرهم البيئي."
+              },
+              "button": {
+                "link": "/projects",
+                "label": {
+                  "english": "View works",
+                  "arabic": "عرض الأعمال"
+                }
+              }
+            },
+            "list": {
+              "title":{
+                "english": "Explore our industrial support services:",
+                "arabic": "اكتشف خدمات الدعم الصناعي لدينا:"
+              },
+              "items": [
+                {
+                  "label": {
+                    "english": "Regulatory compliance and licensing",
+                    "arabic": "الامتثال التنظيمي والترخيص"
+                  },
+                  "value": {
+                    "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+                    "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+                  }
+                },
+                {
+                  "label": {
+                    "english": "Regulatory compliance and licensing",
+                    "arabic": "الامتثال التنظيمي والترخيص"
+                  },
+                  "value": {
+                    "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+                    "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+                  }
+                },
+                {
+                  "label": {
+                    "english": "Funding",
+                    "arabic": "التمويل"
+                  },
+                  "value": {
+                    "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+                    "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+                  }
+                },
+                {
+                  "label": {
+                    "english": "Strategic partnerships",
+                    "arabic": "الشراكات الاستراتيجية"
+                  },
+                  "value": {
+                    "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+                    "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+                  }
+                },
+                {
+                  "label": {
+                    "english": "Technology selection and valuation",
+                    "arabic": "اختيار التكنولوجيا والتقييم"
+                  },
+                  "value": {
+                    "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+                    "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+                  }
+                },
+                {
+                  "label": {
+                    "english": "Erection, testing, and commissioning",
+                    "arabic": "التركيب والاختبار والتشغيل"
+                  },
+                  "value": {
+                    "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+                    "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+                  }
+                },
+                {
+                  "label": {
+                    "english": "Commercial production",
+                    "arabic": "الإنتاج التجاري"
+                  },
+                  "value": {
+                    "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+                    "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "imgURL":"https://res.cloudinary.com/dahiaq28x/image/upload/v1716211136/view-heavy-machinery-used-construction-industry_o0sa7s.webp",
+            "id": "sector-2",
+            "contentHtml": "",
+            "title": {
+              "english": "Metals and Mining",
+              "arabic": "المعادن والتعدين"
+            },
+            "preview_title": {
+              "english": "Metals and Mining",
+              "arabic": "المعادن والتعدين"
+            },
+            "short": {
+              "english": "Our global perspective on the importance of the metal and mining sector motivates us to tailor the mining strategies that will take our clients’ mining endeavors to the next level. Our proven track record of success is due to offering objective-aligned solutions and in-depth market analysis that help our clients drive sustainable business success. With many challenges and risks facing the sources of many industrial supply chains, A&B mining experts continuously support mining companies to help them navigate the multi-dimensional mining market and adopt the necessary governmental and environmentally friendly operational best practices.",
+              "arabic": "تحفزنا الرؤية العالمية لأهمية قطاع المعادن والتعدين على تخصيص استراتيجيات التعدين التي ستأخذ مشاريع التعدين لعملائنا إلى المستوى التالي. تعود سجلاتنا الناجحة إلى تقديم حلول تتماشى مع الأهداف وتحليلات سوق عميقة تساعد عملائنا على تحقيق نجاح أعمال مستدام. مع وجود العديد من التحديات والمخاطر التي تواجه مصادر العديد من سلاسل التوريد الصناعية، يقدم خبراء التعدين في A&B الدعم المستمر لشركات التعدين لمساعدتهم في التنقل في السوق التعدينية متعددة الأبعاد واعتماد أفضل الممارسات الحكومية والبيئية الصديقة للتشغيل."
+            },
+            "introTitle": {
+              "english": "Metals and Mining",
+              "arabic": "المعادن والتعدين"
+            },
+            "description": {
+              "title": {
+                "english": "Driving Excellence in Metals and Mining for a Sustainable Future",
+                "arabic": "دفع التميز في قطاعي المعادن والتعدين من أجل مستقبل مستدام"
+              },
+              "content": {
+                "english": "Our global perspective on the importance of the metal and mining sector motivates us to tailor the mining strategies that will take our clients’ mining endeavors to the next level.<br><br> Our proven track record of success is due to offering objective-aligned solutions and in-depth market analysis that help our clients drive sustainable business success.<br><br>  With many challenges and risks facing the sources of many industrial supply chains, A&B mining experts continuously support mining companies to help them navigate the multi-dimensional mining market and adopt the necessary governmental and environmentally friendly operational best practices.",
+                "arabic": "تحفزنا الرؤية العالمية لأهمية قطاع المعادن والتعدين على تخصيص استراتيجيات التعدين التي ستأخذ مشاريع التعدين لعملائنا إلى المستوى التالي. تعود سجلاتنا الناجحة إلى تقديم حلول تتماشى مع الأهداف وتحليلات سوق عميقة تساعد عملائنا على تحقيق نجاح أعمال مستدام. مع وجود العديد من التحديات والمخاطر التي تواجه مصادر العديد من سلاسل التوريد الصناعية، يقدم خبراء التعدين في A&B الدعم المستمر لشركات التعدين لمساعدتهم في التنقل في السوق التعدينية متعددة الأبعاد واعتماد أفضل الممارسات الحكومية والبيئية الصديقة للتشغيل."
+              },
+              "button": {
+                "link": "/projects",
+                "label": {
+                  "english": "View works",
+                  "arabic": "عرض الأعمال"
+              }
+            }
+          },
+          "list": {
+            "title": {
+              "english": "How we can help",
+              "arabic": "كيف يمكننا المساعدة"
+            },
+            "items": [
+              {
+                "label": {
+                  "english": "Social responsibility",
+                  "arabic": "المسؤولية الاجتماعية"
+                },
+                "value": {
+                  "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+                  "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+                }
+              },
+              {
+                "label": {
+                  "english": "Risk Management",
+                  "arabic": "إدارة المخاطر"
+                },
+                "value": {
+                  "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+                  "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+                }
+              },
+              {
+                "label": {
+                  "english": "Supply chain and operational performance",
+                  "arabic": "أداء سلسلة التوريد والعمليات"
+                },
+                "value": {
+                  "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+                  "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+                }
+              }
+            ]
+          }
+        }
+        ,
+        {
+          "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716211019/glowing-blue-sphere-held-by-human-hand-generated-by-ai_yt5jzo.webp",
+          "id": "sector-3",
+          "contentHtml": "",
+          "title": {
+            "english": "Digital",
+            "arabic": "الرقمية"
+          },
+          "preview_title": {
+            "english": "Digital",
+            "arabic": "الرقمية"
+          },
+          "short": {
+            "english": "Let's discover the potential of technology and innovate digital ventures. Once we've identified your target, we'll outline the strategies that will help you maximize the value you can create by leveraging the full potential of available technology. Our team of digital transformation experts will guide you through the complexities of data utilization, ensuring you capture customer-centric solutions and enhance efficiency.",
+            "arabic": "دعونا نكتشف إمكانات التكنولوجيا ونبتكر المشاريع الرقمية. بمجرد تحديد هدفك، سنقوم بوضع الاستراتيجيات التي ستساعدك على تحقيق القيمة القصوى يمكنك إنشاؤها من خلال استغلال الإمكانات الكاملة للتكنولوجيا المتاحة. سيقوم فريق خبراء التحول الرقمي لدينا بتوجيهك خلال تعقيدات استخدام البيانات، مما يضمن لك الحصول على حلول موجهة نحو العميل وتعزيز الكفاءة."
+          },
+          "introTitle": {
+            "english": "Digital",
+            "arabic": "الرقمية"
+          },
+          "description": {
+            "title": {
+              "english": "Driving Digital Excellence for a Sustainable Future",
+              "arabic": "نحو التميز الرقمي من أجل مستقبل مستدام"
+            },
+            "content": {
+              "english": "Let's discover the potential of technology and innovate digital ventures.<br><br> Once we've identified your target, we'll outline the strategies that will help you maximize the value you can create by leveraging the full potential of available technology. Our team of <a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\">digital transformation</a> experts will guide you through the complexities of data utilization, ensuring you capture customer-centric solutions and enhance efficiency.",
+              "arabic": "دعونا نكتشف إمكانات التكنولوجيا ونبتكر المشاريع الرقمية.<br><br> بمجرد تحديد هدفك، سنقوم بوضع الاستراتيجيات التي ستساعدك على تحقيق القيمة القصوى يمكنك إنشاؤها من خلال استغلال الإمكانات الكاملة للتكنولوجيا المتاحة. سيقوم فريق خبراء <a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\">التحول الرقمي</a> لدينا بتوجيهك خلال تعقيدات استخدام البيانات، مما يضمن لك الحصول على حلول موجهة نحو العميل وتعزيز الكفاءة."
+            },
+            "button": {
+              "link": "/projects",
+              "label": {
+                "english": "View works",
+                "arabic": "عرض الأعمال"
+              }
+            }
+          },
+          "list": {
+            "title": {
+              "english": "",
+              "arabic": ""
+            },
+            "items": []
+          }
+        }
+,        
+      { "imgURL" : "",
+      "id": "sector-4",
+      "contentHtml": "",
+      "title": {
+        "english": "Energy",
+        "arabic": "الرقمي"
+      },
+      "preview_title": {
+        "english": "Energy",
+        "arabic": "الرقمي"
+      },
+      "short": {
+        "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+        "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+      },
+      "introTitle": {
+        "english": "Secrvice 1<br> and <span class=\"mil-thin\">Mobility</span>",
+        "arabic": " القطاع 1<br> و<span class=\"mil-thin\"></span>"
+      },
+      "description": {
+        "title": {
+          "english": "",
+          "arabic": "التقنيات الرئيسية و الحلول   القطاع 1"
+        },
+        "content": {
+          "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer, we guide our clients in navigating the complexity of this ecosystem.",
+          "arabic":"نستفيد من التكنولوجيا المفتاحية والحلول القطاع 1 للتنقل في تعقيدات تطوير المدينة القطاع 1 و. حيث أن أنظمة النقل القطاع 1 وخدمات النقل كخدمة تعتمد على الذكاء الاصطناعي وإنترنت الأشياء تقدم الكثير، نوجه عملائنا للتنقل في تعقيدات هذا النظام البيئي."
+        },
+        "button": {
+          "link": "/projects",
+          "label": {
+            "english": "View works",
+            "arabic": "عرض الأعمال"
+          }
+        }
+      },
+      "list": {
+        "title": {
+          "english": "",
+          "arabic": ""
+        },
+        "items": []
+      }
+    }
+    ,
+    { "imgURL" : "",
+    "id": "sector-5",
+    "contentHtml": "",
+    "title": {
+      "english": "Human Capital",
+      "arabic": "رأس المال البشري"
+    },
+    "preview_title": {
+      "english": "Human Capital",
+      "arabic": "رأس المال البشري"
+    },
+    "short": {
+      "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+      "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+    },
+    "introTitle": {
+      "english": "Secrvice 1<br> and <span class=\"mil-thin\">Mobility</span>",
+      "arabic": " القطاع 1<br> و<span class=\"mil-thin\"></span>"
+    },
+    "description": {
+      "title": {
+        "english": "",
+        "arabic": "التقنيات الرئيسية و الحلول   القطاع 1"
+      },
+      "content": {
+        "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer, we guide our clients in navigating the complexity of this ecosystem.",
+        "arabic":"نستفيد من التكنولوجيا المفتاحية والحلول القطاع 1 للتنقل في تعقيدات تطوير المدينة القطاع 1 و. حيث أن أنظمة النقل القطاع 1 وخدمات النقل كخدمة تعتمد على الذكاء الاصطناعي وإنترنت الأشياء تقدم الكثير، نوجه عملائنا للتنقل في تعقيدات هذا النظام البيئي."
+      },
+      "button": {
+        "link": "/projects",
+        "label": {
+          "english": "View works",
+          "arabic": "عرض الأعمال"
+        }
+      }
+    },
+    "list": {
+      "title": {
+        "english": "",
+        "arabic": ""
+      },
+      "items": []
+    }
+  }
+  ,
+  { "imgURL" : "",
+  "id": "sector-6",
+  "contentHtml": "",
+  "title": {
+    "english": "Environment",
+    "arabic": "البيئة"
+  },
+  "preview_title": {
+    "english": "Environment",
+    "arabic": "البيئة"
+  },
+  "short": {
+    "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+    "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+  },
+  "introTitle": {
+    "english": "Secrvice 1<br> and <span class=\"mil-thin\">Mobility</span>",
+    "arabic": " القطاع 1<br> و<span class=\"mil-thin\"></span>"
+  },
+  "description": {
+    "title": {
+      "english": "",
+      "arabic": "التقنيات الرئيسية و الحلول   القطاع 1"
+    },
+    "content": {
+      "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer, we guide our clients in navigating the complexity of this ecosystem.",
+      "arabic":"نستفيد من التكنولوجيا المفتاحية والحلول القطاع 1 للتنقل في تعقيدات تطوير المدينة القطاع 1 و. حيث أن أنظمة النقل القطاع 1 وخدمات النقل كخدمة تعتمد على الذكاء الاصطناعي وإنترنت الأشياء تقدم الكثير، نوجه عملائنا للتنقل في تعقيدات هذا النظام البيئي."
+    },
+    "button": {
+      "link": "/projects",
+      "label": {
+        "english": "View works",
+        "arabic": "عرض الأعمال"
+      }
+    }
+  },
+  "list": {
+    "title": {
+      "english": "",
+      "arabic": ""
+    },
+    "items": []
+  }
+}
+,
+{ "imgURL" : "",
+"id": "sector-7",
+"contentHtml": "",
+"title": {
+  "english": "Travel and Tourism",
+  "arabic": "البيئة"
+},
+"preview_title": {
+  "english": "Travel and Tourism",
+  "arabic": "البيئة"
+},
+"short": {
+  "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+  "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+},
+"introTitle": {
+  "english": "Secrvice 1<br> and <span class=\"mil-thin\">Mobility</span>",
+  "arabic": " القطاع 1<br> و<span class=\"mil-thin\"></span>"
+},
+"description": {
+  "title": {
+    "english": "",
+    "arabic": "التقنيات الرئيسية و الحلول   القطاع 1"
+  },
+  "content": {
+    "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer, we guide our clients in navigating the complexity of this ecosystem.",
+    "arabic":"نستفيد من التكنولوجيا المفتاحية والحلول القطاع 1 للتنقل في تعقيدات تطوير المدينة القطاع 1 و. حيث أن أنظمة النقل القطاع 1 وخدمات النقل كخدمة تعتمد على الذكاء الاصطناعي وإنترنت الأشياء تقدم الكثير، نوجه عملائنا للتنقل في تعقيدات هذا النظام البيئي."
+  },
+  "button": {
+    "link": "/projects",
+    "label": {
+      "english": "View works",
+      "arabic": "عرض الأعمال"
+    }
+  }
+},
+"list": {
+  "title": {
+    "english": "",
+    "arabic": ""
+  },
+  "items": []
+}
+}
+,
+{ "imgURL" : "",
+"id": "sector-8",
+"contentHtml": "",
+"title": {
+  "english": "Agriculture",
+  "arabic":"الزراعة"
+},
+"preview_title": {
+  "english": "Agriculture",
+  "arabic":"الزراعة"
+},
+"short": {
+  "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+  "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+},
+"introTitle": {
+  "english": "Secrvice 1<br> and <span class=\"mil-thin\">Mobility</span>",
+  "arabic": " القطاع 1<br> و<span class=\"mil-thin\"></span>"
+},
+"description": {
+  "title": {
+    "english": "",
+    "arabic": "التقنيات الرئيسية و الحلول   القطاع 1"
+  },
+  "content": {
+    "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer, we guide our clients in navigating the complexity of this ecosystem.",
+    "arabic":"نستفيد من التكنولوجيا المفتاحية والحلول القطاع 1 للتنقل في تعقيدات تطوير المدينة القطاع 1 و. حيث أن أنظمة النقل القطاع 1 وخدمات النقل كخدمة تعتمد على الذكاء الاصطناعي وإنترنت الأشياء تقدم الكثير، نوجه عملائنا للتنقل في تعقيدات هذا النظام البيئي."
+  },
+  "button": {
+    "link": "/projects",
+    "label": {
+      "english": "View works",
+      "arabic": "عرض الأعمال"
+    }
+  }
+},
+"list": {
+  "title": {
+    "english": "",
+    "arabic": ""
+  },
+  "items": []
+}
+}
+,
+{ "imgURL" : "",
+"id": "sector-9",
+"contentHtml": "",
+"title": {
+  "english": "Commerce",
+  "arabic":"تجارة"
+},
+"preview_title": {
+  "english": "Commerce",
+  "arabic":"تجارة"
+},
+"short": {
+  "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+  "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+},
+"introTitle": {
+  "english": "Secrvice 1<br> and <span class=\"mil-thin\">Mobility</span>",
+  "arabic": " القطاع 1<br> و<span class=\"mil-thin\"></span>"
+},
+"description": {
+  "title": {
+    "english": "",
+    "arabic": "التقنيات الرئيسية و الحلول   القطاع 1"
+  },
+  "content": {
+    "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer, we guide our clients in navigating the complexity of this ecosystem.",
+    "arabic":"نستفيد من التكنولوجيا المفتاحية والحلول القطاع 1 للتنقل في تعقيدات تطوير المدينة القطاع 1 و. حيث أن أنظمة النقل القطاع 1 وخدمات النقل كخدمة تعتمد على الذكاء الاصطناعي وإنترنت الأشياء تقدم الكثير، نوجه عملائنا للتنقل في تعقيدات هذا النظام البيئي."
+  },
+  "button": {
+    "link": "/projects",
+    "label": {
+      "english": "View works",
+      "arabic": "عرض الأعمال"
+    }
+  }
+},
+"list": {
+  "title": {
+    "english": "",
+    "arabic": ""
+  },
+  "items": []
+}
+}
+,
+{ "imgURL" : "",
+"id": "sector-10",
+"contentHtml": "",
+"title": {
+  "english": "Government and Public",
+  "arabic":"الحكومة والعامة"
+},
+"preview_title": {
+  "english": "Government <br> and Public",
+  "arabic":"الحكومة والعامة"
+},
+"short": {
+  "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
+  "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+},
+"introTitle": {
+  "english": "Secrvice 1<br> and <span class=\"mil-thin\">Mobility</span>",
+  "arabic": " القطاع 1<br> و<span class=\"mil-thin\"></span>"
+},
+"description": {
+  "title": {
+    "english": "",
+    "arabic": "التقنيات الرئيسية و الحلول   القطاع 1"
+  },
+  "content": {
+    "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer, we guide our clients in navigating the complexity of this ecosystem.",
+    "arabic":"نستفيد من التكنولوجيا المفتاحية والحلول القطاع 1 للتنقل في تعقيدات تطوير المدينة القطاع 1 و. حيث أن أنظمة النقل القطاع 1 وخدمات النقل كخدمة تعتمد على الذكاء الاصطناعي وإنترنت الأشياء تقدم الكثير، نوجه عملائنا للتنقل في تعقيدات هذا النظام البيئي."
+  },
+  "button": {
+    "link": "/projects",
+    "label": {
+      "english": "View works",
+      "arabic": "عرض الأعمال"
+    }
+  }
+},
+"list": {
+  "title": {
+    "english": "",
+    "arabic": ""
+  },
+  "items": []
+}
+}   
+      ]
+
+}
+

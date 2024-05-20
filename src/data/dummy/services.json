@@ -352,13 +352,13 @@
                "arabic": "استشارات العمليات"
             },
             "introTitle": {
-              "english": "Transforming <span class=\"mil-thin\">Strategies</span> <br>  <span class=\"mil-thin\">into</span>  success",
-               "arabic": "تحويل الاستراتيجيات إلى نجاح"
+              "english": "Operations",
+              "arabic": "العمليات"
             },
             "description": {
               "title": {
-                "english": "Operations",
-                "arabic": "العمليات"
+                "english": "Transforming <span class=\"mil-thin\">Strategies</span> <br>  <span class=\"mil-thin\">into</span>  success",
+                "arabic": "تحويل الاستراتيجيات إلى نجاح"
               },
               "content": {
                 "english": "To successfully achieve strategic goals, organizations must have a clearly defined strategy and operations processes that are thoroughly tailored to lead to the desired objectives efficiently and sustainably. At A&B, our management and operations consultants help clients transform their organizations’ strategies into success by analyzing their current operating model, pinpointing areas for improvement, and solving operational challenges. They examine the entire value chain and employ all data-driven insights to craft new operating models that meet the needs of our clients.",

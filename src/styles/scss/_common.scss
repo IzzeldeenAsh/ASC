@@ -657,6 +657,8 @@ body[dir="ltr"] .mil-breadcrumbs:before {
 body[dir="rtl"] .mil-breadcrumbs:before {
     left: calc(100% + 30px);
 }
+
+
 .mil-breadcrumbs {
     display: inline-flex;
     align-items: center;
@@ -730,6 +732,17 @@ body[dir="rtl"] .mil-breadcrumbs:before {
 
     &.mil-center {
         justify-content: center;
+    }
+}
+.mil-breadcrumbs-light li:after {
+    content: "/";
+    color: #ffffff;
+}
+.mil-breadcrumbs-light  {
+    
+    &:before {
+        background-color: $lt-20;
+     
     }
 }
 .mil-lines-highlight-en {
@@ -1155,4 +1168,22 @@ spaces
     gap: 3px;
     padding: 9px 0px;
    
+}
+.hyper-link{
+    color:#3D9BF2;
+    
+    font-style: italic;
+    &:hover{
+        color:#0c3acf;
+        border-bottom: 1px solid #0c3acf;
+    }
+}
+.card-shadow {
+    transition: all 0.2s ease-in; /* Added 's' for seconds */
+    border: 1px solid $accent;
+    &:hover {
+        transform: translate(4px, -4px);
+        box-shadow: -8px 8px 0 $accent;    
+        border: 1px solid $accent;
+    }
 }
