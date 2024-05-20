@@ -148,7 +148,7 @@ const SectorDetail = () => {
                 />
                <div className="row " style={{gap:"20px",padding:"0 40px"}}>
                         {postData.list.items.map((item, key) => (
-                        <div className="col-lg-5 card-shadow" style={{padding:"0 40px",maxWidth: "340px;"}} key={`blog-post-${key}`}>
+                        <div className="col-lg-5 card-shadow" style={{padding:"0 40px",maxWidth: "340px"}} key={`blog-post-${key}`}>
 
                             <Link href={`/blog/${item.id}`} className="mil-blog-card mil-mb-60">
                                 <div className="mil-post-descr">

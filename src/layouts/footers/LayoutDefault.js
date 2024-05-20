@@ -22,7 +22,7 @@ const DefaultFooter = ( { extraClass } ) => {
                                     <li><a href={"https://www.linkedin.com/company/alokab-consulting"} target="_blank" className="social-icon"><FaLinkedin /></a></li>
                                     <li><a href={"https://www.facebook.com/alokabcompany"} target="_blank" className="social-icon"><FaFacebookSquare  /></a></li>
                                 </ul>
-                        <h6 className="mil-light-soft mil-thin mil-up">{AppData.footer.copy}</h6>
+                        <h6 className="mil-light-soft mil-thin ">{AppData.footer.copy}</h6>
                     </div>
                     <div className="col-md-7 col-lg-6">
                     
