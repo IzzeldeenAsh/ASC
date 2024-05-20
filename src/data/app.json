@@ -18,14 +18,17 @@
                 "link": "/",
                 "children": []
             },
-            {
-                "label": "Sectors",
-                "link": "/projects",
-              "children":[]
-            },
+           
             {
                 "label": "Services",
                 "link": "/services",
+                "children": [
+                  
+                ]
+            },
+            {
+                "label": "Sectors",
+                "link": "/sectors",
                 "children": [
                   
                 ]

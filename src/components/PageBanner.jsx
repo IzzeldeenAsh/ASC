@@ -6,8 +6,21 @@ import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import { useLocale } from "@/utils/getLocale";
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
-const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddingBottom, align, headingSize = 1 ,imgUrl}) => {
+import { BackgroundImage } from '@mantine/core';
+const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, align, headingSize = 1 ,imgUrl,bg}) => {
   const imageURL = imgUrl
+  const bgBanner = {
+    backgroundImage : `url(${bg})`,
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+  }
+  const bannderOverlay ={
+    background: "rgb(255,255,255)",
+    background: "-moz-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.8372141092765231) 100%)",
+    background: "-webkit-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.8372141092765231) 100%)",
+    background: "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.8372141092765231) 100%)",
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#000000',GradientType=1)"
+  }
   const serviceImageRef = useRef(null)
   useEffect(()=>{
     if(serviceImageRef.current){
@@ -34,18 +47,19 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
       
       {/* banner */}
       <div className={paddingBottom ? "mil-inner-banner mil-p-0-120" : "mil-inner-banner"}>
-        <div className={align == "center" ? "mil-banner-content mil-center mil-up" : "mil-banner-content mil-up"}>
-          <div className="container">
-            <ul  className={align == "center" ? "mil-breadcrumbs mil-center mil-mb-60" : "mil-breadcrumbs mil-mb-60"}>
-              <li><Link href="/">Homepage</Link></li>
+        <div className={align == "center" ? "mil-banner-content mil-center mil-up" : "mil-banner-content mil-up"} style={bg ? bgBanner : {} }>
+          <div style={bg ? bannderOverlay : {} }>
+          <div className="container" >
+            <ul  className={bg ? "mil-breadcrumbs-light mil-breadcrumbs mil-mb-60" : "mil-breadcrumbs mil-mb-60 "}   >
+              <li className={bg ? "mil-light":""}><Link href="/">Homepage</Link></li>
               {asPath.indexOf('/blog/') != -1 &&
               <li>
                 <Link href="/blog">Blog</Link>
               </li>
               }
-              {asPath.indexOf('/projects/') != -1 &&
-              <li>
-                <Link href="/projects">Projects</Link>
+              {asPath.indexOf('/sectors/') != -1 &&
+              <li className= "mil-light">
+                <Link href="/sectors">Sectors</Link>
               </li>
               }
               {asPath.indexOf('/services/') != -1 &&
@@ -53,7 +67,7 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
                 <Link href="/services">Services</Link>
               </li>
               }
-              <li><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>
+              <li  className={bg ? "mil-light":""}><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>
             </ul>
             {headingSize == 1 &&
              <div className="banner-title-and-image-container">
@@ -63,7 +77,7 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
                     >
                     <TitleHead/>
                     </div>
-                    <h2 className=" mil-mb-60" dangerouslySetInnerHTML={{__html : pageTitle}} />
+                    <h2 className={bg ? "mil-light mil-mb-60" : "mil-mb-60"} dangerouslySetInnerHTML={{__html : pageTitle}} />
                 </div>
                {imageURL &&  <div className='service-image' ref={serviceImageRef}>
                 <Image src={imageURL} width={585} height={280} alt="service-image" priority={true} />
@@ -90,6 +104,8 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
             </a>
             } */}
           </div>
+          </div>
+         
         </div>
       </div>
       {/* banner end */}

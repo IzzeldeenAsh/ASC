@@ -3,24 +3,40 @@ import { useEffect, useState } from "react";
 import AppData from "@data/app.json";
 import { useRouter } from "next/router";
 import BackToTop from "../back-to-top/Index";
-import Pentagon from "@layouts/pentagon/Index";
 import LanguageSwitch from "../../components/LanguageSwitch";
-import Image from "next/image";
 import MenuServicesList from "@/src/components/MenuServicesList";
+import MenuSectorsList from "@/src/components/MenuSectorsList";
 const DefaultHeader = ({ extraClass }) => {
   const [toggle, setToggle] = useState(false);
-  const [activeTab ,setActiveTab] = useState("")
+  const [activeTab, setActiveTab] = useState("");
   const navItems = [];
   const { asPath } = useRouter();
   const router = useRouter();
   const { locale: activeLocale } = router;
-  useEffect(()=>{
-   if (asPath.split("/")[1] ==='services'){
-    setActiveTab("/services")
-   }
-  },[asPath,navItems])
-  const handleChildLinkClick =() =>{
+  useEffect(() => {
+    if (asPath.split("/")[1] === "services" && activeTab !=="/sectors") {
+      setActiveTab("/services");
+    }
+    if (asPath.split("/")[1] === "sectors" && activeTab !=="/services") {
+      setActiveTab("/sectors");
+    }
+  }, [asPath, navItems]);
+  const handelTabClicked = (link) => {
+    setActiveTab(link);
+  };
+  const handleChildLinkClick = () => {
     setToggle(false);
+  };
+  const isServicesActive = asPath === (`/services${activeTab}` && activeTab !== '/sectors') || activeTab === '/services';
+  const isSectorsActive = asPath === (`/sectors${activeTab}` && activeTab !== '/services') || activeTab === '/sectors';
+  const getClassName =(link) =>{
+    if(link === '/services' && ( activeTab === '/services' || (asPath.split("/")[1] === "services" && activeTab !=="/sectors"))){
+      return 'custom-menu-nav mil-active';
+    }else if(link === '/sectors' && (activeTab === '/sectors' || (asPath.split("/")[1] === "sectors" && activeTab !=="/services"))) {
+      return 'custom-menu-nav mil-active';
+    }else {
+      return 'custom-menu-nav';
+    }
   }
   AppData.header.menu.forEach((item, index) => {
     let s_class1 = "";
@@ -89,19 +105,19 @@ const DefaultHeader = ({ extraClass }) => {
                 <nav className="mil-main-menu" id="swupMenu">
                   <ul>
                     {navItems.map((item, key) => (
-                     
                       <li
                         className={item.classes}
                         key={`header-menu-item-${key}`}
-                        onClick={()=>setActiveTab(item.link)}
+                        onClick={() => handelTabClicked(item.link)}
                       >
-                        { item.link ==='/services' &&
-                         <div className={activeTab ==='/services' || asPath.split('/')[1] ==='services' ? "custom-menu-nav mil-active" : "custom-menu-nav"}>{item.label}</div>
-                          }
-                          {
-                            item.link !== '/projects' && item.link !== '/services' && 
-                            <Link href={item.link}>{item.label}</Link>
-                          }
+                        {item.link === "/services" ||
+                        item.link === "/sectors" ? (
+                          <div className={getClassName(item.link)}>
+                            {item.label}
+                          </div>
+                        ) : (
+                          <Link href={item.link}>{item.label}</Link>
+                        )}
                       </li>
                     ))}
                   </ul>
@@ -112,10 +128,14 @@ const DefaultHeader = ({ extraClass }) => {
                   <div className="mil-menu-right">
                     <div className="row">
                       <div className="col-lg-12 mil-mb-60">
-                     { asPath ==`/services${activeTab}` || activeTab ==='/services' &&  <MenuServicesList onLinkClick={handleChildLinkClick}/> }  
+                      {isServicesActive && (
+        <MenuServicesList onLinkClick={handleChildLinkClick} />
+      )}
+      {isSectorsActive && (
+        <MenuSectorsList onLinkClick={handleChildLinkClick} />
+      )}
                       </div>
                     </div>
-                   
                   </div>
                 </div>
               </div>
