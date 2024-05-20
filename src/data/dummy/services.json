@@ -67,7 +67,7 @@
           }
           ,
           {
-            "imgURL" : "https://firebasestorage.googleapis.com/v0/b/webartpath.appspot.com/o/futuristic-christmas-celebration-concept_23-2150979860.png?alt=media&token=cdd269f2-4cdf-4f3f-94b2-09857b157861",
+            "imgURL" : "https://res.cloudinary.com/dahiaq28x/image/upload/v1716186895/futuristic-christmas-celebration-concept_23-2150979860_omm43r.webp",
             "id": "service-2",
             "contentHtml": "",
             "sector": ["Information Technology (IT)"],
@@ -163,7 +163,7 @@
             }
           },
           {
-            "imgURL" : "",
+            "imgURL" : "https://res.cloudinary.com/dahiaq28x/image/upload/v1716187087/futuristic-christmas-celebration-concept_23-2150979860_1_ourind.webp",
             "id": "service-3",
             "contentHtml": "",
             "sector": ["Energy and Sustainability"],
@@ -206,7 +206,7 @@
             }
           },
           {
-            "imgURL": "",
+            "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716187406/futuristic-christmas-celebration-concept_23-2150979860_2_mgpnnq.webp",
             "id": "service-4",
             "contentHtml": "",
             "sector": ["Industrial"],
@@ -335,7 +335,7 @@
           }
           ,
           {
-            "imgURL": "",
+            "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716187518/futuristic-christmas-celebration-concept_23-2150979860_3_v9eyw5.webp",
             "id": "service-6",
             "contentHtml": "",
             "sector": ["Management Consulting"],
