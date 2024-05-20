@@ -7,7 +7,7 @@
         "label": "More about me"
     },
     "image": {
-        "url": "/img/faces/large/khaldoun-zomot.png",
+        "url": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716188813/khaldoun-zomot_vrnapk.webp",
         "alt": "Portrait"
     },
     "bottom": {

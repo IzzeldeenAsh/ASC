@@ -1,6 +1,5 @@
 import Link from "next/link";
 import AppData from "@data/app.json";
-import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useRouter } from 'next/router';
 import { useLocale } from "@/utils/getLocale";
 const DefaultFooter = ( { extraClass } ) => {
@@ -30,9 +29,7 @@ const DefaultFooter = ( { extraClass } ) => {
                                         ))}
                                     </ul>
                                     <ul className="mil-social-icons mil-up">
-                                    {AppData.social.map((item, key) => (
-                                    <li key={`footer-social-item-${key}`}><a href={item.link} target="_blank" className="social-icon"><i className={item.icon} /></a></li>
-                                    ))}
+                                    <li><a href={"/"} target="_blank" className="social-icon"></a></li>
                                 </ul>
                                 </nav>
                             </div>
