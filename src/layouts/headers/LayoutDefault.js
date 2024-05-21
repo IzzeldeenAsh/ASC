@@ -14,35 +14,47 @@ const DefaultHeader = ({ extraClass }) => {
   const router = useRouter();
   const { locale: activeLocale } = router;
   useEffect(() => {
-    if (asPath.split("/")[1] === "services" && activeTab !=="/sectors") {
+    if (asPath.split("/")[1] === "services" && activeTab !== "/sectors") {
       setActiveTab("/services");
     }
-    if (asPath.split("/")[1] === "sectors" && activeTab !=="/services") {
+    if (asPath.split("/")[1] === "sectors" && activeTab !== "/services") {
       setActiveTab("/sectors");
     }
   }, [asPath, navItems]);
   const handelTabClicked = (link) => {
     setActiveTab(link);
-    console.log("link",link);
-    console.log("asPath",asPath);
-    if(asPath ==link ){
+    console.log("link", link);
+    console.log("asPath", asPath);
+    if (asPath == link) {
       setToggle(false);
     }
   };
   const handleChildLinkClick = () => {
     setToggle(false);
   };
-  const isServicesActive = asPath === (`/services${activeTab}` && activeTab !== '/sectors') || activeTab === '/services';
-  const isSectorsActive = asPath === (`/sectors${activeTab}` && activeTab !== '/services') || activeTab === '/sectors';
-  const getClassName =(link) =>{
-    if(link === '/services' && ( activeTab === '/services' || (asPath.split("/")[1] === "services" && activeTab !=="/sectors"))){
-      return 'custom-menu-nav mil-active';
-    }else if(link === '/sectors' && (activeTab === '/sectors' || (asPath.split("/")[1] === "sectors" && activeTab !=="/services"))) {
-      return 'custom-menu-nav mil-active';
-    }else {
-      return 'custom-menu-nav';
+  const isServicesActive =
+    asPath === (`/services${activeTab}` && activeTab !== "/sectors") ||
+    activeTab === "/services";
+  const isSectorsActive =
+    asPath === (`/sectors${activeTab}` && activeTab !== "/services") ||
+    activeTab === "/sectors";
+  const getClassName = (link) => {
+    if (
+      link === "/services" &&
+      (activeTab === "/services" ||
+        (asPath.split("/")[1] === "services" && activeTab !== "/sectors"))
+    ) {
+      return "custom-menu-nav mil-active";
+    } else if (
+      link === "/sectors" &&
+      (activeTab === "/sectors" ||
+        (asPath.split("/")[1] === "sectors" && activeTab !== "/services"))
+    ) {
+      return "custom-menu-nav mil-active";
+    } else {
+      return "custom-menu-nav";
     }
-  }
+  };
   AppData.header.menu.forEach((item, index) => {
     let s_class1 = "";
 
@@ -77,27 +89,18 @@ const DefaultHeader = ({ extraClass }) => {
 
   return (
     <>
-      <div>
-        <LanguageSwitch />
-      </div>
-      {/* menu */}
+     
+     
 
       <div className={`mil-menu-frame ${toggle ? "mil-active" : ""}`}>
-        {/* frame clone */}
-        <div className="mil-frame-top" >
-          <Link
-            href={"/"}
-            style={{opacity:0}}
-            className="mil-logo"
-          >
-        
-          </Link>
-
-          <div
-            className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
-            onClick={() => setToggle(!toggle)}
-          >
-            <span />
+        {/* frame clone Desktop */}
+        <div className="mil-frame-top desktop-top-frame">
+          <Link href={"/"} style={{ opacity: 0 }} className="mil-logo"></Link>
+            <div
+              className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
+              onClick={() => setToggle(!toggle)}
+            >
+              <span />
           </div>
         </div>
         {/* frame clone end */}
@@ -131,12 +134,14 @@ const DefaultHeader = ({ extraClass }) => {
                   <div className="mil-menu-right">
                     <div className="row">
                       <div className="col-lg-12 mil-mb-60">
-                      {isServicesActive && (
-        <MenuServicesList onLinkClick={handleChildLinkClick} />
-      )}
-      {isSectorsActive && (
-        <MenuSectorsList onLinkClick={handleChildLinkClick} />
-      )}
+                        {isServicesActive && (
+                          <MenuServicesList
+                            onLinkClick={handleChildLinkClick}
+                          />
+                        )}
+                        {isSectorsActive && (
+                          <MenuSectorsList onLinkClick={handleChildLinkClick} />
+                        )}
                       </div>
                     </div>
                   </div>
@@ -146,53 +151,54 @@ const DefaultHeader = ({ extraClass }) => {
           </div>
         </div>
       </div>
-      {/* menu */}
+     
 
       {/* curtain */}
       <div className="mil-curtain" />
       {/* curtain end */}
 
-      {/* frame */}
-
-      <div className="mil-frame">
-        <div className="mil-frame-top">
-          <Link
-            style={{ opacity: "0" }}
-            href={AppData.header.logo.link}
-            className="mil-logo"
-          >
-            {AppData.header.logo.symbol}
-            {/* <LightEnglishLogo/> */}
-          </Link>
-
-          <div style={{ display: "flex", gap: "20px" }}>
-            <div
-              className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
-              onClick={() => setToggle(!toggle)}
+      {/* frame Mobile */}
+     
+        <div className="mil-frame">
+          <div className="mil-frame-top">
+            <Link
+             
+              href={AppData.header.logo.link}
+              className="mil-logo"
             >
-              <span />
+            A&B
+              {/* <LightEnglishLogo/> */}
+            </Link>
+
+            <div style={{ display: "flex", gap: "20px" }}>
+            <LanguageSwitch />
+              <div
+                className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
+                onClick={() => setToggle(!toggle)}
+              >
+                <span />
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="mil-frame-bottom">
-          <div
-            className="mil-current-page"
-            style={
-              activeLocale === "ar"
-                ? {
-                    transform:
-                      "rotate(-90deg) translateX(138px) translateY(138px)",
-                  }
-                : {
-                    transform:
-                      "rotate(-90deg) translateX(138px) translateY(-138px)",
-                  }
-            }
-          />
-          <BackToTop />
+          <div className="mil-frame-bottom">
+            <div
+              className="mil-current-page"
+              style={
+                activeLocale === "ar"
+                  ? {
+                      transform:
+                        "rotate(-90deg) translateX(138px) translateY(138px)",
+                    }
+                  : {
+                      transform:
+                        "rotate(-90deg) translateX(138px) translateY(-138px)",
+                    }
+              }
+            />
+            <BackToTop />
+          </div>
         </div>
-      </div>
       {/* frame end */}
     </>
   );

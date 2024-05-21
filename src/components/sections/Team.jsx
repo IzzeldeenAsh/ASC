@@ -51,10 +51,10 @@ const TeamSection = () => {
             <div className="col-lg-6">
               <div className="mil-team-list">
                 <div className="row mil-mb-60">
-                  <div className="col-sm-4">
-                    {Data.col1_items.map((item, key) => (
+                {Data.col1_items.map((item, key) => (
+                  <div className="col-sm-4 col-6"   key={`services1-item-${key}`}>
                       <div
-                        key={`services1-item-${key}`}
+                      
                         className="mil-team-card mil-up mil-mb-30"
                         style={{ position: "relative" }}
                       >
@@ -94,107 +94,8 @@ const TeamSection = () => {
                           </div>
                         </div>
                       </div>
-                    ))}
                   </div>
-                  <div className="col-sm-4">
-                    <p
-                      className="mil-mobile-hidden mil-text-sm mil-mb-30"
-                      style={{ height: "20px" }}
-                      dangerouslySetInnerHTML={{ __html: Data.note }}
-                    />
-
-                    {Data.col2_items.map((item, key) => (
-                      <div
-                        key={`services2-item-${key}`}
-                        className="mil-team-card mil-up mil-mb-30"
-                        style={{ position: "relative" }}
-                      >
-                        <div
-                          className="mil-squares team-squares"
-                          style={{ right: "-4px" }}
-                        >
-                          <span className="mil-square"></span>
-                          <span className="mil-square"></span>
-                          <span className="mil-square"></span>
-                        </div>
-                        <img src={item.image} alt={item.name} />
-                        <div className="mil-description">
-                          <div className="mil-secrc-text">
-                            <h6  style={{"fontSize":"14px"}} className="mil-muted mil-mb-5">{item.name}</h6>
-                            <p   className="mil-h7 mil-link mil-light-soft mil-mb-10" style={{"fontSize":"12px"}}>
-                              {item.role}
-                            </p>
-                            <ul className="mil-social-icons mil-center">
-                              {item.social.map((social, key2) => (
-                                <li key={`services2-item${key}-social-${key2}`}>
-                                  <a
-                                    href={social.link}
-                                    target="_blank"
-                                    className="social-icon"
-                                    title={social.title}
-                                    aria-label={"Link"}
-                                  >
-                                    {" "}
-                                    <i className={social.icon} />
-                                  </a>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="col-sm-4">
-                    <p
-                      className="mil-mobile-hidden mil-text-sm mil-mb-30"
-                      style={{ height: "80px" }}
-                      dangerouslySetInnerHTML={{ __html: Data.note }}
-                    />
-
-                    {Data.col3_items.map((item, key) => (
-                      <div
-                        key={`services2-item-${key}`}
-                        className="mil-team-card mil-up mil-mb-30"
-                        style={{ position: "relative" }}
-                      >
-                        <div
-                          className="mil-squares team-squares"
-                          style={{ right: "-4px" }}
-                        >
-                          <span className="mil-square"></span>
-                          <span className="mil-square"></span>
-                          <span className="mil-square"></span>
-                        </div>
-                        <img src={item.image} alt={item.name} />
-                        <div className="mil-description">
-                          <div className="mil-secrc-text">
-                            <h6  style={{"fontSize":"14px"}} className="mil-muted mil-mb-5">{item.name}</h6>
-                            <p  className="mil-link mil-light-soft mil-mb-10" style={{"fontSize":"12px"}}>
-                              {item.role}
-                            </p>
-                            <ul className="mil-social-icons mil-center">
-                              {item.social.map((social, key2) => (
-                                <li key={`services2-item${key}-social-${key2}`}>
-                                  <a
-                                    href={social.link}
-                                    target="_blank"
-                                    className="social-icon"
-                                    title={social.title}
-                                    aria-label={"Link"}
-                                  >
-                                    {" "}
-                                    <i className={social.icon} />
-                                  </a>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                  
+                ))}
                 </div>
               </div>
             </div>

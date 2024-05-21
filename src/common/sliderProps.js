@@ -49,6 +49,7 @@ export const SliderProps = {
         },
     },
     speed: 800,
+    autoplay: true,
     effect: 'fade',
     parallax: true,
     navigation: {

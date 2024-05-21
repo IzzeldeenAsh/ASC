@@ -6,6 +6,7 @@ import { useLocale } from "@/utils/getLocale";
 import aboutData from "@/src/data/sections/aboutUs.json";
 import data from "@data/sections/timeline.json";
 import Together from "@components/sections/Together";
+import CustomizedTimeline from "@components/mobile-timeline";
 const about = () => {
   const postData = aboutData;
   const { activeLocale } = useLocale();
@@ -96,12 +97,16 @@ const about = () => {
               <img src={item.logo} alt="logo"></img>
             </p>
             <h1>{activeLocale ==='ar' ? item.title.arabic :item.title.english }</h1>
-            <p>{activeLocale ==='ar' ? item.content.arabic :item.content.english }</p>
+            <p className="mil-text-sm">{activeLocale ==='ar' ? item.content.arabic :item.content.english }</p>
           </div>
             </div>
           )
         )}
       </section>
+      <section >
+      <CustomizedTimeline/>
+      </section>
+ 
       {/* publication end */}
       <Together/>
       {/* <RelatedPostsSection items={props.related} /> */}

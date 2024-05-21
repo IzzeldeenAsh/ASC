@@ -18,22 +18,9 @@ const ServiceDetail = () => {
     setActiveAccordion(key === activeAccordion ? -1 : key);
   };
   const service = servicesData.services.find((service) => service.id === id);
-  const LogoStyleAr = {
-    position: "absolute",
-    top: "45px",
-    width: "70px",
-    height: "51px",
-    right: "64px",
-    zIndex: "100",
-  };
-  const LogoStyleEn = {
-    position: "absolute",
-    top: "45px",
-    left: "64px",
-    zIndex: "100",
-    width: "70px",
-    height: "51px",
-  };
+  if (!id) {
+    return <div>...Loading</div>;
+  }
   useEffect(() => {
     Accordion();
   }, []);
@@ -44,7 +31,7 @@ const ServiceDetail = () => {
   const postData = service;
   return (
     <Layouts>
-      <div style={activeLocale === "ar" ? LogoStyleAr : LogoStyleEn}>
+      <div className="logoStyle">
         <ABLogoDark />
       </div>
       <PageBanner

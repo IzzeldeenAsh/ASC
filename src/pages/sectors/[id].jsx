@@ -20,22 +20,7 @@ const SectorDetail = () => {
     setActiveAccordion(key === activeAccordion ? -1 : key);
   };
   const service = sectorsData.sectors.find((sector) => sector.id === id);
-  const LogoStyleAr = {
-    position: "absolute",
-    top: "45px",
-    width: "70px",
-    height: "51px",
-    right: "64px",
-    zIndex: "100",
-  };
-  const LogoStyleEn = {
-    position: "absolute",
-    top: "45px",
-    left: "64px",
-    zIndex: "100",
-    width: "70px",
-    height: "51px",
-  };
+
   useEffect(() => {
     Accordion();
   }, []);
@@ -60,7 +45,7 @@ const SectorDetail = () => {
   }
   return (
     <Layouts>
-      <div style={activeLocale === "ar" ? LogoStyleAr : LogoStyleEn}>
+      <div className="logoStyle">
 
 <ABLogoLight/>
        
@@ -117,12 +102,7 @@ const SectorDetail = () => {
 
                 <div
                   className="title-yellow-head"
-                  style={
-                    activeLocale === "ar"
-                      ? { right: "-40px", transform: "rotateY(180deg)" }
-                      : { left: "-20px" }
-                  }
-                >
+>
                   <ABQuoations />
                 </div>
               </div>

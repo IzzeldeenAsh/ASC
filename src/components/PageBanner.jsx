@@ -72,9 +72,7 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, alig
             {headingSize == 1 &&
              <div className="banner-title-and-image-container">
                 <div style={{position:'relative',flex:'1',justifyContent:"space-between"}}>
-                    <div className="title-yellow-head"
-                    style={activeLocale ==='ar' ? {right : '-40px', transform:'rotateY(180deg)'} : {left:'-40px'}}
-                    >
+                    <div className="title-yellow-head">
                     <TitleHead/>
                     </div>
                     <h2 className={bg ? "mil-light mil-mb-60" : "mil-mb-60"} dangerouslySetInnerHTML={{__html : pageTitle}} />
@@ -88,9 +86,7 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, alig
             }
             {headingSize == 2 &&
             <div style={{position:'relative',width:"fit-content",margin:"0 auto"}}>
-            <div className="title-yellow-head"
-            style={activeLocale ==='ar' ? {right : '-40px', transform:'rotateY(180deg)'} : {left:'-40px'}}
-            >
+            <div className="title-yellow-head">
             <TitleHead/>
             </div>
             <h2   className={anchorLink != 0 ? "mil-mb-60" : ""} dangerouslySetInnerHTML={{__html : pageTitle}} />

@@ -33,8 +33,41 @@
             ]
         },
         {
+            "image": "/img/faces/Adeeb.png",
+            "name": "Dr. Adeeb Al-Saify",
+            "role": "Consultant",
+            "social": [
+              
+            ]
+        },
+        {
+            "image": "/img/faces/singlaoy.png",
+            "name": "Dr. Omar Singlawi",
+            "role": "Consultant",
+            "social": [
+               
+            ]
+        },
+        {
             "image": "/img/faces/Maher.png",
             "name": "Dr. Maher Khudr",
+            "role": "Consultant",
+            "social": [
+               
+            ]
+        },
+        
+        {
+            "image": "/img/faces/Nasim-zomot.png",
+            "name": "Dr. Nasim Zomot",
+            "role": "Consultant",
+            "social": [
+                
+            ]
+        },
+        {
+            "image": "/img/faces/Zreaqat.png",
+            "name": "Dr. Mohammed Alzrikaat",
             "role": "Consultant",
             "social": [
                
@@ -47,46 +80,11 @@
             "social": [
                
             ]
-        }
-    ],
-    "col2_items": [
-        {
-            "image": "/img/faces/Adeeb.png",
-            "name": "Dr. Adeeb Al-Saify",
-            "role": "Consultant",
-            "social": [
-              
-            ]
         },
-        {
-            "image": "/img/faces/Nasim-zomot.png",
-            "name": "Dr. Nasim Zomot",
-            "role": "Consultant",
-            "social": [
-                
-            ]
-        },
+  
         {
             "image": "/img/faces/ramahi.png",
             "name": "Mahmmoud Alramahi",
-            "role": "Consultant",
-            "social": [
-               
-            ]
-        }
-    ],
-    "col3_items": [
-        {
-            "image": "/img/faces/singlaoy.png",
-            "name": "Dr. Omar Singlawi",
-            "role": "Consultant",
-            "social": [
-               
-            ]
-        },
-        {
-            "image": "/img/faces/Zreaqat.png",
-            "name": "Dr. Mohammed Alzrikaat",
             "role": "Consultant",
             "social": [
                
