@@ -23,6 +23,11 @@ const DefaultHeader = ({ extraClass }) => {
   }, [asPath, navItems]);
   const handelTabClicked = (link) => {
     setActiveTab(link);
+    console.log("link",link);
+    console.log("asPath",asPath);
+    if(asPath ==link ){
+      setToggle(false);
+    }
   };
   const handleChildLinkClick = () => {
     setToggle(false);
@@ -79,15 +84,13 @@ const DefaultHeader = ({ extraClass }) => {
 
       <div className={`mil-menu-frame ${toggle ? "mil-active" : ""}`}>
         {/* frame clone */}
-        <div className="mil-frame-top">
+        <div className="mil-frame-top" >
           <Link
-            style={{ opacity: 0 }}
-            href={AppData.header.logo.link}
+            href={"/"}
+            style={{opacity:0}}
             className="mil-logo"
           >
-            {AppData.header.logo.symbol}
-            {/* <Image src="https://res.cloudinary.com/dsiku9ipv/image/upload/v1714889771/logo_A_B-01-svg_2_wksfyd.png" priority  alt="Eng-logo"  width={55} 
-          height={40}  />  */}
+        
           </Link>
 
           <div
@@ -101,7 +104,7 @@ const DefaultHeader = ({ extraClass }) => {
         <div className="container">
           <div className="mil-menu-content">
             <div className="row">
-              <div className="col-xl-5">
+              <div className="col-xl-5 col-6">
                 <nav className="mil-main-menu" id="swupMenu">
                   <ul>
                     {navItems.map((item, key) => (
@@ -123,7 +126,7 @@ const DefaultHeader = ({ extraClass }) => {
                   </ul>
                 </nav>
               </div>
-              <div className="col-xl-7">
+              <div className="col-xl-7 col-6">
                 <div className="mil-menu-right-frame">
                   <div className="mil-menu-right">
                     <div className="row">
