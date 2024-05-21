@@ -13,13 +13,13 @@ const HeroOne = () => {
         width:'70px',
         height:'51px',
         right:'64px',
-        zIndex:'100'
+        zIndex:'3'
     }
     const LogoStyleEn= {
         position:"absolute",
         top:'45px',
         left:'64px',
-        zIndex:'100',
+        zIndex:'3',
         width:'70px',
         height:'51px',
     }

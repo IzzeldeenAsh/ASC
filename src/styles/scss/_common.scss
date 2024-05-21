@@ -700,9 +700,8 @@ body[dir="rtl"] .mil-breadcrumbs:before {
         &:last-child {
             margin-right: 0;
             cursor: not-allowed;
-
             & a {
-                opacity: .4;
+                opacity: .7;
                 pointer-events: none;
             }
 

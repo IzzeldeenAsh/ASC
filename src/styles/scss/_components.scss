@@ -482,9 +482,9 @@ menu
     width: 100%;
     padding: 50px 60px;
 
-    @media screen and (max-width: 1200px) {
-      display: none;
-    }
+    // @media screen and (max-width: 1200px) {
+    //   display: none;
+    // }
 
     & .mil-logo {
       color: $light;
@@ -519,7 +519,17 @@ menu
     opacity: 0;
     transform: translateY(30px);
     transition: $t-md;
-
+    @media screen and (max-width: 1200px) {
+      align-items: start;
+      justify-content: center;
+      flex-direction: column;
+      padding-top: 162px;
+      padding-left: 10px;
+      & .mil-menu-list {
+        display: flex;
+       flex-direction: column;
+      }
+    }
     & .mil-menu-right {
       padding-bottom: 60px;
     }
@@ -533,13 +543,7 @@ menu
       transition: $t-md;
     }
 
-    @media screen and (max-width: 1200px) {
-      display: none;
-    }
-
-    @media screen and (max-height: 800px) {
-      display: none;
-    }
+  
   }
 
   &.mil-active {
@@ -619,7 +623,6 @@ menu
   ul {
     padding: 0;
     margin: 0;
-
     li {
       margin-bottom: 40px;
 
@@ -730,8 +733,8 @@ menu
   }
 
   @media screen and (max-width: 1200px) {
-    justify-content: center;
-
+    padding: 130px 0px;
+    height: 100vh;
     & ul {
       display: flex;
       flex-direction: column;
