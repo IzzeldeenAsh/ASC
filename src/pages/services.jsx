@@ -12,22 +12,7 @@ import { IoIosSearch } from "react-icons/io";
 import { Select } from '@mantine/core';
 const Services = () => {
 const {activeLocale , t} = useLocale();
-const LogoStyleAr= {
-    position:"absolute",
-    top:'45px',
-    width:'70px',
-    height:'51px',
-    right:'64px',
-    zIndex:'100'
-}
-const LogoStyleEn= {
-    position:"absolute",
-    top:'45px',
-    left:'64px',
-    zIndex:'100',
-    width:'70px',
-    height:'51px',
-}
+
 const [isMounted,setIsMounted] = useState(false); // Need this for the react-tooltip
 const [selectedSector , setSelectedSector] = useState('All');
 const [searchTerm,setSearchTerm] = useState('');
@@ -53,11 +38,11 @@ useEffect(() => {
 },[]);
   return (isMounted &&
     <Layouts>
-       <div style={activeLocale ==='ar' ? LogoStyleAr : LogoStyleEn}>
+       <div className="logoStyle">
           <ABLogoLight/>
         </div>
   {/* banner */}
-  <div className="mil-dark-bg" style={{backgroundColor:"#f5e4cf"}}>
+  <div className="mil-dark-bg" >
       <PageBannerDark pageTitle={"Services List"} breadTitle={"Services"} anchorLabel={"Our services"} anchorLink={"#services"} />
 
       {/* services */}
@@ -71,6 +56,10 @@ useEffect(() => {
             styles={(theme) => ({
         input: {
           borderColor: '#666666', // Change border color
+          color:"#fff"
+        },
+        label: {
+          color: "#fff", // Change label color to white
         },
       })} />
            </div>
@@ -81,7 +70,10 @@ useEffect(() => {
           data={uniqueSectors}
           defaultValue={uniqueSectors[0]} // Default to 'All'
           styles={(theme) => ({
-            input: { minWidth: '150px', borderColor: '#666666' },
+            input: { minWidth: '150px', borderColor: '#666666' , color: "#fff"},
+            label: {
+              color: "#fff", // Change label color to white
+            },
           })}
         />
            </div>

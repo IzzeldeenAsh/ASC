@@ -14,7 +14,7 @@
         },
         "menu": [
             {
-                "label": "Homepage",
+                "label": "Home",
                 "link": "/",
                 "children": []
             },
@@ -43,28 +43,15 @@
                 "label": "Contact",
                 "link": "/contact",
                 "children": 0
-            },
-            {
-                "label": "Other",
-                "link": "/team",
-                "children": [
-                    {
-                        "label": "Team",
-                        "link": "/team"
-                    },
-                    {
-                        "label": "404",
-                        "link": "/404"
-                    }
-                ]
             }
+           
         ]
     },
     "footer": {
         "logo": {
             "text": "A&B."
         },
-        "copy": "© 2024 A&B. All Rights Reserved.",
+        "copy": "All rights reserved © 2024, Alokab Consulting Co.",
         "menu": [
             {
                 "label": "Home",

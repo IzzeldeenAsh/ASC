@@ -11,22 +11,6 @@ import {  TextInput } from '@mantine/core';
 import { IoIosSearch } from "react-icons/io";
 const Sectors = () => {
 const {activeLocale , t} = useLocale();
-const LogoStyleAr= {
-    position:"absolute",
-    top:'45px',
-    width:'70px',
-    height:'51px',
-    right:'64px',
-    zIndex:'100'
-}
-const LogoStyleEn= {
-    position:"absolute",
-    top:'45px',
-    left:'64px',
-    zIndex:'100',
-    width:'70px',
-    height:'51px',
-}
 const [isMounted,setIsMounted] = useState(false); // Need this for the react-tooltip
 const [searchTerm,setSearchTerm] = useState('');
 const props = sectorsData.sectors.sort((a, b) => b.list.items.length - a.list.items.length);
@@ -48,11 +32,11 @@ useEffect(() => {
 },[]);
   return (isMounted &&
     <Layouts>
-       <div style={activeLocale ==='ar' ? LogoStyleAr : LogoStyleEn}>
+       <div className="logoStyle">
           <ABLogoLight/>
         </div>
   {/* banner */}
-  <div className="mil-dark-bg" style={{backgroundColor:"#f5e4cf"}}>
+  <div className="mil-dark-bg" >
       <PageBannerDark pageTitle={"Sectors List"} breadTitle={"Sectors"} anchorLabel={"Our sectors"} anchorLink={"#sectors"} />
 
       {/* services */}
@@ -66,6 +50,10 @@ useEffect(() => {
             styles={(theme) => ({
         input: {
           borderColor: '#666666', // Change border color
+          color:"#fff"
+        },
+        label: {
+          color: "#fff", // Change label color to white
         },
       })} />
            </div>

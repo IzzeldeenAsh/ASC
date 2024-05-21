@@ -6,25 +6,13 @@ import Link from "next/link";
 import { useLocale } from "@/utils/getLocale";
 import Pentagon from "@layouts/pentagon/Index";
 const CEOWord = () => {
-    const LogoStyleAr = {
-        position: "absolute",
-        top: "45px",
-        right: "64px",
-        zIndex:3
-      };
-      const LogoStyleEn = {
-        position: "absolute",
-        top: "45px",
-        left: "64px",
-        zIndex:3
-      };
-    const { activeLocale, t } = useLocale();
+    const { activeLocale} = useLocale();
   return (
     <>
     {/* banner */}
 
     <Layouts>
-    <div style={activeLocale === "ar" ? LogoStyleAr : LogoStyleEn}>
+    <div  className={activeLocale === "ar" ? "arrow-ar-ceo" : "arrow-en-ceo"}>
     <Link href={"/"} className="mil-link mil-dark  mil-arrow-place">
                                 <div style={ activeLocale === 'en' ? {'transform' : 'rotate(180deg)'} : {'transform' : 'rotate(0deg)'}} >
                                 <ArrowIcon  />
@@ -41,11 +29,11 @@ const CEOWord = () => {
         <div className="container">
             <div className="mil-banner-content mil-up">
 
-                <div className="row align-items-start">
-                    <div className="col-lg-6">
+                <div className="row align-items-start ">
+                    <div className="col-lg-6 ">
                         <div className="mil-personal-text">
-                            <p className="mil-mb-60">{Data.subtitle}</p>
-                            <h1 className="mil-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
+                            <p className="mil-mb-90">{Data.subtitle}</p>
+                            <h1 className="mil-mb-30 " dangerouslySetInnerHTML={{__html : Data.title}} />
                             <div className="row justify-content-center">
                                 <div className="col-lg-8">
                                     <span     style={{opacity: "0.7"}} className="mil-suptitle mil-suptitle-dark mil-mb-60" dangerouslySetInnerHTML={{__html : Data.text}} />

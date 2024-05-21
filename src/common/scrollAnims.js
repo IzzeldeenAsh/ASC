@@ -90,7 +90,24 @@ export const ScrollAnimation = () => {
     });
 
     // back to top
-    const btt = document.querySelector(".mil-back-to-top .mil-link");
+    const btt = document.querySelector(".mil-back-to-top .mil-link ");
+    const currentPage  =  document.querySelector(".mil-current-page"); 
+    gsap.set(currentPage, {
+        x: -30,
+        opacity: 0,
+    });
+
+    gsap.to(currentPage, {
+        x: 0,
+        opacity: 1,
+        ease: 'sine',
+        scrollTrigger: {
+            trigger: "body",
+            start: "top -40%",
+            end: "top -40%",
+            toggleActions: "play none reverse none"
+        }
+    });
 
     gsap.set(btt, {
         x: -30,

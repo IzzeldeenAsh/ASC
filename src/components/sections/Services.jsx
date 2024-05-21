@@ -52,13 +52,7 @@ const ServicesSection = () => {
               >
                 <span style={{ position: "relative" }}>
                   <div
-                    className="title-yellow-head"
-                    style={
-                      activeLocale === "ar"
-                        ? { right: "-40px", transform: "rotateY(180deg)" }
-                        : { left: "-40px" }
-                    }
-                  >
+                    className="title-yellow-head">
                     <TitleHead />
                   </div>
                   <h2
