@@ -3,24 +3,15 @@ import Link from "next/link";
 import { useRouter } from 'next/router';
 import AppData from "@data/app.json";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
-import { useLocale } from "@/utils/getLocale";
 import Image from 'next/image';
-import { useEffect, useRef } from 'react';
-import { BackgroundImage } from '@mantine/core';
+import { useEffect, useRef, useMemo } from 'react';
 const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, align, headingSize = 1 ,imgUrl,bg}) => {
-  const imageURL = imgUrl
-  const bgBanner = {
-    backgroundImage : `url(${bg})`,
+  const bgBanner = useMemo(() => ({
+    backgroundImage: `url(${bg})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
-  }
-  const bannderOverlay ={
-    background: "rgb(255,255,255)",
-    background: "-moz-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.8372141092765231) 100%)",
-    background: "-webkit-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.8372141092765231) 100%)",
-    background: "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.8372141092765231) 100%)",
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#000000',GradientType=1)"
-  }
+  }), [bg]);
+
   const serviceImageRef = useRef(null)
   useEffect(()=>{
     if(serviceImageRef.current){
@@ -29,7 +20,6 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, alig
   },[])
   const { asPath } = useRouter();
   let clearBreadTitle;
-  const {activeLocale , t} = useLocale();
   if ( breadTitle != undefined ) {
     clearBreadTitle = breadTitle;
   } else {
@@ -48,7 +38,7 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, alig
       {/* banner */}
       <div className={paddingBottom ? "mil-inner-banner mil-p-0-120" : "mil-inner-banner"}>
         <div className={align == "center" ? "mil-banner-content mil-center mil-up" : "mil-banner-content mil-up"} style={bg ? bgBanner : {} }>
-          <div style={bg ? bannderOverlay : {} }>
+          <div  className={bg ? "bannderOverlay" : ""}>
           <div className="container" >
             <ul  className={bg ? "mil-breadcrumbs-light mil-breadcrumbs mil-mb-60" : "mil-breadcrumbs mil-mb-60 "}   >
               <li className={bg ? "mil-light":""}><Link href="/">Homepage</Link></li>
@@ -75,11 +65,11 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, alig
                     <div className="title-yellow-head">
                     <TitleHead/>
                     </div>
-                    <h2 className={bg ? "mil-light mil-mb-60" : "mil-mb-60"} dangerouslySetInnerHTML={{__html : pageTitle}} />
+                    <h2  className={bg ? "mil-light mil-mb-60" : "mil-mb-60"} dangerouslySetInnerHTML={{__html : pageTitle}} />
                 </div>
-               {imageURL &&  <div className='service-image' ref={serviceImageRef}>
-                <Image src={imageURL} width={585} height={280} alt="service-image" priority={true} />
-                {/* <img src={imageURL}/> */}
+               {imgUrl &&  <div className='service-image' ref={serviceImageRef}>
+               <Image src={imgUrl} width={585} height={280} alt="service-image" priority fetchPriority="high" />
+                {/* <img src={imgUrl}/> */}
                 </div>}
             </div>
            
@@ -91,20 +81,13 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, alig
             </div>
             <h2   className={anchorLink != 0 ? "mil-mb-60" : ""} dangerouslySetInnerHTML={{__html : pageTitle}} />
            </div>
-          
             }
-            {/* {anchorLink != 0 &&
-            <a href={anchorLink} className="mil-link mil-dark mil-arrow-place mil-down-arrow" aria-label={"Link"}>
-                <span>{anchorLabel}</span>
-                <ArrowIcon />
-            </a>
-            } */}
+           
           </div>
           </div>
          
         </div>
       </div>
-      {/* banner end */}
     </>
   );
 };
