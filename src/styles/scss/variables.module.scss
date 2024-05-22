@@ -1,6 +1,9 @@
 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css);
 
+@mixin max-width($value) {
+    max-width: $value;
+  }
 
 $dark: #0a1b30;
 $light: rgba(255, 255, 255, 1);
@@ -56,6 +59,14 @@ $text: 18px;
 $t-sm: .2s cubic-bezier(0, 0, 0.3642, 1);
 $t-md: .4s cubic-bezier(0, 0, 0.3642, 1);
 $t-lg: .6s cubic-bezier(0, 0, 0.3642, 1);
+
+$max-width-values: 100px, 200px, 300px, 400px, 500px,600px,700px;
+@each $value in $max-width-values {
+    .max-w-#{$value} {
+      @include max-width($value);
+    }
+  }
+
 
 :export {
     accentColor: $accent;

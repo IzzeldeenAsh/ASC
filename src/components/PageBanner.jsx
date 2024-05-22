@@ -5,7 +5,7 @@ import AppData from "@data/app.json";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import Image from 'next/image';
 import { useEffect, useRef, useMemo } from 'react';
-const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, align, headingSize = 1 ,imgUrl,bg}) => {
+const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 0, paddingBottom, align, headingSize = 1 ,imgUrl,bg}) => {
   const bgBanner = useMemo(() => ({
     backgroundImage: `url(${bg})`,
     backgroundPosition: "center",
@@ -37,18 +37,18 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, alig
       
       {/* banner */}
       <div className={paddingBottom ? "mil-inner-banner mil-p-0-120" : "mil-inner-banner"}>
-        <div className={align == "center" ? "mil-banner-content mil-center mil-up" : "mil-banner-content mil-up"} style={bg ? bgBanner : {} }>
+        <div className={align == "center" ? "mil-banner-content mil-center mil-up" : "mil-banner-content mil-up"}  style={bg ? bgBanner : {} }>
           <div  className={bg ? "bannderOverlay" : ""}>
-          <div className="container" >
-            <ul  className={bg ? "mil-breadcrumbs-light mil-breadcrumbs mil-mb-60" : "mil-breadcrumbs mil-mb-60 "}   >
-              <li className={bg ? "mil-light":""}><Link href="/">Homepage</Link></li>
+          <div className="container mil-p-0-30" >
+            <ul  className={breadColor ==="light" ? "mil-breadcrumbs-light mil-breadcrumbs mil-mb-60" : "mil-breadcrumbs mil-mb-60 "}   >
+              <li className={breadColor  ==="light"? "mil-light":""}><Link href="/">Homepage</Link></li>
               {asPath.indexOf('/blog/') != -1 &&
               <li>
                 <Link href="/blog">Blog</Link>
               </li>
               }
               {asPath.indexOf('/sectors/') != -1 &&
-              <li className= "mil-light">
+              <li className= {breadColor  ==="light"? "mil-light":""}>
                 <Link href="/sectors">Sectors</Link>
               </li>
               }
@@ -57,7 +57,7 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, alig
                 <Link href="/services">Services</Link>
               </li>
               }
-              <li  className={bg ? "mil-light":""}><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>
+              <li  className={breadColor  ==="light"? "mil-light":""}><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>
             </ul>
             {headingSize == 1 &&
              <div className="banner-title-and-image-container">
@@ -65,7 +65,8 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, alig
                     <div className="title-yellow-head">
                     <TitleHead/>
                     </div>
-                    <h2  className={bg ? "mil-light mil-mb-60" : "mil-mb-60"} dangerouslySetInnerHTML={{__html : pageTitle}} />
+                    <h2  className={bg ? "mil-light mil-mb-20" : "mil-mb-60"} dangerouslySetInnerHTML={{__html : pageTitle}} />
+                    <p  className={bg ? "mil-light mil-mb-60 max-w-600px " : "mil-mb-60"} dangerouslySetInnerHTML={{__html : subtext}} />
                 </div>
                {imgUrl &&  <div className='service-image' ref={serviceImageRef}>
                <Image src={imgUrl} width={585} height={280} alt="service-image" priority fetchPriority="high" />
