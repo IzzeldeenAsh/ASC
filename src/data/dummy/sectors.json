@@ -1,8 +1,9 @@
 {
   "sectors": [
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716206580/steel-construction-metal-frame_1_pupkek.webp",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716374417/indust_wdvirt.webp",
       "id": "sector-1",
+      "logoColor":"light",
       "contentHtml": "",
       "title": {
         "english": "Industrial",
@@ -13,8 +14,8 @@
         "arabic": "الصناعة"
       },
       "short": {
-        "english": "A&B Consulting boosts economic growth by optimizing industrial profits through advanced evaluations. We streamline operations with automation and develop sustainable manufacturing strategies to reduce environmental impact.",
-        "arabic": "تعمل A&B Consulting على تعزيز النمو الاقتصادي من خلال تحسين الأرباح الصناعية باستخدام تقييمات متقدمة. نقوم بتحسين العمليات باستخدام الأتمتة وتطوير استراتيجيات تصنيع مستدامة لتقليل الأثر البيئي."
+        "english": "A&B Consulting boosts economic growth by optimizing industrial profits, automating operations, and developing sustainable manufacturing strategies.",
+        "arabic": "تُعزز A&B Consulting النمو الاقتصادي من خلال تحسين أرباح الصناعات، وأتمتة العمليات، وتطوير استراتيجيات تصنيع مستدامة."
       },
       "introTitle": {
         "english": "Industrial",
@@ -119,6 +120,7 @@
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716211136/view-heavy-machinery-used-construction-industry_o0sa7s.webp",
       "id": "sector-2",
+      "logoColor":"dark",
       "contentHtml": "",
       "title": {
         "english": "Metals and Mining",
@@ -129,8 +131,8 @@
         "arabic": "المعادن والتعدين"
       },
       "short": {
-        "english": "We tailor mining strategies to elevate client projects globally, offering objective-aligned solutions and comprehensive market analysis. Our experts support mining companies in navigating challenges and adopting sustainable practices.",
-        "arabic": "نحن نخصص استراتيجيات التعدين لرفع مشاريع العملاء عالميًا، نقدم حلولًا متماشية مع الأهداف وتحليلات سوق شاملة. يدعم خبراؤنا شركات التعدين في التنقل في التحديات واعتماد الممارسات المستدامة."
+        "english": "We create tailored mining strategies, offering solutions and market analysis to elevate global projects. Our experts help mining companies navigate challenges and adopt sustainable practices.",
+        "arabic": "نحن نصمم استراتيجيات تعدين مخصصة، ونقدم حلولاً وتحليلات سوقية لرفع المشاريع العالمية. يدعم خبراؤنا شركات التعدين في التغلب على التحديات واعتماد ممارسات مستدامة."
       },
       "introTitle": {
         "english": "Metals and Mining",
@@ -193,8 +195,9 @@
       }
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716211019/glowing-blue-sphere-held-by-human-hand-generated-by-ai_yt5jzo.webp",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716367795/digita_ntx8xy.webp",
       "id": "sector-3",
+      "logoColor":"light",
       "contentHtml": "",
       "title": {
         "english": "Digital",
@@ -206,8 +209,8 @@
       },
       "short": {
        
-"english": "Let's discover the potential of technology and innovate digital ventures. We'll outline strategies to help you maximize value by leveraging technology. Our digital transformation experts will guide you through data utilization, ensuring customer-centric solutions and enhanced efficiency.",
-"arabic": "دعونا نكتشف إمكانات التكنولوجيا ونبتكر المشاريع الرقمية. سنقوم بوضع الاستراتيجيات التي تساعدك على تحقيق القيمة القصوى من التكنولوجيا. سيقوم فريق خبراء التحول الرقمي بتوجيهك خلال تعقيدات استخدام البيانات، مما يضمن لك حلولًا موجهة نحو العميل وتعزيز الكفاءة."
+"english": "Discover technology's potential with our strategies to maximize value. Our experts ensure customer-centric solutions and enhanced efficiency.",
+"arabic": "اكتشف إمكانيات التكنولوجيا مع استراتيجياتنا لتعظيم القيمة. يضمن خبراؤنا حلولًا تتمحور حول العملاء وكفاءة محسنة."
       },
       "introTitle": {
         "english": "Digital",
@@ -239,8 +242,9 @@
       }
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716271603/solar-panels-wind-mills-sunset-sustainable-energy-eco-environment_pawyb5.webp",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716367647/energey_htq8ma.webp",
       "id": "sector-4",
+      "logoColor":"light",
       "contentHtml": "",
       "title": {
         "english": "Energy",
@@ -264,8 +268,8 @@
           "arabic": "SLOGAN"
         },
         "content": {
-          "english":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod,consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod  .",
-          "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod,consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod  ."
+          "english":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
+          "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
         },
         "button": {
           "link": "/projects",
@@ -284,8 +288,9 @@
       }
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716271923/digital-art-inmersive-exhibition_1_wllgrh.webp",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716366986/humacn_dtd5sv.webp",
       "id": "sector-5",
+      "logoColor":"light",
       "contentHtml": "",
       "title": {
         "english": "Human Capital",
@@ -309,8 +314,8 @@
           "arabic":  "SLOGAN"
         },
         "content": {
-          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod  .",
-          "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod  ."
+          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
+          "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
         },
         "button": {
           "link": "/projects",
@@ -329,8 +334,9 @@
       }
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716272338/digital-art-inmersive-exhibition_2_pozfiy.webp",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716366247/digital-art-inmersive-exhibition_6_feek04_5_jhg4xf.webp",
       "id": "sector-6",
+      "logoColor":"light",
       "contentHtml": "",
       "title": {
         "english": "Environment",
@@ -354,8 +360,8 @@
           "arabic": "SLOGAN"
         },
         "content": {
-          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod,consectetur adipiscing elit, sed do eiusmod,sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod,consectetur adipiscing elit, sed do eiusmod,sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod,consectetur adipiscing elit, sed do eiusmod,sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod,consectetur adipiscing elit, sed do eiusmod.",
-          "arabic":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod,consectetur adipiscing elit, sed do eiusmod,sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod,consectetur adipiscing elit, sed do eiusmod,sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod,consectetur adipiscing elit, sed do eiusmod,sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod,consectetur adipiscing elit, sed do eiusmod,."
+          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
+          "arabic":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
         },
         "button": {
           "link": "/projects",
@@ -374,8 +380,9 @@
       }
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716272783/digital-art-inmersive-exhibition_3_ficwqg.webp",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716365656/ballon_iaruh5.webp",
       "id": "sector-7",
+      "logoColor":"light",
       "contentHtml": "",
       "title": {
         "english": "Travel and Tourism",
@@ -399,8 +406,8 @@
           "arabic": "SLOGAN"
         },
         "content": {
-          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod   .",
-          "arabic":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod   ."
+          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
+          "arabic":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
         },
         "button": {
           "link": "/projects",
@@ -419,8 +426,9 @@
       }
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716273008/digital-art-inmersive-exhibition_4_yf9k3w.webp",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716363414/digital-art-inmersive-exhibition_6_feek04_yctnhc.jpg",
       "id": "sector-8",
+      "logoColor":"light",
       "contentHtml": "",
       "title": {
         "english": "Agriculture",
@@ -444,8 +452,8 @@
           "arabic":  "SLOGAN"
         },
         "content": {
-          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
-          "arabic":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
+          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
+          "arabic":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
         },
         "button": {
           "link": "/projects",
@@ -464,8 +472,9 @@
       }
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716273276/digital-art-inmersive-exhibition_5_ycccvl.webp",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716364315/digital-art-inmersive-exhibition_6_feek04_4_ybuity.webp",
       "id": "sector-9",
+      "logoColor":"light",
       "contentHtml": "",
       "title": {
         "english": "Commerce",
@@ -489,8 +498,8 @@
           "arabic": "SLOGAN"
         },
         "content": {
-          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod",
-          "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod"
+          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
+          "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
         },
         "button": {
           "link": "/projects",
@@ -509,8 +518,9 @@
       }
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716273562/digital-art-inmersive-exhibition_6_feek04.webp",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716364646/gv_1_halvjk.webp",
       "id": "sector-10",
+      "logoColor":"light",
       "contentHtml": "",
       "title": {
         "english": "Government and Public",
@@ -534,8 +544,8 @@
           "arabic": "SLOGAN"
         },
         "content": {
-          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod .",
-          "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod ."
+          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
+          "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
         },
         "button": {
           "link": "/projects",

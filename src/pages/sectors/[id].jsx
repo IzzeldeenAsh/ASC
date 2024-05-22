@@ -9,6 +9,7 @@ import Link from "next/link";
 import sectorsData from "@data/dummy/sectors.json";
 import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
 import ABLogoLight from "@layouts/svg-icons/AB-Logo-Light";
+import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
 const SectorDetail = () => {
   const { activeLocale } = useLocale();
   const router = useRouter();
@@ -38,17 +39,24 @@ const SectorDetail = () => {
     activeLocale === "ar"
       ? service.description.content.arabic
       : service.description.content.english;
-
+const logoColor = service.logoColor
+const subText = activeLocale === "ar"
+? service.short.arabic
+: service.short.english;
+const breadColor = logoColor !== "light" ? "dark" : "light"
   return (
     postData && (
-      <Layouts>
+      <Layouts >
         <div className="logoStyle">
-          <ABLogoLight />
+          {logoColor ==="light" &&  <ABLogoLight />}
+          {logoColor ==="dark" &&  <ABLogoDark />}
         </div>
         <PageBanner
           pageTitle={pageTitle}
           breadTitle={breadTitle}
+          breadColor={breadColor}
           anchorLink={"#service"}
+          subtext={subText}
           bg={postData.imgURL}
         />
 
