@@ -1220,7 +1220,7 @@ body[dir="ltr"]{
         
     }
 }
-body[dir="ltr"]{
+body[dir="rtl"]{
     .logoStyle{
         right:64px;
        
@@ -1242,4 +1242,20 @@ body[dir="ltr"]{
 }
 .gap-20{
     gap: 20px;
+}
+.position-relative{
+    position: relative;
+}
+.flex-1{
+    flex: 1;
+}
+.italic{
+    font-style: italic;
+}
+.bannderOverlay{
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.8372141092765231) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.8372141092765231) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.8372141092765231) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#000000',GradientType=1)
 }
