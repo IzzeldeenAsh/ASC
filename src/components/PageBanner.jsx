@@ -39,7 +39,7 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
       <div className={paddingBottom ? "mil-inner-banner mil-p-0-120" : "mil-inner-banner"}>
         <div className={align == "center" ? "mil-banner-content mil-center mil-up" : "mil-banner-content mil-up"}  style={bg ? bgBanner : {} }>
           <div  className={bg ? "bannderOverlay" : ""}>
-          <div className="container mil-p-0-30" >
+          <div className={paddingBottom? "container mil-p-0-30" : "container "} >
             <ul  className={breadColor ==="light" ? "mil-breadcrumbs-light mil-breadcrumbs mil-mb-60" : "mil-breadcrumbs mil-mb-60 "}   >
               <li className={breadColor  ==="light"? "mil-light":""}><Link href="/">Homepage</Link></li>
               {asPath.indexOf('/blog/') != -1 &&

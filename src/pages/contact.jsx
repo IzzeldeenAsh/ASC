@@ -5,10 +5,14 @@ import AppData from "@data/app.json";
 import { useLocale } from "@/utils/getLocale";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import WorldMap from "../components/WorldMap";
+import ABLogoDark from "@layouts/svg-icons/AB-Logo-Dark";
 const Contact = () => {
-  const { activeLocale, t } = useLocale();
+  const { activeLocale} = useLocale();
   return (
     <Layouts>
+         <div className="logoStyle">
+     <ABLogoDark />
+   </div>
       <PageBanner
         pageTitle={"Get in touch!"}
         breadTitle={"Contact"}
@@ -18,15 +22,16 @@ const Contact = () => {
         align={"center"}
       />
       {/* contact form */}
-      <section className="mil-mb-90">
-        <WorldMap />
+      <section >
+       <div className="mil-mb-60 mil-p-30-0">
+       <WorldMap />
+       </div>
       </section>
-      <section id="contact">
+      <section  id="contact">
         <div className="container mil-mb-60">
           <h3 className="mil-center  mil-mb-120">
             Let's <span className="mil-thin">Hear from you</span>
           </h3>
-
           <Formik
             initialValues={{
               email: "",
@@ -160,8 +165,7 @@ const Contact = () => {
                 </div>
                 <div className="col-lg-8">
                   <p className=" mil-mb-30">
-                    <span className="mil-accent">*</span> We promise not to
-                    disclose your personal information to third parties.
+                    <span className="mil-accent"></span> Keeping you posted with everything new about our services. Here, we post elaborative and informative articles. Please Stay tuned.
                   </p>
                 </div>
                 <div className="col-lg-4">
@@ -190,19 +194,7 @@ const Contact = () => {
         </div>
       </section>
       {/* contact form end */}
-      {/* map */}
-      <div className="mil-map-frame mil-up">
-        {/* <div className="mil-map">
-                <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1396.5769090312324!2d-73.6519672!3d45.5673453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f8abc30e0ff%3A0xfc6d9cbb49022e9c!2sManoir%20Saint-Joseph!5e0!3m2!1sen!2sua!4v1685485811069!5m2!1sen!2sua" 
-                style={{"border": "0"}} 
-                allowFullScreen 
-                loading="lazy" 
-                referrerPolicy="no-referrer-when-downgrade" 
-                />
-            </div> */}
-      </div>
-      {/* map end */}
+     
     </Layouts>
   );
 };
