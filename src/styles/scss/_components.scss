@@ -3373,7 +3373,7 @@ World Map
 @keyframes bigPulse {
   0% {
     opacity: 0.6;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(.99);
   }
   100% {
     opacity: 0;
