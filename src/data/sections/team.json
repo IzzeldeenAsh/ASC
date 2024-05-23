@@ -98,5 +98,31 @@
                
             ]
         }
+        ,
+        {
+            "image": "/img/faces/mahmoud-zomot.png",
+            "name": "Mohammed Zomot",
+            "role": "Consultant",
+            "social": [
+               
+            ]
+        },
+  
+        {
+            "image": "/img/faces/ramahi.png",
+            "name": "Mahmmoud Alramahi",
+            "role": "Consultant",
+            "social": [
+               
+            ]
+        },
+        {
+            "image": "/img/faces/staff/rami-hamam.png",
+            "name": "Rami Hamam",
+            "role":"Consultant",
+            "social": [
+               
+            ]
+        }
     ]
 }
