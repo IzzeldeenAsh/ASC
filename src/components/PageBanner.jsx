@@ -60,8 +60,8 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, alig
               <li  className={bg ? "mil-light":""}><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>
             </ul>
             {headingSize == 1 &&
-             <div className="banner-title-and-image-container">
-                <div style={{position:'relative',flex:'1',justifyContent:"space-between"}}>
+             <div className={`banner-title-and-image-container ${align ==="center" ? "d-flex justify-content-center" :""}`}>
+                <div  className={`heading-1 ${align == "center" ?"max-width-fit" :"" }`}>
                     <div className="title-yellow-head">
                     <TitleHead/>
                     </div>
@@ -75,17 +75,19 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLink = 0, paddingBottom, alig
            
             }
             {headingSize == 2 &&
-            <div style={{position:'relative',width:"fit-content",margin:"0 auto"}}>
+              <div className={`banner-title-and-image-container ${align ==="center" ? "d-flex justify-content-center" :""}`}>
+                  <div className={`heading-1 ${align == "center" ?"max-width-fit" :"" }`}>
             <div className="title-yellow-head">
             <TitleHead/>
             </div>
             <h2   className={anchorLink != 0 ? "mil-mb-60" : ""} dangerouslySetInnerHTML={{__html : pageTitle}} />
            </div>
+              </div>
+          
             }
            
           </div>
           </div>
-         
         </div>
       </div>
     </>
