@@ -7,6 +7,7 @@ import aboutData from "@/src/data/sections/aboutUs.json";
 import data from "@data/sections/timeline.json";
 import Together from "@components/sections/Together";
 import CustomizedTimeline from "@components/mobile-timeline";
+import Link from "next/link";
 const about = () => {
   const postData = aboutData;
   const { activeLocale } = useLocale();
@@ -35,50 +36,36 @@ const about = () => {
         breadTitle={bannerData.breadTitle}
         align={"center"}
         headingSize={2}
+        paddingBottom={0}
       />
 
       {/* publication */}
       <section id="blog">
-        <div className="container mil-p-120-90">
+        <div className="container mil-p-30-0">
+        <div className="row justify-content-center">
+            <div className="col-lg-8">
+            <ul    className="mil-text mil-up mil-mb-60 d-flex gap-20 justify-content-center">
+          <li><span>Mission</span></li>
+          <li><span>Vision</span></li>
+          <li><a href="#timeline" className="mil-hover-primary"><span>History</span></a></li>
+          <li><Link href={"/team"} className="mil-hover-primary"><span>Leaders</span></Link></li>
+          <li><span>News</span></li>
+          <li><span>A&B Philosophy</span></li>
+        </ul>
+            </div>
+        </div>  
+       
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div
                 className="mil-text mil-up mil-mb-60"
                 style={{ textAlign: "justify" }}
-                dangerouslySetInnerHTML={{ __html: getContentHtml }}
-              />
-
-              {/* {typeof postData.gallery != "undefined" &&
-                      <>
-                        {postData.gallery.enabled == 1 &&
-                        <>
-                          <div className="row">
-                              {postData.gallery.items.map((item, key) => (
-                              <div className="col-lg-6" key={`gallery-item-${key}`}>
-
-                                  <div className="mil-image-frame mil-horizontal mil-up mil-mb-30">
-                                      <img src={item.image} alt={item.alt} />
-                                  </div>
-
-                              </div>
-                              ))}
-                          </div>
-                        </>
-                        }
-                      </>
-                      }
-
-                      {typeof postData.additional != "undefined" &&
-                        <>
-                          {postData.additional.enabled == 1 &&
-                          <div className="mil-text mil-up" dangerouslySetInnerHTML={{__html : postData.additional.content}} />
-                          }
-                        </>
-                      } */}
+                dangerouslySetInnerHTML={{ __html: getContentHtml }}/>
             </div>
           </div>
         </div>
       </section>
+      <h3 className="mil-center  mil-mb-30"> <span className="mil-thin">Our</span> History</h3>
       <section id="timeline">
         {
          timelines.map((item,key)=>(

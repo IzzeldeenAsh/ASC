@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import TranslateIcon from "@layouts/svg-icons/Translate"
 import Link from "next/link";
 
 const LanguageSwitch = () => {
@@ -18,7 +19,7 @@ const LanguageSwitch = () => {
         return (
           <div key={localeIndex}> {/* Added a key to the fragment */}
             <Link className="mil-btn-switch" onClick={() => console.log("logo clicked")} href={{ pathname, query }} locale={locale}>
-              <span style={{ color: "#a0a0a0" }}> {locale === "ar" ? "Ar" : "En"} </span>
+              <span style={{ color: "#FFF",backgroundColor:"#0a1b30", fontSize:"14px",padding:"2px 4px" , borderRadius:"2px" }}> {locale === "ar" ? "Ar" : "En"} </span>
             </Link>
           </div>
         );

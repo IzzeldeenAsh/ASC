@@ -3,6 +3,7 @@ import PageBanner from "@/src/components/PageBanner";
 import { useEffect, useState } from "react";
 import { useLocale } from "@/utils/getLocale";
 import { Accordion } from "../../common/utilits";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import servicesData from "@data/dummy/services.json";
 import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
@@ -39,6 +40,7 @@ const ServiceDetail = () => {
      breadTitle={breadTitle}
      anchorLink="#service"
      imgUrl={service.imgURL}
+     isService={true}
    />
 
    {/* service */}
@@ -89,6 +91,8 @@ const ServiceDetail = () => {
                      <p className="mil-accordion-head">
                        {activeLocale === "ar" ? item.label.arabic : item.label.english}
                      </p>
+                     <div className="d-flex align-items-center gap-20">
+                     {key === activeAccordion &&  <Link href={"/"} className="mil-hover-primary mil-text-sm fw-bold">ASK AN EXPERT</Link>}
                      <div className="mil-symbol mil-h3">
                        <div
                          style={{ display: key === activeAccordion ? "none" : "block" }}
@@ -100,6 +104,7 @@ const ServiceDetail = () => {
                        >
                          -
                        </div>
+                     </div>
                      </div>
                    </div>
                    <div

@@ -403,7 +403,6 @@ menu button
   pointer-events: all;
   height: 28px;
   cursor: pointer;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -479,6 +478,12 @@ banner
   position: relative;
   flex: 1;
   justify-content: center;
+}
+.heading-1 ul {
+position: absolute;
+bottom: 0;
+left: 0;
+    right: 0;
 }
 .max-width-fit{
   max-width: fit-content;
@@ -700,7 +705,11 @@ circle text
     display: none;
   }
 }
-
+.mil-hover-primary{
+&:hover{
+  color: $accent;
+}
+}
 /* -------------------------------------------
 
 lines
@@ -1309,7 +1318,7 @@ services
       & .mil-link {
         & svg {
           background-color: $dark;
-
+          
           & path {
             fill: $accent;
           }
@@ -1456,7 +1465,7 @@ team
 
 .mil-team-list {
   position: relative;
-
+  padding: 15px;
   & .mil-lines-place {
     position: absolute;
     top: -120px;
@@ -1474,6 +1483,7 @@ social icons
   padding: 0;
   display: flex;
   gap: 20px;
+  margin: 15px;
   justify-content: end;
   @media screen and (max-width:769px) {
     justify-content: center;
@@ -1483,6 +1493,7 @@ social icons
   }
 
   & li {
+  
     list-style-type: none;
 
     &:last-child {
@@ -1493,7 +1504,6 @@ social icons
       color: $light;
       font-size: 18px;
       transition: $t-md;
-
       &:hover {
         color: $accent;
       }
@@ -1863,6 +1873,16 @@ footer
 ------------------------------------------- */
 .footer-container{
   padding: 60px 20px 0px 20px;
+}
+.footer::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+  -webkit-backdrop-filter: invert(100%);
+  backdrop-filter: invert(100%);
 }
 .mil-footer-menu {
   margin-bottom: 20px;
