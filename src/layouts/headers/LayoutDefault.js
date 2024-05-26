@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
+
 import AppData from "@data/app.json";
 import { useRouter } from "next/router";
 import MenuAccordion from "@components/MenuAccordion";
@@ -7,6 +8,8 @@ import BackToTop from "../back-to-top/Index";
 import LanguageSwitch from "../../components/LanguageSwitch";
 import MenuServicesList from "@/src/components/MenuServicesList";
 import MenuSectorsList from "@/src/components/MenuSectorsList";
+import ABLogoLight from "../svg-icons/AB-Logo-Light";
+import ABLogoDark from "../svg-icons/AB-Logo-Dark";
 const DefaultHeader = ({ extraClass }) => {
   const [toggle, setToggle] = useState(false);
   const [activeTab, setActiveTab] = useState("");
@@ -88,26 +91,7 @@ const DefaultHeader = ({ extraClass }) => {
     e.target.classList.toggle("mil-active");
     e.target.parentNode.querySelector("ul").classList.toggle("mil-active");
   };
-  const groceries = [
-    {
-      emoji: '🍎',
-      value: 'Apples',
-      description:
-        'Crisp and refreshing fruit. Apples are known for their versatility and nutritional benefits. They come in a variety of flavors and are great for snacking, baking, or adding to salads.',
-    },
-    {
-      emoji: '🍌',
-      value: 'Bananas',
-      description:
-        'Naturally sweet and potassium-rich fruit. Bananas are a popular choice for their energy-boosting properties and can be enjoyed as a quick snack, added to smoothies, or used in baking.',
-    },
-    {
-      emoji: '🥦',
-      value: 'Broccoli',
-      description:
-        'Nutrient-packed green vegetable. Broccoli is packed with vitamins, minerals, and fiber. It has a distinct flavor and can be enjoyed steamed, roasted, or added to stir-fries.',
-    },
-  ];
+
   return (
     <>
      
@@ -115,6 +99,10 @@ const DefaultHeader = ({ extraClass }) => {
 
       <div className={`mil-menu-frame ${toggle ? "mil-active" : ""}`}>
         {/* frame clone Desktop */}
+     {toggle &&    <div className="logoStyle">
+      <ABLogoDark onLinkClick={handleChildLinkClick} isToggleOn={toggle}/>
+      </div>}
+     
         <div className="mil-frame-top desktop-top-frame">
           <Link href={"/"} style={{ opacity: 0 }} className="mil-logo"></Link>
             <div
@@ -126,6 +114,7 @@ const DefaultHeader = ({ extraClass }) => {
         </div>
         {/* frame clone end */}
         <div className="container">
+          
           <div className="mil-menu-content">
             {/* Desktop */}
             <div className="d-none d-md-block">
@@ -159,7 +148,7 @@ const DefaultHeader = ({ extraClass }) => {
                         <div className="row">
                           <div className="col-lg-12 mil-mb-60">
                             {isServicesActive && (
-                              <MenuServicesList
+                                <MenuServicesList
                                 onLinkClick={handleChildLinkClick}
                               />
                             )}
@@ -200,7 +189,7 @@ const DefaultHeader = ({ extraClass }) => {
             </Link>
 
             <div style={{ display: "flex", gap: "20px" }}>
-            <LanguageSwitch />
+            <LanguageSwitch/>
               <div
                 className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
                 onClick={() => setToggle(!toggle)}

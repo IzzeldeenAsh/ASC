@@ -60,7 +60,7 @@ useEffect(() => {
          
         </div>
           <div className="mi-invert-fix">
-              <div className="container mil-p-90-90">
+              <div className="container  mil-p-30-0">
                   <div className="row">
                       <div className="col-lg-12">
                           <div className="row">

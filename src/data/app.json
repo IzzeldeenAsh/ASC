@@ -13,12 +13,7 @@
             "link": "/"
         },
         "menu": [
-            {
-                "label": "Home",
-                "link": "/",
-                "children": []
-            },
-           
+          
             {
                 "label": "Services",
                 "link": "/services",

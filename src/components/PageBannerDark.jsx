@@ -31,7 +31,7 @@ const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
               <div className="mil-animation mil-position-4 mil-scale" data-value-1="6" data-value-2="1.4"><Pentagon /></div>
             </div> */}
             <div className="container">
-              <ul className="mil-breadcrumbs mil-light mil-mb-60">
+              <ul className="mil-breadcrumbs mil-light mil-mb-30">
                 <li><Link href="/">Homepage</Link></li>
                 {asPath.indexOf('/blog/') != -1 &&
                 <li>
@@ -50,7 +50,7 @@ const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
                 }
                 <li><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>
               </ul>
-              <h1 className="mil-muted mil-mb-60" dangerouslySetInnerHTML={{__html : pageTitle}} />
+              <h1 className="mil-muted mil-mb-30" dangerouslySetInnerHTML={{__html : pageTitle}} />
               <a href={anchorLink} className="mil-link mil-accent mil-arrow-place mil-down-arrow" aria-label={"Link"}>
                   <span>{anchorLabel}</span>
                   <ArrowIcon />

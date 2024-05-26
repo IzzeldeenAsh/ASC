@@ -5,7 +5,7 @@ import AppData from "@data/app.json";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import Image from 'next/image';
 import { useEffect, useRef, useMemo } from 'react';
-const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 0, paddingBottom, align, headingSize = 1 ,imgUrl,bg}) => {
+const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 0, paddingBottom, align, headingSize = 1 ,imgUrl,bg,isService}) => {
   const bgBanner = useMemo(() => ({
     backgroundImage: `url(${bg})`,
     backgroundPosition: "center",
@@ -67,6 +67,16 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
                     </div>
                     <h2  className={bg ? "mil-light mil-mb-20" : "mil-mb-60"} dangerouslySetInnerHTML={{__html : pageTitle}} />
                     <p  className={bg ? "mil-light mil-mb-60 max-w-600px " : "mil-mb-60"} dangerouslySetInnerHTML={{__html : subtext}} />
+                    {isService &&  
+                    <div class="d-flex align-items-end">
+                    <ul class="mil-text mil-up d-flex gap-20 justify-content-start">
+                      <li><span>Experts</span></li>
+                      <li><span>Related articles</span></li>
+                      <li><span>Projects</span></li>
+                    </ul>
+                  </div>
+                        
+                     }
                 </div>
                {imgUrl &&  <div className='service-image' ref={serviceImageRef}>
                <Image src={imgUrl} width={585} height={280} alt="service-image" priority fetchPriority="high" />

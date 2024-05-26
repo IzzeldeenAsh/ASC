@@ -100,8 +100,8 @@
         }
         ,
         {
-            "image": "/img/faces/mahmoud-zomot.png",
-            "name": "Mohammed Zomot",
+            "image": "/img/faces/staff/idk.png",
+            "name": "Kamal Eghrayeb",
             "role": "Consultant",
             "social": [
                
@@ -109,16 +109,16 @@
         },
   
         {
-            "image": "/img/faces/ramahi.png",
-            "name": "Mahmmoud Alramahi",
+            "image": "/img/faces/staff/Rami-Obaidat.png",
+            "name": "Rami Obaidat",
             "role": "Consultant",
             "social": [
                
             ]
         },
         {
-            "image": "/img/faces/staff/rami-hamam.png",
-            "name": "Rami Hamam",
+            "image": "/img/faces/Mohammed-Alsayeed.png",
+            "name": "Mohammed Alsayeed",
             "role":"Consultant",
             "social": [
                

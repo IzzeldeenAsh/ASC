@@ -474,7 +474,7 @@ link
 
     &.mil-dark {
         & svg {
-            background-color: $dt-10;
+            background-color: #f3de7ad6;
             transition: $t-md;
 
             & path {
@@ -1174,7 +1174,7 @@ body[dir="ltr"] .title-yellow-head{
 }
 
 .service-image.reveal::before { 
-    transform: translateY(98%);
+    transform: translateY(97%);
 
 }
 

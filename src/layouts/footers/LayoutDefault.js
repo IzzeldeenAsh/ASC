@@ -11,7 +11,7 @@ const DefaultFooter = ( { extraClass } ) => {
   return (
     <>
     {/* footer */}
-    <footer className="mil-dark-bg footer" style={{backgroundColor:'#0a1b30'}}>
+    <footer className="mil-dark-bg footer" style={{backdropFilter:"invert(0%)",backgroundColor:'#f5e4cf'}}>
         <div className="mi-invert-fix">
             <div className="container footer-container" >
                 <div className="row justify-content-between">
@@ -20,7 +20,7 @@ const DefaultFooter = ( { extraClass } ) => {
                         <div className="mil-mb-30"></div>
                        
                                 <div className="mil-light-soft mil-text-xs" 
-                                style={{padding:"10px 0"}}>
+                                style={{padding:"16px 0",lineHeight:"1.3"}}>
                                         <span className="text-primary">
                                             USA (Headquarters):</span>
                                             <br></br>
@@ -36,9 +36,8 @@ const DefaultFooter = ( { extraClass } ) => {
                                     <li><a href={"https://www.facebook.com/alokabcompany"} target="_blank" className="social-icon"><FaXTwitter  size={25} /></a></li>
                                 </ul>
                     </div>
-                    <div className="col-md-5 col-12 ">
-                            <div className="row">
-                                <nav className="mil-footer-menu">
+                    <div className="col-md-5 mil-mb-10 col-12">
+                    <nav className="mil-footer-menu">
                                     <ul >
                                         {AppData.header.menu.map((item, key) => (
                                         <li key={`footer-menu-item-${key}`} className={((asPath.indexOf( item.link ) != -1 && item.link != '/' ) || asPath == item.link ) ? "mil-active mil-up" : "mil-up"}>
@@ -47,14 +46,22 @@ const DefaultFooter = ( { extraClass } ) => {
                                         ))}
                                     </ul>
                                 </nav>
-                            </div>
-                            <div  className="row">
-                                <div className="mil-light-soft mil-text-xs text-right" >{AppData.footer.copy}</div>
-                                <div className="mil-light-soft mil-text-xs text-right" >Terms & Conditions | Privacy Policy</div>
+                        <div className="mil-mb-30"></div>
+                       
+                                <div className="mil-light-soft mil-text-xs" 
+                                style={{padding:"15px 0",textAlign:"end",lineHeight:"1.3"}}>
+                                        <span >{AppData.footer.copy}</span>
+                                        <br></br>
+                                            <span>
+                                                <Link href="/"> Terms & Conditions</Link>
+                                                <span> | </span>
+                                                <Link href="/">  Privacy Policy</Link>
+                                            
+                                            </span>
                                 </div>
-                       
-                       
+                      
                     </div>
+
                 </div>
                
             </div>
