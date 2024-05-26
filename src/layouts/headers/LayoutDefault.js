@@ -106,8 +106,10 @@ const DefaultHeader = ({ extraClass }) => {
         {/* frame clone end */}
         <div className="container">
           <div className="mil-menu-content">
-            <div className="row">
-              <div className="col-xl-5 col-6">
+            {/* Desktop */}
+            <div className="d-none d-sm-block">
+            <div className="row ">
+              <div className="col-xl-4">
                 <nav className="mil-main-menu" id="swupMenu">
                   <ul>
                     {navItems.map((item, key) => (
@@ -129,7 +131,7 @@ const DefaultHeader = ({ extraClass }) => {
                   </ul>
                 </nav>
               </div>
-              <div className="col-xl-7 col-6">
+              <div className="col-xl-7">
                 <div className="mil-menu-right-frame">
                   <div className="mil-menu-right">
                     <div className="row">
@@ -147,6 +149,54 @@ const DefaultHeader = ({ extraClass }) => {
                   </div>
                 </div>
               </div>
+            </div>
+            </div>
+            {/* Mobile */}
+            <div className="d-sm-none d-block">
+              <div className="row">
+                <div className="col-12">
+                  <nav className="mil-main-menu" id="swupMenu">
+                    <ul>
+                      {navItems.map((item, key) => (
+                        <li
+                          className={item.classes}
+                          key={`header-menu-item-${key}`}
+                          onClick={() => handelTabClicked(item.link)}
+                        >
+                          {item.link === "/services" ||
+                          item.link === "/sectors" ? (
+                            <div className={getClassName(item.link)}>
+                              {item.label}
+                            </div>
+                          ) : (
+                            <Link href={item.link}>{item.label}</Link>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div className="row">
+              <div className="col-12">
+                <div className="mil-menu-right-frame">
+                  <div className="mil-menu-right">
+                    <div className="row">
+                      <div className="col-lg-12 mil-mb-60">
+                        {isServicesActive && (
+                          <MenuServicesList
+                            onLinkClick={handleChildLinkClick}
+                          />
+                        )}
+                        {isSectorsActive && (
+                          <MenuSectorsList onLinkClick={handleChildLinkClick} />
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                  </div>
             </div>
           </div>
         </div>

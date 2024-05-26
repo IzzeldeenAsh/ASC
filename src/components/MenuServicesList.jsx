@@ -2,6 +2,7 @@ import React from 'react'
 import data from '@/src/data/dummy/services'
 import { useLocale } from "@/utils/getLocale";
 import Link from "next/link";
+import { IoMdArrowDropright } from "react-icons/io";
 const MenuServicesList = ({onLinkClick}) => {
     const {activeLocale , t} = useLocale();
     const servicesNames = [...data.services].sort((a,b)=>{
@@ -20,11 +21,13 @@ const MenuServicesList = ({onLinkClick}) => {
          <Link
          href={`/services/${service.id}`} 
            className="mil-light-soft"
-           style={{maxWidth:"200px"}}
            onClick={onLinkClick}
          
          >
+        <div className="d-flex align-items-center">
+        <IoMdArrowDropright />
            {activeLocale==='ar' ? service.title.arabic : service.title.english }
+        </div>
          </Link>
        </li>
      ))}
@@ -33,7 +36,10 @@ const MenuServicesList = ({onLinkClick}) => {
          href={`/services`} 
            className="mil-light-soft text-primary"
          >
-           {activeLocale==='ar' ? "قائمة الخدمات " : "Services List" }
+           <div className="d-flex align-items-center">
+           <IoMdArrowDropright />  {activeLocale==='ar' ? "قائمة الخدمات " : "Services List" }
+        </div>
+       
          </Link>
        </li>
     </ul>
