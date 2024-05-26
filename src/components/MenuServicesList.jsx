@@ -14,7 +14,6 @@ const MenuServicesList = ({onLinkClick}) => {
     })
   return (
     <>
-    <h6 className="mil-muted mil-mb-30">Services</h6>
     <ul className="mil-menu-list">
      {servicesNames.map((service,index)=>(
          <li key={index}>
