@@ -365,3 +365,18 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
 //     }
     
 //       }
+.MenuChevron{
+  .mantine-Accordion-label {
+    color:$gs-5 !important;
+  }
+  .mantine-Accordion-content{
+    color: $gs-20 !important;
+  }
+  .mantine-Accordion-chevron{
+    display: none;
+  }
+}
+.mobile-menu{
+  max-height: 550px;
+  overflow: scroll;
+}

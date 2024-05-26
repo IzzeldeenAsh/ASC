@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import AppData from "@data/app.json";
 import { useRouter } from "next/router";
+import MenuAccordion from "@components/MenuAccordion";
 import BackToTop from "../back-to-top/Index";
 import LanguageSwitch from "../../components/LanguageSwitch";
 import MenuServicesList from "@/src/components/MenuServicesList";
@@ -38,6 +39,7 @@ const DefaultHeader = ({ extraClass }) => {
   const isSectorsActive =
     asPath === (`/sectors${activeTab}` && activeTab !== "/services") ||
     activeTab === "/sectors";
+    
   const getClassName = (link) => {
     if (
       link === "/services" &&
@@ -86,7 +88,26 @@ const DefaultHeader = ({ extraClass }) => {
     e.target.classList.toggle("mil-active");
     e.target.parentNode.querySelector("ul").classList.toggle("mil-active");
   };
-
+  const groceries = [
+    {
+      emoji: '🍎',
+      value: 'Apples',
+      description:
+        'Crisp and refreshing fruit. Apples are known for their versatility and nutritional benefits. They come in a variety of flavors and are great for snacking, baking, or adding to salads.',
+    },
+    {
+      emoji: '🍌',
+      value: 'Bananas',
+      description:
+        'Naturally sweet and potassium-rich fruit. Bananas are a popular choice for their energy-boosting properties and can be enjoyed as a quick snack, added to smoothies, or used in baking.',
+    },
+    {
+      emoji: '🥦',
+      value: 'Broccoli',
+      description:
+        'Nutrient-packed green vegetable. Broccoli is packed with vitamins, minerals, and fiber. It has a distinct flavor and can be enjoyed steamed, roasted, or added to stir-fries.',
+    },
+  ];
   return (
     <>
      
@@ -107,97 +128,55 @@ const DefaultHeader = ({ extraClass }) => {
         <div className="container">
           <div className="mil-menu-content">
             {/* Desktop */}
-            <div className="d-none d-sm-block">
+            <div className="d-none d-md-block">
             <div className="row ">
-              <div className="col-xl-4">
-                <nav className="mil-main-menu" id="swupMenu">
-                  <ul>
-                    {navItems.map((item, key) => (
-                      <li
-                        className={item.classes}
-                        key={`header-menu-item-${key}`}
-                        onClick={() => handelTabClicked(item.link)}
-                      >
-                        {item.link === "/services" ||
-                        item.link === "/sectors" ? (
-                          <div className={getClassName(item.link)}>
-                            {item.label}
+                  <div className="col-xl-3">
+                    <nav className="mil-main-menu" id="swupMenu">
+                      <ul>
+
+                        {navItems.map((item, key) => (
+                          <li
+                            className={item.classes}
+                            key={`header-menu-item-${key}`}
+                            onClick={() => handelTabClicked(item.link)}
+                          >
+                            {item.link === "/services" ||
+                            item.link === "/sectors" ? (
+                              <div className={getClassName(item.link)}>
+                                {item.label}
+                              </div>
+                            ) : (
+                              <Link href={item.link}>{item.label}</Link>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                    </nav>
+                  </div>
+                  <div className="col-xl-9">
+                    <div className="mil-menu-right-frame">
+                      <div className="mil-menu-right">
+                        <div className="row">
+                          <div className="col-lg-12 mil-mb-60">
+                            {isServicesActive && (
+                              <MenuServicesList
+                                onLinkClick={handleChildLinkClick}
+                              />
+                            )}
+                            {isSectorsActive && (
+                              <MenuSectorsList onLinkClick={handleChildLinkClick} />
+                            )}
                           </div>
-                        ) : (
-                          <Link href={item.link}>{item.label}</Link>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                </nav>
-              </div>
-              <div className="col-xl-7">
-                <div className="mil-menu-right-frame">
-                  <div className="mil-menu-right">
-                    <div className="row">
-                      <div className="col-lg-12 mil-mb-60">
-                        {isServicesActive && (
-                          <MenuServicesList
-                            onLinkClick={handleChildLinkClick}
-                          />
-                        )}
-                        {isSectorsActive && (
-                          <MenuSectorsList onLinkClick={handleChildLinkClick} />
-                        )}
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
             </div>
-            </div>
-            {/* Mobile */}
-            <div className="d-sm-none d-block">
-              <div className="row">
-                <div className="col-12">
-                  <nav className="mil-main-menu" id="swupMenu">
-                    <ul>
-                      {navItems.map((item, key) => (
-                        <li
-                          className={item.classes}
-                          key={`header-menu-item-${key}`}
-                          onClick={() => handelTabClicked(item.link)}
-                        >
-                          {item.link === "/services" ||
-                          item.link === "/sectors" ? (
-                            <div className={getClassName(item.link)}>
-                              {item.label}
-                            </div>
-                          ) : (
-                            <Link href={item.link}>{item.label}</Link>
-                          )}
-                        </li>
-                      ))}
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-              <div className="row">
-              <div className="col-12">
-                <div className="mil-menu-right-frame">
-                  <div className="mil-menu-right">
-                    <div className="row">
-                      <div className="col-lg-12 mil-mb-60">
-                        {isServicesActive && (
-                          <MenuServicesList
-                            onLinkClick={handleChildLinkClick}
-                          />
-                        )}
-                        {isSectorsActive && (
-                          <MenuSectorsList onLinkClick={handleChildLinkClick} />
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-                  </div>
-            </div>
+            {/* M<obile */}
+            <div className="d-block d-md-none mil-p-120-0 mobile-menu">
+         <MenuAccordion    onLinkClick={handleChildLinkClick}/>
+      </div> 
           </div>
         </div>
       </div>
