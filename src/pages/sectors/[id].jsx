@@ -85,7 +85,7 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
                 </div>
 
                 <p
-                  className="mil-up mil-mb-30 mil-text-gray-800"
+                  className="mil-up mil-mb-30 mil-text-lg "
                   dangerouslySetInnerHTML={{
                     __html:content
                   }}
