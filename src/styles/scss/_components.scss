@@ -2996,6 +2996,10 @@ World Map
   width: 450px;
   height: 450px;
   object-fit: contain;
+  @media screen and (max-width:457px) {
+    width: 300px;
+    height: 300px;
+  }
  
 }
 .pulse-background {
@@ -3005,25 +3009,30 @@ World Map
   transform: translate(-50%, -50%);
   width: 450px;
   height: 450px;
-  background: #dddddd;
+  background: #ddd;
   border-radius: 50%;
   z-index: -1; /* To place it behind the map image */
+  @media screen and (max-width:457px) {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 .pulse-background-1 {
-  animation: bigPulse 6s ease-in-out infinite;
+  animation: bigPulse 7s ease-in-out infinite;
 }
 
 .pulse-background-2 {
-  animation: bigPulse 6s ease-in-out 3s infinite; /* 1s delay to start second pulse before the first one ends */
+  animation: bigPulse 6s ease-in-out 4s infinite; /* 1s delay to start second pulse before the first one ends */
 }
 
 .pin {
-  background:#292c49;
+  background:#e8d147;
   position: absolute;
   width: 0.6em;
   height: 0.6em;
   border-radius: 50%;
+  border: 1px solid #fff;
   cursor: pointer;
   &:hover{
  
@@ -3036,7 +3045,7 @@ World Map
 .pin::before{
   content: "";
   opacity:0.6;
-  background: #0A1B2F;
+  background: #f5d74c;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3091,7 +3100,7 @@ World Map
 @keyframes bigPulse {
   0% {
     opacity: 0.6;
-    transform: translate(-50%, -50%) scale(.99);
+    transform: translate(-50%, -50%) scale(.9);
   }
   100% {
     opacity: 0;
@@ -3117,7 +3126,10 @@ World Map
   background-color: #fff;
   border:1px solid $accent;
     padding: 10px 20px;
-    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1)
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1);
+     @media screen and (max-width:457px) {
+    font-size: 12px;
+  }
 }
 .strategic-places{
   position: absolute;
