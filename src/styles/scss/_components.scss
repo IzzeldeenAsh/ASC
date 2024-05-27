@@ -1466,6 +1466,9 @@ team
 .mil-team-list {
   position: relative;
   padding: 75px;
+  @media screen  and (min-width:1200px){
+    padding: 25px;
+  }
   @media screen  and (max-width:445px){
     padding: 25px;
   }
