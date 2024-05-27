@@ -418,12 +418,11 @@ menu button
     content: "";
     display: block;
     width: 28px;
-    height: 2.5px;
-    background: $dark;
+    height: 2px;
+    background: #e7cb47;
     backface-visibility: hidden;
     transition: inherit;
     box-sizing: content-box;
-    border-bottom: 2px solid #fff;
   }
 
   & span {

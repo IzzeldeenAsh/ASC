@@ -18,15 +18,15 @@
                 "link": "/"
             },
             {
-                "label": "Services",
-                "link": "/services",
+                "label": "Sectors",
+                "link": "/sectors",
                 "children": [
                   
                 ]
             },
             {
-                "label": "Sectors",
-                "link": "/sectors",
+                "label": "Services",
+                "link": "/services",
                 "children": [
                   
                 ]
