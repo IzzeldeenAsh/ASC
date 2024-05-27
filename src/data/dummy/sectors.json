@@ -288,7 +288,7 @@
       }
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716732063/Hunman-capital_icegqs.jpg",
+      "imgURL": "https://res-console.cloudinary.com/dahiaq28x/thumbnails/v1/image/upload/v1716819355/MV9iYXRjaGVkaXRvcl9mb3Rvcl9kZjBwYXg=/drilldown",
       "id": "sector-5",
       "logoColor":"light",
       "contentHtml": "",
@@ -301,8 +301,8 @@
         "arabic": "رأس المال البشري"
       },
       "short": {
-        "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
-        "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+        "english": "A&B prioritizes employees as the key drivers of innovation and success, offering customized human capital management strategies to leverage their skills and knowledge for organizational growth and competitive advantage.",
+        "arabic": "A&B prioritizes employees as the key drivers of innovation and success, offering customized human capital management strategies to leverage their skills and knowledge for organizational growth and competitive advantage."
       },
       "introTitle": {
         "english": "Human Capital",
@@ -310,12 +310,12 @@
       },
       "description": {
         "title": {
-          "english":  "SLOGAN",
-          "arabic":  "SLOGAN"
+          "english":  "Investing in human capital can never be overemphasized ",
+          "arabic":  "Investing in human capital can never be overemphasized "
         },
         "content": {
-          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
-          "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
+          "english": "Employees are the main drivers of innovation within an organization. Therefore, our human capital management experts help organizations drive growth by tailoring the strategies that facilitate employees' contribution to an organization's success.<br><br>At A&B, we believe that the role of people in an organization cannot be overemphasized. They’re the ones who shape organizations’ identity and culture and their wealth of knowledge, talents, and skills, is what truly gives the competitive edge.<br><br> <div class=\"text-dark fw-bold mil-text-xl\">Training and capacity building</div><br>To ensure that training programs yield rewarding results, they should align with the organization's objectives, enabling employees to contribute effectively to its value proposition.We work with organizations to take their employees' skills to another level by developing TNA-based training strategies tailored to help each employee effect the desired change.",
+          "arabic": "Employees are the main drivers of innovation within an organization. Therefore, our human capital management experts help organizations drive growth by tailoring the strategies that facilitate employees' contribution to an organization's success.<br><br>At A&B, we believe that the role of people in an organization cannot be overemphasized. They’re the ones who shape organizations’ identity and culture and their wealth of knowledge, talents, and skills, is what truly gives the competitive edge."
         },
         "button": {
           "link": "/projects",
