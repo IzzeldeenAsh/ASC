@@ -1,21 +1,23 @@
 import Data from "@data/sections/hero-1.json";
 import Link from "next/link";
-import { useState } from "react";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
 import ABLogoLight from"@layouts/svg-icons/AB-Logo-Light"
+import {HeaderMegaMenu} from "@components/HeaderMegaMenu"
 const HeroOne = () => {
-    const [toggle, setToggle] = useState(false);
     const {activeLocale , t} = useLocale();
   
     const bgImageEn = "https://res.cloudinary.com/dahiaq28x/image/upload/v1716280978/image_wjct1x.webp"
     const bgImageAr = ""
     return ( 
         <>
+      <div className="hero-menu">
+      <HeaderMegaMenu/>
+      </div>
            <div className="logoStyle">
           <ABLogoLight/>
         </div>
-  
+        
             {/* banner */}
             <section className="mil-banner mil-dark-bg " >
             <div className="hero-image" style={{backgroundImage: `url(${activeLocale ==='ar' ? bgImageAr:bgImageEn})`}}></div>

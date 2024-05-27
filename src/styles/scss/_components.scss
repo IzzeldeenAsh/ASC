@@ -221,7 +221,7 @@ frame
   justify-content: space-between;
   width: 100%;
   height: 100%;
-
+  
   @media screen and (max-width: 1200px) {
     padding: 30px;
   }
@@ -323,6 +323,13 @@ menu button hero
 
 .right-aligned-hero {
   left: 60px;
+}
+.hero-menu{
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,100%);
 }
 .mil-menu-btn-hero {
   pointer-events: all;
