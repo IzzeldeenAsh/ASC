@@ -191,6 +191,26 @@ frame
     font-size: 36px;
   }
 }
+.hero-nav{
+  position: absolute;
+    z-index: 4;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bottom-border-nav{
+  position: absolute;
+  z-index: 4;
+  top: 85px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #cfcfcf3b;
+  @media screen and (max-width:1200px) {
+    display: none;
+  }
+}
 .hero-toggler {
   & span,
   & span:after,
@@ -212,7 +232,7 @@ frame
   background-size: cover;
 }
 .mil-frame {
-  padding: 50px 60px 60px 60px;
+  padding: 20px 60px 60px 60px;
   position: fixed;
   z-index: 2;
   pointer-events: none;
@@ -515,7 +535,7 @@ left: 0;
 
 .mil-inner-banner {
   & .mil-banner-content {
-    padding: 120px 0 0 0;
+    padding: 80px 0 0 0;
 
     @media screen and (max-width: 1200px) {
       padding: 180px 0 0 0;
@@ -1332,6 +1352,7 @@ services
 }
 
 .mil-service-list {
+
   & li {
     border-bottom: solid 1px $lt-10;
     list-style-type: none;
@@ -1339,7 +1360,12 @@ services
     text-transform: uppercase;
     font-weight: 500;
     font-size: 12px;
-
+    transition: all 0.2 ease-in-out;
+    & :hover {
+      transform: translateX(5px);
+      color: $accent;
+  }
+   
     &:first-child {
       border-top: solid 1px $lt-10;
     }
@@ -3160,4 +3186,7 @@ World Map
   100%{
     transform: translateY(0);
   }
+}
+.navdropmenu{
+  border-radius: none !important;
 }

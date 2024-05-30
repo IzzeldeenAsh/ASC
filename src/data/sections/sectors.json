@@ -1,0 +1,83 @@
+{
+    "button": {
+        "link": "/sectors",
+        "label": "Browse Sectors"
+    },
+    "items": [
+        {
+            "title": {
+                "english": "Industrial",
+                "arabic": "الصناعة"
+              },
+            "link": "/sectors/sector-1"
+        },
+        {
+            "title": {
+                "english": "Metals and Mining",
+                "arabic": "المعادن والتعدين"
+              },
+            "link": "/sectors/sector-2"
+        },
+        {
+            "title": {
+                "english": "Digital",
+                "arabic": "الرقمية"
+              },
+            "link": "/sectors/sector-3"
+        },
+        {
+            "title": {
+                "english": "Energy",
+                "arabic": "الرقمي"
+              },
+            "link": "/sectors/sector-4"
+        },
+        {
+            "title": {
+                "english": "Human Capital",
+                "arabic": "رأس المال البشري"
+              },
+            "link": "/sectors/sector-5"
+        },
+        
+        {
+            "title": {
+                "english": "Environment",
+                "arabic": "البيئة"
+              },
+            "link": "/sectors/sector-6"
+        }
+        ,  
+        {
+            "title": {
+                "english": "Travel and Tourism",
+                "arabic": "البيئة"
+              },
+            "link": "/sectors/sector-7"
+        }
+        ,  
+        {
+            "title": {
+                "english": "Agriculture",
+                "arabic": "الزراعة"
+              },
+            "link": "/sectors/sector-8"
+        }
+        ,  
+        {
+            "title": {
+                "english": "Commerce",
+                "arabic": "تجارة"
+              },
+            "link": "/sectors/sector-9"
+        }
+        ,  
+        {
+            "title": {
+                "english": "Government and Public",
+                "arabic": "الحكومة والعامة"
+              },
+            "link": "/sectors/sector-10"
+        }
+    ]
+}

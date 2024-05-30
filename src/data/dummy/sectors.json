@@ -45,6 +45,7 @@
         },
         "items": [
           {
+            "id" :"Operating-Model",
             "label": {
               "english": "Regulatory compliance and licensing",
               "arabic": "الامتثال التنظيمي والترخيص"
@@ -55,6 +56,7 @@
             }
           },
           {
+            "id" :"Operating-Model",
             "label": {
               "english": "Regulatory compliance and licensing",
               "arabic": "الامتثال التنظيمي والترخيص"
@@ -65,6 +67,7 @@
             }
           },
           {
+            "id" :"Operating-Model",
             "label": {
               "english": "Funding",
               "arabic": "التمويل"
@@ -75,6 +78,7 @@
             }
           },
           {
+            "id" :"Operating-Model",
             "label": {
               "english": "Strategic partnerships",
               "arabic": "الشراكات الاستراتيجية"
@@ -85,6 +89,7 @@
             }
           },
           {
+            "id" :"Operating-Model",
             "label": {
               "english": "Technology selection and valuation",
               "arabic": "اختيار التكنولوجيا والتقييم"
@@ -95,6 +100,7 @@
             }
           },
           {
+            "id" :"Operating-Model",
             "label": {
               "english": "Erection, testing, and commissioning",
               "arabic": "التركيب والاختبار والتشغيل"
@@ -105,6 +111,7 @@
             }
           },
           {
+            "id" :"Operating-Model",
             "label": {
               "english": "Commercial production",
               "arabic": "الإنتاج التجاري"
@@ -118,9 +125,9 @@
       }
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716734566/mine_awjuhs.jpg",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717006039/2151307787_emfp9m.webp",
       "id": "sector-2",
-      "logoColor":"dark",
+      "logoColor":"light",
       "contentHtml": "",
       "title": {
         "english": "Metals and Mining",
@@ -162,6 +169,7 @@
         },
         "items": [
           {
+            "id" :"Operating-Model",
             "label": {
               "english": "Social responsibility",
               "arabic": "المسؤولية الاجتماعية"
@@ -172,6 +180,7 @@
             }
           },
           {
+            "id" :"Operating-Model",
             "label": {
               "english": "Risk Management",
               "arabic": "إدارة المخاطر"
@@ -182,6 +191,7 @@
             }
           },
           {
+            "id" :"Operating-Model",
             "label": {
               "english": "Supply chain and operational performance",
               "arabic": "أداء سلسلة التوريد والعمليات"
@@ -288,7 +298,7 @@
       }
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716819355/1_batcheditor_fotor_df0pax.webp",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717070298/163991_h5s3or.webp",
       "id": "sector-5",
       "logoColor":"light",
       "contentHtml": "",
@@ -327,14 +337,49 @@
       },
       "list": {
         "title": {
-          "english": "",
-          "arabic": ""
+          "english": "How we can help",
+          "arabic": "كيف يمكننا المساعدة"
         },
-        "items": []
+        "items": [
+          {
+            "id" :"Operating-Model",
+            "label": {
+              "english": "Operating Model",
+              "arabic": "Operating Model"
+            },
+            "value": {
+              "english": "We transform businesses to enhance service delivery and innovation.",
+              "arabic": "We transform businesses to enhance service delivery and innovation."
+            }
+          },
+          {
+            "id" :"agile-lean-six-sigma",
+            "label": {
+              "english": "Agile, Lean and Six Sigma",
+              "arabic":"Agile, Lean and Six Sigma"
+            },
+            "value": {
+              "english": "Unlock your organization's full potential with A&B's proven methodologies.",
+              "arabic": "Unlock your organization's full potential with A&B's proven methodologies."
+            }
+          }
+          ,
+          {
+            "id" :"leadership-and-talent-development",
+            "label": {
+              "english": "Leadership and Talent Development",
+              "arabic": "Leadership and Talent Development"
+            },
+            "value": {
+              "english": "We empower organizations through tailored leadership and talent strategies.",
+              "arabic": "We empower organizations through tailored leadership and talent strategies."
+            }
+          }
+        ]
       }
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716731846/env_ocdkbg.webp",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717063555/2151196335_e6u4fp.webp",
       "id": "sector-6",
       "logoColor":"light",
       "contentHtml": "",

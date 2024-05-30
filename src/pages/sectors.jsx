@@ -2,6 +2,7 @@ import PageBannerDark from "@components/PageBannerDark";
 import Layouts from "@layouts/Layouts";
 import CallToActionSection from "@components/sections/CallToAction";
 import Link from "next/link";
+import { IoMdArrowDropright } from 'react-icons/io';
 import ABLogoLight from"@layouts/svg-icons/AB-Logo-Light"
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
@@ -68,10 +69,20 @@ useEffect(() => {
                               <div className="col-md-4 col-lg-4 mil-mb-60" key={`sectors-item-${key}`}>
                                   <Link href={`/sectors/${item.id}`} className= "mil-service-card-lg mil-more mil-accent-cursor ">
                                       <h4 className="mil-muted mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale === 'en' ? item.preview_title.english :item.preview_title.arabic }} />
+                                        </Link>
                                       <p className="mil-descr mil-light-soft mil-up mil-mb-30">{ activeLocale === 'en' ? item.short.english :item.short.arabic }</p>
                                       <ul className="mil-service-list mil-light mil-mb-30">
                                         {item.list.items.slice(0,3).map((list_item, list_key) => (
-                                        <li className="mil-up" key={`services-item-${key}-list-${list_key}`}>{ activeLocale === 'en' ? list_item.label.english :list_item.label.arabic }</li>
+                                               <li className="mil-up" key={`services-item-${key}-list-${list_key}`}>
+                                               <Link key={list_key} href={`/subservice/${list_item.id}`}   className="mil-light-soft">
+                                                 <div className="d-flex align-items-center sub-service">
+                                             <IoMdArrowDropright />
+                                               { activeLocale === 'en' ? list_item.label.english :list_item.label.arabic }
+                                               </div>
+                                         </Link>
+                                               </li>
+
+                                    
                                         ))}
                                       </ul>
                                       <div className="mil-link mil-accent mil-arrow-place mil-up">
@@ -80,7 +91,6 @@ useEffect(() => {
                         <ArrowIcon  />
                         </div>
                                       </div>
-                                  </Link>
                               </div>
                               ))}
                           </div>

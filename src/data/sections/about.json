@@ -16,5 +16,79 @@
     "button":{
         "link": "/about",
         "label": "Read more"
-    }
+    },
+    "sections":[
+        {
+            "id":"misson",
+            "title":{
+                "english" :"Mission",
+                "arabic" : "المهمة"
+            },
+            "description": {
+                "english": "Learn about our mission and values.",
+                "arabic": "تعرف على مهمتنا وقيمنا."
+            },
+            "link":"/about"
+        },
+        {
+            "id":"vision",
+            "title":{
+                "english" :"Vision",
+                "arabic" : "الرؤية"
+            },
+            "description": {
+                "english": "Explore our long-term vision and goals.",
+                "arabic": "استكشاف رؤيتنا وأهدافنا على المدى الطويل."
+            },
+            "link":"/about"
+        },
+        {
+            "id":"timeline",
+            "title":{
+                "english" :"History",
+                "arabic" : "التاريخ"
+            },
+            "description": {
+                "english": "Discover our journey and milestones.",
+                "arabic": "اكتشف رحلتنا والمحطات الرئيسية فيها."
+            },
+            "link":"/about"
+        },
+        {
+            "id":"leaders",
+            "title":{
+                "english" :"Leaders",
+                "arabic" : "القادة"
+            },
+            "description": {
+                "english": "Meet our leadership team.",
+                "arabic": "تعرف على فريق القيادة لدينا."
+            },
+            "link":"/about"
+        },
+        {
+            "id":"news",
+            "title":{
+                "english" :"News",
+                "arabic" : "الأخبار"
+            },
+            "description": {
+                "english": "Stay updated with our latest news and announcements.",
+                "arabic": "ابق على اطلاع على آخر الأخبار والإعلانات لدينا."
+            },
+            "link":"/about"
+        },
+        {
+            "id":"ab-philosophy",
+            "title":{
+                "english" :"A&B Philosophy",
+                "arabic" : "فلسفة A&B"
+            },
+            "description": {
+                "english": "Understand our philosophy and approach.",
+                "arabic": "فهم فلسفتنا ونهجنا."
+            },
+            "link":"/about"
+        }
+    ]
 }

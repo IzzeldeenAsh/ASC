@@ -8,36 +8,73 @@
     },
     "items": [
         {
-            "title": "service1Name",
+            "title": {
+                "english": "Smart Cities and Mobility",
+                "arabic": "المدن الذكية والتنقل"
+              },
             "text": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development.",
             "link": "/services/service-1"
         },
         {
-            "title": "service2Name",
+            "title": {
+                "english": "Digital  Transformation",
+                "arabic": "التحول الرقمي"
+              },
             "text": "We partner with clients to foster the needed digital culture.",
             "link": "/services/service-2"
         },
         {
-            "title": "service3Name",
+            "title": {
+                "english": "Renewable Energy ",
+                "arabic": "تحويل الطاقة المتجددة"
+              },
             "text": "Facilitating organizations to harness the power of renewable energy.",
             "link": "/services/service-3"
         },
         {
-            "title": "service4Name",
+            "title": {
+                "english": "Sustainable Manufacturing",
+                "arabic": "التصنيع المستدام"
+              },
             "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
             "link": "/services/service-4"
         },
         {
-            "title": "service5Name",
+            "title": {
+                "english": "Agriculture",
+                "arabic": "الزراعة"
+              },
             "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
             "link": "/services/service-5"
         },
         
         {
-            "title": "service6Name",
+            "title": {
+                "english": "Operations",
+                "arabic": "العمليات"
+              },
             "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
-            "link": "/services/service-5"
+            "link": "/services/service-6"
+        },
+        {
+            "title": {
+                "english": "Entrepreneurship",
+                "arabic": "ريادة الأعمال"
+                
+                },
+            "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
+            "link": "/services/service-7"
         }
+,
+{
+    "title": {
+        "english": "Entrepreneurship",
+        "arabic": "ريادة الأعمال"
+        
+        },
+    "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
+    "link": "/services/service-7"
+}
 
     ]
 }
