@@ -10,6 +10,7 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
     backgroundImage: `url(${bg})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
+    minHeight: "35em"
   }), [bg]);
 
   const serviceImageRef = useRef(null)
@@ -38,9 +39,10 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
       {/* banner */}
       <div className={paddingBottom ? "mil-inner-banner mil-p-0-120" : "mil-inner-banner"}>
         <div className={align == "center" ? "mil-banner-content mil-center mil-up" : "mil-banner-content mil-up"}  style={bg ? bgBanner : {} }>
+          {/* {bg && <div className='topBannerOverlay'></div>} */}
           <div  className={bg ? "bannderOverlay" : ""}>
           <div className={paddingBottom? "container mil-p-0-30" : "container "} >
-            <ul  className={breadColor ==="light" ? "mil-breadcrumbs-light mil-breadcrumbs mil-mb-60" : "mil-breadcrumbs mil-mb-60 "}   >
+            <ul  className={breadColor ==="light" ? "mil-breadcrumbs-light mil-breadcrumbs mil-mb-120" : "mil-breadcrumbs mil-mb-120 "}   >
               <li className={breadColor  ==="light"? "mil-light":""}><Link href="/">Homepage</Link></li>
               {asPath.indexOf('/blog/') != -1 &&
               <li>
@@ -53,7 +55,7 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
               </li>
               }
               {asPath.indexOf('/services/') != -1 &&
-              <li>
+              <li className='mil-light'>
                 <Link href="/services">Services</Link>
               </li>
               }
@@ -68,8 +70,8 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
                     <h2  className={bg ? "mil-light mil-mb-20" : "mil-mb-60"} dangerouslySetInnerHTML={{__html : pageTitle}} />
                     <p  className={bg ? "mil-light mil-mb-60 max-w-600px " : "mil-mb-60"} dangerouslySetInnerHTML={{__html : subtext}} />
                     {isService &&  
-                    <div class="d-flex align-items-end">
-                    <ul class="mil-text mil-up d-flex gap-20 justify-content-start">
+                    <div className="d-flex align-items-end">
+                    <ul className="mil-text mil-up d-flex gap-20 justify-content-start mil-light">
                       <li><span>Experts</span></li>
                       <li><span>Related articles</span></li>
                       <li><span>Projects</span></li>

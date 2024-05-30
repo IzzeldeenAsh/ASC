@@ -55,7 +55,7 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
           pageTitle={pageTitle}
           breadTitle={breadTitle}
           breadColor={breadColor}
-          anchorLink={"#service"}
+          anchorLink={"#sectors"}
           subtext={subText}
           bg={postData.imgURL}
         />
@@ -112,7 +112,7 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
                       key={`blog-post-${key}`}
                     >
                       <Link
-                        href={`/blog/${item.id}`}
+                        href={`/subservice/${item.id}`}
                         className="mil-blog-card mil-mb-60"
                       >
                         <div className="mil-post-descr">

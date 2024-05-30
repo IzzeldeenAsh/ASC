@@ -1,8 +1,10 @@
 import React from 'react';
 import { Accordion } from '@mantine/core';
 import Link from 'next/link';
-import MenuServicesList from "@components/MenuServicesList";
-import MenuSectorsList from './MenuSectorsList';
+import MenuList from "@/src/components/MenuList";
+import dataSectors from '@/src/data/dummy/sectors'
+import dataServices from '@/src/data/dummy/services';
+import { useLocale } from '@/utils/getLocale';
 // Sample groceries data
 const groceries = [
   { value: 'Home', link: '', description: '' },
@@ -13,14 +15,25 @@ const groceries = [
 ];
 
 function MenuAccordion({onLinkClick}) {
+  const { activeLocale } = useLocale();
     const items = groceries.map((item) => (
       <Accordion.Item key={item.value} value={item.value} className='MenuChevron'>
         {item.description ? (
           <>
             <Accordion.Control>{item.value}</Accordion.Control>
             <Accordion.Panel>
-              {item.value === "Services" && <MenuServicesList onLinkClick={onLinkClick}/>}
-              {item.value === "Sectors" && <MenuSectorsList onLinkClick={onLinkClick}/>}
+              {item.value === "Services" &&  <MenuList
+                                items={dataServices.services}
+                                basePath="services"
+                                onLinkClick={onLinkClick}
+                                listLabel={activeLocale === 'ar' ? 'قائمة الخدمات' : 'Services List'}
+                              />}
+              {item.value === "Sectors" &&   <MenuList
+                             items={dataSectors.sectors}
+                             basePath="sectors"
+                             onLinkClick={onLinkClick}
+                             listLabel={activeLocale === 'ar' ? 'قائمة القطاعات' : 'Sectors List'}
+                           />}
             </Accordion.Panel>
           </>
         ) : (

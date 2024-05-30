@@ -1,14 +1,15 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
 import AppData from "@data/app.json";
 import { useRouter } from "next/router";
 import MenuAccordion from "@components/MenuAccordion";
 import BackToTop from "../back-to-top/Index";
 import LanguageSwitch from "../../components/LanguageSwitch";
-import MenuServicesList from "@/src/components/MenuServicesList";
-import MenuSectorsList from "@/src/components/MenuSectorsList";
-import ABLogoLight from "../svg-icons/AB-Logo-Light";
+import MenuList from "@/src/components/MenuList";
+import dataSectors from '@/src/data/dummy/sectors'
+import dataServices from '@/src/data/dummy/services';
+import aboutData from "@data/sections/about.json"
+import HomeNewsMenu from "@/src/components/HomeNewsMenu";
 import ABLogoDark from "../svg-icons/AB-Logo-Dark";
 const DefaultHeader = ({ extraClass }) => {
   const [toggle, setToggle] = useState(false);
@@ -18,17 +19,24 @@ const DefaultHeader = ({ extraClass }) => {
   const router = useRouter();
   const { locale: activeLocale } = router;
   useEffect(() => {
-    if (asPath.split("/")[1] === "services" && activeTab !== "/sectors") {
+    if (asPath.split("/")[1] === "services" && (activeTab !== "/sectors" && activeTab !== "/about")) {
       setActiveTab("/services");
     }
-    if (asPath.split("/")[1] === "sectors" && activeTab !== "/services") {
+    if (asPath.split("/")[1] === "sectors" && (activeTab !== "/services" && activeTab !== "/about")) {
       setActiveTab("/sectors");
+    }
+    if (asPath.split("/")[1] === "about" && (activeTab !== "/services" && activeTab !== "/sectors" && activeTab !== "/")) {
+      setActiveTab("/about");
+    }
+    if (asPath.split("/")[1] === undefined && (activeTab !== "/services" && activeTab !== "/sectors" && activeTab !== "/about")) {
+      setActiveTab("/");
     }
   }, [asPath, navItems]);
   const handelTabClicked = (link) => {
     setActiveTab(link);
     console.log("link", link);
     console.log("asPath", asPath);
+    console.log("active", activeTab);
     if (asPath == link) {
       setToggle(false);
     }
@@ -42,24 +50,20 @@ const DefaultHeader = ({ extraClass }) => {
   const isSectorsActive =
     asPath === (`/sectors${activeTab}` && activeTab !== "/services") ||
     activeTab === "/sectors";
+  const isHomeActive =
+    asPath === "/" &&( activeTab !== "/sectors" && activeTab !== "/services" && activeTab !== "/about");
+  const isAboutActive =
+    asPath === "/about" || activeTab === "/about";
+
+    const getClassName = (link) => {
+      const currentPage = asPath.split("/")[1];
+      const isActive =
+        activeTab === link ||
+        (currentPage === link.slice(1) && !["/services", "/sectors", "/about"].includes(activeTab));
     
-  const getClassName = (link) => {
-    if (
-      link === "/services" &&
-      (activeTab === "/services" ||
-        (asPath.split("/")[1] === "services" && activeTab !== "/sectors"))
-    ) {
-      return "custom-menu-nav mil-active";
-    } else if (
-      link === "/sectors" &&
-      (activeTab === "/sectors" ||
-        (asPath.split("/")[1] === "sectors" && activeTab !== "/services"))
-    ) {
-      return "custom-menu-nav mil-active";
-    } else {
-      return "custom-menu-nav";
-    }
-  };
+      return isActive ? "custom-menu-nav mil-active" : "custom-menu-nav";
+    };
+    
   AppData.header.menu.forEach((item, index) => {
     let s_class1 = "";
 
@@ -130,7 +134,7 @@ const DefaultHeader = ({ extraClass }) => {
                             onClick={() => handelTabClicked(item.link)}
                           >
                             {item.link === "/services" ||
-                            item.link === "/sectors" ? (
+                            item.link === "/sectors" || item.link === "/about" ? (
                               <div className={getClassName(item.link)}>
                                 {item.label}
                               </div>
@@ -148,12 +152,31 @@ const DefaultHeader = ({ extraClass }) => {
                         <div className="row">
                           <div className="col-lg-12 mil-mb-60">
                             {isServicesActive && (
-                                <MenuServicesList
+                                <MenuList
+                                items={dataServices.services}
+                                basePath="services"
                                 onLinkClick={handleChildLinkClick}
+                                listLabel={activeLocale === 'ar' ? 'قائمة الخدمات' : 'Services List'}
                               />
                             )}
                             {isSectorsActive && (
-                              <MenuSectorsList onLinkClick={handleChildLinkClick} />
+                             <MenuList
+                             items={dataSectors.sectors}
+                             basePath="sectors"
+                             onLinkClick={handleChildLinkClick}
+                             listLabel={activeLocale === 'ar' ? 'قائمة القطاعات' : 'Sectors List'}
+                           />
+                            )}
+                             {isAboutActive && (
+                              <MenuList
+                              items={aboutData.sections}
+                              basePath="about"
+                              onLinkClick={handleChildLinkClick}
+                              listLabel={activeLocale === 'ar' ? ' من نحن' : 'About Us'}
+                            />
+                            )}
+                             {isHomeActive && (
+                              <HomeNewsMenu onLinkClick={handleChildLinkClick} />
                             )}
                           </div>
                         </div>

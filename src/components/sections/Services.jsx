@@ -1,7 +1,6 @@
 import Data from "@data/sections/services.json";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
-import Pentagon from "@layouts/pentagon/Index";
 import { useLocale } from "@/utils/getLocale";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import ABQuoations from "@layouts/svg-icons/AB-Quotations";
@@ -12,24 +11,6 @@ const ServicesSection = () => {
       {/* services */}
       <section id="servcise">
         <div className="mi-invert-fix">
-          {/* <div className="mil-animation-frame">
-            <div
-              className="mil-animation mil-position-1 mil-scale"
-              data-value-1="2.4"
-              data-value-2="1.4"
-              style={{ top: "300px", right: "-100px" }}
-            >
-              <Pentagon />
-            </div>
-            <div
-              className="mil-animation mil-position-2 mil-scale"
-              data-value-1="2"
-              data-value-2="1"
-              style={{ left: "150px" }}
-            >
-              <Pentagon />
-            </div>
-          </div> */}
           <div className="container mil-p-120-0">
             <div className="mil-mb-120">
               <div className="row">
@@ -93,7 +74,7 @@ const ServicesSection = () => {
                     </div>
                     <h5
                       className=" mil-mb-30"
-                      dangerouslySetInnerHTML={{ __html: t(item.title) }}/>
+                      dangerouslySetInnerHTML={{ __html: item.title.english }}/>
                     <div className="quotations" style={activeLocale ==='ar' ? {transformOrigin:'100%'} : {transformOrigin:'0%'}}><ABQuoations side={'right'}/></div>
                   
                       <p className="mil-mb-30">{item.text}</p>

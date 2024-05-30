@@ -4,6 +4,7 @@ import { useState } from "react";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
 import ABLogoLight from"@layouts/svg-icons/AB-Logo-Light"
+import {HeaderMegaMenu} from "@components/HeeaderMegaMenu"
 const HeroOne = () => {
     const [toggle, setToggle] = useState(false);
     const {activeLocale , t} = useLocale();
@@ -12,6 +13,10 @@ const HeroOne = () => {
     const bgImageAr = ""
     return ( 
         <>
+        <div className="hero-nav">
+        <HeaderMegaMenu/>
+        </div>
+        <div className="bottom-border-nav"></div>
            <div className="logoStyle">
           <ABLogoLight/>
         </div>

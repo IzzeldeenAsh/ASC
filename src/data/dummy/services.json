@@ -1,7 +1,7 @@
 
 {
     "services" :     [
-        { "imgURL" : "https://res.cloudinary.com/dsiku9ipv/image/upload/fl_preserve_transparency/v1714914124/serve_wol9hr.jpg?_s=public-apps",
+        { "imgURL" : "https://res.cloudinary.com/dahiaq28x/image/upload/v1716989833/2151021171_qdcgwc.webp",
             "id": "service-1",
             "contentHtml": "",
             "sector": ["Transportation"],
@@ -41,6 +41,7 @@
             "list": {
               "items": [
                 {
+                  "id":"s1-smart-cities",
                   "label": {
                     "english": "Smart Cities",
                     "arabic": "المدن الذكية"
@@ -51,6 +52,7 @@
                   }
                 },
                 {
+                  "id":"s1-smart-mobility",
                   "label": {
                     "english": "Smart Mobility",
                     "arabic": "التنقل الذكي"
@@ -65,7 +67,7 @@
           }
           ,
           {
-            "imgURL" : "https://res.cloudinary.com/dahiaq28x/image/upload/v1716186895/futuristic-christmas-celebration-concept_23-2150979860_omm43r.webp",
+            "imgURL" : "https://res-console.cloudinary.com/dahiaq28x/thumbnails/v1/image/upload/v1716988597/MTA0MjIxX2o1ZGk5dw==/drilldown",
             "id": "service-2",
             "contentHtml": "",
             "sector": ["Information Technology (IT)"],
@@ -105,6 +107,7 @@
             "list": {
               "items": [
                 {
+                  "id":"s2-digitized-operations",
                     "label": {
                     "english": "Digitized Operations",
                     "arabic": "العمليات المرقمة"
@@ -115,6 +118,7 @@
                     }
                     },
                     {
+                      "id":"s2-digital-culture",
                       "label": {
                           "english": "Digital Culture",
                           "arabic": "الثقافة الرقمية"
@@ -125,6 +129,7 @@
                       }
                   },
                   {
+                    "id":"s2-ai-analytics",
                       "label": {
                           "english": "AI Analytics and Business Development",
                           "arabic": "تحليلات الذكاء الاصطناعي وتطوير الأعمال"
@@ -135,6 +140,7 @@
                       }
                   },                  
                   {
+                    "id":"s-cybersecurity-protection",
                     "label": {
                         "english": "Cybersecurity and Digital Protection",
                         "arabic": "الأمن السيبراني والحماية الرقمية"
@@ -145,6 +151,7 @@
                     }
                 },
                 {
+                  "id":"s-data-security-privacy",
                     "label": {
                         "english": "Data Security and Privacy",
                         "arabic": "أمان البيانات والخصوصية"
@@ -160,7 +167,7 @@
             }
           },
           {
-            "imgURL" : "https://res.cloudinary.com/dahiaq28x/image/upload/v1716187087/futuristic-christmas-celebration-concept_23-2150979860_1_ourind.webp",
+            "imgURL" : "https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp",
             "id": "service-3",
             "contentHtml": "",
             "sector": ["Energy and Sustainability"],
@@ -245,7 +252,7 @@
             }
           },
           {
-            "imgURL": "",
+            "imgURL": "https://res-console.cloudinary.com/dahiaq28x/thumbnails/v1/image/upload/v1716988340/MzAyODBfMV90bnp1bm8=/drilldown",
             "id": "service-5",
             "contentHtml": "",
             "sector": ["Agricultural"],
@@ -285,6 +292,7 @@
             "list": {
               "items": [
                 {
+                  "id":"s5-agriculture-markets",
                   "label": {
                     "english": "Agriculture Markets",
                     "arabic": "أسواق الزراعة"
@@ -295,6 +303,7 @@
                   }
                 },
                 {
+                  "id":"s5-agriTech",
                   "label": {
                     "english": "AgriTech",
                     "arabic": "التقنية الزراعية"
@@ -309,7 +318,7 @@
           }
           ,
           {
-            "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716187518/futuristic-christmas-celebration-concept_23-2150979860_3_v9eyw5.webp",
+            "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717050921/310395_g2bsa6.webp",
             "id": "service-6",
             "contentHtml": "",
             "sector": ["Management Consulting"],
@@ -349,6 +358,7 @@
             "list": {
               "items": [
                 {
+                  "id":"s6-Logistics-and-Supply-Chain",
                   "label": {
                     "english": "Logistics and Supply Chain",
                      "arabic": "الخدمات اللوجستية وسلسلة التوريد"
@@ -359,6 +369,7 @@
                   }
                 },
                 {
+                  "id":"s6-Service-Operations",
                   "label": {
                     "english": "Service Operations",
                     "arabic": "عمليات الخدمة"
@@ -368,11 +379,50 @@
                     "arabic": "من وجهة نظر خبراء الاستشارة لدينا ، يجب أن تضع الاستراتيجيات التي تشمل عمليات تقديم الخدمات رضا العملاء في مركز مهمتها ورؤيتها. توزيع كاف للموارد أمر أساسي أيضًا لتسريع العمليات وتقليل التكاليف."
                   }
                 }
+                ,
+                {
+                  "id":"Operating-Model",
+                  "label": {
+                    "english": "Operating Model",
+                    "arabic":"Operating Model"
+                  },
+                  "value": {
+                    "english":"Organizations need to optimize their back-office processes, technologies, and capabilities to enhance efficiency and innovation. By working with business leaders, we implement necessary technology transformations and organizational changes. Our goal is to develop a strategy that improves service delivery, making it more efficient, resilient, and innovation-friendly.",
+                    "arabic": "Organizations need to optimize their back-office processes, technologies, and capabilities to enhance efficiency and innovation. By working with business leaders, we implement necessary technology transformations and organizational changes. Our goal is to develop a strategy that improves service delivery, making it more efficient, resilient, and innovation-friendly."
+                  },
+                  "isSubService":true
+                }
+                ,
+                {
+                  "id":"agile-lean-six-sigma",
+                  "label": {
+                    "english": "Agile, Lean and Six Sigma",
+                    "arabic":"Agile, Lean and Six Sigma"
+                  },
+                  "value": {
+                    "english":"A&B assists organizations in streamlining operations and enhancing product quality by leveraging Agile, Lean, and Six Sigma methodologies. They improve collaboration and responsiveness through Agile principles, eliminate waste with Lean strategies, and use data-driven Six Sigma techniques to minimize defects and drive continuous process improvements. This comprehensive approach helps organizations remain competitive in a fast-paced business environment.",
+                    "arabic": "A&B assists organizations in streamlining operations and enhancing product quality by leveraging Agile, Lean, and Six Sigma methodologies. They improve collaboration and responsiveness through Agile principles, eliminate waste with Lean strategies, and use data-driven Six Sigma techniques to minimize defects and drive continuous process improvements. This comprehensive approach helps organizations remain competitive in a fast-paced business environment."
+                  },
+                  "isSubService":true
+                }
+                ,
+                {
+                  "id" :"leadership-and-talent-development",
+                  "label": {
+                    "english": "Leadership and Talent Development",
+                    "arabic":"Leadership and Talent Development"
+                  },
+                  "value": {
+                    "english":"<p>Our Leadership and Talent experts develop holistic talent and leadership strategies to help organizations meet their unique needs and objectives. Whether you're looking to develop emerging leaders, strengthen executive capabilities, or foster a culture of leadership at all levels, we design the strategy that will help you inspire and build high-performing teams and transform them into leaders.</p>",
+                    "arabic": "<p>Our Leadership and Talent experts develop holistic talent and leadership strategies to help organizations meet their unique needs and objectives. Whether you're looking to develop emerging leaders, strengthen executive capabilities, or foster a culture of leadership at all levels, we design the strategy that will help you inspire and build high-performing teams and transform them into leaders.</p>"
+                  },
+                  "isSubService":false
+                }
               ]
             }
           },
           {
-            "imgURL": "",
+            "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988796/2476_rramgr.jpg",
             "id": "service-7",
             "contentHtml": "",
             "sector": ["Management Consulting"],
@@ -414,11 +464,13 @@
             "list": {
             "items": [
               {
+                "id":"s7-Logistics-and-Supply-Chain",
                 "label":{
                    "english":"Logistics and Supply Chain",
                    "arabic":"الخدمات اللوجستية وسلسلة التوريد"
                 },
                 "value":{
+                 
                    "english":"Although business incubators may seem like a convenient workspace with a desk and a network cable, they, in reality, are way more complex than they may seem. The value business incubators have is beyond measure as their sole purpose is to unlock limitless possibilities.<br><br>Our entrepreneurial strategies involve researching sector-related challenges and opportunities incubators need to focus on to help them maintain a competitive edge as successful business incubators in the market. We project to our clients the technical, financial, and market analysis to highlight their success roadmap and locate available funding sources. Our experts will project the potential revenue streams that will help stakeholders attract future startups.",
                    "arabic":"على الرغم من أن مراكز التكوين العملية قد تبدو وكأنها مساحة عمل مريحة مع مكتب وكابل شبكة، إلا أنها في الواقع أكثر تعقيدًا بكثير مما قد تبدو عليه. القيمة التي تمتلكها مراكز التكوين العملية لا تُقدر بثمن، حيث يكمن هدفها الوحيد في فتح أفاق لا حدود لها.<br><br>إستراتيجياتنا الريادية تتضمن البحث في التحديات والفرص ذات الصلة بالقطاع التي يجب على مراكز التكوين العملية التركيز عليها لمساعدتها على الحفاظ على النصب التنافسي كمراكز تكوين عملية ناجحة في السوق. نقدم لعملائنا التحليل التقني والمالي والسوقي لتسليط الضوء على خريطة النجاح الخاصة بهم وتحديد مصادر التمويل المتاحة. سيقوم خبراؤنا بتقدير مصادر الدخل المحتملة التي ستساعد الأطراف المعنية على جذب الشركات الناشئة في المستقبل."
                 }

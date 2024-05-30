@@ -296,6 +296,10 @@ a {
     color: inherit;
     text-decoration: none;
 }
+.anchor-link{
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .mil-complex-title {
     line-height: normal;
@@ -612,6 +616,10 @@ button
             margin-left: 25px;
         }
     }
+}
+.mil-button-sm{
+    height: 30px !important;
+   
 }
 
 /* -------------------------------------------
@@ -1050,6 +1058,16 @@ spaces
         padding-top: 0;
     }
 }
+.mil-p-30-30 {
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+
+    @media screen and (max-width: 992px) {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
 
 .mil-p-120-30 {
     padding-top: 120px;
@@ -1222,13 +1240,14 @@ body[dir="ltr"] .title-yellow-head{
 .logoStyle{
     position:absolute;
     z-index:3;
-    top:40px;
-    width:70px;
+    top:20px;
+    width:60px;
     height:51px;
     @media screen and (max-width:1200px) {
        display: none;
     }
 }
+
 body[dir="ltr"]{
     .logoStyle{
         left:64px;
@@ -1272,5 +1291,21 @@ body[dir="rtl"]{
     background: -moz-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.6) 100%);
     background: -webkit-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.6) 100%);
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(161,161,161,0) 30%, rgba(0,0,0,0.6) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#000000',GradientType=1)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#000000',GradientType=1);
+    min-height: 31rem;
+   
+    
 }
+// .topBannerOverlay{
+//     position: absolute;
+//     opacity: 0.4;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     height: 80px;
+//     background: rgb(0,0,1);
+//     background: -moz-linear-gradient(0deg, rgba(0,0,1,0) 0%, rgba(0,0,0,0.6) 100%);
+//     background: -webkit-linear-gradient(0deg, rgba(0,0,1,0) 0%, rgba(0,0,0,0.6) 100%);
+//     background: linear-gradient(0deg, rgba(0,0,1,0) 0%, rgba(0,0,0,0.6) 100%);
+//     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000001",endColorstr="#000000",GradientType=1);
+// }

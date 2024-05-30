@@ -8,6 +8,7 @@ import data from "@data/sections/timeline.json";
 import Together from "@components/sections/Together";
 import CustomizedTimeline from "@components/mobile-timeline";
 import Link from "next/link";
+import ABLogoDark from "../layouts/svg-icons/AB-Logo-Dark";
 const about = () => {
   const postData = aboutData;
   const { activeLocale } = useLocale();
@@ -31,6 +32,9 @@ const about = () => {
 
   return (
     <Layouts>
+       <div className="logoStyle">
+     <ABLogoDark />
+   </div>
       <PageBanner
         pageTitle={bannerData.pageTitle}
         breadTitle={bannerData.breadTitle}
