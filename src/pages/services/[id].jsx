@@ -90,7 +90,7 @@ const ServiceDetail = () => {
         {service.list && service.list.items && service.list.items.length > 0 && (
           <>
             {service.list.items.map((item, key) => (
-              <section key={`service-item-${key}`} id={item.id}>
+              <section key={`service-item-${key}`} id={item.id} className={service.list.items.length-1 === (key) ? "mil-mb-60" : ""}>
                 <div className="col-lg-12">
                   <div className="container">
                     <div className="mil-accordion-group mil-up">
