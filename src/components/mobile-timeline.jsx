@@ -37,8 +37,8 @@ function CustomizedTimeline() {
         <div className="date">2024</div>
         <div className="title">
         <img src="https://res.cloudinary.com/dsiku9ipv/image/upload/fl_preserve_transparency/v1714892946/logo_A_B-01_zrmhva.jpg?_s=public-apps" alt="logo"></img>
-        Welcome to our new identity A&B</div>
-        <div className="descr">Alokab transforms into a new identity as A&B. Our client's vision marks the desired destination of our journey together. With passion flourishing in a fertile environment of creativity and innovation, we set the course towards their dreams. We utilize out-of-the-box solutions and direct all scenarios toward their destination. We continue to develop methodologies and harness huge data to unlock vast horizons of sustainable ventures.</div>
+        New Identity A&B</div>
+        <div className="descr">Alokab transforms into a new identity as A&B. Our client's vision marks the desired destination of our journey together. With passion flourishing in a fertile environment of creativity and innovation, we set the course towards their dreams. We utilize out-of-the-box solutions and direct all scenarios toward their destination. We continue to develop the methodologies and harness huge data to unlock vast horizons of sustainable ventures.</div>
     </li>
 </ul>
     </div>

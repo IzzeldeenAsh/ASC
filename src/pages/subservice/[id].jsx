@@ -38,9 +38,9 @@ const subservice = ( props ) => {
                       </div>
 
                   </div>
-                  <div className="col-lg-12">
+                  <div className="col-lg-12 mil-mb-90">
 
-                      <div className="mil-text mil-up mil-text-lg" dangerouslySetInnerHTML={{__html : subservice.contentHtml}} />
+                      <div className={`mil-text mil-up mil-text-lg`} dangerouslySetInnerHTML={{__html : subservice.contentHtml}} />
                       
                       {typeof subservice.gallery != "undefined" &&
                       <>
@@ -81,7 +81,6 @@ const subservice = ( props ) => {
           </div>
       </section>
       {/* publication end */}
-
       {/* <RelatedPostsSection items={props.related} /> */}
     </Layouts>
   );
