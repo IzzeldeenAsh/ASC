@@ -37,20 +37,19 @@ const ServicesSection = () => {
                     <TitleHead />
                   </div>
                   <h2
-                    className="mil-h25  mil-center"
+                    className="mil-h2  mil-center"
                     dangerouslySetInnerHTML={{ __html: t("servicesTitle1") }}
                   />
                 </span>
 
                 <h2
-                  className="mil-h25 mil-center"
+                  className="mil-h2 mil-center"
                   dangerouslySetInnerHTML={{ __html: t("servicesTitle2") }}
                 />
               </div>
             </div>
             <div className="featured">
               <div>{t("featured")}</div>
-              <div><Link href="/services">{t("seeAll")}</Link></div>
             </div>
             <div className="row mil-services-grid m-0">
               {Data.items.slice(0, 4).map((item, key) => (
@@ -94,6 +93,10 @@ const ServicesSection = () => {
                 </div>
               ))}
             </div>
+            <div className="featured">
+              <div  className="anchor-link" style={{marginInlineStart:"auto",color:"#dcc140"}}><Link href="/services">{t("seeAll")}</Link></div>
+            </div>
+          
           </div>
         </div>
       </section>

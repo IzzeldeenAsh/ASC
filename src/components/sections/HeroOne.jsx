@@ -36,7 +36,7 @@ const HeroOne = () => {
                                 </div>
                             </div>
 
-                            <Link href={Data.button1.link} className="mil-button mil-arrow-place mil-btn-space">
+                            {/* <Link href={Data.button1.link} className="mil-button mil-arrow-place mil-btn-space">
                                 <span>{t("heroButton1")}</span>
                                 <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' , 'paddingTop' : '7px'} : {'transform' : 'rotate(0deg)' , 'paddingTop' : '7px'}} >
                                 <ArrowIcon />
@@ -48,7 +48,7 @@ const HeroOne = () => {
                                 <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)'} : {'transform' : 'rotate(0deg)'}} >
                                 <ArrowIcon  />
                                 </div>
-                            </Link>
+                            </Link> */}
 
                          
 

@@ -75,7 +75,7 @@
               "content": ""
             },
             "infograph": {
-              "enabled": 1,
+              "enabled": 0,
               "name": "Goals"
             }
         }
@@ -115,7 +115,7 @@
             "content": ""
           },
           "infograph": {
-            "enabled": 1,
+            "enabled": 0,
             "name": "Goals"
           }
       }

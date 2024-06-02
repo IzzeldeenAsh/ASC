@@ -81,7 +81,7 @@ const ServiceDetail = () => {
                     <ABQuoations />
                   </div>
                 </div>
-                <p className="mil-up mil-mb-30 mil-text-gray-800" dangerouslySetInnerHTML={{ __html: content }} />
+                <p className="mil-up mil-mb-30 mil-text-lg" dangerouslySetInnerHTML={{ __html: content }} />
               </div>
             </div>
           </div>
