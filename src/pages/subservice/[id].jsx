@@ -38,7 +38,7 @@ const subservice = ( props ) => {
                       </div>
 
                   </div>
-                  <div className="col-lg-10">
+                  <div className="col-lg-12">
 
                       <div className="mil-text mil-up mil-text-lg" dangerouslySetInnerHTML={{__html : subservice.contentHtml}} />
                       
