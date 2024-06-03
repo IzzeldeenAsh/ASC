@@ -8,7 +8,7 @@
   "aboutWe" : "We",
   "aboutText1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut consectetur adipiscing elit, labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
   "aboutText2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  consectetur adipiscing elit, ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
-  "servicesSubtitle1": "Our consulting experts will support you every step of the journey.",
+  "servicesSubtitle1": "Our consulting experts will support you <br> every step of the journey.",
   "servicesTitle1": "Insights <span class=\"mil-thin\">Empowering</span>",
   "servicesTitle2": "decision-making <span class=\"mil-thin\">with data.</span>",
   "service1Name" : "Smart Cities<br> and Mobility",

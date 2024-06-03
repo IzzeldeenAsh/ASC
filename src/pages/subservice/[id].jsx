@@ -33,8 +33,8 @@ const subservice = ( props ) => {
                   )}
                      
                       <div className="mil-info mil-up mil-mb-90">
-                          <div>Sector: &nbsp; {subservice.sector.map((sector,index)=>(<Link  key={index} href={`/sectors/${sector.id}`}><span className="mil-dark">{sector.name}&nbsp;</span></Link>))}</div>
-                          <div>Service: &nbsp; <Link   href={`/services/${subservice.service.id}`}><span className="mil-dark">{subservice.service.name}&nbsp;</span></Link></div>
+                          <div><span className="mil-text-gray-600">Sector</span>: &nbsp; {subservice.sector.map((sector,index)=>(<Link  key={index} href={`/sectors/${sector.id}`}><span className="mil-dark">{sector.name}&nbsp;</span></Link>))}</div>
+                          <div><span className="mil-text-gray-600">Service</span>: &nbsp; <Link   href={`/services/${subservice.service.id}`}><span className="mil-dark">{subservice.service.name}&nbsp;</span></Link></div>
                       </div>
 
                   </div>

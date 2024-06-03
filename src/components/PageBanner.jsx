@@ -98,7 +98,20 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
               </div>
           
             }
-           
+           {asPath.indexOf('/about') != -1 && 
+            <div className="row justify-content-center">
+            <div className="col-lg-8 mil-light">
+            <ul    className="mil-text mil-up mil-mb-60 d-flex gap-20 justify-content-center">
+          <li><span>Mission</span></li>
+          <li><span>Vision</span></li>
+          <li><a href="#timeline" className="mil-hover-primary"><span>History</span></a></li>
+          <li><Link href={"/team"} className="mil-hover-primary"><span>Leaders</span></Link></li>
+          <li><span>News</span></li>
+          <li><span>A&B Philosophy</span></li>
+        </ul>
+            </div>
+        </div>  
+           }
           </div>
           </div>
         </div>

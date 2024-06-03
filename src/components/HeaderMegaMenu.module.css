@@ -45,6 +45,7 @@
   }
   .button{
     background-color: #F5D84B;
+    border: none;
    
   }
   .button:hover{

@@ -8,7 +8,7 @@ import data from "@data/sections/timeline.json";
 import Together from "@components/sections/Together";
 import CustomizedTimeline from "@components/mobile-timeline";
 import Link from "next/link";
-import ABLogoDark from "../layouts/svg-icons/AB-Logo-Dark";
+import ABLogoLight from "../layouts/svg-icons/AB-Logo-Light";
 const about = () => {
   const postData = aboutData;
   const { activeLocale } = useLocale();
@@ -29,35 +29,25 @@ const about = () => {
       ? postData.contentHtml.arabic
       : postData.contentHtml.english;
   }, [postData, activeLocale]);
-
   return (
     <Layouts>
        <div className="logoStyle">
-     <ABLogoDark />
+     <ABLogoLight />
    </div>
       <PageBanner
         pageTitle={bannerData.pageTitle}
+        breadColor={"light"}
         breadTitle={bannerData.breadTitle}
         align={"center"}
-        headingSize={2}
+        headingSize={1}
         paddingBottom={0}
+        bg={postData.image}
       />
 
       {/* publication */}
       <section id="blog">
         <div className="container mil-p-30-0">
-        <div className="row justify-content-center">
-            <div className="col-lg-8">
-            <ul    className="mil-text mil-up mil-mb-60 d-flex gap-20 justify-content-center">
-          <li><span>Mission</span></li>
-          <li><span>Vision</span></li>
-          <li><a href="#timeline" className="mil-hover-primary"><span>History</span></a></li>
-          <li><Link href={"/team"} className="mil-hover-primary"><span>Leaders</span></Link></li>
-          <li><span>News</span></li>
-          <li><span>A&B Philosophy</span></li>
-        </ul>
-            </div>
-        </div>  
+       
        
           <div className="row justify-content-center">
             <div className="col-lg-8">

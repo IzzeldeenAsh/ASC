@@ -687,13 +687,25 @@ circle text
 
 .mil-circle-text {
   position: absolute;
-  bottom: 90px;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 140px;
   height: 140px;
-
+  &::before{
+    content: "";
+    opacity:0.6;
+    background: #e7cb47;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: scrollBtnPuls 3s ease-in-out infinite;
+  }
   & .mil-ct-svg {
     transform: scale(2);
     width: 140px;
@@ -722,6 +734,16 @@ circle text
 
   @media screen and (max-width: 992px) {
     display: none;
+  }
+}
+@keyframes scrollBtnPuls {
+  0% {
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(0.96);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.4);
   }
 }
 .mil-hover-primary{
@@ -1172,12 +1194,8 @@ services
     font-weight: 400;
     font-size: 13px;
 }
-.featured div:last-child{
-    color:$dark
-}
-.featured div:last-child:hover{
-    color: $accent;
-}
+
+
 .mil-service-card-sm {
   position: relative;
   display: block;
@@ -1217,8 +1235,24 @@ services
     background-color: $accent;
     transition: $t-lg;
   }
-
+  .discover{
+      opacity: 0;
+      visibility:hidden;
+      transform:scale(0);
+      position: absolute;
+      transition: all 0.1s ease-in-out;
+      cursor: pointer;
+  }
   &:hover {
+    .discover{
+      opacity: 1;
+      visibility: visible;
+      position: static;
+      transform:scale(1);
+    &:hover{
+      color: #f2b807;
+    }
+    }
     .mil-square {
       animation: squareAppear 0.7s forwards;
     }
@@ -1357,7 +1391,7 @@ services
   & li {
     border-bottom: solid 1px $lt-10;
     list-style-type: none;
-    padding: 15px 0;
+    padding: 8px 0;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 12px;
@@ -2263,14 +2297,14 @@ accordion
 
 .mil-accordion-group {
   border-bottom: solid 1px $dt-20;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
   & .mil-accordion-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     &.mil-active {
       .mil-symbol {
