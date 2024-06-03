@@ -4,6 +4,7 @@ import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import ABQuoations from "@layouts/svg-icons/AB-Quotations";
+import { IconArrowNarrowRight } from '@tabler/icons-react';
 const ServicesSection = () => {
   const { activeLocale, t } = useLocale();
   return (
@@ -28,9 +29,7 @@ const ServicesSection = () => {
                 style={
                   activeLocale === "ar"
                     ? { flexDirection: "row", gap: "10px" }
-                    : { flexDirection: "column", gap: "10px" }
-                }
-              >
+                    : { flexDirection: "column", gap: "10px" }}>
                 <span style={{ position: "relative" }}>
                   <div
                     className="title-yellow-head">
@@ -38,10 +37,8 @@ const ServicesSection = () => {
                   </div>
                   <h2
                     className="mil-h2  mil-center"
-                    dangerouslySetInnerHTML={{ __html: t("servicesTitle1") }}
-                  />
+                    dangerouslySetInnerHTML={{ __html: t("servicesTitle1") }}/>
                 </span>
-
                 <h2
                   className="mil-h2 mil-center"
                   dangerouslySetInnerHTML={{ __html: t("servicesTitle2") }}
@@ -50,6 +47,12 @@ const ServicesSection = () => {
             </div>
             <div className="featured">
               <div>{t("featured")}</div>
+              <div  className="anchor-link ">
+                <Link href="/services" className="d-flex align-items-center">
+               <div >{t("seeAll")}</div>
+                <div className="d-flex align-items-center"><IconArrowNarrowRight color="#336AEA"/></div>
+                </Link>
+              </div>
             </div>
             <div className="row mil-services-grid m-0">
               {Data.items.slice(0, 4).map((item, key) => (
@@ -75,10 +78,11 @@ const ServicesSection = () => {
                       className=" mil-mb-30"
                       dangerouslySetInnerHTML={{ __html: item.title.english }}/>
                     <div className="quotations" style={activeLocale ==='ar' ? {transformOrigin:'100%'} : {transformOrigin:'0%'}}><ABQuoations side={'right'}/></div>
-                  
                       <p className="mil-mb-30">{item.text}</p>
-                      {/* <Quotaions side={'left'}  align={'right'}/> */}
+                   <div className="d-flex align-items-center gap-10">
+                   <span className="mil-text-xs discover"> Discover</span>
                     <div className="mil-button mil-icon-button-sm mil-arrow-place">
+                     
                       <div
                         style={
                           activeLocale === "ar"
@@ -86,17 +90,15 @@ const ServicesSection = () => {
                             : { transform: "rotate(0deg)", paddingTop: "5px" }
                         }
                       >
+                       
                         <ArrowIcon />
                       </div>
                     </div>
+                   </div>
                   </Link>
                 </div>
               ))}
             </div>
-            <div className="featured">
-              <div  className="anchor-link" style={{marginInlineStart:"auto",color:"#dcc140"}}><Link href="/services">{t("seeAll")}</Link></div>
-            </div>
-          
           </div>
         </div>
       </section>

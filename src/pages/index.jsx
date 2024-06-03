@@ -40,7 +40,7 @@ const Home1 = (props) => {
       }}
     />
       <HeroOneSection />
-      <ServicesSection />
+      <ServicesSection  />
       <AboutSection />
       <TeamSection />
       <TestimonialSlider />

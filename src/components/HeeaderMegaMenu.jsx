@@ -110,7 +110,7 @@ const sections = [
         links: contactUs,
         footerText: 'Where to find us!',
         footerDescription: 'Connect with us effortlessly by exploring our contact page',
-        buttonText: aboutData.button.label,
+        buttonText: "Let's Hear From You",
         buttonLink: "/contact",
     }
 ];
@@ -142,15 +142,18 @@ return (
                                 <Text size="xs" c="dimmed">{section.footerDescription}</Text>
                             </div>
                             {section.buttonLink ? (
-                                <Link href={section.buttonLink} passHref>
+                                <Link href={section.link} passHref>
                                     <Button className={classes.button} variant="default">
                                         {section.buttonText}
                                     </Button>
                                 </Link>
                             ) : (
+                                <Link href={section.link} passHref>
                                 <Button className={classes.button} variant="default">
                                     {section.buttonText}
                                 </Button>
+                                </Link>
+                                
                             )}
                         </Group>
                     </div>

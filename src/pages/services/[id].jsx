@@ -98,23 +98,23 @@ const ServiceDetail = () => {
                         className={key === activeAccordion ? "mil-accordion-menu mil-active" : "mil-accordion-menu"}
                         onClick={() => toggleAccordion(key)}
                       >
-                        <p className="mil-accordion-head">
+                        <p className="mil-accordion-head mil-text-xl">
                           {activeLocale === "ar" ? item.label.arabic : item.label.english}
                         </p>
                         <div className="d-flex align-items-center gap-20">
                           {key === activeAccordion && (
-                            <Link href="/" className="mil-hover-primary mil-text-sm fw-bold">
+                            <Link href="/contact" className="mil-hover-primary mil-text-sm fw-bold">
                               ASK AN EXPERT
                             </Link>
                           )}
-                          <div className="mil-symbol mil-h3">
+                          <div className="mil-symbol mil-h3 ">
                             <div style={{ display: key === activeAccordion ? "none" : "block" }}>+</div>
                             <div style={{ display: key === activeAccordion ? "block" : "none" }}>-</div>
                           </div>
                         </div>
                       </div>
-                      <div   className="mil-accordion-content mil-text" style={{ height: key === activeAccordion ? "auto" : "0" }}>
-                      <div className="mil-mb-20"
+                      <div   className="mil-accordion-content mil-text " style={{ height: key === activeAccordion ? "auto" : "0" }}>
+                      <div className="mil-mb-20 mil-text-lg"
                       dangerouslySetInnerHTML={{ __html: activeLocale === "ar" ? item.value.arabic : item.value.english }}
                     />
                       {item.isSubService && (<div className="mil-button mil-button-sm mil-mb-30"><Link href={`/subservice/${item.id}`}>Read More</Link></div>)}
