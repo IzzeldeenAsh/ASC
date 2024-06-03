@@ -46,7 +46,7 @@ const about = () => {
 
       {/* publication */}
       <section id="blog">
-        <div className="container mil-p-30-0">
+        <div className="container mil-p-90-90">
        
        
           <div className="row justify-content-center">
