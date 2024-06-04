@@ -11,7 +11,7 @@ import dataServices from '@/src/data/dummy/services';
 import aboutData from "@data/sections/about.json"
 import HomeNewsMenu from "@/src/components/HomeNewsMenu";
 import ABLogoDark from "../svg-icons/AB-Logo-Dark";
-
+import SearchBar from "@components/SearchBar";
 const DefaultHeader = ({ extraClass }) => {
   const [toggle, setToggle] = useState(false);
   const [activeTab, setActiveTab] = useState("");
@@ -75,6 +75,7 @@ const DefaultHeader = ({ extraClass }) => {
 
   return (
     <>
+
       <div className={`mil-menu-frame ${toggle ? "mil-active" : ""}`}>
         {toggle && <div className="logoStyle"><ABLogoDark onLinkClick={handleChildLinkClick} isToggleOn={toggle} /></div>}
         <div className="mil-frame-top desktop-top-frame">
@@ -82,6 +83,7 @@ const DefaultHeader = ({ extraClass }) => {
           <div className={`mil-menu-btn ${toggle ? "mil-active" : ""}`} onClick={() => setToggle(!toggle)}><span /></div>
         </div>
         <div className="container">
+          
           <div className="mil-menu-content">
             <div className="d-none d-md-block">
               <div className="row">
@@ -150,6 +152,7 @@ const DefaultHeader = ({ extraClass }) => {
         <div className="mil-frame-top">
           <Link href={AppData.header.logo.link} className="mil-logo">A&B</Link>
           <div style={{ display: "flex", gap: "20px" }}>
+          <SearchBar/>
             <LanguageSwitch />
             <div className={`mil-menu-btn ${toggle ? "mil-active" : ""}`} onClick={() => setToggle(!toggle)}><span /></div>
           </div>

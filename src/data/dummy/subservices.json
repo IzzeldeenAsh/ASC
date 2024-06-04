@@ -1,49 +1,12 @@
 {
-    "subservices":[
-        {
-              "id" :"Operating-Model",
-              "title": "Operating Model",
-              "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717049607/107684_csa96n.webp",
-              "sector":[
-                {
-                  "id":"sector-5",
-                  "name":"Human Capital"
-                }
-              ],
-              "service":{
-                "id" : "service-6",
-                "name" : "Operations"
-              },
-              "contentHtml": "<p>To deliver value in the most efficient manner, organizations need to take a thorough look at their back offices and examine all processes, technologies, and capabilities involved in executing their goal-aligned strategies. We help businesses refine and optimize their operating models by working closely with their leaders and key personnel to implement the needed<a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\"> technology transformation</a>, processes and organizational- design changes and create a room for innovation.</p><p>In addition to establishing the right <a class=\"hyper-link\" href=\"/services/service-6\" target=\"__blank\">governance mechanisms</a>, our target will be crafting the operating model transformation strategy that will enhance your service delivery, making it efficient, resilient and innovation-enabling.</p>",
-              "short": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.",
-              "introTitle": "Operating <span class=\"mil-thin\">Model</span>",
-              "gallery": {
-                "enabled": 0,
-                "items": [
-                  {
-                    "image": "/img/blog/3.jpg",
-                    "alt": "image"
-                  },
-                  {
-                    "image": "/img/blog/1.jpg",
-                    "alt": "image"
-                  }
-                ]
-              },
-              "additional": {
-                "enabled": 0,
-                "content": "\n        <h5>Voluptatem odit ullam veritatis</h5>\n        <p>Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.</p>\n    "
-              },
-              "infograph": {
-                "enabled": 1,
-                "name": "Goals"
-              }
-          }
-          ,
-          {
-            "id" :"agile-lean-six-sigma",
-            "title":"Agile, Lean and Six Sigma",
-            "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717065957/4091_p5pdpf.webp",
+  "subservices":[
+      {
+            "id" :"Operating-Model",
+            "title":{
+              "english": "Operating Model",
+              "arabic" :  "Operating Model"
+            },
+            "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717049607/107684_csa96n.webp",
             "sector":[
               {
                 "id":"sector-5",
@@ -54,9 +17,18 @@
               "id" : "service-6",
               "name" : "Operations"
             },
-            "contentHtml": "<p>In today's fast-paced and competitive business environment, organizations must continuously adapt and innovate to stay ahead of the market. At A&B, we analyze organizations’ operational structure and develop the strategy that will enable them to streamline operations and enhance product quality based on Agile, Lean, and Six Sigma methodologies.</p><p>We help organizations embrace Agile principles and practices to enhance collaboration and respond quickly to changing market demands. We ensure organizations’ waste is eliminated by employing our Lean strategies. Our Six Sigma experts' strategies are data-driven and built around organizations’ business statistical tools to enable them to identify root causes of defects, minimize variation, and drive continuous process improvements.</p>",
-            "short": "Unlock your organization's full potential with A&B's proven methodologies.",
-            "introTitle": "Agile, Lean <span class=\"mil-thin\">and</span> Six Sigma",
+            "contentHtml":{
+              "english": "<p>To deliver value in the most efficient manner, organizations need to take a thorough look at their back offices and examine all processes, technologies, and capabilities involved in executing their goal-aligned strategies. We help businesses refine and optimize their operating models by working closely with their leaders and key personnel to implement the needed<a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\"> technology transformation</a>, processes and organizational- design changes and create a room for innovation.</p><p>In addition to establishing the right <a class=\"hyper-link\" href=\"/services/service-6\" target=\"__blank\">governance mechanisms</a>, our target will be crafting the operating model transformation strategy that will enhance your service delivery, making it efficient, resilient and innovation-enabling.</p>",
+              "arabic" : "<p>To deliver value in the most efficient manner, organizations need to take a thorough look at their back offices and examine all processes, technologies, and capabilities involved in executing their goal-aligned strategies. We help businesses refine and optimize their operating models by working closely with their leaders and key personnel to implement the needed<a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\"> technology transformation</a>, processes and organizational- design changes and create a room for innovation.</p><p>In addition to establishing the right <a class=\"hyper-link\" href=\"/services/service-6\" target=\"__blank\">governance mechanisms</a>, our target will be crafting the operating model transformation strategy that will enhance your service delivery, making it efficient, resilient and innovation-enabling.</p>"
+            },
+            "short": {
+              "english": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.",
+              "arabic":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos."
+            },
+            "introTitle": {
+              "english" : "Operating <span class=\"mil-thin\">Model</span>",
+              "arabic" :"Operating <span class=\"mil-thin\">Model</span>"
+            },
             "gallery": {
               "enabled": 0,
               "items": [
@@ -72,18 +44,22 @@
             },
             "additional": {
               "enabled": 0,
-              "content": ""
+              "content": "\n        <h5>Voluptatem odit ullam veritatis</h5>\n        <p>Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.</p>\n    "
             },
             "infograph": {
-              "enabled": 0,
+              "enabled": 1,
               "name": "Goals"
-            }
+            },
+            "keywords": ["operations Management", "supply Chain Management"]
         }
         ,
         {
-          "id" :"leadership-and-talent-development",
-          "title":"Leadership and Talent Development",
-          "image": "",
+          "id" :"agile-lean-six-sigma",
+          "title":{
+            "english" : "Agile, Lean and Six Sigma",
+            "arabic" : "Agile, Lean and Six Sigma"
+          },
+          "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717065957/4091_p5pdpf.webp",
           "sector":[
             {
               "id":"sector-5",
@@ -94,9 +70,18 @@
             "id" : "service-6",
             "name" : "Operations"
           },
-          "contentHtml": "<p>Our Leadership and Talent experts develop holistic talent and leadership strategies to help organizations meet their unique needs and objectives. Whether you're looking to develop emerging leaders, strengthen executive capabilities, or foster a culture of leadership at all levels, we design the strategy that will help you inspire and build high-performing teams and transform them into leaders.</p>",
-          "short": "We create customized leadership and talent strategies to empower your organization and build high-performing teams.",
-          "introTitle": "Leadership <span class=\"mil-thin\">and</span>  Talent Development ",
+          "contentHtml": {
+            "english" : "<p>In today's fast-paced and competitive business environment, organizations must continuously adapt and innovate to stay ahead of the market. At A&B, we analyze organizations’ operational structure and develop the strategy that will enable them to streamline operations and enhance product quality based on Agile, Lean, and Six Sigma methodologies.</p><p>We help organizations embrace Agile principles and practices to enhance collaboration and respond quickly to changing market demands. We ensure organizations’ waste is eliminated by employing our Lean strategies. Our Six Sigma experts' strategies are data-driven and built around organizations’ business statistical tools to enable them to identify root causes of defects, minimize variation, and drive continuous process improvements.</p>",
+            "arabic" : "<p>In today's fast-paced and competitive business environment, organizations must continuously adapt and innovate to stay ahead of the market. At A&B, we analyze organizations’ operational structure and develop the strategy that will enable them to streamline operations and enhance product quality based on Agile, Lean, and Six Sigma methodologies.</p><p>We help organizations embrace Agile principles and practices to enhance collaboration and respond quickly to changing market demands. We ensure organizations’ waste is eliminated by employing our Lean strategies. Our Six Sigma experts' strategies are data-driven and built around organizations’ business statistical tools to enable them to identify root causes of defects, minimize variation, and drive continuous process improvements.</p>"
+          },
+          "short":{
+            "english" : "Unlock your organization's full potential with A&B's proven methodologies.",
+            "arabic" : "Unlock your organization's full potential with A&B's proven methodologies."
+          },
+          "introTitle": {
+            "english" :"Agile, Lean <span class=\"mil-thin\">and</span> Six Sigma",
+            "arabic":"Agile, Lean <span class=\"mil-thin\">and</span> Six Sigma"
+          },
           "gallery": {
             "enabled": 0,
             "items": [
@@ -117,7 +102,61 @@
           "infograph": {
             "enabled": 0,
             "name": "Goals"
-          }
+          },
+          "keywords": ["agile Methodology", "lean Principles", "six Sigma Methodologies"]
       }
-    ]
+      ,
+      {
+        "id" :"leadership-and-talent-development",
+        "title":{
+          "english" : "Leadership and Talent Development",
+          "arabic" : "Leadership and Talent Development"
+        },
+        "image": "",
+        "sector":[
+          {
+            "id":"sector-5",
+            "name":"Human Capital"
+          }
+        ],
+        "service":{
+          "id" : "service-6",
+          "name" : "Operations"
+        },
+        "contentHtml": {
+          "english": "<p>Our Leadership and Talent experts develop holistic talent and leadership strategies to help organizations meet their unique needs and objectives. Whether you're looking to develop emerging leaders, strengthen executive capabilities, or foster a culture of leadership at all levels, we design the strategy that will help you inspire and build high-performing teams and transform them into leaders.</p>",
+          "arabic" : "<p>Our Leadership and Talent experts develop holistic talent and leadership strategies to help organizations meet their unique needs and objectives. Whether you're looking to develop emerging leaders, strengthen executive capabilities, or foster a culture of leadership at all levels, we design the strategy that will help you inspire and build high-performing teams and transform them into leaders.</p>"
+        },
+        "short":{
+          "english" :  "We create customized leadership and talent strategies to empower your organization and build high-performing teams.",
+          "arabic" : "We create customized leadership and talent strategies to empower your organization and build high-performing teams."
+        },
+        "introTitle":{
+          "english" :  "Leadership <span class=\"mil-thin\">and</span>  Talent Development ",
+          "arabic" : "Leadership <span class=\"mil-thin\">and</span>  Talent Development "
+        },
+        "gallery": {
+          "enabled": 0,
+          "items": [
+            {
+              "image": "/img/blog/3.jpg",
+              "alt": "image"
+            },
+            {
+              "image": "/img/blog/1.jpg",
+              "alt": "image"
+            }
+          ]
+        },
+        "additional": {
+          "enabled": 0,
+          "content": ""
+        },
+        "infograph": {
+          "enabled": 0,
+          "name": "Goals"
+        },
+        "keywords": ["leadership Development", "talent Development", "high-Performing Teams"]
+    }
+  ]
 }

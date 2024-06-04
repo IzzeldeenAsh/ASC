@@ -122,7 +122,30 @@
             }
           }
         ]
-      }
+      },
+      "keywords": [
+        "industrial sector",
+        "economic growth",
+        "industrial profits",
+        "automation",
+        "sustainable manufacturing",
+        "industrial business evaluation",
+        "market trends",
+        "competition",
+        "energy efficiency",
+        "clean manufacturing",
+        "environmental impact",
+        "regulatory compliance",
+        "licensing",
+        "funding",
+        "strategic partnerships",
+        "technology selection",
+        "technology valuation",
+        "erection",
+        "testing",
+        "commissioning",
+        "commercial production"
+      ]
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717006039/2151307787_emfp9m.webp",
@@ -202,7 +225,23 @@
             }
           }
         ]
-      }
+      },
+      "keywords": [
+        "metals",
+        "mining",
+        "mining strategies",
+        "market analysis",
+        "global projects",
+        "sustainable practices",
+        "business success",
+        "industrial supply chains",
+        "environmentally friendly",
+        "operational best practices",
+        "social responsibility",
+        "risk management",
+        "supply chain performance",
+        "operational performance"
+      ]
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716367795/digita_ntx8xy.webp",
@@ -249,7 +288,20 @@
           "arabic": ""
         },
         "items": []
-      }
+      },
+      "keywords": [
+        "digital transformation",
+        "technology potential",
+        "maximize value",
+        "customer-centric solutions",
+        "enhanced efficiency",
+        "data utilization",
+        "digital ventures",
+        "innovation",
+        "technology strategies",
+        "sustainable future"
+      ]
+      
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716731741/lampo_zxirib.webp",
@@ -295,7 +347,23 @@
           "arabic": ""
         },
         "items": []
-      }
+      },
+      "keywords": [
+        "energy",
+        "renewable energy",
+        "ROI",
+        "sustainability",
+        "transformational projects",
+        "government policies",
+        "incentives",
+        "sustainability strategies",
+        "renewable energy transformation",
+        "sustainable practices",
+        "business operations",
+        "ongoing support"
+      ]
+      
+      
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717070298/163991_h5s3or.webp",
@@ -376,7 +444,26 @@
             }
           }
         ]
-      }
+      },
+      "keywords": [
+        "human capital",
+        "employee innovation",
+        "organizational growth",
+        "competitive advantage",
+        "human capital management",
+        "skills development",
+        "knowledge leverage",
+        "organizational success",
+        "training programs",
+        "capacity building",
+        "TNA-based training",
+        "operating model",
+        "agile methodologies",
+        "lean methodologies",
+        "six sigma",
+        "leadership development",
+        "talent development"
+      ]
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717063555/2151196335_e6u4fp.webp",
@@ -422,7 +509,22 @@
           "arabic": ""
         },
         "items": []
-      }
+      },
+      "keywords": [
+        "environment",
+        "sustainability",
+        "environmental strategies",
+        "conservation",
+        "ecosystem protection",
+        "green initiatives",
+        "environmental impact",
+        "climate change",
+        "resource management",
+        "biodiversity",
+        "renewable energy",
+        "environmental policies",
+        "ecological balance"
+      ]
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716734566/travel_bgue3e.jpg",
@@ -468,7 +570,24 @@
           "arabic": ""
         },
         "items": []
-      }
+      },
+      "keywords": [
+        "travel",
+        "tourism",
+        "hospitality",
+        "destination management",
+        "travel services",
+        "tourist attractions",
+        "sustainable tourism",
+        "travel experience",
+        "leisure travel",
+        "business travel",
+        "travel strategy",
+        "tourism marketing",
+        "adventure travel",
+        "travel technology",
+        "cultural tourism"
+      ]
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716363414/digital-art-inmersive-exhibition_6_feek04_yctnhc.jpg",
@@ -514,7 +633,24 @@
           "arabic": ""
         },
         "items": []
-      }
+      },
+      "keywords": [
+        "agriculture",
+        "farming",
+        "sustainable agriculture",
+        "crop production",
+        "agritech",
+        "precision farming",
+        "agricultural innovation",
+        "agriculture management",
+        "agricultural services",
+        "food security",
+        "agricultural development",
+        "agricultural practices",
+        "rural development",
+        "farm management",
+        "agricultural sustainability"
+    ]
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716734942/dsad_clevgh.jpg",
@@ -560,7 +696,24 @@
           "arabic": ""
         },
         "items": []
-      }
+      },
+      "keywords": [
+        "commerce",
+        "trade",
+        "business",
+        "e-commerce",
+        "retail",
+        "wholesale",
+        "marketplace",
+        "supply chain",
+        "logistics",
+        "distribution",
+        "commercial strategy",
+        "business growth",
+        "sales",
+        "customer engagement",
+        "market analysis"
+    ]
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716364646/gv_1_halvjk.webp",
@@ -606,7 +759,26 @@
           "arabic": ""
         },
         "items": []
-      }
+      },
+      "keywords": [
+        "government",
+        "public sector",
+        "public administration",
+        "public services",
+        "policy",
+        "governance",
+        "public policy",
+        "governmental",
+        "public management",
+        "public affairs",
+        "public administration",
+        "public governance",
+        "public sector reform",
+        "public sector management",
+        "governmental affairs",
+        "public sector strategy",
+        "public sector development"
+    ]
     }
   ]
 }

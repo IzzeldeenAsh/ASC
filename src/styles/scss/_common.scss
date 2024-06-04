@@ -28,10 +28,7 @@ body {
   
 
 
-*::selection {
-    color: inherit;
-    background-color: transparent;
-}
+
 
 .mil-wrapper {
     position: relative;
@@ -634,7 +631,6 @@ textarea {
     padding: 0 30px;
     width: 100%;
     font-size: 12px;
-    text-transform: uppercase;
     font-weight: 500;
     color: $dark;
     border: none;
@@ -867,9 +863,6 @@ backgrounds
     }
     & .mi-invert-fix {
         height: 100%;
-        position: relative;
-        pointer-events: none;
-        z-index: 3;
         & .container {
             pointer-events: all;
         }
@@ -889,9 +882,6 @@ backgrounds
     }
     & .mi-invert-fix {
         height: 100%;
-        position: relative;
-        pointer-events: none;
-        z-index: 3;
         & .container {
             pointer-events: all;
             
