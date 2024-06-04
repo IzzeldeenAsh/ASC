@@ -1,6 +1,6 @@
-import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
 import ABLogoLight from"@layouts/svg-icons/AB-Logo-Light"
+import { IconArrowDown } from '@tabler/icons-react';
 import {HeaderMegaMenu} from "@components/HeeaderMegaMenu"
 const HeroOne = () => {
     const {activeLocale , t} = useLocale();
@@ -38,21 +38,10 @@ const HeroOne = () => {
 
                          
                 
-                                <div className="mil-circle-text" >
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300" enableBackground="new 0 0 300 300" xmlSpace="preserve" className="mil-ct-svg mil-rotate" data-value="360">
-                                    <defs>
-                                        <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
-                                    </defs>
-                                    <circle cx="150" cy="100" r="75" fill="none" />
-                                    <g>
-                                        <use xlinkHref="#circlePath" fill="none" />
-                                      
-                                    </g>
-                                </svg>
-                                <a href="#servcise" className="mil-button mil-arrow-place mil-icon-button mil-arrow-down" style={{padding : "5px" , height:"48px"}}>
-                                    <ArrowIcon />
+                               
+                                <a href="#servcise" className="" style={{padding : "5px" , height:"48px"}}>
+                               <IconArrowDown color="#F6D84D" size={"40px"} className="scroll-down-arrow"/>
                                 </a>
-                            </div>
 
                         </div>
                     </div>

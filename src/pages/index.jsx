@@ -5,13 +5,24 @@ import HeroOneSection from "@components/sections/HeroOne"
 import AboutSection from "@components/sections/About";
 import ServicesSection from "@components/sections/Services";
 import TeamSection from "@components/sections/Team";
+import { useRouter } from "next/router";
 import { NextSeo } from 'next-seo';
 const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import nextI18NextConfig from '../../next-i18next.config';
 const Home1 = (props) => {
-  
+  const router = useRouter();
+  const {section} = router.query;
+
+  useEffect(()=>{
+    if(section){
+      const sectionElement = document.getElementById(section);
+      if(sectionElement){
+        sectionElement.scrollIntoView({behavior:'smooth'})
+      }
+    }
+  },[section])
   return (
     <Layouts >
       <NextSeo
@@ -42,7 +53,7 @@ const Home1 = (props) => {
       <HeroOneSection />
       <ServicesSection  />
       <AboutSection />
-      <TeamSection />
+      <TeamSection id="leaders"/>
       <TestimonialSlider />
       <PartnersSlider />
       {/* <LatestPostsSection posts={props.posts} /> */}

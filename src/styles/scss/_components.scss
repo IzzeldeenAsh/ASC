@@ -11,6 +11,11 @@
 li {
   list-style: none;
 }
+
+.scroll-down-arrow{
+animation: float 2s ease-in-out infinite;
+}
+
 /* -------------------------------------------
 
 Search bar
@@ -282,7 +287,11 @@ frame
     top: 25px;
     left: 50%;
     transform: translateX(-50%);
+    @media screen and (max-width:1200px) {
+      display: none !important;
+    }
 }
+
 .bottom-border-nav{
   position: absolute;
   z-index: 4;
@@ -3291,7 +3300,7 @@ World Map
     transform: translateY(0);
   }
   50%{
-    transform: translateY(-10px);
+    transform: translateY(-15px);
   }
   100%{
     transform: translateY(0);

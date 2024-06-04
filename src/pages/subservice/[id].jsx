@@ -8,6 +8,7 @@ import PageBanner from "@components/PageBanner";
 import Link from "next/link";
 import InfographManager from "@/src/components/infographs/InfographManager";
 import Image from 'next/image';
+import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
 const subservice = ( props ) => {
 
   const { activeLocale } = useLocale();
@@ -19,7 +20,10 @@ const subservice = ( props ) => {
  
   return (
     <Layouts>
-      <PageBanner pageTitle={subservice.introTitle} breadTitle={subservice.title} align={"center"} headingSize={2} />
+             <div className="logoStyle">
+     <ABLogoDark />
+   </div>
+      <PageBanner pageTitle={subservice.introTitle.english} breadTitle={subservice.title.english} align={"center"} headingSize={2} />
       
       {/* publication */}
       <section id="blog">
@@ -28,7 +32,7 @@ const subservice = ( props ) => {
                   <div className="col-lg-12">
                   {subservice.image && (
                      <div className="mil-image-frame mil-horizontal mil-up">
-                     <img src={subservice.image} alt={subservice.title}  className="mil-scale" data-value-1=".90" data-value-2="1.15" />
+                     <img src={subservice.image} alt={subservice.title.english}  className="mil-scale" data-value-1=".90" data-value-2="1.15" />
                  </div>
                   )}
                      
@@ -40,7 +44,7 @@ const subservice = ( props ) => {
                   </div>
                   <div className="col-lg-12 mil-mb-90">
 
-                      <div className={`mil-text mil-up mil-text-lg`} dangerouslySetInnerHTML={{__html : subservice.contentHtml}} />
+                      <div className={`mil-text mil-up mil-text-lg`} dangerouslySetInnerHTML={{__html : subservice.contentHtml.english}} />
                       
                       {typeof subservice.gallery != "undefined" &&
                       <>

@@ -116,7 +116,7 @@ const sections = [
 ];
 return ( 
 <>
-    <Group h="100%" gap={0} visibleFrom="sm">
+    <Group h="100%" gap={0} visibleFrom="sm" className='top-nav'>
         {sections.map((section) => (
             <HoverCard position="bottom" radius="sm" shadow="md" withinPortal key={section.title}>
                 <HoverCard.Target>
