@@ -1,484 +1,684 @@
-
 {
-    "services" :     [
-        { "imgURL" : "https://res.cloudinary.com/dahiaq28x/image/upload/v1716989833/2151021171_qdcgwc.webp",
-            "id": "service-1",
-            "contentHtml": "",
-            "sector": ["Transportation"],
-            "title": {
-              "english": "Smart Cities and Mobility",
-              "arabic": "المدن الذكية والتنقل"
+  "services": [
+    {
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716989833/2151021171_qdcgwc.webp",
+      "id": "service-1",
+      "contentHtml": "",
+      "sector": [
+        "Transportation"
+      ],
+      "title": {
+        "english": "Smart Cities and Mobility",
+        "arabic": "المدن الذكية والتنقل"
+      },
+      "preview_title": {
+        "english": "Smart Cities<br> and Mobility",
+        "arabic": "المدن الذكية"
+      },
+      "short": {
+        "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development.",
+        "arabic": "نستفيد من التقنيات الرئيسية والحلول الذكية للتعامل مع تعقيدات تطوير المدن الذكية والتنقل."
+      },
+      "introTitle": {
+        "english": "Smart Cities<br> and <span class=\"mil-thin\">Mobility</span>",
+        "arabic": "المدن الذكية<br> و<span class=\"mil-thin\">التنقل</span>"
+      },
+      "description": {
+        "title": {
+          "english": "key  technologies and  smart solutions ",
+          "arabic": "التقنيات الرئيسية و الحلول   الذكية"
+        },
+        "content": {
+          "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer, we guide our clients in navigating the complexity of this ecosystem.",
+          "arabic": "نستفيد من التكنولوجيا المفتاحية والحلول الذكية للتنقل في تعقيدات تطوير المدينة الذكية والتنقل. حيث أن أنظمة النقل الذكية وخدمات النقل كخدمة تعتمد على الذكاء الاصطناعي وإنترنت الأشياء تقدم الكثير، نوجه عملائنا للتنقل في تعقيدات هذا النظام البيئي."
+        },
+        "button": {
+          "link": "/projects",
+          "label": {
+            "english": "View works",
+            "arabic": "عرض الأعمال"
+          }
+        }
+      },
+      "list": {
+        "items": [
+          {
+            "id": "s1-smart-cities",
+            "label": {
+              "english": "Smart Cities",
+              "arabic": "المدن الذكية"
             },
-            "preview_title": {
-              "english": "Smart Cities<br> and Mobility",
-              "arabic":"المدن الذكية"
+            "value": {
+              "english": "<div><div>The vision of an efficient and sustainable urban living has become an evolving reality. At A&B, we are dedicated to contributing to the development of this complex ecosystem by formulating the needed strategies for infrastructure, transportation, energy and digital connectivity.</div><br><div>Leveraging key technology and smart solution analysis makes us a strategic partner for organizations and governments aspiring to navigate the complexity of smart city development. Our team of consultants brings a wealth of expertise in areas such as IoT, data analytics, renewable energy solutions, and sustainable transportation to help organizations build internal capacity for smart city initiatives while zooming in on the particular needed infrastructure challenges.</div></div>",
+              "arabic": "<div><div>أصبحت رؤية الحياة الحضرية الفعالة والمستدامة واقعًا متطورًا. في A&B، نحن ملتزمون بالمساهمة في تطوير هذا النظام البيئي المعقد من خلال صياغة الاستراتيجيات اللازمة للبنية التحتية والنقل والطاقة والتواصل الرقمي.</div><div>يجعل تحليل التكنولوجيا الرئيسية والحلول الذكية منا شريكًا استراتيجيًا للمنظمات والحكومات الطامحة للتنقل في تعقيدات تطوير المدينة الذكية. يجلب فريق استشاريونا ثروة من الخبرة في مجالات مثل IoT وتحليلات البيانات وحلول الطاقة المتجددة والنقل المستدام لمساعدة المنظمات في بناء القدرة الداخلية لمبادرات المدن الذكية بينما يركز على التحديات التحتية المطلوبة بشكل خاص.</div></div>"
+            }
+          },
+          {
+            "id": "s1-smart-mobility",
+            "label": {
+              "english": "Smart Mobility",
+              "arabic": "التنقل الذكي"
             },
-            "short": {
-              "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development.",
-              "arabic": "نستفيد من التقنيات الرئيسية والحلول الذكية للتعامل مع تعقيدات تطوير المدن الذكية والتنقل."
-            },
-            "introTitle": {
-              "english": "Smart Cities<br> and <span class=\"mil-thin\">Mobility</span>",
-              "arabic": "المدن الذكية<br> و<span class=\"mil-thin\">التنقل</span>"
-            },
-            "description": {
-              "title": {
-                "english": "key  technologies and  smart solutions ",
-                "arabic": "التقنيات الرئيسية و الحلول   الذكية"
-              },
-              "content": {
-                "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer, we guide our clients in navigating the complexity of this ecosystem.",
-                "arabic":"نستفيد من التكنولوجيا المفتاحية والحلول الذكية للتنقل في تعقيدات تطوير المدينة الذكية والتنقل. حيث أن أنظمة النقل الذكية وخدمات النقل كخدمة تعتمد على الذكاء الاصطناعي وإنترنت الأشياء تقدم الكثير، نوجه عملائنا للتنقل في تعقيدات هذا النظام البيئي."
-              },
-              "button": {
-                "link": "/projects",
-                "label": {
-                  "english": "View works",
-                  "arabic": "عرض الأعمال"
-                }
-              }
-            },
-            "list": {
-              "items": [
-                {
-                  "id":"s1-smart-cities",
-                  "label": {
-                    "english": "Smart Cities",
-                    "arabic": "المدن الذكية"
-                  },
-                  "value": {
-                    "english": "<div><div>The vision of an efficient and sustainable urban living has become an evolving reality. At A&B, we are dedicated to contributing to the development of this complex ecosystem by formulating the needed strategies for infrastructure, transportation, energy and digital connectivity.</div><br><div>Leveraging key technology and smart solution analysis makes us a strategic partner for organizations and governments aspiring to navigate the complexity of smart city development. Our team of consultants brings a wealth of expertise in areas such as IoT, data analytics, renewable energy solutions, and sustainable transportation to help organizations build internal capacity for smart city initiatives while zooming in on the particular needed infrastructure challenges.</div></div>",
-                    "arabic": "<div><div>أصبحت رؤية الحياة الحضرية الفعالة والمستدامة واقعًا متطورًا. في A&B، نحن ملتزمون بالمساهمة في تطوير هذا النظام البيئي المعقد من خلال صياغة الاستراتيجيات اللازمة للبنية التحتية والنقل والطاقة والتواصل الرقمي.</div><div>يجعل تحليل التكنولوجيا الرئيسية والحلول الذكية منا شريكًا استراتيجيًا للمنظمات والحكومات الطامحة للتنقل في تعقيدات تطوير المدينة الذكية. يجلب فريق استشاريونا ثروة من الخبرة في مجالات مثل IoT وتحليلات البيانات وحلول الطاقة المتجددة والنقل المستدام لمساعدة المنظمات في بناء القدرة الداخلية لمبادرات المدن الذكية بينما يركز على التحديات التحتية المطلوبة بشكل خاص.</div></div>"
-                  }
-                },
-                {
-                  "id":"s1-smart-mobility",
-                  "label": {
-                    "english": "Smart Mobility",
-                    "arabic": "التنقل الذكي"
-                  },
-                  "value": {
-                    "english": "<div><div>Congestion, noise and pollution remain challenges urban communities struggle with. Technology comes as an effective solution in handling such challenges, paving the way for a higher quality urban life; yet, the spectrum of the utilized technologies facilitating efficient transportation is wide. Leveraging data and employing smart systems and platforms, such as Intelligent Transport Systems (ITS) and Mobility as a Service (MaaS), urban transport has now become smarter, more efficient and greener. </div><br><div>A&B digital consulting team helps organizations and governments visualize a sustainable and improved quality of urban life, as they explore what ITS and MaaS, AI, and IoT have to offer in increasing the competitiveness of cities based on the particular city conditions. Our strategies are an eye-opener to clients on smart mobility project implementation. Together, we navigate the solutions that encompass connecting alternative modes of transportation, shared micromobility, smart traffic management, and parking, to create more livable, resilient, and connected communities.</div></div>",
-                    "arabic": "<div>تظل الازدحامات والضوضاء والتلوث تحديات يواجهها المجتمعات الحضرية. تأتي التكنولوجيا كحلا فعالًا في التعامل مع مثل هذه التحديات، مما يمهد الطريق لحياة حضرية عالية الجودة. ومع ذلك، فإن طيف التقنيات المستخدمة التي تيسر النقل الفعال واسع. من خلال استخدام البيانات واعتماد الأنظمة والمنصات الذكية، مثل أنظمة النقل الذكي (ITS) والتنقل كخدمة (MaaS)، أصبح النقل الحضري أكثر ذكاءً وكفاءةً وأخضر. </div><br><div>يساعد فريق الاستشارات الرقمية في A&B المنظمات والحكومات على تصور جودة حياة حضرية مستدامة ومحسَّنة، حيث يستكشفون ما تقدمه أنظمة النقل الذكي و MaaS و AI و IoT في زيادة تنافسية المدن استنادًا إلى ظروف المدينة الخاصة. تعتبر استراتيجياتنا فتاحة أمام عملائنا في تنفيذ مشاريع التنقل الذكية. معًا، نستكشف الحلول التي تشمل ربط وسائط النقل البديلة والتنقل المشترك وإدارة حركة المرور الذكية والمواقف، لخلق مجتمعات أكثر قابلية للعيش ومرونة وتواصلًا.</div>"
-                  }
-                }
-              ]
+            "value": {
+              "english": "<div><div>Congestion, noise and pollution remain challenges urban communities struggle with. Technology comes as an effective solution in handling such challenges, paving the way for a higher quality urban life; yet, the spectrum of the utilized technologies facilitating efficient transportation is wide. Leveraging data and employing smart systems and platforms, such as Intelligent Transport Systems (ITS) and Mobility as a Service (MaaS), urban transport has now become smarter, more efficient and greener. </div><br><div>A&B digital consulting team helps organizations and governments visualize a sustainable and improved quality of urban life, as they explore what ITS and MaaS, AI, and IoT have to offer in increasing the competitiveness of cities based on the particular city conditions. Our strategies are an eye-opener to clients on smart mobility project implementation. Together, we navigate the solutions that encompass connecting alternative modes of transportation, shared micromobility, smart traffic management, and parking, to create more livable, resilient, and connected communities.</div></div>",
+              "arabic": "<div>تظل الازدحامات والضوضاء والتلوث تحديات يواجهها المجتمعات الحضرية. تأتي التكنولوجيا كحلا فعالًا في التعامل مع مثل هذه التحديات، مما يمهد الطريق لحياة حضرية عالية الجودة. ومع ذلك، فإن طيف التقنيات المستخدمة التي تيسر النقل الفعال واسع. من خلال استخدام البيانات واعتماد الأنظمة والمنصات الذكية، مثل أنظمة النقل الذكي (ITS) والتنقل كخدمة (MaaS)، أصبح النقل الحضري أكثر ذكاءً وكفاءةً وأخضر. </div><br><div>يساعد فريق الاستشارات الرقمية في A&B المنظمات والحكومات على تصور جودة حياة حضرية مستدامة ومحسَّنة، حيث يستكشفون ما تقدمه أنظمة النقل الذكي و MaaS و AI و IoT في زيادة تنافسية المدن استنادًا إلى ظروف المدينة الخاصة. تعتبر استراتيجياتنا فتاحة أمام عملائنا في تنفيذ مشاريع التنقل الذكية. معًا، نستكشف الحلول التي تشمل ربط وسائط النقل البديلة والتنقل المشترك وإدارة حركة المرور الذكية والمواقف، لخلق مجتمعات أكثر قابلية للعيش ومرونة وتواصلًا.</div>"
             }
           }
-          ,
-          {
-            "imgURL" : "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988597/104221_j5di9w.webp",
-            "id": "service-2",
-            "contentHtml": "",
-            "sector": ["Information Technology (IT)"],
-            "title": {
-              "english": "Digital  Transformation",
-              "arabic": "التحول الرقمي"
-            },
-            "preview_title": {
-              "english": "Digital <br> Transformation",
-              "arabic": "التحول الرقمي"
-            },
-            "short": {
-              "english":   "We partner with clients to foster the needed digital culture.",
-              "arabic": "أصبح من الضروري للشركات الاعتماد على التقنيات الرقمية الصحيحة ودمجها في مختلف جوانب عمليات المؤسسة وثقافتها وتجربة العملاء للبقاء تنافسية."
-            },
-            "introTitle": {
-              "english": "Digital <br> <span class=\"mil-thin\">Transformation</span>",
-              "arabic": "التحول  <span class=\"mil-thin\">الرقمي</span>"
-            },
-            "description": {
-              "title": {
-                "english": "Adopting  the right digital technologies",
-                "arabic": "اعتماد التقنيات  <br>الرقمية الصحيحة"
-              },
-              "content": {
-                "english": "Adopting the right digital technologies and integrating them into the various aspects of an organization's operations, culture, and customer experience has become essential for businesses to remain competitive. Our digital transformation mission is to ensure our clients utilize the best out of technology to grow and thrive in this digital age. By illustrating to them a holistic approach tailored to their needs, we help them seamlessly embrace digital transformation as A&B digital experts examine their operations and craft the strategies that will make the whole digital transformation journey throughout the value chain smooth and hassle-free.",
-                "arabic": "تبني التقنيات الرقمية المناسبة ودمجها في مختلف جوانب عمليات المؤسسة وثقافتها وتجربة العملاء أصبح ضرورة حتمية للشركات كي تحافظ على قدرتها التنافسية. تتمثل مهمتنا في مجال التحول الرقمي في ضمان استفادة عملائنا من أفضل ما تقدمه التكنولوجيا للنمو والازدهار في هذا العصر الرقمي. ومن خلال توضيح نهج شامل مصمم خصيصًا لتلبية احتياجاتهم، فإننا نساعدهم على تبني التحول الرقمي بسلاسة. يقوم خبراء A&B الرقميون بفحص عمليات العُملاء وصياغة الاستراتيجيات التي من شأنها أن تجعل رحلة التحول الرقمي بأكملها عبر سلسلة القيمة سلسة وخالية من المتاعب."
-              },
-              "button": {
-                "link": "/projects",
-                "label": {
-                  "english": "View works",
-                  "arabic": "عرض الأعمال"
-                }
-              }
-            },
-            "list": {
-              "items": [
-                {
-                  "id":"s2-digitized-operations",
-                    "label": {
-                    "english": "Digitized Operations",
-                    "arabic": "العمليات المرقمة"
-                    },
-                    "value": {
-                    "english": "<div><div>Our digital transformation experts work with organizations to define the most effective digital strategy that will enable them drive the needed digital growth that would result in an evolved business model and getting their operation to a higher level of efficiency.</div><br><div>Digital transformation is more than just getting the latest technology. Transforming into a data-driven organization requires that organizations integrate technology in operations throughout the value chain, aiming at an enhanced customer experience and meeting the digitally evolving demands. A&B experts thoroughly examine the operational chain as they redesign with the organization the digitized operating model that will help them maintain a competitive edge.</div></div>",
-                    "arabic": "<div><div>يعمل خبراؤنا في التحول الرقمي مع المنظمات لتحديد الاستراتيجية الرقمية الأكثر فعالية التي ستمكنها من دفع النمو الرقمي اللازم الذي سيؤدي إلى نمو نموذج عمل تطوري وجعل عمليتها أكثر كفاءة.</div><br><div>التحول الرقمي أكثر من مجرد الحصول على أحدث التكنولوجيا. يتطلب التحول إلى منظمة مدفوعة بالبيانات أن تدمج المنظمات التكنولوجيا في العمليات عبر سلسلة القيمة بأكملها، بهدف تحسين تجربة العملاء وتلبية الطلبات التي تتطور رقمياً. يفحص خبراء A&amp;B بعناية سلسلة العمليات بينما يعيدون تصميم نموذج العمل الرقمي مع المنظمة الذي سيساعدهم على الحفاظ على تفوق تنافسي.</div></div>"
-                    }
-                    },
-                    {
-                      "id":"s2-digital-culture",
-                      "label": {
-                          "english": "Digital Culture",
-                          "arabic": "الثقافة الرقمية"
-                      },
-                      "value": {
-                          "english": "<div>To create value through digital transformation, we partner with clients to foster the needed digital culture that will positively impact your operations, leaving it optimized, agile and customer-centric. To change an organization’s culture is not easy, and for an organization to transform to the must-prevail digital culture our experts tailor the solutions that fit best the organization's unique requisites to stay competitive. That's why we help organizations adapt to and manage the rapidly changing business environment where the deployed technology is put into action to drive impact.</div><br><div>At A&B, we emphasize the important role stakeholders can play in enhancing the behaviors and mindsets of employees to promote digital transformation, where innovative, collaborative and data-driven culture dominates the scene while putting the customer at the heart of the digital transformation journey.</div>",
-                          "arabic": "<div>لإنشاء قيمة من خلال التحول الرقمي، نتشارك مع العملاء لتعزيز الثقافة الرقمية اللازمة التي ستؤثر إيجابًا على عملياتك، مما يجعلها محسنة ومرنة ومتمركزة حول العميل. لتغيير ثقافة المنظمة ليس أمرًا سهلاً، ولكي تتحول المنظمة إلى الثقافة الرقمية اللازمة للتفوق يُخصص خبراؤنا الحلول التي تناسب أفضل متطلبات المنظمة الفريدة للبقاء تنافسية. لهذا السبب نساعد المنظمات على التكيف مع وإدارة البيئة التجارية المتغيرة بسرعة حيث يتم تنفيذ التكنولوجيا المستخدمة لتحقيق الأثر.</div><br><div>في A&B، نؤكد على الدور المهم الذي يمكن أن يلعبه أصحاب المصلحة في تعزيز سلوكيات ومواقف الموظفين لتعزيز التحول الرقمي، حيث تسود الثقافة المبتكرة والتعاونية والمدفوعة بالبيانات المشهد بينما يتم وضع العميل في قلب رحلة التحول الرقمي.</div>"
-                      }
-                  },
-                  {
-                    "id":"s2-ai-analytics",
-                      "label": {
-                          "english": "AI Analytics and Business Development",
-                          "arabic": "تحليلات الذكاء الاصطناعي وتطوير الأعمال"
-                      },
-                      "value": {
-                          "english": "<div>How AI has changed the way big data is managed has been a remarkable advancement businesses need to consider to stay ahead of the market. To align the best AI strategy and analytics with business objectives, our expert consultants work with our clients to unlock the potential of multi-source data trends to facilitate optimized operation, enhanced customer satisfaction and maintain their competitive advantage. Data-driven decision-making will undoubtedly contribute to the development of organizations. Through AI-driven analytics, organizations can employ the right AI technology that will help them gain valuable business insights from data.</div>",
-                          "arabic": "<div>كيف غيرت الذكاء الاصطناعي طريقة إدارة البيانات الكبيرة، هذه التطور الملحوظ يجب على الشركات النظر فيه للبقاء في المقدمة في السوق. لمواكبة أفضل استراتيجية للذكاء الاصطناعي وتحليلات البيانات مع الأهداف التجارية، يعمل مستشارونا الخبراء مع عملائنا لاستغلال إمكانات اتجاهات البيانات المتعددة المصادر لتيسير العمليات المحسنة، وزيادة رضا العملاء والحفاظ على تفوقهم التنافسي. ستسهم اتخاذ القرارات المستندة إلى البيانات بلا شك في تطوير المنظمات. من خلال تحليلات الذكاء الاصطناعي، يمكن للمنظمات استخدام التكنولوجيا الصحيحة من الذكاء الاصطناعي التي ستساعدهم على الحصول على رؤى تجارية قيمة من البيانات.</div>"
-                      }
-                  },                  
-                  {
-                    "id":"s-cybersecurity-protection",
-                    "label": {
-                        "english": "Cybersecurity and Digital Protection",
-                        "arabic": "الأمن السيبراني والحماية الرقمية"
-                    },
-                    "value": {
-                        "english": "<div>We help organizations embrace digital transformation while we highlight the risks that might come along the way. A&B offers a comprehensive suite of cybersecurity consulting services aimed at safeguarding organizations' digital assets against evolving digital threats. As some threats are hard to predict, understanding, recognizing and being prepared for such risks is the definition of digital resilience. Our experts work in collaboration with clients to put in place the needed robust and effective security strategy that will help them assess and mitigate risks, and detect and respond to threats to preserve their business value.</div>",
-                        "arabic": "<div>نساعد المنظمات على تبني التحول الرقمي بينما نسلط الضوء على المخاطر التي قد تعترض الطريق. تقدم A&B مجموعة شاملة من خدمات استشارات الأمن السيبراني التي تهدف إلى حماية أصول المنظمات الرقمية ضد التهديدات الرقمية المتطورة. نظرًا لأن بعض التهديدات صعبة التنبؤ بها، فإن فهم والتعرف والاستعداد لمثل هذه المخاطر هو تعريف المرونة الرقمية. يعمل خبراؤنا بالتعاون مع العملاء لوضع الاستراتيجية الأمنية القوية والفعالة اللازمة التي ستساعدهم على تقييم وتخفيف المخاطر، وكشف والاستجابة للتهديدات للحفاظ على قيمة أعمالهم.</div>"
-                    }
-                },
-                {
-                  "id":"s-data-security-privacy",
-                    "label": {
-                        "english": "Data Security and Privacy",
-                        "arabic": "أمان البيانات والخصوصية"
-                    },
-                    "value": {
-                        "english": "<div>Being fully aware of how crucial it is for organizations to protect their data from various data breaches, A&B always highlights the importance of incorporating data security management early on in the development process. Clients entrust organizations with their valuable information and expect organizations to maintain it. Therefore, our consultant experts aim at providing organizations with data security strategies and insights that help set up the right defense mechanisms across the organization to maintain its reputation and competitive edge.</div>",
-                        "arabic": "<div>بوعي تام بمدى أهمية حماية البيانات للمنظمات من مختلف انتهاكات البيانات، يسلط A&B دائمًا الضوء على أهمية دمج إدارة أمان البيانات في وقت مبكر في عملية التطوير. يثق العملاء المنظمات بمعلوماتهم الثمينة ويتوقعون من المنظمات الحفاظ عليها. لذلك، تهدف خبراؤنا الاستشاريون إلى تزويد المنظمات باستراتيجيات ورؤى أمان البيانات التي تساعد في إقامة آليات الدفاع الصحيحة في جميع أنحاء المنظمة للحفاظ على سمعتها وتفوقها التنافسي.</div>"
-                    }
-                }
-                
-              ]
-             
-            }
-          },
-          {
-            "imgURL" : "https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp",
-            "id": "service-3",
-            "contentHtml": "",
-            "sector": ["Energy and Sustainability"],
-            "title": {
-              "english": "Renewable Energy ",
-              "arabic": "تحويل الطاقة المتجددة"
-            },
-            "preview_title": {
-              "english": "Renewable Energy ",
-              "arabic": "تحويل الطاقة المتجددة"
-            },
-            "short": {
-              "english":   "A&B team of experts is dedicated to helping businesses and organizations lower their energy costs and reduce their carbon footprint.",
-              "arabic": "تمكين المنظمات من اعتماد حلول الطاقة المتجددة لمستقبل مستدام."
-            },
-            "introTitle": {
-              "english": "Renewable Energy <br> <span class=\"mil-thin\">Transformation</span>",
-              "arabic": "تحويل الطاقة<br>  <span class=\"mil-thin\">المتجددة</span>"
-            },
-            "description": {
-              "title": {
-                "english": "Empowering organizations",
-                "arabic": "تمكين المنظمات"
-              },
-              "content": {
-                "english": "With the increasing demand for clean and renewable energy sources, A&B team of experts is dedicated to helping businesses and organizations lower their energy costs and reduce their carbon footprint. We understand that transitioning to renewable energy sources may be faced with certain challenges. Therefore, our experts work with our clients every step of the way to combat climate change, reduce costs and create a more sustainable future by providing innovative and sustainable renewable energy solutions.<br>Transitioning to renewables requires a customized strategy that helps businesses and organizations switch to the right technology. We draw on our long experiences and proprietary renewable energy research to identify the right strategy for our clients that includes a systematic assessment of energy use before deciding on the appropriate renewable aternative.",
-                "arabic": "مع الطلب المتزايد على مصادر الطاقة النظيفة والمتجددة، يكرس فريق خبراء A&B جهوده لمساعدة الشركات والمنظمات على تقليل أثرها الكربوني وخفض تكاليف الطاقة. ندرك أن الانتقال إلى مصادر الطاقة المتجددة قد يواجه بعض التحديات. لذلك، يعمل خبراؤنا مع عملائنا في كل خطوة على مكافحة تغير المناخ، وتقليل التكاليف وخلق مستقبل أكثر استدامة من خلال تقديم حلول مبتكرة ومستدامة للطاقة المتجددة.<br>يتطلب الانتقال إلى الطاقة المتجددة استراتيجية مخصصة تساعد الشركات والمنظمات على التحول إلى التكنولوجيا المناسبة. نستفيد من خبراتنا الطويلة والأبحاث الخاصة بالطاقة المتجددة لتحديد الاستراتيجية المناسبة لعملائنا التي تشمل تقييماً منهجياً لاستخدام الطاقة قبل اتخاذ البديل المتجدد.<br>سواء كانت الطاقة الشمسية، أو الرياح أو التقنيات الأخرى المتجددة، فإننا نتبع نهجاً شاملاً يشمل تصميم أنظمة فعالة تتماشى مع أهداف عملائنا وتلبي احتياجاتهم. نتنقل في السياسات الحكومية والحوافز لمساعدة المنظمات على استغلال قوة الطاقة المتجددة لتعظيم عائد استثمارها ومساعدتها في تحقيق أهداف الاستدامة الخاصة بها."
-            },            
-              "button": {
-                "link": "/projects",
-                "label": {
-                  "english": "View works",
-                  "arabic": "عرض الأعمال"
-                }
-              }
-            },
-            "list": {
-              "items": []
-            }
-          },
-          {
-            "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716187406/futuristic-christmas-celebration-concept_23-2150979860_2_mgpnnq.webp",
-            "id": "service-4",
-            "contentHtml": "",
-            "sector": ["Industrial"],
-            "title": {
-              "english": "Sustainable Manufacturing",
-              "arabic": "التصنيع المستدام"
-            },
-            "preview_title": {
-              "english": "Sustainable <br> Manufacturing",
-              "arabic": "التصنيع المستدام"
-            },
-            "short": {
-              "english":   "Sustainable Manufacturing offers clean manufacturing solutions for environmental excellence, aiding organizations in reducing their carbon footprint and energy costs while meeting sustainability goals. ",
-              "arabic": "التصنيع المستدام"
-            },
-            "introTitle": {
-              "english": "Sustainable <br> <span class=\"mil-thin\">Manufacturing</span>",
-              "arabic": "التصنيع <br> <span class=\"mil-thin\">المستدام</span>"
-            },
-            "description": {
-              "title": {
-                "english": "Clean Manufacturing is an opportunity",
-                "arabic": " التصنيع النظيف هو فرصة "
-              },
-              "content": {
-                "english": "In today's world, our understanding of the importance of sustainable manufacturing across various industries makes us committed to helping our clients achieve their environmental goals while maintaining a competitive edge in the market. To offer you an effective strategy, we start by conducting comprehensive assessments of your operations, facility, and product.<br><br><span class=\"mil-text-primary fw-bold\">Clean Manufacturing</span><br><br>Our clean manufacturing transformation strategy focuses on reducing the environmental impact of manufacturers and businesses and improving their sustainability. A&B provides strategic solutions that would lead to innovative manufacturing processes and helps clients adopt and Implement practices that not only benefit the environment but also improve their operational efficiency and reduce costs.<br><br> Although clean manufacturing may seem like a responsibility, we see it as an opportunity.Organizations can differentiate themselves in the market by contributing to their local economy and meeting the demands of the increasing number of environmentally conscious consumers.",
-                "arabic": "مع الطلب المتزايد على مصادر الطاقة النظيفة والمتجددة، يكرس فريق خبراء A&B جهوده لمساعدة الشركات والمنظمات على تقليل أثرها الكربوني وخفض تكاليف الطاقة. ندرك أن الانتقال إلى مصادر الطاقة المتجددة قد يواجه بعض التحديات. لذلك، يعمل خبراؤنا مع عملائنا في كل خطوة على مكافحة تغير المناخ، وتقليل التكاليف وخلق مستقبل أكثر استدامة من خلال تقديم حلول مبتكرة ومستدامة للطاقة المتجددة.<br><br>"
-              }
-            },
-            "button": {
-              "link": "/projects",
-              "label": {
-                "english": "View works",
-                "arabic": "عرض الأعمال"
-              }
-            },
-            "list": {
-              "items": []
-             
-            }
-          },
-          {
-            "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988340/30280_1_tnzuno.webp",
-            "id": "service-5",
-            "contentHtml": "",
-            "sector": ["Agricultural"],
-            "title": {
-              "english": "Agriculture",
-              "arabic": "الزراعة"
-            },
-            "preview_title": {
-              "english": "Sustainable <br> Agriculture",
-              "arabic": "الزراعة المستدامة"
-            },
-            "short": {
-              "english": "Tailored strategies for sustainable agricultural growth.",
-              "arabic": "استراتيجيات مخصصة لنمو زراعي مستدام."
-            },
-            "introTitle": {
-              "english": "Sustainable <br> <span class=\"mil-thin\">Agriculture</span>",
-              "arabic": "الزراعة <br> <span class=\"mil-thin\">المستدامة</span>"
-            },
-            "description": {
-              "title": {
-                "english": "Tailored strategies for sustainable agricultural growth.",
-              "arabic": "استراتيجيات مخصصة لنمو زراعي مستدام."
-              },
-              "content": {
-                "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies that contribute to organizations’ long-term success. From crop rotation and soil and water management to navigating the complexities of agriculture markets, technologies, and regulations, we are committed to providing strategic recommendations based on actual needs and unique conditions. We help our clients grow sustainably.",
-                "arabic":"تشمل سلسلة قيمة الزراعة بأكملها، خبراؤنا في الزراعة يصممون الاستراتيجيات التي تسهم في نجاح المؤسسات على المدى الطويل. من دورات المحاصيل وإدارة التربة والمياه إلى التنقل في تعقيدات أسواق الزراعة والتكنولوجيا والتشريعات، نحن ملتزمون بتقديم توصيات استراتيجية استنادًا إلى الاحتياجات الفعلية والظروف الفريدة. نساعد عملائنا على النمو بشكل مستدام."
-              }
-            },
-            "button": {
-              "link": "/projects",
-              "label": {
-                "english": "View Our Projects",
-                "arabic": "عرض المشاريع الخاصة بنا"
-              }
-            },
-            "list": {
-              "items": [
-                {
-                  "id":"s5-agriculture-markets",
-                  "label": {
-                    "english": "Agriculture Markets",
-                    "arabic": "أسواق الزراعة"
-                  },
-                  "value": {
-                    "english": "To be the tallest sunflower in the field, we can never emphasize enough the importance of identifying the right potential markets for your product before you plant your seeds of success. Researching the demand for a certain product requires a robust analysis of the potential market demographics and consumer behavior patterns data. A&B gap analysis will uncover the pathway to becoming distinguished among competitors of similar agricultural products and help your agriculture business stand out and flourish. ",
-                    "arabic": "لتكون أطول دوار الشمس في الحقل، لا يمكننا التأكيد بما فيه الكفاية على أهمية تحديد الأسواق المحتملة المناسبة لمنتجك قبل أن تزرع بذور النجاح. يتطلب بحث الطلب عن منتج معين تحليلًا قويًا لبيانات الديموغرافيا وأنماط سلوك المستهلكين في السوق المحتملة. سيكشف تحليل الفجوة بين الأهداف (A&B) عن المسار لتحقيق التميز بين منافسين لمنتجات زراعية مماثلة ويساعد عملك الزراعي على التألق والازدهار."
-                  }
-                },
-                {
-                  "id":"s5-agriTech",
-                  "label": {
-                    "english": "AgriTech",
-                    "arabic": "التقنية الزراعية"
-                  },
-                  "value": {
-                    "english": "No matter what the challenges may be, utilizing the most suitable technology will definitely take your efficiency and yield to another level. Agritech Innovation is constantly accelerating encompassing new technologies such as AI, machine learning and blockchain. A&B Agritech experts are always ahead of the curve and work closely with clients as they craft the strategy that will make them benefit the most from the adopted technology.",
-                    "arabic": "مهما كانت التحديات، فإن استخدام التكنولوجيا الأنسب سيأخذ بك بالتأكيد إلى مستوى جديد من الكفاءة والإنتاجية. إن الابتكار في مجال التكنولوجيا الزراعية يتسارع باستمرار، ويشمل تقنيات جديدة مثل الذكاء الاصطناعي وتعلم الآلة والبلوكتشين. يكون خبراء A&B في التكنولوجيا الزراعية دائمًا في مقدمة الحدث ويعملون عن كثب مع العملاء أثناء صياغة الاستراتيجية التي ستجعلهم يستفيدون الأكثر من التكنولوجيا المعتمدة."
-                  }
-                }
-              ]
-            }
-          }
-          ,
-          {
-            "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717050921/310395_g2bsa6.webp",
-            "id": "service-6",
-            "contentHtml": "",
-            "sector": ["Management Consulting"],
-            "title": {
-              "english": "Operations",
-              "arabic": "العمليات"
-            },
-            "preview_title": {
-              "english": "Operations <br> Consultancy",
-              "arabic": "استشارات العمليات"
-            },
-            "short": {
-              "english": "Operations Consulting",
-               "arabic": "استشارات العمليات"
-            },
-            "introTitle": {
-              "english": "Operations",
-              "arabic": "العمليات"
-            },
-            "description": {
-              "title": {
-                "english": "Transforming <span class=\"mil-thin\">Strategies</span> <br>  <span class=\"mil-thin\">into</span>  success",
-                "arabic": "تحويل الاستراتيجيات إلى نجاح"
-              },
-              "content": {
-                "english": "To successfully achieve strategic goals, organizations must have a clearly defined strategy and operations processes that are thoroughly tailored to lead to the desired objectives efficiently and sustainably. At A&B, our management and operations consultants help clients transform their organizations’ strategies into success by analyzing their current operating model, pinpointing areas for improvement, and solving operational challenges. They examine the entire value chain and employ all data-driven insights to craft new operating models that meet the needs of our clients.",
-                "arabic": "لتحقيق الأهداف الاستراتيجية بنجاح ، يجب على المؤسسات أن تكون لديها استراتيجية محددة بوضوح وعمليات تشغيل مصممة بعناية لتحقيق الأهداف المرجوة بكفاءة وباستدامة. في A&B ، يساعد مستشارو الإدارة والعمليات عملاءنا على تحويل استراتيجيات منظماتهم إلى نجاح من خلال تحليل نموذجهم التشغيلي الحالي وتحديد المجالات التي يمكن تحسينها وحل التحديات التشغيلية. يفحصون سلسلة القيمة بأكملها ويستخدمون جميع البيانات المدفوعة بالبيانات لصياغة نماذج تشغيل جديدة تلبي احتياجات عملائنا."
-              }
-            },
-            "button": {
-              "link": "/projects",
-              "label": {
-                "english": "View Our Projects",
-                "arabic": "عرض المشاريع الخاصة بنا"
-              }
-            },
-            "list": {
-              "items": [
-                {
-                  "id":"s6-Logistics-and-Supply-Chain",
-                  "label": {
-                    "english": "Logistics and Supply Chain",
-                     "arabic": "الخدمات اللوجستية وسلسلة التوريد"
-                  },
-                  "value": {
-                    "english": "From procurement to distribution, an efficient logistics model can be decisive in achieving organizations' strategic goals. Our supply chain management consultants emphasize the importance of having an efficient and flexible logistics model that helps maintain our clients’ competitive edge. With costs in mind, our strategies are tailored with extreme care, allowing for agile and stakeholder-monitored operations throughout the different stages of the supply chain.",
-                    "arabic": "من التوريد إلى التوزيع ، يمكن أن يكون النموذج اللوجستي الفعال حاسمًا في تحقيق الأهداف الاستراتيجية للمؤسسات. يؤكد مستشارو إدارة سلسلة التوريد لدينا على أهمية وجود نموذج لوجستي فعال ومرن يساعد في الحفاظ على البند التنافسي لعملائنا. بتكاليف في الاعتبار ، يتم تصميم استراتيجياتنا بعناية فائقة ، مما يسمح بعمليات مرنة ومراقبة من قبل أصحاب المصلحة على مدى مراحل مختلفة من سلسلة التوريد."
-                  }
-                },
-                {
-                  "id":"s6-Service-Operations",
-                  "label": {
-                    "english": "Service Operations",
-                    "arabic": "عمليات الخدمة"
-                  },
-                  "value": {
-                    "english": "From our consulting experts' standpoint, the strategies encompassing service delivery operations must position customer satisfaction at the center of its mission and vision. Adequate allocation of resources is also paramount to expediting processes and reducing costs.",
-                    "arabic": "من وجهة نظر خبراء الاستشارة لدينا ، يجب أن تضع الاستراتيجيات التي تشمل عمليات تقديم الخدمات رضا العملاء في مركز مهمتها ورؤيتها. توزيع كاف للموارد أمر أساسي أيضًا لتسريع العمليات وتقليل التكاليف."
-                  }
-                }
-                ,
-                {
-                  "id":"Operating-Model",
-                  "label": {
-                    "english": "Operating Model",
-                    "arabic":"Operating Model"
-                  },
-                  "value": {
-                    "english":"Organizations need to optimize their back-office processes, technologies, and capabilities to enhance efficiency and innovation. By working with business leaders, we implement necessary technology transformations and organizational changes. Our goal is to develop a strategy that improves service delivery, making it more efficient, resilient, and innovation-friendly.",
-                    "arabic": "Organizations need to optimize their back-office processes, technologies, and capabilities to enhance efficiency and innovation. By working with business leaders, we implement necessary technology transformations and organizational changes. Our goal is to develop a strategy that improves service delivery, making it more efficient, resilient, and innovation-friendly."
-                  },
-                  "isSubService":true
-                }
-                ,
-                {
-                  "id":"agile-lean-six-sigma",
-                  "label": {
-                    "english": "Agile, Lean and Six Sigma",
-                    "arabic":"Agile, Lean and Six Sigma"
-                  },
-                  "value": {
-                    "english":"A&B assists organizations in streamlining operations and enhancing product quality by leveraging Agile, Lean, and Six Sigma methodologies. They improve collaboration and responsiveness through Agile principles, eliminate waste with Lean strategies, and use data-driven Six Sigma techniques to minimize defects and drive continuous process improvements. This comprehensive approach helps organizations remain competitive in a fast-paced business environment.",
-                    "arabic": "A&B assists organizations in streamlining operations and enhancing product quality by leveraging Agile, Lean, and Six Sigma methodologies. They improve collaboration and responsiveness through Agile principles, eliminate waste with Lean strategies, and use data-driven Six Sigma techniques to minimize defects and drive continuous process improvements. This comprehensive approach helps organizations remain competitive in a fast-paced business environment."
-                  },
-                  "isSubService":true
-                }
-                ,
-                {
-                  "id" :"leadership-and-talent-development",
-                  "label": {
-                    "english": "Leadership and Talent Development",
-                    "arabic":"Leadership and Talent Development"
-                  },
-                  "value": {
-                    "english":"<p>Our Leadership and Talent experts develop holistic talent and leadership strategies to help organizations meet their unique needs and objectives. Whether you're looking to develop emerging leaders, strengthen executive capabilities, or foster a culture of leadership at all levels, we design the strategy that will help you inspire and build high-performing teams and transform them into leaders.</p>",
-                    "arabic": "<p>Our Leadership and Talent experts develop holistic talent and leadership strategies to help organizations meet their unique needs and objectives. Whether you're looking to develop emerging leaders, strengthen executive capabilities, or foster a culture of leadership at all levels, we design the strategy that will help you inspire and build high-performing teams and transform them into leaders.</p>"
-                  },
-                  "isSubService":false
-                }
-              ]
-            }
-          },
-          {
-            "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988796/2476_rramgr.jpg",
-            "id": "service-7",
-            "contentHtml": "",
-            "sector": ["Management Consulting"],
-            "title": {
-            "english": "Entrepreneurship",
-            "arabic": "ريادة الأعمال"
-            
-            },
-            "preview_title": {
-              "english": "Entrepreneurship",
-              "arabic": "ريادة الأعمال"
-            },
-            "short": {
-            "english": "Empowering Entrepreneurs, Igniting Innovation, Building Communities",
-            "arabic": "تمكين رواد الأعمال، إشعال الابتكار، بناء المجتمعات"
-            },
-            "introTitle": {
-            "english": "Entrepreneurship",
-            "arabic": "ريادة الأعمال"
-            },
-            "description": {
-            "title": {
-             
-              "english": "We help you weave the threads to incubate success",
-            "arabic": "نحن نساعدك على نسج الخيوط لاحتضان النجاح"
-            },
-            "content": {
-            "english": "Stating as entrepreneurs, A&B puts entrepreneurship at the center of its interest and we value the role startups play in economic growth, innovation, and community development. We help organizations develop strategies that will effectively yield the needed support for entrepreneurs and help them reach the lift-off point and head confidently to their desired destination.",
-            "arabic": ""
-            },
-            "button":{
-              "link":"/projects",
-              "label":{
-                 "english":"View Our Projects",
-                 "arabic":"عرض المشاريع الخاصة بنا"
-              }
-           }
-            },
-            "list": {
-            "items": [
-              {
-                "id":"s7-Logistics-and-Supply-Chain",
-                "label":{
-                   "english":"Logistics and Supply Chain",
-                   "arabic":"الخدمات اللوجستية وسلسلة التوريد"
-                },
-                "value":{
-                 
-                   "english":"Although business incubators may seem like a convenient workspace with a desk and a network cable, they, in reality, are way more complex than they may seem. The value business incubators have is beyond measure as their sole purpose is to unlock limitless possibilities.<br><br>Our entrepreneurial strategies involve researching sector-related challenges and opportunities incubators need to focus on to help them maintain a competitive edge as successful business incubators in the market. We project to our clients the technical, financial, and market analysis to highlight their success roadmap and locate available funding sources. Our experts will project the potential revenue streams that will help stakeholders attract future startups.",
-                   "arabic":"على الرغم من أن مراكز التكوين العملية قد تبدو وكأنها مساحة عمل مريحة مع مكتب وكابل شبكة، إلا أنها في الواقع أكثر تعقيدًا بكثير مما قد تبدو عليه. القيمة التي تمتلكها مراكز التكوين العملية لا تُقدر بثمن، حيث يكمن هدفها الوحيد في فتح أفاق لا حدود لها.<br><br>إستراتيجياتنا الريادية تتضمن البحث في التحديات والفرص ذات الصلة بالقطاع التي يجب على مراكز التكوين العملية التركيز عليها لمساعدتها على الحفاظ على النصب التنافسي كمراكز تكوين عملية ناجحة في السوق. نقدم لعملائنا التحليل التقني والمالي والسوقي لتسليط الضوء على خريطة النجاح الخاصة بهم وتحديد مصادر التمويل المتاحة. سيقوم خبراؤنا بتقدير مصادر الدخل المحتملة التي ستساعد الأطراف المعنية على جذب الشركات الناشئة في المستقبل."
-                }
-             }
-            ]
-            }
-            }
+        ]
+      },
+      "keywords": [
+        "smart cities",
+        "urban development",
+        "urban infrastructure",
+        "urban mobility",
+        "smart solutions",
+        "smart technology",
+        "urban transportation",
+        "smart transportation",
+        "ITS",
+        "MaaS",
+        "AI",
+        "IoT",
+        "sustainable cities",
+        "digital consulting",
+        "urban life quality",
+        "traffic management",
+        "parking solutions",
+        "livable communities",
+        "resilient cities",
+        "connected cities",
+        "المدن الذكية",
+        "التنمية الحضرية",
+        "البنية التحتية الحضرية",
+        "التنقل الحضري",
+        "الحلول الذكية",
+        "التكنولوجيا الذكية",
+        "النقل الحضري",
+        "النقل الذكي",
+        "أنظمة النقل الذكية",
+        "النقل كخدمة",
+        "الذكاء الاصطناعي",
+        "إنترنت الأشياء",
+        "المدن المستدامة",
+        "الاستشارات الرقمية",
+        "جودة الحياة الحضرية",
+        "إدارة المرور",
+        "حلول مواقف السيارات",
+        "المجتمعات القابلة للعيش",
+        "المدن المتينة",
+        "المدن المتصلة"
       ]
-
+    },
+    {
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988597/104221_j5di9w.webp",
+      "id": "service-2",
+      "contentHtml": "",
+      "sector": [
+        "Information Technology (IT)"
+      ],
+      "title": {
+        "english": "Digital  Transformation",
+        "arabic": "التحول الرقمي"
+      },
+      "preview_title": {
+        "english": "Digital <br> Transformation",
+        "arabic": "التحول الرقمي"
+      },
+      "short": {
+        "english": "We partner with clients to foster the needed digital culture.",
+        "arabic": "أصبح من الضروري للشركات الاعتماد على التقنيات الرقمية الصحيحة ودمجها في مختلف جوانب عمليات المؤسسة وثقافتها وتجربة العملاء للبقاء تنافسية."
+      },
+      "introTitle": {
+        "english": "Digital <br> <span class=\"mil-thin\">Transformation</span>",
+        "arabic": "التحول  <span class=\"mil-thin\">الرقمي</span>"
+      },
+      "description": {
+        "title": {
+          "english": "Adopting  the right digital technologies",
+          "arabic": "اعتماد التقنيات  <br>الرقمية الصحيحة"
+        },
+        "content": {
+          "english": "Adopting the right digital technologies and integrating them into the various aspects of an organization's operations, culture, and customer experience has become essential for businesses to remain competitive. Our digital transformation mission is to ensure our clients utilize the best out of technology to grow and thrive in this digital age. By illustrating to them a holistic approach tailored to their needs, we help them seamlessly embrace digital transformation as A&B digital experts examine their operations and craft the strategies that will make the whole digital transformation journey throughout the value chain smooth and hassle-free.",
+          "arabic": "تبني التقنيات الرقمية المناسبة ودمجها في مختلف جوانب عمليات المؤسسة وثقافتها وتجربة العملاء أصبح ضرورة حتمية للشركات كي تحافظ على قدرتها التنافسية. تتمثل مهمتنا في مجال التحول الرقمي في ضمان استفادة عملائنا من أفضل ما تقدمه التكنولوجيا للنمو والازدهار في هذا العصر الرقمي. ومن خلال توضيح نهج شامل مصمم خصيصًا لتلبية احتياجاتهم، فإننا نساعدهم على تبني التحول الرقمي بسلاسة. يقوم خبراء A&B الرقميون بفحص عمليات العُملاء وصياغة الاستراتيجيات التي من شأنها أن تجعل رحلة التحول الرقمي بأكملها عبر سلسلة القيمة سلسة وخالية من المتاعب."
+        },
+        "button": {
+          "link": "/projects",
+          "label": {
+            "english": "View works",
+            "arabic": "عرض الأعمال"
+          }
+        }
+      },
+      "list": {
+        "items": [
+          {
+            "id": "s2-digitized-operations",
+            "label": {
+              "english": "Digitized Operations",
+              "arabic": "العمليات المرقمة"
+            },
+            "value": {
+              "english": "<div><div>Our digital transformation experts work with organizations to define the most effective digital strategy that will enable them drive the needed digital growth that would result in an evolved business model and getting their operation to a higher level of efficiency.</div><br><div>Digital transformation is more than just getting the latest technology. Transforming into a data-driven organization requires that organizations integrate technology in operations throughout the value chain, aiming at an enhanced customer experience and meeting the digitally evolving demands. A&B experts thoroughly examine the operational chain as they redesign with the organization the digitized operating model that will help them maintain a competitive edge.</div></div>",
+              "arabic": "<div><div>يعمل خبراؤنا في التحول الرقمي مع المنظمات لتحديد الاستراتيجية الرقمية الأكثر فعالية التي ستمكنها من دفع النمو الرقمي اللازم الذي سيؤدي إلى نمو نموذج عمل تطوري وجعل عمليتها أكثر كفاءة.</div><br><div>التحول الرقمي أكثر من مجرد الحصول على أحدث التكنولوجيا. يتطلب التحول إلى منظمة مدفوعة بالبيانات أن تدمج المنظمات التكنولوجيا في العمليات عبر سلسلة القيمة بأكملها، بهدف تحسين تجربة العملاء وتلبية الطلبات التي تتطور رقمياً. يفحص خبراء A&amp;B بعناية سلسلة العمليات بينما يعيدون تصميم نموذج العمل الرقمي مع المنظمة الذي سيساعدهم على الحفاظ على تفوق تنافسي.</div></div>"
+            }
+          },
+          {
+            "id": "s2-digital-culture",
+            "label": {
+              "english": "Digital Culture",
+              "arabic": "الثقافة الرقمية"
+            },
+            "value": {
+              "english": "<div>To create value through digital transformation, we partner with clients to foster the needed digital culture that will positively impact your operations, leaving it optimized, agile and customer-centric. To change an organization’s culture is not easy, and for an organization to transform to the must-prevail digital culture our experts tailor the solutions that fit best the organization's unique requisites to stay competitive. That's why we help organizations adapt to and manage the rapidly changing business environment where the deployed technology is put into action to drive impact.</div><br><div>At A&B, we emphasize the important role stakeholders can play in enhancing the behaviors and mindsets of employees to promote digital transformation, where innovative, collaborative and data-driven culture dominates the scene while putting the customer at the heart of the digital transformation journey.</div>",
+              "arabic": "<div>لإنشاء قيمة من خلال التحول الرقمي، نتشارك مع العملاء لتعزيز الثقافة الرقمية اللازمة التي ستؤثر إيجابًا على عملياتك، مما يجعلها محسنة ومرنة ومتمركزة حول العميل. لتغيير ثقافة المنظمة ليس أمرًا سهلاً، ولكي تتحول المنظمة إلى الثقافة الرقمية اللازمة للتفوق يُخصص خبراؤنا الحلول التي تناسب أفضل متطلبات المنظمة الفريدة للبقاء تنافسية. لهذا السبب نساعد المنظمات على التكيف مع وإدارة البيئة التجارية المتغيرة بسرعة حيث يتم تنفيذ التكنولوجيا المستخدمة لتحقيق الأثر.</div><br><div>في A&B، نؤكد على الدور المهم الذي يمكن أن يلعبه أصحاب المصلحة في تعزيز سلوكيات ومواقف الموظفين لتعزيز التحول الرقمي، حيث تسود الثقافة المبتكرة والتعاونية والمدفوعة بالبيانات المشهد بينما يتم وضع العميل في قلب رحلة التحول الرقمي.</div>"
+            }
+          },
+          {
+            "id": "s2-ai-analytics",
+            "label": {
+              "english": "AI Analytics and Business Development",
+              "arabic": "تحليلات الذكاء الاصطناعي وتطوير الأعمال"
+            },
+            "value": {
+              "english": "<div>How AI has changed the way big data is managed has been a remarkable advancement businesses need to consider to stay ahead of the market. To align the best AI strategy and analytics with business objectives, our expert consultants work with our clients to unlock the potential of multi-source data trends to facilitate optimized operation, enhanced customer satisfaction and maintain their competitive advantage. Data-driven decision-making will undoubtedly contribute to the development of organizations. Through AI-driven analytics, organizations can employ the right AI technology that will help them gain valuable business insights from data.</div>",
+              "arabic": "<div>كيف غيرت الذكاء الاصطناعي طريقة إدارة البيانات الكبيرة، هذه التطور الملحوظ يجب على الشركات النظر فيه للبقاء في المقدمة في السوق. لمواكبة أفضل استراتيجية للذكاء الاصطناعي وتحليلات البيانات مع الأهداف التجارية، يعمل مستشارونا الخبراء مع عملائنا لاستغلال إمكانات اتجاهات البيانات المتعددة المصادر لتيسير العمليات المحسنة، وزيادة رضا العملاء والحفاظ على تفوقهم التنافسي. ستسهم اتخاذ القرارات المستندة إلى البيانات بلا شك في تطوير المنظمات. من خلال تحليلات الذكاء الاصطناعي، يمكن للمنظمات استخدام التكنولوجيا الصحيحة من الذكاء الاصطناعي التي ستساعدهم على الحصول على رؤى تجارية قيمة من البيانات.</div>"
+            }
+          },
+          {
+            "id": "s-cybersecurity-protection",
+            "label": {
+              "english": "Cybersecurity and Digital Protection",
+              "arabic": "الأمن السيبراني والحماية الرقمية"
+            },
+            "value": {
+              "english": "<div>We help organizations embrace digital transformation while we highlight the risks that might come along the way. A&B offers a comprehensive suite of cybersecurity consulting services aimed at safeguarding organizations' digital assets against evolving digital threats. As some threats are hard to predict, understanding, recognizing and being prepared for such risks is the definition of digital resilience. Our experts work in collaboration with clients to put in place the needed robust and effective security strategy that will help them assess and mitigate risks, and detect and respond to threats to preserve their business value.</div>",
+              "arabic": "<div>نساعد المنظمات على تبني التحول الرقمي بينما نسلط الضوء على المخاطر التي قد تعترض الطريق. تقدم A&B مجموعة شاملة من خدمات استشارات الأمن السيبراني التي تهدف إلى حماية أصول المنظمات الرقمية ضد التهديدات الرقمية المتطورة. نظرًا لأن بعض التهديدات صعبة التنبؤ بها، فإن فهم والتعرف والاستعداد لمثل هذه المخاطر هو تعريف المرونة الرقمية. يعمل خبراؤنا بالتعاون مع العملاء لوضع الاستراتيجية الأمنية القوية والفعالة اللازمة التي ستساعدهم على تقييم وتخفيف المخاطر، وكشف والاستجابة للتهديدات للحفاظ على قيمة أعمالهم.</div>"
+            }
+          },
+          {
+            "id": "s-data-security-privacy",
+            "label": {
+              "english": "Data Security and Privacy",
+              "arabic": "أمان البيانات والخصوصية"
+            },
+            "value": {
+              "english": "<div>Being fully aware of how crucial it is for organizations to protect their data from various data breaches, A&B always highlights the importance of incorporating data security management early on in the development process. Clients entrust organizations with their valuable information and expect organizations to maintain it. Therefore, our consultant experts aim at providing organizations with data security strategies and insights that help set up the right defense mechanisms across the organization to maintain its reputation and competitive edge.</div>",
+              "arabic": "<div>بوعي تام بمدى أهمية حماية البيانات للمنظمات من مختلف انتهاكات البيانات، يسلط A&B دائمًا الضوء على أهمية دمج إدارة أمان البيانات في وقت مبكر في عملية التطوير. يثق العملاء المنظمات بمعلوماتهم الثمينة ويتوقعون من المنظمات الحفاظ عليها. لذلك، تهدف خبراؤنا الاستشاريون إلى تزويد المنظمات باستراتيجيات ورؤى أمان البيانات التي تساعد في إقامة آليات الدفاع الصحيحة في جميع أنحاء المنظمة للحفاظ على سمعتها وتفوقها التنافسي.</div>"
+            }
+          }
+        ]
+      },
+      "keywords": [
+        "digital transformation",
+        "digital culture",
+        "digital technology",
+        "digital strategy",
+        "data-driven organization",
+        "customer experience",
+        "business model evolution",
+        "operational efficiency",
+        "AI analytics",
+        "multi-source data trends",
+        "cybersecurity",
+        "digital protection",
+        "data security",
+        "privacy",
+        "التحول الرقمي",
+        "الثقافة الرقمية",
+        "التكنولوجيا الرقمية",
+        "الاستراتيجية الرقمية",
+        "المؤسسة التي تعتمد على البيانات",
+        "تجربة العملاء",
+        "تطور نموذج الأعمال",
+        "الكفاءة التشغيلية",
+        "تحليلات الذكاء الاصطناعي",
+        "اتجاهات البيانات المتعددة المصادر",
+        "الأمن السيبراني",
+        "الحماية الرقمية",
+        "أمان البيانات",
+        "الخصوصية"
+      ]
+    },
+    {
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp",
+      "id": "service-3",
+      "contentHtml": "",
+      "sector": [
+        "Energy and Sustainability"
+      ],
+      "title": {
+        "english": "Renewable Energy ",
+        "arabic": "تحويل الطاقة المتجددة"
+      },
+      "preview_title": {
+        "english": "Renewable Energy ",
+        "arabic": "تحويل الطاقة المتجددة"
+      },
+      "short": {
+        "english": "A&B team of experts is dedicated to helping businesses and organizations lower their energy costs and reduce their carbon footprint.",
+        "arabic": "تمكين المنظمات من اعتماد حلول الطاقة المتجددة لمستقبل مستدام."
+      },
+      "introTitle": {
+        "english": "Renewable Energy <br> <span class=\"mil-thin\">Transformation</span>",
+        "arabic": "تحويل الطاقة<br>  <span class=\"mil-thin\">المتجددة</span>"
+      },
+      "description": {
+        "title": {
+          "english": "Empowering organizations",
+          "arabic": "تمكين المنظمات"
+        },
+        "content": {
+          "english": "With the increasing demand for clean and renewable energy sources, A&B team of experts is dedicated to helping businesses and organizations lower their energy costs and reduce their carbon footprint. We understand that transitioning to renewable energy sources may be faced with certain challenges. Therefore, our experts work with our clients every step of the way to combat climate change, reduce costs and create a more sustainable future by providing innovative and sustainable renewable energy solutions.<br>Transitioning to renewables requires a customized strategy that helps businesses and organizations switch to the right technology. We draw on our long experiences and proprietary renewable energy research to identify the right strategy for our clients that includes a systematic assessment of energy use before deciding on the appropriate renewable aternative.",
+          "arabic": "مع الطلب المتزايد على مصادر الطاقة النظيفة والمتجددة، يكرس فريق خبراء A&B جهوده لمساعدة الشركات والمنظمات على تقليل أثرها الكربوني وخفض تكاليف الطاقة. ندرك أن الانتقال إلى مصادر الطاقة المتجددة قد يواجه بعض التحديات. لذلك، يعمل خبراؤنا مع عملائنا في كل خطوة على مكافحة تغير المناخ، وتقليل التكاليف وخلق مستقبل أكثر استدامة من خلال تقديم حلول مبتكرة ومستدامة للطاقة المتجددة.<br>يتطلب الانتقال إلى الطاقة المتجددة استراتيجية مخصصة تساعد الشركات والمنظمات على التحول إلى التكنولوجيا المناسبة. نستفيد من خبراتنا الطويلة والأبحاث الخاصة بالطاقة المتجددة لتحديد الاستراتيجية المناسبة لعملائنا التي تشمل تقييماً منهجياً لاستخدام الطاقة قبل اتخاذ البديل المتجدد.<br>سواء كانت الطاقة الشمسية، أو الرياح أو التقنيات الأخرى المتجددة، فإننا نتبع نهجاً شاملاً يشمل تصميم أنظمة فعالة تتماشى مع أهداف عملائنا وتلبي احتياجاتهم. نتنقل في السياسات الحكومية والحوافز لمساعدة المنظمات على استغلال قوة الطاقة المتجددة لتعظيم عائد استثمارها ومساعدتها في تحقيق أهداف الاستدامة الخاصة بها."
+        },
+        "button": {
+          "link": "/projects",
+          "label": {
+            "english": "View works",
+            "arabic": "عرض الأعمال"
+          }
+        }
+      },
+      "list": {
+        "items": []
+      },
+      "keywords": [
+        "renewable energy",
+        "clean energy",
+        "sustainability",
+        "carbon footprint reduction",
+        "energy costs reduction",
+        "climate change mitigation",
+        "renewable energy solutions",
+        "customized strategy",
+        "solar energy",
+        "wind energy",
+        "government policies",
+        "incentives",
+        "تحويل الطاقة المتجددة",
+        "الطاقة النظيفة",
+        "الاستدامة",
+        "تخفيض الأثر الكربوني",
+        "تخفيض تكاليف الطاقة",
+        "مكافحة تغير المناخ",
+        "حلول الطاقة المتجددة",
+        "استراتيجية مخصصة",
+        "الطاقة الشمسية",
+        "الطاقة الرياح",
+        "سياسات حكومية",
+        "حوافز"
+      ]
+    },
+    {
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716187406/futuristic-christmas-celebration-concept_23-2150979860_2_mgpnnq.webp",
+      "id": "service-4",
+      "contentHtml": "",
+      "sector": [
+        "Industrial"
+      ],
+      "title": {
+        "english": "Sustainable Manufacturing",
+        "arabic": "التصنيع المستدام"
+      },
+      "preview_title": {
+        "english": "Sustainable <br> Manufacturing",
+        "arabic": "التصنيع المستدام"
+      },
+      "short": {
+        "english": "Sustainable Manufacturing offers clean manufacturing solutions for environmental excellence, aiding organizations in reducing their carbon footprint and energy costs while meeting sustainability goals. ",
+        "arabic": "التصنيع المستدام"
+      },
+      "introTitle": {
+        "english": "Sustainable <br> <span class=\"mil-thin\">Manufacturing</span>",
+        "arabic": "التصنيع <br> <span class=\"mil-thin\">المستدام</span>"
+      },
+      "description": {
+        "title": {
+          "english": "Clean Manufacturing is an opportunity",
+          "arabic": " التصنيع النظيف هو فرصة "
+        },
+        "content": {
+          "english": "In today's world, our understanding of the importance of sustainable manufacturing across various industries makes us committed to helping our clients achieve their environmental goals while maintaining a competitive edge in the market. To offer you an effective strategy, we start by conducting comprehensive assessments of your operations, facility, and product.<br><br><span class=\"mil-text-primary fw-bold\">Clean Manufacturing</span><br><br>Our clean manufacturing transformation strategy focuses on reducing the environmental impact of manufacturers and businesses and improving their sustainability. A&B provides strategic solutions that would lead to innovative manufacturing processes and helps clients adopt and Implement practices that not only benefit the environment but also improve their operational efficiency and reduce costs.<br><br> Although clean manufacturing may seem like a responsibility, we see it as an opportunity.Organizations can differentiate themselves in the market by contributing to their local economy and meeting the demands of the increasing number of environmentally conscious consumers.",
+          "arabic": "مع الطلب المتزايد على مصادر الطاقة النظيفة والمتجددة، يكرس فريق خبراء A&B جهوده لمساعدة الشركات والمنظمات على تقليل أثرها الكربوني وخفض تكاليف الطاقة. ندرك أن الانتقال إلى مصادر الطاقة المتجددة قد يواجه بعض التحديات. لذلك، يعمل خبراؤنا مع عملائنا في كل خطوة على مكافحة تغير المناخ، وتقليل التكاليف وخلق مستقبل أكثر استدامة من خلال تقديم حلول مبتكرة ومستدامة للطاقة المتجددة.<br><br>"
+        }
+      },
+      "button": {
+        "link": "/projects",
+        "label": {
+          "english": "View works",
+          "arabic": "عرض الأعمال"
+        }
+      },
+      "list": {
+        "items": []
+      },
+      "keywords": [
+        "sustainable manufacturing",
+        "clean manufacturing",
+        "environmental excellence",
+        "carbon footprint reduction",
+        "energy costs reduction",
+        "sustainability goals",
+        "manufacturing transformation",
+        "environmental impact reduction",
+        "sustainable practices",
+        "operational efficiency",
+        "cost reduction",
+        "local economy",
+        "environmentally conscious consumers",
+        "التصنيع المستدام",
+        "التصنيع النظيف",
+        "التميز البيئي",
+        "تخفيض الأثر الكربوني",
+        "تخفيض تكاليف الطاقة",
+        "أهداف الاستدامة",
+        "تحول التصنيع",
+        "التأثير البيئي",
+        "الممارسات المستدامة",
+        "الكفاءة التشغيلية",
+        "تقليل التكاليف",
+        "الاقتصاد المحلي",
+        "المستهلكين ذوي الوعي البيئي"
+      ]
+    },
+    {
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988340/30280_1_tnzuno.webp",
+      "id": "service-5",
+      "contentHtml": "",
+      "sector": [
+        "Agricultural"
+      ],
+      "title": {
+        "english": "Sustainable Agriculture",
+        "arabic": "الزراعة"
+      },
+      "preview_title": {
+        "english": "Sustainable <br> Agriculture",
+        "arabic": "الزراعة المستدامة"
+      },
+      "short": {
+        "english": "Tailored strategies for sustainable agricultural growth.",
+        "arabic": "استراتيجيات مخصصة لنمو زراعي مستدام."
+      },
+      "introTitle": {
+        "english": "Sustainable <br> <span class=\"mil-thin\">Agriculture</span>",
+        "arabic": "الزراعة <br> <span class=\"mil-thin\">المستدامة</span>"
+      },
+      "description": {
+        "title": {
+          "english": "Tailored strategies for sustainable agricultural growth.",
+          "arabic": "استراتيجيات مخصصة لنمو زراعي مستدام."
+        },
+        "content": {
+          "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies that contribute to organizations’ long-term success. From crop rotation and soil and water management to navigating the complexities of agriculture markets, technologies, and regulations, we are committed to providing strategic recommendations based on actual needs and unique conditions. We help our clients grow sustainably.",
+          "arabic": "تشمل سلسلة قيمة الزراعة بأكملها، خبراؤنا في الزراعة يصممون الاستراتيجيات التي تسهم في نجاح المؤسسات على المدى الطويل. من دورات المحاصيل وإدارة التربة والمياه إلى التنقل في تعقيدات أسواق الزراعة والتكنولوجيا والتشريعات، نحن ملتزمون بتقديم توصيات استراتيجية استنادًا إلى الاحتياجات الفعلية والظروف الفريدة. نساعد عملائنا على النمو بشكل مستدام."
+        }
+      },
+      "button": {
+        "link": "/projects",
+        "label": {
+          "english": "View Our Projects",
+          "arabic": "عرض المشاريع الخاصة بنا"
+        }
+      },
+      "list": {
+        "items": [
+          {
+            "id": "s5-agriculture-markets",
+            "label": {
+              "english": "Agriculture Markets",
+              "arabic": "أسواق الزراعة"
+            },
+            "value": {
+              "english": "To be the tallest sunflower in the field, we can never emphasize enough the importance of identifying the right potential markets for your product before you plant your seeds of success. Researching the demand for a certain product requires a robust analysis of the potential market demographics and consumer behavior patterns data. A&B gap analysis will uncover the pathway to becoming distinguished among competitors of similar agricultural products and help your agriculture business stand out and flourish. ",
+              "arabic": "لتكون أطول دوار الشمس في الحقل، لا يمكننا التأكيد بما فيه الكفاية على أهمية تحديد الأسواق المحتملة المناسبة لمنتجك قبل أن تزرع بذور النجاح. يتطلب بحث الطلب عن منتج معين تحليلًا قويًا لبيانات الديموغرافيا وأنماط سلوك المستهلكين في السوق المحتملة. سيكشف تحليل الفجوة بين الأهداف (A&B) عن المسار لتحقيق التميز بين منافسين لمنتجات زراعية مماثلة ويساعد عملك الزراعي على التألق والازدهار."
+            }
+          },
+          {
+            "id": "s5-agriTech",
+            "label": {
+              "english": "AgriTech",
+              "arabic": "التقنية الزراعية"
+            },
+            "value": {
+              "english": "No matter what the challenges may be, utilizing the most suitable technology will definitely take your efficiency and yield to another level. Agritech Innovation is constantly accelerating encompassing new technologies such as AI, machine learning and blockchain. A&B Agritech experts are always ahead of the curve and work closely with clients as they craft the strategy that will make them benefit the most from the adopted technology.",
+              "arabic": "مهما كانت التحديات، فإن استخدام التكنولوجيا الأنسب سيأخذ بك بالتأكيد إلى مستوى جديد من الكفاءة والإنتاجية. إن الابتكار في مجال التكنولوجيا الزراعية يتسارع باستمرار، ويشمل تقنيات جديدة مثل الذكاء الاصطناعي وتعلم الآلة والبلوكتشين. يكون خبراء A&B في التكنولوجيا الزراعية دائمًا في مقدمة الحدث ويعملون عن كثب مع العملاء أثناء صياغة الاستراتيجية التي ستجعلهم يستفيدون الأكثر من التكنولوجيا المعتمدة."
+            }
+          }
+        ]
+      },
+      "keywords": [
+        "agriculture",
+        "sustainable agriculture",
+        "tailored strategies",
+        "agricultural growth",
+        "crop rotation",
+        "soil management",
+        "water management",
+        "agriculture markets",
+        "technologies",
+        "regulations",
+        "sustainability",
+        "demographics",
+        "consumer behavior patterns",
+        "agritech",
+        "efficiency",
+        "yield",
+        "AI",
+        "machine learning",
+        "blockchain",
+        "الزراعة",
+        "الزراعة المستدامة",
+        "استراتيجيات مخصصة",
+        "نمو زراعي",
+        "دورات المحاصيل",
+        "إدارة التربة",
+        "إدارة المياه",
+        "أسواق الزراعة",
+        "التكنولوجيا",
+        "التشريعات",
+        "الاستدامة",
+        "الديموغرافيا",
+        "أنماط سلوك المستهلكين",
+        "التقنية الزراعية",
+        "الكفاءة",
+        "الإنتاجية",
+        "الذكاء الاصطناعي",
+        "تعلم الآلة",
+        "البلوكتشين"
+      ]
+    },
+    {
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717050921/310395_g2bsa6.webp",
+      "id": "service-6",
+      "contentHtml": "",
+      "sector": [
+        "Management Consulting"
+      ],
+      "title": {
+        "english": "Operations",
+        "arabic": "العمليات"
+      },
+      "preview_title": {
+        "english": "Operations <br> Consultancy",
+        "arabic": "استشارات العمليات"
+      },
+      "short": {
+        "english": "Operations Consulting",
+        "arabic": "استشارات العمليات"
+      },
+      "introTitle": {
+        "english": "Operations",
+        "arabic": "العمليات"
+      },
+      "description": {
+        "title": {
+          "english": "Transforming <span class=\"mil-thin\">Strategies</span> <br>  <span class=\"mil-thin\">into</span>  success",
+          "arabic": "تحويل الاستراتيجيات إلى نجاح"
+        },
+        "content": {
+          "english": "To successfully achieve strategic goals, organizations must have a clearly defined strategy and operations processes that are thoroughly tailored to lead to the desired objectives efficiently and sustainably. At A&B, our management and operations consultants help clients transform their organizations’ strategies into success by analyzing their current operating model, pinpointing areas for improvement, and solving operational challenges. They examine the entire value chain and employ all data-driven insights to craft new operating models that meet the needs of our clients.",
+          "arabic": "لتحقيق الأهداف الاستراتيجية بنجاح ، يجب على المؤسسات أن تكون لديها استراتيجية محددة بوضوح وعمليات تشغيل مصممة بعناية لتحقيق الأهداف المرجوة بكفاءة وباستدامة. في A&B ، يساعد مستشارو الإدارة والعمليات عملاءنا على تحويل استراتيجيات منظماتهم إلى نجاح من خلال تحليل نموذجهم التشغيلي الحالي وتحديد المجالات التي يمكن تحسينها وحل التحديات التشغيلية. يفحصون سلسلة القيمة بأكملها ويستخدمون جميع البيانات المدفوعة بالبيانات لصياغة نماذج تشغيل جديدة تلبي احتياجات عملائنا."
+        }
+      },
+      "button": {
+        "link": "/projects",
+        "label": {
+          "english": "View Our Projects",
+          "arabic": "عرض المشاريع الخاصة بنا"
+        }
+      },
+      "list": {
+        "items": [
+          {
+            "id": "s6-Logistics-and-Supply-Chain",
+            "label": {
+              "english": "Logistics and Supply Chain",
+              "arabic": "الخدمات اللوجستية وسلسلة التوريد"
+            },
+            "value": {
+              "english": "From procurement to distribution, an efficient logistics model can be decisive in achieving organizations' strategic goals. Our supply chain management consultants emphasize the importance of having an efficient and flexible logistics model that helps maintain our clients’ competitive edge. With costs in mind, our strategies are tailored with extreme care, allowing for agile and stakeholder-monitored operations throughout the different stages of the supply chain.",
+              "arabic": "من التوريد إلى التوزيع ، يمكن أن يكون النموذج اللوجستي الفعال حاسمًا في تحقيق الأهداف الاستراتيجية للمؤسسات. يؤكد مستشارو إدارة سلسلة التوريد لدينا على أهمية وجود نموذج لوجستي فعال ومرن يساعد في الحفاظ على البند التنافسي لعملائنا. بتكاليف في الاعتبار ، يتم تصميم استراتيجياتنا بعناية فائقة ، مما يسمح بعمليات مرنة ومراقبة من قبل أصحاب المصلحة على مدى مراحل مختلفة من سلسلة التوريد."
+            }
+          },
+          {
+            "id": "s6-Service-Operations",
+            "label": {
+              "english": "Service Operations",
+              "arabic": "عمليات الخدمة"
+            },
+            "value": {
+              "english": "From our consulting experts' standpoint, the strategies encompassing service delivery operations must position customer satisfaction at the center of its mission and vision. Adequate allocation of resources is also paramount to expediting processes and reducing costs.",
+              "arabic": "من وجهة نظر خبراء الاستشارة لدينا ، يجب أن تضع الاستراتيجيات التي تشمل عمليات تقديم الخدمات رضا العملاء في مركز مهمتها ورؤيتها. توزيع كاف للموارد أمر أساسي أيضًا لتسريع العمليات وتقليل التكاليف."
+            }
+          },
+          {
+            "id": "Operating-Model",
+            "label": {
+              "english": "Operating Model",
+              "arabic": "Operating Model"
+            },
+            "value": {
+              "english": "Organizations need to optimize their back-office processes, technologies, and capabilities to enhance efficiency and innovation. By working with business leaders, we implement necessary technology transformations and organizational changes. Our goal is to develop a strategy that improves service delivery, making it more efficient, resilient, and innovation-friendly.",
+              "arabic": "Organizations need to optimize their back-office processes, technologies, and capabilities to enhance efficiency and innovation. By working with business leaders, we implement necessary technology transformations and organizational changes. Our goal is to develop a strategy that improves service delivery, making it more efficient, resilient, and innovation-friendly."
+            },
+            "isSubService": true
+          },
+          {
+            "id": "agile-lean-six-sigma",
+            "label": {
+              "english": "Agile, Lean and Six Sigma",
+              "arabic": "Agile, Lean and Six Sigma"
+            },
+            "value": {
+              "english": "A&B assists organizations in streamlining operations and enhancing product quality by leveraging Agile, Lean, and Six Sigma methodologies. They improve collaboration and responsiveness through Agile principles, eliminate waste with Lean strategies, and use data-driven Six Sigma techniques to minimize defects and drive continuous process improvements. This comprehensive approach helps organizations remain competitive in a fast-paced business environment.",
+              "arabic": "A&B assists organizations in streamlining operations and enhancing product quality by leveraging Agile, Lean, and Six Sigma methodologies. They improve collaboration and responsiveness through Agile principles, eliminate waste with Lean strategies, and use data-driven Six Sigma techniques to minimize defects and drive continuous process improvements. This comprehensive approach helps organizations remain competitive in a fast-paced business environment."
+            },
+            "isSubService": true
+          },
+          {
+            "id": "leadership-and-talent-development",
+            "label": {
+              "english": "Leadership and Talent Development",
+              "arabic": "Leadership and Talent Development"
+            },
+            "value": {
+              "english": "<p>Our Leadership and Talent experts develop holistic talent and leadership strategies to help organizations meet their unique needs and objectives. Whether you're looking to develop emerging leaders, strengthen executive capabilities, or foster a culture of leadership at all levels, we design the strategy that will help you inspire and build high-performing teams and transform them into leaders.</p>",
+              "arabic": "<p>Our Leadership and Talent experts develop holistic talent and leadership strategies to help organizations meet their unique needs and objectives. Whether you're looking to develop emerging leaders, strengthen executive capabilities, or foster a culture of leadership at all levels, we design the strategy that will help you inspire and build high-performing teams and transform them into leaders.</p>"
+            },
+            "isSubService": false
+          }
+        ]
+      },
+      "keywords": [
+        "operations",
+        "operations consultancy",
+        "transforming strategies into success",
+        "logistics",
+        "supply chain",
+        "service operations",
+        "operating model",
+        "agile",
+        "lean",
+        "six sigma",
+        "leadership",
+        "talent development",
+        "العمليات",
+        "استشارات العمليات",
+        "تحويل الاستراتيجيات إلى نجاح",
+        "الخدمات اللوجستية",
+        "سلسلة التوريد",
+        "عمليات الخدمة",
+        "نموذج التشغيل",
+        "التحول الرقمي",
+        "القيادة",
+        "تطوير المواهب"
+      ]
+    },
+    {
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988796/2476_rramgr.jpg",
+      "id": "service-7",
+      "contentHtml": "",
+      "sector": [
+        "Management Consulting"
+      ],
+      "title": {
+        "english": "Entrepreneurship",
+        "arabic": "ريادة الأعمال"
+      },
+      "preview_title": {
+        "english": "Entrepreneurship",
+        "arabic": "ريادة الأعمال"
+      },
+      "short": {
+        "english": "Empowering Entrepreneurs, Igniting Innovation, Building Communities",
+        "arabic": "تمكين رواد الأعمال، إشعال الابتكار، بناء المجتمعات"
+      },
+      "introTitle": {
+        "english": "Entrepreneurship",
+        "arabic": "ريادة الأعمال"
+      },
+      "description": {
+        "title": {
+          "english": "We help you weave the threads to incubate success",
+          "arabic": "نحن نساعدك على نسج الخيوط لاحتضان النجاح"
+        },
+        "content": {
+          "english": "Stating as entrepreneurs, A&B puts entrepreneurship at the center of its interest and we value the role startups play in economic growth, innovation, and community development. We help organizations develop strategies that will effectively yield the needed support for entrepreneurs and help them reach the lift-off point and head confidently to their desired destination.",
+          "arabic": ""
+        },
+        "button": {
+          "link": "/projects",
+          "label": {
+            "english": "View Our Projects",
+            "arabic": "عرض المشاريع الخاصة بنا"
+          }
+        }
+      },
+      "list": {
+        "items": [
+          {
+            "id": "s7-Logistics-and-Supply-Chain",
+            "label": {
+              "english": "Logistics and Supply Chain",
+              "arabic": "الخدمات اللوجستية وسلسلة التوريد"
+            },
+            "value": {
+              "english": "Although business incubators may seem like a convenient workspace with a desk and a network cable, they, in reality, are way more complex than they may seem. The value business incubators have is beyond measure as their sole purpose is to unlock limitless possibilities.<br><br>Our entrepreneurial strategies involve researching sector-related challenges and opportunities incubators need to focus on to help them maintain a competitive edge as successful business incubators in the market. We project to our clients the technical, financial, and market analysis to highlight their success roadmap and locate available funding sources. Our experts will project the potential revenue streams that will help stakeholders attract future startups.",
+              "arabic": "على الرغم من أن مراكز التكوين العملية قد تبدو وكأنها مساحة عمل مريحة مع مكتب وكابل شبكة، إلا أنها في الواقع أكثر تعقيدًا بكثير مما قد تبدو عليه. القيمة التي تمتلكها مراكز التكوين العملية لا تُقدر بثمن، حيث يكمن هدفها الوحيد في فتح أفاق لا حدود لها.<br><br>إستراتيجياتنا الريادية تتضمن البحث في التحديات والفرص ذات الصلة بالقطاع التي يجب على مراكز التكوين العملية التركيز عليها لمساعدتها على الحفاظ على النصب التنافسي كمراكز تكوين عملية ناجحة في السوق. نقدم لعملائنا التحليل التقني والمالي والسوقي لتسليط الضوء على خريطة النجاح الخاصة بهم وتحديد مصادر التمويل المتاحة. سيقوم خبراؤنا بتقدير مصادر الدخل المحتملة التي ستساعد الأطراف المعنية على جذب الشركات الناشئة في المستقبل."
+            }
+          }
+        ]
+      },
+      "keywords": [
+        "entrepreneurship",
+        "تمكين رواد الأعمال",
+        "ignite innovation",
+        "بناء المجتمعات",
+        "ريادة الأعمال",
+        "نسج الخيوط لاحتضان النجاح",
+        "الخدمات اللوجستية وسلسلة التوريد"
+      ]
+    }
+  ]
 }
-

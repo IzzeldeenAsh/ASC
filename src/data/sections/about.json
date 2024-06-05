@@ -64,7 +64,7 @@
                 "english": "Meet our leadership team.",
                 "arabic": "تعرف على فريق القيادة لدينا."
             },
-            "link":"/about"
+            "link":"/?section=leaders"
         },
         {
             "id":"news",

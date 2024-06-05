@@ -11,7 +11,7 @@ const DefaultFooter = ( { extraClass } ) => {
   return (
     <>
     {/* footer */}
-    <footer className="mil-dark-bg footer" style={{backdropFilter:"invert(0%)",backgroundColor:'#f5e4cf'}}>
+    <footer className="mil-dark-bg footer" >
         <div className="mi-invert-fix">
             <div className="container footer-container" >
                 <div className="row justify-content-between">
