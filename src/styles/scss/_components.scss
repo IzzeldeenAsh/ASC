@@ -32,7 +32,7 @@ Search bar
   height: 40px;
   input{
     width: 50px;
-    padding: 0 1px !important;
+    padding: 0 40px !important;
     background: none !important;
     box-sizing: 'border-box' ;
     pointer-events: all;
@@ -86,8 +86,7 @@ Search bar
 
 
 .icon-input-container input:active,
-.icon-input-container input:focus,
-.icon-input-container input:not(:placeholder-shown) {
+.icon-input-container input:focus {
   width: 200px;
   padding: 0 40px !important;
   border-bottom: 1px solid #E7CB47 !important;
@@ -2971,6 +2970,7 @@ Timeline
   display: flex;
   background-color: #F2F2F2;
   padding: 0 100px;
+  flex-direction: column;
   @media screen and (max-width:1138px) {
     display: none;
   }
