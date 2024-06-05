@@ -2977,6 +2977,9 @@ Timeline
   &:hover {
     .tl-item {
       width: 23.3333%;
+      height: 600px;
+      height: 600px;
+      max-height: 600px;
     }
   }
 }
@@ -2985,11 +2988,11 @@ Timeline
   transform: translate3d(0, 0, 0);
   position: relative;
   width: 25%;
-  height: 600px;
-  min-height: 600px;
+  height: 300px;
+  max-height: 300px;
   color: #000;
   overflow: hidden;
-  transition: width 0.5s ease;
+  transition: all 0.5s ease;
   
   &:before, &:after {
     transform: translate3d(0, 0, 0);
