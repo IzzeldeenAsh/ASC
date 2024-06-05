@@ -103,15 +103,6 @@ const sections = [
         footerDescription: 'Explore our mission, vision, and history to understand our journey and goals.',
         buttonText: aboutData.button.label,
         buttonLink: aboutData.button.link,
-    },
-    {
-        title: 'Contact',
-        link: '/contact',
-        links: contactUs,
-        footerText: 'Where to find us!',
-        footerDescription: 'Connect with us effortlessly by exploring our contact page',
-        buttonText: "Let's Hear From You",
-        buttonLink: "/contact",
     }
 ];
 return ( 
@@ -160,6 +151,42 @@ return (
                 </HoverCard.Dropdown>
             </HoverCard>
         ))}
+         <HoverCard position="bottom" radius="sm" shadow="md" withinPortal key={"Contact"} width={"800px"} >
+                <HoverCard.Target>
+                    <Link href={"/contact"}  className={classes.link}>
+                        <Center inline>
+                            <Box component="span" mr={5}>{"Contact"}</Box>
+                            <IconChevronDown style={{ width: rem(16), height: rem(16) }} color={"#F5D84C"} />
+                        </Center>
+                    </Link>
+                </HoverCard.Target>
+                <HoverCard.Dropdown className={classes.dropdownFixed}>
+                    <Group justify="space-between" px="md">
+                        <Text fw={500}>{"Contact"}</Text>
+                    </Group>
+                    <Divider my="sm" />
+                   
+                    <iframe className={classes.googleIframe}
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7893.9759818199345!2d-75.55572389708239!3d39.748375358349264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6fd3ff6591c49%3A0x33e3770057b3e565!2s1000%20N%20West%20St%20suite%201200%20building%2C%20Wilmington%2C%20DE%2019801%2C%20USA!5e0!3m2!1sen!2sjo!4v1717576807746!5m2!1sen!2sjo"
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+                    <div className={classes.dropdownFooter}>
+                        <Group justify="space-between">
+                            <div>
+                                <Text fw={500} fz="sm">Where to find us!</Text>
+                                <Text size="xs" c="dimmed">Connect with us effortlessly by exploring our contact page</Text>
+                            </div>
+                            <Link href={"/contact"} passHref>
+                                    <Button className={classes.button} variant="default">
+                                    Let's Hear From You
+                                    </Button>
+                                </Link>
+                        </Group>
+                    </div>
+                </HoverCard.Dropdown>
+            </HoverCard>
     </Group>
     </>
 );
