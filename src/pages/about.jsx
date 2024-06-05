@@ -59,10 +59,12 @@ const about = () => {
           </div>
         </div>
       </section>
-      <div style={{backgroundColor:"#f2f2f2"}}> <h2 className="mil-center  mil-p-60-0"> <span className="mil-thin">Our</span> History</h2></div>
+     
       <section id="timeline" >
-    
-        {
+      <div style={{backgroundColor:"#f2f2f2"}}> <h2 className="mil-center  mil-p-60-0"> <span className="mil-thin">Our</span> History</h2></div>
+      
+   <div className="d-flex">
+   {
          timelines.map((item,key)=>(
             <div className="tl-item" key={`time-line-item-${key}`}>
           <div
@@ -84,6 +86,8 @@ const about = () => {
             </div>
           )
         )}
+   </div>
+       
       </section>
       <section >
       <CustomizedTimeline/>
