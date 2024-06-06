@@ -433,6 +433,7 @@
         "items": [
           {
             "id": "s5-agriculture-markets",
+            "isSubService": true,
             "label": {
               "english": "Agriculture Markets",
               "arabic": "أسواق الزراعة"
@@ -444,6 +445,7 @@
           },
           {
             "id": "s5-agriTech",
+            "isSubService": true,
             "label": {
               "english": "AgriTech",
               "arabic": "التقنية الزراعية"
@@ -540,6 +542,7 @@
         "items": [
           {
             "id": "s6-Logistics-and-Supply-Chain",
+            "isSubService":true,
             "label": {
               "english": "Logistics and Supply Chain",
               "arabic": "الخدمات اللوجستية وسلسلة التوريد"
@@ -551,6 +554,7 @@
           },
           {
             "id": "s6-Service-Operations",
+            "isSubService":true,
             "label": {
               "english": "Service Operations",
               "arabic": "عمليات الخدمة"
@@ -594,7 +598,7 @@
               "english": "<p>Our Leadership and Talent experts develop holistic talent and leadership strategies to help organizations meet their unique needs and objectives. Whether you're looking to develop emerging leaders, strengthen executive capabilities, or foster a culture of leadership at all levels, we design the strategy that will help you inspire and build high-performing teams and transform them into leaders.</p>",
               "arabic": "<p>Our Leadership and Talent experts develop holistic talent and leadership strategies to help organizations meet their unique needs and objectives. Whether you're looking to develop emerging leaders, strengthen executive capabilities, or foster a culture of leadership at all levels, we design the strategy that will help you inspire and build high-performing teams and transform them into leaders.</p>"
             },
-            "isSubService": false
+            "isSubService": true
           }
         ]
       },
@@ -667,6 +671,7 @@
         "items": [
           {
             "id": "s7-Logistics-and-Supply-Chain",
+            "isSubService": true,
             "label": {
               "english": "Logistics and Supply Chain",
               "arabic": "الخدمات اللوجستية وسلسلة التوريد"
@@ -686,6 +691,105 @@
         "ريادة الأعمال",
         "نسج الخيوط لاحتضان النجاح",
         "الخدمات اللوجستية وسلسلة التوريد"
+      ]
+    },
+    {
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717673950/2648_vsebfk.webp",
+      "id": "service-8",
+      "contentHtml": "",
+      "sector": [
+        "Management Consulting"
+      ],
+      "title": {
+        "english": "Business & Organizations",
+        "arabic": "الأعمال والمؤسسات"
+      },
+      "preview_title": {
+        "english": "Business & Organizations",
+        "arabic": "الأعمال والمؤسسات"
+      },
+      "short": {
+        "english": "Empowering Entrepreneurs, Igniting Innovation, Building Communities",
+        "arabic": "تمكين رواد الأعمال، إشعال الابتكار، بناء المجتمعات"
+      },
+      "introTitle": {
+        "english": "Business and <br> <span class=\"mil-thin\"> Organizations</span>",
+        "arabic": "الأعمال والمؤسسات"
+      },
+      "description": {
+        "title": {
+          "english": "Your Trusted Partner for Business Transformation.",
+          "arabic": "شريكك الموثوق لتحويل الأعمال."
+        },
+        "content": {
+          "english": "In today's dynamic business landscape, organizations face numerous challenges in establishing their brand, cultivating a positive company culture, and navigating through transformative changes. At A&B Consulting, we offer expert guidance and tailored solutions to help businesses overcome these obstacles and achieve sustainable growth.",
+          "arabic": "في المشهد التجاري الديناميكي اليوم، تواجه المؤسسات العديد من التحديات في ترسيخ علامتها التجارية، وتنمية ثقافة شركة إيجابية، والملاحة خلال التغييرات التحويلية. في A&B Consulting، نقدم إرشادات الخبراء والحلول المصممة خصيصًا لمساعدة الشركات على التغلب على هذه العقبات وتحقيق نمو مستدام."
+        },
+        "button": {
+          "link": "/projects",
+          "label": {
+            "english": "View Our Projects",
+            "arabic": "عرض المشاريع الخاصة بنا"
+          }
+        }
+      },
+      "list": {
+        "items": [
+          {
+            "id": "s8-branding",
+            "isSubService": true,
+            "label": {
+              "english": "Branding",
+              "arabic": "العلامة التجارية"
+            },
+            "value": {
+              "english": "Branding is not limited to motos and logos; it is that overall distinctive experience associated with your organization that sets you apart from other competitors. A&B branding experts help organizations establish trusted emotional connections with their target audience. By aligning their mission and vision with what they aspire to achieve, we craft that suitable branding strategy to facilitate increasing brand visibility and awareness, and ultimately drive sales.",
+              "arabic": "العلامة التجارية لا تقتصر على الشعارات والرموز، بل هي التجربة المميزة الشاملة المرتبطة بمؤسستك والتي تميزك عن المنافسين الآخرين. خبراء العلامات التجارية في A&B يساعدون المؤسسات على بناء علاقات عاطفية موثوقة مع جمهورها المستهدف. من خلال مواءمة مهمتهم ورؤيتهم مع ما يطمحون إلى تحقيقه، نصمم استراتيجية العلامة التجارية المناسبة لتسهيل زيادة رؤية العلامة التجارية والوعي بها، وفي النهاية زيادة المبيعات."
+            }
+          },
+          {
+            "id": "s8-company-culture",
+            "isSubService": true,
+            "label": {
+              "english": "Company culture",
+              "arabic": "ثقافة الشركة"
+            },
+            "value": {
+              "english": "The values, beliefs and attitudes of workers integrate to shape the general employee behavior. Our Leadership and Management experts at A&B Consulting believe that unique innovations are the result of a well-enhanced company culture and a genuine brand. By involving directors, managers, human resources and employees, we help organizations get to the level of excellence they hope for by drafting effective strategies to affect positive change throughout the entire company.",
+              "arabic": "تتكامل قيم ومعتقدات ومواقف العاملين لتشكيل السلوك العام للموظفين. يؤمن خبراء القيادة والإدارة لدينا في A&B Consulting بأن الابتكارات الفريدة هي نتيجة ثقافة شركة محسنة بشكل جيد وعلامة تجارية أصلية. من خلال إشراك المديرين والمدراء والموارد البشرية والموظفين، نساعد المؤسسات على الوصول إلى مستوى التميز الذي يأملون فيه من خلال صياغة استراتيجيات فعالة لإحداث تغيير إيجابي في جميع أنحاء الشركة."
+            }
+          },
+          {
+            "id": "s8-business-transformation",
+            "isSubService": true,
+            "label": {
+              "english": "Business Transformation",
+              "arabic": "تحول الأعمال"
+            },
+            "value": {
+              "english": "Frequent Market disruptions and changing customer expectations require that organizations stay on top of challenges to maintain profitability.  Transforming principal operations, technologies and even company culture requires tailored business transformation strategies that will help successfully redefine how an organization operates and delivers value. At A&B, our business transformation strategies help clients go through business transformation as effectively and smoothly as possible by assessing their current state, zooming in on the desired target, and involving stakeholders to seamlessly incorporate visions and missions with the needed change.",
+              "arabic": "تتطلب الاضطرابات المتكررة في السوق وتغير توقعات العملاء أن تظل المؤسسات على رأس التحديات للحفاظ على الربحية. يتطلب تحويل العمليات الرئيسية والتقنيات وحتى ثقافة الشركة استراتيجيات تحويل أعمال مصممة خصيصًا من شأنها أن تساعد في إعادة تعريف كيفية عمل المؤسسة وتقديم القيمة بنجاح. في A&B ، تساعد استراتيجيات تحويل الأعمال الخاصة بنا العملاء على اجتياز تحول الأعمال بأكبر قدر ممكن من الفعالية والسلاسة من خلال تقييم حالتهم الحالية ، والتكبير على الهدف المطلوب ، وإشراك أصحاب المصلحة لدمج الرؤى والبعثات بسلاسة مع التغيير المطلوب."
+            }
+          }
+        ]
+      },
+      "keywords": [
+        "Business consulting",
+        "Organizational development",
+        "Branding strategy",
+        "Company culture consulting",
+        "Business transformation",
+        "Change management",
+        "Leadership development",
+        "Employee engagement",
+        "استشارات الأعمال",
+        "تطوير تنظيمي",
+        "استراتيجية العلامة التجارية",
+        "استشارات ثقافة الشركة",
+        "تحول الأعمال",
+        "إدارة التغيير",
+        "تطوير القيادة",
+        "إشراك الموظفين"
       ]
     }
   ]
