@@ -50,9 +50,11 @@ Search bar
     width: 200px;
     font-size: 14px;
     font-weight: 500;
+    box-shadow: 1px 10px 20px rgba(40, 40, 40, 0.1);
     color: #0a1b30;
     overflow: scroll;
     max-height: 275px;
+   
     li{
       padding: 2px 12px !important;
       &:hover{

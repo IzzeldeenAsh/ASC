@@ -107,7 +107,7 @@ useEffect(() => {
                                         ))}
                                       </ul>
                                       <div className="mil-link mil-accent mil-arrow-place mil-up">
-                                          <span>Read more</span>
+                                          <span>Discover</span>
                                           <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
                         <ArrowIcon  />
                         </div>
