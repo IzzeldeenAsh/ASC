@@ -779,6 +779,84 @@
         "public sector strategy",
         "public sector development"
     ]
+    },
+    {
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717654565/1400_kd3g62.webp",
+      "id": "sector-11",
+      "logoColor":"light",
+      "contentHtml": "",
+      "title": {
+        "english": "Healthcare",
+        "arabic": "القطاع الصحي"
+      },
+      "preview_title": {
+        "english": "Healthcare",
+       "arabic": "القطاع الصحي"
+      },
+      "short": {
+        "english": "Experts in enhancing healthcare management and facility.",
+        "arabic": "خبراء في تحسين الإدارة وتطوير المنشآت الصحية."
+      },
+      "introTitle": {
+        "english": "Healthcare",
+        "arabic": "القطاع الصحي"
+      },
+      "description": {
+        "title": {
+          "english": "Empowering Healthcare, Transforming Lives.",
+          "arabic": "تمكين الرعاية الصحية، نحو حياة أفضل."
+        },
+        "content": {
+          "english": "We harness our team expertise to serve the healthcare sector and provide specialized consulting solutions tailored to the development of public and private healthcare institutions. Our <a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\">software</a>, administration, facility, and <a class=\"hyper-link\" href=\"/services/service-6\" target=\"__blank\">supply chain</a> development strategies help organizations remain competitive and focused on meeting the expectations of healthcare service seekers.<br><br>After the pandemic, our healthcare solutions policy aims to increase institutions’ efficiency and quality of services. We partner with our clients and shoulder the responsibility to develop appropriate healthcare investment strategies and contribute to enhancing scientific medical research by utilizing huge data, advanced analytics and research methodologies.",
+          "arabic": "يسخر فريقنا خبراته في تقديم الحلول الاستشارية المتخصصة لخدمة القطاع الصحي فتطور مؤسسات القطاع، العامة منها والخاصة، ضرورة حتمية يعيها الجميع. في ضوء التطور التكنلوجي والتحول الذي يشهده القطاع في تقديمه للخدمة الصحية- خصوصا ما بعد الجائحة، نعمل على تقديم حلول من شأنها أن ترفع من كفاءة المؤسسات ومن جودة الخدمات المقدمة لطالبي الخدمة، كحلول <a class=\"hyper-link\" href=\"/services/service-2\" target=\"_blank\">أنظمة المعلومات والبرمجيات</a> والخدمات الإدارية والمرافق و<a class=\"hyper-link\" href=\"/services/service-6\" target=\"_blank\">سلاسل الأمداد</a>. كما ونشترك مع عملائنا في وضع استراتيجيات الاستثمار المناسبة في القطاع الصحي سواء للاستثمار داخل المؤسسة او خارجها. إضافة الى ذلك، امتلاكنا لبيانات ضخمة وأدوات تحليل متطورة والدقة المتناهية لمنهجيات البحث التي نتبعها كل ذلك يسهم في تعزيز الأبحاث العلمية الطبية."
+        },
+        "button": {
+          "link": "/",
+          "label": {
+            "english": "View works",
+            "arabic": "عرض الأعمال"
+          }
+        }
+      },
+      "list": {
+        "title": {
+          "english": "",
+          "arabic": ""
+        },
+        "items": []
+      },
+      "keywords": [
+        "healthcare consulting",
+        "public healthcare development",
+        "private healthcare development",
+        "healthcare software solutions",
+        "healthcare administration",
+        "healthcare facility development",
+        "healthcare supply chain",
+        "post-pandemic healthcare solutions",
+        "healthcare efficiency",
+        "healthcare quality improvement",
+        "healthcare investment strategies",
+        "medical research enhancement",
+        "data analytics in healthcare",
+        "advanced healthcare analytics",
+        "scientific medical research",
+        "استشارات القطاع الصحي",
+        "تطوير الرعاية الصحية العامة",
+        "تطوير الرعاية الصحية الخاصة",
+        "حلول برمجيات الرعاية الصحية",
+        "إدارة الرعاية الصحية",
+        "تطوير مرافق الرعاية الصحية",
+        "سلاسل إمداد الرعاية الصحية",
+        "حلول الرعاية الصحية بعد الجائحة",
+        "كفاءة الرعاية الصحية",
+        "تحسين جودة الرعاية الصحية",
+        "استراتيجيات الاستثمار في الرعاية الصحية",
+        "تعزيز البحث الطبي",
+        "تحليل البيانات في الرعاية الصحية",
+        "تحليلات الرعاية الصحية المتقدمة",
+        "البحث الطبي العلمي"
+    ]
     }
   ]
 }
