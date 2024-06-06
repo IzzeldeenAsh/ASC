@@ -2,7 +2,7 @@ import PageBannerDark from "@components/PageBannerDark";
 import Layouts from "@layouts/Layouts";
 import CallToActionSection from "@components/sections/CallToAction";
 import Link from "next/link";
-import { IoMdArrowDropright } from 'react-icons/io';
+import { IconArrowNarrowRight } from '@tabler/icons-react';
 import ABLogoLight from"@layouts/svg-icons/AB-Logo-Light"
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
@@ -41,7 +41,7 @@ useEffect(() => {
       <PageBannerDark pageTitle={"Sectors List"} breadTitle={"Sectors"} anchorLabel={"Our sectors"} anchorLink={"#sectors"} />
 
       {/* services */}
-      <section id="sectors">
+      <section id="sectors" className="mil-p-0-90">
       <div className="search container ">
            <div className="search-bar mil-up">
            <TextInput 
@@ -66,31 +66,13 @@ useEffect(() => {
                       <div className="col-lg-12">
                           <div className="row">
                               {filteredProps.map((item, key) => (
-                              <div className="col-md-4 col-lg-4 mil-mb-60" key={`sectors-item-${key}`}>
+                              <div className="col-md-4 col-lg-4 mil-mb-60 " key={`sectors-item-${key}`}>
                                   <Link href={`/sectors/${item.id}`} className= "mil-service-card-lg mil-more mil-accent-cursor ">
-                                      <h4 className="mil-muted mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale === 'en' ? item.preview_title.english :item.preview_title.arabic }} />
-                                        </Link>
-                                      <p className="mil-descr mil-light-soft mil-up mil-mb-30">{ activeLocale === 'en' ? item.short.english :item.short.arabic }</p>
-                                      <ul className="mil-service-list mil-light mil-mb-30">
-                                        {item.list.items.slice(0,3).map((list_item, list_key) => (
-                                               <li className="mil-up" key={`services-item-${key}-list-${list_key}`}>
-                                               <Link key={list_key} href={`/subservice/${list_item.id}`}   className="mil-light-soft">
-                                                 <div className="d-flex align-items-center sub-service">
-                                             <IoMdArrowDropright />
-                                               { activeLocale === 'en' ? list_item.label.english :list_item.label.arabic }
-                                               </div>
-                                         </Link>
-                                               </li>
-
-                                    
-                                        ))}
-                                      </ul>
-                                      <div className="mil-link mil-accent mil-arrow-place mil-up">
-                                          <span>Read more</span>
-                                          <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
-                        <ArrowIcon  />
-                        </div>
+                                      <h4 className="mil-muted mil-up mil-mb-10" dangerouslySetInnerHTML={{__html : activeLocale === 'en' ? item.preview_title.english :item.preview_title.arabic }} />
+                                      <div className="mil-link mil-accent anchor-link mil-up">
+                                          <span>Discover</span>
                                       </div>
+                                        </Link>
                               </div>
                               ))}
                           </div>

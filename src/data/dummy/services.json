@@ -43,7 +43,9 @@
       "list": {
         "items": [
           {
+            
             "id": "s1-smart-cities",
+            "isSubService": true,
             "label": {
               "english": "Smart Cities",
               "arabic": "المدن الذكية"
@@ -55,6 +57,7 @@
           },
           {
             "id": "s1-smart-mobility",
+            "isSubService": true,
             "label": {
               "english": "Smart Mobility",
               "arabic": "التنقل الذكي"
@@ -153,6 +156,7 @@
         "items": [
           {
             "id": "s2-digitized-operations",
+            "isSubService": true,
             "label": {
               "english": "Digitized Operations",
               "arabic": "العمليات المرقمة"
@@ -164,6 +168,7 @@
           },
           {
             "id": "s2-digital-culture",
+            "isSubService": true,
             "label": {
               "english": "Digital Culture",
               "arabic": "الثقافة الرقمية"
@@ -175,6 +180,7 @@
           },
           {
             "id": "s2-ai-analytics",
+            "isSubService": true,
             "label": {
               "english": "AI Analytics and Business Development",
               "arabic": "تحليلات الذكاء الاصطناعي وتطوير الأعمال"
@@ -186,6 +192,7 @@
           },
           {
             "id": "s-cybersecurity-protection",
+            "isSubService": true,
             "label": {
               "english": "Cybersecurity and Digital Protection",
               "arabic": "الأمن السيبراني والحماية الرقمية"
@@ -197,6 +204,7 @@
           },
           {
             "id": "s-data-security-privacy",
+            "isSubService": true,
             "label": {
               "english": "Data Security and Privacy",
               "arabic": "أمان البيانات والخصوصية"

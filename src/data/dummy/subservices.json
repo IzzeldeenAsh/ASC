@@ -158,5 +158,634 @@
         },
         "keywords": ["leadership Development", "talent Development", "high-Performing Teams"]
     }
+    ,
+    {
+      "id" :"industrial-regulatory-compliance-and-licensing",
+      "title":{
+        "english": "Regulatory compliance and licensing",
+              "arabic": "الامتثال التنظيمي والترخيص"
+      },
+      "image": "",
+      "sector":[
+        {
+          "id":"sector-1",
+          "name":"Industrial"
+        }
+      ],
+      "service":{
+        "id" : "",
+        "name" : ""
+      },
+      "contentHtml": {
+        "english": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>",
+        "arabic" :  "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>"
+      },
+      "short":{
+        "english" :  "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+        "arabic" :  "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      },
+      "introTitle":{
+        "english" :  "Leadership <span class=\"mil-thin\">and</span>  Talent Development ",
+        "arabic" : "Leadership <span class=\"mil-thin\">and</span>  Talent Development "
+      },
+      "gallery": {
+        "enabled": 0,
+        "items": [
+          {
+            "image": "/img/blog/3.jpg",
+            "alt": "image"
+          },
+          {
+            "image": "/img/blog/1.jpg",
+            "alt": "image"
+          }
+        ]
+      },
+      "additional": {
+        "enabled": 0,
+        "content": ""
+      },
+      "infograph": {
+        "enabled": 0,
+        "name": ""
+      },
+      "keywords": ["Regulatory compliance and licensing"]
+  }
+  ,
+  {
+    "id" :"s1-smart-cities",
+    "title":{
+      "english": "Smart Cities",
+              "arabic": "المدن الذكية"
+    },
+    "image": "",
+    "sector":[
+      {
+        "id":"sector-1",
+        "name":"Transportation"
+      }
+    ],
+    "service":{
+      "id" : "service-1",
+      "name" : "Smart Cities and Mobility"
+    },
+    "contentHtml": {
+      "english": "<div><div>The vision of an efficient and sustainable urban living has become an evolving reality. At A&B, we are dedicated to contributing to the development of this complex ecosystem by formulating the needed strategies for infrastructure, transportation, energy and digital connectivity.</div><br><div>Leveraging key technology and smart solution analysis makes us a strategic partner for organizations and governments aspiring to navigate the complexity of smart city development. Our team of consultants brings a wealth of expertise in areas such as IoT, data analytics, renewable energy solutions, and sustainable transportation to help organizations build internal capacity for smart city initiatives while zooming in on the particular needed infrastructure challenges.</div></div>",
+      "arabic": "<div><div>أصبحت رؤية الحياة الحضرية الفعالة والمستدامة واقعًا متطورًا. في A&B، نحن ملتزمون بالمساهمة في تطوير هذا النظام البيئي المعقد من خلال صياغة الاستراتيجيات اللازمة للبنية التحتية والنقل والطاقة والتواصل الرقمي.</div><div>يجعل تحليل التكنولوجيا الرئيسية والحلول الذكية منا شريكًا استراتيجيًا للمنظمات والحكومات الطامحة للتنقل في تعقيدات تطوير المدينة الذكية. يجلب فريق استشاريونا ثروة من الخبرة في مجالات مثل IoT وتحليلات البيانات وحلول الطاقة المتجددة والنقل المستدام لمساعدة المنظمات في بناء القدرة الداخلية لمبادرات المدن الذكية بينما يركز على التحديات التحتية المطلوبة بشكل خاص.</div></div>"
+    },
+    "short":{
+      "english": "<div><div>The vision of an efficient and sustainable urban living has become an evolving reality. At A&B, we are dedicated to contributing to the development of this complex ecosystem by formulating the needed strategies for infrastructure, transportation, energy and digital connectivity.</div><br><div>Leveraging key technology and smart solution analysis makes us a strategic partner for organizations and governments aspiring to navigate the complexity of smart city development. Our team of consultants brings a wealth of expertise in areas such as IoT, data analytics, renewable energy solutions, and sustainable transportation to help organizations build internal capacity for smart city initiatives while zooming in on the particular needed infrastructure challenges.</div></div>",
+      "arabic": "<div><div>أصبحت رؤية الحياة الحضرية الفعالة والمستدامة واقعًا متطورًا. في A&B، نحن ملتزمون بالمساهمة في تطوير هذا النظام البيئي المعقد من خلال صياغة الاستراتيجيات اللازمة للبنية التحتية والنقل والطاقة والتواصل الرقمي.</div><div>يجعل تحليل التكنولوجيا الرئيسية والحلول الذكية منا شريكًا استراتيجيًا للمنظمات والحكومات الطامحة للتنقل في تعقيدات تطوير المدينة الذكية. يجلب فريق استشاريونا ثروة من الخبرة في مجالات مثل IoT وتحليلات البيانات وحلول الطاقة المتجددة والنقل المستدام لمساعدة المنظمات في بناء القدرة الداخلية لمبادرات المدن الذكية بينما يركز على التحديات التحتية المطلوبة بشكل خاص.</div></div>"
+    },
+    "introTitle":{
+      "english" :  "Smart <span class=\"mil-thin\">and</span> Cities ",
+      "arabic" : "المدن <span class=\"mil-thin\">and</span>  الذكية  "
+    },
+    "gallery": {
+      "enabled": 0,
+      "items": [
+        {
+          "image": "/img/blog/3.jpg",
+          "alt": "image"
+        },
+        {
+          "image": "/img/blog/1.jpg",
+          "alt": "image"
+        }
+      ]
+    },
+    "additional": {
+      "enabled": 0,
+      "content": ""
+    },
+    "infograph": {
+      "enabled": 0,
+      "name": ""
+    },
+    "keywords": [
+      "efficient urban living",
+      "sustainable urban living",
+      "infrastructure strategies",
+      "transportation strategies",
+      "energy strategies",
+      "digital connectivity",
+      "smart city development",
+      "key technology",
+      "smart solution analysis",
+      "strategic partner",
+      "IoT",
+      "data analytics",
+      "renewable energy solutions",
+      "sustainable transportation",
+      "internal capacity",
+      "smart city initiatives",
+      "infrastructure challenges",
+      "الحياة الحضرية الفعالة",
+      "الحياة الحضرية المستدامة",
+      "استراتيجيات البنية التحتية",
+      "استراتيجيات النقل",
+      "استراتيجيات الطاقة",
+      "التواصل الرقمي",
+      "تطوير المدينة الذكية",
+      "تحليل التكنولوجيا الرئيسية",
+      "تحليل الحلول الذكية",
+      "شريك استراتيجي",
+      "إنترنت الأشياء",
+      "تحليلات البيانات",
+      "حلول الطاقة المتجددة",
+      "النقل المستدام",
+      "القدرة الداخلية",
+      "مبادرات المدن الذكية",
+      "التحديات التحتية"
+    ]
+}
+,
+{
+  "id" :"s1-smart-mobility",
+  "title":{
+    "english": "Smart Mobility",
+    "arabic": "التنقل الذكي"
+  },
+  "image": "",
+  "sector":[
+    {
+      "id":"sector-1",
+      "name":"Transportation"
+    }
+  ],
+  "service":{
+    "id" : "service-1",
+    "name" : "Smart Cities and Mobility"
+  },
+  "contentHtml": {
+    "english": "<div><div>Congestion, noise and pollution remain challenges urban communities struggle with. Technology comes as an effective solution in handling such challenges, paving the way for a higher quality urban life; yet, the spectrum of the utilized technologies facilitating efficient transportation is wide. Leveraging data and employing smart systems and platforms, such as Intelligent Transport Systems (ITS) and Mobility as a Service (MaaS), urban transport has now become smarter, more efficient and greener. </div><br><div>A&B digital consulting team helps organizations and governments visualize a sustainable and improved quality of urban life, as they explore what ITS and MaaS, AI, and IoT have to offer in increasing the competitiveness of cities based on the particular city conditions. Our strategies are an eye-opener to clients on smart mobility project implementation. Together, we navigate the solutions that encompass connecting alternative modes of transportation, shared micromobility, smart traffic management, and parking, to create more livable, resilient, and connected communities.</div></div>",
+              "arabic": "<div>تظل الازدحامات والضوضاء والتلوث تحديات يواجهها المجتمعات الحضرية. تأتي التكنولوجيا كحلا فعالًا في التعامل مع مثل هذه التحديات، مما يمهد الطريق لحياة حضرية عالية الجودة. ومع ذلك، فإن طيف التقنيات المستخدمة التي تيسر النقل الفعال واسع. من خلال استخدام البيانات واعتماد الأنظمة والمنصات الذكية، مثل أنظمة النقل الذكي (ITS) والتنقل كخدمة (MaaS)، أصبح النقل الحضري أكثر ذكاءً وكفاءةً وأخضر. </div><br><div>يساعد فريق الاستشارات الرقمية في A&B المنظمات والحكومات على تصور جودة حياة حضرية مستدامة ومحسَّنة، حيث يستكشفون ما تقدمه أنظمة النقل الذكي و MaaS و AI و IoT في زيادة تنافسية المدن استنادًا إلى ظروف المدينة الخاصة. تعتبر استراتيجياتنا فتاحة أمام عملائنا في تنفيذ مشاريع التنقل الذكية. معًا، نستكشف الحلول التي تشمل ربط وسائط النقل البديلة والتنقل المشترك وإدارة حركة المرور الذكية والمواقف، لخلق مجتمعات أكثر قابلية للعيش ومرونة وتواصلًا.</div>"
+  },
+  "short":{
+    "english": "<div><div>Congestion, noise and pollution remain challenges urban communities struggle with. Technology comes as an effective solution in handling such challenges, paving the way for a higher quality urban life; yet, the spectrum of the utilized technologies facilitating efficient transportation is wide. Leveraging data and employing smart systems and platforms, such as Intelligent Transport Systems (ITS) and Mobility as a Service (MaaS), urban transport has now become smarter, more efficient and greener. </div><br><div>A&B digital consulting team helps organizations and governments visualize a sustainable and improved quality of urban life, as they explore what ITS and MaaS, AI, and IoT have to offer in increasing the competitiveness of cities based on the particular city conditions. Our strategies are an eye-opener to clients on smart mobility project implementation. Together, we navigate the solutions that encompass connecting alternative modes of transportation, shared micromobility, smart traffic management, and parking, to create more livable, resilient, and connected communities.</div></div>",
+              "arabic": "<div>تظل الازدحامات والضوضاء والتلوث تحديات يواجهها المجتمعات الحضرية. تأتي التكنولوجيا كحلا فعالًا في التعامل مع مثل هذه التحديات، مما يمهد الطريق لحياة حضرية عالية الجودة. ومع ذلك، فإن طيف التقنيات المستخدمة التي تيسر النقل الفعال واسع. من خلال استخدام البيانات واعتماد الأنظمة والمنصات الذكية، مثل أنظمة النقل الذكي (ITS) والتنقل كخدمة (MaaS)، أصبح النقل الحضري أكثر ذكاءً وكفاءةً وأخضر. </div><br><div>يساعد فريق الاستشارات الرقمية في A&B المنظمات والحكومات على تصور جودة حياة حضرية مستدامة ومحسَّنة، حيث يستكشفون ما تقدمه أنظمة النقل الذكي و MaaS و AI و IoT في زيادة تنافسية المدن استنادًا إلى ظروف المدينة الخاصة. تعتبر استراتيجياتنا فتاحة أمام عملائنا في تنفيذ مشاريع التنقل الذكية. معًا، نستكشف الحلول التي تشمل ربط وسائط النقل البديلة والتنقل المشترك وإدارة حركة المرور الذكية والمواقف، لخلق مجتمعات أكثر قابلية للعيش ومرونة وتواصلًا.</div>"
+  },
+  "introTitle":{
+    "english" :  "Smart <span class=\"mil-thin\">Mobility</span>  ",
+    "arabic" : "التنقل <span class=\"mil-thin\">and</span>  الذكي  "
+  },
+  "gallery": {
+    "enabled": 0,
+    "items": [
+      {
+        "image": "/img/blog/3.jpg",
+        "alt": "image"
+      },
+      {
+        "image": "/img/blog/1.jpg",
+        "alt": "image"
+      }
+    ]
+  },
+  "additional": {
+    "enabled": 0,
+    "content": ""
+  },
+  "infograph": {
+    "enabled": 0,
+    "name": ""
+  },
+  "keywords": [
+    "urban congestion",
+    "urban noise",
+    "urban pollution",
+    "technology solutions",
+    "higher quality urban life",
+    "efficient transportation",
+    "data leveraging",
+    "smart systems",
+    "Intelligent Transport Systems (ITS)",
+    "Mobility as a Service (MaaS)",
+    "smart urban transport",
+    "efficient urban transport",
+    "green urban transport",
+    "A&B digital consulting",
+    "sustainable urban life",
+    "improved urban life quality",
+    "AI in urban transport",
+    "IoT in urban transport",
+    "city competitiveness",
+    "smart mobility project",
+    "alternative transportation modes",
+    "shared micromobility",
+    "smart traffic management",
+    "smart parking",
+    "livable communities",
+    "resilient communities",
+    "connected communities",
+    "الازدحامات الحضرية",
+  "الضوضاء الحضرية",
+  "التلوث الحضري",
+  "حلول التكنولوجيا",
+  "حياة حضرية عالية الجودة",
+  "النقل الفعال",
+  "استخدام البيانات",
+  "الأنظمة الذكية",
+  "أنظمة النقل الذكي (ITS)",
+  "التنقل كخدمة (MaaS)",
+  "النقل الحضري الذكي",
+  "النقل الحضري الفعال",
+  "النقل الحضري الأخضر",
+  "استشارات رقمية A&B",
+  "حياة حضرية مستدامة",
+  "تحسين جودة الحياة الحضرية",
+  "الذكاء الاصطناعي في النقل الحضري",
+  "إنترنت الأشياء في النقل الحضري",
+  "تنافسية المدن",
+  "مشروع التنقل الذكي",
+  "وسائط النقل البديلة",
+  "التنقل المشترك",
+  "إدارة حركة المرور الذكية",
+  "إدارة المواقف الذكية",
+  "مجتمعات قابلة للعيش",
+  "مجتمعات مرنة",
+  "مجتمعات متصلة"
+  ]
+  
+}
+,
+{
+  "id" :"s2-digitized-operations",
+  "title":{
+    "english": "Digitized Operations",
+    "arabic": "العمليات المرقمة"
+  },
+  "image": "",
+  "sector":[
+    {
+      "id":"sector-3",
+      "name":"Digital"
+    }
+  ],
+  "service":{
+    "id" : "service-2",
+    "name" : "Digital Transformation"
+  },
+  "contentHtml": {
+    "english": "<div><div>Our digital transformation experts work with organizations to define the most effective digital strategy that will enable them drive the needed digital growth that would result in an evolved business model and getting their operation to a higher level of efficiency.</div><br><div>Digital transformation is more than just getting the latest technology. Transforming into a data-driven organization requires that organizations integrate technology in operations throughout the value chain, aiming at an enhanced customer experience and meeting the digitally evolving demands. A&B experts thoroughly examine the operational chain as they redesign with the organization the digitized operating model that will help them maintain a competitive edge.</div></div>",
+    "arabic": "<div><div>يعمل خبراؤنا في التحول الرقمي مع المنظمات لتحديد الاستراتيجية الرقمية الأكثر فعالية التي ستمكنها من دفع النمو الرقمي اللازم الذي سيؤدي إلى نمو نموذج عمل تطوري وجعل عمليتها أكثر كفاءة.</div><br><div>التحول الرقمي أكثر من مجرد الحصول على أحدث التكنولوجيا. يتطلب التحول إلى منظمة مدفوعة بالبيانات أن تدمج المنظمات التكنولوجيا في العمليات عبر سلسلة القيمة بأكملها، بهدف تحسين تجربة العملاء وتلبية الطلبات التي تتطور رقمياً. يفحص خبراء A&amp;B بعناية سلسلة العمليات بينما يعيدون تصميم نموذج العمل الرقمي مع المنظمة الذي سيساعدهم على الحفاظ على تفوق تنافسي.</div></div>"
+  },
+  "short":{
+    "english": "<div><div>Our digital transformation experts work with organizations to define the most effective digital strategy that will enable them drive the needed digital growth that would result in an evolved business model and getting their operation to a higher level of efficiency.</div><br><div>Digital transformation is more than just getting the latest technology. Transforming into a data-driven organization requires that organizations integrate technology in operations throughout the value chain, aiming at an enhanced customer experience and meeting the digitally evolving demands. A&B experts thoroughly examine the operational chain as they redesign with the organization the digitized operating model that will help them maintain a competitive edge.</div></div>",
+    "arabic": "<div><div>يعمل خبراؤنا في التحول الرقمي مع المنظمات لتحديد الاستراتيجية الرقمية الأكثر فعالية التي ستمكنها من دفع النمو الرقمي اللازم الذي سيؤدي إلى نمو نموذج عمل تطوري وجعل عمليتها أكثر كفاءة.</div><br><div>التحول الرقمي أكثر من مجرد الحصول على أحدث التكنولوجيا. يتطلب التحول إلى منظمة مدفوعة بالبيانات أن تدمج المنظمات التكنولوجيا في العمليات عبر سلسلة القيمة بأكملها، بهدف تحسين تجربة العملاء وتلبية الطلبات التي تتطور رقمياً. يفحص خبراء A&amp;B بعناية سلسلة العمليات بينما يعيدون تصميم نموذج العمل الرقمي مع المنظمة الذي سيساعدهم على الحفاظ على تفوق تنافسي.</div></div>"
+  },
+  "introTitle":{
+    "english" :  "Digitized <span class=\"mil-thin\">Operations</span> ",
+    "arabic" : "العمليات <span class=\"mil-thin\">المرقمة</span> "
+  },
+  "gallery": {
+    "enabled": 0,
+    "items": [
+      {
+        "image": "/img/blog/3.jpg",
+        "alt": "image"
+      },
+      {
+        "image": "/img/blog/1.jpg",
+        "alt": "image"
+      }
+    ]
+  },
+  "additional": {
+    "enabled": 0,
+    "content": ""
+  },
+  "infograph": {
+    "enabled": 0,
+    "name": ""
+  },
+  "keywords": [
+    "digital transformation",
+    "digital strategy",
+    "digital growth",
+    "evolved business model",
+    "operational efficiency",
+    "data-driven organization",
+    "technology integration",
+    "value chain",
+    "customer experience",
+    "digitally evolving demands",
+    "A&B experts",
+    "operational chain",
+    "digitized operating model",
+    "competitive edge",
+    "التحول الرقمي",
+    "الاستراتيجية الرقمية",
+    "النمو الرقمي",
+    "نموذج العمل التطوري",
+    "كفاءة العمليات",
+    "منظمة مدفوعة بالبيانات",
+    "تكامل التكنولوجيا",
+    "سلسلة القيمة",
+    "تجربة العملاء",
+    "الطلبات التي تتطور رقمياً",
+    "خبراء A&B",
+    "سلسلة العمليات",
+    "نموذج العمل الرقمي",
+    "تفوق تنافسي"
+  ]
+}
+,
+{
+  "id": "s2-digital-culture",
+  "title": {
+      "english": "Digital Culture",
+      "arabic": "الثقافة الرقمية"
+  },
+  "image": "",
+  "sector":[
+    {
+      "id":"sector-3",
+      "name":"Digital"
+    }
+  ],
+  "service":{
+    "id" : "service-2",
+    "name" : "Digital Transformation"
+  },
+  "contentHtml": {
+      "english": "<div>To create value through digital transformation, we partner with clients to foster the needed digital culture that will positively impact your operations, leaving it optimized, agile and customer-centric. To change an organization’s culture is not easy, and for an organization to transform to the must-prevail digital culture our experts tailor the solutions that fit best the organization's unique requisites to stay competitive. That's why we help organizations adapt to and manage the rapidly changing business environment where the deployed technology is put into action to drive impact.</div><br><div>At A&B, we emphasize the important role stakeholders can play in enhancing the behaviors and mindsets of employees to promote digital transformation, where innovative, collaborative and data-driven culture dominates the scene while putting the customer at the heart of the digital transformation journey.</div>",
+      "arabic": "<div>لإنشاء قيمة من خلال التحول الرقمي، نتشارك مع العملاء لتعزيز الثقافة الرقمية اللازمة التي ستؤثر إيجابًا على عملياتك، مما يجعلها محسنة ومرنة ومتمركزة حول العميل. لتغيير ثقافة المنظمة ليس أمرًا سهلاً، ولكي تتحول المنظمة إلى الثقافة الرقمية اللازمة للتفوق يُخصص خبراؤنا الحلول التي تناسب أفضل متطلبات المنظمة الفريدة للبقاء تنافسية. لهذا السبب نساعد المنظمات على التكيف مع وإدارة البيئة التجارية المتغيرة بسرعة حيث يتم تنفيذ التكنولوجيا المستخدمة لتحقيق الأثر.</div><br><div>في A&B، نؤكد على الدور المهم الذي يمكن أن يلعبه أصحاب المصلحة في تعزيز سلوكيات ومواقف الموظفين لتعزيز التحول الرقمي، حيث تسود الثقافة المبتكرة والتعاونية والمدفوعة بالبيانات المشهد بينما يتم وضع العميل في قلب رحلة التحول الرقمي.</div>"
+  },
+  "short": {
+      "english": "<div>To create value through digital transformation, we partner with clients to foster the needed digital culture that will positively impact your operations, leaving it optimized, agile and customer-centric. To change an organization’s culture is not easy, and for an organization to transform to the must-prevail digital culture our experts tailor the solutions that fit best the organization's unique requisites to stay competitive. That's why we help organizations adapt to and manage the rapidly changing business environment where the deployed technology is put into action to drive impact.</div><br><div>At A&B, we emphasize the important role stakeholders can play in enhancing the behaviors and mindsets of employees to promote digital transformation, where innovative, collaborative and data-driven culture dominates the scene while putting the customer at the heart of the digital transformation journey.</div>",
+      "arabic": "<div>لإنشاء قيمة من خلال التحول الرقمي، نتشارك مع العملاء لتعزيز الثقافة الرقمية اللازمة التي ستؤثر إيجابًا على عملياتك، مما يجعلها محسنة ومرنة ومتمركزة حول العميل. لتغيير ثقافة المنظمة ليس أمرًا سهلاً، ولكي تتحول المنظمة إلى الثقافة الرقمية اللازمة للتفوق يُخصص خبراؤنا الحلول التي تناسب أفضل متطلبات المنظمة الفريدة للبقاء تنافسية. لهذا السبب نساعد المنظمات على التكيف مع وإدارة البيئة التجارية المتغيرة بسرعة حيث يتم تنفيذ التكنولوجيا المستخدمة لتحقيق الأثر.</div><br><div>في A&B، نؤكد على الدور المهم الذي يمكن أن يلعبه أصحاب المصلحة في تعزيز سلوكيات ومواقف الموظفين لتعزيز التحول الرقمي، حيث تسود الثقافة المبتكرة والتعاونية والمدفوعة بالبيانات المشهد بينما يتم وضع العميل في قلب رحلة التحول الرقمي.</div>"
+  },
+  "introTitle": {
+      "english": "Digital <span class=\"mil-thin\">Culture</span>",
+      "arabic": "الثقافة <span class=\"mil-thin\">and</span> الرقمية"
+  },
+  "gallery": {
+      "enabled": 0,
+      "items": [
+          {
+              "image": "/img/blog/3.jpg",
+              "alt": "image"
+          },
+          {
+              "image": "/img/blog/1.jpg",
+              "alt": "image"
+          }
+      ]
+  },
+  "additional": {
+      "enabled": 0,
+      "content": ""
+  },
+  "infograph": {
+      "enabled": 0,
+      "name": ""
+  },
+  "keywords": [
+      "digital transformation",
+      "digital culture",
+      "optimized operations",
+      "agile operations",
+      "customer-centric",
+      "change management",
+      "unique requisites",
+      "rapidly changing business environment",
+      "technology deployment",
+      "stakeholders",
+      "employee behaviors",
+      "employee mindsets",
+      "innovative culture",
+      "collaborative culture",
+      "data-driven culture",
+      "customer-focused digital transformation",
+      "تحول رقمي",
+      "الثقافة الرقمية",
+      "عمليات محسنة",
+      "عمليات مرنة",
+      "متمركزة حول العميل",
+      "إدارة التغيير",
+      "متطلبات فريدة",
+      "بيئة تجارية متغيرة بسرعة",
+      "نشر التكنولوجيا",
+      "أصحاب المصلحة",
+      "سلوكيات الموظفين",
+      "عقليات الموظفين",
+      "ثقافة الابتكار",
+      "ثقافة التعاون",
+      "ثقافة مدفوعة بالبيانات",
+      "التحول الرقمي المتمركز حول العميل"
+  ]
+}
+,
+{
+  "id": "s2-ai-analytics",
+  "title": {
+      "english": "AI Analytics and Business Development",
+      "arabic": "تحليلات الذكاء الاصطناعي وتطوير الأعمال"
+  },
+  "image": "",
+  "sector":[
+    {
+      "id":"sector-3",
+      "name":"Digital"
+    }
+  ],
+  "service":{
+    "id" : "service-2",
+    "name" : "Digital Transformation"
+  },
+  "contentHtml": {
+      "english": "<div>How AI has changed the way big data is managed has been a remarkable advancement businesses need to consider to stay ahead of the market. To align the best AI strategy and analytics with business objectives, our expert consultants work with our clients to unlock the potential of multi-source data trends to facilitate optimized operation, enhanced customer satisfaction and maintain their competitive advantage. Data-driven decision-making will undoubtedly contribute to the development of organizations. Through AI-driven analytics, organizations can employ the right AI technology that will help them gain valuable business insights from data.</div>",
+      "arabic": "<div>كيف غيرت الذكاء الاصطناعي طريقة إدارة البيانات الكبيرة، هذه التطور الملحوظ يجب على الشركات النظر فيه للبقاء في المقدمة في السوق. لمواكبة أفضل استراتيجية للذكاء الاصطناعي وتحليلات البيانات مع الأهداف التجارية، يعمل مستشارونا الخبراء مع عملائنا لاستغلال إمكانات اتجاهات البيانات المتعددة المصادر لتيسير العمليات المحسنة، وزيادة رضا العملاء والحفاظ على تفوقهم التنافسي. ستسهم اتخاذ القرارات المستندة إلى البيانات بلا شك في تطوير المنظمات. من خلال تحليلات الذكاء الاصطناعي، يمكن للمنظمات استخدام التكنولوجيا الصحيحة من الذكاء الاصطناعي التي ستساعدهم على الحصول على رؤى تجارية قيمة من البيانات.</div>"
+  },
+  "short": {
+      "english": "<div>How AI has changed the way big data is managed has been a remarkable advancement businesses need to consider to stay ahead of the market. To align the best AI strategy and analytics with business objectives, our expert consultants work with our clients to unlock the potential of multi-source data trends to facilitate optimized operation, enhanced customer satisfaction and maintain their competitive advantage. Data-driven decision-making will undoubtedly contribute to the development of organizations. Through AI-driven analytics, organizations can employ the right AI technology that will help them gain valuable business insights from data.</div>",
+      "arabic": "<div>كيف غيرت الذكاء الاصطناعي طريقة إدارة البيانات الكبيرة، هذه التطور الملحوظ يجب على الشركات النظر فيه للبقاء في المقدمة في السوق. لمواكبة أفضل استراتيجية للذكاء الاصطناعي وتحليلات البيانات مع الأهداف التجارية، يعمل مستشارونا الخبراء مع عملائنا لاستغلال إمكانات اتجاهات البيانات المتعددة المصادر لتيسير العمليات المحسنة، وزيادة رضا العملاء والحفاظ على تفوقهم التنافسي. ستسهم اتخاذ القرارات المستندة إلى البيانات بلا شك في تطوير المنظمات. من خلال تحليلات الذكاء الاصطناعي، يمكن للمنظمات استخدام التكنولوجيا الصحيحة من الذكاء الاصطناعي التي ستساعدهم على الحصول على رؤى تجارية قيمة من البيانات.</div>"
+  },
+  "introTitle": {
+      "english": "AI Analytics <span class=\"mil-thin\">and</span> <br>  Business Development",
+      "arabic": "تحليلات الذكاء الاصطناعي <span class=\"mil-thin\">و</span> <br>  تطوير الأعمال"
+  },
+  "gallery": {
+      "enabled": 0,
+      "items": [
+          {
+              "image": "/img/blog/3.jpg",
+              "alt": "image"
+          },
+          {
+              "image": "/img/blog/1.jpg",
+              "alt": "image"
+          }
+      ]
+  },
+  "additional": {
+      "enabled": 0,
+      "content": ""
+  },
+  "infograph": {
+      "enabled": 0,
+      "name": ""
+  },
+  "keywords": [
+      "AI analytics",
+      "business development",
+      "big data management",
+      "AI strategy",
+      "multi-source data trends",
+      "optimized operation",
+      "customer satisfaction",
+      "competitive advantage",
+      "data-driven decision-making",
+      "AI-driven analytics",
+      "valuable business insights",
+      "تحليلات الذكاء الاصطناعي",
+      "تطوير الأعمال",
+      "إدارة البيانات الكبيرة",
+      "استراتيجية الذكاء الاصطناعي",
+      "اتجاهات البيانات المتعددة المصادر",
+      "عملية محسنة",
+      "رضا العملاء"
+  ]
+},
+{
+  "id": "s-cybersecurity-protection",
+  "title": {
+      "english": "Cybersecurity and Digital Protection",
+      "arabic": "الأمن السيبراني والحماية الرقمية"
+  },
+  "image": "",
+  "sector":[
+    {
+      "id":"sector-3",
+      "name":"Digital"
+    }
+  ],
+  "service":{
+    "id" : "service-2",
+    "name" : "Digital Transformation"
+  },
+  "contentHtml": {
+      "english": "<div>We help organizations embrace digital transformation while we highlight the risks that might come along the way. A&B offers a comprehensive suite of cybersecurity consulting services aimed at safeguarding organizations' digital assets against evolving digital threats. As some threats are hard to predict, understanding, recognizing and being prepared for such risks is the definition of digital resilience. Our experts work in collaboration with clients to put in place the needed robust and effective security strategy that will help them assess and mitigate risks, and detect and respond to threats to preserve their business value.</div>",
+      "arabic": "<div>نساعد المنظمات على تبني التحول الرقمي بينما نسلط الضوء على المخاطر التي قد تعترض الطريق. تقدم A&B مجموعة شاملة من خدمات استشارات الأمن السيبراني التي تهدف إلى حماية أصول المنظمات الرقمية ضد التهديدات الرقمية المتطورة. نظرًا لأن بعض التهديدات صعبة التنبؤ بها، فإن فهم والتعرف والاستعداد لمثل هذه المخاطر هو تعريف المرونة الرقمية. يعمل خبراؤنا بالتعاون مع العملاء لوضع الاستراتيجية الأمنية القوية والفعالة اللازمة التي ستساعدهم على تقييم وتخفيف المخاطر، وكشف والاستجابة للتهديدات للحفاظ على قيمة أعمالهم.</div>"
+  },
+  "short": {
+      "english": "<div>We help organizations embrace digital transformation while we highlight the risks that might come along the way. A&B offers a comprehensive suite of cybersecurity consulting services aimed at safeguarding organizations' digital assets against evolving digital threats. As some threats are hard to predict, understanding, recognizing and being prepared for such risks is the definition of digital resilience. Our experts work in collaboration with clients to put in place the needed robust and effective security strategy that will help them assess and mitigate risks, and detect and respond to threats to preserve their business value.</div>",
+      "arabic": "<div>نساعد المنظمات على تبني التحول الرقمي بينما نسلط الضوء على المخاطر التي قد تعترض الطريق. تقدم A&B مجموعة شاملة من خدمات استشارات الأمن السيبراني التي تهدف إلى حماية أصول المنظمات الرقمية ضد التهديدات الرقمية المتطورة. نظرًا لأن بعض التهديدات صعبة التنبؤ بها، فإن فهم والتعرف والاستعداد لمثل هذه المخاطر هو تعريف المرونة الرقمية. يعمل خبراؤنا بالتعاون مع العملاء لوضع الاستراتيجية الأمنية القوية والفعالة اللازمة التي ستساعدهم على تقييم وتخفيف المخاطر، وكشف والاستجابة للتهديدات للحفاظ على قيمة أعمالهم.</div>"
+  },
+  "introTitle": {
+      "english": "Cybersecurity <span class=\"mil-thin\">and</span> <br> Digital Protection",
+      "arabic": "الأمن السيبراني <span class=\"mil-thin\">و</span> الحماية الرقمية"
+  },
+  "gallery": {
+      "enabled": 0,
+      "items": [
+          {
+              "image": "/img/blog/3.jpg",
+              "alt": "image"
+          },
+          {
+              "image": "/img/blog/1.jpg",
+              "alt": "image"
+          }
+      ]
+  },
+  "additional": {
+      "enabled": 0,
+      "content": ""
+  },
+  "infograph": {
+      "enabled": 0,
+      "name": ""
+  },
+  "keywords": [
+      "Cybersecurity",
+      "Digital Protection",
+      "Digital Transformation",
+      "cyber threats",
+      "digital resilience",
+      "security strategy",
+      "risk assessment",
+      "threat detection",
+      "threat response",
+      "أمن سيبراني",
+      "حماية رقمية",
+      "تحول رقمي",
+      "تهديدات سيبرانية",
+      "مرونة رقمية",
+      "استراتيجية أمنية",
+      "تقييم المخاطر",
+      "كشف التهديدات",
+      "استجابة التهديدات"
+  ]
+},
+{
+  "id": "s-data-security-privacy",
+  "title": {
+      "english": "Data Security and Privacy",
+      "arabic": "أمان البيانات والخصوصية"
+  },
+  "image": "",
+  "sector":[
+    {
+      "id":"sector-3",
+      "name":"Digital"
+    }
+  ],
+  "service":{
+    "id" : "service-2",
+    "name" : "Digital Transformation"
+  },
+  "contentHtml": {
+      "english": "<div>Being fully aware of how crucial it is for organizations to protect their data from various data breaches, A&B always highlights the importance of incorporating data security management early on in the development process. Clients entrust organizations with their valuable information and expect organizations to maintain it. Therefore, our consultant experts aim at providing organizations with data security strategies and insights that help set up the right defense mechanisms across the organization to maintain its reputation and competitive edge.</div>",
+      "arabic": "<div>بوعي تام بمدى أهمية حماية البيانات للمنظمات من مختلف انتهاكات البيانات، يسلط A&B دائمًا الضوء على أهمية دمج إدارة أمان البيانات في وقت مبكر في عملية التطوير. يثق العملاء المنظمات بمعلوماتهم الثمينة ويتوقعون من المنظمات الحفاظ عليها. لذلك، تهدف خبراؤنا الاستشاريون إلى تزويد المنظمات باستراتيجيات ورؤى أمان البيانات التي تساعد في إقامة آليات الدفاع الصحيحة في جميع أنحاء المنظمة للحفاظ على سمعتها وتفوقها التنافسي.</div>"
+  },
+  "short": {
+      "english": "<div>Being fully aware of how crucial it is for organizations to protect their data from various data breaches, A&B always highlights the importance of incorporating data security management early on in the development process. Clients entrust organizations with their valuable information and expect organizations to maintain it. Therefore, our consultant experts aim at providing organizations with data security strategies and insights that help set up the right defense mechanisms across the organization to maintain its reputation and competitive edge.</div>",
+      "arabic": "<div>بوعي تام بمدى أهمية حماية البيانات للمنظمات من مختلف انتهاكات البيانات، يسلط A&B دائمًا الضوء على أهمية دمج إدارة أمان البيانات في وقت مبكر في عملية التطوير. يثق العملاء المنظمات بمعلوماتهم الثمينة ويتوقعون من المنظمات الحفاظ عليها. لذلك، تهدف خبراؤنا الاستشاريون إلى تزويد المنظمات باستراتيجيات ورؤى أمان البيانات التي تساعد في إقامة آليات الدفاع الصحيحة في جميع أنحاء المنظمة للحفاظ على سمعتها وتفوقها التنافسي.</div>"
+  },
+  "introTitle": {
+      "english": "Data Security <span class=\"mil-thin\">and</span> Privacy",
+      "arabic": "أمان البيانات <span class=\"mil-thin\">و</span> الخصوصية"
+  },
+  "gallery": {
+      "enabled": 0,
+      "items": [
+          {
+              "image": "/img/blog/3.jpg",
+              "alt": "image"
+          },
+          {
+              "image": "/img/blog/1.jpg",
+              "alt": "image"
+          }
+      ]
+  },
+  "additional": {
+      "enabled": 0,
+      "content": ""
+  },
+  "infograph": {
+      "enabled": 0,
+      "name": ""
+  },
+  "keywords": [
+      "Data Security",
+      "Data Privacy",
+      "Digital Transformation",
+      "Security Management",
+      "Defense Mechanisms",
+      "Risk Management",
+      "أمان البيانات",
+      "الخصوصية البيانات",
+      "تحول رقمي",
+      "إدارة الأمان",
+      "آليات الدفاع",
+      "إدارة المخاطر"
+  ]
+}
+
+
+
   ]
 }
