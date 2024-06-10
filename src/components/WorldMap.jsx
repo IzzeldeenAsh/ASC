@@ -9,35 +9,35 @@ const WorldMap = () => {
     <Image className="world-map-image" src="/img/planet-map.png"  width={1010} height={666} alt="world-map" priority fetchPriority="high" />
   
     <div className='pin usa'>
-    <span>
+    {/* <span>
       <div className='mil-text-sm text-dark fw-bold'> USA (Headquarters)</div>
       <div className='mil-text-xs'> Delaware, Wilmington - Downtown</div>
       <div className='mil-text-xs'>  1000 N. West Street. Suite 1200. </div>
       <div className='mil-text-xs'>   Wilmington.19801. </div>
       <br></br>
       <div className='mil-text-xs'>info@alokabconsulting.com</div>
-      </span> 
+      </span>  */}
     </div>
     <div className='pin germany'>
-       <span>
+       {/* <span>
        <div className='mil-text-sm text-dark fw-bold'> Germany</div>
        <div className='mil-text-xs'>info@alokabconsulting.com</div>
-       </span> 
+       </span>  */}
     </div>
     <div className='pin egypt'>
-    <span>
+    {/* <span>
        <div className='mil-text-sm text-dark fw-bold'> Egypt</div>
        <div className='mil-text-xs'>info@alokabconsulting.com</div>
-    </span> 
+    </span>  */}
     </div>
     <div className='pin jordan'>
-    <span>
+    {/* <span>
        <div className='mil-text-sm text-dark fw-bold'> Jordan</div>
        <div className='mil-text-xs'>info@alokabconsulting.com</div>
-    </span> 
+    </span>  */}
       </div>
       <div className='pin saudi'>
-      <span>
+      {/* <span>
       <div className='mil-text-sm text-dark fw-bold'> Saudi Arabia</div>
       <div className='mil-text-xs'>  Riyadh - Olaya - Prince Muhammad bin Abdulaziz Street (Tahlia)</div>
       <div className='mil-text-xs'> opposite Narcissus Hotel </div>
@@ -48,13 +48,13 @@ const WorldMap = () => {
 
       <br></br>
       <div className='mil-text-xs'>info@alokabconsulting.com</div>
-    </span> 
+    </span>  */}
       </div>
       <div className='pin iraq'>
-      <span>
+      {/* <span>
        <div className='mil-text-sm text-dark fw-bold'>Iraq</div>
        <div className='mil-text-xs'>info@alokabconsulting.com</div>
-    </span> 
+    </span>  */}
       </div>
       <div className='strategic-places strategic-places-up'>
         <span className='mil-text-sm  text-dark'>
