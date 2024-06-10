@@ -475,7 +475,7 @@ link
 
     &.mil-dark {
         & svg {
-            background-color: #f3de7ad6;
+            background-color: rgba(146,146,146,0.3);
             transition: $t-md;
 
             & path {
@@ -918,7 +918,9 @@ spaces
 .mil-mb-20 {
     margin-bottom: 15px;
 }
-
+.mil-mb-25 {
+    margin-bottom: 25px;
+}
 .mil-mb-30 {
     margin-bottom: 30px;
 }
@@ -1255,6 +1257,7 @@ body[dir="rtl"]{
 }
 .mil-logo{
     opacity: 0;
+    margin-inline-end: 10px;
     @media screen and (max-width:1200px) {
         opacity: 1;
      }
@@ -1269,6 +1272,9 @@ body[dir="rtl"]{
 }
 .gap-20{
     gap: 20px;
+    @media screen and (max-width:410px) {
+        gap: 12px;
+    }
 }
 .position-relative{
     position: relative;
@@ -1278,6 +1284,11 @@ body[dir="rtl"]{
 }
 .italic{
     font-style: italic;
+}
+.text-shadow{
+    text-shadow: 2px 1px 1px #000; /* Standard syntax */
+-webkit-text-shadow: 2px 1px 1px #000; /* For older WebKit browsers (Safari, Chrome) */
+-moz-text-shadow: 2px 1px 1px #000; /* For older Firefox */
 }
 .bannderOverlay{
     background: rgb(255,255,255);

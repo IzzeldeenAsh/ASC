@@ -169,6 +169,9 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
   .mil-menu-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
     @media screen and (max-width: 640px) {
         grid-template-columns: 1fr ;
     }

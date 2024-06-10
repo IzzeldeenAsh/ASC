@@ -28,7 +28,7 @@ const HomeNewsMenu = ({onLinkClick}) => {
     return (
         <>
             {/* popular */}
-            <section className="mil-dark-bg" id="blog">
+            {/* <section className="mil-dark-bg" id="blog">
                 <div className="container mil-p-120-60">
                     <div className="row align-items-center mil-mb-30">
                         <div className="col-lg-6 mil-mb-30">
@@ -63,7 +63,7 @@ const HomeNewsMenu = ({onLinkClick}) => {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
             {/* popular end */}
         </>
     );

@@ -158,9 +158,7 @@ const DefaultHeader = ({ extraClass }) => {
           </div>
         </div>
         <div className="mil-frame-bottom">
-          <div className="mil-current-page"
-            style={activeLocale === "ar" ? { transform: "rotate(-90deg) translateX(138px) translateY(138px)" } : { transform: "rotate(-90deg) translateX(138px) translateY(-138px)" }}
-          />
+          <div className="mil-current-page"/>
           <BackToTop />
         </div>
       </div>

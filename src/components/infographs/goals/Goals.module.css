@@ -61,6 +61,11 @@
   counter-increment: count;
   transition: all 0.2 ease-in-out;
 }
+@media screen and (max-width :500px) {
+  .goalItem {
+    width: 134px;
+  }
+}
 .goalItem:hover::before {
     transform: translate(-2px, 5px);
   }

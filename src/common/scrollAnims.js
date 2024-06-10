@@ -109,6 +109,8 @@ export const ScrollAnimation = () => {
         }
     });
 
+
+    
     gsap.set(btt, {
         x: -30,
         opacity: 0,

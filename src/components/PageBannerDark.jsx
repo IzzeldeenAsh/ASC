@@ -51,7 +51,7 @@ const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
                 <li><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>
               </ul>
               <h1 className="mil-muted mil-mb-30" dangerouslySetInnerHTML={{__html : pageTitle}} />
-              <a href={anchorLink} className="mil-link mil-accent mil-arrow-place mil-down-arrow" aria-label={"Link"}>
+              <a href={anchorLink} className=" d-none d-md-block mil-link mil-accent mil-arrow-place mil-down-arrow" aria-label={"Link"}>
                   <span>{anchorLabel}</span>
                   <ArrowIcon />
               </a>
