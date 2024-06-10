@@ -117,7 +117,7 @@ const ServiceDetail = () => {
                       <div className="mil-mb-20 mil-text-lg"
                       dangerouslySetInnerHTML={{ __html: activeLocale === "ar" ? item.value.arabic : item.value.english }}
                     />
-                      {item.isSubService && (<div className="mil-button mil-button-sm mil-mb-30"><Link href={`/subservice/${item.id}`}>Read More</Link></div>)}
+                      {item.isSubService && (<div className="mil-button mil-button-sm mil-mb-25"><Link href={`/subservice/${item.id}`}>Read More</Link></div>)}
                       </div>
                       
                      

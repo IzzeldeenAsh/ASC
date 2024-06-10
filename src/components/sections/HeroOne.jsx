@@ -20,7 +20,17 @@ const HeroOne = () => {
             
             <section className="mil-banner mil-dark-bg " >
 
-            <div className="hero-image" style={{backgroundImage: `url(${activeLocale ==='ar' ? bgImageAr:bgImageEn})`}}></div>
+            <div className="hero-image" 
+           style={{
+            backgroundImage: `url(${activeLocale === 'ar' ? bgImageAr : bgImageEn})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            height: '100vh', // Ensure the container has height
+            width: '100%', // Ensure the container has width
+        }}
+            
+            ></div>
                 <div className="mi-invert-fix">
                     <div className="mil-gradient" />
                     <div className="container" style={{marginTop:'80px'}}> 

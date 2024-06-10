@@ -67,11 +67,11 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
                     <div className="title-yellow-head">
                     <TitleHead/>
                     </div>
-                    <h2  className={bg ? "mil-light mil-mb-20" : "mil-mb-60"} dangerouslySetInnerHTML={{__html : pageTitle}} />
-                    <p  className={bg ? "mil-light mil-mb-60 max-w-600px " : "mil-mb-60"} dangerouslySetInnerHTML={{__html : subtext}} />
+                    <h2  className={bg ? "mil-light mil-mb-20 text-shadow" : "mil-mb-60"} dangerouslySetInnerHTML={{__html : pageTitle}} />
+                    <p  className={bg ? "mil-light mil-mb-60 max-w-600px text-shadow " : "mil-mb-60"} dangerouslySetInnerHTML={{__html : subtext}} />
                     {isService &&  
                     <div className="d-flex align-items-end">
-                    <ul className="mil-text mil-up d-flex gap-20 justify-content-start mil-light">
+                    <ul className="mil-text mil-up d-flex gap-20 justify-content-start mil-light text-shadow">
                       <li><span>Experts</span></li>
                       <li><span>Related articles</span></li>
                       <li><span>Projects</span></li>
@@ -101,7 +101,7 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
            {asPath.indexOf('/about') != -1 && 
             <div className="row justify-content-center">
             <div className="col-lg-8 mil-light">
-            <ul    className="mil-text mil-up mil-mb-60 d-flex gap-20 justify-content-center">
+            <ul    className="mil-text mil-up mil-mb-60 d-flex flex-column flex-sm-row gap-20 justify-content-start align-items-start align-items-md-center justify-content-md-center">
           <li><span>Mission</span></li>
           <li><span>Vision</span></li>
           <li><a href="#timeline" className="mil-hover-primary"><span>History</span></a></li>

@@ -5,12 +5,13 @@ import MenuList from "@/src/components/MenuList";
 import dataSectors from '@/src/data/dummy/sectors'
 import dataServices from '@/src/data/dummy/services';
 import { useLocale } from '@/utils/getLocale';
+import aboutData from "@data/sections/about.json"
 // Sample groceries data
 const groceries = [
   { value: 'Home', link: '', description: '' },
   { value: 'Services',link: '', description: 'services' },
   { value: 'Sectors',link: '',  description: 'services' },
-  { value: 'About', link: 'about', description: '' },
+  { value: 'About', link: '', description: 'about' },
   { value: 'Contact',link: 'contact',  description: '' },
 ];
 
@@ -34,6 +35,12 @@ function MenuAccordion({onLinkClick}) {
                              onLinkClick={onLinkClick}
                              listLabel={activeLocale === 'ar' ? 'قائمة القطاعات' : 'Sectors List'}
                            />}
+              {item.value === "About" &&   <MenuList
+                              items={aboutData.sections}
+                              basePath="about"
+                              onLinkClick={onLinkClick}
+                              listLabel={activeLocale === 'ar' ? ' من نحن' : 'About Us'}
+                            />}
             </Accordion.Panel>
           </>
         ) : (

@@ -16,11 +16,10 @@ const DefaultFooter = ( { extraClass } ) => {
             <div className="container footer-container" >
                 <div className="row justify-content-between">
                     <div className="col-md-4 col-lg-4 mil-mb-10 col-12">
-                        <Link href={"/"} className="mil-muted mil-logo mil-up mil-mb-30">{AppData.footer.logo.text}</Link>
+                        <Link href={"/"} className="mil-muted mil-logo mil-mb-30 footer-logo">{AppData.footer.logo.text}</Link>
                         <div className="mil-mb-30"></div>
                        
-                                <div className="mil-light-soft mil-text-xs" 
-                                style={{padding:"16px 0",lineHeight:"1.3"}}>
+                                <div className="mil-light-soft mil-text-xs footer-location">
                                         <span className="text-primary">
                                             USA (Headquarters):</span>
                                             <br></br>
@@ -31,7 +30,7 @@ const DefaultFooter = ( { extraClass } ) => {
                       
                     </div>
                     <div className="col-md-2 col-lg-2 col-12" style={{marginTop:'auto'}}>
-                    <ul className="mil-social-icons mil-up mil-mb-30">
+                    <ul className="mil-social-icons mil-mb-30">
                                     <li><a href={"https://www.linkedin.com/company/alokab-consulting"} target="_blank" className="social-icon"><FaLinkedinIn  size={25}/></a></li>
                                     <li><a href={"https://www.facebook.com/alokabcompany"} target="_blank" className="social-icon"><FaXTwitter  size={25} /></a></li>
                                 </ul>
@@ -40,7 +39,7 @@ const DefaultFooter = ( { extraClass } ) => {
                     <nav className="mil-footer-menu">
                                     <ul >
                                         {AppData.header.menu.map((item, key) => (
-                                        <li key={`footer-menu-item-${key}`} className={((asPath.indexOf( item.link ) != -1 && item.link != '/' ) || asPath == item.link ) ? "mil-active mil-up" : "mil-up"}>
+                                        <li key={`footer-menu-item-${key}`} className={((asPath.indexOf( item.link ) != -1 && item.link != '/' ) || asPath == item.link ) ? "mil-active" : ""}>
                                             <Link href={item.link}>{item.label}</Link>
                                         </li>
                                         ))}
@@ -48,8 +47,7 @@ const DefaultFooter = ( { extraClass } ) => {
                                 </nav>
                         <div className="mil-mb-30"></div>
                        
-                                <div className="mil-light-soft mil-text-xs" 
-                                style={{padding:"15px 0",textAlign:"end",lineHeight:"1.3"}}>
+                                <div className="mil-light-soft mil-text-xs copy-right" >
                                         <span >{AppData.footer.copy}</span>
                                         <br></br>
                                             <span>
@@ -61,9 +59,7 @@ const DefaultFooter = ( { extraClass } ) => {
                                 </div>
                       
                     </div>
-
                 </div>
-               
             </div>
         </div>
     </footer>
