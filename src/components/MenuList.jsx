@@ -18,7 +18,7 @@ const MenuList = ({items , basePath , onLinkClick ,listLabel})=>{
         {sortedItems.map((item, index) => (
           <li key={index}>
             <Link
-              href={basePath ==='about' ? `/${basePath}/#${item.id}`: `/${basePath}/${item.id}`}
+              href={basePath ==='about' ? `${item.link}`: `/${basePath}/${item.id}`}
               className="mil-light-soft"
               onClick={onLinkClick}
             >
