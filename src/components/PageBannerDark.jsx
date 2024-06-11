@@ -8,6 +8,7 @@ import Pentagon from "@layouts/pentagon/Index";
 
 const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
   const { asPath } = useRouter();
+  const {activeLocale } = useLocale();
   let clearBreadTitle;
  
   if ( breadTitle != undefined ) {
@@ -32,7 +33,7 @@ const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
             </div> */}
             <div className="container">
               <ul className="mil-breadcrumbs mil-light mil-mb-30">
-                <li><Link href="/">Homepage</Link></li>
+                <li><Link href="/">{ activeLocale ==='en' ? "Homepage" : "الرئيسية"}</Link></li>
                 {asPath.indexOf('/blog/') != -1 &&
                 <li>
                   <Link href="/blog">Blog</Link>
@@ -45,13 +46,13 @@ const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
                 }
                 {asPath.indexOf('/services/') != -1 &&
                 <li>
-                  <Link href="/services">Services</Link>
+                  <Link href="/services"> { activeLocale ==='ثى' ? "Services" : "الخدمات"}</Link>
                 </li>
                 }
                 <li><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>
               </ul>
               <h1 className="mil-muted mil-mb-30" dangerouslySetInnerHTML={{__html : pageTitle}} />
-              <a href={anchorLink} className=" d-none d-md-block mil-link mil-accent mil-arrow-place mil-down-arrow" aria-label={"Link"}>
+              <a href={anchorLink} className=" d-none d-md-flex mil-link mil-accent mil-arrow-place mil-down-arrow gap-10" aria-label={"Link"}>
                   <span>{anchorLabel}</span>
                   <ArrowIcon />
               </a>

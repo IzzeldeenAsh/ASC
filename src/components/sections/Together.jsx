@@ -10,11 +10,14 @@ const Together = ( ) => {
         <section >
             <div className="container mil-p-120-120 mil-up">
                 <div className="mil-center">
-                <h2 className="mil-up mil-mb-60" dangerouslySetInnerHTML={{__html : activeLocale === "ar" ? "معًا، <br>نحقق الانتقال <span class=\"mil-thin\">من</span>  أ <span class=\"mil-thin\">إلى</span> ب." : "Together, we make <br> the leap <span class=\"mil-thin\">from</span>  A <span class=\"mil-thin\">to</span> B."}} />
+                <h2 className="mil-up mil-mb-60" dangerouslySetInnerHTML={{__html :
+                     activeLocale === "ar" ?
+                      "معًا، <br>نحقق الانتقال <span class=\"mil-thin\">من</span>  أ <span class=\"mil-thin\">إلى</span> ب." : 
+                      "Together, we make <br> the leap <span class=\"mil-thin\">from</span>  A <span class=\"mil-thin\">to</span> B."}} />
                   
                     <div className="mil-up">
                         <Link href={Data.button.link} className="mil-button mil-arrow-place">
-                            <span>{Data.button.label}</span>
+                            <span>{activeLocale ==='ar' ?Data.button.label.ar : Data.button.label.en}</span>
                             <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
                             <ArrowIcon  />
                             </div>

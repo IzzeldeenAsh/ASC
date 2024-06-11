@@ -13,7 +13,18 @@ import { IoIosSearch } from "react-icons/io";
 import { Select } from '@mantine/core';
 const Services = () => {
 const {activeLocale , t} = useLocale();
-
+const pageTitle ={
+  english: "Services List",
+  arabic: "قائمة الخدمات"
+}
+const breadTitle={
+  english: "Services",
+  arabic: "الخدمات"
+}
+const anchorLabel= {
+  english: "Our services",
+  arabic: "خدماتنا"
+}
 const [isMounted,setIsMounted] = useState(false); // Need this for the react-tooltip
 const [selectedSector , setSelectedSector] = useState('All');
 const [searchTerm,setSearchTerm] = useState('');
@@ -44,7 +55,11 @@ useEffect(() => {
         </div>
   {/* banner */}
   <div className="mil-dark-bg" >
-      <PageBannerDark pageTitle={"Services List"} breadTitle={"Services"} anchorLabel={"Our services"} anchorLink={"#services"} />
+      <PageBannerDark
+   pageTitle={activeLocale ==="ar" ? pageTitle.arabic : pageTitle.english} 
+   breadTitle={activeLocale ==='ar' ? breadTitle.arabic : breadTitle.english} 
+   anchorLabel={activeLocale ==='ar' ?anchorLabel.arabic : anchorLabel.english} 
+          anchorLink={"#services"} />
 
       {/* services */}
       <section id="services">
@@ -52,7 +67,7 @@ useEffect(() => {
            <div className="search-bar mil-up">
            <TextInput 
          onChange={(e) => setSearchTerm(e.target.value)}
-            label="Search"
+         label={activeLocale ==='ar' ? "البحث" : "Search"}
             leftSection={<IoIosSearch />}
             styles={(theme) => ({
         input: {
@@ -64,20 +79,7 @@ useEffect(() => {
         },
       })} />
            </div>
-           <div className="sector-filter search-bar mil-up">
-           <Select
-          onChange={setSelectedSector}
-          label="Sector"
-          data={uniqueSectors}
-          defaultValue={uniqueSectors[0]} // Default to 'All'
-          styles={(theme) => ({
-            input: { minWidth: '150px', borderColor: '#666666' , color: "#fff"},
-            label: {
-              color: "#fff", // Change label color to white
-            },
-          })}
-        />
-           </div>
+        
         </div>
           <div className="mi-invert-fix">
               <div className="container mil-p-30-0">
@@ -107,7 +109,12 @@ useEffect(() => {
                                         ))}
                                       </ul>
                                       <div className="mil-link mil-accent mil-arrow-place mil-up">
-                                          <span>Discover</span>
+                                          <span>{
+                                             activeLocale ==="ar" ?
+                                             "اكتشف":
+                                             "Discover"
+                                             }
+                                             </span>
                                           <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
                         <ArrowIcon  />
                         </div>

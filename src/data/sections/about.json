@@ -29,9 +29,10 @@
             },
             "description": {
                 "english": "Learn about our mission and values.",
-                "arabic": "تعرف على مهمتنا وقيمنا."
+                "arabic": "تعرّف على مهمتنا وقيمنا."
             },
-            "link":"/about"
+            "link":"/about",
+            "anchor" : "mission"
         },
         {
             "id":"vision",
@@ -43,7 +44,8 @@
                 "english": "Explore our long-term vision and goals.",
                 "arabic": "استكشاف رؤيتنا وأهدافنا على المدى الطويل."
             },
-            "link":"/about"
+            "link":"/about",
+            "anchor" : "vision"
         },
         {
             "id":"timeline",
@@ -55,7 +57,8 @@
                 "english": "Discover our journey and milestones.",
                 "arabic": "اكتشف رحلتنا والمحطات الرئيسية فيها."
             },
-            "link":"/about"
+            "link":"/about",
+                       "anchor" : "timeline"
         },
         {
             "id":"leaders",
@@ -65,9 +68,10 @@
             },
             "description": {
                 "english": "Meet our leadership team.",
-                "arabic": "تعرف على فريق القيادة لدينا."
+                "arabic": "تعرّف على فريق القيادة لدينا."
             },
-            "link":"/?section=leaders"
+            "link":"/?section=leaders",
+            "anchor" : "leaders"
         },
         {
             "id":"news",
@@ -79,7 +83,8 @@
                 "english": "Stay updated with our latest news and announcements.",
                 "arabic": "ابق على اطلاع على آخر الأخبار والإعلانات لدينا."
             },
-            "link":"/about"
+            "link":"/about",
+              "anchor" : "news"
         },
         {
             "id":"ab-philosophy",
@@ -91,7 +96,8 @@
                 "english": "Understand our philosophy and approach.",
                 "arabic": "فهم فلسفتنا ونهجنا."
             },
-            "link":"/about"
+            "link":"/about",
+              "anchor" : "ab-philosophy"
         }
     ]
 }

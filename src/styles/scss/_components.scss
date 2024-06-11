@@ -844,7 +844,7 @@ circle text
 }
 .mil-hover-primary{
 &:hover{
-  color: $accent;
+  color: $accent !important;
 }
 }
 /* -------------------------------------------
@@ -3319,9 +3319,14 @@ World Map
 .strategic-places-up {
   top: 40px;
 }
-.strategic-places-down {
+
+body[dir="ltr"] .strategic-places-down {
   bottom: 60px;
   right:20px
+}
+body[dir="rtl"] .strategic-places-down {
+  bottom: 40px;
+  left:30px
 }
 .pin:hover ~ .strategic-places{
   opacity: 0 !important;

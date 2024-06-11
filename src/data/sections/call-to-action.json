@@ -1,8 +1,18 @@
+
 {
-    "subtitle": "Looking to make your mark? We'll help you turn <br> your project into a success story.",
-    "title": "Ready to bring your <span class=\"mil-thin\">ideas to</span> life? <br> We're <span class=\"mil-thin\">here to help</span>",
+    "subtitle": {
+        "en": "Looking to make your mark? We'll help you turn <br> your project into a success story.",
+        "ar": "هل تبحث عن ترك بصمتك؟ سنساعدك في تحويل <br> مشروعك إلى قصة نجاح."
+    },
+    "title": {
+        "en": "Ready to bring your <span class=\"mil-thin\">ideas to</span> life? <br> We're <span class=\"mil-thin\">here to help</span>",
+        "ar": "جاهز لجعل <span class=\"mil-thin\">أفكارك تصبح</span> حقيقة؟ <br> نحن <span class=\"mil-thin\">هنا للمساعدة</span>"
+    },
     "button": {
-        "label": "Contact us",
-        "link": "/contact"
+        "label": {
+            "en": "Contact us",
+            "ar": "اتصل بنا"
+        },
+         "link": "/contact"
     }
 }

@@ -8,15 +8,69 @@ import WorldMap from "../components/WorldMap";
 import ABLogoDark from "@layouts/svg-icons/AB-Logo-Dark";
 const Contact = () => {
   const { activeLocale} = useLocale();
+  const pageTitle = {
+    english: "Get in touch!",
+    arabic: "ابق على تواصل!"
+  }
+  
+  const breadTitle = {
+    english: "Contact",
+    arabic: "الاتصال"
+  }
+  
+  const anchorLabel = {
+    english: "Send message",
+    arabic: "أرسل رسالة"
+  }
+  const formLabels = {
+    name: {
+      english: "What's your name",
+      arabic: " الاسم"
+    },
+    company: {
+      english: "Company Name",
+      arabic: "اسم الشركة"
+    },
+    email: {
+      english: "Your Email",
+      arabic: "بريدك الإلكتروني"
+    },
+    phone: {
+      english: "Phone Number",
+      arabic: "رقم الهاتف"
+    },
+    message: {
+      english: "The Message",
+      arabic: "الرسالة"
+    },
+    description: {
+      english: "Keeping you posted with everything new about our services. Here, we post elaborative and informative articles. Please Stay tuned.",
+      arabic: "نبقيك على اطلاع بكل جديد حول خدماتنا. هنا، ننشر مقالات توضيحية ومعلوماتية. يرجى البقاء على اطلاع."
+    },
+    submitButton: {
+      english: "Send message",
+      arabic: "أرسل رسالة"
+    },
+    formStatus: {
+      success: {
+        english: "Thanks for your submission!",
+        arabic: "شكرًا على تقديمك!"
+      },
+      error: {
+        english: "Oops! There was a problem submitting your form",
+        arabic: "عذرًا! حدثت مشكلة أثناء إرسال النموذج"
+      }
+    }
+  };
   return (
     <Layouts>
          <div className="logoStyle">
      <ABLogoDark />
    </div>
       <PageBanner
-        pageTitle={"Get in touch!"}
-        breadTitle={"Contact"}
-        anchorLabel={"Send message"}
+      pageTitle={activeLocale ==="ar" ? pageTitle.arabic : pageTitle.english} 
+      breadTitle={activeLocale ==='ar' ? breadTitle.arabic : breadTitle.english} 
+      anchorLabel={activeLocale ==='ar' ?anchorLabel.arabic : anchorLabel.english} 
         anchorLink={"#contact"}
         paddingBottom={0}
         align={"center"}
@@ -30,7 +84,11 @@ const Contact = () => {
       <section  id="contact">
         <div className="container mil-mb-60">
           <h3 className="mil-center  mil-mb-120">
-            Let's <span className="mil-thin">Hear from you</span>
+           {activeLocale ==='ar' ? 
+            <div>لنسمع <span className="mil-thin">منك!</span></div>
+                    :
+          <div>Let's <span className="mil-thin">Hear from you</span></div>
+          }
           </h3>
           <Formik
             initialValues={{
@@ -104,91 +162,91 @@ const Contact = () => {
               /* and other goodies */
             }) => (
               <form
-                onSubmit={handleSubmit}
-                id="contactForm"
-                action={AppData.settings.formspreeURL}
-                className="row align-items-center"
-              >
-                <div className="col-lg-6 ">
-                  <input
-                    type="text"
-                    placeholder="What's your name"
-                    name="name"
-                    required="required"
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    value={values.name}
-                  />
-                </div>
-                <div className="col-lg-6 ">
-                  <input
-                    type="text"
-                    placeholder="Copmany Name"
-                    name="company"
-                    required="required"
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    value={values.email}
-                  />
-                </div>
-                <div className="col-lg-6 ">
-                  <input
-                    type="email"
-                    placeholder="Your Email"
-                    name="email"
-                    required="required"
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    value={values.email}
-                  />
-                </div>
-                <div className="col-lg-6 ">
-                  <input
-                    type="text"
-                    placeholder="Phone Number"
-                    name="phone"
-                    required="required"
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    value={values.email}
-                  />
-                </div>
-                <div className="col-lg-12 ">
-                  <textarea
-                    placeholder="The Message"
-                    name="message"
-                    required="required"
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    value={values.message}
-                  />
-                </div>
-                <div className="col-lg-8">
-                  <p className=" mil-mb-30">
-                    <span className="mil-accent"></span> Keeping you posted with everything new about our services. Here, we post elaborative and informative articles. Please Stay tuned.
-                  </p>
-                </div>
-                <div className="col-lg-4">
-                  <div className="mil-adaptive-right  mil-mb-30">
-                    <button
-                      type="submit"
-                      className="mil-button mil-arrow-place"
+              onSubmit={handleSubmit}
+              id="contactForm"
+              action={AppData.settings.formspreeURL}
+              className="row align-items-center"
+            >
+              <div className="col-lg-6 ">
+                <input
+                  type="text"
+                  placeholder={activeLocale === 'ar' ? formLabels.name.arabic : formLabels.name.english}
+                  name="name"
+                  required="required"
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.name}
+                />
+              </div>
+              <div className="col-lg-6 ">
+                <input
+                  type="text"
+                  placeholder={activeLocale === 'ar' ? formLabels.company.arabic : formLabels.company.english}
+                  name="company"
+                  required="required"
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.company}
+                />
+              </div>
+              <div className="col-lg-6 ">
+                <input
+                  type="email"
+                  placeholder={activeLocale === 'ar' ? formLabels.email.arabic : formLabels.email.english}
+                  name="email"
+                  required="required"
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.email}
+                />
+              </div>
+              <div className="col-lg-6 ">
+                <input
+                  type="text"
+                  placeholder={activeLocale === 'ar' ? formLabels.phone.arabic : formLabels.phone.english}
+                  name="phone"
+                  required="required"
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.phone}
+                />
+              </div>
+              <div className="col-lg-12 ">
+                <textarea
+                  placeholder={activeLocale === 'ar' ? formLabels.message.arabic : formLabels.message.english}
+                  name="message"
+                  required="required"
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.message}
+                />
+              </div>
+              <div className="col-lg-8">
+                <p className="mil-mb-30">
+                  <span className="mil-accent"></span> {activeLocale === 'ar' ? formLabels.description.arabic : formLabels.description.english}
+                </p>
+              </div>
+              <div className="col-lg-4">
+                <div className="mil-adaptive-right mil-mb-30">
+                  <button
+                    type="submit"
+                    className="mil-button mil-arrow-place"
+                  >
+                    <span>{activeLocale === 'ar' ? formLabels.submitButton.arabic : formLabels.submitButton.english}</span>
+                    <div
+                      style={
+                        activeLocale === "ar"
+                          ? { transform: "rotate(180deg)", display: "flex" }
+                          : { transform: "rotate(0deg)", display: "flex" }
+                      }
                     >
-                      <span>Send message</span>
-                      <div
-                        style={
-                          activeLocale === "ar"
-                            ? { transform: "rotate(180deg)", display: "flex" }
-                            : { transform: "rotate(0deg)", display: "flex" }
-                        }
-                      >
-                        <ArrowIcon />
-                      </div>
-                    </button>
-                  </div>
+                      <ArrowIcon />
+                    </div>
+                  </button>
                 </div>
-                <div className="form-status" id="contactFormStatus" />
-              </form>
+              </div>
+              <div className="form-status" id="contactFormStatus" />
+            </form>
             )}
           </Formik>
         </div>
