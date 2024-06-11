@@ -37,9 +37,9 @@ const Blog = ( { posts, currentPage, totalPosts, categories } ) => {
               </div>
           </div>
           <div className="row">
-              <PaginatedBlog
+              {/* <PaginatedBlog
                 items={posts}
-              />
+              /> */}
               
               <Pagination
                 currentPage={currentPage}
