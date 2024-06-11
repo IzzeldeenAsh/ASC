@@ -33,7 +33,7 @@ const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
             </div> */}
             <div className="container">
               <ul className="mil-breadcrumbs mil-light mil-mb-30">
-                <li><Link href="/">{ activeLocale ==='ثى' ? "Homepage" : "الرئيسية"}</Link></li>
+                <li><Link href="/">{ activeLocale ==='en' ? "Homepage" : "الرئيسية"}</Link></li>
                 {asPath.indexOf('/blog/') != -1 &&
                 <li>
                   <Link href="/blog">Blog</Link>
