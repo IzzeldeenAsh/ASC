@@ -10,6 +10,7 @@ import sectorsData from "@data/dummy/sectors.json";
 import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
 import ABLogoLight from "@layouts/svg-icons/AB-Logo-Light";
 import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
+import PaginatedBlog from "@components/PaginatedBlog"
 const SectorDetail = () => {
   const { activeLocale } = useLocale();
   const router = useRouter();
@@ -93,7 +94,7 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
               </div>
               <div className="col-lg-12">
                 <h5
-                  className="text-subtitle mil-mb-30"
+                  className="mil-text-xl mil-mb-30"
                   dangerouslySetInnerHTML={{
                     __html:
                       activeLocale === "ar"
@@ -101,10 +102,11 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
                         : postData.list.title.english,
                   }}
                 />
-                <div
+                {/* <div
                   className="row "
                   style={{ gap: "20px", padding: "0 40px" }}
                 >
+
                   {postData.list.items.map((item, key) => (
                     <div
                       className="col-lg-5 card-shadow"
@@ -152,7 +154,11 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
                       </Link>
                     </div>
                   ))}
-                </div>
+                </div> */}
+                <PaginatedBlog
+                items={postData.list.items}
+              />
+              
               </div>
             </div>
           </div>
