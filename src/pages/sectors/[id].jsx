@@ -102,7 +102,7 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
                         : postData.list.title.english,
                   }}
                 />
-                {/* <div
+                <div
                   className="row "
                   style={{ gap: "20px", padding: "0 40px" }}
                 >
@@ -154,10 +154,10 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
                       </Link>
                     </div>
                   ))}
-                </div> */}
-                <PaginatedBlog
+                </div>
+                {/* <PaginatedBlog
                 items={postData.list.items}
-              />
+              /> */}
               
               </div>
             </div>
