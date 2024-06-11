@@ -1,24 +1,57 @@
 {
-    "title": "Customer <span class=\"mil-thin\">Voices:</span> <br>Hear What <span class=\"mil-thin\">They Say!</span>",
-    "subtitle": "Customer reviews are a valuable source <br>of information for both businesses and consumers.",
+    "title": {
+        "english": "Customer <span class=\"mil-thin\">Voices:</span> <br>Hear What <span class=\"mil-thin\">They Say!</span>",
+        "arabic": "أصوات <span class=\"mil-thin\">العملاء:</span> <br>اسمع ما <span class=\"mil-thin\">يقولونه!</span>"
+    },
+    "subtitle": {
+        "english": "Customer reviews are a valuable source <br>of information for both businesses and consumers.",
+        "arabic": "تعد مراجعات العملاء مصدرًا قيمًا <br>للمعلومات لكل من الشركات والمستهلكين."
+    },
     "items": [
         {
-            "name": "Paul Trueman",
+            "name": {
+                "english": "Paul Trueman",
+                "arabic": "بول ترومان"
+            },
             "image": "/img/customers/1.jpg",
-            "role": "Eqanta app",
-            "text": "Working with Courtney Davis as our UI designer was an absolute pleasure. Her attention to detail and creative approach brought our vision to life. The user interface she designed exceeded our expectations, and we received positive feedback from our clients. Highly recommended!"
+            "role": {
+                "english": "Eqanta app",
+                "arabic": "تطبيق Eqanta"
+            },
+            "text": {
+                "english": "Working with Courtney Davis as our UI designer was an absolute pleasure. Her attention to detail and creative approach brought our vision to life. The user interface she designed exceeded our expectations, and we received positive feedback from our clients. Highly recommended!",
+                "arabic": "كان العمل مع كورتني ديفيس كمصممة واجهة المستخدم لدينا متعة مطلقة. لقد جلبت انتباهها للتفاصيل ونهجها الإبداعي رؤيتنا إلى الحياة. تجاوزت واجهة المستخدم التي صممتها توقعاتنا، وتلقينا ردود فعل إيجابية من عملائنا. ننصح بها بشدة!"
+            }
         },
         {
-            "name": "Olivia Oldman",
+            "name": {
+                "english": "Olivia Oldman",
+                "arabic": "أوليفيا أولدمان"
+            },
             "image": "/img/customers/2.jpg",
-            "role": "Eqanta app",
-            "text": "I had the opportunity to collaborate with Courtney, and I must say she is incredibly talented. Her ability to understand our brand and translate it into a interface was impressive. Courtney's designs were intuitive, and enhanced the overall user experience. I look forward to working with her again!"
+            "role": {
+                "english": "Eqanta app",
+                "arabic": "تطبيق Eqanta"
+            },
+            "text": {
+                "english": "I had the opportunity to collaborate with Courtney, and I must say she is incredibly talented. Her ability to understand our brand and translate it into a interface was impressive. Courtney's designs were intuitive, and enhanced the overall user experience. I look forward to working with her again!",
+                "arabic": "حظيت بفرصة التعاون مع كورتني، ويجب أن أقول إنها موهوبة للغاية. كانت قدرتها على فهم علامتنا التجارية وترجمتها إلى واجهة مثيرة للإعجاب. كانت تصاميم كورتني بديهية، وحسنت تجربة المستخدم بشكل عام. أتطلع للعمل معها مرة أخرى!"
+            }
         },
         {
-            "name": "Oscar Newman",
+            "name": {
+                "english": "Oscar Newman",
+                "arabic": "أوسكار نيومان"
+            },
             "image": "/img/customers/3.jpg",
-            "role": "Eqanta app",
-            "text": "Courtney Davis is an exceptional UI designer. She has a keen eye for aesthetics and understands how to create interfaces. Courtney's designs greatly improved the usability of our application, and we couldn't be happier with the results. Highly skilled and reliable!"
+            "role": {
+                "english": "Eqanta app",
+                "arabic": "تطبيق Eqanta"
+            },
+            "text": {
+                "english": "Courtney Davis is an exceptional UI designer. She has a keen eye for aesthetics and understands how to create interfaces. Courtney's designs greatly improved the usability of our application, and we couldn't be happier with the results. Highly skilled and reliable!",
+                "arabic": "كورتني ديفيس هي مصممة واجهة مستخدم استثنائية. لديها عين حادة للجماليات وتفهم كيفية إنشاء الواجهات. حسنت تصاميم كورتني بشكل كبير من سهولة استخدام تطبيقنا، ولم نكن أكثر سعادة بالنتائج. ماهرة وموثوقة للغاية!"
+            }
         }
     ]
 }

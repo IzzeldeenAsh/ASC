@@ -390,7 +390,6 @@ frame
 
     & .mil-back-to-top {
       width: 300px;
-      transform: rotate(-90deg) translateX(80px) translateY(130px) !important; 
       display: flex;
       justify-content: start;
       pointer-events: all;
@@ -1319,7 +1318,6 @@ services
     filter: grayscale(100%);
     opacity: 0.4;
   }
-
   &:before {
     content: "";
     position: absolute;
@@ -1403,6 +1401,7 @@ services
 
   & .mil-services-grid-item {
     border-right: solid 1px $dt-10;
+    border-left: solid 1px $dt-10;
     flex: 1;
     border-bottom: solid 1px $dt-10;
     &:first-child {

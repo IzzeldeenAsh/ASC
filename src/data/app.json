@@ -14,61 +14,93 @@
         },
         "menu": [
             {
-                "label": "Home",
+                "label": {
+                    "english": "Home",
+                    "arabic": "الرئيسية"
+                },
                 "link": "/"
             },
             {
-                "label": "Sectors",
+                "label": {
+                    "english": "Sectors",
+                    "arabic": "القطاعات"
+                },
                 "link": "/sectors",
                 "children": [
                   
                 ]
             },
             {
-                "label": "Services",
+                "label": {
+                    "english": "Services",
+                    "arabic": "الخدمات"
+                },
                 "link": "/services",
                 "children": [
                   
                 ]
             },
             {
-                "label": "About",
+                "label": {
+                    "english": "About",
+                    "arabic": "من نحن"
+                },
                 "link": "/about",
                 "children": [
                 ]
             },
             {
-                "label": "Contact",
+                "label": {
+                    "english": "Contact",
+                    "arabic": "الاتصال"
+                },
                 "link": "/contact",
                 "children": 0
-            }
-           
+            }  
         ]
     },
     "footer": {
         "logo": {
-            "text": "A&B."
+            "text": "A&B"
         },
-        "copy": "All rights reserved © 2024, Alokab Consulting Co.",
+        "copy": {
+            "english" : "All rights reserved © 2024, Alokab Consulting Co.",
+            "arabic" :"جميع الحقوق محفوظة 2024 © العُقاب للاستشارات"
+        },
         "menu": [
             {
-                "label": "Home",
+                "label": {
+                    "english": "Home",
+                    "arabic": "الرئيسية"
+                },
                 "link": "/"
             },
             {
-                "label": "Portfolio",
+                "label": {
+                    "english": "Portfolio",
+                    "arabic": "المعرض"
+                },
                 "link": "/projects"
             },
             {
-                "label": "Services",
+                "label": {
+                    "english": "Services",
+                    "arabic": "الخدمات"
+                },
                 "link": "/services"
             },
             {
-                "label": "Contact",
+                "label": {
+                    "english": "Contact",
+                    "arabic": "الاتصال"
+                },
                 "link": "/contact"
             },
             {
-                "label": "Blog",
+                "label": {
+                    "english": "Blog",
+                    "arabic": "المدونة"
+                },
                 "link": "/blog"
             }
         ]

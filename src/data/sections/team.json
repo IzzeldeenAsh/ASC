@@ -26,103 +26,139 @@
     "col1_items": [
         {
             "image": "/img/faces/Ateef.png",
-            "name": "Dr. Atef Abu Al-Rub",
-            "role": "Consultant",
-            "social": [
-              
-            ]
+            "name": {
+                "english" : "Dr. Atef Abu Al-Rub",
+                "arabic" : "د. عاطف أبو الرُب"
+            },
+            "role": {
+                "english": "Consultant",
+                "arabic" : "مستشار"
+            }
         },
         {
             "image": "/img/faces/Adeeb.png",
-            "name": "Dr. Adeeb Al-Saify",
-            "role": "Consultant",
-            "social": [
-              
-            ]
+            "name": {
+                "english" : "Dr. Adeeb Al-Saify",
+                "arabic" :"د.أديب الصافي"
+            },
+            "role": {
+                "english": "Consultant",
+                "arabic" : "مستشار"
+            }
         },
         {
             "image": "/img/faces/singlaoy.png",
-            "name": "Dr. Omar Singlawi",
-            "role": "Consultant",
-            "social": [
-               
-            ]
+            "name": {
+                "english" :"Dr. Omar Singlawi",
+                "arabic" :"د.عمر السنقلاوي"
+            },
+            "role": {
+                "english": "Consultant",
+                "arabic" : "مستشار"
+            }
         },
         {
             "image": "/img/faces/Maher.png",
-            "name": "Dr. Maher Khudr",
-            "role": "Consultant",
-            "social": [
-               
-            ]
+            "name": {
+                "english" : "Dr. Maher Khudr",
+                "arabic" :"د.ماهر خضر"
+            },
+            "role": {
+                "english": "Consultant",
+                "arabic" : "مستشار"
+            }
         },
         
         {
             "image": "/img/faces/Nasim-zomot.png",
-            "name": "Dr. Nasim Zomot",
-            "role": "Consultant",
-            "social": [
-                
-            ]
+            "name": {
+                "english" : "Dr. Nasim Zomot",
+                "arabic" :"د.ناسيم زعمط"
+            },
+            "role": {
+                "english": "Consultant",
+                "arabic" : "مستشار"
+            }
         },
         {
             "image": "/img/faces/Zreaqat.png",
-            "name": "Dr. Mohammed Alzrikaat",
-            "role": "Consultant",
-            "social": [
-               
-            ]
+            "name": {
+                "english" :"Dr. Mohammed Alzrikaat",
+                "arabic" :"د.محمد زريقات"
+            },
+            "role": {
+                "english": "Consultant",
+                "arabic" : "مستشار"
+            }
         },
         {
             "image": "/img/faces/mahmoud-zomot.png",
-            "name": "Mohammed Zomot",
-            "role": "Consultant",
-            "social": [
-               
-            ]
+            "name": {
+                "english" :  "Mohammed Zomot",
+                "arabic" :"محمد زعمط "
+            },
+            "role": {
+                "english": "Consultant",
+                "arabic" : "مستشار"
+            }
         },
   
         {
             "image": "/img/faces/ramahi.png",
-            "name": "Mahmmoud Alramahi",
-            "role": "Consultant",
-            "social": [
-               
-            ]
+            "name": {
+                "english" :  "Mahmmoud Alramahi",
+                "arabic" :"محمود الرمحي "
+            },
+            "role": {
+                "english": "Consultant",
+                "arabic" : "مستشار"
+            }
         },
         {
             "image": "/img/faces/staff/rami-hamam.png",
-            "name": "Rami Hamam",
-            "role":"Consultant",
-            "social": [
-               
-            ]
+            "name": {
+                "english" :  "Rami Hamam",
+                "arabic" :"رامي حمام "
+            },
+            "role": {
+                "english": "Consultant",
+                "arabic" : "مستشار"
+            }
         }
         ,
         {
             "image": "/img/faces/staff/idk.png",
-            "name": "Kamal Eghrayeb",
-            "role": "Consultant",
-            "social": [
-               
-            ]
+            "name": {
+                "english" :   "Kamal Eghrayeb",
+                "arabic" :"كمال غريب "
+            },
+            "role": {
+                "english": "Consultant",
+                "arabic" : "مستشار"
+            }
         },
   
         {
             "image": "/img/faces/staff/Rami-Obaidat.png",
-            "name": "Rami Obaidat",
-            "role": "Consultant",
-            "social": [
-               
-            ]
+            "name": {
+                "english" :  "Rami Obaidat",
+                "arabic" :"رامي عبيدات "
+            },
+            "role": {
+                "english": "Consultant",
+                "arabic" : "مستشار"
+            }
         },
         {
             "image": "/img/faces/Mohammed-Alsayeed.png",
-            "name": "Mohammed Alsayeed",
-            "role":"Consultant",
-            "social": [
-               
-            ]
+            "name": {
+                "english" :  "Mohammed Alsayeed",
+                "arabic" :"محمد السييد "
+            },
+            "role": {
+                "english": "Consultant",
+                "arabic" : "مستشار"
+            }
         }
     ]
 }

@@ -23,7 +23,7 @@ const MenuList = ({items , basePath , onLinkClick ,listLabel})=>{
               onClick={onLinkClick}
             >
               <div className="d-flex align-items-center">
-                <IoMdArrowDropright />
+                <IoMdArrowDropright className='left-right-arrow' />
                 {activeLocale === 'ar' ? item.title.arabic : item.title.english}
               </div>
             </Link>
