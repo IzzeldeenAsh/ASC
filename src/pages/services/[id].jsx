@@ -104,7 +104,8 @@ const ServiceDetail = () => {
                         <div className="d-flex align-items-center gap-20">
                           {key === activeAccordion && (
                             <Link href="/contact" className="mil-hover-primary mil-text-sm fw-bold">
-                              ASK AN EXPERT
+                           
+                              {activeLocale ==='ar' ? "اسأل مختص " : "   ASK AN EXPERT"}
                             </Link>
                           )}
                           <div className="mil-symbol mil-h3 ">
@@ -117,7 +118,9 @@ const ServiceDetail = () => {
                       <div className="mil-mb-20 mil-text-lg"
                       dangerouslySetInnerHTML={{ __html: activeLocale === "ar" ? item.value.arabic : item.value.english }}
                     />
-                      {item.isSubService && (<div className="mil-button mil-button-sm mil-mb-25"><Link href={`/subservice/${item.id}`}>Read More</Link></div>)}
+                      {item.isSubService && (<div className="mil-button mil-button-sm mil-mb-25"><Link href={`/subservice/${item.id}`}>
+                      {activeLocale ==='ar' ? "المزيد " : "Read More"}
+                      </Link></div>)}
                       </div>
                       
                      

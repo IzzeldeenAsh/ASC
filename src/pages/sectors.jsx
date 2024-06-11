@@ -52,7 +52,7 @@ useEffect(() => {
   <div className="mil-dark-bg" >
       <PageBannerDark 
       pageTitle={activeLocale ==="ar" ? pageTitle.arabic : pageTitle.english} 
-      breadTitle={activeLocale ==='ar' ? breadTitle.arabic : arabic.english} 
+      breadTitle={activeLocale ==='ar' ? breadTitle.arabic : breadTitle.english} 
       anchorLabel={activeLocale ==='ar' ?anchorLabel.arabic : anchorLabel.english} 
       anchorLink={"#sectors"} />
 
@@ -86,7 +86,11 @@ useEffect(() => {
                                   <Link href={`/sectors/${item.id}`} className= "mil-service-card-lg mil-more mil-accent-cursor ">
                                       <h4 className="mil-muted mil-up mil-mb-10" dangerouslySetInnerHTML={{__html : activeLocale === 'en' ? item.preview_title.english :item.preview_title.arabic }} />
                                       <div className="mil-link mil-accent anchor-link mil-up">
-                                          <span>Discover</span>
+                                          <span>{
+                                            activeLocale ==="ar" ?
+                                            "اكتشف":
+                                            "Discover"
+                                            }</span>
                                       </div>
                                         </Link>
                               </div>

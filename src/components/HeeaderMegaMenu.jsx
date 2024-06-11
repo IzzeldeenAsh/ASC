@@ -130,7 +130,7 @@ export function HeaderMegaMenu() {
             links: generateLinks(aboutData.sections),
             footerText: {
                 english: 'Learn More About Us',
-                arabic: 'تعرف علينا'
+                arabic: 'تعرّف علينا'
             },
             footerDescription: {
                 english: 'Explore our mission, vision, and history to understand our journey and goals.',

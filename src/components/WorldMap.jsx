@@ -1,7 +1,22 @@
 import React from 'react'
 import Image from "next/image"
+import { useLocale } from '@/utils/getLocale';
+const strategicPlacesText = {
+  english: {
+    line1: "We are available in",
+    line2: "strategic locations",
+    line3: "Around the",
+    line4: "World!"
+  },
+  arabic: {
+    line1: "نحن متواجدون في",
+    line2: "مواقع استراتيجية",
+    line3: "حول",
+    line4: "العالم!"
+  }
+};
 const WorldMap = () => {
-    
+  const {activeLocale} = useLocale();
   return (
   <div className="world-map">
      <div className="pulse-background pulse-background-1"></div>
@@ -56,16 +71,34 @@ const WorldMap = () => {
        <div className='mil-text-xs'>info@alokabconsulting.com</div>
     </span>  */}
       </div>
-      <div className='strategic-places strategic-places-up'>
-        <span className='mil-text-sm  text-dark'>
-        We are availble in <strong>8</strong> strategic locations
-        </span>
+      <div>
+    <div className='strategic-places strategic-places-up'>
+      <span className='mil-text-sm text-dark'>
+        {activeLocale === 'ar' ? (
+          <>
+            {strategicPlacesText.arabic.line1} <strong>8</strong> {strategicPlacesText.arabic.line2}
+          </>
+        ) : (
+          <>
+            {strategicPlacesText.english.line1} <strong>8</strong> {strategicPlacesText.english.line2}
+          </>
+        )}
+      </span>
     </div>
     <div className='strategic-places strategic-places-down'>
-        <span className='mil-text-sm  text-dark'>
-        Around the <strong>World!</strong> 
-        </span>
+      <span className='mil-text-sm text-dark'>
+        {activeLocale === 'ar' ? (
+          <>
+            {strategicPlacesText.arabic.line3} <strong>{strategicPlacesText.arabic.line4}</strong>
+          </>
+        ) : (
+          <>
+            {strategicPlacesText.english.line3} <strong>{strategicPlacesText.english.line4}</strong>
+          </>
+        )}
+      </span>
     </div>
+  </div>
     
   </div>
   )

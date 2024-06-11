@@ -7,7 +7,6 @@ import aboutData from "@/src/data/sections/aboutUs.json";
 import data from "@data/sections/timeline.json";
 import Together from "@components/sections/Together";
 import CustomizedTimeline from "@components/mobile-timeline";
-import Link from "next/link";
 import ABLogoLight from "../layouts/svg-icons/AB-Logo-Light";
 const about = () => {
   const postData = aboutData;
