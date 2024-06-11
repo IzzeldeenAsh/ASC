@@ -31,8 +31,8 @@ const TeamSection = () => {
                     href={Data.button.link}
                     className="mil-button mil-arrow-place mil-mb-60"
                   >
-                    <span>{activeLocale ==="ar" ? Data.button.label.arabic : Data.button.label.english}</span>
-                    
+                    <span>
+                      {activeLocale ==="ar" ? Data.button.label.arabic : Data.button.label.english}</span>
                     <div
                       style={
                         activeLocale === "ar"
@@ -69,11 +69,10 @@ const TeamSection = () => {
                         <img src={item.image} alt={item.name} />
                         <div className="mil-description">
                           <div className="mil-secrc-text">
-                            <h6 className="mil-muted"  style={{"fontSize":"14px"}}>{item.name}</h6>
+                            <h6 className="mil-muted"  style={{"fontSize":"14px"}}>{ activeLocale ==="ar" ? item.name.arabic :item.name.english }</h6>
                             <p className="mil-link mil-light-soft mil-mb-10" style={{"fontSize":"12px"}}>
-                              {item.role}
+                              { activeLocale ==="ar" ? item.role.arabic :item.role.english}
                             </p>
-                          
                           </div>
                         </div>
                       </div>

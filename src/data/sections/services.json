@@ -11,70 +11,90 @@
             "title": {
                 "english": "Smart Cities and Mobility",
                 "arabic": "المدن الذكية والتنقل"
-              },
-            "text": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development.",
+            },
+            "text": {
+                "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development.",
+                "arabic": "نحن نستفيد من التقنيات الرئيسية والحلول الذكية للتنقل عبر تعقيدات تطوير المدن الذكية والتنقل."
+            },
             "link": "/services/service-1"
         },
         {
             "title": {
-                "english": "Digital  Transformation",
+                "english": "Digital Transformation",
                 "arabic": "التحول الرقمي"
-              },
-            "text": "We partner with clients to foster the needed digital culture.",
+            },
+            "text": {
+                "english": "We partner with clients to foster the needed digital culture.",
+                "arabic": "نحن نتعاون مع العملاء لتعزيز الثقافة الرقمية المطلوبة."
+            },
             "link": "/services/service-2"
         },
         {
             "title": {
-                "english": "Renewable Energy ",
+                "english": "Renewable Energy",
                 "arabic": "تحويل الطاقة المتجددة"
-              },
-            "text": "Facilitating organizations to harness the power of renewable energy.",
+            },
+            "text": {
+                "english": "Facilitating organizations to harness the power of renewable energy.",
+                "arabic": "تسهيل المنظمات للاستفادة من طاقة الطاقة المتجددة."
+            },
             "link": "/services/service-3"
         },
         {
             "title": {
                 "english": "Sustainable Manufacturing",
                 "arabic": "التصنيع المستدام"
-              },
-            "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
+            },
+            "text": {
+                "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies.",
+                "arabic": "شاملةً لسلسلة قيمة الزراعة بأكملها، يقوم خبراؤنا الزراعيون بتخصيص الاستراتيجيات."
+            },
             "link": "/services/service-4"
         },
         {
             "title": {
                 "english": "Agriculture",
                 "arabic": "الزراعة"
-              },
-            "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
+            },
+            "text": {
+                "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies.",
+                "arabic": "شاملةً لسلسلة قيمة الزراعة بأكملها، يقوم خبراؤنا الزراعيون بتخصيص الاستراتيجيات."
+            },
             "link": "/services/service-5"
         },
-        
         {
             "title": {
                 "english": "Operations",
                 "arabic": "العمليات"
-              },
-            "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
+            },
+            "text": {
+                "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies.",
+                "arabic": "شاملةً لسلسلة قيمة الزراعة بأكملها، يقوم خبراؤنا الزراعيون بتخصيص الاستراتيجيات."
+            },
             "link": "/services/service-6"
         },
         {
             "title": {
                 "english": "Entrepreneurship",
                 "arabic": "ريادة الأعمال"
-                
-                },
-            "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
+            },
+            "text": {
+                "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies.",
+                "arabic": "شاملةً لسلسلة قيمة الزراعة بأكملها، يقوم خبراؤنا الزراعيون بتخصيص الاستراتيجيات."
+            },
             "link": "/services/service-7"
         },
         {
             "title": {
                 "english": "Business & Organizations",
                 "arabic": "الأعمال والمؤسسات"
-                
-                },
-            "text": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies",
+            },
+            "text": {
+                "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies.",
+                "arabic": "شاملةً لسلسلة قيمة الزراعة بأكملها، يقوم خبراؤنا الزراعيون بتخصيص الاستراتيجيات."
+            },
             "link": "/services/service-8"
         }
-
-
     ]
+    
 }

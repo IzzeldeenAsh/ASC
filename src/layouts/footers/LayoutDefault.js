@@ -13,20 +13,32 @@ const DefaultFooter = ( { extraClass } ) => {
     {/* footer */}
     <footer className="mil-dark-bg footer" >
         <div className="mi-invert-fix">
-            <div className="container footer-container" >
+            <div className="container footer-container" style={{ direction: 'ltr'}} >
                 <div className="row justify-content-between">
                     <div className="col-md-4 col-lg-4 mil-mb-10 col-12">
                         <Link href={"/"} className="mil-muted mil-logo mil-mb-30 footer-logo">{AppData.footer.logo.text}</Link>
                         <div className="mil-mb-30"></div>
                        
-                                <div className="mil-light-soft mil-text-xs footer-location">
-                                        <span className="text-primary">
-                                            USA (Headquarters):</span>
-                                            <br></br>
-                                            Delaware, Wilmington - Downtown 1000 N.
-                                            <br></br> 
-                                            West Street. Suite 1200. Wilmington.19801
-                                            </div>
+                        <div className="mil-light-soft mil-text-xs footer-location">
+    {activeLocale === 'ar' ? (
+        <>
+            <span className="text-primary">الولايات المتحدة الأمريكية: (المقر الرئيسي)</span>
+            <br />
+            .ديلاوير، ويلمنجتون - وسط المدينة 1000 N
+            <br />
+            شارع ويست. جناح 1200. ويلمنجتون. 19801
+        </>
+    ) : (
+        <>
+            <span className="text-primary">USA (Headquarters):</span>
+            <br />
+            Delaware, Wilmington - Downtown 1000 N.
+            <br />
+            West Street. Suite 1200. Wilmington.19801
+        </>
+    )}
+</div>
+
                       
                     </div>
                     <div className="col-md-2 col-lg-2 col-12" style={{marginTop:'auto'}}>
@@ -40,7 +52,13 @@ const DefaultFooter = ( { extraClass } ) => {
                                     <ul >
                                         {AppData.header.menu.map((item, key) => (
                                         <li key={`footer-menu-item-${key}`} className={((asPath.indexOf( item.link ) != -1 && item.link != '/' ) || asPath == item.link ) ? "mil-active" : ""}>
-                                            <Link href={item.link}>{item.label}</Link>
+                                            <Link href={item.link}>
+                                                {
+                                                activeLocale ==='ar' ?
+                                                item.label.arabic :
+                                                item.label.english
+                                            }
+                                            </Link>
                                         </li>
                                         ))}
                                     </ul>
@@ -48,12 +66,28 @@ const DefaultFooter = ( { extraClass } ) => {
                         <div className="mil-mb-30"></div>
                        
                                 <div className="mil-light-soft mil-text-xs copy-right" >
-                                        <span >{AppData.footer.copy}</span>
+                                        <span >{
+                                            activeLocale ==='ar' ?
+                                            AppData.footer.copy.arabic:
+                                            AppData.footer.copy.english
+                                        
+                                      }</span>
                                         <br></br>
                                             <span>
-                                                <Link href="/"> Terms & Conditions</Link>
+                                                <Link href="/">  
+                                                {
+                                                    activeLocale ==='ar' ?
+                                                    "شروط الاستخدام" :
+                                                   "Terms & Conditions"
+                                                } </Link>
                                                 <span> | </span>
-                                                <Link href="/">  Privacy Policy</Link>
+                                                <Link href="/"> 
+                                              {
+                                                  activeLocale ==='ar' ?
+                                                  "سياسة الخصوصية " :
+                                                 "Privacy Policy"
+                                              }
+                                                    </Link>
                                             
                                             </span>
                                 </div>

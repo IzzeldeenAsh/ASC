@@ -11,9 +11,21 @@ import sectorsData from "@data/dummy/sectors.json"
 import {  TextInput } from '@mantine/core';
 import { IoIosSearch } from "react-icons/io";
 const Sectors = () => {
-const {activeLocale , t} = useLocale();
+const {activeLocale} = useLocale();
 const [isMounted,setIsMounted] = useState(false); // Need this for the react-tooltip
 const [searchTerm,setSearchTerm] = useState('');
+const pageTitle ={
+  english: "Sectors List",
+  arabic: "قائمة القطاعات"
+}
+const breadTitle={
+  english: "Sectors",
+  arabic: "القطاعات"
+}
+const anchorLabel= {
+  english: "Our sectors",
+  arabic: "قطاعاتنا"
+}
 const props = sectorsData.sectors.sort((a, b) => b.list.items.length - a.list.items.length);
 const filteredProps = props.filter(sector => {
    
@@ -38,7 +50,11 @@ useEffect(() => {
         </div>
   {/* banner */}
   <div className="mil-dark-bg" >
-      <PageBannerDark pageTitle={"Sectors List"} breadTitle={"Sectors"} anchorLabel={"Our sectors"} anchorLink={"#sectors"} />
+      <PageBannerDark 
+      pageTitle={activeLocale ==="ar" ? pageTitle.arabic : pageTitle.english} 
+      breadTitle={activeLocale ==='ar' ? breadTitle.arabic : arabic.english} 
+      anchorLabel={activeLocale ==='ar' ?anchorLabel.arabic : anchorLabel.english} 
+      anchorLink={"#sectors"} />
 
       {/* services */}
       <section id="sectors" className="mil-p-0-90">
@@ -46,7 +62,7 @@ useEffect(() => {
            <div className="search-bar mil-up">
            <TextInput 
          onChange={(e) => setSearchTerm(e.target.value)}
-            label="Search"
+            label={activeLocale ==='ar' ? "البحث" : "Search"}
             leftSection={<IoIosSearch />}
             styles={(theme) => ({
         input: {

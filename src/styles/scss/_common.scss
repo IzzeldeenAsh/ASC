@@ -1256,7 +1256,7 @@ body[dir="rtl"]{
     }
 }
 .mil-logo{
-    opacity: 0;
+    opacity: 1;
     margin-inline-end: 10px;
     @media screen and (max-width:1200px) {
         opacity: 1;
@@ -1300,16 +1300,12 @@ body[dir="rtl"]{
    
     
 }
-// .topBannerOverlay{
-//     position: absolute;
-//     opacity: 0.4;
-//     top: 0;
-//     left: 0;
-//     right: 0;
-//     height: 80px;
-//     background: rgb(0,0,1);
-//     background: -moz-linear-gradient(0deg, rgba(0,0,1,0) 0%, rgba(0,0,0,0.6) 100%);
-//     background: -webkit-linear-gradient(0deg, rgba(0,0,1,0) 0%, rgba(0,0,0,0.6) 100%);
-//     background: linear-gradient(0deg, rgba(0,0,1,0) 0%, rgba(0,0,0,0.6) 100%);
-//     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000001",endColorstr="#000000",GradientType=1);
-// }
+
+
+body[dir="rtl"] .left-right-arrow{
+transform: rotate(180deg);
+}
+
+body[dir="ltr"] .left-right-arrow{
+transform: rotate(0deg);
+}

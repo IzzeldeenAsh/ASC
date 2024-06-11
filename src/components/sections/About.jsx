@@ -19,7 +19,10 @@ const AboutSection = () => {
                                
                             </div>
                             <div className="mil-up">
-                            <Link href={Data.button.link} className="mil-button mil-arrow-place mil-mb-60"><span>{Data.button.label}</span>
+                            <Link href={Data.button.link} className="mil-button mil-arrow-place mil-mb-60"><span>{
+                            activeLocale ==='ar' ? Data.button.label.arabic : Data.button.label.english
+                            }</span>
+
                             <div style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)' , 'display' : 'flex'} : {'transform' : 'rotate(0deg)' ,'display' : 'flex'}} >
                                 <ArrowIcon  />
                                 </div>

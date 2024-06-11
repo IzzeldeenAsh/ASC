@@ -2,7 +2,7 @@ import React from 'react'
 const ABQuoations = (side) => {
   const direction = side === 'right' ? 'rotateZ(180deg)' :'rotateZ(0deg)'
     return (
-        <div className='ab-quoations mil-up' style={{width:'20px',transform:direction}}>
+        <div className=' ab-quoations mil-up' style={{width:'20px',transform: direction}}>
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 791.29 791.3">
             <defs>
               <style>{`.cls-1 { fill: #f5d74c; strokeWidth: 0px; }`}</style>

@@ -93,9 +93,18 @@ const DefaultHeader = ({ extraClass }) => {
                       {navItems.map((item, key) => (
                         <li className={item.classes} key={`header-menu-item-${key}`} onClick={() => handelTabClicked(item.link)}>
                           {["/services", "/sectors", "/about"].includes(item.link) ? (
-                            <div className={getClassName(item.link)}>{item.label}</div>
+                            <div className={getClassName(item.link)}>{
+                              activeLocale ==='ar' ?
+                              item.label.arabic:
+                              item.label.english
+                             }</div>
                           ) : (
-                            <Link href={item.link}>{item.label}</Link>
+                            <Link href={item.link}>{
+                             
+                              activeLocale ==='ar' ?
+                               item.label.arabic:
+                               item.label.english
+                              }</Link>
                           )}
                         </li>
                       ))}
@@ -150,7 +159,9 @@ const DefaultHeader = ({ extraClass }) => {
       <div className="mil-curtain" />
       <div className="mil-frame">
         <div className="mil-frame-top">
-          <Link href={AppData.header.logo.link} className="mil-logo">A&B</Link>
+          <Link href={AppData.header.logo.link} className="mil-logo ">
+            <span className="d-block d-xl-none">A&B</span>
+            </Link>
           <div style={{ display: "flex", gap: "20px" }}>
           <SearchBar/>
             <LanguageSwitch />

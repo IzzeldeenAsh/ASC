@@ -50,7 +50,7 @@ const ServicesSection = () => {
               <div  className="anchor-link ">
                 <Link href="/services" className="d-flex align-items-center">
                <div >{t("seeAll")}</div>
-                <div className="d-flex align-items-center"><IconArrowNarrowRight color="#336AEA"/></div>
+                <div className="d-flex align-items-center left-right-arrow"><IconArrowNarrowRight color="#336AEA"/></div>
                 </Link>
               </div>
             </div>
@@ -76,11 +76,15 @@ const ServicesSection = () => {
                     </div>
                     <h5
                       className=" mil-mb-30"
-                      dangerouslySetInnerHTML={{ __html: item.title.english }}/>
+                      dangerouslySetInnerHTML={{ __html: activeLocale ==='en'? item.title.english :item.title.arabic }}/>
                     <div className="quotations" style={activeLocale ==='ar' ? {transformOrigin:'100%'} : {transformOrigin:'0%'}}><ABQuoations side={'right'}/></div>
-                      <p className="mil-mb-30">{item.text}</p>
+                      <p className="mil-mb-30">{
+                      activeLocale ==='en'? item.text.english :item.text.arabic
+                      }</p>
                    <div className="d-flex align-items-center gap-10">
-                   <span className="mil-text-xs discover"> Discover</span>
+                   <span className="mil-text-xs discover"> 
+                   {activeLocale ==='en'? 'Discover' :'اكتشف'}
+                   </span>
                     <div className="mil-button mil-icon-button-sm mil-arrow-place">
                      
                       <div

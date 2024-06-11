@@ -7,7 +7,7 @@ import { useLocale } from "@/utils/getLocale";
 
 
 const TestimonialSlider = () => {
-  const {activeLocale , t} = useLocale();
+  const {activeLocale } = useLocale();
   return (
     <>
       {/* reviews */}
@@ -16,11 +16,15 @@ const TestimonialSlider = () => {
 
               <div className="row">
                   <div className="col-lg-10">
-                      <span     style={{opacity: "0.7"}} className="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
+                      <span     style={{opacity: "0.7"}} className="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up" dangerouslySetInnerHTML={{__html : 
+                      activeLocale ==='ar' ?   Data.subtitle.arabic : Data.subtitle.english 
+                        }} />
                   </div>
               </div>
 
-              <h2 className="mil-center mil-up mil-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
+              <h2 className="mil-center mil-up mil-mb-60" dangerouslySetInnerHTML={{__html :
+                 activeLocale ==='ar' ?    Data.title.arabic :  Data.title.english 
+                 }} />
 
               <div className="mil-revi-pagination mil-up mil-mb-60" />
 
@@ -51,9 +55,18 @@ const TestimonialSlider = () => {
                         {Data.items.map((item, key) => (
                         <SwiperSlide className="swiper-slide" key={`testimonial-slider-item-${key}`}>
                           <div className="mil-review-frame mil-center" data-swiper-parallax="-200" data-swiper-parallax-opacity="0">
-                              <h5 className="mil-up mil-mb-10">{item.name}</h5>
-                              <p className="mil-mb-5 mil-upper mil-up mil-mb-30">{item.role}</p>
-                              <p className="mil-text-xl mil-up">{item.text}</p>
+                              <h5 className="mil-up mil-mb-10">{
+                                  activeLocale ==='ar' ?       item.name.arabic :     item.name.english 
+                           
+                              
+                              }</h5>
+                              <p className="mil-mb-5 mil-upper mil-up mil-mb-30">
+                                {
+                                   activeLocale ==='ar' ?       item.role.arabic :     item.role.english 
+                                }</p>
+                              <p className="mil-text-xl mil-up">{
+                                                 activeLocale ==='ar' ?        item.text.arabic :      item.text.english 
+                             }</p>
                           </div>
                         </SwiperSlide>
                         ))}

@@ -15,7 +15,10 @@
     "subtitle": "Passionately Creating <span class=\"mil-thin\">Design Wonders:</span> Unleashing <span class=\"mil-thin\">Boundless Creativity</span>",
     "button":{
         "link": "/about",
-        "label": "Read more"
+        "label": {
+            "english":"Read more",
+            "arabic" : "المزيد"
+        }
     },
     "sections":[
         {
