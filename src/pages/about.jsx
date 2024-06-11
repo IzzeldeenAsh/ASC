@@ -60,7 +60,19 @@ const about = () => {
       </section>
      
       <section id="timeline" >
-      <div style={{backgroundColor:"#f2f2f2"}}> <h2 className="mil-center  mil-p-60-0"> <span className="mil-thin">Our</span> History</h2></div>
+      <div style={{backgroundColor:"#f2f2f2"}}> 
+     {activeLocale ==='ar' ? 
+     <h2 className="mil-center  mil-p-60-0">
+      تاريخنا
+     
+     </h2> 
+     :
+     <h2 className="mil-center  mil-p-60-0">
+     <span className="mil-thin">Our</span> History
+     
+     </h2>
+    }
+      </div>
       
    <div className="d-flex">
    {
