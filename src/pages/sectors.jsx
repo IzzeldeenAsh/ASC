@@ -2,11 +2,12 @@ import PageBannerDark from "@components/PageBannerDark";
 import Layouts from "@layouts/Layouts";
 import CallToActionSection from "@components/sections/CallToAction";
 import Link from "next/link";
-import { IconArrowNarrowRight } from '@tabler/icons-react';
+import { IoMdArrowDropright } from 'react-icons/io';
 import ABLogoLight from"@layouts/svg-icons/AB-Logo-Light"
-import ArrowIcon from "@layouts/svg-icons/Arrow";
+import Truncate from "@components/Truncate";
 import { useLocale } from "@/utils/getLocale";
 import { useState , useEffect} from "react";
+import ArrowIcon from "@layouts/svg-icons/Arrow";
 import sectorsData from "@data/dummy/sectors.json"
 import {  TextInput } from '@mantine/core';
 import { IoIosSearch } from "react-icons/io";
@@ -85,14 +86,40 @@ useEffect(() => {
                               <div className="col-md-4 col-lg-4 mil-mb-60 " key={`sectors-item-${key}`}>
                                   <Link href={`/sectors/${item.id}`} className= "mil-service-card-lg mil-more mil-accent-cursor ">
                                       <h4 className="mil-muted mil-up mil-mb-10" dangerouslySetInnerHTML={{__html : activeLocale === 'en' ? item.preview_title.english :item.preview_title.arabic }} />
-                                      <div className="mil-link mil-accent anchor-link mil-up">
-                                          <span>{
-                                            activeLocale ==="ar" ?
-                                            "اكتشف":
-                                            "Discover"
-                                            }</span>
-                                      </div>
+                                   
                                         </Link>
+                                        <p className="mil-descr mil-light-soft mil-up mil-mb-30" >
+                                       {  activeLocale === 'en' ?
+ <Truncate text={item.description.content.english} maxLength={120} /> 
+ :
+ <Truncate text={item.description.content.arabic} maxLength={120} /> }
+                                      </p>
+                                      <ul className="mil-service-list mil-light mil-mb-30">
+                                        {item.list.items.map((list_item, list_key) => (
+                                          <li className="mil-up" key={`services-item-list-${list_key}`}>
+                                                <Link key={list_key} href={`/subservice/${list_item.id}`}   className="mil-light-soft">
+                                                  <div className="d-flex align-items-center sub-service">
+                                              <IoMdArrowDropright  className="left-right-arrow"/>
+                                                { activeLocale === 'en' ? list_item.label.english :list_item.label.arabic }
+                                                </div>
+                                          </Link>
+                                          </li>
+                                      
+                                        ))}
+                                      </ul>
+                                      <Link href={`/sectors/${item.id}`}>
+                                      <div className="mil-link mil-accent mil-arrow-place mil-up">
+                                          <span>{
+                                             activeLocale ==="ar" ?
+                                             "اكتشف":
+                                             "Discover"
+                                             }
+                                             </span>
+                                          <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                                          <ArrowIcon  />
+                                          </div>
+                                      </div>
+                                      </Link>
                               </div>
                               ))}
                           </div>

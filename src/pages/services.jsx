@@ -10,7 +10,7 @@ import { useState , useEffect} from "react";
 import servicesData from "@data/dummy/services.json"
 import {  TextInput } from '@mantine/core';
 import { IoIosSearch } from "react-icons/io";
-import { Select } from '@mantine/core';
+import Truncate from "@components/Truncate";
 const Services = () => {
 const {activeLocale , t} = useLocale();
 const pageTitle ={
@@ -91,7 +91,12 @@ useEffect(() => {
                                   <Link href={`/services/${item.id}`} className= "mil-service-card-lg mil-more mil-accent-cursor ">
                                       <h4 className="mil-muted mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale === 'en' ? item.preview_title.english :item.preview_title.arabic }} />
                                       </Link>
-                                      <p className="mil-descr mil-light-soft mil-up mil-mb-30">{ activeLocale === 'en' ? item.short.english :item.short.arabic }</p>
+                                      <p className="mil-descr mil-light-soft mil-up mil-mb-30">
+                                        { activeLocale === 'en' ?
+                                         <Truncate text={item.description.content.english} maxLength={120} /> 
+                                         :
+                                         <Truncate text={item.description.content.arabic} maxLength={120} /> }
+                                      </p>
                                       <ul className="mil-service-list mil-light mil-mb-30">
                                         {item.list.items.map((list_item, list_key) => (
                                           
@@ -99,7 +104,7 @@ useEffect(() => {
                                           <li className="mil-up" key={`services-item-${key}-list-${list_key}`}>
                                                 <Link key={list_key} href={`/services/${item.id}?section=${list_item.id}&sectionKey=${list_key}`}   className="mil-light-soft">
                                                   <div className="d-flex align-items-center sub-service">
-                                              <IoMdArrowDropright />
+                                                  <IoMdArrowDropright  className="left-right-arrow"/>
                                                 { activeLocale === 'en' ? list_item.label.english :list_item.label.arabic }
                                                 </div>
                                           </Link>
@@ -108,6 +113,7 @@ useEffect(() => {
                                       
                                         ))}
                                       </ul>
+                                      <Link href={`/services/${item.id}`}>
                                       <div className="mil-link mil-accent mil-arrow-place mil-up">
                                           <span>{
                                              activeLocale ==="ar" ?
@@ -116,9 +122,11 @@ useEffect(() => {
                                              }
                                              </span>
                                           <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
-                        <ArrowIcon  />
-                        </div>
+                                          <ArrowIcon  />
+                                          </div>
                                       </div>
+                                      </Link>
+                                     
                                  
                               </div>
                               ))}
