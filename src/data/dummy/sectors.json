@@ -284,10 +284,71 @@
       },
       "list": {
         "title": {
-          "english": "",
-          "arabic": ""
+          "english": "How we can help",
+          "arabic": "كيف يمكننا المساعدة"
         },
-        "items": []
+        "items": [
+          {
+            "id" :"s2-digitized-operations",
+            "label": {
+              "english": "Digitized Operations",
+    "arabic": "العمليات المرقمة"
+            },
+            "value": {
+              "english": "Our digital transformation experts work with organizations to define the most effective digital strategy that will enable them drive the needed digital growth that would result in an evolved business model and getting their operation to a higher level of efficiency.</div><br><div>Digital transformation is more than just getting the latest technology. Transforming into a data-driven organization requires that organizations integrate technology in operations throughout the value chain, aiming at an enhanced customer experience and meeting the digitally evolving demands. A&B experts thoroughly examine the operational chain as they redesign with the organization the digitized operating model that will help them maintain a competitive edge.",
+              "arabic": "يعمل خبراؤنا في التحول الرقمي مع المنظمات لتحديد الاستراتيجية الرقمية الأكثر فعالية التي ستمكنها من دفع النمو الرقمي اللازم الذي سيؤدي إلى نمو نموذج عمل تطوري وجعل عمليتها أكثر كفاءة.</div><br><div>التحول الرقمي أكثر من مجرد الحصول على أحدث التكنولوجيا. يتطلب التحول إلى منظمة مدفوعة بالبيانات أن تدمج المنظمات التكنولوجيا في العمليات عبر سلسلة القيمة بأكملها، بهدف تحسين تجربة العملاء وتلبية الطلبات التي تتطور رقمياً. يفحص خبراء A&amp;B بعناية سلسلة العمليات بينما يعيدون تصميم نموذج العمل الرقمي مع المنظمة الذي سيساعدهم على الحفاظ على تفوق تنافسي."
+            }
+          },
+          {
+            "id": "s2-digital-culture",
+            "label": {
+              "english": "Digital Culture",
+              "arabic": "الثقافة الرقمية"
+            },
+            "value": {
+              "english": "To create value through digital transformation, we partner with clients to foster the needed digital culture that will positively impact your operations, leaving it optimized, agile and customer-centric. To change an organization’s culture is not easy, and for an organization to transform to the must-prevail digital culture our experts tailor the solutions that fit best the organization's unique requisites to stay competitive. That's why we help organizations adapt to and manage the rapidly changing business environment where the deployed technology is put into action to drive impact.</div><br><div>At A&B, we emphasize the important role stakeholders can play in enhancing the behaviors and mindsets of employees to promote digital transformation, where innovative, collaborative and data-driven culture dominates the scene while putting the customer at the heart of the digital transformation journey.",
+              "arabic": "لإنشاء قيمة من خلال التحول الرقمي، نتشارك مع العملاء لتعزيز الثقافة الرقمية اللازمة التي ستؤثر إيجابًا على عملياتك، مما يجعلها محسنة ومرنة ومتمركزة حول العميل. لتغيير ثقافة المنظمة ليس أمرًا سهلاً، ولكي تتحول المنظمة إلى الثقافة الرقمية اللازمة للتفوق يُخصص خبراؤنا الحلول التي تناسب أفضل متطلبات المنظمة الفريدة للبقاء تنافسية. لهذا السبب نساعد المنظمات على التكيف مع وإدارة البيئة التجارية المتغيرة بسرعة حيث يتم تنفيذ التكنولوجيا المستخدمة لتحقيق الأثر.</div><br><div>في A&B، نؤكد على الدور المهم الذي يمكن أن يلعبه أصحاب المصلحة في تعزيز سلوكيات ومواقف الموظفين لتعزيز التحول الرقمي، حيث تسود الثقافة المبتكرة والتعاونية والمدفوعة بالبيانات المشهد بينما يتم وضع العميل في قلب رحلة التحول الرقمي."
+            }
+          }
+          ,
+          {
+            "id": "s2-ai-analytics",
+            "label": {
+              "english": "AI Analytics and Business Development",
+              "arabic": "تحليلات الذكاء الاصطناعي وتطوير الأعمال"
+            },
+            "value": {
+              "english": "How AI has changed the way big data is managed has been a remarkable advancement businesses need to consider to stay ahead of the market. To align the best AI strategy and analytics with business objectives, our expert consultants work with our clients to unlock the potential of multi-source data trends to facilitate optimized operation, enhanced customer satisfaction and maintain their competitive advantage. Data-driven decision-making will undoubtedly contribute to the development of organizations. Through AI-driven analytics, organizations can employ the right AI technology that will help them gain valuable business insights from data.",
+              "arabic": "كيف غيرت الذكاء الاصطناعي طريقة إدارة البيانات الكبيرة، هذه التطور الملحوظ يجب على الشركات النظر فيه للبقاء في المقدمة في السوق. لمواكبة أفضل استراتيجية للذكاء الاصطناعي وتحليلات البيانات مع الأهداف التجارية، يعمل مستشارونا الخبراء مع عملائنا لاستغلال إمكانات اتجاهات البيانات المتعددة المصادر لتيسير العمليات المحسنة، وزيادة رضا العملاء والحفاظ على تفوقهم التنافسي. ستسهم اتخاذ القرارات المستندة إلى البيانات بلا شك في تطوير المنظمات. من خلال تحليلات الذكاء الاصطناعي، يمكن للمنظمات استخدام التكنولوجيا الصحيحة من الذكاء الاصطناعي التي ستساعدهم على الحصول على رؤى تجارية قيمة من البيانات."
+            }
+          }
+          ,
+          {
+            "id": "s-cybersecurity-protection",
+            "label": {
+              "english": "Cybersecurity and Digital Protection",
+              "arabic": "الأمن السيبراني والحماية الرقمية"
+            },
+            "value": {
+              "english": "We help organizations embrace digital transformation while we highlight the risks that might come along the way. A&B offers a comprehensive suite of cybersecurity consulting services aimed at safeguarding organizations' digital assets against evolving digital threats. As some threats are hard to predict, understanding, recognizing and being prepared for such risks is the definition of digital resilience. Our experts work in collaboration with clients to put in place the needed robust and effective security strategy that will help them assess and mitigate risks, and detect and respond to threats to preserve their business",
+              "arabic": "نساعد المنظمات على تبني التحول الرقمي بينما نسلط الضوء على المخاطر التي قد تعترض الطريق. تقدم A&B مجموعة شاملة من خدمات استشارات الأمن السيبراني التي تهدف إلى حماية أصول المنظمات الرقمية ضد التهديدات الرقمية المتطورة. نظرًا لأن بعض التهديدات صعبة التنبؤ بها، فإن فهم والتعرف والاستعداد لمثل هذه المخاطر هو تعريف المرونة الرقمية. يعمل خبراؤنا بالتعاون مع العملاء لوضع الاستراتيجية الأمنية القوية والفعالة اللازمة التي ستساعدهم على تقييم وتخفيف المخاطر، وكشف والاستجابة للتهديدات للحفاظ على قيمة أعمالهم."
+            }
+          }
+          ,
+          {
+            "id": "s-data-security-privacy",
+            "label": {
+              "english": "Data Security and Privacy",
+      "arabic": "أمان البيانات والخصوصية"
+            },
+            "value": {
+              "english": "Being fully aware of how crucial it is for organizations to protect their data from various data breaches, A&B always highlights the importance of incorporating data security management early on in the development process. Clients entrust organizations with their valuable information and expect organizations to maintain it. Therefore, our consultant experts aim at providing organizations with data security strategies and insights that help set up the right defense mechanisms across the organization to maintain its reputation and competitive edge.",
+              "arabic": "بوعي تام بمدى أهمية حماية البيانات للمنظمات من مختلف انتهاكات البيانات، يسلط A&B دائمًا الضوء على أهمية دمج إدارة أمان البيانات في وقت مبكر في عملية التطوير. يثق العملاء المنظمات بمعلوماتهم الثمينة ويتوقعون من المنظمات الحفاظ عليها. لذلك، تهدف خبراؤنا الاستشاريون إلى تزويد المنظمات باستراتيجيات ورؤى أمان البيانات التي تساعد في إقامة آليات الدفاع الصحيحة في جميع أنحاء المنظمة للحفاظ على سمعتها وتفوقها التنافسي."
+            }
+          }
+          
+          
+        ]
       },
       "keywords": [
         "digital transformation",
@@ -632,10 +693,35 @@
       },
       "list": {
         "title": {
-          "english": "",
-          "arabic": ""
+          "english": "How we can help",
+          "arabic": "كيف يمكننا المساعدة"
         },
-        "items": []
+        "items": [
+          {
+            "id" :"s5-agriculture-markets",
+            "label": {
+              "english": "Agriculture Markets",
+              "arabic": "أسواق الزراعة"
+            },
+            "value": {
+              "english": "To be the tallest sunflower in the field, we can never emphasize enough the importance of identifying the right potential markets for your product before you plant your seeds of success. Researching the demand for a certain product requires a robust analysis of the potential market demographics and consumer behavior patterns data. A&B gap analysis will uncover the pathway to becoming distinguished among competitors of similar agricultural products and help your agriculture business stand out and flourish. ",
+              "arabic": "لتكون أطول دوار الشمس في الحقل، لا يمكننا التأكيد بما فيه الكفاية على أهمية تحديد الأسواق المحتملة المناسبة لمنتجك قبل أن تزرع بذور النجاح. يتطلب بحث الطلب عن منتج معين تحليلًا قويًا لبيانات الديموغرافيا وأنماط سلوك المستهلكين في السوق المحتملة. سيكشف تحليل الفجوة بين الأهداف (A&B) عن المسار لتحقيق التميز بين منافسين لمنتجات زراعية مماثلة ويساعد عملك الزراعي على التألق والازدهار."
+            },
+            "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718172999/2806_wyh2sz.webp"
+          },
+          {
+            "id": "s5-agriTech",
+            "label": {
+              "english": "AgriTech",
+              "arabic": "التقنية الزراعية"
+            },
+            "value": {
+              "english": "No matter what the challenges may be, utilizing the most suitable technology will definitely take your efficiency and yield to another level. Agritech Innovation is constantly accelerating encompassing new technologies such as AI, machine learning and blockchain. A&B Agritech experts are always ahead of the curve and work closely with clients as they craft the strategy that will make them benefit the most from the adopted technology.",
+              "arabic": "مهما كانت التحديات، فإن استخدام التكنولوجيا الأنسب سيأخذ بك بالتأكيد إلى مستوى جديد من الكفاءة والإنتاجية. إن الابتكار في مجال التكنولوجيا الزراعية يتسارع باستمرار، ويشمل تقنيات جديدة مثل الذكاء الاصطناعي وتعلم الآلة والبلوكتشين. يكون خبراء A&B في التكنولوجيا الزراعية دائمًا في مقدمة الحدث ويعملون عن كثب مع العملاء أثناء صياغة الاستراتيجية التي ستجعلهم يستفيدون الأكثر من التكنولوجيا المعتمدة."
+            },
+            "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718172728/4673_mh0ogf.webp"
+          }
+        ]
       },
       "keywords": [
         "agriculture",

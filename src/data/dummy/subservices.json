@@ -362,7 +362,7 @@
     "english": "Digitized Operations",
     "arabic": "العمليات المرقمة"
   },
-  "image": "",
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718174483/2150041850_lnhlaf.webp",
   "sector":[
     {
       "id":"sector-3",
@@ -444,7 +444,7 @@
       "english": "Digital Culture",
       "arabic": "الثقافة الرقمية"
   },
-  "image": "",
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718174844/6543_wrqhl7.webp",
   "sector":[
     {
       "id":"sector-3",
@@ -733,11 +733,11 @@
 },
 {
   "id": "s5-agriculture-markets",
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718172999/2806_wyh2sz.webp",
   "title": {
       "english": "Agriculture Markets",
       "arabic": "أسواق الزراعة"
   },
-  "image": "",
   "sector": [
       {
           "id": "sector-8",
@@ -795,11 +795,11 @@
 ,
 {
   "id": "s5-agriTech",
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718172728/4673_mh0ogf.webp",
   "title": {
       "english": "AgriTech",
       "arabic": "التقنية الزراعية"
   },
-  "image": "",
   "sector": [
       {
           "id": "sector-8",
