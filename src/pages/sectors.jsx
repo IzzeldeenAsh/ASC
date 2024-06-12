@@ -94,7 +94,7 @@ useEffect(() => {
  :
  <Truncate text={item.description.content.arabic} maxLength={120} /> }
                                       </p>
-                                      <ul className="mil-service-list mil-light mil-mb-30">
+                                      {/* <ul className="mil-service-list mil-light mil-mb-30">
                                         {item.list.items.map((list_item, list_key) => (
                                           <li className="mil-up" key={`services-item-list-${list_key}`}>
                                                 <Link key={list_key} href={`/subservice/${list_item.id}`}   className="mil-light-soft">
@@ -106,7 +106,7 @@ useEffect(() => {
                                           </li>
                                       
                                         ))}
-                                      </ul>
+                                      </ul> */}
                                       <Link href={`/sectors/${item.id}`}>
                                       <div className="mil-link mil-accent mil-arrow-place mil-up">
                                           <span>{
