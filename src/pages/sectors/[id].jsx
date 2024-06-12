@@ -11,6 +11,7 @@ import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
 import ABLogoLight from "@layouts/svg-icons/AB-Logo-Light";
 import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
 import PaginatedBlog from "@components/PaginatedBlog"
+import Truncate from "@/src/components/Truncate";
 const SectorDetail = () => {
   const { activeLocale } = useLocale();
   const router = useRouter();
@@ -125,8 +126,8 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
                           </h5>
                           <p className="mil-up mil-mb-30">
                             {activeLocale === "ar"
-                              ? item.value.arabic
-                              : item.value.english}
+                              ? <Truncate text={item.value.arabic} maxLength={70} />
+                              : <Truncate text={item.value.english} maxLength={70} />}
                           </p>
                           <div className="mil-link mil-dark mil-arrow-place mil-up">
                             <span>

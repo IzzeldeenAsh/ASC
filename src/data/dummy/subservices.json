@@ -132,7 +132,7 @@
         "arabic" :  "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       },
       "introTitle":{
-        "english" :  "Leadership <span class=\"mil-thin\">and</span>  Talent Development ",
+        "english" :  "Leadership <span class=\"mil-thin\">and <br> Talent</span>   Development ",
         "arabic" : "Leadership <span class=\"mil-thin\">and</span>  Talent Development "
       },
       "gallery": {
@@ -362,7 +362,7 @@
     "english": "Digitized Operations",
     "arabic": "العمليات المرقمة"
   },
-  "image": "",
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718174483/2150041850_lnhlaf.webp",
   "sector":[
     {
       "id":"sector-3",
@@ -444,7 +444,7 @@
       "english": "Digital Culture",
       "arabic": "الثقافة الرقمية"
   },
-  "image": "",
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718174844/6543_wrqhl7.webp",
   "sector":[
     {
       "id":"sector-3",
@@ -530,7 +530,7 @@
       "english": "AI Analytics and Business Development",
       "arabic": "تحليلات الذكاء الاصطناعي وتطوير الأعمال"
   },
-  "image": "",
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718175591/10264_daljqx.webp",
   "sector":[
     {
       "id":"sector-3",
@@ -550,7 +550,7 @@
       "arabic": "<div>كيف غيرت الذكاء الاصطناعي طريقة إدارة البيانات الكبيرة، هذه التطور الملحوظ يجب على الشركات النظر فيه للبقاء في المقدمة في السوق. لمواكبة أفضل استراتيجية للذكاء الاصطناعي وتحليلات البيانات مع الأهداف التجارية، يعمل مستشارونا الخبراء مع عملائنا لاستغلال إمكانات اتجاهات البيانات المتعددة المصادر لتيسير العمليات المحسنة، وزيادة رضا العملاء والحفاظ على تفوقهم التنافسي. ستسهم اتخاذ القرارات المستندة إلى البيانات بلا شك في تطوير المنظمات. من خلال تحليلات الذكاء الاصطناعي، يمكن للمنظمات استخدام التكنولوجيا الصحيحة من الذكاء الاصطناعي التي ستساعدهم على الحصول على رؤى تجارية قيمة من البيانات.</div>"
   },
   "introTitle": {
-      "english": "AI Analytics <span class=\"mil-thin\">and</span> <br>  Business Development",
+      "english": "AI Analytics <span class=\"mil-thin\">and   <br>Business</span>   Development",
       "arabic": "تحليلات الذكاء الاصطناعي <span class=\"mil-thin\">و</span> <br>  تطوير الأعمال"
   },
   "gallery": {
@@ -601,7 +601,7 @@
       "english": "Cybersecurity and Digital Protection",
       "arabic": "الأمن السيبراني والحماية الرقمية"
   },
-  "image": "",
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718175690/1066_lra1vr.webp",
   "sector":[
     {
       "id":"sector-3",
@@ -621,7 +621,7 @@
       "arabic": "<div>نساعد المنظمات على تبني التحول الرقمي بينما نسلط الضوء على المخاطر التي قد تعترض الطريق. تقدم A&B مجموعة شاملة من خدمات استشارات الأمن السيبراني التي تهدف إلى حماية أصول المنظمات الرقمية ضد التهديدات الرقمية المتطورة. نظرًا لأن بعض التهديدات صعبة التنبؤ بها، فإن فهم والتعرف والاستعداد لمثل هذه المخاطر هو تعريف المرونة الرقمية. يعمل خبراؤنا بالتعاون مع العملاء لوضع الاستراتيجية الأمنية القوية والفعالة اللازمة التي ستساعدهم على تقييم وتخفيف المخاطر، وكشف والاستجابة للتهديدات للحفاظ على قيمة أعمالهم.</div>"
   },
   "introTitle": {
-      "english": "Cybersecurity <span class=\"mil-thin\">and</span> <br> Digital Protection",
+      "english": "Cybersecurity <span class=\"mil-thin\">and   <br> Digital</span>  Protection",
       "arabic": "الأمن السيبراني <span class=\"mil-thin\">و</span> الحماية الرقمية"
   },
   "gallery": {
@@ -672,7 +672,7 @@
       "english": "Data Security and Privacy",
       "arabic": "أمان البيانات والخصوصية"
   },
-  "image": "",
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718175810/52505_srxtm9.webp",
   "sector":[
     {
       "id":"sector-3",
@@ -692,7 +692,7 @@
       "arabic": "<div>بوعي تام بمدى أهمية حماية البيانات للمنظمات من مختلف انتهاكات البيانات، يسلط A&B دائمًا الضوء على أهمية دمج إدارة أمان البيانات في وقت مبكر في عملية التطوير. يثق العملاء المنظمات بمعلوماتهم الثمينة ويتوقعون من المنظمات الحفاظ عليها. لذلك، تهدف خبراؤنا الاستشاريون إلى تزويد المنظمات باستراتيجيات ورؤى أمان البيانات التي تساعد في إقامة آليات الدفاع الصحيحة في جميع أنحاء المنظمة للحفاظ على سمعتها وتفوقها التنافسي.</div>"
   },
   "introTitle": {
-      "english": "Data Security <span class=\"mil-thin\">and</span> Privacy",
+      "english": "Data <span class=\"mil-thin\"> Security <br> and</span> Privacy",
       "arabic": "أمان البيانات <span class=\"mil-thin\">و</span> الخصوصية"
   },
   "gallery": {
@@ -733,11 +733,11 @@
 },
 {
   "id": "s5-agriculture-markets",
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718172999/2806_wyh2sz.webp",
   "title": {
       "english": "Agriculture Markets",
       "arabic": "أسواق الزراعة"
   },
-  "image": "",
   "sector": [
       {
           "id": "sector-8",
@@ -795,11 +795,11 @@
 ,
 {
   "id": "s5-agriTech",
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718172728/4673_mh0ogf.webp",
   "title": {
       "english": "AgriTech",
       "arabic": "التقنية الزراعية"
   },
-  "image": "",
   "sector": [
       {
           "id": "sector-8",
@@ -1076,8 +1076,8 @@
     "arabic": "<p>Our Leadership and Talent experts develop holistic talent and leadership strategies to help organizations meet their unique needs and objectives. Whether you're looking to develop emerging leaders, strengthen executive capabilities, or foster a culture of leadership at all levels, we design the strategy that will help you inspire and build high-performing teams and transform them into leaders.</p>"
   },
   "introTitle": {
-    "english": "Leadership and Talent Development",
-    "arabic": "Leadership and Talent Development"
+    "english": "Leadership <span class=\"mil-thin\"> and <br> Talent</span>  Development",
+    "arabic": "Leadership  <span class=\"mil-thin\"> and <br> Talent</span>  Development"
   },
                "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718105749/2149352590_tbq8rz.webp",
   "gallery": {
