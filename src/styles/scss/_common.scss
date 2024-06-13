@@ -1242,6 +1242,7 @@ body[dir="ltr"] .title-yellow-head{
         position: absolute;
         top: 10px;
         right: 10px;
+        cursor: pointer;
     }
 }
 .grid-background {
@@ -1345,4 +1346,11 @@ transform: rotate(180deg);
 
 body[dir="ltr"] .left-right-arrow{
 transform: rotate(0deg);
+}
+.notification-alert{
+    position: fixed;
+    top: 100px;
+    right: 60px;
+    width: 200px;
+    z-index: 2000;
 }
