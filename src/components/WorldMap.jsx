@@ -72,7 +72,7 @@ const WorldMap = () => {
     </span>  */}
       </div>
       <div>
-    <div className='strategic-places strategic-places-up'>
+    {/* <div className='strategic-places strategic-places-up'>
       <span className='mil-text-sm text-dark'>
         {activeLocale === 'ar' ? (
           <>
@@ -97,7 +97,7 @@ const WorldMap = () => {
           </>
         )}
       </span>
-    </div>
+    </div> */}
   </div>
     
   </div>

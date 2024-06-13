@@ -220,11 +220,11 @@ export function HeaderMegaMenu() {
                         <Link href={"/contact"} className={classes.link}>
                             <Center inline>
                                 <Box component="span" me={5}>{activeLocale ==='en' ? "Contact" : "تواصل معنا"}</Box>
-                                <IconChevronDown style={{ width: rem(16), height: rem(16) }} color={"#F5D84C"} />
+                                {/* <IconChevronDown style={{ width: rem(16), height: rem(16) }} color={"#F5D84C"} /> */}
                             </Center>
                         </Link>
                     </HoverCard.Target>
-                    <HoverCard.Dropdown className={classes.dropdownFixed}>
+                    {/* <HoverCard.Dropdown className={classes.dropdownFixed}>
                         <Group justify="space-between" px="md">
                             <Text fw={500}>{activeLocale ==='en' ? "Contact" : "تواصل معنا"}</Text>
                         </Group>
@@ -258,7 +258,7 @@ export function HeaderMegaMenu() {
                                 </Link>
                             </Group>
                         </div>
-                    </HoverCard.Dropdown>
+                    </HoverCard.Dropdown> */}
                 </HoverCard>
             </Group>
         </>

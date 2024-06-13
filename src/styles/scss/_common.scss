@@ -531,12 +531,12 @@ button
     align-items: center;
     justify-content: center;
     border: none;
-    font-size: 14px;
+    font-size: 12px;
     background-color: $accent;
     color: $dark;
     border-radius: 70px;
     padding: 0 15px 0 15px;
-    height: 58px;
+    height: 50px;
     text-transform: uppercase;
     font-weight: 500;
     transition: $t-md;
@@ -546,10 +546,10 @@ button
     }
 
     & svg {
-        margin-left: 30px;
+        margin-left: 10px;
         border-radius: 50%;
-        width: 38px;
-        height: 38px;
+        width: 35px;
+        height: 35px;
         padding: 10px;
         background-color: $dark;
         transition: $t-md;
@@ -652,7 +652,7 @@ textarea {
 
 textarea {
     padding: 15px 30px;
-    height: 200px;
+    height: 180px;
 }
 
 /* -------------------------------------------
@@ -1109,19 +1109,19 @@ spaces
     }
 }
 
-// style={activeLocale ==='ar' ? {right : '-40px', transform:'rotateY(180deg)'} : {left:'-40px'}}
+.p-inline-start-40{
+    padding-inline-start: 40px;
+}
 .title-yellow-head{
-    position: absolute;
-    width: 45px;
-    top: -12px;
+   width: 40px;
+   transform: rotateY(180deg);
 }
 body[dir="rtl"] .title-yellow-head{
-    right : -40px;
     transform:rotateY(180deg);
 
 }
 body[dir="ltr"] .title-yellow-head{
-    left:-40px;
+    transform:rotateY(0deg);
 }
 .mil-text-gray-800{
     color: #4a4e54;
@@ -1232,6 +1232,40 @@ body[dir="ltr"] .title-yellow-head{
         border: 1px solid $accent;
     }
 }
+.depth-yellow-cards{
+    box-shadow: -5px 5px 0 $accent;    
+    border: 1px solid $accent;
+    padding: 10px 30px;
+    position: relative;
+    background-color: #fff;
+    .icon{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+.grid-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("https://res.cloudinary.com/dahiaq28x/image/upload/v1718202576/Grid_kaaj1u.svg");
+    background-position: 10% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+  
+  }
+.padding-inline-end-30{
+    padding-inline-end: 30px;
+}
+.padding-inline-end-20{
+    padding-inline-end: 20px;
+}
+.padding-inline-end-10{
+    padding-inline-end: 10px;
+}
 .logoStyle{
     position:absolute;
     z-index:3;
@@ -1269,6 +1303,9 @@ body[dir="rtl"]{
 }
 .gap-10{
     gap: 10px;
+}
+.gap-40{
+    gap: 40px;
 }
 .gap-20{
     gap: 20px;
