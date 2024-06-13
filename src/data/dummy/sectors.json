@@ -391,9 +391,10 @@
           "arabic": "Empowering Your Sustainability Journey with Renewable Energy Excellence"
         },
         "content": {
-          "english":"We navigate government policies and incentives to help organizations harness the power of renewable energy to maximize their ROI and help them achieve their sustainability goals.<br><br>Through A&B <a class=\"hyper-link\" href=\"/services/service-3\" target=\"__blank\">Renewable Energy Transformation</a> services, we help our clients by developing appropriate sustainability strategies to help them seamlessly implement transformational renewable energy projects. To foster integrating sustainability practices into their business operations, our Energy experts provide ongoing support to clients throughout their project endeavors. ",
+          "english":"The tourism sector is considered a major contributor to the economic growth and development of countries. Whenever they lay down their development strategic plans, A&B tourism experts ensure that they tackle essential revenue channels, such as transportation, accommodation, archeological and heritage sites, and other tourism attractions and services.<br><br>Our tourism enhancement strategies involve stakeholders' opinions to zoom in on major opportunities and challenges for the sector. We collaborate with value chain contributors such as travel agencies, hotels, tour operators, and technology providers to deliver the strategy that will yield high-quality tourism products and services to travelers.<br><br>We leverage market expansion opportunities and sustainability practices, as well as help clients embrace<a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\">DIGITAL TRANSFORMATION</a>  to employ the right technology that will result in an enhanced tourism experience.",
           "arabic": "نحن نتنقل في سياسات الحكومة والحوافز لمساعدة المؤسسات على الاستفادة من قوة الطاقة المتجددة لزيادة عائد الاستثمار إلى أقصى حد ومساعدتها في تحقيق أهدافها المتعلقة بالاستدامة.من خلال خدمات <a class=\"hyper-link\" href=\"/services/service-3\" target=\"_blank\">تحول الطاقة المتجددة</a> التي نقدمها في A&B، نساعد عملاءنا على تطوير استراتيجيات استدامة مناسبة تساعدهم في تنفيذ مشاريع الطاقة المتجددة التحويلية بسلاسة.ولتعزيز دمج ممارسات الاستدامة في عملياتهم التجارية، يقدم خبراؤنا في الطاقة الدعم المستمر للعملاء طوال مساعيهم في المشروع."
-        },
+        }
+        ,
         "button": {
           "link": "/projects",
           "label": {
@@ -603,23 +604,30 @@
         "english": "Travel and Tourism",
         "arabic": "السياحة والسفر"
       },
-      "short": {
-        "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  .",
-        "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  ."
-      },
+      "short": 
+      {
+        "english": "Discover how the tourism sector drives economic growth and development. A&B's expert strategies focus on key revenue channels and involve stakeholder collaboration to deliver top-quality tourism experiences. Embrace digital transformation and sustainability for an enhanced journey.",
+    "arabic": "اكتشف كيف يدفع قطاع السياحة النمو الاقتصادي والتطوير. تركز استراتيجيات A&B على القنوات الرئيسية للإيرادات وتضم التعاون مع الأطراف المعنية لتقديم تجارب سياحية عالية الجودة. تبنى التحول الرقمي والاستدامة لرحلة محسنة."
+  
+      }
+      
+      ,
       "introTitle": {
         "english": "Travel and Tourism",
         "arabic": "السياحة والسفر"
       },
       "description": {
         "title": {
-          "english": "SLOGAN",
-          "arabic": "SLOGAN"
-        },
+        "english": "Explore More, Experience Excellence",
+    "arabic": "اكتشف المزيد، عِش التميز"
+        }
+        ,
         "content": {
-          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
-          "arabic":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
-        },
+          "english": "The tourism sector is considered a major contributor to the economic growth and development of countries. Whenever they lay down their development strategic plans, A&B tourism experts ensure that they tackle essential revenue channels, such as transportation, accommodation, archeological and heritage sites, and other tourism attractions and services.<br><br>Our tourism enhancement strategies involve stakeholders' opinions to zoom in on major opportunities and challenges for the sector. We collaborate with value chain contributors such as travel agencies, hotels, tour operators, and technology providers to deliver the strategy that will yield high-quality tourism products and services to travelers.<br><br>We leverage market expansion opportunities and sustainability practices, as well as help clients embrace<a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\"> digital transformation</a>  to employ the right technology that will result in an enhanced tourism experience.",
+          "arabic": "يعتبر قطاع السياحة مساهماً رئيسياً في النمو الاقتصادي وتطوير الدول. كلما وضعوا خططهم الاستراتيجية للتنمية، يضمن خبراء السياحة في A&B معالجة القنوات الأساسية للإيرادات، مثل النقل، والإقامة، والمواقع الأثرية والتراثية، وغيرها من المعالم والخدمات السياحية.<br><br>تتضمن استراتيجيات تعزيز السياحة لدينا آراء الأطراف المعنية للتعمق في الفرص والتحديات الرئيسية للقطاع. نتعاون مع المساهمين في سلسلة القيمة مثل وكالات السفر، والفنادق، ومشغلي الرحلات، ومقدمي التكنولوجيا لتقديم استراتيجية تحقق منتجات وخدمات سياحية عالية الجودة للمسافرين.<br><br>نستفيد من فرص التوسع في السوق وممارسات الاستدامة، ونساعد العملاء على تبني<a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\">التحول الرقمي</a> لتوظيف التكنولوجيا المناسبة التي ستؤدي إلى تحسين تجربة السياحة."
+        }
+        
+        ,
         "button": {
           "link": "/projects",
           "label": {
@@ -667,8 +675,8 @@
         "arabic": "الزراعة"
       },
       "short": {
-        "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
-        "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+        "english": "Our agriculture experts develop strategies for long-term success, addressing everything from crop rotation to market complexities. We provide tailored, sustainable growth solutions.",
+        "arabic": "خبراؤنا في الزراعة يطورون استراتيجيات للنجاح طويل الأمد، تشمل كل شيء من دورات المحاصيل إلى تعقيدات السوق. نقدم حلول نمو مستدامة ومخصصة."
       },
       "introTitle": {
         "english": "Agriculture",
@@ -676,12 +684,12 @@
       },
       "description": {
         "title": {
-          "english": "SLOGAN",
-          "arabic":  "SLOGAN"
+        "english": "Cultivating Sustainable Success",
+    "arabic": "زراعة النجاح المستدام"
         },
         "content": {
-          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
-          "arabic":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
+          "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies that contribute to organizations’ long-term success. From crop rotation and soil and water management to navigating the complexities of agriculture markets, technologies, and regulations, we are committed to providing strategic recommendations based on actual needs and unique conditions. We help our clients grow sustainably.",
+          "arabic": "تشمل سلسلة قيمة الزراعة بأكملها، خبراؤنا في الزراعة يصممون الاستراتيجيات التي تسهم في نجاح المؤسسات على المدى الطويل. من دورات المحاصيل وإدارة التربة والمياه إلى التنقل في تعقيدات أسواق الزراعة والتكنولوجيا والتشريعات، نحن ملتزمون بتقديم توصيات استراتيجية استنادًا إلى الاحتياجات الفعلية والظروف الفريدة. نساعد عملائنا على النمو بشكل مستدام."
         },
         "button": {
           "link": "/projects",
