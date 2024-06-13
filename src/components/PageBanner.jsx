@@ -13,7 +13,9 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
     position: 'relative',
     overflow: 'hidden',
     minHeight: '35em',
+    backgroundColor:"#0a1b30"
   }), []);
+
   const labels = {
     english: {
       experts: "Experts",
@@ -59,10 +61,11 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
   return (
     <div className={paddingBottom ? "mil-inner-banner mil-p-0-120" : "mil-inner-banner"}>
       <div className={align == "center" ? "mil-banner-content mil-center mil-up" : "mil-banner-content mil-up"} style={bg ? bgBanner : {}}>
-        {bg && <div style={bgBannerBefore} />}
+        {bg && <div style={bgBannerBefore} className='d-none d-sm-block' />}
         <div className={bg ? "bannderOverlay" : ""}>
           <div className={paddingBottom ? "container mil-p-0-30" : "container"}>
             <ul className={breadColor === "light" ? "mil-breadcrumbs-light mil-breadcrumbs mil-mb-120" : "mil-breadcrumbs mil-mb-120"}>
+             
               <li className={breadColor === "light" ? "mil-light" : ""}>
                 <Link href="/">{activeLocale === 'ar' ? "الرئيسية" : "Homepage"}</Link>
               </li>
@@ -87,15 +90,22 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
             </ul>
             {headingSize === 1 &&
               <div className={`banner-title-and-image-container ${align === "center" ? "d-flex justify-content-center" : ""}`}>
-                <div className={`heading-1 ${align === "center" ? "max-width-fit" : ""}`}>
-                  <div className="title-yellow-head">
-                    <TitleHead />
+                <div className={` heading-1  ${align === "center" ? "max-width-fit" : ""}`}>
+                {/* <div className='d-flex'>
+                <TitleHead style={{width:"40px", height:"10px"}} />
+                <h2 className={bg ? "mil-light mil-mb-20 pt-3" : "mil-mb-60  pt-3"} dangerouslySetInnerHTML={{ __html: pageTitle }} />
+                </div> */}
+                {pageTitle &&
+                  <div className='d-flex'>
+                  <TitleHead  />
+                  <h2 className={bg ? "mil-light mil-mb-20 pt-2" : "mil-mb-60 pt-2"} dangerouslySetInnerHTML={{ __html: pageTitle }} />
                   </div>
-                  <h2 className={bg ? "mil-light mil-mb-20 " : "mil-mb-60"} dangerouslySetInnerHTML={{ __html: pageTitle }} />
+                  }
+              
                   <p className={bg ? "mil-light mil-mb-60 max-w-600px " : "mil-mb-60"} dangerouslySetInnerHTML={{ __html: subtext }} />
                   {isService &&
-    <div className="d-flex align-items-end">
-      <ul className="mil-text mil-up d-flex gap-20 justify-content-start mil-light">
+    <div className="d-flex align-items-end " >
+      <ul className="p-inline-start-40 mil-text mil-up d-flex gap-20 justify-content-start mil-light">
         <li><span>{activeLocale === 'ar' ? labels.arabic.experts : labels.english.experts}</span></li>
         <li><span>{activeLocale === 'ar' ? labels.arabic.relatedArticles : labels.english.relatedArticles}</span></li>
         <li><span>{activeLocale === 'ar' ? labels.arabic.projects : labels.english.projects}</span></li>
@@ -110,7 +120,7 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
             }
             {headingSize === 2 &&
               <div className={`banner-title-and-image-container ${align === "center" ? "d-flex justify-content-center" : ""}`}>
-                <div className={`heading-1 ${align === "center" ? "max-width-fit" : ""}`}>
+                <div className={` d-flex heading-1 ${align === "center" ? "max-width-fit" : ""}`}>
                   <div className="title-yellow-head">
                     <TitleHead />
                   </div>
