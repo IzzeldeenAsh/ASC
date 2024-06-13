@@ -6,7 +6,7 @@ import { useLocale } from "@/utils/getLocale";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import WorldMap from "../components/WorldMap";
 import ABLogoDark from "@layouts/svg-icons/AB-Logo-Dark";
-
+import {SelectDropdownSearch} from "@components/SelectDropdownWithSearch";
 import { IconCopy } from '@tabler/icons-react';
 const Contact = () => {
   const { activeLocale} = useLocale();
@@ -88,7 +88,7 @@ const Contact = () => {
       />
       {/* contact form */}
       <section >
-       <div className="mil-mb-60 mil-p-30-0">
+       <div className="mil-mb-60 mil-p-0-30">
        <WorldMap />
        </div>
       </section>
@@ -113,9 +113,9 @@ const Contact = () => {
                                 </>
                             ) : (
                                 <>
-                                    <span className="text-dark fw-bold">Jordan (Headquarters):</span>
+                                    <span className="text-dark fw-bold">USA (Headquarters)</span>
                                     <br />
-                                    Jordan, Irbid - Wasfi At-Tal Street.
+                                    <span className="text-dark fw-bold">Jordan (Regional Operations Office)</span>
                                     <br />
                                   
                                 </>
@@ -177,9 +177,9 @@ const Contact = () => {
               <div className="col-12 col-md-6">
               <h3 className="  mil-mb-60">
                 {activeLocale ==='ar' ? 
-                  <div>لنسمع <span className="mil-thin">منك!</span></div>
+                  <div>يسرنا <span className="mil-thin">السماع منك! </span></div>
                           :
-                <div>Glad <span className="mil-thin">to hear from you</span></div>
+                <div>Glad <span className="mil-thin">to hear from you!</span></div>
                 }
                 </h3>
               <Formik
@@ -273,6 +273,9 @@ const Contact = () => {
                         onBlur={handleBlur}
                         value={values.name}
                       />
+                    </div>
+                    <div className="col-lg-6 ">
+                    <SelectDropdownSearch/>
                     </div>
                
                     <div className="col-lg-6 ">
