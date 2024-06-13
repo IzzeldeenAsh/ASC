@@ -418,7 +418,7 @@
           "arabic": "استراتيجيات مخصصة لنمو زراعي مستدام."
         },
         "content": {
-          "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies that contribute to organizations’ long-term success. From crop rotation and soil and water management to navigating the complexities of agriculture markets, technologies, and regulations, we are committed to providing strategic recommendations based on actual needs and unique conditions. We help our clients grow sustainably.",
+          "english": "INFOGRAPH TO BE ADDED SUSTAINABLE AGRI",
           "arabic": "تشمل سلسلة قيمة الزراعة بأكملها، خبراؤنا في الزراعة يصممون الاستراتيجيات التي تسهم في نجاح المؤسسات على المدى الطويل. من دورات المحاصيل وإدارة التربة والمياه إلى التنقل في تعقيدات أسواق الزراعة والتكنولوجيا والتشريعات، نحن ملتزمون بتقديم توصيات استراتيجية استنادًا إلى الاحتياجات الفعلية والظروف الفريدة. نساعد عملائنا على النمو بشكل مستدام."
         }
       },
@@ -770,6 +770,20 @@
               "english": "Frequent Market disruptions and changing customer expectations require that organizations stay on top of challenges to maintain profitability.  Transforming principal operations, technologies and even company culture requires tailored business transformation strategies that will help successfully redefine how an organization operates and delivers value. At A&B, our business transformation strategies help clients go through business transformation as effectively and smoothly as possible by assessing their current state, zooming in on the desired target, and involving stakeholders to seamlessly incorporate visions and missions with the needed change.",
               "arabic": "تتطلب الاضطرابات المتكررة في السوق وتغير توقعات العملاء أن تظل المؤسسات على رأس التحديات للحفاظ على الربحية. يتطلب تحويل العمليات الرئيسية والتقنيات وحتى ثقافة الشركة استراتيجيات تحويل أعمال مصممة خصيصًا من شأنها أن تساعد في إعادة تعريف كيفية عمل المؤسسة وتقديم القيمة بنجاح. في A&B ، تساعد استراتيجيات تحويل الأعمال الخاصة بنا العملاء على اجتياز تحول الأعمال بأكبر قدر ممكن من الفعالية والسلاسة من خلال تقييم حالتهم الحالية ، والتكبير على الهدف المطلوب ، وإشراك أصحاب المصلحة لدمج الرؤى والبعثات بسلاسة مع التغيير المطلوب."
             }
+          }
+          ,
+          {
+            "id": "s8-IPO-readiness",
+            "isSubService": true,
+            "label": {
+              "english": "IPO Readiness",
+              "arabic": "جاهزية الطرح العام الأولي"
+            },
+              "value": {
+                "english": "<p>Valuation is a critical component of the IPO process as it helps determine the offering price of the company's shares. In addition to other <a class=\"hyper-link\" href=\"/services/service-8\" target=\"__blank\">business transformation</a> support tools we offer to our clients, A&B provides a thorough assessment and valuation of their technical assets to help clients go smoothly in their Initial Public Offering (IPO) transformation journey and highlight their commercial potential.</p><p>As experts in the <a class=\"hyper-link\" href=\"/sectors/sector-1\" target=\"__blank\">industrial sector</a>, we can make your tangible asset due diligence as accurate as it ever can be by:</p><ul><li>Assets Market Value: Estimating the fair market value of the subject equipment.</li><li>Comparable Sales Value: Comparing equipment to similar assets sold in the market.</li><li>Income Capitalization: Estimating the value of equipment based on its income-producing potential.</li></ul>",
+                "arabic": "<p>تُعد التقييمات مكونًا حاسمًا في عملية الطرح العام الأولي لأنها تساعد في تحديد سعر عرض أسهم الشركة. بالإضافة إلى أدوات الدعم الأخرى <a class=\"hyper-link\" href=\"/services/service-8\" target=\"__blank\">للتحول التجاري</a> التي نقدمها لعملائنا، توفر A&B تقييمًا شاملاً لأصولهم التقنية لمساعدة العملاء على المضي قدمًا بسلاسة في رحلة تحولهم للطرح العام الأولي وإبراز إمكاناتهم التجارية.</p><p>كخبراء في <a class=\"hyper-link\" href=\"/sectors/sector-1\" target=\"__blank\">القطاع الصناعي</a>، يمكننا جعل العناية الواجبة للأصول الملموسة دقيقة قدر الإمكان من خلال:</p><ul><li>قيمة السوق للأصول: تقدير القيمة السوقية العادلة للمعدات المعنية.</li><li>قيمة المبيعات المقارنة: مقارنة المعدات بأصول مشابهة تم بيعها في السوق.</li><li>رسملة الدخل: تقدير قيمة المعدات بناءً على إمكاناتها في توليد الدخل.</li></ul>"
+              }
+            
           }
         ]
       },

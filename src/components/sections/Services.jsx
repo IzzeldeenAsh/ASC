@@ -30,7 +30,7 @@ const ServicesSection = () => {
                   activeLocale === "ar"
                     ? { flexDirection: "row", gap: "10px" }
                     : { flexDirection: "column", gap: "10px" }}>
-                <span style={{ position: "relative" }}>
+                <span className="d-flex" style={{ position: "relative" }}>
                   <div
                     className="title-yellow-head">
                     <TitleHead />
