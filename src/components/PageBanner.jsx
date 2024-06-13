@@ -98,7 +98,7 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
                 {pageTitle &&
                   <div className='d-flex'>
                   <TitleHead  />
-                  <h2 className={bg ? "mil-light mil-mb-20 pt-2" : "mil-mb-60 pt-2"} dangerouslySetInnerHTML={{ __html: pageTitle }} />
+                  <h2 className={bg ? "mil-light mil-mb-20 pt-2" : " pt-2"} dangerouslySetInnerHTML={{ __html: pageTitle }} />
                   </div>
                   }
               

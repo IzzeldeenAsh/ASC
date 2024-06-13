@@ -7,7 +7,6 @@ import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import Link from "next/link";
 import InfographManager from "@/src/components/infographs/InfographManager";
-import Image from 'next/image';
 import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
 const subservice = ( props ) => {
 
