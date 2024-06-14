@@ -8,6 +8,7 @@ import { useRouter } from "next/router";
 import servicesData from "@data/dummy/services.json";
 import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
 import ABLogoLight from "@/src/layouts/svg-icons/AB-Logo-Light";
+import Truncate from "@/src/components/Truncate";
 
 const ServiceDetail = () => {
   const { activeLocale } = useLocale();
@@ -116,8 +117,10 @@ const ServiceDetail = () => {
                       </div>
                       <div   className="mil-accordion-content mil-text " style={{ height: key === activeAccordion ? "auto" : "0" }}>
                       <div className="mil-mb-20 mil-text-lg"
-                      dangerouslySetInnerHTML={{ __html: activeLocale === "ar" ? item.value.arabic : item.value.english }}
-                    />
+                    
+                    >
+                      {activeLocale === "ar" ? <Truncate text={item.value.arabic} maxLength={290}/> : <Truncate text={item.value.english} maxLength={290}/>}
+                    </div>
                       {item.isSubService && (<div className="mil-button mil-button-sm mil-mb-25"><Link href={`/subservice/${item.id}`}>
                       {activeLocale ==='ar' ? "المزيد " : "Read More"}
                       </Link></div>)}
