@@ -9,7 +9,6 @@ import servicesData from "@data/dummy/services.json";
 import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
 import ABLogoLight from "@/src/layouts/svg-icons/AB-Logo-Light";
 import Truncate from "@/src/components/Truncate";
-
 const ServiceDetail = () => {
   const { activeLocale } = useLocale();
   const router = useRouter();
@@ -87,13 +86,14 @@ const ServiceDetail = () => {
             </div>
           </div>
         </section>
-
+  
         {service.list && service.list.items && service.list.items.length > 0 && (
           <>
             {service.list.items.map((item, key) => (
               <section key={`service-item-${key}`} id={item.id} className={service.list.items.length-1 === (key) ? "mil-mb-60" : ""}>
                 <div className="col-lg-12">
                   <div className="container">
+                 
                     <div className="mil-accordion-group mil-up">
                       <div
                         className={key === activeAccordion ? "mil-accordion-menu mil-active" : "mil-accordion-menu"}
@@ -102,6 +102,7 @@ const ServiceDetail = () => {
                         <p className="mil-accordion-head mil-text-xl">
                           {activeLocale === "ar" ? item.label.arabic : item.label.english}
                         </p>
+                       
                         <div className="d-flex align-items-center gap-20">
                           {key === activeAccordion && (
                             <Link href="/contact" className="mil-hover-primary mil-text-sm fw-bold">

@@ -11,6 +11,7 @@ import servicesData from "@data/dummy/services.json"
 import {  TextInput } from '@mantine/core';
 import { IoIosSearch } from "react-icons/io";
 import Truncate from "@components/Truncate";
+
 const Services = () => {
 const {activeLocale , t} = useLocale();
 const pageTitle ={
@@ -113,6 +114,7 @@ useEffect(() => {
                                       
                                         ))}
                                       </ul>
+                                  
                                       <Link href={`/services/${item.id}`}>
                                       <div className="mil-link mil-accent mil-arrow-place mil-up">
                                           <span>{
