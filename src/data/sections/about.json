@@ -31,22 +31,10 @@
                 "english": "Learn about our mission and values.",
                 "arabic": "تعرّف على مهمتنا وقيمنا."
             },
-            "link":"/about",
+            "link":"/about#mission",
             "anchor" : "mission"
         },
-        {
-            "id":"vision",
-            "title":{
-                "english" :"Vision",
-                "arabic" : "الرؤية"
-            },
-            "description": {
-                "english": "Explore our long-term vision and goals.",
-                "arabic": "استكشاف رؤيتنا وأهدافنا على المدى الطويل."
-            },
-            "link":"/about",
-            "anchor" : "vision"
-        },
+      
         {
             "id":"timeline",
             "title":{
@@ -57,7 +45,7 @@
                 "english": "Discover our journey and milestones.",
                 "arabic": "اكتشف رحلتنا والمحطات الرئيسية فيها."
             },
-            "link":"/about",
+            "link":"/about#timeline",
                        "anchor" : "timeline"
         },
         {

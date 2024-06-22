@@ -59,17 +59,17 @@ const about = () => {
         </div>
       </section>
      
-      <section id="timeline" >
+      <section id="timeline" className="mil-mb-30">
       <div style={{backgroundColor:"#f2f2f2"}}> 
      {activeLocale ==='ar' ? 
      <h2 className="mil-center  mil-p-60-0">
       تاريخنا
-     
+      <div style={{ width:"300px", height: '3px', backgroundColor: '#F5D74C', margin: ' 20px auto' , display :"block"}}></div>
      </h2> 
      :
      <h2 className="mil-center  mil-p-60-0">
      <span className="mil-thin">Our</span> History
-     
+     <div style={{ width:"300px", height: '3px', backgroundColor: '#F5D74C', margin: ' 20px auto' , display :"block"}}></div>
      </h2>
     }
       </div>
@@ -100,12 +100,46 @@ const about = () => {
    </div>
        
       </section>
-      <section >
+      <section className="mil-mb-30" >
       <CustomizedTimeline/>
       </section>
  
+      <section id="mission" >
+      <div className="container mil-p-0-90">
+        <div className="row justify-content-center">
+          <div className="col-lg-8">
+          <div className="mil-mb-30"> 
+                  {activeLocale ==='ar' ? 
+                  <h2 className="mil-center  mil-p-60-0">
+                    مهمتنا  <span className="mil-thin">و</span> رؤيتنا
+                    <div style={{ width:"300px", height: '3px', backgroundColor: '#F5D74C', margin: ' 20px auto' , display :"block"}}></div>
+                  </h2> 
+                  :
+                  <h2 className="mil-center  mil-p-60-0">
+                  Mission  <span className="mil-thin">and</span> Vision
+                  <div style={{ width:"300px", height: '3px', backgroundColor: '#F5D74C', margin: ' 20px auto' , display :"block"}}></div>
+                  </h2>
+
+                  }
+            </div>
+                
+                  <div
+                className=" mil-center mil-up mil-mb-60"
+                style={{ textAlign: "center" }}
+                dangerouslySetInnerHTML={{ __html: activeLocale ==='ar' ? postData.mission.arabic : postData.mission.english }}/>
+          </div>
+       
+        </div>
+           
+                  </div>
+      </section>
+
+   
       {/* publication end */}
+      <section className="mil-soft-bg">
       <Together/>
+      </section>
+     
       {/* <RelatedPostsSection items={props.related} /> */}
     </Layouts>
   );
