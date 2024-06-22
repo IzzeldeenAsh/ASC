@@ -9,6 +9,7 @@ import servicesData from "@data/dummy/services.json";
 import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
 import ABLogoLight from "@/src/layouts/svg-icons/AB-Logo-Light";
 import Truncate from "@/src/components/Truncate";
+import Image from "next/image";
 const ServiceDetail = () => {
   const { activeLocale } = useLocale();
   const router = useRouter();
@@ -67,7 +68,7 @@ const ServiceDetail = () => {
         <section id="service">
           <div className="container mil-p-90-90">
             <div className="row justify-content-between">
-              <div className="mil-relative mil-mb-60 col-lg-12">
+              <div className="mil-relative mil-mb-30 col-lg-12">
                 <div className="position-relative justify-content-between flex-1">
                   <ul className={`mil-center mil-mb-30 ${activeLocale === "en" ? "mil-lines-highlight-en " : "mil-lines-highlight-ar "}`}>
                     <li>
@@ -82,6 +83,18 @@ const ServiceDetail = () => {
                   </div>
                 </div>
                 <p className="mil-up mil-mb-30 mil-text-lg" dangerouslySetInnerHTML={{ __html: content }} />
+                {service.infograph && 
+                <div className="infograph">
+                    <div className="image-container">
+             <Image
+      src={service.infograph.english}
+      alt="infograph"
+      fill
+      priority
+      style={{ objectFit: 'cover' }}
+    />
+    </div>
+              </div>}
               </div>
             </div>
           </div>

@@ -412,14 +412,18 @@
         "english": "Sustainable <br> <span class=\"mil-thin\">Agriculture</span>",
         "arabic": "الزراعة <br> <span class=\"mil-thin\">المستدامة</span>"
       },
+      "infograph":{
+        "english": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719064297/agricultrial-infograpg-11_knk7i8.png",
+        "arabic":"https://res.cloudinary.com/dahiaq28x/image/upload/v1719064297/agricultrial-infograpg-11_knk7i8.png"
+      },
       "description": {
         "title": {
           "english": "Tailored strategies for sustainable agricultural growth.",
           "arabic": "استراتيجيات مخصصة لنمو زراعي مستدام."
         },
         "content": {
-          "english": "INFOGRAPH TO BE ADDED SUSTAINABLE AGRI",
-          "arabic": "تشمل سلسلة قيمة الزراعة بأكملها، خبراؤنا في الزراعة يصممون الاستراتيجيات التي تسهم في نجاح المؤسسات على المدى الطويل. من دورات المحاصيل وإدارة التربة والمياه إلى التنقل في تعقيدات أسواق الزراعة والتكنولوجيا والتشريعات، نحن ملتزمون بتقديم توصيات استراتيجية استنادًا إلى الاحتياجات الفعلية والظروف الفريدة. نساعد عملائنا على النمو بشكل مستدام."
+          "english": "",
+          "arabic": ""
         }
       },
       "button": {
