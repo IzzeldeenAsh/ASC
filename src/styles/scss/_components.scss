@@ -1298,9 +1298,9 @@ services
   padding: 60px 30px;
   min-width: 200px;
   & p {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(-10px);
-    overflow: hidden;
+    overflow: visible;
     display: -webkit-box;
     color: $gs-30;
     -webkit-line-clamp: 3;
@@ -2608,11 +2608,21 @@ price
 images
 
 ***************************/
-
+.sub-service-image{
+  overflow: hidden;
+  height: 500px;
+  position: relative;
+img{
+  width: 100%;
+  position: absolute;
+  object-fit: contain;
+  top: -40%;
+}
+}
 .mil-image-frame {
   position: relative;
   overflow: hidden;
-
+  height: 400px;
   & > img {
     position: absolute;
     top: 0;

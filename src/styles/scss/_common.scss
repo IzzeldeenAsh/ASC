@@ -569,7 +569,7 @@ button
 
     &.mil-icon-button-sm {
         padding: 0;
-        height: 40px;
+        height: 35px;
 
         & svg {
             margin-left: 0;
@@ -868,6 +868,23 @@ backgrounds
         }
     }
 }
+.service-banner-links {
+    li{
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+        transform: scale(1);
+        opacity: 0.7;
+        transition: all 0.2s ease-in-out;
+        
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1);
+            opacity: 1;
+        }
+    }
+   
+}
 .mil-dark-bg-hero {
     position: relative;
     &:before {
@@ -923,6 +940,12 @@ spaces
 }
 .mil-mb-30 {
     margin-bottom: 30px;
+}
+.mil-mb-40 {
+    margin-bottom: 40px;
+}
+.mil-mb-50 {
+    margin-bottom: 50px;
 }
 
 .mil-mb-60 {

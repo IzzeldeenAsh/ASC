@@ -69,18 +69,22 @@ const ServiceDetail = () => {
           <div className="container mil-p-90-90">
             <div className="row justify-content-between">
               <div className="mil-relative mil-mb-30 col-lg-12">
+                
                 <div className="position-relative justify-content-between flex-1">
+                <div className="title-yellow-head">
+                    <ABQuoations />
+                  </div>
                   <ul className={`mil-center mil-mb-30 ${activeLocale === "en" ? "mil-lines-highlight-en " : "mil-lines-highlight-ar "}`}>
+                    
                     <li>
+                      
                       <h4
                         className="mil-up mil-mb-30 italic"
                         dangerouslySetInnerHTML={{ __html: slogan }}
                       />
                     </li>
                   </ul>
-                  <div className="title-yellow-head">
-                    <ABQuoations />
-                  </div>
+                  
                 </div>
                 <p className="mil-up mil-mb-30 mil-text-lg" dangerouslySetInnerHTML={{ __html: content }} />
                 {service.infograph && 
@@ -117,12 +121,7 @@ const ServiceDetail = () => {
                         </p>
                        
                         <div className="d-flex align-items-center gap-20">
-                          {key === activeAccordion && (
-                            <Link href="/contact" className="mil-hover-primary mil-text-sm fw-bold">
-                           
-                              {activeLocale ==='ar' ? "اسأل مختص " : "   ASK AN EXPERT"}
-                            </Link>
-                          )}
+                         
                           <div className="mil-symbol mil-h3 ">
                             <div style={{ display: key === activeAccordion ? "none" : "block" }}>+</div>
                             <div style={{ display: key === activeAccordion ? "block" : "none" }}>-</div>

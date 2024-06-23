@@ -8,6 +8,7 @@ import PageBanner from "@components/PageBanner";
 import Link from "next/link";
 import InfographManager from "@/src/components/infographs/InfographManager";
 import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
+import Image from "next/image";
 const subservice = ( props ) => {
 
   const { activeLocale } = useLocale();
@@ -30,12 +31,16 @@ const subservice = ( props ) => {
               <div className="row justify-content-center">
                   <div className="col-lg-12">
                   {subservice.image && (
-                     <div className="mil-image-frame mil-horizontal mil-up">
+                     <div className="mil-image-frame  mil-up">
                      <img src={subservice.image} alt={subservice.title.english}  className="mil-scale" data-value-1=".90" data-value-2="1.15" />
                  </div>
+                // <div className="sub-service-image">
+                //    <img src={subservice.image} alt={subservice.title.english}  className="mil-scale" data-value-1=".90" data-value-2="1.15" />
+            
+                // </div>
                   )}
                      
-                      <div className="mil-info mil-up mil-mb-90">
+                      <div className="mil-info mil-up mil-mb-50">
                           <div><span className="mil-text-gray-600">Service</span>: &nbsp; <Link   href={`/services/${subservice.service.id}`}><span className="mil-dark">{subservice.service.name}&nbsp;</span></Link></div>
                       </div>
 
@@ -78,6 +83,14 @@ const subservice = ( props ) => {
                           }
                         </>
                       }
+                      <div className="mil-p-30-30">
+                      <div className="mil-button mil-button-sm ">
+                      <Link href="/contact" className=" mil-text-sm fw-bold">
+                           {activeLocale ==='ar' ? "اسأل مختص " : "   ASK AN EXPERT"}
+                         </Link>
+                      </div>
+                      </div>
+                     
                   </div>
               </div>
           </div>

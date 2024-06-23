@@ -100,8 +100,6 @@ useEffect(() => {
                                       </p>
                                       <ul className="mil-service-list mil-light mil-mb-30">
                                         {item.list.items.map((list_item, list_key) => (
-                                          
-                                          
                                           <li className="mil-up" key={`services-item-${key}-list-${list_key}`}>
                                                 <Link key={list_key} href={`/services/${item.id}?section=${list_item.id}&sectionKey=${list_key}`}   className="mil-light-soft">
                                                   <div className="d-flex align-items-center sub-service">
@@ -110,8 +108,6 @@ useEffect(() => {
                                                 </div>
                                           </Link>
                                                 </li>
-                                          
-                                      
                                         ))}
                                       </ul>
                                   
