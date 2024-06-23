@@ -88,16 +88,14 @@ const ServiceDetail = () => {
                 </div>
                 <p className="mil-up mil-mb-30 mil-text-lg" dangerouslySetInnerHTML={{ __html: content }} />
                 {service.infograph && 
-                <div className="infograph">
-                    <div className="image-container">
+                <div className="infograph d-flex justify-content-center">
              <Image
       src={service.infograph.english}
       alt="infograph"
-      fill
       priority
-      style={{ objectFit: 'cover' }}
+      width={1000}
+      height={551}
     />
-    </div>
               </div>}
               </div>
             </div>
