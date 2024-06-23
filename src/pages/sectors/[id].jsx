@@ -127,7 +127,7 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
                           <p className="mil-up mil-mb-30">
                             {activeLocale === "ar"
                               ? <Truncate text={item.value.arabic} maxLength={70} />
-                              : <Truncate text={item.value.english} maxLength={70} />}
+                                : <Truncate text={item.value.english} maxLength={70} />}
                           </p>
                           <div className="mil-link mil-dark mil-arrow-place mil-up">
                             <span>
