@@ -41,7 +41,7 @@ export function SelectDropdownSearch() {
             <Combobox.Target>
                 <input
                     type="text"
-                    placeholder="COUNTRY NAME"
+                    placeholder="COUNTRY"
                     value={value || ''}
                     readOnly
                     onClick={() => combobox.toggleDropdown()}

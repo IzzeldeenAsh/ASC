@@ -54,7 +54,7 @@ const Home1 = (props) => {
       <ServicesSection  />
       <AboutSection />
       <TeamSection id="leaders"/>
-      <TestimonialSlider />
+      {/* <TestimonialSlider /> */}
       <PartnersSlider />
       {/* <LatestPostsSection posts={props.posts} /> */}
     </Layouts>
