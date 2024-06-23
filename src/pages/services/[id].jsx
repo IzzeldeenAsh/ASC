@@ -88,7 +88,7 @@ const ServiceDetail = () => {
                 </div>
                 <p className="mil-up mil-mb-30 mil-text-lg" dangerouslySetInnerHTML={{ __html: content }} />
                 {service.infograph && 
-                <div className="infograph d-flex flex-column justify-content-center">
+                <div className="infograph d-flex flex-column justify-content-center align-items-center">
              <Image
       src={service.infograph.english}
       alt="infograph"
@@ -96,7 +96,7 @@ const ServiceDetail = () => {
       width={1000}
       height={551}
     />
-    <div className="mil-center mil-text-xs" style={{paddingInlineStart:"40px"}}>A&B Agricultural Sustainability Roadmap</div>
+    <div className="mil-center mil-text-xs" >A&B Agricultural Sustainability Roadmap</div>
               </div>}
               </div>
             </div>
