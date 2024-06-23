@@ -533,32 +533,32 @@
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717063555/2151196335_e6u4fp.webp",
       "id": "sector-6",
-      "logoColor":"light",
+      "logoColor": "light",
       "contentHtml": "",
       "title": {
         "english": "Climate and Sustainability",
         "arabic": "البيئة"
       },
       "preview_title": {
-        "english": "Climate <br> <span class=\"mil-thin\">and</span> Sustainability",
+        "english": "Climate <span class=\"mil-thin\">and</span>  <br>Sustainability",
         "arabic": "البيئة"
       },
       "short": {
-        "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
-        "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+        "english":"Transforming climate challenges into sustainable opportunities.",
+        "arabic": "Transforming climate challenges into sustainable opportunities."
       },
       "introTitle": {
-        "english": "Climate <br> <span class=\"mil-thin\">and</span> Sustainability",
+        "english": "Climate  <span class=\"mil-thin\">and</span>     <br>Sustainability",
         "arabic": "البيئة"
       },
       "description": {
         "title": {
-          "english": "SLOGAN",
-          "arabic": "SLOGAN"
+          "english": "We aim not only to protect the environment but also to contribute positively to the welfare of our societies.",
+          "arabic": "We aim not only to protect the environment but also to contribute positively to the welfare of our societies."
         },
         "content": {
-          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
-          "arabic":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
+          "english": "At A&B, we foster a shared vision of sustainability and environmental stewardship by collaborating closely with clients, governments and NGOs to drive progress and innovation in an increasingly eco-conscious world. Our experts assist our clients in transforming climate challenges into sustainable opportunities by crafting tailored strategies that enhance resource-efficient utilization, reduce emissions, and embrace sustainability practices.<br><br>Facilitating the industrial organizations' journey toward a greener future, our <a class=\"hyper-link\" href=\"/services/service-4\" target=\"_blank\">clean manufacturing</a> experts make it a top priority that they offer comprehensive support to industrial organizations to get them closer to net zero. We tailor the strategies to help our clients meet and exceed the complexities of environmental compliance and guide them to harness the numerous benefits of climate <a class=\"hyper-link\" href=\"/services/service-2\" target=\"_blank\">technologies</a> and clean manufacturing practices.",
+          "arabic": "في A&B، نعزز رؤية مشتركة للاستدامة وحماية البيئة من خلال التعاون الوثيق مع العملاء والحكومات والمنظمات غير الحكومية لدفع التقدم والابتكار في عالم يزداد وعيًا بالبيئة. يساعد خبراؤنا عملاءنا في تحويل تحديات المناخ إلى فرص مستدامة من خلال صياغة استراتيجيات مخصصة تعزز كفاءة استخدام الموارد، وتقليل الانبعاثات، وتبني ممارسات الاستدامة.<br><br>لتسهيل رحلة المنظمات الصناعية نحو مستقبل أكثر خضرة، يجعل خبراؤنا في <a class=\"hyper-link\" href=\"/services/service-4\" target=\"_blank\">التصنيع النظيف</a> من أولوياتهم تقديم الدعم الشامل للمنظمات الصناعية لتقريبها من صافي صفر انبعاثات. نحن نخصص الاستراتيجيات لمساعدة عملائنا على الوفاء بتعقيدات الامتثال البيئي وتجاوزها وإرشادهم للاستفادة من الفوائد العديدة لتقنيات المناخ وممارسات التصنيع النظيف."
         },
         "button": {
           "link": "/projects",
@@ -591,7 +591,10 @@
         "environmental policies",
         "ecological balance"
       ]
-    },
+    }
+    
+    ,
+
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719042660/plane_ie1qjj.webp",
       "id": "sector-7",

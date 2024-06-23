@@ -102,7 +102,7 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
                   </div>
                   }
               
-                  <p className={bg ? "mil-light mil-mb-60 max-w-600px " : "mil-mb-60"} dangerouslySetInnerHTML={{ __html: subtext }} />
+                  <p style={{paddingInlineStart:"50px"}} className={bg ? "mil-light mil-mb-60 max-w-600px mil-text-lg" : "mil-mb-60"} dangerouslySetInnerHTML={{ __html: subtext }} />
                   {isService &&
     <div className="d-flex align-items-end " >
       <ul className=" service-banner-links p-inline-start-40 mil-text mil-up d-flex gap-20 justify-content-start mil-light">
