@@ -68,9 +68,14 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
             <div className="row justify-content-between">
               <div className="mil-relative mil-mb-60 col-lg-12">
                 <div className="position-relative justify-content-between flex-1">
+                <div className="title-yellow-head">
+                    <ABQuoations />
+                  </div>
                   <ul
                   className={ `mil-center mil-mb-30 ${ activeLocale === "en" ? "mil-lines-highlight-en " : "mil-lines-highlight-ar "}`}>
+                    
                     <li>
+                   
                       <h4
                         className="mil-up mil-mb-30 italic"
                         dangerouslySetInnerHTML={{
@@ -81,9 +86,7 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
                     </li>
                   </ul>
 
-                  <div className="title-yellow-head">
-                    <ABQuoations />
-                  </div>
+                 
                 </div>
 
                 <p
