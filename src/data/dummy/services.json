@@ -162,8 +162,8 @@
               "arabic": "العمليات المرقمة"
             },
             "value": {
-              "english": "<div><div>Our digital transformation experts work with organizations to define the most effective digital strategy that will enable them drive the needed digital growth that would result in an evolved business model and getting their operation to a higher level of efficiency.</div><br><div>Digital transformation is more than just getting the latest technology. Transforming into a data-driven organization requires that organizations integrate technology in operations throughout the value chain, aiming at an enhanced customer experience and meeting the digitally evolving demands. A&B experts thoroughly examine the operational chain as they redesign with the organization the digitized operating model that will help them maintain a competitive edge.</div></div>",
-              "arabic": "<div><div>يعمل خبراؤنا في التحول الرقمي مع المنظمات لتحديد الاستراتيجية الرقمية الأكثر فعالية التي ستمكنها من دفع النمو الرقمي اللازم الذي سيؤدي إلى نمو نموذج عمل تطوري وجعل عمليتها أكثر كفاءة.</div><br><div>التحول الرقمي أكثر من مجرد الحصول على أحدث التكنولوجيا. يتطلب التحول إلى منظمة مدفوعة بالبيانات أن تدمج المنظمات التكنولوجيا في العمليات عبر سلسلة القيمة بأكملها، بهدف تحسين تجربة العملاء وتلبية الطلبات التي تتطور رقمياً. يفحص خبراء A&amp;B بعناية سلسلة العمليات بينما يعيدون تصميم نموذج العمل الرقمي مع المنظمة الذي سيساعدهم على الحفاظ على تفوق تنافسي.</div></div>"
+              "english": "Our digital transformation experts work with organizations to help them evolve their business models and get their operations to a higher level of efficiency. We help businesses drive the needed digital growth by defining the most effective digital strategy.",
+              "arabic": "يعمل خبراء التحول الرقمي لدينا مع المنظمات لمساعدتها على تطوير نماذج أعمالها ورفع كفاءة عملياتها إلى مستوى أعلى. نساعد الشركات على تحقيق النمو الرقمي المطلوب من خلال تحديد الاستراتيجية الرقمية الأكثر فعالية."
             }
           },
           {
@@ -186,9 +186,10 @@
               "arabic": "تحليلات الذكاء الاصطناعي وتطوير الأعمال"
             },
             "value": {
-              "english": "<div>How AI has changed the way big data is managed has been a remarkable advancement businesses need to consider to stay ahead of the market. To align the best AI strategy and analytics with business objectives, our expert consultants work with our clients to unlock the potential of multi-source data trends to facilitate optimized operation, enhanced customer satisfaction and maintain their competitive advantage. Data-driven decision-making will undoubtedly contribute to the development of organizations. Through AI-driven analytics, organizations can employ the right AI technology that will help them gain valuable business insights from data.</div>",
-              "arabic": "<div>كيف غيرت الذكاء الاصطناعي طريقة إدارة البيانات الكبيرة، هذه التطور الملحوظ يجب على الشركات النظر فيه للبقاء في المقدمة في السوق. لمواكبة أفضل استراتيجية للذكاء الاصطناعي وتحليلات البيانات مع الأهداف التجارية، يعمل مستشارونا الخبراء مع عملائنا لاستغلال إمكانات اتجاهات البيانات المتعددة المصادر لتيسير العمليات المحسنة، وزيادة رضا العملاء والحفاظ على تفوقهم التنافسي. ستسهم اتخاذ القرارات المستندة إلى البيانات بلا شك في تطوير المنظمات. من خلال تحليلات الذكاء الاصطناعي، يمكن للمنظمات استخدام التكنولوجيا الصحيحة من الذكاء الاصطناعي التي ستساعدهم على الحصول على رؤى تجارية قيمة من البيانات.</div>"
-            }
+              "english": "The impact of AI on managing big data represents a remarkable advancement that businesses need to consider to stay ahead in the market. <br><br> To align the best AI strategy and analytics with business objectives, our expert consultants work with our clients to unlock the potential of multi-source data trends to facilitate optimized operation and enhanced customer satisfaction. Data-driven decision-making will undoubtedly contribute to the development of organizations. Business development experts at A&B believe that, through AI-driven analytics, organizations can employ the right AI technology to help them gain valuable business insights from data and maintain competitive advantage.",
+              "arabic": "يمثل تأثير الذكاء الاصطناعي على إدارة البيانات الضخمة تقدماً ملحوظاً تحتاج الشركات إلى أخذه في الاعتبار للبقاء في مقدمة السوق. لضمان توافق أفضل استراتيجيات الذكاء الاصطناعي والتحليلات مع الأهداف التجارية، يعمل مستشارونا الخبراء مع عملائنا على استغلال إمكانات اتجاهات البيانات متعددة المصادر لتسهيل العمليات المحسنة وتعزيز رضا العملاء. سيساهم اتخاذ القرارات المستندة إلى البيانات بلا شك في تطوير المنظمات. يعتقد خبراء تطوير الأعمال في A&B أنه من خلال التحليلات المدعومة بالذكاء الاصطناعي، يمكن للمنظمات استخدام التكنولوجيا المناسبة لمساعدتها على اكتساب رؤى تجارية قيمة من البيانات والحفاظ على ميزة تنافسية."
+          }
+          
           },
           {
             "id": "s-cybersecurity-protection",
@@ -413,8 +414,8 @@
         "arabic": "الزراعة <br> <span class=\"mil-thin\">المستدامة</span>"
       },
       "infograph":{
-        "english": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719064297/agricultrial-infograpg-11_knk7i8.png",
-        "arabic":"https://res.cloudinary.com/dahiaq28x/image/upload/v1719064297/agricultrial-infograpg-11_knk7i8.png"
+        "english": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719124138/agricultrial-infograpg-11_mswvqg.png",
+        "arabic":"https://res.cloudinary.com/dahiaq28x/image/upload/v1719124138/agricultrial-infograpg-11_mswvqg.png"
       },
       "description": {
         "title": {

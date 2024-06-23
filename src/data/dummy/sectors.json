@@ -295,8 +295,8 @@
     "arabic": "العمليات المرقمة"
             },
             "value": {
-              "english": "Our digital transformation experts work with organizations to define the most effective digital strategy that will enable them drive the needed digital growth that would result in an evolved business model and getting their operation to a higher level of efficiency.</div><br><div>Digital transformation is more than just getting the latest technology. Transforming into a data-driven organization requires that organizations integrate technology in operations throughout the value chain, aiming at an enhanced customer experience and meeting the digitally evolving demands. A&B experts thoroughly examine the operational chain as they redesign with the organization the digitized operating model that will help them maintain a competitive edge.",
-              "arabic": "يعمل خبراؤنا في التحول الرقمي مع المنظمات لتحديد الاستراتيجية الرقمية الأكثر فعالية التي ستمكنها من دفع النمو الرقمي اللازم الذي سيؤدي إلى نمو نموذج عمل تطوري وجعل عمليتها أكثر كفاءة.</div><br><div>التحول الرقمي أكثر من مجرد الحصول على أحدث التكنولوجيا. يتطلب التحول إلى منظمة مدفوعة بالبيانات أن تدمج المنظمات التكنولوجيا في العمليات عبر سلسلة القيمة بأكملها، بهدف تحسين تجربة العملاء وتلبية الطلبات التي تتطور رقمياً. يفحص خبراء A&amp;B بعناية سلسلة العمليات بينما يعيدون تصميم نموذج العمل الرقمي مع المنظمة الذي سيساعدهم على الحفاظ على تفوق تنافسي."
+  "english": "Our digital transformation experts work with organizations to help them evolve their business models and get their operations to a higher level of efficiency. We help businesses drive the needed digital growth by defining the most effective digital strategy.",
+    "arabic": "يعمل خبراء التحول الرقمي لدينا مع المنظمات لمساعدتها على تطوير نماذج أعمالها ورفع كفاءة عملياتها إلى مستوى أعلى. نساعد الشركات على تحقيق النمو الرقمي المطلوب من خلال تحديد الاستراتيجية الرقمية الأكثر فعالية."
             }
           },
           {
@@ -317,10 +317,11 @@
               "english": "AI Analytics and Business Development",
               "arabic": "تحليلات الذكاء الاصطناعي وتطوير الأعمال"
             },
-            "value": {
-              "english": "How AI has changed the way big data is managed has been a remarkable advancement businesses need to consider to stay ahead of the market. To align the best AI strategy and analytics with business objectives, our expert consultants work with our clients to unlock the potential of multi-source data trends to facilitate optimized operation, enhanced customer satisfaction and maintain their competitive advantage. Data-driven decision-making will undoubtedly contribute to the development of organizations. Through AI-driven analytics, organizations can employ the right AI technology that will help them gain valuable business insights from data.",
-              "arabic": "كيف غيرت الذكاء الاصطناعي طريقة إدارة البيانات الكبيرة، هذه التطور الملحوظ يجب على الشركات النظر فيه للبقاء في المقدمة في السوق. لمواكبة أفضل استراتيجية للذكاء الاصطناعي وتحليلات البيانات مع الأهداف التجارية، يعمل مستشارونا الخبراء مع عملائنا لاستغلال إمكانات اتجاهات البيانات المتعددة المصادر لتيسير العمليات المحسنة، وزيادة رضا العملاء والحفاظ على تفوقهم التنافسي. ستسهم اتخاذ القرارات المستندة إلى البيانات بلا شك في تطوير المنظمات. من خلال تحليلات الذكاء الاصطناعي، يمكن للمنظمات استخدام التكنولوجيا الصحيحة من الذكاء الاصطناعي التي ستساعدهم على الحصول على رؤى تجارية قيمة من البيانات."
-            }
+            "value":{
+              "english": "The impact of AI on managing big data represents a remarkable advancement that businesses need to consider to stay ahead in the market. <br><br> To align the best AI strategy and analytics with business objectives, our expert consultants work with our clients to unlock the potential of multi-source data trends to facilitate optimized operation and enhanced customer satisfaction. Data-driven decision-making will undoubtedly contribute to the development of organizations. Business development experts at A&B believe that, through AI-driven analytics, organizations can employ the right AI technology to help them gain valuable business insights from data and maintain competitive advantage.",
+              "arabic": "يمثل تأثير الذكاء الاصطناعي على إدارة البيانات الضخمة تقدماً ملحوظاً تحتاج الشركات إلى أخذه في الاعتبار للبقاء في مقدمة السوق. لضمان توافق أفضل استراتيجيات الذكاء الاصطناعي والتحليلات مع الأهداف التجارية، يعمل مستشارونا الخبراء مع عملائنا على استغلال إمكانات اتجاهات البيانات متعددة المصادر لتسهيل العمليات المحسنة وتعزيز رضا العملاء. سيساهم اتخاذ القرارات المستندة إلى البيانات بلا شك في تطوير المنظمات. يعتقد خبراء تطوير الأعمال في A&B أنه من خلال التحليلات المدعومة بالذكاء الاصطناعي، يمكن للمنظمات استخدام التكنولوجيا المناسبة لمساعدتها على اكتساب رؤى تجارية قيمة من البيانات والحفاظ على ميزة تنافسية."
+          }
+          
           }
           ,
           {
@@ -431,11 +432,11 @@
       "logoColor":"light",
       "contentHtml": "",
       "title": {
-        "english": "Human Capital",
+        "english":  "Human  Capital and Organizations",
         "arabic": "رأس المال البشري"
       },
       "preview_title": {
-        "english": "Human Capital",
+        "english":  "Human Capital and Organizations",
         "arabic": "رأس المال البشري"
       },
       "short": {
@@ -443,7 +444,7 @@
         "arabic": "A&B prioritizes employees as the key drivers of innovation and success, offering customized human capital management strategies to leverage their skills and knowledge for organizational growth and competitive advantage."
       },
       "introTitle": {
-        "english": "Human Capital",
+        "english":    "Human  <span class=\"mil-thin\">Capital</span>  <br> <span class=\"mil-thin\">and</span>  Organizations",
         "arabic": "رأس المال البشري"
       },
       "description": {
@@ -510,6 +511,7 @@
       },
       "keywords": [
         "human capital",
+        "Human Capital and Organizations",
         "employee innovation",
         "organizational growth",
         "competitive advantage",
@@ -534,11 +536,11 @@
       "logoColor":"light",
       "contentHtml": "",
       "title": {
-        "english": "Environment",
+        "english": "Climate and Sustainability",
         "arabic": "البيئة"
       },
       "preview_title": {
-        "english": "Environment",
+        "english": "Climate <br> <span class=\"mil-thin\">and</span> Sustainability",
         "arabic": "البيئة"
       },
       "short": {
@@ -546,7 +548,7 @@
         "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
       },
       "introTitle": {
-        "english": "Environment",
+        "english": "Climate <br> <span class=\"mil-thin\">and</span> Sustainability",
         "arabic": "البيئة"
       },
       "description": {
@@ -576,6 +578,7 @@
       "keywords": [
         "environment",
         "sustainability",
+        "Climate and Sustainability",
         "environmental strategies",
         "conservation",
         "ecosystem protection",
@@ -811,70 +814,70 @@
     ]
     },
     {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716364646/gv_1_halvjk.webp",
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719139098/5174_1_2_wvqlfb.webp",
       "id": "sector-10",
-      "logoColor":"light",
+      "logoColor": "light",
       "contentHtml": "",
       "title": {
-        "english": "Government and Public",
-        "arabic": "الحكومة والعامة"
+          "english": "Public Sector",
+          "arabic": "القطاع العام"
       },
       "preview_title": {
-        "english": "Government <br> and Public",
-        "arabic": "الحكومة والعامة"
+          "english": "Public <br> Sector",
+          "arabic": "القطاع العام"
       },
       "short": {
-        "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
-        "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+          "english": "Dedicated to enhancing governance, community development,   <br>and sustainable growth.",
+          "arabic": "ملتزمون بتحسين الحوكمة، وتطوير المجتمع، والنمو المستدام."
       },
       "introTitle": {
-        "english": "Government and Public",
-        "arabic": "الحكومة والعامة"
+          "english": "Public Sector",
+          "arabic": "القطاع العام"
       },
       "description": {
-        "title": {
-          "english": "SLOGAN",
-          "arabic": "SLOGAN"
-        },
-        "content": {
-          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
-          "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
-        },
-        "button": {
-          "link": "/projects",
-          "label": {
-            "english": "View works",
-            "arabic": "عرض الأعمال"
+          "title": {
+              "english": "Empowering Communities for Sustainable Future",
+              "arabic": "تمكين المجتمعات لمستقبل مستدام"
+          },
+          "content": {
+              "english": "With the prime goal of improving the livelihood of communities and <a class=\"hyper-link\" href=\"/services/service-1\" target=\"_blank\">urban and rural living</a>, government and public sector organizations are prone to facing a myriad of challenges as their role spans a variety of functions. A&B stands shoulder to shoulder with governments and public organizations and shares the responsibility of promoting sustainable development in our communities by employing R&D data-driven insights, transformational technology strategies, and economic growth planning to ensure SDGs are achieved.<br><br>Knowing how public organizations work requires a profound analysis of the challenges, encompassing policies and operations. Our <a class=\"hyper-link\" href=\"/sectors/sector-5\" target=\"_blank\">organizational design</a> experts examine their structure, processes, and systems to tailor the needed goal-aligned strategies leading to sustainable economic development.<br><br>We work with NGOs and other philanthropic foundations by creating program implementation strategies to address crucial social, economic, and <a class=\"hyper-link\" href=\"/sectors/sector-6\" target=\"_blank\">environmental issues</a>. To help build capacities and drive innovation, A&B <a class=\"hyper-link\" href=\"/sectors/sector-5\" target=\"_blank\">capacity-building</a> specialists tailor effective strategies that pave the way for positive and sustainable societal change.",
+              "arabic": "بهدف تحسين سبل العيش في المجتمعات و<a class=\"hyper-link\" href=\"/services/service-1\" target=\"_blank\">الحياة الحضرية والريفية</a>، تواجه المنظمات الحكومية ومنظمات القطاع العام تحديات عديدة حيث يمتد دورها ليشمل مجموعة متنوعة من الوظائف. تقف A&B جنبًا إلى جنب مع الحكومات والمنظمات العامة وتتحمل مسؤولية تعزيز التنمية المستدامة في مجتمعاتنا من خلال توظيف رؤى قائمة على البيانات والتحول التكنولوجي واستراتيجيات النمو الاقتصادي لضمان تحقيق أهداف التنمية المستدامة.<br><br>يتطلب فهم كيفية عمل المنظمات العامة تحليلًا عميقًا للتحديات التي تشمل السياسات والعمليات. يقوم خبراؤنا في <a class=\"hyper-link\" href=\"/sectors/sector-5\" target=\"_blank\">تصميم المنظمات</a> بفحص هيكلها وعملياتها وأنظمتها لتفصيل الاستراتيجيات المتوافقة مع الأهداف اللازمة لتحقيق التنمية الاقتصادية المستدامة.<br><br>نعمل مع المنظمات غير الحكومية والمؤسسات الخيرية الأخرى بإنشاء استراتيجيات لتنفيذ البرامج لمعالجة القضايا الاجتماعية والاقتصادية و<a class=\"hyper-link\" href=\"/sectors/sector-6\" target=\"_blank\">البيئية</a> الحرجة. للمساعدة في بناء القدرات ودفع الابتكار، يضع متخصصو <a class=\"hyper-link\" href=\"/sectors/sector-5\" target=\"_blank\">بناء القدرات</a> في A&B استراتيجيات فعالة تمهد الطريق لتغيير إيجابي ومستدام في المجتمع."
+          },
+          "button": {
+              "link": "/projects",
+              "label": {
+                  "english": "View works",
+                  "arabic": "عرض الأعمال"
+              }
           }
-        }
       },
       "list": {
-        "title": {
-          "english": "",
-          "arabic": ""
-        },
-        "items": []
+          "title": {
+              "english": "",
+              "arabic": ""
+          },
+          "items": []
       },
       "keywords": [
-        "government",
-        "public sector",
-        "public administration",
-        "public services",
-        "policy",
-        "governance",
-        "public policy",
-        "governmental",
-        "public management",
-        "public affairs",
-        "public administration",
-        "public governance",
-        "public sector reform",
-        "public sector management",
-        "governmental affairs",
-        "public sector strategy",
-        "public sector development"
-    ]
-    },
+          "government",
+          "public sector",
+          "public administration",
+          "public services",
+          "policy",
+          "governance",
+          "public policy",
+          "governmental",
+          "public management",
+          "public affairs",
+          "public governance",
+          "sustainable development",
+          "community engagement",
+          "capacity building",
+          "economic growth",
+          "transformational technology"
+      ]
+  }
+  ,
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717654565/1400_kd3g62.webp",
       "id": "sector-11",

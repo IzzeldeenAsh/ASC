@@ -34,7 +34,7 @@
         },
         {
             "title": {
-                "english": "Human Capital",
+                "english": "Human Capital and Organizations",
                 "arabic": "رأس المال البشري"
               },
             "link": "/sectors/sector-5"
@@ -42,7 +42,7 @@
         
         {
             "title": {
-                "english": "Environment",
+                "english": "Climate and Sustainability",
                 "arabic": "البيئة"
               },
             "link": "/sectors/sector-6"
@@ -74,8 +74,8 @@
         ,  
         {
             "title": {
-                "english": "Government and Public",
-                "arabic": "الحكومة والعامة"
+                "english": "Public Sector",
+                "arabic": "القطاع العام"
               },
             "link": "/sectors/sector-10"
         }
