@@ -59,8 +59,8 @@ export const SliderProps = {
   },
   milInfiniteSlider: {
     slidesPerView: 2,
-    spaceBetween: 30,
-    speed: 5000,
+    spaceBetween: 10,
+    speed: 3000,
     autoplay: true,
     autoplay: {
         delay: 0,
