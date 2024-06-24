@@ -64,6 +64,8 @@ export const SliderProps = {
     autoplay: true,
     autoplay: {
         delay: 0,
+        disableOnInteraction: false,
+        
     },
     loop: true,
     freeMode: true,

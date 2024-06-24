@@ -1203,7 +1203,12 @@ body[dir="ltr"] .title-yellow-head{
 .banner-title-and-image-container{
     display: flex;
 }
-
+.swiper-slide{
+    width: 200px !important;
+    margin-right: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+}
 
 .service-image::before {
     content: '';
