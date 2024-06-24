@@ -66,7 +66,7 @@ const ServiceDetail = () => {
 
         {/* service */}
         <section id="service">
-          <div className="container mil-p-90-90">
+          <div className="container mil-p-30-90">
             <div className="row justify-content-between">
               <div className="mil-relative mil-mb-30 col-lg-12">
                 
@@ -74,12 +74,12 @@ const ServiceDetail = () => {
                 <div className="title-yellow-head">
                     <ABQuoations />
                   </div>
-                  <ul className={`mil-center mil-mb-30 ${activeLocale === "en" ? "mil-lines-highlight-en " : "mil-lines-highlight-ar "}`}>
+                  <ul className={` mil-mb-30 ${activeLocale === "en" ? "mil-lines-highlight-en " : "mil-lines-highlight-ar "}`}>
                     
                     <li>
                       
                       <h4
-                        className="mil-up mil-mb-30 italic"
+                        className=" mil-mb-30 italic"
                         dangerouslySetInnerHTML={{ __html: slogan }}
                       />
                     </li>
