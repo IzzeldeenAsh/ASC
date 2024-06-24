@@ -10,6 +10,7 @@ import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
 import ABLogoLight from "@/src/layouts/svg-icons/AB-Logo-Light";
 import Truncate from "@/src/components/Truncate";
 import Image from "next/image";
+import RequestService from "@components/sections/RequestService"
 const ServiceDetail = () => {
   const { activeLocale } = useLocale();
   const router = useRouter();
@@ -146,6 +147,15 @@ const ServiceDetail = () => {
             ))}
           </>
         )}
+           {/* contact form */}
+        <section className="mil-soft-bg">
+        
+        <RequestService 
+        messageAr={"هل أنت مستعد لتحويل <span class=\"mil-thin\">أفكارك إلى</span> واقع؟ <br> اطلب <span class=\"mil-thin\">هذه الخدمة</span> "}
+        messageEn={"Ready to bring your <span class=\"mil-thin\">ideas to</span> life? <br> Ask <span class=\"mil-thin\"> about this service</span> "}
+        serviceName={breadTitle}
+        />
+        </section>
       </Layouts>
     )
   );

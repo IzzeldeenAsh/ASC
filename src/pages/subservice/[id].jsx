@@ -8,7 +8,7 @@ import PageBanner from "@components/PageBanner";
 import Link from "next/link";
 import InfographManager from "@/src/components/infographs/InfographManager";
 import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
-import Image from "next/image";
+import RequestService from "@components/sections/RequestService"
 const subservice = ( props ) => {
 
   const { activeLocale } = useLocale();
@@ -68,7 +68,14 @@ const subservice = ( props ) => {
                         }
                       </>
                       }
-
+                      <div className="py-3">
+                      <div className="mil-button mil-button-sm ">
+                      <Link href="/contact" className=" mil-text-sm fw-bold">
+                           {activeLocale ==='ar' ? "اسأل مختص " : "   ASK AN EXPERT"}
+                         </Link>
+                      </div>
+                      </div>
+                 
                       {typeof subservice.additional != "undefined" &&
                         <>
                           {subservice.additional.enabled == 1 &&
@@ -84,11 +91,7 @@ const subservice = ( props ) => {
                         </>
                       }
                       <div className="mil-p-30-30">
-                      <div className="mil-button mil-button-sm ">
-                      <Link href="/contact" className=" mil-text-sm fw-bold">
-                           {activeLocale ==='ar' ? "اسأل مختص " : "   ASK AN EXPERT"}
-                         </Link>
-                      </div>
+                     
                       </div>
                      
                   </div>
@@ -97,6 +100,14 @@ const subservice = ( props ) => {
       </section>
       {/* publication end */}
       {/* <RelatedPostsSection items={props.related} /> */}
+      <section className="mil-soft-bg">
+        
+        <RequestService 
+        messageAr={"هل أنت مستعد لتحويل <span class=\"mil-thin\">أفكارك إلى</span> واقع؟ <br> اطلب <span class=\"mil-thin\">هذه الخدمة</span> "}
+        messageEn={"Ready to bring your <span class=\"mil-thin\">ideas to</span> life? <br> Ask <span class=\"mil-thin\"> about this service</span> "}
+        serviceName={ activeLocale ==='ar' ? subservice.title.arabic : subservice.title.english}
+        />
+        </section>
     </Layouts>
   );
 };
