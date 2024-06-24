@@ -9,6 +9,7 @@ import Link from "next/link";
 import InfographManager from "@/src/components/infographs/InfographManager";
 import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
 import RequestService from "@components/sections/RequestService"
+import Image from "next/image";
 const subservice = ( props ) => {
 
   const { activeLocale } = useLocale();
@@ -83,13 +84,21 @@ const subservice = ( props ) => {
                           }
                         </>
                       }
-                      {typeof subservice.infograph != "undefined" &&
-                        <>
-                          {subservice.infograph.enabled == 1 &&
+                     {subservice.infograph.enabled == 1 &&
+                          <>
                            <div className="mil-mb-60"> <InfographManager service={subservice.id}/></div>
+                           <div className="infograph d-flex flex-column justify-content-center align-items-center">
+             <Image
+      src={subservice.infograph.english}
+      alt="infograph"
+      priority
+      width={1000}
+      height={426}
+    />
+    <div className="mil-center mil-text-xs" >A&B Smart Cities Roadmap</div>
+              </div>
+                           </>
                           }
-                        </>
-                      }
                       <div className="mil-p-30-30">
                      
                       </div>
