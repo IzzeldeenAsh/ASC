@@ -66,13 +66,13 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
         <section id="service">
           <div className="container mil-p-30-90">
             <div className="row justify-content-between">
-              <div className="mil-relative mil-mb-60 col-lg-12">
+              <div className="mil-relative col-lg-12">
                 <div className="position-relative justify-content-between flex-1">
                 <div className="title-yellow-head">
                     <ABQuoations />
                   </div>
                   <ul
-                  className={ ` mil-mb-30 ${ activeLocale === "en" ? "mil-lines-highlight-en " : "mil-lines-highlight-ar "}`}>
+                  className={ ` ${ activeLocale === "en" ? "mil-lines-highlight-en " : "mil-lines-highlight-ar "}`}>
                     
                     <li>
                    
