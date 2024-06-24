@@ -154,8 +154,11 @@
       },
       "infograph": {
         "enabled": 0,
-        "name": ""
+        "name": "Test",
+         "english": "/img/infographs/agricultural.svg",
+        "arabic": "/img/infographs/agricultural.svg"
       },
+    
       "keywords": ["Regulatory compliance and licensing"]
   }
   ,
@@ -165,7 +168,7 @@
       "english": "Smart Cities",
               "arabic": "المدن الذكية"
     },
-    "image": "",
+    "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719230387/2151305351_aju0t1.webp",
     "sector":[
       {
         "id":"sector-1",
@@ -188,6 +191,7 @@
       "english" :  "Smart <span class=\"mil-thin\">Cities</span>  ",
       "arabic" : "المدن <span class=\"mil-thin\">الذكية</span>    "
     },
+    
     "gallery": {
       "enabled": 0,
       "items": [
@@ -206,8 +210,10 @@
       "content": ""
     },
     "infograph": {
-      "enabled": 0,
-      "name": ""
+      "enabled": 1,
+      "name": "Test",
+       "english": "/img/infographs/Smart-City.svg",
+      "arabic": "/img/infographs/Smart-City.svg"
     },
     "keywords": [
       "efficient urban living",
