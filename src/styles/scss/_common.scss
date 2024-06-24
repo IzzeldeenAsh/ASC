@@ -1033,6 +1033,15 @@ spaces
     }
 }
 
+.mil-p-30-90 {
+    padding-top: 30px;
+    padding-bottom: 90px;
+
+    @media screen and (max-width: 992px) {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+}
 .mil-p-60-0 {
     padding-top: 60px;
     @media screen and (max-width: 992px) {
@@ -1268,19 +1277,19 @@ body[dir="ltr"] .title-yellow-head{
         cursor: pointer;
     }
 }
-.grid-background {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-image: url("https://res.cloudinary.com/dahiaq28x/image/upload/v1718202576/Grid_kaaj1u.svg");
-    background-position: 10% 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 470px;
+// .grid-background {
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     background-image: url("https://res.cloudinary.com/dahiaq28x/image/upload/v1718202576/Grid_kaaj1u.svg");
+//     background-position: 10% 100%;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     height: 470px;
   
-  }
+//   }
   .image-container {
     position: relative;
     width: 100%;

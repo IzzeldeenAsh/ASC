@@ -64,7 +64,7 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
 
         {/* Sector */}
         <section id="service">
-          <div className="container mil-p-90-90">
+          <div className="container mil-p-30-90">
             <div className="row justify-content-between">
               <div className="mil-relative mil-mb-60 col-lg-12">
                 <div className="position-relative justify-content-between flex-1">
@@ -72,12 +72,12 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
                     <ABQuoations />
                   </div>
                   <ul
-                  className={ `mil-center mil-mb-30 ${ activeLocale === "en" ? "mil-lines-highlight-en " : "mil-lines-highlight-ar "}`}>
+                  className={ ` mil-mb-30 ${ activeLocale === "en" ? "mil-lines-highlight-en " : "mil-lines-highlight-ar "}`}>
                     
                     <li>
                    
                       <h4
-                        className="mil-up mil-mb-30 italic"
+                        className=" mil-mb-30 italic"
                         dangerouslySetInnerHTML={{
                           __html:
                           slogan
