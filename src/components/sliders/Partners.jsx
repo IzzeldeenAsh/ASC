@@ -52,7 +52,7 @@ return (
              </div>
             </div>
             <div className="mil-p-30-0">
-            <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            <div onMouseOver={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <Swiper
               ref={swiperRefLocal}
               {...SliderProps.milInfiniteSlider} // Ensure this is correctly set
