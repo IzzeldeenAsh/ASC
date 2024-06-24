@@ -9,212 +9,187 @@
         "arabic" :"Our clients are partners in success. We don’t provide services; we share them together as well as the joy of success in the end of the road. Our clients are the most precious for us."
     },
     "items": [
-       
         {
-            "image": "/img/partners/1.svg",
+            "image": "/img/partners/PNG/1.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
         },
         {
-            "image": "/img/partners/2.svg",
+            "image": "/img/partners/PNG/2.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
         },
         {
-            "image": "/img/partners/3.svg",
+            "image": "/img/partners/PNG/3.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
         },
         {
-            "image": "/img/partners/4.svg",
+            "image": "/img/partners/PNG/4.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
         },
         {
-            "image": "/img/partners/5.svg",
+            "image": "/img/partners/PNG/5.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
         },
         {
-            "image": "/img/partners/6.svg",
+            "image": "/img/partners/PNG/6.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
         },
         {
-            "image": "/img/partners/7.png",
+            "image": "/img/partners/PNG/7.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
         },
         {
-            "image": "/img/partners/8.png",
+            "image": "/img/partners/PNG/8.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
         },
         {
-            "image": "/img/partners/9.png",
+            "image": "/img/partners/PNG/9.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
         },
         {
-            "image": "/img/partners/10.png",
-            "alt": "logo",
-            "link": "https://alokab.co/ar/"
-        }
-        ,
-        {
-            "image": "/img/partners/11.svg",
-            "alt": "logo",
-            "link": "https://alokab.co/ar/"
-        }
-        ,
-        {
-            "image": "/img/partners/12.png",
-            "alt": "logo",
-            "link": "https://alokab.co/ar/"
-        }
-        ,
-        {
-            "image": "/img/partners/13.png",
-            "alt": "logo",
-            "link": "https://alokab.co/ar/"
-        }
-        ,
-        {
-            "image": "/img/partners/14.svg",
-            "alt": "logo",
-            "link": "https://alokab.co/ar/"
-        }
-        ,
-        {
-            "image": "/img/partners/15.png",
+            "image": "/img/partners/PNG/10.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
         },
         {
-            "image": "/img/partners/16.svg",
+            "image": "/img/partners/PNG/11.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/16.png",
+            "image": "/img/partners/PNG/12.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/17.png",
+            "image": "/img/partners/PNG/13.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/18.png",
+            "image": "/img/partners/PNG/14.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/19.png",
+            "image": "/img/partners/PNG/15.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/17.svg",
+            "image": "/img/partners/PNG/16.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/20.png",
+            "image": "/img/partners/PNG/17.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/21.png",
+            "image": "/img/partners/PNG/18.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/18.svg",
+            "image": "/img/partners/PNG/19.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/22.png",
+            "image": "/img/partners/PNG/20.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/23.png",
+            "image": "/img/partners/PNG/21.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/24.png",
+            "image": "/img/partners/PNG/22.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/25.png",
+            "image": "/img/partners/PNG/23.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/19.svg",
+            "image": "/img/partners/PNG/24.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/21.svg",
+            "image": "/img/partners/PNG/25.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/22.svg",
+            "image": "/img/partners/PNG/26.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/26.png",
+            "image": "/img/partners/PNG/27.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/27.png",
+            "image": "/img/partners/PNG/28.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/28.png",
+            "image": "/img/partners/PNG/29.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/29.png",
+            "image": "/img/partners/PNG/30.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
-        }
-        ,
+        },
         {
-            "image": "/img/partners/20.svg",
+            "image": "/img/partners/PNG/31.png",
+            "alt": "logo",
+            "link": "https://alokab.co/ar/"
+        },
+        {
+            "image": "/img/partners/PNG/32.png",
+            "alt": "logo",
+            "link": "https://alokab.co/ar/"
+        },
+        {
+            "image": "/img/partners/PNG/33.png",
+            "alt": "logo",
+            "link": "https://alokab.co/ar/"
+        },
+        {
+            "image": "/img/partners/PNG/34.png",
+            "alt": "logo",
+            "link": "https://alokab.co/ar/"
+        },
+        {
+            "image": "/img/partners/PNG/35.png",
+            "alt": "logo",
+            "link": "https://alokab.co/ar/"
+        },
+        {
+            "image": "/img/partners/PNG/36.png",
             "alt": "logo",
             "link": "https://alokab.co/ar/"
         }
-        
     ]
+    
+    
 }

@@ -2262,14 +2262,14 @@ portfolio
 .swiper-slide {
   & .mil-portfolio-item {
     & .mil-descr {
-      pointer-events: none;
+      // pointer-events: none;
     }
   }
 
   &.swiper-slide-active {
     & .mil-portfolio-item {
       & .mil-descr {
-        pointer-events: all;
+        // pointer-events: all;
       }
     }
   }
