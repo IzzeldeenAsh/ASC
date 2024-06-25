@@ -70,7 +70,7 @@ const subservice = ( props ) => {
                       </>
                       }
                       <div className="py-3">
-                      <div className="mil-button mil-button-sm ">
+                      <div className="mil-text-accent-dark mil-hover-primary ">
                       <Link href="/contact" className=" mil-text-sm fw-bold">
                            {activeLocale ==='ar' ? "اسأل مختص " : "   ASK AN EXPERT"}
                          </Link>
@@ -92,10 +92,10 @@ const subservice = ( props ) => {
       src={subservice.infograph.english}
       alt="infograph"
       priority
-      width={1000}
-      height={426}
+      width={subservice.infograph.width}
+      height={subservice.infograph.height}
     />
-    <div className="mil-center mil-text-xs" >A&B Smart Cities Roadmap</div>
+    <div className="mil-center mil-text-xs" >{subservice.infograph.name}</div>
               </div>
                            </>
                           }
