@@ -95,7 +95,7 @@ const subservice = ( props ) => {
       width={subservice.infograph.width}
       height={subservice.infograph.height}
     />
-    <div className="mil-center mil-text-xs" >A&B Smart Cities Roadmap</div>
+    <div className="mil-center mil-text-xs" >{subservice.infograph.name}</div>
               </div>
                            </>
                           }
