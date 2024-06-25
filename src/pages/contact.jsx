@@ -222,7 +222,7 @@ const Contact = () => {
                 <p className="mil-mb-30 mil-text-sm position-relative">
                 <span className="mil-accent ">
                 </span>
-                *{activeLocale === 'ar' ? formLabels.description.arabic : formLabels.description.english}
+                {/* *{activeLocale === 'ar' ? formLabels.description.arabic : formLabels.description.english} */}
               </p>
               </div>
             </div>

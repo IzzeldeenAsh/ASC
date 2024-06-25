@@ -24,8 +24,8 @@
         {
             "id":"misson",
             "title":{
-                "english" :"Mission",
-                "arabic" : "المهمة"
+                "english" :"Mission & Vision",
+                "arabic" : "مهمتنا ورؤيتنا"
             },
             "description": {
                 "english": "Learn about our mission and values.",
@@ -38,7 +38,7 @@
         {
             "id":"timeline",
             "title":{
-                "english" :"History",
+                "english" :"Our History",
                 "arabic" : "التاريخ"
             },
             "description": {
@@ -64,8 +64,8 @@
         {
             "id":"news",
             "title":{
-                "english" :"News",
-                "arabic" : "الأخبار"
+                "english" :"News & Events",
+                "arabic" : "الأخبار و الأحداث" 
             },
             "description": {
                 "english": "Stay updated with our latest news and announcements.",

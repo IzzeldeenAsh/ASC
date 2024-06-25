@@ -131,9 +131,16 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
             {asPath.indexOf('/about') !== -1 &&
               <div className="row justify-content-center">
                 <div className="col-lg-8 mil-light">
-                  <ul className="mil-text mil-up mil-mb-60 d-flex flex-column flex-sm-row gap-20 justify-content-start align-items-start align-items-md-center justify-content-md-center">
+                  <ul className=" service-banner-links  mil-text mil-up d-flex gap-20 justify-content-center mil-light ">
                     {aboutData.sections.map((section, key) => (
-                      <li key={key}><a className='mil-hover-primary' href={`#${section.anchor}`}>{activeLocale === 'ar' ? section.title.arabic : section.title.english}</a></li>
+                     section.title.english ==='Leaders' ? 
+                     <li key={key}><a className='mil-hover-primary' style={{textTransform:"uppercase"}} href={`/?section=leaders`}>
+                     {activeLocale === 'ar' ? section.title.arabic : section.title.english}</a>
+                   </li>
+                     :
+                     <li key={key}><a className='mil-hover-primary' style={{textTransform:"uppercase"}} href={`#${section.anchor}`}>
+                     {activeLocale === 'ar' ? section.title.arabic : section.title.english}</a>
+                   </li>
                     ))}
                   </ul>
                 </div>
