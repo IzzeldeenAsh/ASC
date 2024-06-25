@@ -213,7 +213,9 @@
       "enabled": 1,
       "name": "Test",
        "english": "/img/infographs/Smart-City.svg",
-      "arabic": "/img/infographs/Smart-City.svg"
+      "arabic": "/img/infographs/Smart-City.svg",
+      "width":1000,
+      "height":338
     },
     "keywords": [
       "efficient urban living",
