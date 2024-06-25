@@ -10,7 +10,7 @@ import sectorsData from "@data/dummy/sectors.json";
 import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
 import ABLogoLight from "@layouts/svg-icons/AB-Logo-Light";
 import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
-import PaginatedBlog from "@components/PaginatedBlog"
+import Image from "next/image";
 import Truncate from "@/src/components/Truncate";
 const SectorDetail = () => {
   const { activeLocale } = useLocale();
@@ -106,6 +106,22 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
                         : postData.list.title.english,
                   }}
                 />
+                
+                 {postData.infograph &&
+                          <>
+              
+                           <div className="infograph d-flex flex-column justify-content-center align-items-center">
+             <Image
+      src={postData.infograph.english}
+      alt="infograph"
+      priority
+      width={postData.infograph.width}
+      height={postData.infograph.height}
+    />
+    <div className="mil-center mil-text-xs" >{postData.infograph.name}</div>
+              </div>
+                           </>
+                          }
                 <div
                   className="row "
                   style={{ gap: "20px", padding: "0 40px" }}

@@ -756,33 +756,42 @@
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716734942/dsad_clevgh.jpg",
       "id": "sector-9",
-      "logoColor":"light",
+      "logoColor": "light",
       "contentHtml": "",
       "title": {
-        "english": "Commerce",
+        "english": "International trade",
         "arabic": "تجارة"
       },
       "preview_title": {
-        "english": "Commerce",
+        "english": "International trade",
         "arabic": "تجارة"
       },
       "short": {
-        "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
-        "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+        "english": "Unlock global markets and boost your business resilience with expert international trade strategies.",
+        "arabic": "افتح الأسواق العالمية وعزز مرونة عملك باستراتيجيات تجارة دولية خبيرة."
       },
       "introTitle": {
-        "english": "Commerce",
+        "english": "International <br> <span class=\"mil-thin\">trade</span>",
         "arabic": "تجارة"
+      },
+      "infograph": {
+        "enabled": 1,
+        "name": "A&B International Trade Roadmap",
+         "english": "/img/infographs/trade.svg",
+        "arabic": "/img/infographs/trade.svg",
+        "width":1000,
+        "height":422
       },
       "description": {
         "title": {
-          "english": "SLOGAN",
-          "arabic": "SLOGAN"
+          "english": "Global Opportunities, Local Expertise",
+          "arabic": "فرص عالمية، خبرة محلية"
         },
         "content": {
-          "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.",
-          "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod , consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod, consectetur adipiscing elit, sed do eiusmod."
+          "english": "Organizations seeking to expand and diversify their markets are at the doorstep of economic growth and development. International trading is key to business resilience and competitive advantage in an interconnected global economy. Our data, export insights and intelligent market research skill set have proven to many clients that expanding to new markets opens the doors to new opportunities, diversifies risk, and enables businesses to leverage their strengths globally. <br><br> A&B International trade and export strategies and solutions help clients tear into their trade venture with clarity and confidence. Our team of experts never leaves a stone unturned as they analyze potential markets, execute a thorough product review and highlight any needed product adaptation. We sort out all economic and political instabilities, supply chain disruptions, regulatory compliance barriers and other significant international and domestic trade challenges to ensure efficient operations, cost-effective distribution networks, and a resilient supply chain.",
+          "arabic": "تسعى المنظمات التي تسعى لتوسيع وتنويع أسواقها إلى النمو الاقتصادي والتطور. التجارة الدولية هي مفتاح مرونة الأعمال والمزايا التنافسية في اقتصاد عالمي مترابط.<br><br> لقد أثبتت بياناتنا ورؤى التصدير ومهاراتنا الذكية في أبحاث السوق للعديد من العملاء أن التوسع إلى أسواق جديدة يفتح الأبواب لفرص جديدة، ويعمل على تنويع المخاطر، ويمكّن الشركات من الاستفادة من نقاط قوتها على مستوى العالم.<br><br> تساعد استراتيجيات وحلول التجارة والتصدير الدولية لشركة A&B العملاء على الدخول في مغامرتهم التجارية بوضوح وثقة. لا يترك فريقنا من الخبراء حجراً دون قلب حيث يقومون بتحليل الأسواق المحتملة، وتنفيذ مراجعة شاملة للمنتج وتسليط الضوء على أي تعديلات مطلوبة للمنتج. نحن نحل جميع الاضطرابات الاقتصادية والسياسية، وتعطل سلاسل التوريد، وحواجز الامتثال التنظيمي وغيرها من التحديات التجارية الدولية والمحلية الهامة لضمان العمليات الفعالة، وشبكات التوزيع ذات التكلفة الفعالة، وسلسلة التوريد المرنة."
         },
+     
         "button": {
           "link": "/projects",
           "label": {
@@ -799,7 +808,7 @@
         "items": []
       },
       "keywords": [
-        "commerce",
+        "International trade",
         "trade",
         "business",
         "e-commerce",
@@ -814,8 +823,9 @@
         "sales",
         "customer engagement",
         "market analysis"
-    ]
-    },
+      ]
+    }
+,    
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719139098/5174_1_2_wvqlfb.webp",
       "id": "sector-10",
