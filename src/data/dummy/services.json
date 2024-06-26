@@ -267,6 +267,13 @@
         "english": "A&B team of experts is dedicated to helping businesses and organizations lower their energy costs and reduce their carbon footprint.",
         "arabic": "تمكين المنظمات من اعتماد حلول الطاقة المتجددة لمستقبل مستدام."
       },
+      "infograph":{
+        "english": "/img/infographs/Renewable.svg",
+        "arabic": "/img/infographs/Renewable.svg",
+        "name" :"A&B Renewable Energy Roadmap",
+        "width": 1000,
+        "height" : 551
+       },
       "introTitle": {
         "english": "Renewable Energy <br> <span class=\"mil-thin\">Transformation</span>",
         "arabic": "تحويل الطاقة<br>  <span class=\"mil-thin\">المتجددة</span>"
