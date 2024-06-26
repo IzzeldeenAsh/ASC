@@ -88,13 +88,15 @@ const subservice = ( props ) => {
                           <>
                            <div className="mil-mb-60"> <InfographManager service={subservice.id}/></div>
                            <div className="infograph d-flex flex-column justify-content-center align-items-center">
-             <Image
-      src={subservice.infograph.english}
-      alt="infograph"
-      priority
-      width={subservice.infograph.width}
-      height={subservice.infograph.height}
-    />
+                           <div className="responsive-image">
+  <Image
+    src={subservice.infograph.english}
+    alt="infograph"
+    priority
+    width={subservice.infograph.width}
+    height={subservice.infograph.height}
+  />
+</div>
     <div className="mil-center mil-text-xs" >{subservice.infograph.name}</div>
               </div>
                            </>
