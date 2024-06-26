@@ -111,6 +111,7 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
                           <>
               
                            <div className="infograph d-flex flex-column justify-content-center align-items-center">
+                           <div className="responsive-image">
              <Image
       src={postData.infograph.english}
       alt="infograph"
@@ -118,6 +119,7 @@ const breadColor = logoColor !== "light" ? "dark" : "light"
       width={postData.infograph.width}
       height={postData.infograph.height}
     />
+    </div>
     <div className="mil-center mil-text-xs" >{postData.infograph.name}</div>
               </div>
                            </>
