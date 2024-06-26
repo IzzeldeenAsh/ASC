@@ -90,6 +90,7 @@ const ServiceDetail = () => {
                 <p className="mil-up mil-mb-30 mil-text-lg" dangerouslySetInnerHTML={{ __html: content }} />
                 {service.infograph && 
                 <div className="infograph d-flex flex-column justify-content-center align-items-center">
+                     <div className="responsive-image">
              <Image
       src={service.infograph.english}
       alt="infograph"
@@ -97,6 +98,7 @@ const ServiceDetail = () => {
       width={service.infograph.width}
       height={service.infograph.height}
     />
+    </div>
     <div className="mil-center mil-text-xs" >{service.infograph.name}</div>
               </div>}
               </div>
