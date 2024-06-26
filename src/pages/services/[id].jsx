@@ -94,10 +94,10 @@ const ServiceDetail = () => {
       src={service.infograph.english}
       alt="infograph"
       priority
-      width={1000}
-      height={551}
+      width={service.infograph.width}
+      height={service.infograph.height}
     />
-    <div className="mil-center mil-text-xs" >A&B Agricultural Sustainability Roadmap</div>
+    <div className="mil-center mil-text-xs" >{service.infograph.name}</div>
               </div>}
               </div>
             </div>
