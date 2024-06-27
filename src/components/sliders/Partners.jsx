@@ -60,7 +60,7 @@ return (
           >
               {Data.items.map((item, key) => (
               <SwiperSlide className="swiper-slide" key={`partners-slider-item-${key}`}>
-              <div className="mil-partner-frame" style={{"width": "120px"}} > 
+              <div className="mil-partner-frame" style={{"width": "140px"}} > 
                   <img src={item.image} alt={item.alt} />
               </div>
               </SwiperSlide>
