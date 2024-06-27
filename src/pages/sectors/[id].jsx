@@ -28,7 +28,7 @@ const SectorDetail = () => {
   const sector = sectorsData.sectors.find((sector) => sector.id === id);
 
   if (!sector) return <div>Sector not found</div>;
-
+  const metaTitle =  activeLocale === "ar" ? sector.title.arabic : sector.title.english;
   const pageTitle = activeLocale === "ar" ? sector.introTitle.arabic : sector.introTitle.english;
   const breadTitle = activeLocale === "ar" ? sector.title.arabic : sector.title.english;
   const slogan = activeLocale === "ar" ? sector.description.title.arabic : sector.description.title.english;
@@ -43,7 +43,7 @@ const SectorDetail = () => {
     sector && (
       <Layouts>
         <NextSeo
-          title={pageTitle}
+          title={metaTitle}
           description={description}
           canonical={`https://alokab.co/sectors/${id}`}
           openGraph={{
