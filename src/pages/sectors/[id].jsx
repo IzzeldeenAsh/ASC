@@ -43,7 +43,7 @@ const SectorDetail = () => {
     sector && (
       <Layouts>
         <NextSeo
-          title={pageTitle}
+          title={metaTitle}
           description={description}
           canonical={`https://alokab.co/sectors/${id}`}
           openGraph={{
