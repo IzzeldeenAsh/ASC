@@ -1,72 +1,109 @@
-import React from 'react'
+import React from 'react';
 import Data from "@data/sections/hero-2.json";
 import Layouts from "@layouts/Layouts";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Link from "next/link";
 import { useLocale } from "@/utils/getLocale";
 import Pentagon from "@layouts/pentagon/Index";
+import { NextSeo } from 'next-seo';
+
 const CEOWord = () => {
-    const { activeLocale} = useLocale();
+  const { activeLocale } = useLocale();
+
+  const pageTitle = "CEO's Word - A&B Consulting";
+  const description =  "CEO's Word - A&B Consulting";
+  const keywords = "CEO, A&B Consulting, leadership, business strategy";
+
   return (
     <>
-    {/* banner */}
+      {/* SEO Metadata */}
+      <NextSeo
+        title={pageTitle}
+        description={description}
+        canonical="https://alokab.co/ceo-word"
+        openGraph={{
+          url: "https://alokab.co/ceo-word",
+          title: pageTitle,
+          description: description,
+          images: [
+            {
+              url: Data.image.url,
+              width: 800,
+              height: 600,
+              alt: pageTitle,
+              type: 'image/jpeg',
+            },
+          ],
+          siteName: 'A&B Alokab Consulting',
+        }}
+        twitter={{
+          handle: '@handle',
+          site: '@site',
+          cardType: 'summary_large_image',
+        }}
+        additionalMetaTags={[
+          {
+            name: 'keywords',
+            content: keywords,
+          },
+        ]}
+      />
 
-    <Layouts>
-    <div  className={activeLocale === "ar" ? "arrow-ar-ceo" : "arrow-en-ceo"}>
-    <Link href={"/"} className="mil-link mil-dark  mil-arrow-place">
-                                <div style={ activeLocale === 'en' ? {'transform' : 'rotate(180deg)'} : {'transform' : 'rotate(0deg)'}} >
-                                <ArrowIcon  />
-                                </div>
-    </Link>
-
-      </div>
-    <section className="mil-banner-personal">
-        <div className="mil-animation-frame">
-            <div className="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="7" data-value-2="1.4" style={{"right": "25%"}}>
-                <Pentagon />
-            </div>
+      {/* Page Content */}
+      <Layouts>
+        <div className={activeLocale === "ar" ? "arrow-ar-ceo" : "arrow-en-ceo"}>
+          <Link href="/" legacyBehavior>
+            <a className="mil-link mil-dark mil-arrow-place">
+              <div style={activeLocale === 'en' ? { transform: 'rotate(180deg)' } : { transform: 'rotate(0deg)' }}>
+                <ArrowIcon />
+              </div>
+            </a>
+          </Link>
         </div>
-        <div className="container">
+
+        <section className="mil-banner-personal">
+          <div className="mil-animation-frame">
+            <div className="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="7" data-value-2="1.4" style={{ right: "25%" }}>
+              <Pentagon />
+            </div>
+          </div>
+          <div className="container">
             <div className="mil-banner-content mil-up">
-
-                <div className="row align-items-start ">
-                    <div className="col-lg-6 ">
-                        <div className="mil-personal-text">
-                            <p className="mil-mb-90">{Data.subtitle}</p>
-                            <h1 className="mil-mb-30 " dangerouslySetInnerHTML={{__html : Data.title}} />
-                            <div className="row justify-content-center">
-                                <div className="col-lg-8">
-                                    <span     style={{opacity: "0.7"}} className="mil-suptitle mil-suptitle-dark mil-mb-60" dangerouslySetInnerHTML={{__html : Data.text}} />
-                                </div>
-                            </div>
-                        </div>
+              <div className="row align-items-start">
+                <div className="col-lg-6">
+                  <div className="mil-personal-text">
+                    <p className="mil-mb-90">{Data.subtitle}</p>
+                    <h1 className="mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.title }} />
+                    <div className="row justify-content-center">
+                      <div className="col-lg-8">
+                        <span style={{ opacity: "0.7" }} className="mil-suptitle mil-suptitle-dark mil-mb-60" dangerouslySetInnerHTML={{ __html: Data.text }} />
+                      </div>
                     </div>
+                  </div>
                 </div>
-                <div style={{position:"relative"}}>
-                    <div className="mil-portrait-frame" >
-                                <img src={Data.image.url} alt={Data.image.alt} />
-                            </div>
-                            <div className="mil-banner-panel">
-                    <h5 dangerouslySetInnerHTML={{__html:Data.bottom.title.english}}/>
-                    <p  dangerouslySetInnerHTML={{__html:Data.bottom.content.english}}/>
-                    <h5 dangerouslySetInnerHTML={{__html:Data.bottom.ending.english}}/>
-                    <div className="text-dark" style={{display:"flex" , flexDirection:"column",fontWeight:"bolder"}}>
-                        <span>CEO, A&B Consulting</span>
-                        <span>KHALDUN ZOMOT</span>
-                        </div>
-                    <div></div>
+              </div>
+              <div style={{ position: "relative" }}>
+                <div className="mil-portrait-frame">
+                  <img src={Data.image.url} alt={Data.image.alt} />
                 </div>
+                <div className="mil-banner-panel">
+                  <h5 dangerouslySetInnerHTML={{ __html: Data.bottom.title.english }} />
+                  <p dangerouslySetInnerHTML={{ __html: Data.bottom.content.english }} />
+                  <h5 dangerouslySetInnerHTML={{ __html: Data.bottom.ending.english }} />
+                  <div className="text-dark" style={{ display: "flex", flexDirection: "column", fontWeight: "bolder" }}>
+                    <span>CEO, A&B Consulting</span>
+                    <span>KHALDUN ZOMOT</span>
+                  </div>
+                  <div></div>
                 </div>
-               
-
+              </div>
             </div>
-        </div>
-
-    </section>
-    </Layouts>
-    {/* banner end */}
-</>
-  )
+          </div>
+        </section>
+      </Layouts>
+      {/* banner end */}
+    </>
+  );
 }
 
-export default CEOWord
+export default CEOWord;

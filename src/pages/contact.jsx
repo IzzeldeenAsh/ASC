@@ -10,7 +10,8 @@ import { SelectDropdownSearch } from "@components/SelectDropdownWithSearch";
 import { IconCopy, IconX, IconCheck } from '@tabler/icons-react';
 import { useState } from "react";
 import { Notification, rem } from '@mantine/core';
-import { IconCopyCheck } from '@tabler/icons-react';
+import { NextSeo } from 'next-seo';
+
 const Contact = () => {
   const { activeLocale } = useLocale();
   const pageTitle = {
@@ -75,13 +76,13 @@ const Contact = () => {
     }
   };
 
-  const [notification, setNotification] = useState({ visible: false, message: '', item:'null' , color: '', icon: null });
+  const [notification, setNotification] = useState({ visible: false, message: '', item: 'null', color: '', icon: null });
 
-  const copyToClipboard = (text,item) => {
+  const copyToClipboard = (text, item) => {
     navigator.clipboard.writeText(text).then(() => {
       setNotification({
         visible: true,
-        item : item,
+        item: item,
         message: activeLocale === 'ar' ? 'تم النسخ إلى الحافظة!' : 'Copied to clipboard!',
         color: 'teal',
         icon: <IconCheck style={{ width: rem(20), height: rem(20) }} />
@@ -94,18 +95,50 @@ const Contact = () => {
         icon: <IconX style={{ width: rem(20), height: rem(20) }} />
       });
       console.error('Failed to copy text: ', err);
-    }).finally(()=>{
-      setTimeout(()=>{
+    }).finally(() => {
+      setTimeout(() => {
         setNotification({
           visible: false,
-          item :'null'
+          item: 'null'
         });
-      },3000)
+      }, 3000)
     })
   };
 
   return (
     <Layouts>
+      <NextSeo
+        title={pageTitle.english}
+        description={activeLocale === 'ar' ? pageTitle.arabic : pageTitle.english}
+        canonical="https://alokab.co/contact"
+        openGraph={{
+          url: "https://alokab.co/contact",
+          title: pageTitle.english,
+          description: activeLocale === 'ar' ? pageTitle.arabic : pageTitle.english,
+          images: [
+            {
+              url: "/path/to/image.jpg",
+              width: 800,
+              height: 600,
+              alt: pageTitle.english,
+              type: 'image/jpeg',
+            },
+          ],
+          siteName: 'A&B Alokab Consulting',
+        }}
+        twitter={{
+          handle: '@handle',
+          site: '@site',
+          cardType: 'summary_large_image',
+        }}
+        additionalMetaTags={[
+          {
+            name: 'keywords',
+            content: 'contact, get in touch, consulting, A&B Alokab Consulting',
+          },
+        ]}
+      />
+
       <div className="logoStyle">
         <ABLogoDark />
       </div>
@@ -123,7 +156,7 @@ const Contact = () => {
         </Notification>
       )}
       {/* contact form */}
-      <section >
+      <section>
         <div className="mil-mb-60 mil-p-0-30">
           <WorldMap />
         </div>
@@ -131,12 +164,11 @@ const Contact = () => {
       <section id="contact">
         <div className="container mil-mb-60">
           <div className="row">
-            <div className="col-12 col-md-5 position-relative" >
+            <div className="col-12 col-md-5 position-relative">
               <div className="grid grid-background"></div>
-              <div className="d-flex flex-column gap-20 " style={{ padding: "30px 20px" }}>
+              <div className="d-flex flex-column gap-20" style={{ padding: "30px 20px" }}>
                 <div className="depth-yellow-cards">
-               
-                  <div className=" mil-text-sm footer-location">
+                  <div className="mil-text-sm footer-location">
                     {activeLocale === 'ar' ? (
                       <>
                         <span className="text-dark fw-bold">الولايات المتحدة الأمريكية: (المقر الرئيسي)</span>
@@ -156,20 +188,17 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="depth-yellow-cards">
-                {
-                     ((notification.item ==='null' || notification.item ==='email')) &&
-                     <div className="icon" onClick={() => copyToClipboard('+962771429','mobile')}>
-                     <IconCopy size={15} color="#ababab" />
-                   </div>
+                  {((notification.item === 'null' || notification.item === 'email')) &&
+                    <div className="icon" onClick={() => copyToClipboard('+962771429', 'mobile')}>
+                      <IconCopy size={15} color="#ababab" />
+                    </div>
                   }
-                 
-                  {(notification.visible && notification.item ==='mobile') &&
-                   <div className="icon" onClick={() => copyToClipboard('+962771429','mobile')}>
-                   <IconCopyCheck size={15} color="#73ea09" />
-                 </div>
+                  {(notification.visible && notification.item === 'mobile') &&
+                    <div className="icon" onClick={() => copyToClipboard('+962771429', 'mobile')}>
+                      <IconCheck size={15} color="#73ea09" />
+                    </div>
                   }
-                  
-                  <div className=" mil-text-sm footer-location">
+                  <div className="mil-text-sm footer-location">
                     {activeLocale === 'ar' ? (
                       <>
                         <span className="text-dark fw-bold">رقم الهاتف :</span>
@@ -189,19 +218,17 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="depth-yellow-cards">
-                  {
-                    ( (notification.item ==='null' || notification.item ==='mobile')) &&
-                     <div className="icon" onClick={() => copyToClipboard('info@alokab.co','email')}>
-                     <IconCopy size={15} color="#ababab" />
-                   </div>
+                  {((notification.item === 'null' || notification.item === 'mobile')) &&
+                    <div className="icon" onClick={() => copyToClipboard('info@alokab.co', 'email')}>
+                      <IconCopy size={15} color="#ababab" />
+                    </div>
                   }
-                 
-                  {(notification.visible && notification.item ==='email') &&
-                   <div className="icon" onClick={() => copyToClipboard('info@alokab.co','email')}>
-                   <IconCopyCheck size={15} color="#73ea09" />
-                 </div>
+                  {(notification.visible && notification.item === 'email') &&
+                    <div className="icon" onClick={() => copyToClipboard('info@alokab.co', 'email')}>
+                      <IconCheck size={15} color="#73ea09" />
+                    </div>
                   }
-                  <div className=" mil-text-sm footer-location">
+                  <div className="mil-text-sm footer-location">
                     {activeLocale === 'ar' ? (
                       <>
                         <span className="text-dark fw-bold">البريد الإلكتروني :</span>
@@ -220,15 +247,15 @@ const Contact = () => {
                   </div>
                 </div>
                 <p className="mil-mb-30 mil-text-sm position-relative">
-                <span className="mil-accent ">
-                </span>
-                {/* *{activeLocale === 'ar' ? formLabels.description.arabic : formLabels.description.english} */}
-              </p>
+                  <span className="mil-accent">
+                  </span>
+                  {/* *{activeLocale === 'ar' ? formLabels.description.arabic : formLabels.description.english} */}
+                </p>
               </div>
             </div>
             <div className="col-12 col-md-1"></div>
             <div className="col-12 col-md-6">
-              <h3 className="  mil-mb-60">
+              <h3 className="mil-mb-60">
                 {activeLocale === 'ar' ?
                   <div>يسرنا <span className="mil-thin">السماع منك! </span></div>
                   :
@@ -303,8 +330,7 @@ const Contact = () => {
                     action={AppData.settings.formspreeURL}
                     className="row align-items-center"
                   >
-                    
-                    <div className="col-lg-6 ">
+                    <div className="col-lg-6">
                       <input
                         type="text"
                         placeholder={activeLocale === 'ar' ? formLabels.name.arabic : formLabels.name.english}
@@ -315,10 +341,10 @@ const Contact = () => {
                         value={values.name}
                       />
                     </div>
-                    <div className="col-lg-6 ">
+                    <div className="col-lg-6">
                       <SelectDropdownSearch />
                     </div>
-                    <div className="col-lg-6 ">
+                    <div className="col-lg-6">
                       <input
                         type="email"
                         placeholder={activeLocale === 'ar' ? formLabels.email.arabic : formLabels.email.english}
@@ -329,7 +355,7 @@ const Contact = () => {
                         value={values.email}
                       />
                     </div>
-                    <div className="col-lg-6 ">
+                    <div className="col-lg-6">
                       <input
                         type="text"
                         placeholder={activeLocale === 'ar' ? formLabels.phone.arabic : formLabels.phone.english}
@@ -340,7 +366,7 @@ const Contact = () => {
                         value={values.phone}
                       />
                     </div>
-                    <div className="col-lg-6 ">
+                    <div className="col-lg-6">
                       <input
                         type="text"
                         placeholder={activeLocale === 'ar' ? formLabels.company.arabic : formLabels.company.english}
@@ -350,7 +376,7 @@ const Contact = () => {
                         value={values.company}
                       />
                     </div>
-                    <div className="col-lg-6 ">
+                    <div className="col-lg-6">
                       <input
                         type="text"
                         placeholder={activeLocale === 'ar' ? formLabels.position.arabic : formLabels.position.english}
@@ -360,8 +386,7 @@ const Contact = () => {
                         value={values.position}
                       />
                     </div>
-                    
-                    <div className="col-lg-12 ">
+                    <div className="col-lg-12">
                       <textarea
                         placeholder={activeLocale === 'ar' ? formLabels.message.arabic : formLabels.message.english}
                         name="message"
@@ -395,7 +420,6 @@ const Contact = () => {
                 )}
               </Formik>
             </div>
-          
           </div>
         </div>
       </section>
