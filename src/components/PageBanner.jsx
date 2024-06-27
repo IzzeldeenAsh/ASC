@@ -69,11 +69,7 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
               <li className={breadColor === "light" ? "mil-light" : ""}>
                 <Link href="/">{activeLocale === 'ar' ? "الرئيسية" : "Homepage"}</Link>
               </li>
-              {asPath.indexOf('/blog/') !== -1 &&
-                <li>
-                  <Link href="/blog">Blog</Link>
-                </li>
-              }
+              
               {asPath.indexOf('/sectors/') !== -1 &&
                 <li className={breadColor === "light" ? "mil-light" : ""}>
                   <Link href="/sectors">
@@ -86,7 +82,9 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
                   <Link href="/services">   {activeLocale ==='ar' ? "الخدمات" : "Services"}</Link>
                 </li>
               }
-              <li className={breadColor === "light" ? "mil-light" : ""}><a dangerouslySetInnerHTML={{ __html: clearBreadTitle }} /></li>
+              <li className={breadColor === "light" ? "mil-light" : ""}>
+                <a href='/' dangerouslySetInnerHTML={{ __html: clearBreadTitle }} />
+                </li>
             </ul>
             {headingSize === 1 &&
               <div className={`banner-title-and-image-container ${align === "center" ? "d-flex justify-content-center" : ""}`}>

@@ -7,59 +7,64 @@ import ServicesSection from "@components/sections/Services";
 import TeamSection from "@components/sections/Team";
 import { useRouter } from "next/router";
 import { NextSeo } from 'next-seo';
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
-const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
+const TestimonialSlider = dynamic(() => import("@components/sliders/Testimonial"), { ssr: false });
+const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), { ssr: false });
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import nextI18NextConfig from '../../next-i18next.config';
+
 const Home1 = (props) => {
   const router = useRouter();
-  const {section} = router.query;
+  const { section } = router.query;
 
-  useEffect(()=>{
-    if(section){
+  useEffect(() => {
+    if (section) {
       const sectionElement = document.getElementById(section);
-      if(sectionElement){
-        sectionElement.scrollIntoView({behavior:'smooth'})
+      if (sectionElement) {
+        sectionElement.scrollIntoView({ behavior: 'smooth' });
       }
     }
-  },[section])
+  }, [section]);
+
   return (
-    <Layouts >
+    <Layouts>
       <NextSeo
-      title="A&B Alokab Consulting"
-      description='A&B Alokab Consulting provides expert guidance, Innovative Methodologies and a Leading consulting that help businesses and organizations. Alokab provides its services systematically consisting of seven stages, which are essential for developing businesses and companies in general'
-      canonical= 'https://alokab.co'
-      openGraph={{
-        url: 'https://alokab.co',
-        title: 'A&B Alokab Consulting',
-        description: 'A&B Alokab Consulting provides expert guidance, Innovative Methodologies and a Leading consulting.',
-        images: [
-          {
-            url: 'https://media.licdn.com/dms/image/D4E0BAQHjxNWPbAhU5g/company-logo_200_200/0/1707818325589/alokab_consulting_logo?e=2147483647&v=beta&t=gi0NAMaKU42mNH9nat17bTM_rjpL44lJfDwonxOVGvM',
-            width: 800,
-            height: 600,
-            alt: 'Og Image Alt',
-            type: 'image/jpeg',
-          },
-        ],
-        siteName: 'A&B Alokab Consulting',
-      }}
-      twitter={{
-        handle: '@handle',
-        site: '@site',
-        cardType: 'summary_large_image',
-      }}
-    />
+        title="A&B Alokab Consulting"
+        description="A&B Alokab Consulting provides expert guidance, innovative methodologies, and leading consulting services that help businesses and organizations thrive. Alokab offers its services systematically in seven stages, essential for developing businesses and companies."
+        canonical="https://alokab.co"
+        openGraph={{
+          url: 'https://alokab.co',
+          title: 'A&B Alokab Consulting',
+          description: 'A&B Alokab Consulting provides expert guidance, innovative methodologies, and leading consulting services.',
+          images: [
+            {
+              url: 'https://media.licdn.com/dms/image/D4E0BAQHjxNWPbAhU5g/company-logo_200_200/0/1707818325589/alokab_consulting_logo?e=2147483647&v=beta&t=gi0NAMaKU42mNH9nat17bTM_rjpL44lJfDwonxOVGvM',
+              width: 800,
+              height: 600,
+              alt: 'A&B Alokab Consulting Logo',
+              type: 'image/jpeg',
+            },
+          ],
+          siteName: 'A&B Alokab Consulting',
+        }}
+        twitter={{
+          handle: '@handle',
+          site: '@site',
+          cardType: 'summary_large_image',
+        }}
+        additionalMetaTags={[{
+          name: 'keywords',
+          content: 'Consulting, Business, Innovation, Methodologies, Development'
+        }]}
+      />
       <HeroOneSection />
-      <ServicesSection  />
+      <ServicesSection />
       <AboutSection />
-      <TeamSection id="leaders"/>
-      {/* <TestimonialSlider /> */}
+      <TeamSection id="leaders" />
       <PartnersSlider />
-      {/* <LatestPostsSection posts={props.posts} /> */}
     </Layouts>
   );
 };
+
 export default Home1;
 
 export async function getStaticProps({ locale }) {
@@ -67,11 +72,10 @@ export async function getStaticProps({ locale }) {
     props: {
       ...(await serverSideTranslations(
         locale,
-        [ 'common'],
+        ['common'],
         nextI18NextConfig
-      
       )),
       // Will be passed to the page component as props
     },
-  }
+  };
 }
