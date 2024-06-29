@@ -1,31 +1,10 @@
-import { SliderProps } from "@/src/common/sliderProps";
-import { Swiper, SwiperSlide } from "swiper/react";
 import Data from '@data/sliders/partners';
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import { useLocale } from "@/utils/getLocale";
-import { useEffect, useRef } from "react";
 
 const PartnersSlider = () => {
   const { activeLocale, t } = useLocale();
-  const swiperRefLocal = useRef();
-  useEffect(() => {
-    // Access Swiper instance directly after initialization
-    if (swiperRefLocal.current && swiperRefLocal.current.swiper) {
-      // Set disableOnInteraction to false (important for immediate stop)
-      swiperRefLocal.current.swiper.params.autoplay.disableOnInteraction = false;
-    }
-  }, []); // Run this effect once after the component mounts
-  const handleMouseEnter = () => {
-    if (swiperRefLocal.current && swiperRefLocal.current.swiper && swiperRefLocal.current.swiper.autoplay) {
-      swiperRefLocal.current.swiper.autoplay.stop();
-    }
-  };
 
-  const handleMouseLeave = () => {
-    if (swiperRefLocal.current && swiperRefLocal.current.swiper && swiperRefLocal.current.swiper.autoplay) {
-      swiperRefLocal.current.swiper.autoplay.start();
-    }
-  };
 
 return (
   <>
@@ -48,25 +27,14 @@ return (
                   dangerouslySetInnerHTML={{ __html: Data.title.english }}/>
               </span>
              <div className="col-8">
-             <div className="mil-text mil-up mil-mb-60 mil-p-30-30 " dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.content.arabic : Data.content.english}} />
+             <div className="mil-text-lg mil-up mil-mb-60 mil-p-30-30 " dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.content.arabic : Data.content.english}} />
              </div>
             </div>
             <div className="mil-p-30-0">
-            <div onMouseOver={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <Swiper
-              ref={swiperRefLocal}
-              {...SliderProps.milInfiniteSlider} // Ensure this is correctly set
-              className="swiper-container mil-infinite-show mil-up "
-          >
-              {Data.items.map((item, key) => (
-              <SwiperSlide className="swiper-slide" key={`partners-slider-item-${key}`}>
-              <div className="mil-partner-frame" style={{"width": "140px"}} > 
-                  <img src={item.image} alt={item.alt} />
+              <div>
+
               </div>
-              </SwiperSlide>
-              ))}
-          </Swiper>
-          </div>
+     
             </div>
      
       </div>

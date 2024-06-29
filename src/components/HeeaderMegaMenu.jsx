@@ -52,14 +52,23 @@ export function HeaderMegaMenu() {
         </Link>
     );
 
-    const generateLinks = (items) => items.map((item, index) => (
-        <MenuLink
-            key={`${item.title.english}-${index}`}
-            href={item.link}
-            label={activeLocale=== 'en' ? item.title.english : item.title.arabic}
-        />
-    ));
-
+    const generateLinks = (items) => 
+        items
+            .map((item, index) => (
+                <MenuLink
+                    key={`${item.title.english}-${index}`}
+                    href={item.link}
+                    label={activeLocale === 'en' ? item.title.english : item.title.arabic}
+                />
+            ))
+            .sort((a, b) => {
+                if (activeLocale === 'en') {
+                    return a.props.label.localeCompare(b.props.label);
+                } else {
+                    return a.props.label.localeCompare(b.props.label, 'ar');
+                }
+            });
+    
     const contactUs = [
         { key: "contact-1", label: "Email", description: "info@alokabconsulting.com" },
         { key: "contact-2", label: "Mobile", description: "+962798011454" },
