@@ -15,8 +15,8 @@ import { NextSeo } from 'next-seo';
 const Contact = () => {
   const { activeLocale } = useLocale();
   const pageTitle = {
-    english: "Get in touch!",
-    arabic: "ابق على تواصل!"
+    english: "Contact Us!",
+    arabic: "اتصل بنا!"
   };
 
   const breadTitle = {
@@ -156,112 +156,13 @@ const Contact = () => {
         </Notification>
       )}
       {/* contact form */}
-      <section>
-        <div className="mil-mb-60 mil-p-0-30">
-          <WorldMap />
-        </div>
-      </section>
+     
       <section id="contact">
         <div className="container mil-mb-60">
           <div className="row">
-            <div className="col-12 col-md-5 position-relative">
-              <div className="grid grid-background"></div>
-              <div className="d-flex flex-column gap-20" style={{ padding: "30px 20px" }}>
-                <div className="depth-yellow-cards">
-                  <div className="mil-text-sm footer-location">
-                    {activeLocale === 'ar' ? (
-                      <>
-                        <span className="text-dark fw-bold">الولايات المتحدة الأمريكية: (المقر الرئيسي)</span>
-                        <br />
-                        .ديلاوير، ويلمنجتون - وسط المدينة 1000 N
-                        <br />
-                        شارع ويست. جناح 1200. ويلمنجتون. 19801
-                      </>
-                    ) : (
-                      <>
-                        <span className="text-dark fw-bold">USA (Headquarters)</span>
-                        <br />
-                        <span className="text-dark fw-bold">Jordan (Regional Operations Office)</span>
-                        <br />
-                      </>
-                    )}
-                  </div>
-                </div>
-                <div className="depth-yellow-cards">
-                  {((notification.item === 'null' || notification.item === 'email')) &&
-                    <div className="icon" onClick={() => copyToClipboard('+962771429', 'mobile')}>
-                      <IconCopy size={15} color="#ababab" />
-                    </div>
-                  }
-                  {(notification.visible && notification.item === 'mobile') &&
-                    <div className="icon" onClick={() => copyToClipboard('+962771429', 'mobile')}>
-                      <IconCheck size={15} color="#73ea09" />
-                    </div>
-                  }
-                  <div className="mil-text-sm footer-location">
-                    {activeLocale === 'ar' ? (
-                      <>
-                        <span className="text-dark fw-bold">رقم الهاتف :</span>
-                        <br />
-                        +962 777 7714 29
-                        <br />
-                        شارع ويست. جناح 1200. ويلمنجتون. 19801
-                      </>
-                    ) : (
-                      <>
-                        <span className="text-dark fw-bold">Mobile:</span>
-                        <br />
-                        +962 777 7714 29
-                        <br />
-                      </>
-                    )}
-                  </div>
-                </div>
-                <div className="depth-yellow-cards">
-                  {((notification.item === 'null' || notification.item === 'mobile')) &&
-                    <div className="icon" onClick={() => copyToClipboard('info@alokab.co', 'email')}>
-                      <IconCopy size={15} color="#ababab" />
-                    </div>
-                  }
-                  {(notification.visible && notification.item === 'email') &&
-                    <div className="icon" onClick={() => copyToClipboard('info@alokab.co', 'email')}>
-                      <IconCheck size={15} color="#73ea09" />
-                    </div>
-                  }
-                  <div className="mil-text-sm footer-location">
-                    {activeLocale === 'ar' ? (
-                      <>
-                        <span className="text-dark fw-bold">البريد الإلكتروني :</span>
-                        <br />
-                        info@alokab.co
-                        <br />
-                      </>
-                    ) : (
-                      <>
-                        <span className="text-dark fw-bold">Email:</span>
-                        <br />
-                        info@alokab.co
-                        <br />
-                      </>
-                    )}
-                  </div>
-                </div>
-                <p className="mil-mb-30 mil-text-sm position-relative">
-                  <span className="mil-accent">
-                  </span>
-                  {/* *{activeLocale === 'ar' ? formLabels.description.arabic : formLabels.description.english} */}
-                </p>
-              </div>
-            </div>
-            <div className="col-12 col-md-1"></div>
-            <div className="col-12 col-md-6">
-              <h3 className="mil-mb-60">
-                {activeLocale === 'ar' ?
-                  <div>يسرنا <span className="mil-thin">السماع منك! </span></div>
-                  :
-                  <div>Glad <span className="mil-thin">to hear from you!</span></div>
-                }
-              </h3>
+           
+            <div className="col-12">
+           
               <Formik
                 initialValues={{
                   email: "",

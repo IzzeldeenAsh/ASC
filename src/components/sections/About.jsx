@@ -15,7 +15,7 @@ const AboutSection = () => {
                                 <h2 className="mil-up mil-mb-60">
                                 {t("aboutDiscover")} <br/>{t("aboutWe")} <span className="mil-thin"> {t("aboutOur")} </span>
                                 </h2>
-                                <div className="mil-text mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.description.arabic : Data.description.english}} />
+                                <div className="mil-text-lg mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.description.arabic : Data.description.english}} />
                                
                             </div>
                             <div className="mil-up">
@@ -32,9 +32,6 @@ const AboutSection = () => {
                         <div className="col-lg-5">
 
                             <div className="mil-about-photo mil-mb-90">
-                                {/* <div className="mil-lines-place">
-                                    <LinesIcon />
-                                </div> */}
                                 <div className="mil-up mil-img-frame" style={{"paddingBottom": "160%"}}>
                                     <img src={Data.image.url} alt={Data.image.alt} className="mil-scale " data-value-1="1" data-value-2="1.2" />
                                 </div>

@@ -17,7 +17,7 @@ const TeamSection = () => {
                   dangerouslySetInnerHTML={{ __html: activeLocale ==="ar" ? Data.title.arabic : Data.title.english }}
                 />
                 <div
-                  className="mil-text mil-up mil-mb-60 "
+                  className="mil-text-lg mil-up mil-mb-60 "
                   dangerouslySetInnerHTML={{ __html: activeLocale ==="ar" ? Data.description.arabic : Data.description.english  }}
                 />
      <div className="mil-about-quote mil-mb-60">
