@@ -14,7 +14,7 @@ const ServicesSection = () => {
       {/* services */}
       <section id="servcise">
         <div className="mi-invert-fix">
-          <div className="container mil-p-120-0">
+          <div className="container mil-p-120-0 d-flex flex-column align-items-center">
             <div className="mil-mb-120">
               <div className="row">
                 <div className="col-lg-10">
