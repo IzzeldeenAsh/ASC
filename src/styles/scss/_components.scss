@@ -1291,11 +1291,26 @@ services
     font-size: 13px;
 }
 
+.service-image-abs{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.service-image-abs::after{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 1) 80%,rgba(255, 255, 255, 1) 100%);
+pointer-events: none;
+}
 
 .mil-service-card-sm {
   position: relative;
   display: block;
-  padding: 60px 30px;
+  padding: 190px 30px 50px 30px;
   min-width: 200px;
   & p {
     opacity: 1;
@@ -1325,7 +1340,7 @@ services
     @include rtl-fix();
     inset-inline-start: 0;
     height: 7px;
-
+z-index:10;
     width: 0;
     background-color: $accent;
     transition: $t-lg;
@@ -3004,6 +3019,7 @@ Timeline
   }
   
 }
+
 #timeline {
   display: flex;
   background-color: #F2F2F2;
@@ -3016,7 +3032,7 @@ Timeline
     .tl-item {
       width: 23.3333%;
       height: 600px;
-      height: 600px;
+      height: 530px;
       max-height: 600px;
     }
   }

@@ -6,6 +6,7 @@ import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import ABQuoations from "@layouts/svg-icons/AB-Quotations";
 import { IconArrowNarrowRight } from '@tabler/icons-react';
 import Truncate from "../Truncate";
+import Image from "next/image";
 const ServicesSection = () => {
   const { activeLocale, t } = useLocale();
   return (
@@ -62,6 +63,7 @@ const ServicesSection = () => {
                   className="col-md-6 col-lg-3 mil-services-grid-item p-0 "
                   style={{ position: "relative" }}
                 >
+                    
                   <Link href={item.link} className="mil-service-card-sm mil-up">
                     <div
                       className="mil-squares service-squares"
@@ -75,14 +77,20 @@ const ServicesSection = () => {
                       <span className="mil-square"></span>
                       <span className="mil-square"></span>
                     </div>
+                    <div className="service-image-abs-wrapper">
+                    <div className="service-image-abs">
+                        <img className="w-100" src="https://img.freepik.com/premium-photo/smart-city-with-smart-services-icon-internet-things_756748-27274.jpg?w=1800" alt="service-image"/>
+                      </div>
+                    </div>
+                    
                     <h5
-                      className=" mil-mb-30"
+                     className="mil-mb-20"
                       dangerouslySetInnerHTML={{ __html: activeLocale ==='en'? item.title.english :item.title.arabic }}/>
-                    <div className="quotations" style={activeLocale ==='ar' ? {transformOrigin:'100%'} : {transformOrigin:'0%'}}>
-                      <ABQuoations side={'right'}/></div>
-                      <p className="mil-mb-30">{
-                      activeLocale ==='en'? <Truncate text={item.text.english} maxLength={60}/> :  <Truncate text={item.text.arabic} maxLength={60}/>
-                      }</p>
+                    {/* <div className="quotations" style={activeLocale ==='ar' ? {transformOrigin:'100%'} : {transformOrigin:'0%'}}>
+                      <ABQuoations side={'right'}/></div> */}
+                      {/* <p className="mil-mb-10">{
+                      activeLocale ==='en'? <Truncate text={item.text.english} maxLength={10}/> :  <Truncate text={item.text.arabic} maxLength={10}/>
+                      }</p> */}
                    <div className="d-flex align-items-center gap-10">
                    <span className="mil-text-xs discover"> 
                    {activeLocale ==='en'? 'Discover' :'اكتشف'}
