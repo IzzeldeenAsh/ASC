@@ -628,6 +628,14 @@ button
     height: 30px !important;
    
 }
+.see-all-arrow{
+    transform: translateX(0%);
+    display: flex;
+    transition: transform 0.2s ease-in-out;
+    &:hover{
+        transform: translateX(20%);
+    }
+}
 .slide-in {
     animation: slide-in 0.5s forwards;
 }

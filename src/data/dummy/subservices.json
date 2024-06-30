@@ -881,6 +881,14 @@
   "id": "service-7",
   "name": "Entrepreneurship"
 },
+"infograph": {
+  "enabled": 0,
+  "name": "A&B Smart City Roadmap",
+   "english": "/img/infographs/Smart-City.svg",
+  "arabic": "/img/infographs/Smart-City.svg",
+  "width":1000,
+  "height":338
+},
   "title": {
     "english": "Logistics and Supply Chain",
     "arabic": "الخدمات اللوجستية وسلسلة التوريد"
@@ -893,6 +901,7 @@
     "english": "<div>Although logistics and supply chain management might appear straightforward, they are incredibly intricate and vital for business success. Our approach focuses on optimizing every step of your supply chain to ensure efficiency and cost-effectiveness. From procurement to delivery, A&B provides a comprehensive suite of services designed to streamline your operations, enhance supplier relationships, and improve customer satisfaction.</div>",
     "arabic": "<div>على الرغم من أن إدارة الخدمات اللوجستية وسلسلة التوريد قد تبدو بسيطة، إلا أنها معقدة للغاية وحيوية لنجاح الأعمال. يركز نهجنا على تحسين كل خطوة من سلسلة التوريد لضمان الكفاءة والفعالية من حيث التكلفة. من الشراء إلى التسليم، تقدم A&B مجموعة شاملة من الخدمات المصممة لتبسيط عملياتك، وتعزيز العلاقات مع الموردين، وتحسين رضا العملاء.</div>"
   },
+
   "introTitle": {
     "english": "Logistics and Supply Chain",
     "arabic": "الخدمات اللوجستية وسلسلة التوريد"
@@ -908,16 +917,13 @@
         "image": "/img/blog/1.jpg",
         "alt": "image"
       }
-    ]
+  ]
   },
   "additional": {
     "enabled": 0,
     "content": ""
   },
-  "infograph": {
-    "enabled": 0,
-    "name": ""
-  },
+
   "keywords": [
     "Logistics",
     "Supply Chain Management",
@@ -976,10 +982,14 @@
     "enabled": 0,
     "content": ""
   },
-  "infograph": {
-    "enabled": 0,
-    "name": ""
-  },
+ "infograph": {
+  "enabled": 1,
+  "name": "A&B Logistics and Supply Chain Roadmap",
+   "english": "/img/infographs/Logistics.svg",
+  "arabic": "/img/infographs/Logistics.svg",
+  "width":1000,
+  "height":338
+},
   "keywords": [
     "Logistics",
     "Supply Chain Management",

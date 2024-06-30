@@ -16,7 +16,8 @@
                 "english": "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer, we guide our clients in navigating the complexity of this ecosystem.",
                 "arabic": "نستفيد من التكنولوجيا المفتاحية والحلول الذكية للتنقل في تعقيدات تطوير المدينة الذكية والتنقل. حيث أن أنظمة النقل الذكية وخدمات النقل كخدمة تعتمد على الذكاء الاصطناعي وإنترنت الأشياء تقدم الكثير، نوجه عملائنا للتنقل في تعقيدات هذا النظام البيئي."
             },
-            "link": "/services/service-1"
+            "link": "/services/service-1",
+            "miniImage": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719739876/mini-smart-city_gry8fs.webp"
         },
         {
             "title": {
@@ -27,7 +28,8 @@
                 "english": "Adopting the right digital technologies and integrating them into the various aspects of an organization's operations, culture, and customer experience has become essential for businesses to remain competitive. Our digital transformation mission is to ensure our clients utilize the best out of technology to grow and thrive in this digital age. By illustrating to them a holistic approach tailored to their needs, we help them seamlessly embrace digital transformation as A&B digital experts examine their operations and craft the strategies that will make the whole digital transformation journey throughout the value chain smooth and hassle-free.",
                 "arabic": "تبني التقنيات الرقمية المناسبة ودمجها في مختلف جوانب عمليات المؤسسة وثقافتها وتجربة العملاء أصبح ضرورة حتمية للشركات كي تحافظ على قدرتها التنافسية. تتمثل مهمتنا في مجال التحول الرقمي في ضمان استفادة عملائنا من أفضل ما تقدمه التكنولوجيا للنمو والازدهار في هذا العصر الرقمي. ومن خلال توضيح نهج شامل مصمم خصيصًا لتلبية احتياجاتهم، فإننا نساعدهم على تبني التحول الرقمي بسلاسة. يقوم خبراء A&B الرقميون بفحص عمليات العُملاء وصياغة الاستراتيجيات التي من شأنها أن تجعل رحلة التحول الرقمي بأكملها عبر سلسلة القيمة سلسة وخالية من المتاعب."
             },
-            "link": "/services/service-2"
+            "link": "/services/service-2",
+              "miniImage": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719742583/size-services-page_jkxuhn.webp"
         },
         {
             "title": {
@@ -38,7 +40,8 @@
                 "english": "With the increasing demand for clean and renewable energy sources, A&B team of experts is dedicated to helping businesses and organizations lower their energy costs and reduce their carbon footprint. We understand that transitioning to renewable energy sources may be faced with certain challenges. Therefore, our experts work with our clients every step of the way to combat climate change, reduce costs and create a more sustainable future by providing innovative and sustainable renewable energy solutions.<br>Transitioning to renewables requires a customized strategy that helps businesses and organizations switch to the right technology. We draw on our long experiences and proprietary renewable energy research to identify the right strategy for our clients that includes a systematic assessment of energy use before deciding on the appropriate renewable aternative.",
                 "arabic": "مع الطلب المتزايد على مصادر الطاقة النظيفة والمتجددة، يكرس فريق خبراء A&B جهوده لمساعدة الشركات والمنظمات على تقليل أثرها الكربوني وخفض تكاليف الطاقة. ندرك أن الانتقال إلى مصادر الطاقة المتجددة قد يواجه بعض التحديات. لذلك، يعمل خبراؤنا مع عملائنا في كل خطوة على مكافحة تغير المناخ، وتقليل التكاليف وخلق مستقبل أكثر استدامة من خلال تقديم حلول مبتكرة ومستدامة للطاقة المتجددة.<br>يتطلب الانتقال إلى الطاقة المتجددة استراتيجية مخصصة تساعد الشركات والمنظمات على التحول إلى التكنولوجيا المناسبة. نستفيد من خبراتنا الطويلة والأبحاث الخاصة بالطاقة المتجددة لتحديد الاستراتيجية المناسبة لعملائنا التي تشمل تقييماً منهجياً لاستخدام الطاقة قبل اتخاذ البديل المتجدد.<br>سواء كانت الطاقة الشمسية، أو الرياح أو التقنيات الأخرى المتجددة، فإننا نتبع نهجاً شاملاً يشمل تصميم أنظمة فعالة تتماشى مع أهداف عملائنا وتلبي احتياجاتهم. نتنقل في السياسات الحكومية والحوافز لمساعدة المنظمات على استغلال قوة الطاقة المتجددة لتعظيم عائد استثمارها ومساعدتها في تحقيق أهداف الاستدامة الخاصة بها."
             },
-            "link": "/services/service-3"
+            "link": "/services/service-3",
+              "miniImage": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719742905/mini-energy_aw8in4.webp"
         },
         {
             "title": {
@@ -49,7 +52,8 @@
                 "english": "In today's world, our understanding of the importance of sustainable manufacturing across various industries makes us committed to helping our clients achieve their environmental goals while maintaining a competitive edge in the market. To offer you an effective strategy, we start by conducting comprehensive assessments of your operations, facility, and product.<br><br><span class=\"mil-text-primary fw-bold\">Clean Manufacturing</span><br><br>Our clean manufacturing transformation strategy focuses on reducing the environmental impact of manufacturers and businesses and improving their sustainability. A&B provides strategic solutions that would lead to innovative manufacturing processes and helps clients adopt and Implement practices that not only benefit the environment but also improve their operational efficiency and reduce costs.<br><br> Although clean manufacturing may seem like a responsibility, we see it as an opportunity.Organizations can differentiate themselves in the market by contributing to their local economy and meeting the demands of the increasing number of environmentally conscious consumers.",
                 "arabic": "مع الطلب المتزايد على مصادر الطاقة النظيفة والمتجددة، يكرس فريق خبراء A&B جهوده لمساعدة الشركات والمنظمات على تقليل أثرها الكربوني وخفض تكاليف الطاقة. ندرك أن الانتقال إلى مصادر الطاقة المتجددة قد يواجه بعض التحديات. لذلك، يعمل خبراؤنا مع عملائنا في كل خطوة على مكافحة تغير المناخ، وتقليل التكاليف وخلق مستقبل أكثر استدامة من خلال تقديم حلول مبتكرة ومستدامة للطاقة المتجددة.<br><br>"
             },
-            "link": "/services/service-4"
+            "link": "/services/service-4",
+              "miniImage": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719743258/Sustainable-manu-mini_kfqyh1.webp"
         },
         {
             "title": {
@@ -60,7 +64,8 @@
                 "english": "In today's world, our understanding of the importance of sustainable manufacturing across various industries makes us committed to helping our clients achieve their environmental goals while maintaining a competitive edge in the market. To offer you an effective strategy, we start by conducting comprehensive assessments of your operations, facility, and product.<br><br><span class=\"mil-text-primary fw-bold\">Clean Manufacturing</span><br><br>Our clean manufacturing transformation strategy focuses on reducing the environmental impact of manufacturers and businesses and improving their sustainability. A&B provides strategic solutions that would lead to innovative manufacturing processes and helps clients adopt and Implement practices that not only benefit the environment but also improve their operational efficiency and reduce costs.<br><br> Although clean manufacturing may seem like a responsibility, we see it as an opportunity.Organizations can differentiate themselves in the market by contributing to their local economy and meeting the demands of the increasing number of environmentally conscious consumers.",
           "arabic": "مع الطلب المتزايد على مصادر الطاقة النظيفة والمتجددة، يكرس فريق خبراء A&B جهوده لمساعدة الشركات والمنظمات على تقليل أثرها الكربوني وخفض تكاليف الطاقة. ندرك أن الانتقال إلى مصادر الطاقة المتجددة قد يواجه بعض التحديات. لذلك، يعمل خبراؤنا مع عملائنا في كل خطوة على مكافحة تغير المناخ، وتقليل التكاليف وخلق مستقبل أكثر استدامة من خلال تقديم حلول مبتكرة ومستدامة للطاقة المتجددة.<br><br>"
             },
-            "link": "/services/service-5"
+            "link": "/services/service-5",
+              "miniImage": "https://img.freepik.com/free-photo/modern-car-futuristic-road_23-2151021144.jpg?t=st=1719736275~exp=1719739875~hmac=75e6c93fe7e00ea6d0d008926451fb3e014fa478cb576f4f2bd580d9f81d1b46&w=1060"
         },
         {
             "title": {
@@ -71,7 +76,8 @@
                 "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies.",
                 "arabic": "شاملةً لسلسلة قيمة الزراعة بأكملها، يقوم خبراؤنا الزراعيون بتخصيص الاستراتيجيات."
             },
-            "link": "/services/service-6"
+            "link": "/services/service-6",
+              "miniImage": "https://img.freepik.com/free-photo/modern-car-futuristic-road_23-2151021144.jpg?t=st=1719736275~exp=1719739875~hmac=75e6c93fe7e00ea6d0d008926451fb3e014fa478cb576f4f2bd580d9f81d1b46&w=1060"
         },
         {
             "title": {
@@ -82,7 +88,8 @@
                 "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies.",
                 "arabic": "شاملةً لسلسلة قيمة الزراعة بأكملها، يقوم خبراؤنا الزراعيون بتخصيص الاستراتيجيات."
             },
-            "link": "/services/service-7"
+            "link": "/services/service-7",
+              "miniImage": "https://img.freepik.com/free-photo/modern-car-futuristic-road_23-2151021144.jpg?t=st=1719736275~exp=1719739875~hmac=75e6c93fe7e00ea6d0d008926451fb3e014fa478cb576f4f2bd580d9f81d1b46&w=1060"
         },
         {
             "title": {
@@ -93,7 +100,8 @@
                 "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies.",
                 "arabic": "شاملةً لسلسلة قيمة الزراعة بأكملها، يقوم خبراؤنا الزراعيون بتخصيص الاستراتيجيات."
             },
-            "link": "/services/service-8"
+            "link": "/services/service-8",
+              "miniImage": "https://img.freepik.com/free-photo/modern-car-futuristic-road_23-2151021144.jpg?t=st=1719736275~exp=1719739875~hmac=75e6c93fe7e00ea6d0d008926451fb3e014fa478cb576f4f2bd580d9f81d1b46&w=1060"
         }
     ]
     
