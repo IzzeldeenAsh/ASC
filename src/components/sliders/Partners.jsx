@@ -1,7 +1,7 @@
 import Data from '@data/sliders/partners';
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import { useLocale } from "@/utils/getLocale";
-
+import LogoSlider from "@common/LogoSlider/LogoSlider.js"
 const PartnersSlider = () => {
   const { activeLocale, t } = useLocale();
 
@@ -9,8 +9,8 @@ const PartnersSlider = () => {
 return (
   <>
   {/* partners */}
-  <div className="mil-soft-bg">
-      <div className="container  mil-p-120-120">
+  <div className="mil-soft-bg   mil-p-120-120">
+      <div className="container">
       <div
               className="mil-complex-text justify-content-center mil-up mil-center "
               style={
@@ -30,14 +30,15 @@ return (
              <div className="mil-text-lg mil-up mil-mb-60 mil-p-30-30 " dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.content.arabic : Data.content.english}} />
              </div>
             </div>
-            <div className="mil-p-30-0">
+           
+     
+      </div>
+      <div className="mil-p-30-0">
               <div>
-
+              <LogoSlider/>
               </div>
      
             </div>
-     
-      </div>
   </div>
   {/* partners end */}
   </>

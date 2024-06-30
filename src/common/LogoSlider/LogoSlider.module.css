@@ -1,0 +1,68 @@
+/* components/LogoSlider.module.css */
+.sliderWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.sliderContainer {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  
+}
+
+.slider {
+  display: flex;
+  animation: slide 60s linear infinite; /* Adjusted the duration for smoother and faster animation */
+  will-change: transform; /* Improve performance for animations */
+  
+}
+
+.logo {
+  flex: 0 0 auto;
+  padding: 40px;
+}
+
+.logo img {
+  height: 60px; /* Adjust based on your needs */
+  width: auto;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-12633.53px); /* Adjust based on the total width of all logos */
+  }
+}
+
+/* Pause animation on hover */
+.sliderContainer:hover .slider {
+  animation-play-state: paused;
+}
+
+.arrowLeft, .arrowRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color:rgba(146, 146, 146, 0.3);
+  color: #000;
+  font-weight: bolder;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 4px;
+
+}
+
+.arrowLeft {
+  left: 10px;
+}
+
+.arrowRight {
+  right: 10px;
+}
