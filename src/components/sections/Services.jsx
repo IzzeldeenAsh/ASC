@@ -47,16 +47,21 @@ const ServicesSection = () => {
                 />
               </div>
             </div>
+         
+            <div className="row mil-services-grid m-0">
             <div className="featured">
               <div>{t("featured")}</div>
               <div  className="anchor-link ">
                 <Link href="/services" className="d-flex align-items-center">
                <div >{t("seeAll")}</div>
-                <div className="d-flex align-items-center left-right-arrow"><IconArrowNarrowRight color="#336AEA"/></div>
+                <div className="d-flex align-items-center left-right-arrow ">
+                  <div className="see-all-arrow">
+                  <IconArrowNarrowRight color="#336AEA"/>
+                  </div>
+                </div>
                 </Link>
               </div>
             </div>
-            <div className="row mil-services-grid m-0">
               {Data.items.slice(0, 4).map((item, key) => (
                 <div
                   key={`services-item-${key}`}
@@ -79,7 +84,7 @@ const ServicesSection = () => {
                     </div>
                     <div className="service-image-abs-wrapper">
                     <div className="service-image-abs">
-                        <img className="w-100" src="https://img.freepik.com/premium-photo/smart-city-with-smart-services-icon-internet-things_756748-27274.jpg?w=1800" alt="service-image"/>
+                        <img className="w-100" src={item.miniImage} alt="service-image"/>
                       </div>
                     </div>
                     
