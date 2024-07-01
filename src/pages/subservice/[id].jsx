@@ -106,7 +106,6 @@ const Subservice = (props) => {
               )}
               {subservice.infograph.enabled == 1 && (
                 <div className="mil-mb-60">
-                  <InfographManager service={subservice.id} />
                   <div className="infograph d-flex flex-column justify-content-center align-items-center">
                     <div className="responsive-image">
                       <Image
