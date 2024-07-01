@@ -38,9 +38,7 @@ export function HeaderMegaMenu() {
             <UnstyledButton className={classes.subLink}>
                 <Group wrap="nowrap" align="flex-start">
                     <div>
-                        <Text size="sm" fw={500}>
-                            {label}
-                        </Text>
+                        <Text size="sm" fw={500} dangerouslySetInnerHTML={{__html:label}}/>
                         {description && (
                             <Text size="xs" c="dimmed">
                                 {description}
