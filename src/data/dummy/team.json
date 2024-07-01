@@ -224,11 +224,6 @@
             "image": "/img/faces/staff/al-sukhni.png",
             "name": "Mohammad Alsukhni",
             "role": "IT Support"
-        },
-        {
-            "image": "/img/faces/staff/Izzeldeen.png",
-            "name": "Izzeldeen Ashour",
-            "role": "Software Engineer"
         }
     ]
 }
