@@ -47,7 +47,7 @@
               "content": "\n        <h5>Voluptatem odit ullam veritatis</h5>\n        <p>Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.</p>\n    "
             },
             "infograph": {
-              "enabled": 1,
+              "enabled": 0,
               "name": "Goals"
             },
             "keywords": ["operations Management", "supply Chain Management"]
