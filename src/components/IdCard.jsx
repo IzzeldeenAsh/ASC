@@ -66,8 +66,7 @@ const IdCard = ({ name = "Abdulrahman Al-Taher", position = "SR.PROJECT MANAGER"
                     justify-content: space-between;
                     align-items: center;
                     padding: 40px;
-                    border: 1px solid #e0e0e0;
-                    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                    border: 1px solid #e9e9e9;
                     background-color: #fff;
                     position:relative;
                     overflow:hidden;
@@ -108,7 +107,7 @@ const IdCard = ({ name = "Abdulrahman Al-Taher", position = "SR.PROJECT MANAGER"
                     min-width: 85px;
                     max-width: 85px;
                     height: 122px;
-                    background-color: #f5d74c;
+                    background-color: #ffec95;
                     display: flex;
                     justify-content: center;
                     align-items: center;
