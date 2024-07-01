@@ -1,10 +1,13 @@
+import React from 'react';
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import CallToActionSection from "@components/sections/CallToAction";
 import data from "@data/dummy/team.json";
 import { useLocale } from "@/utils/getLocale";
 import { NextSeo } from 'next-seo';
-
+import IdCard from "@components/IdCard";
+import { SimpleGrid, Box } from '@mantine/core';
+import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
 const Team = () => {
   const { activeLocale } = useLocale();
   const TeamData = data.TeamData;
@@ -48,32 +51,23 @@ const Team = () => {
       />
 
       <PageBanner pageTitle={"Difference <br>  <span class=\"mil-thin\">Makers</span>"} breadTitle={"Team"} anchorLabel={"Our team"} anchorLink={"#team"} />
+      <div className="logoStyle">
+        <ABLogoDark />
+      </div>
       {/* team */}
       <section id="team">
-        <div className="container">
-          <div className="row" style={{ padding: "10px" }}>
+        <div className="container mil-p-0-90">
+          <SimpleGrid 
+           cols={{ base: 1, sm: 2, lg: 3 }}
+            spacing="40px"
+           
+          >
             {TeamData.map((item, key) => (
-              <div className="col-sm-6 col-md-4 col-lg-3" key={`team-item-${key}`} style={{ position: "relative" }}>
-                <div className="mil-team-card mil-up mil-mb-30">
-                  <div
-                    className="mil-squares team-squares"
-                    style={{ right: "-4px" }}
-                  >
-                    <span className="mil-square"></span>
-                    <span className="mil-square"></span>
-                    <span className="mil-square"></span>
-                  </div>
-                  <img src={item.image} alt={item.name} />
-                  <div className="mil-description">
-                    <div className="mil-secrc-text">
-                      <h5 className="mil-muted mil-mb-5">{item.name}</h5>
-                      <p className="mil-link mil-light-soft mil-mb-10">{item.role}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <Box key={`team-item-${key}`}>
+                <IdCard name={item.name} position={item.role} img={item.image} />
+              </Box>
             ))}
-          </div>
+          </SimpleGrid>
         </div>
       </section>
       {/* team end */}
