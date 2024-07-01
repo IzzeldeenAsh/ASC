@@ -86,7 +86,7 @@ const IdCard = ({ name = "Abdulrahman Al-Taher", position = "SR.PROJECT MANAGER"
                     justify-content: center;
                 }
                 .staff-svg{
-                    line-height:1
+                    line-height: 0.5;
                 }
                 .staff-name {
                     font-size: 18px;
