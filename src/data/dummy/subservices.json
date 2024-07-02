@@ -792,8 +792,8 @@
       "service": {
         "id": "service-5",
         "name": {
-          "english" : "Operations",
-          "arabic" :""
+          "english" : "Sustainable Agriculture",
+           "arabic":  "زراعة مستدامة "
         }
       },
       "contentHtml": {
