@@ -1,4 +1,3 @@
-
 import '@mantine/core/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
 import React from "react";
@@ -9,16 +8,20 @@ import '../styles/scss/style.scss';
 import "../styles/globals.css";
 import nextI18NextConfig from '../../next-i18next.config'
 import { register } from "swiper/element/bundle";
-import { Readex_Pro , Outfit } from 'next/font/google'
-const readexPro = Readex_Pro({
+import { IBM_Plex_Sans_Arabic, Outfit } from 'next/font/google'
+
+const ibmPlexSansArabic = IBM_Plex_Sans_Arabic({
   subsets: ['latin', 'arabic'], // Include Arabic subset
-  variable: '--font-readex-pro',
+  weight: [ '400', '500', '600', '700'], // Specify available weights
+  variable: '--font-ibm-plex-sans-arabic',
 });
 
 const outfit = Outfit({
   subsets: ['latin'],
+  weight: ['400', '700'], // Specify available weights if needed
   variable: '--font-outfit',
 });
+
 // register Swiper custom elements
 register();
 
@@ -31,7 +34,7 @@ function MyApp({ Component, pageProps }) {
       <style jsx global>
         {`
           :root {
-            --font-readex-pro: ${readexPro.style.fontFamily}; 
+            --font-ibm-plex-sans-arabic: ${ibmPlexSansArabic.style.fontFamily}; 
             --font-outfit: ${outfit.style.fontFamily};
           }
 
@@ -41,21 +44,21 @@ function MyApp({ Component, pageProps }) {
 
           /* Target Arabic text using lang attribute */
           :lang(ar) {
-            font-family: var(--font-readex-pro); 
+            font-family: var(--font-ibm-plex-sans-arabic); 
           }
         `}
-        </style>
-    <>
-      <Head>
-          {/* seo begin */}
-          <title>{AppData.settings.siteName}</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          {/* seo end */}        
-      </Head>
-      <Component {...pageProps} />
-    </>
+      </style>
+      <>
+        <Head>
+            {/* seo begin */}
+            <title>{AppData.settings.siteName}</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            {/* seo end */}        
+        </Head>
+        <Component {...pageProps} />
+      </>
     </MantineProvider>
   );
 }
 
-export default appWithTranslation(MyApp,nextI18NextConfig);
+export default appWithTranslation(MyApp, nextI18NextConfig);
