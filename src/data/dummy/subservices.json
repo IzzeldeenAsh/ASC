@@ -778,12 +778,15 @@
       "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718172999/2806_wyh2sz.webp",
       "title": {
         "english": "Agriculture Markets",
-        "arabic": "أسواق الزراعة"
+        "arabic":"أسواق القطاع الزراعي"
       },
       "sector": [
         {
           "id": "sector-8",
-          "name": "Agriculture"
+          "name": {
+            "english" : "Sustainable Agriculture",
+             "arabic":  "زراعة مستدامة "
+          }
         }
       ],
       "service": {
@@ -795,7 +798,7 @@
       },
       "contentHtml": {
         "english": "<div>To be the tallest sunflower in the field, we can never emphasize enough the importance of identifying the right potential markets for your product before you plant your seeds of success. Researching the demand for a certain product requires a robust analysis of the potential market demographics and consumer behavior patterns data. A&B gap analysis will uncover the pathway to becoming distinguished among competitors of similar agricultural products and help your agriculture business stand out and flourish. </div>",
-        "arabic": "<div>لتكون أطول دوار الشمس في الحقل، لا يمكننا التأكيد بما فيه الكفاية على أهمية تحديد الأسواق المحتملة المناسبة لمنتجك قبل أن تزرع بذور النجاح. يتطلب بحث الطلب عن منتج معين تحليلًا قويًا لبيانات الديموغرافيا وأنماط سلوك المستهلكين في السوق المحتملة. سيكشف تحليل الفجوة بين الأهداف (A&B) عن المسار لتحقيق التميز بين منافسين لمنتجات زراعية مماثلة ويساعد عملك الزراعي على التألق والازدهار.</div>"
+        "arabic": "تعد عملية تحديد الأسواق المناسبة لمنتجاتك الزراعية قبل بدء عملية الإنتاج من أهم العوامل التي تساهم في تحقيق التميز. يتطلب الكشف عن الطلب لمنتج زراعي معين إجراء تحليل شامل للبيانات الديموغرافية للأسواق المستهدفة ودراسة أنماط سلوك المستهلكين. من خلال نظام تحليل الفجوات الخاص بشركة B&A، نساعد عملاءنا في القطاع الزراعي على اكتشاف الطريق نحو التميز بين منافسي المنتج الزراعي الواحد، مما يسهم في إبراز وتنمية عملك الزراعي."
       },
       "short": {
         "english": "<div>To be the tallest sunflower in the field, we can never emphasize enough the importance of identifying the right potential markets for your product before you plant your seeds of success. Researching the demand for a certain product requires a robust analysis of the potential market demographics and consumer behavior patterns data. A&B gap analysis will uncover the pathway to becoming distinguished among competitors of similar agricultural products and help your agriculture business stand out and flourish. </div>",
@@ -803,7 +806,7 @@
       },
       "introTitle": {
         "english": "Agriculture Markets",
-        "arabic": "أسواق الزراعة"
+        "arabic":"أسواق القطاع الزراعي"
       },
       "gallery": {
         "enabled": 0,
@@ -852,15 +855,15 @@
       ],
       "service": {
         "id": "service-5",
-        "name": {
-          "english" : "Operations",
-          "arabic" :""
-        }
+       "name": {
+            "english" : "Sustainable Agriculture",
+             "arabic":  "زراعة مستدامة "
+          }
       },
       "contentHtml": {
         "english": "<div>No matter what the challenges may be, utilizing the most suitable technology will definitely take your efficiency and yield to another level. Agritech Innovation is constantly accelerating encompassing new technologies such as AI, machine learning and blockchain. A&B Agritech experts are always ahead of the curve and work closely with clients as they craft the strategy that will make them benefit the most from the adopted technology.</div>",
-        "arabic": "<div>مهما كانت التحديات، فإن استخدام التكنولوجيا الأنسب سيأخذ بك بالتأكيد إلى مستوى جديد من الكفاءة والإنتاجية. إن الابتكار في مجال التكنولوجيا الزراعية يتسارع باستمرار، ويشمل تقنيات جديدة مثل الذكاء الاصطناعي وتعلم الآلة والبلوكتشين. يكون خبراء A&B في التكنولوجيا الزراعية دائمًا في مقدمة الحدث ويعملون عن كثب مع العملاء أثناء صياغة الاستراتيجية التي ستجعلهم يستفيدون الأكثر من التكنولوجيا المعتمدة.</div>"
-      },
+    "arabic": "خبراء تكنولوجيا الزراعة في B&A يعملون بشكل وثيق مع العملاء لوضع استراتيجيات تمكنهم من تحقيق أقصى فائدة ممكنة من استخدام التكنولوجيا الزراعية المناسبة لمحاصيلهم الزراعية. وعلى الرغم من التحديات، فإن استخدام التكنولوجيا الأكثر ملاءمة سيرفع بلا شك من كفاءتك وإنتاجيتك إلى مستوى جديد. فالابتكار في مجال التكنولوجيا الزراعية يشهد تسارعًا مستمرًا ليشمل تقنيات حديثة مثل الذكاء الاصطناعي، والتعلم الآلي، وسلسلة الكتل (Blockchain)."
+  },
       "short": {
         "english": "<div>No matter what the challenges may be, utilizing the most suitable technology will definitely take your efficiency and yield to another level. Agritech Innovation is constantly accelerating encompassing new technologies such as AI, machine learning and blockchain. A&B Agritech experts are always ahead of the curve and work closely with clients as they craft the strategy that will make them benefit the most from the adopted technology.</div>",
         "arabic": "<div>مهما كانت التحديات، فإن استخدام التكنولوجيا الأنسب سيأخذ بك بالتأكيد إلى مستوى جديد من الكفاءة والإنتاجية. إن الابتكار في مجال التكنولوجيا الزراعية يتسارع باستمرار، ويشمل تقنيات جديدة مثل الذكاء الاصطناعي وتعلم الآلة والبلوكتشين. يكون خبراء A&B في التكنولوجيا الزراعية دائمًا في مقدمة الحدث ويعملون عن كثب مع العملاء أثناء صياغة الاستراتيجية التي ستجعلهم يستفيدون الأكثر من التكنولوجيا المعتمدة.</div>"
@@ -1454,7 +1457,7 @@
         "english": "Clean Manufacturing",
         "arabic": "التصنيع النظيف"
       },
-      "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719304248/clean-manufacturing-image.webp",
+      "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719907155/18581_picmhf.webp",
       "sector": [
         {
           "id": "sector-1",
@@ -1517,7 +1520,7 @@
     "english": "Comprehensive assessments of Operations, Products and Facility",
     "arabic": "تقييمات شاملة لعمليات التصنيع والمنتجات والمرافق الصناعية"
   },
-  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719304248/comprehensive-assessments-image.webp",
+  "image": "",
   "sector": [
     {
       "id": "sector-1",
