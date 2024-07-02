@@ -208,11 +208,11 @@
             "isSubService": true,
             "label": {
               "english": "Data Security and Privacy",
-              "arabic": "أنظمة حماية البيانات والخصوصية"
+              "arabic": "حماية البيانات والخصوصية"
             },
             "value": {
               "english": "<div>Being fully aware of how crucial it is for organizations to protect their data from various data breaches, A&B always highlights the importance of incorporating data security management early on in the development process. Clients entrust organizations with their valuable information and expect organizations to maintain it. Therefore, our consultant experts aim at providing organizations with data security strategies and insights that help set up the right defense mechanisms across the organization to maintain its reputation and competitive edge.</div>",
-              "arabic": "يدرك فريق A&B أهمية حماية بيانات المؤسسات من الانتهاكات المختلفة، وبناء على ذلك نؤكد دائمًا على ضرورة دمج إدارة أمن البيانات في مراحل مبكرة من عمليات التطوير.<br><br>يعهد العملاء إلى المؤسسات بمعلوماتهم القيمة ويتوقعون من المؤسسات الحفاظ عليها. ولذلك، يهدف خبراؤنا الاستشاريون إلى تزويد المؤسسات باستراتيجيات أمن البيانات وحلول تساعد في إنشاء آليات الدفاع المناسبة الممتدة عبر المؤسسة للحفاظ على سمعتها وميزتها التنافسية."
+               "arabic": "يدرك فريق A&B أهمية حماية بيانات المؤسسات من الانتهاكات المختلفة، لذلك نؤكد على عملائنا ضرورة دمج نظام إدارة حماية البيانات في مراحل عمليات التطوير المؤسسي المبكرة.<br><br>يعهد عملاء المؤسسات بمعلوماتهم القيمة إليها ويتوقعون منهم الحفاظ عليها. لذلك، نشارك المنظمات المختلفة والمؤسسات مسؤولية الحفاظ على سمعتهم وميزتهم التنافسية فيقوم خبراؤنا الاستشاريون بعمل استراتيجيات أمن البيانات تتلاءم وآليات عملهم المؤسسي للحفاظ على بيانات عملائهم ومتلقي خدماتهم، ونقدم الحلول لإنشاء آليات الدفاع المناسبة الممتدة عبر عمليات المؤسسة المختلفة."
             }
           }
         ]
@@ -350,7 +350,7 @@
       },
       "description": {
         "title": {
-          "english": "Clean Manufacturing is an opportunity",
+          "english": "Achieve Green Goals and Stay Competitive.",
           "arabic": "التصنيع النظيف فرصة"
         },
         "content": {
@@ -383,7 +383,7 @@
             "id": "comprehensive-assessments",
             "isSubService": true,
             "label": {
-              "english": "Comprehensive assessments of Operations, Products and Facility",
+              "english": "Comprehensive assessments of Operations, Products and Facilities",
               "arabic": "تقييمات شاملة لعمليات التصنيع والمنتجات والمرافق الصناعية"
             },
             "value": {
