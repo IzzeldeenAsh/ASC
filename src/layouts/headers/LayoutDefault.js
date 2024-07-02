@@ -137,7 +137,7 @@ const DefaultHeader = ({ extraClass }) => {
                               items={aboutData.sections}
                               basePath="about"
                               onLinkClick={handleChildLinkClick}
-                              listLabel={activeLocale === 'ar' ? ' من نحن' : 'About Us'}
+                              listLabel={activeLocale === 'ar' ? ' عن الشركة' : 'About Us'}
                             />
                           )}
                           {isHomeActive && (

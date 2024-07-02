@@ -164,11 +164,12 @@ const ServiceDetail = () => {
 
                         </div>
                         {item.isSubService && (
+                          <Link href={`/subservice/${item.id}`}>
                           <div className="mil-button mil-button-sm mil-mb-25">
-                            <Link href={`/subservice/${item.id}`}>
+                            
                               {activeLocale === 'ar' ? "المزيد " : "Read More"}
-                            </Link>
                           </div>
+                            </Link>
                         )}
                       </div>
                     </div>

@@ -131,7 +131,7 @@ export function HeaderMegaMenu() {
         {
             title: {
                 english: 'About',
-                arabic: 'من نحن'
+                arabic: 'عن الشركة'
             },
             link: '/about',
             links: generateLinks(aboutData.sections),
@@ -141,7 +141,7 @@ export function HeaderMegaMenu() {
             },
             footerDescription: {
                 english: 'Explore our mission, vision, and history to understand our journey and goals.',
-                arabic: 'استكشف مهمتنا ورؤيتنا وتاريخنا لفهم رحلتنا وأهدافنا.'
+                arabic: 'استكشف رسالتنا ورؤيتنا وتاريخنا لفهم رحلتنا وأهدافنا.'
             },
             buttonText: {
                 english: 'Read More',

@@ -63,7 +63,6 @@ const Subservice = (props) => {
         <ABLogoDark />
       </div>
       <PageBanner pageTitle={pageTitle} breadTitle={breadTitle} align={"center"} headingSize={2} />
-      
       <section id="blog">
         <div className="container mil-p-60-0">
           <div className="row justify-content-center">
@@ -74,15 +73,15 @@ const Subservice = (props) => {
                 </div>
               )}
               <div className="mil-info mil-up mil-mb-50">
-                <div><span className="mil-text-gray-600">Service</span>: &nbsp; 
+                <div><span className="mil-text-gray-600">{activeLocale ==='ar' ? "الخدمة" : "Service"}</span>: &nbsp; 
                   <Link href={`/services/${subservice.service.id}`} legacyBehavior>
-                    <a><span className="mil-dark">{subservice.service.name}&nbsp;</span></a>
+                    <a><span className="mil-dark">{activeLocale ==="ar" ? subservice.service.name.arabic: subservice.service.name.english}&nbsp;</span></a>
                   </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-12 mil-mb-90">
-              <div className={`mil-text mil-up mil-text-lg`} dangerouslySetInnerHTML={{ __html: subservice.contentHtml.english }} />
+              <div className={`mil-text mil-up mil-text-lg`} dangerouslySetInnerHTML={{ __html:activeLocale ==='ar' ? subservice.contentHtml.arabic :  subservice.contentHtml.english }} />
               {typeof subservice.gallery !== "undefined" && subservice.gallery.enabled == 1 && (
                 <div className="row">
                   {subservice.gallery.items.map((item, key) => (

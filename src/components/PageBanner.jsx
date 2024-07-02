@@ -119,9 +119,7 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
             {headingSize === 2 &&
               <div className={`banner-title-and-image-container ${align === "center" ? "d-flex justify-content-center" : ""}`}>
                 <div className={` d-flex heading-1 ${align === "center" ? "max-width-fit" : ""}`}>
-                  <div className="title-yellow-head">
                     <TitleHead />
-                  </div>
                   <h2 className={anchorLink !== 0 ? "mil-mb-60" : ""} dangerouslySetInnerHTML={{ __html: pageTitle }} />
                 </div>
               </div>

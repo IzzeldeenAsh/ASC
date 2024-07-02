@@ -13,12 +13,6 @@
   
 }
 
-.slider {
-  display: flex;
-  animation: slide 60s linear infinite; /* Adjusted the duration for smoother and faster animation */
-  will-change: transform; /* Improve performance for animations */
-  
-}
 
 .logo {
   flex: 0 0 auto;
@@ -39,10 +33,36 @@
   }
 }
 
+@keyframes slide-negarive {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(12633.53px); /* Adjust based on the total width of all logos */
+  }
+}
+
 /* Pause animation on hover */
 .sliderContainer:hover .slider {
   animation-play-state: paused;
 }
+
+[dir="rtl"] .slider {
+  display: flex;
+  animation: slide-negarive 60s linear infinite; /* Adjusted the duration for smoother and faster animation */
+  will-change: transform; /* Improve performance for animations */
+  
+}
+
+[dir="ltr"] .slider {
+  display: flex;
+  animation: slide 60s linear infinite; /* Adjusted the duration for smoother and faster animation */
+  will-change: transform; /* Improve performance for animations */
+  
+}
+
+
+
 
 .arrowLeft, .arrowRight {
   position: absolute;

@@ -33,10 +33,8 @@ const ServicesSection = () => {
                     ? { flexDirection: "row", gap: "10px" }
                     : { flexDirection: "column", gap: "10px" }}>
                 <span className="d-flex" style={{ position: "relative" }}>
-                  <div
-                    className="title-yellow-head">
+                 
                     <TitleHead />
-                  </div>
                   <h2
                     className="mil-h2  mil-center"
                     dangerouslySetInnerHTML={{ __html: t("servicesTitle1") }}/>

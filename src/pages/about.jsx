@@ -145,7 +145,7 @@ const About = () => {
               <div className="mil-mb-30">
                 {activeLocale === 'ar' ? 
                   <h2 className="mil-center mil-p-60-0">
-                    مهمتنا <span className="mil-thin">و</span> رؤيتنا
+                    رسالتنا <span className="mil-thin">و</span> رؤيتنا
                     <div style={{ width: "300px", height: '3px', backgroundColor: '#F5D74C', margin: '20px auto', display: "block" }}></div>
                   </h2> 
                   :
