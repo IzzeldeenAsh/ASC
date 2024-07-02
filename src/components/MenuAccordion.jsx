@@ -39,7 +39,7 @@ function MenuAccordion({onLinkClick}) {
                               items={aboutData.sections}
                               basePath="about"
                               onLinkClick={onLinkClick}
-                              listLabel={activeLocale === 'ar' ? ' من نحن' : 'About Us'}
+                              listLabel={activeLocale === 'ar' ? ' عن الشركة' : 'About Us'}
                             />}
             </Accordion.Panel>
           </>

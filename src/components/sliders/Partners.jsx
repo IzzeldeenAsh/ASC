@@ -12,16 +12,14 @@ return (
   <div className="mil-soft-bg   mil-p-120-120">
       <div className="container">
       <div
-              className="mil-complex-text justify-content-center mil-up mil-center "
+              className="mil-complex-text flex-column justify-content-center mil-up mil-center "
               style={
                 activeLocale === "ar"
                   ? { flexDirection: "row", gap: "10px" }
                   : { flexDirection: "column", gap: "10px" }}>
               <span className="d-flex mil-mb-30" style={{ position: "relative" }}>
-                <div
-                  className="title-yellow-head">
+               
                   <TitleHead />
-                </div>
                 <h2
                   className="mil-h2  mil-center"
                   dangerouslySetInnerHTML={{ __html: Data.title.english }}/>

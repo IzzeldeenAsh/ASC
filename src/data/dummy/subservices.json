@@ -163,35 +163,37 @@
   }
   ,
   {
-    "id" :"s1-smart-cities",
-    "title":{
+    "id": "s1-smart-cities",
+    "title": {
       "english": "Smart Cities",
-              "arabic": "المدن الذكية"
+      "arabic": "المدن الذكية"
     },
     "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719230387/2151305351_aju0t1.webp",
-    "sector":[
+    "sector": [
       {
-        "id":"sector-1",
-        "name":"Transportation"
+        "id": "sector-1",
+        "name": "Transportation"
       }
     ],
-    "service":{
-      "id" : "service-1",
-      "name" : "Smart Cities and Mobility"
+    "service": {
+      "id": "service-1",
+      "name": {
+        "english" : "Smart Cities and Mobility",
+        "arabic" : "المدن الذكية والتنقل"
+      }
     },
     "contentHtml": {
-      "english": "<div><div>The vision of an efficient and sustainable urban living has become an evolving reality. At A&B, we are dedicated to contributing to the development of this complex ecosystem by formulating the needed strategies for infrastructure, transportation, energy and digital connectivity.</div><br><div>Leveraging key technology and smart solution analysis makes us a strategic partner for organizations and governments aspiring to navigate the complexity of smart city development. Our team of consultants brings a wealth of expertise in areas such as IoT, data analytics, renewable energy solutions, and sustainable transportation to help organizations build internal capacity for smart city initiatives while zooming in on the particular needed infrastructure challenges.</div></div>",
-      "arabic": "<div><div>أصبحت رؤية الحياة الحضرية الفعالة والمستدامة واقعًا متطورًا. في A&B، نحن ملتزمون بالمساهمة في تطوير هذا النظام البيئي المعقد من خلال صياغة الاستراتيجيات اللازمة للبنية التحتية والنقل والطاقة والتواصل الرقمي.</div><div>يجعل تحليل التكنولوجيا الرئيسية والحلول الذكية منا شريكًا استراتيجيًا للمنظمات والحكومات الطامحة للتنقل في تعقيدات تطوير المدينة الذكية. يجلب فريق استشاريونا ثروة من الخبرة في مجالات مثل IoT وتحليلات البيانات وحلول الطاقة المتجددة والنقل المستدام لمساعدة المنظمات في بناء القدرة الداخلية لمبادرات المدن الذكية بينما يركز على التحديات التحتية المطلوبة بشكل خاص.</div></div>"
+      "english": "<div><div>The vision of efficient and sustainable urban living has become an evolving reality. At A&B, we are dedicated to contributing to the development of this complex ecosystem by formulating the needed strategies for infrastructure, transportation, energy and digital connectivity.</div><br><div>Leveraging key technology and smart solution analysis makes us a strategic partner for organizations and governments aspiring to navigate the complexity of smart city development. Our team of consultants brings a wealth of expertise in areas such as IoT, data analytics, renewable energy solutions, and sustainable transportation to help organizations build internal capacity for smart city initiatives while zooming in on the particular needed infrastructure challenges.</div></div>",
+      "arabic": "<div><div>نحن في A&B ندرك تمامًا أهمية تحول الحياة الحضرية إلى نمط أكثر فعالية واستدامة، لذلك نسعى جاهدين للمساهمة في هذا التحول المبتكر عبر صياغة الاستراتيجيات الحاسمة التي تدعم تطوير البنية التحتية، وتحسين وسائل النقل، وتعزيز استخدام الطاقة المتجددة، وتقدم حلول الاتصالات الرقمية. بالتزامن مع تحقيق أهدافنا البيئية، نسعى أيضًا لتحقيق النجاح الاقتصادي والاجتماعي من خلال دعم المشاريع والمبادرات التي تعزز الازدهار المستدام في المجتمعات التي نعمل فيها.</div><br><div>إن الاستفادة من التقنيات المناسبة وتحليلات الحلول الذكية يجعلنا شريكًا استراتيجيًا للمؤسسات والحكومات التي تطمح إلى التغلب على تعقيد تطوير المدن الذكية. ما يميز فريقنا الاستشاري هو فهمهم العميق لتلك التقنيات الحيوية وإدراكهم للتحديات التي من الممكن أن تواجه هذه المؤسسات والحكومات إضافة الى امتلاكهم الخبرة في مجالات إنترنت الأشياء وتحليلات البيانات وحلول الطاقة المتجددة والنقل المستدام. كل ذلك يتم تسخيره لمساعدة المؤسسات على بناء القدرات الداخلية لمبادرات المدن الذكية مع التركيز على تحديات البنية التحتية المطلوبة بشكل خاص.</div></div>"
     },
-    "short":{
-      "english": "<div><div>The vision of an efficient and sustainable urban living has become an evolving reality. At A&B, we are dedicated to contributing to the development of this complex ecosystem by formulating the needed strategies for infrastructure, transportation, energy and digital connectivity.</div><br><div>Leveraging key technology and smart solution analysis makes us a strategic partner for organizations and governments aspiring to navigate the complexity of smart city development. Our team of consultants brings a wealth of expertise in areas such as IoT, data analytics, renewable energy solutions, and sustainable transportation to help organizations build internal capacity for smart city initiatives while zooming in on the particular needed infrastructure challenges.</div></div>",
-      "arabic": "<div><div>أصبحت رؤية الحياة الحضرية الفعالة والمستدامة واقعًا متطورًا. في A&B، نحن ملتزمون بالمساهمة في تطوير هذا النظام البيئي المعقد من خلال صياغة الاستراتيجيات اللازمة للبنية التحتية والنقل والطاقة والتواصل الرقمي.</div><div>يجعل تحليل التكنولوجيا الرئيسية والحلول الذكية منا شريكًا استراتيجيًا للمنظمات والحكومات الطامحة للتنقل في تعقيدات تطوير المدينة الذكية. يجلب فريق استشاريونا ثروة من الخبرة في مجالات مثل IoT وتحليلات البيانات وحلول الطاقة المتجددة والنقل المستدام لمساعدة المنظمات في بناء القدرة الداخلية لمبادرات المدن الذكية بينما يركز على التحديات التحتية المطلوبة بشكل خاص.</div></div>"
+    "short": {
+      "english": "<div><div>The vision of efficient and sustainable urban living has become an evolving reality. At A&B, we are dedicated to contributing to the development of this complex ecosystem by formulating the needed strategies for infrastructure, transportation, energy and digital connectivity.</div><br><div>Leveraging key technology and smart solution analysis makes us a strategic partner for organizations and governments aspiring to navigate the complexity of smart city development. Our team of consultants brings a wealth of expertise in areas such as IoT, data analytics, renewable energy solutions, and sustainable transportation to help organizations build internal capacity for smart city initiatives while zooming in on the particular needed infrastructure challenges.</div></div>",
+      "arabic": "<div><div>نحن في A&B ندرك تمامًا أهمية تحول الحياة الحضرية إلى نمط أكثر فعالية واستدامة، لذلك نسعى جاهدين للمساهمة في هذا التحول المبتكر عبر صياغة الاستراتيجيات الحاسمة التي تدعم تطوير البنية التحتية، وتحسين وسائل النقل، وتعزيز استخدام الطاقة المتجددة، وتقدم حلول الاتصالات الرقمية. بالتزامن مع تحقيق أهدافنا البيئية، نسعى أيضًا لتحقيق النجاح الاقتصادي والاجتماعي من خلال دعم المشاريع والمبادرات التي تعزز الازدهار المستدام في المجتمعات التي نعمل فيها.</div><br><div>إن الاستفادة من التقنيات المناسبة وتحليلات الحلول الذكية يجعلنا شريكًا استراتيجيًا للمؤسسات والحكومات التي تطمح إلى التغلب على تعقيد تطوير المدن الذكية. ما يميز فريقنا الاستشاري هو فهمهم العميق لتلك التقنيات الحيوية وإدراكهم للتحديات التي من الممكن أن تواجه هذه المؤسسات والحكومات إضافة الى امتلاكهم الخبرة في مجالات إنترنت الأشياء وتحليلات البيانات وحلول الطاقة المتجددة والنقل المستدام. كل ذلك يتم تسخيره لمساعدة المؤسسات على بناء القدرات الداخلية لمبادرات المدن الذكية مع التركيز على تحديات البنية التحتية المطلوبة بشكل خاص.</div></div>"
     },
-    "introTitle":{
-      "english" :  "Smart <span class=\"mil-thin\">Cities</span>  ",
-      "arabic" : "المدن <span class=\"mil-thin\">الذكية</span>    "
+    "introTitle": {
+      "english": "Smart <span class=\"mil-thin\">Cities</span>",
+      "arabic": "المدن <span class=\"mil-thin\">الذكية</span>"
     },
-    
     "gallery": {
       "enabled": 0,
       "items": [
@@ -212,10 +214,10 @@
     "infograph": {
       "enabled": 1,
       "name": "A&B Smart City Roadmap",
-       "english": "/img/infographs/Smart-City.svg",
+      "english": "/img/infographs/Smart-City.svg",
       "arabic": "/img/infographs/Smart-City.svg",
-      "width":1000,
-      "height":338
+      "width": 1000,
+      "height": 338
     },
     "keywords": [
       "efficient urban living",
@@ -253,36 +255,37 @@
       "مبادرات المدن الذكية",
       "التحديات التحتية"
     ]
-}
+  }
+  
 ,
 {
-  "id" :"s1-smart-mobility",
-  "title":{
+  "id": "s1-smart-mobility",
+  "title": {
     "english": "Smart Mobility",
     "arabic": "التنقل الذكي"
   },
   "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719304248/16411_kbmv1m.webp",
-  "sector":[
+  "sector": [
     {
-      "id":"sector-1",
-      "name":"Transportation"
+      "id": "sector-1",
+      "name": "Transportation"
     }
   ],
-  "service":{
-    "id" : "service-1",
-    "name" : "Smart Cities and Mobility"
+  "service": {
+    "id": "service-1",
+    "name": "Smart Cities and Mobility"
   },
   "contentHtml": {
     "english": "<div><div>Congestion, noise and pollution remain challenges urban communities struggle with. Technology comes as an effective solution in handling such challenges, paving the way for a higher quality urban life; yet, the spectrum of the utilized technologies facilitating efficient transportation is wide. Leveraging data and employing smart systems and platforms, such as Intelligent Transport Systems (ITS) and Mobility as a Service (MaaS), urban transport has now become smarter, more efficient and greener.</div><br><div class=\"d-flex flex-wrap mil-p-30-30 justify-content-around\"><div class=\"d-flex flex-column\"><img class=\"w-100\" src=\"/img/infographs/Intellignet-transport-img.svg\" alt=\"img\"><div class=\"mil-text-xs\">Intelligent Transport System</div></div><div class=\"d-flex flex-column\"><img class=\"w-100\" src=\"/img/infographs/MaaS.svg\" alt=\"img\"><div class=\"mil-text-xs\">Mobility as a Service (MaaS)</div></div></div><div>A&B digital consulting team helps organizations and governments visualize a sustainable and improved quality of urban life, as they explore what ITS and MaaS, AI, and IoT have to offer in increasing the competitiveness of cities based on the particular city conditions. Our strategies are an eye-opener to clients on smart mobility project implementation. Together, we navigate the solutions that encompass connecting alternative modes of transportation, shared micromobility, smart traffic management, and parking, to create more livable, resilient, and connected communities.</div></div>",
-              "arabic": "<div><div>لا تزال الازدحام والضوضاء والتلوث تحديات تواجه المجتمعات الحضرية. تأتي التكنولوجيا كحل فعال في التعامل مع هذه التحديات، مما يمهد الطريق لحياة حضرية عالية الجودة؛ ومع ذلك، فإن نطاق التقنيات المستخدمة في تسهيل النقل الفعال واسع. من خلال استخدام البيانات وتوظيف الأنظمة والمنصات الذكية، مثل أنظمة النقل الذكية (ITS) والتنقل كخدمة (MaaS)، أصبح النقل الحضري الآن أكثر ذكاءً وكفاءةً وصداقةً للبيئة.</div><br><div class=\"d-flex flex-wrap mil-p-30-30 justify-content-around\"><div class=\"d-flex flex-column\"><img class=\"w-100\" src=\"/img/infographs/Intellignet-transport-img.svg\" alt=\"img\"><div class=\"mil-text-xs\">نظام النقل الذكي</div></div><div class=\"d-flex flex-column\"><img class=\"w-100\" src=\"/img/infographs/MaaS.svg\" alt=\"img\"><div class=\"mil-text-xs\">التنقل كخدمة (MaaS)</div></div></div><div>يساعد فريق الاستشارات الرقمية لشركة A&B المنظمات والحكومات في تصور حياة حضرية مستدامة ومحسنة، حيث يستكشفون ما يمكن أن تقدمه ITS وMaaS، والذكاء الاصطناعي (AI)، وإنترنت الأشياء (IoT) في زيادة تنافسية المدن بناءً على الظروف الخاصة بكل مدينة. استراتيجياتنا تفتح أعين العملاء على تنفيذ مشاريع التنقل الذكية. معًا، نستكشف الحلول التي تشمل ربط وسائل النقل البديلة، والتنقل المشترك بالدراجات الصغيرة، وإدارة المرور الذكية، ومواقف السيارات الذكية، لإنشاء مجتمعات أكثر ملاءمة للعيش، ومرونة، واتصالاً.</div></div>"
+    "arabic": "<div><div>ما تزال الضوضاء والازدحام والتلوث تحديات رئيسية تواجه المجتمعات الحضرية اليوم، لكن مع تقدم التكنولوجيا نجد حلولا فعّالًة تقربنا من حياة حضرية حديثة أفضل. ومع تنوع التقنيات التي يمكن تسخيرها لتأمين تجربة التنقل الذكي، والاستفادة من البيانات وتوظيف الأنظمة والمنصات الذكية، مثل أنظمة النقل الذكية (ITS) والتنقل كخدمة (MaaS)، أصبح التنقل الآن أكثر ذكاءً وكفاءة واستدامة.</div><br><div class=\"d-flex flex-wrap mil-p-30-30 justify-content-around\"><div class=\"d-flex flex-column\"><img class=\"w-100\" src=\"/img/infographs/Intellignet-transport-img.svg\" alt=\"img\"><div class=\"mil-text-xs\">نظام النقل الذكي</div></div><div class=\"d-flex flex-column\"><img class=\"w-100\" src=\"/img/infographs/MaaS.svg\" alt=\"img\"><div class=\"mil-text-xs\">التنقل كخدمة (MaaS)</div></div></div><div>يساعد فريق الاستشارات الرقمية لشركة A&B المنظمات والحكومات في تصور حياة حضرية مستدامة ومحسنة، حيث يستكشفون ما يمكن أن تقدمه ITS وMaaS، والذكاء الاصطناعي (AI)، وإنترنت الأشياء (IoT) في زيادة تنافسية المدن بناءً على الظروف الخاصة بكل مدينة. استراتيجياتنا تفتح أعين العملاء على تنفيذ مشاريع التنقل الذكية. معًا، نستكشف الحلول التي تشمل ربط وسائل النقل البديلة، والتنقل المشترك بالدراجات الصغيرة، وإدارة المرور الذكية، ومواقف السيارات الذكية، لإنشاء مجتمعات أكثر ملاءمة للعيش، ومرونة، واتصالاً.</div></div>"
   },
-  "short":{
+  "short": {
     "english": "<div><div>Congestion, noise and pollution remain challenges urban communities struggle with. Technology comes as an effective solution in handling such challenges, paving the way for a higher quality urban life; yet, the spectrum of the utilized technologies facilitating efficient transportation is wide. Leveraging data and employing smart systems and platforms, such as Intelligent Transport Systems (ITS) and Mobility as a Service (MaaS), urban transport has now become smarter, more efficient and greener. </div><br><div>A&B digital consulting team helps organizations and governments visualize a sustainable and improved quality of urban life, as they explore what ITS and MaaS, AI, and IoT have to offer in increasing the competitiveness of cities based on the particular city conditions. Our strategies are an eye-opener to clients on smart mobility project implementation. Together, we navigate the solutions that encompass connecting alternative modes of transportation, shared micromobility, smart traffic management, and parking, to create more livable, resilient, and connected communities.</div></div>",
-              "arabic": "<div>تظل الازدحامات والضوضاء والتلوث تحديات يواجهها المجتمعات الحضرية. تأتي التكنولوجيا كحلا فعالًا في التعامل مع مثل هذه التحديات، مما يمهد الطريق لحياة حضرية عالية الجودة. ومع ذلك، فإن طيف التقنيات المستخدمة التي تيسر النقل الفعال واسع. من خلال استخدام البيانات واعتماد الأنظمة والمنصات الذكية، مثل أنظمة النقل الذكي (ITS) والتنقل كخدمة (MaaS)، أصبح النقل الحضري أكثر ذكاءً وكفاءةً وأخضر. </div><br><div>يساعد فريق الاستشارات الرقمية في A&B المنظمات والحكومات على تصور جودة حياة حضرية مستدامة ومحسَّنة، حيث يستكشفون ما تقدمه أنظمة النقل الذكي و MaaS و AI و IoT في زيادة تنافسية المدن استنادًا إلى ظروف المدينة الخاصة. تعتبر استراتيجياتنا فتاحة أمام عملائنا في تنفيذ مشاريع التنقل الذكية. معًا، نستكشف الحلول التي تشمل ربط وسائط النقل البديلة والتنقل المشترك وإدارة حركة المرور الذكية والمواقف، لخلق مجتمعات أكثر قابلية للعيش ومرونة وتواصلًا.</div>"
+    "arabic": "<div>ما تزال الضوضاء والازدحام والتلوث تحديات رئيسية تواجه المجتمعات الحضرية اليوم، لكن مع تقدم التكنولوجيا نجد حلولًا فعّالًة تقربنا من حياة حضرية حديثة أفضل. ومع تنوع التقنيات التي يمكن تسخيرها لتأمين تجربة التنقل الذكي، والاستفادة من البيانات وتوظيف الأنظمة والمنصات الذكية، مثل أنظمة النقل الذكية (ITS) والتنقل كخدمة (MaaS)، أصبح التنقل الآن أكثر ذكاءً وكفاءة واستدامة.</div><br><div>لذلك نحرص على أن نقدم لعملائنا في القطاع الحكومي والخاص استراتيجيات تطوير حلول التنقل الذكي، مثل ربط وسائل النقل، وتعزيز وسائل النقل الجماعي، والإدارة الذكية لحركة المرور ومواقف السيارات. هدفنا هو المساهمة في إنشاء مجتمعات حضرية تتمتع بالمرونة، والاتصال، وتوفر بيئة ملائمة للعيش. لذا يشارك فريق الاستشارات الرقمية في A&B المؤسسات والحكومات لتحسين جودة الحياة في المدن بطريقة مستدامة. فنكشف لهم كيف يمكن لتقنيات مثل أنظمة النقل الذكية (ITS)، والتنقل كخدمة (MaaS)، والذكاء الاصطناعي، وإنترنت الأشياء (IoT) أن تعزز من تنافسية المدن باستخدام البيانات المحلية.</div>"
   },
-  "introTitle":{
-    "english" :  "Smart <span class=\"mil-thin\">Mobility</span>  ",
-    "arabic" : "التنقل <span class=\"mil-thin\">and</span>  الذكي  "
+  "introTitle": {
+    "english": "Smart <span class=\"mil-thin\">Mobility</span>",
+    "arabic": "التنقل <span class=\"mil-thin\">الذكي</span>"
   },
   "gallery": {
     "enabled": 0,
@@ -304,10 +307,10 @@
   "infograph": {
     "enabled": 1,
     "name": "A&B Smart Mobility Roadmap",
-     "english": "/img/infographs/Smart-Mobility.svg",
+    "english": "/img/infographs/Smart-Mobility.svg",
     "arabic": "/img/infographs/Smart-Mobility.svg",
-    "width":1000,
-    "height":707
+    "width": 1000,
+    "height": 707
   },
   "keywords": [
     "urban congestion",
@@ -338,35 +341,35 @@
     "resilient communities",
     "connected communities",
     "الازدحامات الحضرية",
-  "الضوضاء الحضرية",
-  "التلوث الحضري",
-  "حلول التكنولوجيا",
-  "حياة حضرية عالية الجودة",
-  "النقل الفعال",
-  "استخدام البيانات",
-  "الأنظمة الذكية",
-  "أنظمة النقل الذكي (ITS)",
-  "التنقل كخدمة (MaaS)",
-  "النقل الحضري الذكي",
-  "النقل الحضري الفعال",
-  "النقل الحضري الأخضر",
-  "استشارات رقمية A&B",
-  "حياة حضرية مستدامة",
-  "تحسين جودة الحياة الحضرية",
-  "الذكاء الاصطناعي في النقل الحضري",
-  "إنترنت الأشياء في النقل الحضري",
-  "تنافسية المدن",
-  "مشروع التنقل الذكي",
-  "وسائط النقل البديلة",
-  "التنقل المشترك",
-  "إدارة حركة المرور الذكية",
-  "إدارة المواقف الذكية",
-  "مجتمعات قابلة للعيش",
-  "مجتمعات مرنة",
-  "مجتمعات متصلة"
+    "الضوضاء الحضرية",
+    "التلوث الحضري",
+    "حلول التكنولوجيا",
+    "حياة حضرية عالية الجودة",
+    "النقل الفعال",
+    "استخدام البيانات",
+    "الأنظمة الذكية",
+    "أنظمة النقل الذكي (ITS)",
+    "التنقل كخدمة (MaaS)",
+    "النقل الحضري الذكي",
+    "النقل الحضري الفعال",
+    "النقل الحضري الأخضر",
+    "استشارات رقمية A&B",
+    "حياة حضرية مستدامة",
+    "تحسين جودة الحياة الحضرية",
+    "الذكاء الاصطناعي في النقل الحضري",
+    "إنترنت الأشياء في النقل الحضري",
+    "تنافسية المدن",
+    "مشروع التنقل الذكي",
+    "وسائط النقل البديلة",
+    "التنقل المشترك",
+    "إدارة حركة المرور الذكية",
+    "إدارة المواقف الذكية",
+    "مجتمعات قابلة للعيش",
+    "مجتمعات مرنة",
+    "مجتمعات متصلة"
   ]
-  
 }
+
 ,
 {
   "id" :"s2-digitized-operations",

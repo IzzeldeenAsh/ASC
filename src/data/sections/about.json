@@ -25,11 +25,11 @@
             "id":"misson",
             "title":{
                 "english" :"Mission & Vision",
-                "arabic" : "مهمتنا ورؤيتنا"
+                "arabic" : "رسالتنا ورؤيتنا"
             },
             "description": {
                 "english": "Learn about our mission and values.",
-                "arabic": "تعرّف على مهمتنا وقيمنا."
+                "arabic": "تعرّف على رسالتنا وقيمنا."
             },
             "link":"/about#mission",
             "anchor" : "mission"
