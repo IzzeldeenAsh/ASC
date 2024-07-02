@@ -300,7 +300,18 @@ blockquote {
 .mil-bold {
     font-weight: 500;
 }
+.shadow-yellow{
+    position: absolute;
 
+    top: 4px
+    
+}
+[dir="rtl"] .shadow-yellow{
+    left: 20px;
+}
+[dir="ltr"] .shadow-yellow{
+    right: -80px;
+}
 .mil-thin {
     font-weight: 100;
 }

@@ -13,7 +13,7 @@ const AboutSection = () => {
                         <div className="col-lg-6 col-xl-5">
                             <div className="mil-mb-60">
                                 <h2 className="mil-up mil-mb-60">
-                                {t("aboutDiscover")} <br/>{t("aboutWe")} <span className="mil-thin"> {t("aboutOur")} </span>
+                                {t("aboutDiscover")} <br/>{t("aboutWe")}  {t("aboutOur")} 
                                 </h2>
                                 <div className="mil-text-lg mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.description.arabic : Data.description.english}} />
                                

@@ -12,7 +12,7 @@ const Together = ( ) => {
                 <div className="mil-center">
                 <h2 className="mil-up mil-mb-60" dangerouslySetInnerHTML={{__html :
                      activeLocale === "ar" ?
-                      "معًا، <br>نحقق الانتقال <span class=\"mil-thin\">من</span>  أ <span class=\"mil-thin\">إلى</span> ب." : 
+                      "معًا، <br>نحقق الانتقال من  أ إلى ب." : 
                       "Together, we make <br> the leap <span class=\"mil-thin\">from</span>  A <span class=\"mil-thin\">to</span> B."}} />
                   
                     <div className="mil-up">
