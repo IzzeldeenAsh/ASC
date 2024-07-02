@@ -906,7 +906,7 @@
       ]
     },
     {
-      "id": "s7-Logistics-and-Supply-Chain",
+      "id": "s7-business-incubators-",
       "sector": [
         {
           "id": "sector-8",
@@ -916,8 +916,8 @@
       "service": {
         "id": "service-7",
         "name": {
-          "english" : "Operations",
-          "arabic" :""
+       "english": "Business incubators",
+              "arabic": "حاضنات الأعمال"
         }
       },
       "infograph": {
@@ -929,20 +929,20 @@
         "height": 338
       },
       "title": {
-        "english": "Logistics and Supply Chain",
-        "arabic": "الخدمات اللوجستية وسلسلة التوريد"
+       "english": "Business incubators",
+              "arabic": "حاضنات الأعمال"
       },
       "contentHtml": {
-        "english": "<div>Although logistics and supply chain management might appear straightforward, they are incredibly intricate and vital for business success. Our approach focuses on optimizing every step of your supply chain to ensure efficiency and cost-effectiveness. From procurement to delivery, A&B provides a comprehensive suite of services designed to streamline your operations, enhance supplier relationships, and improve customer satisfaction.</div><br><div>Our experts conduct thorough analyses to identify bottlenecks and implement innovative solutions that align with your business goals. We emphasize the importance of agility and adaptability in a rapidly changing market, helping you stay ahead of the competition by leveraging the latest technologies and best practices in logistics and supply chain management.</div>",
-        "arabic": "<div>على الرغم من أن إدارة الخدمات اللوجستية وسلسلة التوريد قد تبدو بسيطة، إلا أنها معقدة للغاية وحيوية لنجاح الأعمال. يركز نهجنا على تحسين كل خطوة من سلسلة التوريد لضمان الكفاءة والفعالية من حيث التكلفة. من الشراء إلى التسليم، تقدم A&B مجموعة شاملة من الخدمات المصممة لتبسيط عملياتك، وتعزيز العلاقات مع الموردين، وتحسين رضا العملاء.</div><br><div>يقوم خبراؤنا بإجراء تحليلات شاملة لتحديد الاختناقات وتنفيذ حلول مبتكرة تتماشى مع أهداف عملك. نؤكد على أهمية المرونة والقدرة على التكيف في سوق سريع التغير، مما يساعدك على البقاء في المقدمة من خلال الاستفادة من أحدث التقنيات وأفضل الممارسات في إدارة الخدمات اللوجستية وسلسلة التوريد.</div>"
+        "english": "Although business incubators may seem like a convenient workspace with a desk and a network cable, they, in reality, are way more complex than they may seem. The value business incubators have is beyond measure as their sole purpose is to unlock limitless possibilities.<br><br>Our entrepreneurial strategies involve researching sector-related challenges and opportunities incubators need to focus on to help them maintain a competitive edge as successful business incubators in the market. We project to our clients the technical, financial, and market analysis to highlight their success roadmap and locate available funding sources. Our experts will project the potential revenue streams that will help stakeholders attract future startups.",
+              "arabic": "على الرغم من أن مراكز التكوين العملية قد تبدو وكأنها مساحة عمل مريحة مع مكتب وكابل شبكة، إلا أنها في الواقع أكثر تعقيدًا بكثير مما قد تبدو عليه. القيمة التي تمتلكها مراكز التكوين العملية لا تُقدر بثمن، حيث يكمن هدفها الوحيد في فتح أفاق لا حدود لها.<br><br>إستراتيجياتنا الريادية تتضمن البحث في التحديات والفرص ذات الصلة بالقطاع التي يجب على مراكز التكوين العملية التركيز عليها لمساعدتها على الحفاظ على النصب التنافسي كمراكز تكوين عملية ناجحة في السوق. نقدم لعملائنا التحليل التقني والمالي والسوقي لتسليط الضوء على خريطة النجاح الخاصة بهم وتحديد مصادر التمويل المتاحة. سيقوم خبراؤنا بتقدير مصادر الدخل المحتملة التي ستساعد الأطراف المعنية على جذب الشركات الناشئة في المستقبل."
       },
       "short": {
-        "english": "<div>Although logistics and supply chain management might appear straightforward, they are incredibly intricate and vital for business success. Our approach focuses on optimizing every step of your supply chain to ensure efficiency and cost-effectiveness. From procurement to delivery, A&B provides a comprehensive suite of services designed to streamline your operations, enhance supplier relationships, and improve customer satisfaction.</div>",
-        "arabic": "<div>على الرغم من أن إدارة الخدمات اللوجستية وسلسلة التوريد قد تبدو بسيطة، إلا أنها معقدة للغاية وحيوية لنجاح الأعمال. يركز نهجنا على تحسين كل خطوة من سلسلة التوريد لضمان الكفاءة والفعالية من حيث التكلفة. من الشراء إلى التسليم، تقدم A&B مجموعة شاملة من الخدمات المصممة لتبسيط عملياتك، وتعزيز العلاقات مع الموردين، وتحسين رضا العملاء.</div>"
+         "english": "Although business incubators may seem like a convenient workspace with a desk and a network cable, they, in reality, are way more complex than they may seem. The value business incubators have is beyond measure as their sole purpose is to unlock limitless possibilities.<br><br>Our entrepreneurial strategies involve researching sector-related challenges and opportunities incubators need to focus on to help them maintain a competitive edge as successful business incubators in the market. We project to our clients the technical, financial, and market analysis to highlight their success roadmap and locate available funding sources. Our experts will project the potential revenue streams that will help stakeholders attract future startups.",
+              "arabic": "على الرغم من أن مراكز التكوين العملية قد تبدو وكأنها مساحة عمل مريحة مع مكتب وكابل شبكة، إلا أنها في الواقع أكثر تعقيدًا بكثير مما قد تبدو عليه. القيمة التي تمتلكها مراكز التكوين العملية لا تُقدر بثمن، حيث يكمن هدفها الوحيد في فتح أفاق لا حدود لها.<br><br>إستراتيجياتنا الريادية تتضمن البحث في التحديات والفرص ذات الصلة بالقطاع التي يجب على مراكز التكوين العملية التركيز عليها لمساعدتها على الحفاظ على النصب التنافسي كمراكز تكوين عملية ناجحة في السوق. نقدم لعملائنا التحليل التقني والمالي والسوقي لتسليط الضوء على خريطة النجاح الخاصة بهم وتحديد مصادر التمويل المتاحة. سيقوم خبراؤنا بتقدير مصادر الدخل المحتملة التي ستساعد الأطراف المعنية على جذب الشركات الناشئة في المستقبل."
       },
       "introTitle": {
-        "english": "Logistics and Supply Chain",
-        "arabic": "الخدمات اللوجستية وسلسلة التوريد"
+      "english": "Business incubators",
+              "arabic": "حاضنات الأعمال"
       },
       "gallery": {
         "enabled": 0,
@@ -962,15 +962,47 @@
         "content": ""
       },
       "keywords": [
-        "Logistics",
-        "Supply Chain Management",
-        "Optimization",
-        "Efficiency",
-        "الخدمات اللوجستية",
-        "إدارة سلسلة التوريد",
-        "التحسين",
-        "الكفاءة"
-      ]
+    "Business Incubators",
+    "حاضنات الأعمال",
+    "Agriculture Incubators",
+    "حاضنات الزراعة",
+    "Logistics and Supply Chain",
+    "الخدمات اللوجستية وسلسلة التوريد",
+    "Startup Support",
+    "دعم الشركات الناشئة",
+    "Entrepreneurial Strategies",
+    "استراتيجيات ريادية",
+    "Market Analysis for Incubators",
+    "تحليل السوق للحاضنات",
+    "Technical Analysis for Startups",
+    "التحليل الفني للشركات الناشئة",
+    "Financial Analysis for Incubators",
+    "التحليل المالي للحاضنات",
+    "Funding Sources for Startups",
+    "مصادر التمويل للشركات الناشئة",
+    "Revenue Streams for Incubators",
+    "مصادر الدخل للحاضنات",
+    "Agriculture Sector Challenges",
+    "تحديات قطاع الزراعة",
+    "Agriculture Business Opportunities",
+    "فرص الأعمال في الزراعة",
+    "Competitive Edge in Incubators",
+    "الميزة التنافسية في الحاضنات",
+    "Startup Ecosystem",
+    "نظام بيئي للشركات الناشئة",
+    "Innovation in Agriculture",
+    "الابتكار في الزراعة",
+    "Business Growth Strategies",
+    "استراتيجيات نمو الأعمال",
+    "Future Startups in Agriculture",
+    "الشركات الناشئة المستقبلية في الزراعة",
+    "Supply Chain Solutions",
+    "حلول سلسلة التوريد",
+    "Incubator Success Roadmap",
+    "خارطة نجاح الحاضنات",
+    "Supporting Agriculture Startups",
+    "دعم الشركات الناشئة في الزراعة"
+  ]
     },
     {
       "id": "s6-Logistics-and-Supply-Chain",
