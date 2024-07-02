@@ -30,7 +30,7 @@ function CustomizedTimeline() {
         <div className="date">2020</div>
         <div className="title">
         <img src="https://res.cloudinary.com/dsiku9ipv/image/upload/fl_preserve_transparency/v1715690216/Alokab_logo_Icons-01_1_nuumlq.jpg?_s=public-apps" alt="logo"></img>
-            Digitally-transformed consulting experience</div>
+            digitally-transformated consulting experience</div>
         <div className="descr">A&B - Alokab - developed smart platforms that provide quality consulting services to clients by employing the latest data analysis techniques and AI. Dealing with huge data became necessary to get accurate and data-driven insights. Our concern for our clients' valuable time has motivated our experts to craft special algorithms to help clients experience one-of-a-kind consulting insights at the push of a button.</div>
     </li>
     <li >
