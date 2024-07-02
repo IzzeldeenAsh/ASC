@@ -1223,6 +1223,9 @@ body[dir="ltr"] .title-yellow-head{
 .w-100{
     width: 100%;
 }
+.w-80{
+    width: 80%;
+}
 .mil-text-highlight{
     color: #0a1b30;
     font-size: 20px;
@@ -1303,7 +1306,9 @@ body[dir="ltr"] .title-yellow-head{
     display: flex;
     gap: 3px;
     padding: 9px 0px;
-   
+}
+[dir="rtl"] .ab-quoations{
+    margin-inline-start: auto;
 }
 .hyper-link{
     color:#3D9BF2;

@@ -142,7 +142,7 @@
         },
         "content": {
           "english": "Adopting the right digital technologies and integrating them into the various aspects of an organization's operations, culture, and customer experience has become essential for businesses to remain competitive. Our digital transformation mission is to ensure our clients utilize the best out of technology to grow and thrive in this digital age. By illustrating to them a holistic approach tailored to their needs, we help them seamlessly embrace digital transformation as A&B digital experts examine their operations and craft the strategies that will make the whole digital transformation journey throughout the value chain smooth and hassle-free.",
-          "arabic": "تبني التقنيات الرقمية المناسبة ودمجها في مختلف جوانب عمليات المؤسسة وثقافتها وتجربة العملاء أصبح ضرورة حتمية للشركات كي تحافظ على قدرتها التنافسية. تتمثل رسالتنا في مجال التحول الرقمي في ضمان استفادة عملائنا من أفضل ما تقدمه التكنولوجيا للنمو والازدهار في هذا العصر الرقمي. ومن خلال توضيح نهج شامل مصمم خصيصًا لتلبية احتياجاتهم، فإننا نساعدهم على تبني التحول الرقمي بسلاسة. يقوم خبراء A&B الرقميون بفحص عمليات العُملاء وصياغة الاستراتيجيات التي من شأنها أن تجعل رحلة التحول الرقمي بأكملها عبر سلسلة القيمة سلسة وخالية من المتاعب."
+          "arabic": "تجمع الشركات الناجحة بين الابتكار والتكنولوجيا الرقمية لتحسين عملياتها وتجربة عملائها. وأصبح من الضروري في عالمنا الرقمي اليوم دمج التقنيات الرقمية الصحيحة في جميع جوانب عمل المؤسسة، ليشمل تفاعلاتها مع العملاء وينعكس على ثقافتها المؤسسية ولتبقى قادرة على التنافس. <br><br>مهمتنا هي مساعدة عملائنا على استغلال التكنولوجيا الأفضل لتحقيق النمو والازدهار في عصر الرقميات. يتفحص ويتتبع خبراؤنا العمليات المؤسسية لعملائنا ليقوموا بصياغة استراتيجيات فعالة تضمن رحلة تحولهم الرقمي عبر سلاسل القيمة بأكملها وبدون عوائق. فنقدم لهم نهجًا شاملاً ومخصصًا لتلبية احتياجاتهم يمكنهم من اعتماد التحول الرقمي لمؤسساتهم بكل سلاسة. "
         },
         "button": {
           "link": "/projects",
@@ -159,11 +159,11 @@
             "isSubService": true,
             "label": {
               "english": "Digitized Operations",
-              "arabic": "العمليات المرقمة"
+              "arabic": "رقمنة العمليات"
             },
             "value": {
               "english": "Our digital transformation experts work with organizations to help them evolve their business models and get their operations to a higher level of efficiency. We help businesses drive the needed digital growth by defining the most effective digital strategy.",
-              "arabic": "يعمل خبراء التحول الرقمي لدينا مع المنظمات لمساعدتها على تطوير نماذج أعمالها ورفع كفاءة عملياتها إلى مستوى أعلى. نساعد الشركات على تحقيق النمو الرقمي المطلوب من خلال تحديد الاستراتيجية الرقمية الأكثر فعالية."
+              "arabic": "يقدم خبراء التحول الرقمي لدينا استراتيجيات رقمنة العمليات وحلولًا رقمية مبتكرة تساعد الشركات على تحديد وتنفيذ عمليات الرقمنة المطلوبة التي من شأنها أن تزيد من كفاءتها العملياتية وتحقق نموها المستدام. <br><br>يمثل التحول الرقمي ورقمنة العمليات خطوة أساسية في تطور المؤسسات، ولا يقتصر ذلك على اعتماد التقنيات الحديثة فحسب، بل يتطلب أيضًا دمجها في كافة جوانب العمل. لذا، بعد فهم عميق لسلاسل القيمة داخل المؤسسات، يسعى خبراؤنا لتصميم نماذج تشغيل رقمية مبتكرة معتمدة على البيانات. فذلك من شأنه أن يعزز تجربة عملائهم ويلبي المتطلبات الرقمية المتطورة، ويساعدهم في الحفاظ على ميزة تنافسية قوية ومستدامة في السوق المحلي والعالمي."
             }
           },
           {
@@ -171,11 +171,11 @@
             "isSubService": true,
             "label": {
               "english": "Digital Culture",
-              "arabic": "الثقافة الرقمية"
+              "arabic": "ثقافة الرقمنة للمؤسسات"
             },
             "value": {
               "english": "<div>To create value through digital transformation, we partner with clients to foster the needed digital culture that will positively impact your operations, leaving it optimized, agile and customer-centric. To change an organization’s culture is not easy, and for an organization to transform to the must-prevail digital culture our experts tailor the solutions that fit best the organization's unique requisites to stay competitive. That's why we help organizations adapt to and manage the rapidly changing business environment where the deployed technology is put into action to drive impact.</div><br><div>At A&B, we emphasize the important role stakeholders can play in enhancing the behaviors and mindsets of employees to promote digital transformation, where innovative, collaborative and data-driven culture dominates the scene while putting the customer at the heart of the digital transformation journey.</div>",
-              "arabic": "<div>لإنشاء قيمة من خلال التحول الرقمي، نتشارك مع العملاء لتعزيز الثقافة الرقمية اللازمة التي ستؤثر إيجابًا على عملياتك، مما يجعلها محسنة ومرنة ومتمركزة حول العميل. لتغيير ثقافة المنظمة ليس أمرًا سهلاً، ولكي تتحول المنظمة إلى الثقافة الرقمية اللازمة للتفوق يُخصص خبراؤنا الحلول التي تناسب أفضل متطلبات المنظمة الفريدة للبقاء تنافسية. لهذا السبب نساعد المنظمات على التكيف مع وإدارة البيئة التجارية المتغيرة بسرعة حيث يتم تنفيذ التكنولوجيا المستخدمة لتحقيق الأثر.</div><br><div>في A&B، نؤكد على الدور المهم الذي يمكن أن يلعبه أصحاب المصلحة في تعزيز سلوكيات ومواقف الموظفين لتعزيز التحول الرقمي، حيث تسود الثقافة المبتكرة والتعاونية والمدفوعة بالبيانات المشهد بينما يتم وضع العميل في قلب رحلة التحول الرقمي.</div>"
+              "arabic": "لكي يؤتي التحول الرقمي أكله، نعمل جنبًا إلى جنب مع عملائنا لتعزيز ثقافة التحول الرقمي المطلوبة. فاستثمار الوقت والجهد في التحول الى الرقمية لا بد ان يواكبه تحول في ثقافة المؤسسة الرقمية. في شركتنا، نتعاون مع العملاء لتعزيز الثقافة الرقمية المطلوبة التي ستؤثر بشكل إيجابي على عملياتها، فهدفنا هو تحسين عملياتك وجعلها مرنة تتماشى مع تطلعات العملاء وتلبي احتياجاتهم بكفاءة وفاعلية. <br><br>ندرك أن تغيير الثقافة المؤسسية ليس مهمة سهلة، ولكن مع فريق خبرائنا يمكن تحقيق ذلك بنجاح. فنقدم حلولًا مصممة خصيصًا لتناسب احتياجات كل مؤسسة على حدة، مما يساعدها على البقاء تنافسية في بيئة أعمال متغيرة. ولهذا السبب، نساعد المؤسسات على التكيف وتحقيق التأثير المراد الذي من أجله وضعت التكنولوجيا موضع التنفيذ. <br><br>في A&B، نؤكد على الدور المهم الذي يمكن أن يلعبه أصحاب المصلحة في تعزيز سلوكيات وعقليات الموظفين لتعزيز التحول الرقمي داخل المؤسسة. فنقدم استراتيجيات لبناء الثقافة الرقمية تشتمل على الدور المهم الذي يلعبه أصحاب القرار والمصلحة في نشر ثقافة الابتكار والتعاونية والعمليات المرتكزة على البيانات في المؤسسة والتي تضع عملائها في قلب رحلة التحول الرقمي."
             }
           },
           {
@@ -183,11 +183,11 @@
             "isSubService": true,
             "label": {
               "english": "AI Analytics and Business Development",
-              "arabic": "تحليلات الذكاء الاصطناعي وتطوير الأعمال"
+              "arabic": "الذكاء الاصطناعي وتطور الاعمال"
             },
             "value": {
               "english": "The impact of AI on managing big data represents a remarkable advancement that businesses need to consider to stay ahead in the market. <br><br> To align the best AI strategy and analytics with business objectives, our expert consultants work with our clients to unlock the potential of multi-source data trends to facilitate optimized operation and enhanced customer satisfaction. Data-driven decision-making will undoubtedly contribute to the development of organizations. Business development experts at A&B believe that, through AI-driven analytics, organizations can employ the right AI technology to help them gain valuable business insights from data and maintain competitive advantage.",
-              "arabic": "يمثل تأثير الذكاء الاصطناعي على إدارة البيانات الضخمة تقدماً ملحوظاً تحتاج الشركات إلى أخذه في الاعتبار للبقاء في مقدمة السوق. لضمان توافق أفضل استراتيجيات الذكاء الاصطناعي والتحليلات مع الأهداف التجارية، يعمل مستشارونا الخبراء مع عملائنا على استغلال إمكانات اتجاهات البيانات متعددة المصادر لتسهيل العمليات المحسنة وتعزيز رضا العملاء. سيساهم اتخاذ القرارات المستندة إلى البيانات بلا شك في تطوير المنظمات. يعتقد خبراء تطوير الأعمال في A&B أنه من خلال التحليلات المدعومة بالذكاء الاصطناعي، يمكن للمنظمات استخدام التكنولوجيا المناسبة لمساعدتها على اكتساب رؤى تجارية قيمة من البيانات والحفاظ على ميزة تنافسية."
+              "arabic":"تأثير الذكاء الاصطناعي على إدارة البيانات الضخمة يمثل تقدمًا لافتًا في عالم تطوير الأعمال. تلك التحليلات الذكية تسهم في تحقيق ميزة تنافسية للشركات، حيث تمكنها من استخدام البيانات بفعالية لاتخاذ قرارات استراتيجية دقيقة.<br><br>لمواءمة أفضل إستراتيجيات وتحليلات الذكاء الاصطناعي مع أهداف العمل، يعمل مستشارونا الخبراء مع عملائنا لاستغال الإمكانات التي توفرها اتجاهات البيانات متعددة المصادر multi-source data trends والتي تلعب دورا في تسهيل عمليات التشغيل الأمثل وتعزيز رضا العملاء.<br><br>إن اتخاذ القرارات المبنية على البيانات هو مفتاح النجاح في العصر الحديث. ويؤمن فريقنا في A&B أن بإمكان المؤسسات استخدام أحدث تكنولوجيا الذكاء الاصطناعي لتحليل البيانات ولحصول على رؤى تجارية قيمة وزيادة قدرتهم التنافسية."
           }
           
           },
@@ -200,7 +200,7 @@
             },
             "value": {
               "english": "<div>We help organizations embrace digital transformation while we highlight the risks that might come along the way. A&B offers a comprehensive suite of cybersecurity consulting services aimed at safeguarding organizations' digital assets against evolving digital threats. As some threats are hard to predict, understanding, recognizing and being prepared for such risks is the definition of digital resilience. Our experts work in collaboration with clients to put in place the needed robust and effective security strategy that will help them assess and mitigate risks, and detect and respond to threats to preserve their business value.</div>",
-              "arabic": "<div>نساعد المنظمات على تبني التحول الرقمي بينما نسلط الضوء على المخاطر التي قد تعترض الطريق. تقدم A&B مجموعة شاملة من خدمات استشارات الأمن السيبراني التي تهدف إلى حماية أصول المنظمات الرقمية ضد التهديدات الرقمية المتطورة. نظرًا لأن بعض التهديدات صعبة التنبؤ بها، فإن فهم والتعرف والاستعداد لمثل هذه المخاطر هو تعريف المرونة الرقمية. يعمل خبراؤنا بالتعاون مع العملاء لوضع الاستراتيجية الأمنية القوية والفعالة اللازمة التي ستساعدهم على تقييم وتخفيف المخاطر، وكشف والاستجابة للتهديدات للحفاظ على قيمة أعمالهم.</div>"
+              "arabic": "نحن في A&B نساعد المؤسسات على اعتماد التحول الرقمي، ونحرص أيضا على توضيح المخاطر المحتملة له. نقدم مجموعة شاملة من الخدمات الاستشارية في مجال الأمن السيبراني، بهدف حماية الأصول الرقمية للمؤسسات من التهديدات الرقمية المحتملة . ونظرًا لتعقيد بعض هذه التهديدات وصعوبة تنبؤها، فإن فهمها والاعتراف بخطورتها والاستعداد لها هو ما يشكل جوهر المرونة الرقمية. فيعمل خبراؤنا بالتعاون مع عملائنا لوضع استراتيجيات أمنية قوية وفعالة، تساعدهم في تقييم المخاطر وتخفيف اثارها، وكذلك في اكتشاف التهديدات والاستجابة لها، لضمان استمرارية وازدهار أعمالهم."
             }
           },
           {
@@ -208,11 +208,11 @@
             "isSubService": true,
             "label": {
               "english": "Data Security and Privacy",
-              "arabic": "أمان البيانات والخصوصية"
+              "arabic": "أنظمة حماية البيانات والخصوصية"
             },
             "value": {
               "english": "<div>Being fully aware of how crucial it is for organizations to protect their data from various data breaches, A&B always highlights the importance of incorporating data security management early on in the development process. Clients entrust organizations with their valuable information and expect organizations to maintain it. Therefore, our consultant experts aim at providing organizations with data security strategies and insights that help set up the right defense mechanisms across the organization to maintain its reputation and competitive edge.</div>",
-              "arabic": "<div>بوعي تام بمدى أهمية حماية البيانات للمنظمات من مختلف انتهاكات البيانات، يسلط A&B دائمًا الضوء على أهمية دمج إدارة أمان البيانات في وقت مبكر في عملية التطوير. يثق العملاء المنظمات بمعلوماتهم الثمينة ويتوقعون من المنظمات الحفاظ عليها. لذلك، تهدف خبراؤنا الاستشاريون إلى تزويد المنظمات باستراتيجيات ورؤى أمان البيانات التي تساعد في إقامة آليات الدفاع الصحيحة في جميع أنحاء المنظمة للحفاظ على سمعتها وتفوقها التنافسي.</div>"
+              "arabic": "يدرك فريق A&B أهمية حماية بيانات المؤسسات من الانتهاكات المختلفة، وبناء على ذلك نؤكد دائمًا على ضرورة دمج إدارة أمن البيانات في مراحل مبكرة من عمليات التطوير.<br><br>يعهد العملاء إلى المؤسسات بمعلوماتهم القيمة ويتوقعون من المؤسسات الحفاظ عليها. ولذلك، يهدف خبراؤنا الاستشاريون إلى تزويد المؤسسات باستراتيجيات أمن البيانات وحلول تساعد في إنشاء آليات الدفاع المناسبة الممتدة عبر المؤسسة للحفاظ على سمعتها وميزتها التنافسية."
             }
           }
         ]
@@ -256,12 +256,12 @@
         "Energy and Sustainability"
       ],
       "title": {
-        "english": "Renewable Energy ",
-        "arabic": "تحويل الطاقة المتجددة"
+        "english": "Renewable Energy Transformation",
+        "arabic":"التحول إلى الطاقة المتجددة"
       },
       "preview_title": {
-        "english": "Renewable Energy ",
-        "arabic": "تحويل الطاقة المتجددة"
+        "english":  "Renewable Energy Transformation",
+        "arabic": "التحول إلى الطاقة المتجددة"
       },
       "short": {
         "english": "A&B team of experts is dedicated to helping businesses and organizations lower their energy costs and reduce their carbon footprint.",
@@ -276,8 +276,8 @@
        },
       "introTitle": {
         "english": "Renewable Energy <br> <span class=\"mil-thin\">Transformation</span>",
-        "arabic": "تحويل الطاقة<br>  <span class=\"mil-thin\">المتجددة</span>"
-      },
+        "arabic":  "التحول إلى<br> الطاقة <span class=\"mil-thin\">المتجددة</span>"
+      }, 
       "description": {
         "title": {
           "english": "Empowering organizations",
@@ -285,7 +285,7 @@
         },
         "content": {
           "english": "<div>With the increasing demand for clean and renewable energy sources, A&B team of experts is dedicated to helping businesses and organizations lower their energy costs and reduce their carbon footprint. <br><br> We understand that transitioning to renewable energy sources may be faced with certain challenges. Therefore, our experts work with our clients every step of the way to combat climate change, reduce costs and create a more sustainable future by providing innovative and sustainable renewable energy solutions. <br><br> Transitioning to renewables requires a customized strategy that helps businesses and organizations switch to the right technology. We draw on our long experiences and proprietary renewable energy research to identify the right strategy for our clients that includes a systematic assessment of energy use before deciding on the appropriate renewable aternative.</div>",
-          "arabic": "مع الطلب المتزايد على مصادر الطاقة النظيفة والمتجددة، يكرس فريق خبراء A&B جهوده لمساعدة الشركات والمنظمات على تقليل أثرها الكربوني وخفض تكاليف الطاقة. ندرك أن الانتقال إلى مصادر الطاقة المتجددة قد يواجه بعض التحديات. لذلك، يعمل خبراؤنا مع عملائنا في كل خطوة على مكافحة تغير المناخ، وتقليل التكاليف وخلق مستقبل أكثر استدامة من خلال تقديم حلول مبتكرة ومستدامة للطاقة المتجددة.<br>يتطلب الانتقال إلى الطاقة المتجددة استراتيجية مخصصة تساعد الشركات والمنظمات على التحول إلى التكنولوجيا المناسبة. نستفيد من خبراتنا الطويلة والأبحاث الخاصة بالطاقة المتجددة لتحديد الاستراتيجية المناسبة لعملائنا التي تشمل تقييماً منهجياً لاستخدام الطاقة قبل اتخاذ البديل المتجدد.<br>سواء كانت الطاقة الشمسية، أو الرياح أو التقنيات الأخرى المتجددة، فإننا نتبع نهجاً شاملاً يشمل تصميم أنظمة فعالة تتماشى مع أهداف عملائنا وتلبي احتياجاتهم. نتنقل في السياسات الحكومية والحوافز لمساعدة المنظمات على استغلال قوة الطاقة المتجددة لتعظيم عائد استثمارها ومساعدتها في تحقيق أهداف الاستدامة الخاصة بها."
+          "arabic": "مع تصاعد الطلب على مصادر الطاقة النظيفة والمتجددة، يضع فريق خبرائنا في A&B كل جهودهم لمساعدة الشركات والمؤسسات على خفض البصمة الكربونية وتقليل تكاليف الطاقة. نحن ندرك تحديات التحول إلى مصادر الطاقة المتجددة، ولذلك نعمل مع عملائنا في كل مرحلة لمواجهة تغير المناخ، وتحقيق توفير التكاليف، وخلق مستقبل مستدام من خلال توفير حلول طاقة مبتكرة ومستدامة.<br><br>يتطلب الانتقال إلى مصادر الطاقة المتجددة استراتيجية مخصصة تساعد الشركات والمؤسسات على التحول إلى التكنولوجيا المناسبة. فنوظف خبراتنا الطويلة وأبحاثنا الخاصة بالطاقة المتجددة لتحديد الإستراتيجية الصحيحة لعملائنا والتي تتضمن تقييمًا منهجيًا لاستخدام الطاقة قبل اتخاذ قرار بشأن البديل المتجدد المناسب."
         },
         "button": {
           "link": "/projects",
@@ -341,7 +341,7 @@
         "arabic": "التصنيع المستدام"
       },
       "short": {
-        "english": "Sustainable Manufacturing offers clean manufacturing solutions for environmental excellence, aiding organizations in reducing their carbon footprint and energy costs while meeting sustainability goals. ",
+        "english": "Sustainable Manufacturing offers clean manufacturing solutions for environmental excellence, aiding organizations in reducing their carbon footprint and energy costs while meeting sustainability goals.",
         "arabic": "التصنيع المستدام"
       },
       "introTitle": {
@@ -351,11 +351,11 @@
       "description": {
         "title": {
           "english": "Clean Manufacturing is an opportunity",
-          "arabic": " التصنيع النظيف هو فرصة "
+          "arabic": "التصنيع النظيف فرصة"
         },
         "content": {
-       "english": "<div class=\"row\"><div class=\"col-md-6\">In today's world, our understanding of the importance of sustainable manufacturing across various industries makes us committed to helping our clients achieve their environmental goals while maintaining a competitive edge in the market. To offer you an effective strategy, we start by conducting comprehensive assessments of your operations, facility, and product.<br><br><span class=\"mil-text-primary fw-bold\">Clean Manufacturing</span><br><br>Our clean manufacturing transformation strategy focuses on reducing the environmental impact of manufacturers and businesses and improving their sustainability. A&B provides strategic solutions that would lead to innovative manufacturing processes and helps clients adopt and implement practices that not only benefit the environment but also improve their operational efficiency and reduce costs.<br><br> Although clean manufacturing may seem like a responsibility, we see it as an opportunity. Organizations can differentiate themselves in the market by contributing to their local economy and meeting the demands of the increasing number of environmentally conscious consumers.</div><div class=\"col-md-1\"></div><div class=\"col-md-5 d-flex flex-column\"><img src=\"/img/infographs/clean-manu.svg\" alt=\"infograph\"><div class=\"mil-center mil-text-xs\">A&B Sustainable Manufacturing Roadmap</div></div></div>",
-          "arabic": "مع الطلب المتزايد على مصادر الطاقة النظيفة والمتجددة، يكرس فريق خبراء A&B جهوده لمساعدة الشركات والمنظمات على تقليل أثرها الكربوني وخفض تكاليف الطاقة. ندرك أن الانتقال إلى مصادر الطاقة المتجددة قد يواجه بعض التحديات. لذلك، يعمل خبراؤنا مع عملائنا في كل خطوة على مكافحة تغير المناخ، وتقليل التكاليف وخلق مستقبل أكثر استدامة من خلال تقديم حلول مبتكرة ومستدامة للطاقة المتجددة.<br><br>"
+          "english": "In today's world, our understanding of the importance of sustainable manufacturing across various industries makes us committed to helping our clients achieve their environmental goals while maintaining a competitive edge in the market. To offer you an effective strategy, we start by conducting comprehensive assessments of your operations, facility, and product.",
+          "arabic": "إن إدراكنا لأهمية التصنيع المستدام في مختلف الصناعات هو ما يجعلنا نلتزم بمساعدة عملائنا في تحقيق أهدافهم البيئية مع الحفاظ على تفوقهم التنافسي في السوق. ولكي نحرص على تقديم استراتيجيات التصنيع المستدام الفعّالة نبدأ بإجراء تقييمات شاملة لعملياتكم ومنشآتكم ومنتجاتكم، لضمان تحقيق أفضل النتائج الممكنة وتعزيز مكانتكم في السوق."
         }
       },
       "button": {
@@ -366,7 +366,32 @@
         }
       },
       "list": {
-        "items": []
+        "items": [
+          {
+            "id": "clean-manufacturing",
+            "isSubService": true,
+            "label": {
+              "english": "Clean Manufacturing",
+              "arabic": "التصنيع النظيف"
+            },
+            "value": {
+              "english": "Our clean manufacturing transformation strategy focuses on reducing the environmental impact of manufacturers and businesses and improving their sustainability. A&B provides strategic solutions that would lead to innovative manufacturing processes and helps clients adopt and implement practices that not only benefit the environment but also improve their operational efficiency and reduce costs.<br><br>Although clean manufacturing may seem like a responsibility, we see it as an opportunity. Organizations can differentiate themselves in the market by contributing to their local economy and meeting the demands of the increasing number of environmentally conscious consumers.",
+              "arabic": "نهجنا في تحويل التصنيع النظيف يركز على خفض الآثار البيئية للشركات والمصانع مع التركيز على تعزيز استدامتها. تقدم A&B حلولاً استراتيجية مبتكرة تسهم في تنظيم عمليات التصنيع ودعم العملاء في تبني ممارسات صديقة للبيئة. هدفنا ليس فقط الحفاظ على البيئة، بل أيضًا تعزيز كفاءة العمليات وتقليل التكاليف.<br><br>لا يقتصر التصنيع النظيف على المسؤولية البيئية فحسب، بل هو فرصة حقيقية للشركات لكي تبرز في ساحة الأعمال. من خلال التصنيع النظيف، يمكن للمؤسسات تحقيق الفوائد الاقتصادية والبيئية في آن واحد، مما يعزز مكانتها في السوق ويساهم في تلبية توقعات العملاء المهتمين بالبيئة والاستدامة."
+            }
+          },
+          {
+            "id": "comprehensive-assessments",
+            "isSubService": true,
+            "label": {
+              "english": "Comprehensive assessments of Operations, Products and Facility",
+              "arabic": "تقييمات شاملة لعمليات التصنيع والمنتجات والمرافق الصناعية"
+            },
+            "value": {
+              "english": "A&B sustainability experts stress the fact that to identify areas for improvement and develop customized clean manufacturing strategies, organizations need to undergo comprehensive assessments focusing on key quantitative indicators for environmental performance, which will lead to clean manufacturing processes that are to be integrated into the implemented practices and day-to-day operations.",
+              "arabic": "يؤكد خبراء الاستدامة في A&B على أهمية إجراء تقييمات شاملة للعمليات والمنتجات والمرافق، حيث تُعتبر هذه التقييمات أساسية لتحديد فرص التحسين وتطوير استراتيجيات التصنيع النظيف المخصصة. تركز هذه التقييمات على المؤشرات الرئيسية للأداء البيئي، مما يسهم في تطبيق عمليات تصنيع نظيفة ومتكاملة مع العمليات اليومية للمؤسسات."
+            }
+          }
+        ]
       },
       "keywords": [
         "sustainable manufacturing",
@@ -396,7 +421,8 @@
         "الاقتصاد المحلي",
         "المستهلكين ذوي الوعي البيئي"
       ]
-    },
+    }
+,    
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988340/30280_1_tnzuno.webp",
       "id": "service-5",
