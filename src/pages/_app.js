@@ -1,3 +1,4 @@
+
 import '@mantine/core/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
 import React from "react";
@@ -9,19 +10,15 @@ import "../styles/globals.css";
 import nextI18NextConfig from '../../next-i18next.config'
 import { register } from "swiper/element/bundle";
 import { IBM_Plex_Sans_Arabic, Outfit } from 'next/font/google'
-
 const ibmPlexSansArabic = IBM_Plex_Sans_Arabic({
   subsets: ['latin', 'arabic'], // Include Arabic subset
-  weight: [ '400', '500', '600', '700'], // Specify available weights
+  weight: [ '200', '300', '400', '500', '600', '700'], // Specify available weights
   variable: '--font-ibm-plex-sans-arabic',
 });
-
 const outfit = Outfit({
   subsets: ['latin'],
-  weight: ['400', '700'], // Specify available weights if needed
   variable: '--font-outfit',
 });
-
 // register Swiper custom elements
 register();
 
@@ -44,21 +41,30 @@ function MyApp({ Component, pageProps }) {
 
           /* Target Arabic text using lang attribute */
           :lang(ar) {
-            font-family: var(--font-ibm-plex-sans-arabic); 
+           font-family: var(--font-ibm-plex-sans-arabic); 
+        
           }
+            html:lang(ar)  {
+               font-weight:400;
+        
+          }  body:lang(ar)  {
+               font-weight:400;
+        
+          }
+                
         `}
-      </style>
-      <>
-        <Head>
-            {/* seo begin */}
-            <title>{AppData.settings.siteName}</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            {/* seo end */}        
-        </Head>
-        <Component {...pageProps} />
-      </>
+        </style>
+    <>
+      <Head>
+          {/* seo begin */}
+          <title>{AppData.settings.siteName}</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          {/* seo end */}        
+      </Head>
+      <Component {...pageProps} />
+    </>
     </MantineProvider>
   );
 }
 
-export default appWithTranslation(MyApp, nextI18NextConfig);
+export default appWithTranslation(MyApp,nextI18NextConfig);
