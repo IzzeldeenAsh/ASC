@@ -21,7 +21,7 @@
       },
       "introTitle": {
         "english": "Smart Cities<br> and <span class=\"mil-thin\">Mobility</span>",
-        "arabic": "المدن الذكية<br> و<span class=\"mil-thin\">التنقل</span>"
+        "arabic": "المدن الذكية<br> والتنقل"
       },
       "description": {
         "title": {
@@ -133,7 +133,7 @@
       },
       "introTitle": {
         "english": "Digital <br> <span class=\"mil-thin\">Transformation</span>",
-        "arabic": "التحول  <span class=\"mil-thin\">الرقمي</span>"
+        "arabic": "التحول  الرقمي"
       },
       "description": {
         "title": {
@@ -276,7 +276,7 @@
        },
       "introTitle": {
         "english": "Renewable Energy <br> <span class=\"mil-thin\">Transformation</span>",
-        "arabic":  "التحول إلى<br> الطاقة <span class=\"mil-thin\">المتجددة</span>"
+        "arabic":  "التحول إلى<br> الطاقة المتجددة"
       }, 
       "description": {
         "title": {
@@ -346,7 +346,7 @@
       },
       "introTitle": {
         "english": "Sustainable <br> <span class=\"mil-thin\">Manufacturing</span>",
-        "arabic": "التصنيع <br> <span class=\"mil-thin\">المستدام</span>"
+        "arabic": "التصنيع <br>المستدام"
       },
       "description": {
         "title": {
@@ -444,7 +444,7 @@
       },
       "introTitle": {
         "english": "Sustainable <br> <span class=\"mil-thin\">Agriculture</span>",
-        "arabic": "الزراعة <br> <span class=\"mil-thin\">المستدامة</span>"
+        "arabic": "الزراعة <br> المستدامة"
       },
       "infograph":{
         "english": "/img/infographs/agricultural.svg",
@@ -698,7 +698,7 @@
         },
         "content": {
           "english": "Stating as entrepreneurs, A&B puts entrepreneurship at the center of its interest and we value the role startups play in economic growth, innovation, and community development. We help organizations develop strategies that will effectively yield the needed support for entrepreneurs and help them reach the lift-off point and head confidently to their desired destination.",
-          "arabic": ""
+          "arabic": "كحملة الفكر الريادي، تولي A&B اهتماماً كبيراً بمفهوم ريادة الأعمال، مُثمِّنةً الدور الحيوي الذي تلعبه الشركات الناشئة في دعم النمو الاقتصادي والتطور المجتمعي، فريادة الاعمال هي مصدر التفكير الجديد والحلول المبتكرة. كما نقدم دعماً للمؤسسات في تطوير استراتيجيات مدروسة تعزز دعم رواد الأعمال وتمكينهم من تحقيق أهدافهم بكفاءة وفعالية."
         },
         "button": {
           "link": "/projects",
@@ -719,7 +719,7 @@
             },
             "value": {
               "english": "Although business incubators may seem like a convenient workspace with a desk and a network cable, they, in reality, are way more complex than they may seem. The value business incubators have is beyond measure as their sole purpose is to unlock limitless possibilities.<br><br>Our entrepreneurial strategies involve researching sector-related challenges and opportunities incubators need to focus on to help them maintain a competitive edge as successful business incubators in the market. We project to our clients the technical, financial, and market analysis to highlight their success roadmap and locate available funding sources. Our experts will project the potential revenue streams that will help stakeholders attract future startups.",
-              "arabic": "على الرغم من أن مراكز التكوين العملية قد تبدو وكأنها مساحة عمل مريحة مع مكتب وكابل شبكة، إلا أنها في الواقع أكثر تعقيدًا بكثير مما قد تبدو عليه. القيمة التي تمتلكها مراكز التكوين العملية لا تُقدر بثمن، حيث يكمن هدفها الوحيد في فتح أفاق لا حدود لها.<br><br>إستراتيجياتنا الريادية تتضمن البحث في التحديات والفرص ذات الصلة بالقطاع التي يجب على مراكز التكوين العملية التركيز عليها لمساعدتها على الحفاظ على النصب التنافسي كمراكز تكوين عملية ناجحة في السوق. نقدم لعملائنا التحليل التقني والمالي والسوقي لتسليط الضوء على خريطة النجاح الخاصة بهم وتحديد مصادر التمويل المتاحة. سيقوم خبراؤنا بتقدير مصادر الدخل المحتملة التي ستساعد الأطراف المعنية على جذب الشركات الناشئة في المستقبل."
+              "arabic": "على الرغم من بساطتها الظاهرية كمكان عمل، الا اننا ندرك أن حاضنات الأعمال هي بيئات مركبة تكمن قيمتها في القدرة على إطلاق العنان لإمكانات غير محدودة، وهذا يعني أن قيمتها لا يمكن قياسها بالطرق التقليدية.<br><br>تعتمد استراتيجيات ريادة الأعمال التي نقدمها لحاضنات الاعمال نهجًا يرتكز على استكشاف التحديات والفرص في القطاعات المختلفة، فذلك يعتبر نقطة حيوية يجب مراعاتها من أجل تحافظ حاضنات الاعمال المختلفة على تنافسيتها في السوق.<br><br>يتضمن عملنا تحليلًا دقيقًا للجوانب التقنية والمالية والسوقية للحواضن، بهدف توضيح الخطوات المستقبلية لعملائنا وتحديد مصادر التمويل الملائمة. كما يُعد خبراؤنا توقعات الإيرادات المحتملة التي تسهم في جذب الاستثمارات والشركات الناشئة."
             }
           }
         ]
@@ -781,11 +781,11 @@
             "isSubService": true,
             "label": {
               "english": "Branding",
-              "arabic": "العلامة التجارية"
+              "arabic":"بناء الهوية والعلامة التجارية "
             },
             "value": {
               "english": "Branding is not limited to motos and logos; it is that overall distinctive experience associated with your organization that sets you apart from other competitors. A&B branding experts help organizations establish trusted emotional connections with their target audience. By aligning their mission and vision with what they aspire to achieve, we craft that suitable branding strategy to facilitate increasing brand visibility and awareness, and ultimately drive sales.",
-              "arabic": "العلامة التجارية لا تقتصر على الشعارات والرموز، بل هي التجربة المميزة الشاملة المرتبطة بمؤسستك والتي تميزك عن المنافسين الآخرين. خبراء العلامات التجارية في A&B يساعدون المؤسسات على بناء علاقات عاطفية موثوقة مع جمهورها المستهدف. من خلال مواءمة مهمتهم ورؤيتهم مع ما يطمحون إلى تحقيقه، نصمم استراتيجية العلامة التجارية المناسبة لتسهيل زيادة رؤية العلامة التجارية والوعي بها، وفي النهاية زيادة المبيعات."
+              "arabic": "لا تقتصر العلامة التجارية على الشعارات والعبارات فقط ؛ بل تتعلق بالتجارب المرتبطة بالمؤسسة والتي تميزها عن المنافسين الآخرين.<br><br>يساعد خبراء بناء الهوية في A&B المؤسسات على بناء روابط عاطفية موثوقة مع جمهورها المستهدف. فاستراتيجياتنا تعتمد على مواءمة رسالة ورؤية المؤسسة مع طموحاتها. فيقومون بصياغة استراتيجية العلامة التجارية المناسبة لتسهيل زيادة رؤية العلامة التجارية والوعي بها، وفي النهاية زيادة المبيعات."
             }
           },
           {
@@ -793,7 +793,7 @@
             "isSubService": true,
             "label": {
               "english": "Company culture",
-              "arabic": "ثقافة الشركة"
+              "arabic": "الثقافة المؤسسية"
             },
             "value": {
               "english": "The values, beliefs and attitudes of workers integrate to shape the general employee behavior. Our Leadership and Management experts at A&B Consulting believe that unique innovations are the result of a well-enhanced company culture and a genuine brand. By involving directors, managers, human resources and employees, we help organizations get to the level of excellence they hope for by drafting effective strategies to affect positive change throughout the entire company.",
@@ -809,7 +809,7 @@
             },
             "value": {
               "english": "Frequent Market disruptions and changing customer expectations require that organizations stay on top of challenges to maintain profitability.  Transforming principal operations, technologies and even company culture requires tailored business transformation strategies that will help successfully redefine how an organization operates and delivers value. At A&B, our business transformation strategies help clients go through business transformation as effectively and smoothly as possible by assessing their current state, zooming in on the desired target, and involving stakeholders to seamlessly incorporate visions and missions with the needed change.",
-              "arabic": "تتطلب الاضطرابات المتكررة في السوق وتغير توقعات العملاء أن تظل المؤسسات على رأس التحديات للحفاظ على الربحية. يتطلب تحويل العمليات الرئيسية والتقنيات وحتى ثقافة الشركة استراتيجيات تحويل أعمال مصممة خصيصًا من شأنها أن تساعد في إعادة تعريف كيفية عمل المؤسسة وتقديم القيمة بنجاح. في A&B ، تساعد استراتيجيات تحويل الأعمال الخاصة بنا العملاء على اجتياز تحول الأعمال بأكبر قدر ممكن من الفعالية والسلاسة من خلال تقييم حالتهم الحالية ، والتكبير على الهدف المطلوب ، وإشراك أصحاب المصلحة لدمج الرؤى والبعثات بسلاسة مع التغيير المطلوب."
+              "arabic": "إن تغيّرات السوق المتكررة وتعدد واختلاف توقعات العملاء يتطلب من الشركات البقاء على رأس التحديات من أجل الحفاظ على الربحية.<br>والشروع بتحول الاعمال الذي يتضمن أيا من العمليات والتقنيات الأساسية وحتى ثقافة الشركة يتطلب استراتيجيات مصممة خصيصًا لتحويل الأعمال الذي من شأنه أن يساعد بنجاح في إعادة تعريف كيفية عمل المؤسسة وتقديم القيمة ( value) للعملاء.<br><br>في A&B، نقدّم استراتيجيات تحويل الأعمال التي تساعد عملائنا على تجاوز عمليات التحول بأكبر قدر من الفعالية والسلاسة، من خلال تقييم حالتهم الحالية، وتحديد الأهداف المرغوبة وإشراك أصحاب المصلحة لدمج رسالتهم ورؤيتهم المؤسسية بسلاسة مع التغييرات المطلوبة."
             }
           }
           ,

@@ -73,12 +73,7 @@ const IdCard = ({ name = "Abdulrahman Al-Taher", position = "SR.PROJECT MANAGER"
                     gap:20px;
                     max-width:400px
                 }
-                .shadow-yellow{
-                    position: absolute;
-                    right: -80px;
-                    top: 4px
-                    
-                }
+                
                 .info {
                     display: flex;
                     flex-direction: column;

@@ -127,7 +127,7 @@ const Subservice = (props) => {
 
       <section className="mil-soft-bg">
         <RequestService 
-          messageAr={"هل أنت مستعد لتحويل <span class=\"mil-thin\">أفكارك إلى</span> واقع؟ <br> اطلب <span class=\"mil-thin\">هذه الخدمة</span> "}
+          messageAr={"هل أنت مستعد لتحويل أفكارك إلى واقع؟ <br> اطلب هذه الخدمة "}
           messageEn={"Ready to bring your <span class=\"mil-thin\">ideas to</span> life? <br> Ask <span class=\"mil-thin\"> about this service</span> "}
           serviceName={activeLocale === 'ar' ? subservice.title.arabic : subservice.title.english}
         />
