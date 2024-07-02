@@ -115,7 +115,7 @@ const Subservice = (props) => {
                         height={subservice.infograph.height}
                       />
                     </div>
-                    <div className="mil-center mil-text-xs">{subservice.infograph.name}</div>
+                    <div className="mil-center mil-text-xs">{activeLocale ==='ar' ?subservice.infograph.name.arabic : subservice.infograph.name.english}</div>
                   </div>
                 </div>
               )}

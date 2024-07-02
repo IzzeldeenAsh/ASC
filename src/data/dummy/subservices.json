@@ -981,10 +981,10 @@
         }
       ],
       "service": {
-        "id": "service-7",
+        "id": "service-6",
         "name": {
           "english" : "Operations",
-          "arabic" :""
+          "arabic" :"العمليات"
         }
       },
       "title": {
@@ -993,11 +993,11 @@
       },
       "contentHtml": {
         "english": "<div>From procurement to distribution, an efficient logistics model can be decisive in achieving organizations' strategic goals. Our supply chain management consultants emphasize the importance of having an efficient and flexible logistics model that helps maintain our clients’ competitive edge. With costs in mind, our strategies are tailored with extreme care, allowing for agile and stakeholder-monitored operations throughout the different stages of the supply chain.</div>",
-        "arabic": "<div>من التوريد إلى التوزيع ، يمكن أن يكون النموذج اللوجستي الفعال حاسمًا في تحقيق الأهداف الاستراتيجية للمؤسسات. يؤكد مستشارو إدارة سلسلة التوريد لدينا على أهمية وجود نموذج لوجستي فعال ومرن يساعد في الحفاظ على البند التنافسي لعملائنا. بتكاليف في الاعتبار ، يتم تصميم استراتيجياتنا بعناية فائقة ، مما يسمح بعمليات مرنة ومراقبة من قبل أصحاب المصلحة على مدى مراحل مختلفة من سلسلة التوريد.</div>"
+         "arabic": "<span class=\"fw-bold\">جودة سلسلة التوريد هي عنوان نجاحك</span><br>تعد جودة سلاسل التوريد ركيزة أساسية لتحقيق نجاح المؤسسات، بدءًا من الشراء وحتى التوزيع. فنموذج اللوجستيات الفعّال هو أحد العوامل الحاسمة في تحقيق الأهداف الاستراتيجية للمؤسسات. لذلك يركز مستشارو إدارة سلاسل التوريد في B&A على تطوير نماذج لوجستية فعالة ومرنة لعملائنا تضمن الحفاظ على ميزتهم التنافسية. مع أخذ التكاليف في الاعتبار، نعمل على تصميم الاستراتيجيات بعناية فائقة تتناسب مع الآليات اللوجستية المثلى للمؤسسة وتفضي إلى عمليات لوجستية مرنة، كما يحرص خبراؤنا على تقديم الحلول التي تتيح لأصحاب المصلحة مراقبة سلسلة التوريد عبر مختلف المراحل."
       },
       "short": {
         "english": "<div>From procurement to distribution, an efficient logistics model can be decisive in achieving organizations' strategic goals. Our supply chain management consultants emphasize the importance of having an efficient and flexible logistics model that helps maintain our clients’ competitive edge. With costs in mind, our strategies are tailored with extreme care, allowing for agile and stakeholder-monitored operations throughout the different stages of the supply chain.</div>",
-        "arabic": "<div>من التوريد إلى التوزيع ، يمكن أن يكون النموذج اللوجستي الفعال حاسمًا في تحقيق الأهداف الاستراتيجية للمؤسسات. يؤكد مستشارو إدارة سلسلة التوريد لدينا على أهمية وجود نموذج لوجستي فعال ومرن يساعد في الحفاظ على البند التنافسي لعملائنا. بتكاليف في الاعتبار ، يتم تصميم استراتيجياتنا بعناية فائقة ، مما يسمح بعمليات مرنة ومراقبة من قبل أصحاب المصلحة على مدى مراحل مختلفة من سلسلة التوريد.</div>"
+       "arabic": "<span class=\"fw-bold\">جودة سلسلة التوريد هي عنوان نجاحك</span><br>تعد جودة سلاسل التوريد ركيزة أساسية لتحقيق نجاح المؤسسات، بدءًا من الشراء وحتى التوزيع. فنموذج اللوجستيات الفعّال هو أحد العوامل الحاسمة في تحقيق الأهداف الاستراتيجية للمؤسسات. لذلك يركز مستشارو إدارة سلاسل التوريد في B&A على تطوير نماذج لوجستية فعالة ومرنة لعملائنا تضمن الحفاظ على ميزتهم التنافسية. مع أخذ التكاليف في الاعتبار، نعمل على تصميم الاستراتيجيات بعناية فائقة تتناسب مع الآليات اللوجستية المثلى للمؤسسة وتفضي إلى عمليات لوجستية مرنة، كما يحرص خبراؤنا على تقديم الحلول التي تتيح لأصحاب المصلحة مراقبة سلسلة التوريد عبر مختلف المراحل."
       },
       "introTitle": {
         "english": "Logistics and Supply Chain",
@@ -1022,7 +1022,10 @@
       },
       "infograph": {
         "enabled": 1,
-        "name": "A&B Logistics and Supply Chain Roadmap",
+      "name": {
+    "english": "A&B Logistics and Supply Chain Roadmap",
+    "arabic": "خارطة طريق الخدمات اللوجستية وسلسلة التوريد لشركة A&B"
+  },
         "english": "/img/infographs/Logistics.svg",
         "arabic": "/img/infographs/Logistics.svg",
         "width": 1000,
@@ -1048,27 +1051,27 @@
         }
       ],
       "service": {
-        "id": "service-7",
+        "id": "service-6",
         "name": {
           "english" : "Operations",
-          "arabic" :""
+          "arabic" :"العمليات"
         }
       },
       "title": {
         "english": "Service Operations",
-        "arabic": "عمليات الخدمة"
+           "arabic": "عمليات خدمة العملاء"
       },
       "contentHtml": {
         "english": "From our consulting experts' standpoint, the strategies encompassing service delivery operations must position customer satisfaction at the center of its mission and vision. Adequate allocation of resources is also paramount to expediting processes and reducing costs.",
-        "arabic": "من وجهة نظر خبراء الاستشارة لدينا ، يجب أن تضع الاستراتيجيات التي تشمل عمليات تقديم الخدمات رضا العملاء في مركز مهمتها ورؤيتها. توزيع كاف للموارد أمر أساسي أيضًا لتسريع العمليات وتقليل التكاليف."
+        "arabic": "من منظور خبرائنا الاستشاريين، تُعتبر استراتيجيات العمليات الخدمية التي تشتمل في كل مراحلها على خدمة العملاء أساسًا للنجاح. فتضع رضا العملاء في صلب مهمتها ورؤيتها. كذلك يعد تخصيص الموارد المطلوبة بشكل مناسب أمرًا أساسيًا يحرص خبراؤنا على دراسته بعناية، فهو عماد تسريع العمليات وتقليل التكاليف بفعالية."
       },
       "short": {
         "english": "From our consulting experts' standpoint, the strategies encompassing service delivery operations must position customer satisfaction at the center of its mission and vision. Adequate allocation of resources is also paramount to expediting processes and reducing costs.",
-        "arabic": "من وجهة نظر خبراء الاستشارة لدينا ، يجب أن تضع الاستراتيجيات التي تشمل عمليات تقديم الخدمات رضا العملاء في مركز مهمتها ورؤيتها. توزيع كاف للموارد أمر أساسي أيضًا لتسريع العمليات وتقليل التكاليف."
+        "arabic": "من منظور خبرائنا الاستشاريين، تُعتبر استراتيجيات العمليات الخدمية التي تشتمل في كل مراحلها على خدمة العملاء أساسًا للنجاح. فتضع رضا العملاء في صلب مهمتها ورؤيتها. كذلك يعد تخصيص الموارد المطلوبة بشكل مناسب أمرًا أساسيًا يحرص خبراؤنا على دراسته بعناية، فهو عماد تسريع العمليات وتقليل التكاليف بفعالية."
       },
       "introTitle": {
         "english": "Service Operations",
-        "arabic": "عمليات الخدمة"
+           "arabic": "عمليات خدمة العملاء"
       },
       "gallery": {
         "enabled": 0,
@@ -1123,7 +1126,7 @@
         }
       ],
       "service": {
-        "id": "service-7",
+        "id": "service-6",
         "name": {
           "english" : "Operations",
           "arabic" :""
