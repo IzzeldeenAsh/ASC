@@ -32,7 +32,7 @@ const SectorDetail = () => {
   const pageTitle = activeLocale === "ar" ? sector.introTitle.arabic : sector.introTitle.english;
   const breadTitle = activeLocale === "ar" ? sector.title.arabic : sector.title.english;
   const slogan = activeLocale === "ar" ? sector.description.title.arabic : sector.description.title.english;
-  const content = activeLocale === "ar" ? sector.description.content.arabic : sector.description.content.english;
+  const content = activeLocale === "ar" ? sector.description.content.arabic.replace(/{{locale}}/g, activeLocale) : sector.description.content.english;
   const keywords = sector.keywords.join(", ");
   const description = activeLocale === "ar" ? sector.short.arabic : sector.short.english;
   const imageUrl = sector.imgURL;

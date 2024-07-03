@@ -17,7 +17,7 @@
         "id": "service-6",
         "name": {
           "english" : "Operations",
-          "arabic" :""
+          "arabic" :"العمليات"
         }
       },
       "contentHtml": {
@@ -62,7 +62,7 @@
       "id": "agile-lean-six-sigma",
       "title": {
         "english": "Agile, Lean and Six Sigma",
-        "arabic": "Agile, Lean and Six Sigma"
+        "arabic": "Agile ، Lean ،  و  Six Sigma"
       },
       "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717065957/4091_p5pdpf.webp",
       "sector": [
@@ -75,20 +75,20 @@
         "id": "service-6",
         "name": {
           "english" : "Operations",
-          "arabic" :""
+          "arabic" :"العمليات"
         }
       },
       "contentHtml": {
-        "english": "<p>In today's fast-paced and competitive business environment, organizations must continuously adapt and innovate to stay ahead of the market. At A&B, we analyze organizations’ operational structure and develop the strategy that will enable them to streamline operations and enhance product quality based on Agile, Lean, and Six Sigma methodologies.</p><p>We help organizations embrace Agile principles and practices to enhance collaboration and respond quickly to changing market demands. We ensure organizations’ waste is eliminated by employing our Lean strategies. Our Six Sigma experts' strategies are data-driven and built around organizations’ business statistical tools to enable them to identify root causes of defects, minimize variation, and drive continuous process improvements.</p>",
-        "arabic": "<p>In today's fast-paced and competitive business environment, organizations must continuously adapt and innovate to stay ahead of the market. At A&B, we analyze organizations’ operational structure and develop the strategy that will enable them to streamline operations and enhance product quality based on Agile, Lean, and Six Sigma methodologies.</p><p>We help organizations embrace Agile principles and practices to enhance collaboration and respond quickly to changing market demands. We ensure organizations’ waste is eliminated by employing our Lean strategies. Our Six Sigma experts' strategies are data-driven and built around organizations’ business statistical tools to enable them to identify root causes of defects, minimize variation, and drive continuous process improvements.</p>"
+        "english": "A&B assists organizations in streamlining operations and enhancing product quality by leveraging Agile, Lean, and Six Sigma methodologies. They improve collaboration and responsiveness through Agile principles, eliminate waste with Lean strategies, and use data-driven Six Sigma techniques to minimize defects and drive continuous process improvements. This comprehensive approach helps organizations remain competitive in a fast-paced business environment.",
+                "arabic": "في بيئة أعمال سريعة الوتيرة والتنافسية، يتعين على المؤسسات التكيف والابتكار باستمرار للبقاء في المقدمة. في A&B للاستشارات، نقوم بتحليل الهيكل التشغيلي للمؤسسات وتطوير استراتيجيات تمكّنها من تبسيط العمليات وتحسين جودة المنتج باستخدام منهجيات Agile وLean وSix Sigma. يساعد خبراء الإدارة في شركتنا المؤسسات على تبني مبادئ وممارسات تعزز التعاون والاستجابة السريعة لمتطلبات السوق المتغيرة، ونضمن تقليل هدر الموارد، فالحلول المقرحة تحفز الاعتماد على البيانات والأدوات الإحصائية في تحديد الأسباب الجذرية للعيوب، وتقليل التباين، وتحقيق التحسين المستمر للعمليات."
       },
       "short": {
-        "english": "Unlock your organization's full potential with A&B's proven methodologies.",
-        "arabic": "Unlock your organization's full potential with A&B's proven methodologies."
+        "english": "A&B assists organizations in streamlining operations and enhancing product quality by leveraging Agile, Lean, and Six Sigma methodologies. They improve collaboration and responsiveness through Agile principles, eliminate waste with Lean strategies, and use data-driven Six Sigma techniques to minimize defects and drive continuous process improvements. This comprehensive approach helps organizations remain competitive in a fast-paced business environment.",
+        "arabic": "في بيئة أعمال سريعة الوتيرة والتنافسية، يتعين على المؤسسات التكيف والابتكار باستمرار للبقاء في المقدمة. في A&B للاستشارات، نقوم بتحليل الهيكل التشغيلي للمؤسسات وتطوير استراتيجيات تمكّنها من تبسيط العمليات وتحسين جودة المنتج باستخدام منهجيات Agile وLean وSix Sigma. يساعد خبراء الإدارة في شركتنا المؤسسات على تبني مبادئ وممارسات تعزز التعاون والاستجابة السريعة لمتطلبات السوق المتغيرة، ونضمن تقليل هدر الموارد، فالحلول المقرحة تحفز الاعتماد على البيانات والأدوات الإحصائية في تحديد الأسباب الجذرية للعيوب، وتقليل التباين، وتحقيق التحسين المستمر للعمليات."
       },
       "introTitle": {
         "english": "Agile, Lean <span class=\"mil-thin\">and</span> Six Sigma",
-        "arabic": "Agile, Lean <span class=\"mil-thin\">and</span> Six Sigma"
+        "arabic": "Agile ، Lean ،  و  Six Sigma"
       },
       "gallery": {
         "enabled": 0,
@@ -134,7 +134,7 @@
         "id": "",
         "name": {
           "english" : "Operations",
-          "arabic" :""
+          "arabic" :"العمليات"
         }
       },
       "contentHtml": {
@@ -767,6 +767,7 @@
         "Defense Mechanisms",
         "Risk Management",
         "أمان البيانات",
+        "حماية البيانات و الخصوصية",
         "الخصوصية البيانات",
         "تحول رقمي",
         "إدارة الأمان",
@@ -1613,6 +1614,72 @@
     "الاستدامة"
   ]
   
-}    
+}    ,
+{
+  "id": "training-capacity-building",
+  "title": {
+    "english": "Training and Capacity Building",
+    "arabic": "التدريب وبناء القدرات"
+  },
+  "image": "",
+  "sector": [
+    {
+      "id": "sector-5",
+      "name": "Human Capital"
+    }
+  ],
+  "service": {
+   
+  },
+  "contentHtml": {
+    "english": "<p>To ensure that training programs yield rewarding results, they should align with the organization's objectives, enabling employees to contribute effectively to its value proposition. We work with organizations to take their employees' skills to another level by developing TNA-based training strategies tailored to help each employee effect the desired change.</p>",
+    "arabic": "<p>لضمان أن تحقق برامج التدريب نتائج مثمرة، يجب أن تتماشى مع أهداف المنظمة، مما يمكن الموظفين من المساهمة بفعالية في قيمة المنظمة. نحن نعمل مع المؤسسات لنقل مهارات موظفيها إلى مستوى آخر من خلال تطوير استراتيجيات تدريب قائمة على تحليل الاحتياجات (TNA) مصممة لمساعدة كل موظف على إحداث التغيير المطلوب.</p>"
+  },
+  "short": {
+    "english": "Develop TNA-based training strategies to enhance employee skills and organizational value.",
+    "arabic": "تطوير استراتيجيات تدريب قائمة على تحليل الاحتياجات لتحسين مهارات الموظفين وقيمة المؤسسة."
+  },
+  "introTitle": {
+    "english": "Training <span class=\"mil-thin\">and</span> Capacity Building",
+    "arabic": "التدريب وبناء القدرات"
+  },
+  "gallery": {
+    "enabled": 0,
+    "items": []
+  },
+  "additional": {
+    "enabled": 0,
+    "content": ""
+  },
+  "infograph": {
+    "enabled": 0,
+    "name": "Training Process"
+  },
+  "keywords": [
+    "training",
+    "capacity building",
+    "TNA-based training",
+    "employee skills",
+    "organizational value",
+    "training strategies",
+    "employee development",
+    "leadership development",
+    "talent development",
+    "training programs",
+    "analyzing training needs",
+    "التدريب",
+    "بناء القدرات",
+    "التدريب القائم على تحليل الاحتياجات",
+    "مهارات الموظفين",
+    "قيمة المؤسسة",
+    "استراتيجيات التدريب",
+    "تطوير الموظفين",
+    "تطوير القيادة",
+    "تطوير المواهب",
+    "برامج التدريب",
+    "تحليل احتياجات التدريب"
+  ]
+}
+
   ]
 }

@@ -73,11 +73,13 @@ const Subservice = (props) => {
                 </div>
               )}
               <div className="mil-info mil-up mil-mb-50">
-                <div><span className="mil-text-gray-600">{activeLocale ==='ar' ? "الخدمة" : "Service"}</span>: &nbsp; 
-                  <Link href={`/services/${subservice.service.id}`} legacyBehavior>
-                    <a><span className="mil-dark">{activeLocale ==="ar" ? subservice.service.name.arabic: subservice.service.name.english}&nbsp;</span></a>
-                  </Link>
-                </div>
+                {subservice.service.id &&
+                 <div><span className="mil-text-gray-600">{activeLocale ==='ar' ? "الخدمة" : "Service"}</span>: &nbsp; 
+                 <Link href={`/services/${subservice.service.id}`} legacyBehavior>
+                   <a><span className="mil-dark">{activeLocale ==="ar" ? subservice.service.name.arabic: subservice.service.name.english}&nbsp;</span></a>
+                 </Link>
+               </div>}
+               
               </div>
             </div>
             <div className="col-lg-12 mil-mb-90">
