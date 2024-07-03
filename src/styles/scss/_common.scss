@@ -1340,6 +1340,7 @@ body[dir="ltr"] .title-yellow-head{
 .card-shadow {
     transition: all 0.2s ease-in; /* Added 's' for seconds */
     border: 1px solid $accent;
+    position: relative;
     &:hover {
         transform: translate(4px, -4px);
         box-shadow: -8px 8px 0 $accent;    

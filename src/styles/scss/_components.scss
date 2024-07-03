@@ -1915,7 +1915,9 @@ blog
   }
 
   & .mil-post-descr {
-    padding: 30px 30px 0 0;
+    padding: 220px 30px 0 0;
+    position: relative;
+
 
     & .mil-post-text {
       text-overflow: ellipsis;
