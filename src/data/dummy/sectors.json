@@ -253,7 +253,8 @@
         "supply chain performance",
         "operational performance"
       ]
-    },
+    }
+    ,
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716367795/digita_ntx8xy.webp",
       "id": "sector-3",
@@ -639,40 +640,33 @@
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719042660/plane_ie1qjj.webp",
       "id": "sector-7",
-      "logoColor":"light",
+      "logoColor": "light",
       "contentHtml": "",
       "title": {
         "english": "Travel and Tourism",
-        "arabic":"السياحة والسفر"
+        "arabic": "السياحة والسفر"
       },
       "preview_title": {
         "english": "Travel and Tourism",
-        "arabic": "السياحة والسفر"
+        "arabic": "قطاع السياحة"
       },
-      "short": 
-      {
-        "english": "Discover how the tourism sector drives economic growth and development. A&B's expert strategies focus on key revenue channels and involve stakeholder collaboration to deliver top-quality tourism experiences. Embrace digital transformation and sustainability for an enhanced journey.",
-        "arabic": "اكتشف كيف يدفع قطاع السياحة النمو الاقتصادي والتطوير. تركز استراتيجيات A&B على القنوات الرئيسية للإيرادات وتضم التعاون مع الأطراف المعنية لتقديم تجارب سياحية عالية الجودة. تبنى التحول الرقمي والاستدامة لرحلة محسنة."
-  
-      }
-      
-      ,
+      "short": {
+        "english": "A&B enhances tourism with strategies focusing on revenue channels and stakeholder collaboration.",
+        "arabic": "تعزز A&B السياحة باستراتيجيات تركز على الإيرادات والتعاون مع الأطراف المعنية."
+      },
       "introTitle": {
         "english": "Travel and Tourism",
-        "arabic": "السياحة والسفر"
+        "arabic": "قطاع السياحة"
       },
       "description": {
         "title": {
-        "english": "Explore More, Experience Excellence",
-    "arabic": "اكتشف المزيد، عِش التميز"
-        }
-        ,
+          "english": "Explore More, Experience Excellence",
+          "arabic": "اكتشف المزيد، عِش التميز"
+        },
         "content": {
           "english": "The tourism sector is considered a major contributor to the economic growth and development of countries. Whenever they lay down their development strategic plans, A&B tourism experts ensure that they tackle essential revenue channels, such as transportation, accommodation, archeological and heritage sites, and other tourism attractions and services.<br><br>Our tourism enhancement strategies involve stakeholders' opinions to zoom in on major opportunities and challenges for the sector. We collaborate with value chain contributors such as travel agencies, hotels, tour operators, and technology providers to deliver the strategy that will yield high-quality tourism products and services to travelers.<br><br>We leverage market expansion opportunities and sustainability practices, as well as help clients embrace<a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\"> digital transformation</a>  to employ the right technology that will result in an enhanced tourism experience.",
-          "arabic": "يعتبر قطاع السياحة مساهماً رئيسياً في النمو الاقتصادي وتطوير الدول. كلما وضعوا خططهم الاستراتيجية للتنمية، يضمن خبراء السياحة في A&B معالجة القنوات الأساسية للإيرادات، مثل النقل، والإقامة، والمواقع الأثرية والتراثية، وغيرها من المعالم والخدمات السياحية.<br><br>تتضمن استراتيجيات تعزيز السياحة لدينا آراء الأطراف المعنية للتعمق في الفرص والتحديات الرئيسية للقطاع. نتعاون مع المساهمين في سلسلة القيمة مثل وكالات السفر، والفنادق، ومشغلي الرحلات، ومقدمي التكنولوجيا لتقديم استراتيجية تحقق منتجات وخدمات سياحية عالية الجودة للمسافرين.<br><br>نستفيد من فرص التوسع في السوق وممارسات الاستدامة، ونساعد العملاء على تبني<a class=\"hyper-link\" href=\"/{{locale}}/services/service-2\" target=\"__blank\">التحول الرقمي</a> لتوظيف التكنولوجيا المناسبة التي ستؤدي إلى تحسين تجربة السياحة."
-        }
-        
-        ,
+          "arabic": "يعد قطاع السياحة من الركائز الأساسية التي تسهم بشكل كبير في التطور والنمو الاقتصادي للدول، حيث يدفع عجلة التنمية في العديد من المناطق، خصوصًا تلك التي تعتمد على جذب السياح كأحد المصادر الرئيسية للدخل. <br><br>يتمثل دور خبراء السياحة في A&B في ضمان معالجة قنوات الإيرادات الأساسية في القطاع بوضعها للخطط الاستراتيجية التنموية والتي تتضمن الكثير من العناصر مثل النقل، والإقامة، والمواقع الأثرية والتراثية، وغيرها من الخدمات والأماكن السياحية.<br><br>وتتضمن استراتيجياتنا لتعزيز السياحة الاستماع لآراء أصحاب المصلحة للتركيز على الفرص والتحديات الرئيسية التي يواجهها القطاع. كما نتعاون مع الشركاء في سلسلة القيمة مثل وكالات السفر، والفنادق، ومنظمي الرحلات السياحية، ومقدمي التكنولوجيا لتطوير استراتيجيات تسهم في تقديم منتجات وخدمات سياحية عالية الجودة.<br><br>نولي اهتماماً كبيراً لممارسات الاستدامة، كما نساعد عملائنا في القطاع السياحي على تبني <a  class=\"hyper-link\" href=\"/{{locale}}/services/service-2\" target=\"_blank\">التحول الرقمي</a> من خلال تقديم الاستشارات حول كيفية توظيف التكنولوجيا الحديثة بما يتناسب مع احتياجات القطاع لتحسين الكفاءة وتقديم تجربة سياحية محسنة."
+        },
         "button": {
           "link": "/projects",
           "label": {
@@ -703,9 +697,25 @@
         "tourism marketing",
         "adventure travel",
         "travel technology",
-        "cultural tourism"
+        "cultural tourism",
+        "السياحة",
+        "السفر",
+        "الضيافة",
+        "إدارة الوجهات",
+        "خدمات السفر",
+        "المعالم السياحية",
+        "السياحة المستدامة",
+        "تجربة السفر",
+        "السفر الترفيهي",
+        "السفر التجاري",
+        "استراتيجية السفر",
+        "تسويق السياحة",
+        "السفر المغامرات",
+        "تكنولوجيا السفر",
+        "السياحة الثقافية"
       ]
-    },
+    }
+,    
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716363414/digital-art-inmersive-exhibition_6_feek04_yctnhc.jpg",
       "id": "sector-8",
@@ -734,7 +744,7 @@
         },
         "content": {
           "english": "Encompassing the entire agriculture value chain, our agriculture experts tailor the strategies that contribute to organizations’ long-term success. From crop rotation and soil and water management to navigating the complexities of agriculture markets, technologies, and regulations, we are committed to providing strategic recommendations based on actual needs and unique conditions. We help our clients grow sustainably.",
-          "arabic": "تشمل سلسلة قيمة الزراعة بأكملها، خبراؤنا في الزراعة يصممون الاستراتيجيات التي تسهم في نجاح المؤسسات على المدى الطويل. من دورات المحاصيل وإدارة التربة والمياه إلى التنقل في تعقيدات أسواق الزراعة والتكنولوجيا والتشريعات، نحن ملتزمون بتقديم توصيات استراتيجية استنادًا إلى الاحتياجات الفعلية والظروف الفريدة. نساعد عملائنا على النمو بشكل مستدام."
+          "arabic":"يعمل فريقنا المتخصص في الاستشارات الزراعية على تصميم استراتيجيات شاملة تغطي سلاسل القيمة للمشاريع الزراعية بأكملها وتهدف الى توجيه المنظمات والشركات الزراعية نحو النمو المستدام. نحن نساهم في نجاح عملائنا على المدى الطويل من خلال تقديم توصيات مخصصة تستند إلى احتياجاتهم وظروف مشاريعهم الزراعية الفريدة، ونتعاون مع الشركات الزراعية لمساعدتها في مواجهة تحديات سوق الزراعة ونقدم حلول تتضمن التكنولوجيا الزراعية الأمثل واللوائح الإلزامية، مما يعزز من كفاءة ممارساتها ويزيد من إنتاجيتها."
         },
         "button": {
           "link": "/projects",
