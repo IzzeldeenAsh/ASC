@@ -27,8 +27,8 @@
           "arabic": "نحو التميز الصناعي من أجل مستقبل مستدام"
         },
         "content": {
-          "english": "Marching steadily towards economic growth by supporting the industrial sector, our industrial strategies and solutions help organizations realize optimum potential profits using a sophisticated industrial business evaluation matrix that goes beyond technical feasibility.<br><br>A&B consulting experts work with clients to encompass crucial investment factors such as market trends and competition. We help them utilize automation to streamline operations and achieve efficient energy consumption. Our industrial experts always extend a helping hand to manufacturers and businesses by thoroughly examining their ventures and crafting insightful <a class=\"hyper-link\" href=\"/services/service-4\" target=\"__blank\">clean manufacturing</a> strategies to improve their sustainability and reduce their environmental impact.",
-          "arabic": "نسير بخطى ثابتة نحو النمو الاقتصادي من خلال دعم القطاع الصناعي، تساعد استراتيجياتنا وحلولنا الصناعية المنظمات على تحقيق أقصى قدر من الأرباح المحتملة باستخدام مصفوفة تقييم الأعمال الصناعية المتطورة التي تتجاوز الجدوى التقنية.<br><br>يعمل خبراء A&B الاستشاريون مع العملاء لتغطية عوامل الاستثمار الهامة مثل اتجاهات السوق والمنافسة. نحن نساعدهم على استخدام الأتمتة لتبسيط العمليات وتحقيق كفاءة استهلاك الطاقة. دائمًا ما يمد خبراؤنا الصناعيون يد العون للمصنعين والشركات من خلال فحص مشاريعهم بدقة وصياغة استراتيجيات <a class=\"hyper-link\" href=\"/services/service-4\" target=\"__blank\">التصنيع النظيف</a> المثمرة لتحسين استدامتهم وتقليل تأثيرهم البيئي."
+          "english": "Marching steadily towards economic growth by supporting the industrial sector, our industrial strategies and solutions help organizations realize optimum potential profits using a sophisticated industrial business evaluation matrix that goes beyond technical feasibility.<br><br>A&B consulting experts work with clients to encompass crucial investment factors such as market trends and competition. We help them utilize automation to streamline operations and achieve efficient energy consumption. Our industrial experts always extend a helping hand to manufacturers and businesses by thoroughly examining their ventures and crafting insightful <a class=\"hyper-link\" href=\"/subservice/clean-manufacturing\" target=\"_blank\">clean manufacturing</a> strategies to improve their sustainability and reduce their environmental impact.",
+          "arabic": "نساهم بدفع عجلة النمو الاقتصادي من خلال تقديمنا للاستراتيجيات الصناعية والحلول لمؤسسات القطاع الصناعي. فخبراؤنا الصناعيين يحرصون على أن تجني المؤسسات الصناعية الأرباح المحتملة وبصورة مثلى، فيقيّمون المشاريع الصناعية لعملائنا باستخدام مصفوفة A&B المتقدمة للأعمال الصناعية التي تتجاوز في تفاصيلها دراسات الجدوى الفنية.<br><br>يعمل الفريق الاستشاري للقطاع الصناعي في A&B بشكل وثيق مع عملائنا لتشمل دراساتهم أهم عوامل الاستثمار الصناعي مثل اتجاهات السوق market trends والمنافسة.<br><br>نكشف لعملائنا عن الجوانب المفصلية المطلوبة لنجاح استثماراتهم في القطاع الصناعي كتفعيل التكنولوجيا الأمثل وتنظيم العمليات الصناعية عبر الاتمتة إضافة الى استراتيجيات ترشيد استهلاك الطاقة ومصادر <a class=\"hyper-link\" href=\"/services/service-3\" target=\"_blank\">الطاقة المتجددة</a>  للصناعة. كما ويقوم خبراؤنا بإجراء تقييم شامل لمشاريع العملاء ووضع استراتيجيات <a class=\"hyper-link\" href=\"/subservice/clean-manufacturing\" target=\"_blank\">التصنيع النظيف</a> المبتكرة لتحسين استدامتهم وتقليل بصمتهم الكربونية."
         },
         "button": {
           "link": "/projects",
@@ -45,10 +45,10 @@
         },
         "items": [
           {
-            "id" :"industrial-regulatory-compliance-and-licensing",
+            "id": "industrial-regulatory-compliance-and-licensing",
             "label": {
               "english": "Regulatory compliance and licensing",
-              "arabic": "الامتثال التنظيمي والترخيص"
+              "arabic": "دراسات الامتثال التنظيمي والتراخيص"
             },
             "value": {
               "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
@@ -56,21 +56,10 @@
             }
           },
           {
-            "id" :"Operating-Model",
-            "label": {
-              "english": "Regulatory compliance and licensing",
-              "arabic": "الامتثال التنظيمي والترخيص"
-            },
-            "value": {
-              "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
-              "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
-            }
-          },
-          {
-            "id" :"Operating-Model",
+            "id": "industrial-funding",
             "label": {
               "english": "Funding",
-              "arabic": "التمويل"
+              "arabic": "دراسات التمويل"
             },
             "value": {
               "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
@@ -78,10 +67,10 @@
             }
           },
           {
-            "id" :"Operating-Model",
+            "id": "industrial-strategic-partnerships",
             "label": {
               "english": "Strategic partnerships",
-              "arabic": "الشراكات الاستراتيجية"
+              "arabic": "دراسات الشراكات الاستراتيجية"
             },
             "value": {
               "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
@@ -89,10 +78,10 @@
             }
           },
           {
-            "id" :"Operating-Model",
+            "id": "industrial-technology-selection",
             "label": {
               "english": "Technology selection and valuation",
-              "arabic": "اختيار التكنولوجيا والتقييم"
+              "arabic": "اختيار التكنولوجيات الصناعية وتقييمها"
             },
             "value": {
               "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
@@ -100,10 +89,10 @@
             }
           },
           {
-            "id" :"Operating-Model",
+            "id": "industrial-erection-testing-commissioning",
             "label": {
               "english": "Erection, testing, and commissioning",
-              "arabic": "التركيب والاختبار والتشغيل"
+              "arabic": "تركيب خطوط الانتاج ولإنتاج الاختباري والتشغيل "
             },
             "value": {
               "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
@@ -111,7 +100,7 @@
             }
           },
           {
-            "id" :"Operating-Model",
+            "id": "industrial-commercial-production",
             "label": {
               "english": "Commercial production",
               "arabic": "الإنتاج التجاري"
@@ -144,9 +133,31 @@
         "erection",
         "testing",
         "commissioning",
-        "commercial production"
+        "commercial production",
+        "القطاع الصناعي",
+        "النمو الاقتصادي",
+        "الأرباح الصناعية",
+        "الأتمتة",
+        "التصنيع المستدام",
+        "تقييم الأعمال الصناعية",
+        "اتجاهات السوق",
+        "المنافسة",
+        "كفاءة الطاقة",
+        "التصنيع النظيف",
+        "التأثير البيئي",
+        "الامتثال التنظيمي",
+        "الترخيص",
+        "التمويل",
+        "الشراكات الاستراتيجية",
+        "اختيار التكنولوجيا",
+        "تقييم التكنولوجيا",
+        "التركيب",
+        "الاختبار",
+        "التشغيل",
+        "الإنتاج التجاري"
       ]
-    },
+    }
+,    
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717006039/2151307787_emfp9m.webp",
       "id": "sector-2",

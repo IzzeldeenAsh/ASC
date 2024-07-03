@@ -120,7 +120,7 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
         padding-top: 20px;
     }
       & .mil-menu-right {
-        padding-bottom: 60px;
+        // padding-bottom: 60px;
         overflow: auto;
       }
   
@@ -227,10 +227,10 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
     ul {
       padding: 0;
       margin: 0;
-      @media screen and (max-width: 1200px) {
-        display: flex;
-        padding-top:100px;
-        gap:20px;
+    @media screen and (max-width: 1200px) {
+      display: flex;
+      padding-top:100px;
+      gap:20px;
     }
     @media screen and (max-width: 640px) {
         display: grid;
@@ -263,9 +263,9 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
           &:before {
             content: "";
             position: absolute;
-            left: 0;
             width: 10px;
             height: 10px;
+            left: 0;
             border-radius: 50%;
             background-color: $lt-40;
             transform: scale(0);
@@ -348,11 +348,10 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
         }
       }
     }
-    
-   
   }
+
+
 //    @media screen and (max-width: 1200px) {
-    
 //     .mil-main-menu{
 //         height: 20vh;
 //         display: flex;
@@ -366,8 +365,9 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
 //         position: relative;
 //         height: 70vh !important;
 //     }
-    
 //       }
+
+
 .MenuChevron{
   .mantine-Accordion-label {
     color:$gs-5 !important;
