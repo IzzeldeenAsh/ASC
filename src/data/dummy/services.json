@@ -234,6 +234,7 @@
         "privacy",
         "التحول الرقمي",
         "الثقافة الرقمية",
+        "ثقافة الرقمنة للمؤسسات",
         "التكنولوجيا الرقمية",
         "الاستراتيجية الرقمية",
         "المؤسسة التي تعتمد على البيانات",
@@ -245,6 +246,7 @@
         "الأمن السيبراني",
         "الحماية الرقمية",
         "أمان البيانات",
+        "حماية البيانات و الخصوصية",
         "الخصوصية"
       ]
     },
@@ -621,12 +623,12 @@
             "id": "agile-lean-six-sigma",
             "label": {
               "english": "Agile, Lean and Six Sigma",
-              "arabic": "Agile, Lean and Six Sigma"
+              "arabic": "Agile ، Lean ،  و  Six Sigma"
             },
-            "value": {
-              "english": "A&B assists organizations in streamlining operations and enhancing product quality by leveraging Agile, Lean, and Six Sigma methodologies. They improve collaboration and responsiveness through Agile principles, eliminate waste with Lean strategies, and use data-driven Six Sigma techniques to minimize defects and drive continuous process improvements. This comprehensive approach helps organizations remain competitive in a fast-paced business environment.",
-              "arabic": "A&B assists organizations in streamlining operations and enhancing product quality by leveraging Agile, Lean, and Six Sigma methodologies. They improve collaboration and responsiveness through Agile principles, eliminate waste with Lean strategies, and use data-driven Six Sigma techniques to minimize defects and drive continuous process improvements. This comprehensive approach helps organizations remain competitive in a fast-paced business environment."
-            },
+              "value": {
+                "english": "A&B assists organizations in streamlining operations and enhancing product quality by leveraging Agile, Lean, and Six Sigma methodologies. They improve collaboration and responsiveness through Agile principles, eliminate waste with Lean strategies, and use data-driven Six Sigma techniques to minimize defects and drive continuous process improvements. This comprehensive approach helps organizations remain competitive in a fast-paced business environment.",
+                "arabic": "في بيئة أعمال سريعة الوتيرة والتنافسية، يتعين على المؤسسات التكيف والابتكار باستمرار للبقاء في المقدمة. في A&B للاستشارات، نقوم بتحليل الهيكل التشغيلي للمؤسسات وتطوير استراتيجيات تمكّنها من تبسيط العمليات وتحسين جودة المنتج باستخدام منهجيات Agile وLean وSix Sigma. يساعد خبراء الإدارة في شركتنا المؤسسات على تبني مبادئ وممارسات تعزز التعاون والاستجابة السريعة لمتطلبات السوق المتغيرة، ونضمن تقليل هدر الموارد، فالحلول المقرحة تحفز الاعتماد على البيانات والأدوات الإحصائية في تحديد الأسباب الجذرية للعيوب، وتقليل التباين، وتحقيق التحسين المستمر للعمليات."
+              },
             "isSubService": true
           },
           {

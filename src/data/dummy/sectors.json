@@ -28,7 +28,7 @@
         },
         "content": {
           "english": "Marching steadily towards economic growth by supporting the industrial sector, our industrial strategies and solutions help organizations realize optimum potential profits using a sophisticated industrial business evaluation matrix that goes beyond technical feasibility.<br><br>A&B consulting experts work with clients to encompass crucial investment factors such as market trends and competition. We help them utilize automation to streamline operations and achieve efficient energy consumption. Our industrial experts always extend a helping hand to manufacturers and businesses by thoroughly examining their ventures and crafting insightful <a class=\"hyper-link\" href=\"/subservice/clean-manufacturing\" target=\"_blank\">clean manufacturing</a> strategies to improve their sustainability and reduce their environmental impact.",
-          "arabic": "نساهم بدفع عجلة النمو الاقتصادي من خلال تقديمنا للاستراتيجيات الصناعية والحلول لمؤسسات القطاع الصناعي. فخبراؤنا الصناعيين يحرصون على أن تجني المؤسسات الصناعية الأرباح المحتملة وبصورة مثلى، فيقيّمون المشاريع الصناعية لعملائنا باستخدام مصفوفة A&B المتقدمة للأعمال الصناعية التي تتجاوز في تفاصيلها دراسات الجدوى الفنية.<br><br>يعمل الفريق الاستشاري للقطاع الصناعي في A&B بشكل وثيق مع عملائنا لتشمل دراساتهم أهم عوامل الاستثمار الصناعي مثل اتجاهات السوق market trends والمنافسة.<br><br>نكشف لعملائنا عن الجوانب المفصلية المطلوبة لنجاح استثماراتهم في القطاع الصناعي كتفعيل التكنولوجيا الأمثل وتنظيم العمليات الصناعية عبر الاتمتة إضافة الى استراتيجيات ترشيد استهلاك الطاقة ومصادر <a class=\"hyper-link\" href=\"/services/service-3\" target=\"_blank\">الطاقة المتجددة</a>  للصناعة. كما ويقوم خبراؤنا بإجراء تقييم شامل لمشاريع العملاء ووضع استراتيجيات <a class=\"hyper-link\" href=\"/subservice/clean-manufacturing\" target=\"_blank\">التصنيع النظيف</a> المبتكرة لتحسين استدامتهم وتقليل بصمتهم الكربونية."
+          "arabic": "نساهم بدفع عجلة النمو الاقتصادي من خلال تقديمنا للاستراتيجيات الصناعية والحلول لمؤسسات القطاع الصناعي. فخبراؤنا الصناعيين يحرصون على أن تجني المؤسسات الصناعية الأرباح المحتملة وبصورة مثلى، فيقيّمون المشاريع الصناعية لعملائنا باستخدام مصفوفة A&B المتقدمة للأعمال الصناعية التي تتجاوز في تفاصيلها دراسات الجدوى الفنية.<br><br>يعمل الفريق الاستشاري للقطاع الصناعي في A&B بشكل وثيق مع عملائنا لتشمل دراساتهم أهم عوامل الاستثمار الصناعي مثل اتجاهات السوق market trends والمنافسة.<br><br>نكشف لعملائنا عن الجوانب المفصلية المطلوبة لنجاح استثماراتهم في القطاع الصناعي كتفعيل التكنولوجيا الأمثل وتنظيم العمليات الصناعية عبر الاتمتة إضافة الى استراتيجيات ترشيد استهلاك الطاقة ومصادر <a class=\"hyper-link\" href=\"/{{locale}}/services/service-3\" target=\"_blank\">الطاقة المتجددة</a>  للصناعة. كما ويقوم خبراؤنا بإجراء تقييم شامل لمشاريع العملاء ووضع استراتيجيات <a class=\"hyper-link\" href=\"/{{locale}}/subservice/clean-manufacturing\" target=\"_blank\">التصنيع النظيف</a> المبتكرة لتحسين استدامتهم وتقليل بصمتهم الكربونية."
         },
         "button": {
           "link": "/projects",
@@ -261,20 +261,20 @@
       "contentHtml": "",
       "title": {
         "english": "Digital",
-        "arabic": "الرقمية"
+        "arabic": "قطاع التكنلوجيا الرقمية"
       },
       "preview_title": {
         "english": "Digital",
-        "arabic": "الرقمية"
+        "arabic": "قطاع التكنلوجيا الرقمية"
       },
       "short": {
        
 "english": "Discover technology's potential with our strategies to maximize value. Our experts ensure customer-centric solutions and enhanced efficiency.",
-"arabic": "اكتشف إمكانيات التكنولوجيا مع استراتيجياتنا لتعظيم القيمة. يضمن خبراؤنا حلولًا تتمحور حول العملاء وكفاءة محسنة."
+"arabic":"حقق أهدافك بحلول رقمية مبتكرة. استراتيجياتنا المتقدمة وفريق خبراء التحول الرقمي سيرشدونك لتحسين الكفاءة ورضا العملاء."
       },
       "introTitle": {
         "english": "Digital",
-        "arabic": "الرقمية"
+        "arabic": "قطاع التكنلوجيا الرقمية"
       },
       "description": {
         "title": {
@@ -282,8 +282,8 @@
           "arabic": "نحو التميز الرقمي من أجل مستقبل مستدام"
         },
         "content": {
-          "english": "Let's discover the potential of technology and innovate digital ventures.<br><br> Once we've identified your target, we'll outline the strategies that will help you maximize the value you can create by leveraging the full potential of available technology. Our team of <a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\">digital transformation</a> experts will guide you through the complexities of data utilization, ensuring you capture customer-centric solutions and enhance efficiency.",
-          "arabic": "دعونا نكتشف إمكانات التكنولوجيا ونبتكر المشاريع الرقمية.<br><br> بمجرد تحديد هدفك، سنقوم بوضع الاستراتيجيات التي ستساعدك على تحقيق القيمة القصوى يمكنك إنشاؤها من خلال استغلال الإمكانات الكاملة للتكنولوجيا المتاحة. سيقوم فريق خبراء <a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\">التحول الرقمي</a> لدينا بتوجيهك خلال تعقيدات استخدام البيانات، مما يضمن لك الحصول على حلول موجهة نحو العميل وتعزيز الكفاءة."
+          "english": "Let's discover the potential of technology and innovate digital ventures.<br><br> Once we've identified your target, we'll outline the strategies that will help you maximize the value you can create by leveraging the full potential of available technology. Our team of <a class=\"hyper-link\" href=\"/services/service-2\" target=\"_blank\">digital transformation</a> experts will guide you through the complexities of data utilization, ensuring you capture customer-centric solutions and enhance efficiency.",
+          "arabic": "نستكشف سوية كيفية تحقيق أهدافك ونبتكر الحلول الرقمية للوصول اليها. بمجرد تحديد اهدافك، نقوم بوضع استراتيجيات تساعدك في تحقيق أقصى قيمة ممكنة من استغلال إمكانيات التكنولوجية المتاحة. يقوم فريقنا المتخصص من خبراء <a class=\"hyper-link\" href=\"/{{locale}}/services/service-2\" target=\"_blank\">التحول الرقمي</a> بتوجيهك عبر تحليلات البيانات والمعلومات وتوفير الحلول التي ترتكز على رضا العملاء وتعزيز الكفاءة والفعالية في العمل."
         },
         "button": {
           "link": "/projects",
@@ -303,7 +303,7 @@
             "id" :"s2-digitized-operations",
             "label": {
               "english": "Digitized Operations",
-    "arabic": "العمليات المرقمة"
+    "arabic": "رقمنة العمليات"
             },
             "value": {
   "english": "Our digital transformation experts work with organizations to help them evolve their business models and get their operations to a higher level of efficiency. We help businesses drive the needed digital growth by defining the most effective digital strategy.",
@@ -314,7 +314,7 @@
             "id": "s2-digital-culture",
             "label": {
               "english": "Digital Culture",
-              "arabic": "الثقافة الرقمية"
+              "arabic":"ثقافة الرقمنة للمؤسسات"
             },
             "value": {
               "english": "To create value through digital transformation, we partner with clients to foster the needed digital culture that will positively impact your operations, leaving it optimized, agile and customer-centric. To change an organization’s culture is not easy, and for an organization to transform to the must-prevail digital culture our experts tailor the solutions that fit best the organization's unique requisites to stay competitive. That's why we help organizations adapt to and manage the rapidly changing business environment where the deployed technology is put into action to drive impact.</div><br><div>At A&B, we emphasize the important role stakeholders can play in enhancing the behaviors and mindsets of employees to promote digital transformation, where innovative, collaborative and data-driven culture dominates the scene while putting the customer at the heart of the digital transformation journey.",
@@ -326,7 +326,7 @@
             "id": "s2-ai-analytics",
             "label": {
               "english": "AI Analytics and Business Development",
-              "arabic": "تحليلات الذكاء الاصطناعي وتطوير الأعمال"
+              "arabic": "الذكاء الاصطناعي وتطور الاعمال"
             },
             "value":{
               "english": "The impact of AI on managing big data represents a remarkable advancement that businesses need to consider to stay ahead in the market. <br><br> To align the best AI strategy and analytics with business objectives, our expert consultants work with our clients to unlock the potential of multi-source data trends to facilitate optimized operation and enhanced customer satisfaction. Data-driven decision-making will undoubtedly contribute to the development of organizations. Business development experts at A&B believe that, through AI-driven analytics, organizations can employ the right AI technology to help them gain valuable business insights from data and maintain competitive advantage.",
@@ -351,7 +351,7 @@
             "id": "s-data-security-privacy",
             "label": {
               "english": "Data Security and Privacy",
-      "arabic": "أمان البيانات والخصوصية"
+      "arabic": "حماية البيانات و الخصوصية"
             },
             "value": {
               "english": "Being fully aware of how crucial it is for organizations to protect their data from various data breaches, A&B always highlights the importance of incorporating data security management early on in the development process. Clients entrust organizations with their valuable information and expect organizations to maintain it. Therefore, our consultant experts aim at providing organizations with data security strategies and insights that help set up the right defense mechanisms across the organization to maintain its reputation and competitive edge.",
@@ -383,29 +383,30 @@
       "contentHtml": "",
       "title": {
         "english": "Energy",
-        "arabic": "الطاقة"
+        "arabic": "قطاع الطاقة"
       },
       "preview_title": {
         "english": "Energy",
-        "arabic": "الطاقة"
+        "arabic": "قطاع الطاقة"
       },
       "short": {
         "english": "Maximizing ROI through renewable energy solutions. Seamlessly implementing transformational projects with A&B. Our experts ensure sustainable practices for lasting impact.",
-        "arabic": "Maximizing ROI through renewable energy solutions. Seamlessly implementing transformational projects with A&B. Our experts ensure sustainable practices for lasting impact."
+        "arabic": "نساعد عملائنا في استغلال موارد الطاقة المتجددة لتحقيق أفضل عائد استثمار ودعم الاستدامة."
       },
       "introTitle": {
         "english": "Energy",
-        "arabic": "الطاقة"
+        "arabic": "قطاع الطاقة"
       },
       "description": {
         "title": {
           "english": "Empowering Your Sustainability Journey with Renewable Energy Excellence",
-          "arabic": "Empowering Your Sustainability Journey with Renewable Energy Excellence"
+          "arabic": "تمكين رحلتك نحو الاستدامة من خلال تميز الطاقة المتجددة"
         },
-        "content": {
-          "english": "We navigate government policies and incentives to help organizations harness the power of renewable energy to maximize their ROI and help them achieve their sustainability goals.<br><br>Through A&B <a class=\"hyper-link\" href=\"/services/service-3\" target=\"_blank\">Renewable Energy Transformation</a> services, we help our clients by developing appropriate sustainability strategies to help them seamlessly implement transformational renewable energy projects. To foster integrating sustainability practices into their business operations, our Energy experts provide ongoing support to clients throughout their project endeavors.",
-          "arabic": "نحن نتنقل في سياسات الحكومة والحوافز لمساعدة المؤسسات على الاستفادة من قوة الطاقة المتجددة لزيادة عائد الاستثمار إلى أقصى حد ومساعدتها في تحقيق أهدافها المتعلقة بالاستدامة.من خلال خدمات <a class=\"hyper-link\" href=\"/services/service-3\" target=\"_blank\">تحول الطاقة المتجددة</a> التي نقدمها في A&B، نساعد عملاءنا على تطوير استراتيجيات استدامة مناسبة تساعدهم في تنفيذ مشاريع الطاقة المتجددة التحويلية بسلاسة.ولتعزيز دمج ممارسات الاستدامة في عملياتهم التجارية، يقدم خبراؤنا في الطاقة الدعم المستمر للعملاء طوال مساعيهم في المشروع."
-        },
+          "content": {
+            "english": "We navigate government policies and incentives to help organizations harness the power of renewable energy to maximize their ROI and help them achieve their sustainability goals.<br><br>Through A&B <a class=\"hyper-link\" href=\"/services/service-3\" target=\"_blank\">Renewable Energy Transformation</a> services, we help our clients by developing appropriate sustainability strategies to help them seamlessly implement transformational renewable energy projects. To foster integrating sustainability practices into their business operations, our Energy experts provide ongoing support to clients throughout their project endeavors.",
+            "arabic": "ندرس ونحلل السياسات والحوافز الحكومية لمساعدة مؤسسات ومشاريع عملائنا على استغلال موارد  <a class=\"hyper-link\" href=\"/{{locale}}/services/service-3\" target=\"_blank\"> الطاقة المتجددة</a> بهدف تحقيق أعلى مستوى عائد استثمار ودعمها في تحقيق أهداف الاستدامة الخاصة بها.<br><br>من خلال تطوير استراتيجيات الاستدامة المناسبة نقدم لعملائنا استشارات في مجال التحول الى الطاقة المتجددة لمساعدتهم في تنفيذ مشاريع التحول الى الطاقة المتجددة. كما ونعزز أيضًا دمج أفضل ممارسات الاستدامة في عملياتهم التجارية."
+          },
+        
         "button": {
           "link": "/projects",
           "label": {
@@ -437,110 +438,139 @@
       ]
     }
 ,    
-    {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717070298/163991_h5s3or.webp",
-      "id": "sector-5",
-      "logoColor":"light",
-      "contentHtml": "",
-      "title": {
-        "english":  "Human  Capital and Organizations",
-        "arabic": "رأس المال البشري"
-      },
-      "preview_title": {
-        "english":  "Human Capital and Organizations",
-        "arabic": "رأس المال البشري"
-      },
-      "short": {
-        "english": "A&B prioritizes employees as the key drivers of innovation and success, offering customized human capital management strategies to leverage their skills and knowledge for organizational growth and competitive advantage.",
-        "arabic": "A&B prioritizes employees as the key drivers of innovation and success, offering customized human capital management strategies to leverage their skills and knowledge for organizational growth and competitive advantage."
-      },
-      "introTitle": {
-        "english":    "Human  <span class=\"mil-thin\">Capital</span>  <br> <span class=\"mil-thin\">and</span>  Organizations",
-        "arabic": "رأس المال البشري"
-      },
-      "description": {
-        "title": {
-          "english":  "Investing in human capital can never be overemphasized ",
-          "arabic":  "Investing in human capital can never be overemphasized "
+{
+  "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717070298/163991_h5s3or.webp",
+  "id": "sector-5",
+  "logoColor": "light",
+  "contentHtml": "",
+  "title": {
+    "english": "Human Capital and Organizations",
+    "arabic": "رأس المال البشري"
+  },
+  "preview_title": {
+    "english": "Human Capital and Organizations",
+    "arabic": "رأس المال البشري"
+  },
+  "short": {
+    "english": "A&B leverages human capital for innovation and growth.",
+    "arabic": "تعزز A&B رأس المال البشري للابتكار والنمو."
+  },
+  "introTitle": {
+    "english": "Human <span class=\"mil-thin\">Capital</span> <br> <span class=\"mil-thin\">and</span> Organizations",
+    "arabic": "رأس المال البشري"
+  },
+  "description": {
+    "title": {
+      "english": "Investing in human capital can never be overemphasized",
+      "arabic": "الاستثمار في رأس المال البشري أهمية لا يمكن إغفالها"
+    },
+    "content": {
+      "english": "Employees are the main drivers of innovation within an organization. Therefore, our human capital management experts help organizations drive growth by tailoring the strategies that facilitate employees' contribution to an organization's success.<br><br>At A&B, we believe that the role of people in an organization cannot be overemphasized. They’re the ones who shape organizations’ identity and culture and their wealth of knowledge, talents, and skills, is what truly gives the competitive edge.",
+      "arabic": "الموظفون هم القوة الدافعة للابتكار داخل أي منظمة. لذلك، يعمل خبراؤنا في إدارة رأس المال البشري على مساعدة المؤسسات على تعزيز نموها من خلال تصميم استراتيجيات تساهم في تعزيز دور الموظفين في نجاح المؤسسة. في A&B، ندرك أهمية الدور الذي يلعبه الموظفون داخل المؤسسة. فهم دعائم هويتها وثقافتها. ثروتهم المعرفية ومواهبهم ومهاراتهم هي ما يميز مؤسساتهم التي يعملون بها عن غيرها من المؤسسات ويمنحها الميزة التنافسية الحقيقية"
+    },
+    "button": {
+      "link": "/projects",
+      "label": {
+        "english": "View works",
+        "arabic": "عرض الأعمال"
+      }
+    }
+  },
+  "list": {
+    "title": {
+      "english": "How we can help",
+      "arabic": "كيف يمكننا المساعدة"
+    },
+    "items": [
+      {
+        "id": "training-capacity-building",
+        "label": {
+          "english": "Training and Capacity Building",
+          "arabic": "التدريب وبناء القدرات"
         },
-        "content": {
-          "english": "Employees are the main drivers of innovation within an organization. Therefore, our human capital management experts help organizations drive growth by tailoring the strategies that facilitate employees' contribution to an organization's success.<br><br>At A&B, we believe that the role of people in an organization cannot be overemphasized. They’re the ones who shape organizations’ identity and culture and their wealth of knowledge, talents, and skills, is what truly gives the competitive edge.<br><br> <div class=\"text-dark fw-bold mil-text-xl\">Training and capacity building</div><br>To ensure that training programs yield rewarding results, they should align with the organization's objectives, enabling employees to contribute effectively to its value proposition.We work with organizations to take their employees' skills to another level by developing TNA-based training strategies tailored to help each employee effect the desired change.",
-          "arabic": "Employees are the main drivers of innovation within an organization. Therefore, our human capital management experts help organizations drive growth by tailoring the strategies that facilitate employees' contribution to an organization's success.<br><br>At A&B, we believe that the role of people in an organization cannot be overemphasized. They’re the ones who shape organizations’ identity and culture and their wealth of knowledge, talents, and skills, is what truly gives the competitive edge."
-        },
-        "button": {
-          "link": "/projects",
-          "label": {
-            "english": "View works",
-            "arabic": "عرض الأعمال"
-          }
+        "value": {
+          "english": "<p>To ensure that training programs yield rewarding results, they should align with the organization's objectives, enabling employees to contribute effectively to its value proposition. We work with organizations to take their employees' skills to another level by developing TNA-based training strategies tailored to help each employee effect the desired change.</p>",
+          "arabic": "<p>لضمان أن تحقق برامج التدريب نتائج مثمرة، يجب أن تتماشى مع أهداف المنظمة، مما يمكن الموظفين من المساهمة بفعالية في قيمة المنظمة. نحن نعمل مع المؤسسات لنقل مهارات موظفيها إلى مستوى آخر من خلال تطوير استراتيجيات تدريب قائمة على تحليل الاحتياجات (TNA) مصممة لمساعدة كل موظف على إحداث التغيير المطلوب.</p>"
         }
       },
-      "list": {
-        "title": {
-          "english": "How we can help",
-          "arabic": "كيف يمكننا المساعدة"
+      {
+        "id": "Operating-Model",
+        "label": {
+          "english": "Operating Model",
+          "arabic": "Operating Model"
         },
-        "items": [
-          {
-            "id" :"Operating-Model",
-            "label": {
-              "english": "Operating Model",
-              "arabic": "Operating Model"
-            },
-            "value": {
-              "english": "We transform businesses to enhance service delivery and innovation.",
-              "arabic": "We transform businesses to enhance service delivery and innovation."
-            },
-            "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717049607/107684_csa96n.webp"
-          },
-          {
-            "id" :"agile-lean-six-sigma",
-            "label": {
-              "english": "Agile, Lean and Six Sigma",
-              "arabic":"Agile, Lean and Six Sigma"
-            },
-            "value": {
-              "english": "Unlock your organization's full potential with A&B's proven methodologies.",
-              "arabic": "Unlock your organization's full potential with A&B's proven methodologies."
-            },
-            "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717065957/4091_p5pdpf.webp"
-          }
-          ,
-          {
-            "id" :"leadership-and-talent-development",
-            "label": {
-              "english": "Leadership and Talent Development",
-              "arabic": "Leadership and Talent Development"
-            },
-            "value": {
-              "english": "We empower organizations through tailored leadership and talent strategies.",
-              "arabic": "We empower organizations through tailored leadership and talent strategies."
-            },
-             "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718105749/2149352590_tbq8rz.webp"
-          }
-        ]
+        "value": {
+          "english": "We transform businesses to enhance service delivery and innovation.",
+          "arabic": "We transform businesses to enhance service delivery and innovation."
+        },
+        "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717049607/107684_csa96n.webp"
       },
-      "keywords": [
-        "human capital",
-        "Human Capital and Organizations",
-        "employee innovation",
-        "organizational growth",
-        "competitive advantage",
-        "human capital management",
-        "skills development",
-        "knowledge leverage",
-        "organizational success",
-        "training programs",
-        "capacity building",
-        "TNA-based training",
-        "operating model",
-        "agile methodologies",
-        "lean methodologies",
-        "six sigma",
-        "leadership development",
-        "talent development"
-      ]
-    },
+      {
+        "id": "agile-lean-six-sigma",
+        "label": {
+          "english": "Agile, Lean and Six Sigma",
+          "arabic": "Agile, Lean و Six Sigma"
+        },
+        "value": {
+          "english": "Unlock your organization's full potential with A&B's proven methodologies.",
+          "arabic": "في بيئة أعمال سريعة الوتيرة والتنافسية، يتعين على المؤسسات التكيف والابتكار باستمرار للبقاء في المقدمة. في A&B للاستشارات، نقوم بتحليل الهيكل التشغيلي للمؤسسات وتطوير استراتيجيات تمكّنها من تبسيط العمليات وتحسين جودة المنتج باستخدام منهجيات Agile وLean وSix Sigma. يساعد خبراء الإدارة في شركتنا المؤسسات على تبني مبادئ وممارسات تعزز التعاون والاستجابة السريعة لمتطلبات السوق المتغيرة، ونضمن تقليل هدر الموارد، فالحلول المقرحة تحفز الاعتماد على البيانات والأدوات الإحصائية في تحديد الأسباب الجذرية للعيوب، وتقليل التباين، وتحقيق التحسين المستمر للعمليات."
+        },
+        "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717065957/4091_p5pdpf.webp"
+      },
+      {
+        "id": "leadership-and-talent-development",
+        "label": {
+          "english": "Leadership and Talent Development",
+          "arabic": "Leadership and Talent Development"
+        },
+        "value": {
+          "english": "We empower organizations through tailored leadership and talent strategies.",
+          "arabic": "We empower organizations through tailored leadership and talent strategies."
+        },
+        "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718105749/2149352590_tbq8rz.webp"
+      }
+    ]
+  },
+  "keywords": [
+    "human capital",
+    "Human Capital and Organizations",
+    "employee innovation",
+    "organizational growth",
+    "competitive advantage",
+    "human capital management",
+    "skills development",
+    "knowledge leverage",
+    "organizational success",
+    "training programs",
+    "capacity building",
+    "TNA-based training",
+    "operating model",
+    "agile methodologies",
+    "lean methodologies",
+    "six sigma",
+    "leadership development",
+    "talent development",
+    "رأس المال البشري",
+    "رأس المال البشري والمنظمات",
+    "ابتكار الموظفين",
+    "نمو المؤسسة",
+    "ميزة تنافسية",
+    "إدارة رأس المال البشري",
+    "تطوير المهارات",
+    "استغلال المعرفة",
+    "نجاح المنظمة",
+    "برامج التدريب",
+    "بناء القدرات",
+    "تدريب قائم على تحليل الاحتياجات",
+    "نموذج التشغيل",
+    "منهجيات أجايل",
+    "منهجيات لين",
+    "ستة سيجما",
+    "تطوير القيادة",
+    "تطوير المواهب"
+  ]
+},
+
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717063555/2151196335_e6u4fp.webp",
       "id": "sector-6",
@@ -569,7 +599,7 @@
         },
         "content": {
           "english": "At A&B, we foster a shared vision of sustainability and environmental stewardship by collaborating closely with clients, governments and NGOs to drive progress and innovation in an increasingly eco-conscious world. Our experts assist our clients in transforming climate challenges into sustainable opportunities by crafting tailored strategies that enhance resource-efficient utilization, reduce emissions, and embrace sustainability practices.<br><br>Facilitating the industrial organizations' journey toward a greener future, our <a class=\"hyper-link\" href=\"/services/service-4\" target=\"_blank\">clean manufacturing</a> experts make it a top priority that they offer comprehensive support to industrial organizations to get them closer to net zero. We tailor the strategies to help our clients meet and exceed the complexities of environmental compliance and guide them to harness the numerous benefits of climate <a class=\"hyper-link\" href=\"/services/service-2\" target=\"_blank\">technologies</a> and clean manufacturing practices.",
-          "arabic": "في A&B، نعزز رؤية مشتركة للاستدامة وحماية البيئة من خلال التعاون الوثيق مع العملاء والحكومات والمنظمات غير الحكومية لدفع التقدم والابتكار في عالم يزداد وعيًا بالبيئة. يساعد خبراؤنا عملاءنا في تحويل تحديات المناخ إلى فرص مستدامة من خلال صياغة استراتيجيات مخصصة تعزز كفاءة استخدام الموارد، وتقليل الانبعاثات، وتبني ممارسات الاستدامة.<br><br>لتسهيل رحلة المنظمات الصناعية نحو مستقبل أكثر خضرة، يجعل خبراؤنا في <a class=\"hyper-link\" href=\"/services/service-4\" target=\"_blank\">التصنيع النظيف</a> من أولوياتهم تقديم الدعم الشامل للمنظمات الصناعية لتقريبها من صافي صفر انبعاثات. نحن نخصص الاستراتيجيات لمساعدة عملائنا على الوفاء بتعقيدات الامتثال البيئي وتجاوزها وإرشادهم للاستفادة من الفوائد العديدة لتقنيات المناخ وممارسات التصنيع النظيف."
+          "arabic": "في A&B، نعزز رؤية مشتركة للاستدامة وحماية البيئة من خلال التعاون الوثيق مع العملاء والحكومات والمنظمات غير الحكومية لدفع التقدم والابتكار في عالم يزداد وعيًا بالبيئة. يساعد خبراؤنا عملاءنا في تحويل تحديات المناخ إلى فرص مستدامة من خلال صياغة استراتيجيات مخصصة تعزز كفاءة استخدام الموارد، وتقليل الانبعاثات، وتبني ممارسات الاستدامة.<br><br>لتسهيل رحلة المنظمات الصناعية نحو مستقبل أكثر خضرة، يجعل خبراؤنا في <a class=\"hyper-link\" href=\"/{{locale}}/services/service-4\" target=\"_blank\">التصنيع النظيف</a> من أولوياتهم تقديم الدعم الشامل للمنظمات الصناعية لتقريبها من صافي صفر انبعاثات. نحن نخصص الاستراتيجيات لمساعدة عملائنا على الوفاء بتعقيدات الامتثال البيئي وتجاوزها وإرشادهم للاستفادة من الفوائد العديدة لتقنيات المناخ وممارسات التصنيع النظيف."
         },
         "button": {
           "link": "/projects",
@@ -622,7 +652,7 @@
       "short": 
       {
         "english": "Discover how the tourism sector drives economic growth and development. A&B's expert strategies focus on key revenue channels and involve stakeholder collaboration to deliver top-quality tourism experiences. Embrace digital transformation and sustainability for an enhanced journey.",
-    "arabic": "اكتشف كيف يدفع قطاع السياحة النمو الاقتصادي والتطوير. تركز استراتيجيات A&B على القنوات الرئيسية للإيرادات وتضم التعاون مع الأطراف المعنية لتقديم تجارب سياحية عالية الجودة. تبنى التحول الرقمي والاستدامة لرحلة محسنة."
+        "arabic": "اكتشف كيف يدفع قطاع السياحة النمو الاقتصادي والتطوير. تركز استراتيجيات A&B على القنوات الرئيسية للإيرادات وتضم التعاون مع الأطراف المعنية لتقديم تجارب سياحية عالية الجودة. تبنى التحول الرقمي والاستدامة لرحلة محسنة."
   
       }
       
@@ -639,7 +669,7 @@
         ,
         "content": {
           "english": "The tourism sector is considered a major contributor to the economic growth and development of countries. Whenever they lay down their development strategic plans, A&B tourism experts ensure that they tackle essential revenue channels, such as transportation, accommodation, archeological and heritage sites, and other tourism attractions and services.<br><br>Our tourism enhancement strategies involve stakeholders' opinions to zoom in on major opportunities and challenges for the sector. We collaborate with value chain contributors such as travel agencies, hotels, tour operators, and technology providers to deliver the strategy that will yield high-quality tourism products and services to travelers.<br><br>We leverage market expansion opportunities and sustainability practices, as well as help clients embrace<a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\"> digital transformation</a>  to employ the right technology that will result in an enhanced tourism experience.",
-          "arabic": "يعتبر قطاع السياحة مساهماً رئيسياً في النمو الاقتصادي وتطوير الدول. كلما وضعوا خططهم الاستراتيجية للتنمية، يضمن خبراء السياحة في A&B معالجة القنوات الأساسية للإيرادات، مثل النقل، والإقامة، والمواقع الأثرية والتراثية، وغيرها من المعالم والخدمات السياحية.<br><br>تتضمن استراتيجيات تعزيز السياحة لدينا آراء الأطراف المعنية للتعمق في الفرص والتحديات الرئيسية للقطاع. نتعاون مع المساهمين في سلسلة القيمة مثل وكالات السفر، والفنادق، ومشغلي الرحلات، ومقدمي التكنولوجيا لتقديم استراتيجية تحقق منتجات وخدمات سياحية عالية الجودة للمسافرين.<br><br>نستفيد من فرص التوسع في السوق وممارسات الاستدامة، ونساعد العملاء على تبني<a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\">التحول الرقمي</a> لتوظيف التكنولوجيا المناسبة التي ستؤدي إلى تحسين تجربة السياحة."
+          "arabic": "يعتبر قطاع السياحة مساهماً رئيسياً في النمو الاقتصادي وتطوير الدول. كلما وضعوا خططهم الاستراتيجية للتنمية، يضمن خبراء السياحة في A&B معالجة القنوات الأساسية للإيرادات، مثل النقل، والإقامة، والمواقع الأثرية والتراثية، وغيرها من المعالم والخدمات السياحية.<br><br>تتضمن استراتيجيات تعزيز السياحة لدينا آراء الأطراف المعنية للتعمق في الفرص والتحديات الرئيسية للقطاع. نتعاون مع المساهمين في سلسلة القيمة مثل وكالات السفر، والفنادق، ومشغلي الرحلات، ومقدمي التكنولوجيا لتقديم استراتيجية تحقق منتجات وخدمات سياحية عالية الجودة للمسافرين.<br><br>نستفيد من فرص التوسع في السوق وممارسات الاستدامة، ونساعد العملاء على تبني<a class=\"hyper-link\" href=\"/{{locale}}/services/service-2\" target=\"__blank\">التحول الرقمي</a> لتوظيف التكنولوجيا المناسبة التي ستؤدي إلى تحسين تجربة السياحة."
         }
         
         ,
@@ -865,7 +895,7 @@
           },
           "content": {
               "english": "With the prime goal of improving the livelihood of communities and <a class=\"hyper-link\" href=\"/services/service-1\" target=\"_blank\">urban and rural living</a>, government and public sector organizations are prone to facing a myriad of challenges as their role spans a variety of functions. A&B stands shoulder to shoulder with governments and public organizations and shares the responsibility of promoting sustainable development in our communities by employing R&D data-driven insights, transformational technology strategies, and economic growth planning to ensure SDGs are achieved.<br><br>Knowing how public organizations work requires a profound analysis of the challenges, encompassing policies and operations. Our <a class=\"hyper-link\" href=\"/sectors/sector-5\" target=\"_blank\">organizational design</a> experts examine their structure, processes, and systems to tailor the needed goal-aligned strategies leading to sustainable economic development.<br><br>We work with NGOs and other philanthropic foundations by creating program implementation strategies to address crucial social, economic, and <a class=\"hyper-link\" href=\"/sectors/sector-6\" target=\"_blank\">environmental issues</a>. To help build capacities and drive innovation, A&B <a class=\"hyper-link\" href=\"/sectors/sector-5\" target=\"_blank\">capacity-building</a> specialists tailor effective strategies that pave the way for positive and sustainable societal change.",
-              "arabic": "بهدف تحسين سبل العيش في المجتمعات و<a class=\"hyper-link\" href=\"/services/service-1\" target=\"_blank\">الحياة الحضرية والريفية</a>، تواجه المنظمات الحكومية ومنظمات القطاع العام تحديات عديدة حيث يمتد دورها ليشمل مجموعة متنوعة من الوظائف. تقف A&B جنبًا إلى جنب مع الحكومات والمنظمات العامة وتتحمل مسؤولية تعزيز التنمية المستدامة في مجتمعاتنا من خلال توظيف رؤى قائمة على البيانات والتحول التكنولوجي واستراتيجيات النمو الاقتصادي لضمان تحقيق أهداف التنمية المستدامة.<br><br>يتطلب فهم كيفية عمل المنظمات العامة تحليلًا عميقًا للتحديات التي تشمل السياسات والعمليات. يقوم خبراؤنا في <a class=\"hyper-link\" href=\"/sectors/sector-5\" target=\"_blank\">تصميم المنظمات</a> بفحص هيكلها وعملياتها وأنظمتها لتفصيل الاستراتيجيات المتوافقة مع الأهداف اللازمة لتحقيق التنمية الاقتصادية المستدامة.<br><br>نعمل مع المنظمات غير الحكومية والمؤسسات الخيرية الأخرى بإنشاء استراتيجيات لتنفيذ البرامج لمعالجة القضايا الاجتماعية والاقتصادية و<a class=\"hyper-link\" href=\"/sectors/sector-6\" target=\"_blank\">البيئية</a> الحرجة. للمساعدة في بناء القدرات ودفع الابتكار، يضع متخصصو <a class=\"hyper-link\" href=\"/sectors/sector-5\" target=\"_blank\">بناء القدرات</a> في A&B استراتيجيات فعالة تمهد الطريق لتغيير إيجابي ومستدام في المجتمع."
+              "arabic": "بهدف تحسين سبل العيش في المجتمعات و<a class=\"hyper-link\" href=\"/services/service-1\" target=\"_blank\">الحياة الحضرية والريفية</a>، تواجه المنظمات الحكومية ومنظمات القطاع العام تحديات عديدة حيث يمتد دورها ليشمل مجموعة متنوعة من الوظائف. تقف A&B جنبًا إلى جنب مع الحكومات والمنظمات العامة وتتحمل مسؤولية تعزيز التنمية المستدامة في مجتمعاتنا من خلال توظيف رؤى قائمة على البيانات والتحول التكنولوجي واستراتيجيات النمو الاقتصادي لضمان تحقيق أهداف التنمية المستدامة.<br><br>يتطلب فهم كيفية عمل المنظمات العامة تحليلًا عميقًا للتحديات التي تشمل السياسات والعمليات. يقوم خبراؤنا في <a class=\"hyper-link\" href=\"/sectors/sector-5\" target=\"_blank\">تصميم المنظمات</a> بفحص هيكلها وعملياتها وأنظمتها لتفصيل الاستراتيجيات المتوافقة مع الأهداف اللازمة لتحقيق التنمية الاقتصادية المستدامة.<br><br>نعمل مع المنظمات غير الحكومية والمؤسسات الخيرية الأخرى بإنشاء استراتيجيات لتنفيذ البرامج لمعالجة القضايا الاجتماعية والاقتصادية و<a class=\"hyper-link\" href=\"/sectors/sector-6\" target=\"_blank\">البيئية</a> الحرجة. للمساعدة في بناء القدرات ودفع الابتكار، يضع متخصصو <a class=\"hyper-link\" href=\"/{{locale}}/sectors/sector-5\" target=\"_blank\">بناء القدرات</a> في A&B استراتيجيات فعالة تمهد الطريق لتغيير إيجابي ومستدام في المجتمع."
           },
           "button": {
               "link": "/projects",
@@ -930,7 +960,7 @@
         },
         "content": {
           "english": "We harness our team expertise to serve the healthcare sector and provide specialized consulting solutions tailored to the development of public and private healthcare institutions. Our <a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\">software</a>, administration, facility, and <a class=\"hyper-link\" href=\"/services/service-6\" target=\"__blank\">supply chain</a> development strategies help organizations remain competitive and focused on meeting the expectations of healthcare service seekers.<br><br>After the pandemic, our healthcare solutions policy aims to increase institutions’ efficiency and quality of services. We partner with our clients and shoulder the responsibility to develop appropriate healthcare investment strategies and contribute to enhancing scientific medical research by utilizing huge data, advanced analytics and research methodologies.",
-          "arabic": "يسخر فريقنا خبراته في تقديم الحلول الاستشارية المتخصصة لخدمة القطاع الصحي فتطور مؤسسات القطاع، العامة منها والخاصة، ضرورة حتمية يعيها الجميع. في ضوء التطور التكنلوجي والتحول الذي يشهده القطاع في تقديمه للخدمة الصحية- خصوصا ما بعد الجائحة، نعمل على تقديم حلول من شأنها أن ترفع من كفاءة المؤسسات ومن جودة الخدمات المقدمة لطالبي الخدمة، كحلول <a class=\"hyper-link\" href=\"/services/service-2\" target=\"_blank\">أنظمة المعلومات والبرمجيات</a> والخدمات الإدارية والمرافق و<a class=\"hyper-link\" href=\"/services/service-6\" target=\"_blank\">سلاسل الأمداد</a>. كما ونشترك مع عملائنا في وضع استراتيجيات الاستثمار المناسبة في القطاع الصحي سواء للاستثمار داخل المؤسسة او خارجها. إضافة الى ذلك، امتلاكنا لبيانات ضخمة وأدوات تحليل متطورة والدقة المتناهية لمنهجيات البحث التي نتبعها كل ذلك يسهم في تعزيز الأبحاث العلمية الطبية."
+          "arabic": "يسخر فريقنا خبراته في تقديم الحلول الاستشارية المتخصصة لخدمة القطاع الصحي فتطور مؤسسات القطاع، العامة منها والخاصة، ضرورة حتمية يعيها الجميع. في ضوء التطور التكنلوجي والتحول الذي يشهده القطاع في تقديمه للخدمة الصحية- خصوصا ما بعد الجائحة، نعمل على تقديم حلول من شأنها أن ترفع من كفاءة المؤسسات ومن جودة الخدمات المقدمة لطالبي الخدمة، كحلول <a class=\"hyper-link\" href=\"/{{locale}}/services/service-2\" target=\"_blank\">أنظمة المعلومات والبرمجيات</a> والخدمات الإدارية والمرافق و<a class=\"hyper-link\" href=\"/{{locale}}/services/service-6\" target=\"_blank\">سلاسل الأمداد</a>. كما ونشترك مع عملائنا في وضع استراتيجيات الاستثمار المناسبة في القطاع الصحي سواء للاستثمار داخل المؤسسة او خارجها. إضافة الى ذلك، امتلاكنا لبيانات ضخمة وأدوات تحليل متطورة والدقة المتناهية لمنهجيات البحث التي نتبعها كل ذلك يسهم في تعزيز الأبحاث العلمية الطبية."
         },
         "button": {
           "link": "/",
