@@ -2,10 +2,12 @@ import { useState } from 'react';
 import { Combobox, useCombobox } from '@mantine/core';
 import data from "@data/dummy/countires.json";
 import Image from 'next/image';
+import { useLocale } from '@/utils/getLocale';
 
 const countries = data.countriesLocalAPI;
 
 export function SelectDropdownSearch() {
+    const { activeLocale } = useLocale();
     const [search, setSearch] = useState('');
     const combobox = useCombobox({
         onDropdownClose: () => {
@@ -41,7 +43,7 @@ export function SelectDropdownSearch() {
             <Combobox.Target>
                 <input
                     type="text"
-                    placeholder="COUNTRY"
+                    placeholder={activeLocale ==='ar' ? "البلد" : "COUNTRY"}
                     value={value || ''}
                     readOnly
                     onClick={() => combobox.toggleDropdown()}

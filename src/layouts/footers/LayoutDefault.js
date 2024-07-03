@@ -20,23 +20,11 @@ const DefaultFooter = ( { extraClass } ) => {
                         <div className="mil-mb-30"></div>
                        
                         <div className="mil-light-soft mil-text-xs footer-location">
-    {activeLocale === 'ar' ? (
-        <>
-            <span className="text-primary">الولايات المتحدة الأمريكية: (المقر الرئيسي)</span>
-            <br />
-            .ديلاوير، ويلمنجتون - وسط المدينة 1000 N
-            <br />
-            شارع ويست. جناح 1200. ويلمنجتون. 19801
-        </>
-    ) : (
-        <>
-            <span className="text-primary">USA (Headquarters):</span>
+                        <span className="text-primary">USA (Headquarters):</span>
             <br />
             Delaware, Wilmington - Downtown 1000 N.
             <br />
             West Street. Suite 1200. Wilmington.19801
-        </>
-    )}
 </div>
 
                       
