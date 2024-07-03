@@ -2,228 +2,228 @@
     "TeamData": [
         {
             "image": "/img/faces/staff/Ameen-ghanayem.png",
-            "name": "Ameen Ghanayem",
-            "role": "IT consultant"
-        },
-        {
+            "name": { "en": "Ameen Ghanayem", "ar": "أمين غنايم" },
+            "role": { "en": "IT consultant", "ar": "مستشار تقنية المعلومات" }
+          },
+          {
             "image": "/img/faces/staff/Bahaa-othman.png",
-            "name": "Bahaa Othman",
-            "role": "HR consultant"
-        },
-        {
+            "name": { "en": "Bahaa Othman", "ar": "بهاء عثمان" },
+            "role": { "en": "HR consultant", "ar": "مستشار الموارد البشرية" }
+          },
+          {
             "image": "/img/faces/staff/emad-nasser.png",
-            "name": "Emad Nasser",
-            "role": "Head of Business Development Dep"
-        },
-        {
+            "name": { "en": "Emad Nasser", "ar": "عماد ناصر" },
+            "role": { "en": "Head of Business Development Dep", "ar": "رئيس قسم تطوير الأعمال" }
+          },
+          {
             "image": "/img/faces/staff/rand-hamam.png",
-            "name": "Rand Hmam",
-            "role": "Senior Business Analyst"
-        },
-        {
+            "name": { "en": "Rand Hmam", "ar": "رند حمام" },
+            "role": { "en": "Senior Business Analyst", "ar": "محلل أعمال أول" }
+          },
+          {
             "image": "/img/faces/staff/ALKHUDARI.png",
-            "name": "Mohammad Alkhudari",
-            "role": "Cybersecurity consultant"
-        },
-        {
+            "name": { "en": "Mohammad Alkhudari", "ar": "محمد الخضري" },
+            "role": { "en": "Cybersecurity consultant", "ar": "مستشار الأمن السيبراني" }
+          },
+          {
             "image": "/img/faces/staff/Miias.png",
-            "name": "Mohammad Myyas",
-            "role": "Project Coordinator"
-        },
-        {
+            "name": { "en": "Mohammad Myyas", "ar": "محمد مياس" },
+            "role": { "en": "Project Coordinator", "ar": "منسق المشروع" }
+          },
+          {
             "image": "/img/faces/staff/awad-salem.png",
-            "name": "Awad Salem",
-            "role": "HRM & Director"
-        },
-        {
+            "name": { "en": "Awad Salem", "ar": "عوض سالم" },
+            "role": { "en": "HRM & Director", "ar": "مدير الموارد البشرية" }
+          },
+          {
             "image": "/img/faces/staff/Ahmed-obeidat.png",
-            "name": "Ahmad Obeidat",
-            "role": "Accountant"
-        },
-        {
+            "name": { "en": "Ahmad Obeidat", "ar": "أحمد عبيدات" },
+            "role": { "en": "Accountant", "ar": "محاسب" }
+          },
+          {
             "image": "/img/faces/staff/Roaa-Abed-Al-Mahmoud.png",
-            "name": "Ro`a Al Mahmood",
-            "role": "Head of Governance and Project Management Dep"
-        },
-        {
+            "name": { "en": "Ro`a Al Mahmood", "ar": "رؤى عبد المحمود" },
+            "role": { "en": "Head of Governance and Project Management Dep", "ar": "رئيس قسم الحوكمة وإدارة المشاريع" }
+          },
+          {
             "image": "/img/faces/staff/Rofaida-Alokour.png",
-            "name": "Rofaida Okour",
-            "role": "Head of Investment Strategies Dep"
-        },
-        {
+            "name": { "en": "Rofaida Okour", "ar": "رفيدة العكور" },
+            "role": { "en": "Head of Investment Strategies Dep", "ar": "رئيس قسم استراتيجيات الاستثمار" }
+          },
+          {
             "image": "/img/faces/staff/Motaz-B-Hamad.png",
-            "name": "Moataz Banihamad",
-            "role": "Head of Feasibility Studies"
-        },
-        {
+            "name": { "en": "Moataz Banihamad", "ar": "معتز بني حمد" },
+            "role": { "en": "Head of Feasibility Studies", "ar": "رئيس قسم دراسات الجدوى" }
+          },
+          {
             "image": "/img/faces/staff/marma.png",
-            "name": "Maram Eleemat",
-            "role": "Business Analyst"
-        },
-        {
+            "name": { "en": "Maram Eleemat", "ar": "مرام عليمات" },
+            "role": { "en": "Business Analyst", "ar": "محلل أعمال" }
+          },
+          {
             "image": "/img/faces/staff/Jowan_ALsaeed.png",
-            "name": "Jewan Al-Said",
-            "role": "Business Analyst"
-        },
-        {
+            "name": { "en": "Jewan Al-Said", "ar": "جوان السعيد" },
+            "role": { "en": "Business Analyst", "ar": "محلل أعمال" }
+          },
+          {
             "image": "/img/faces/staff/Dana-Ibrahim.png",
-            "name": "Dana Al-Haj Ebrahem",
-            "role": "Senior Business Analyst"
-        },
-        {
+            "name": { "en": "Dana Al-Haj Ebrahem", "ar": "دانا الحاج إبراهيم" },
+            "role": { "en": "Senior Business Analyst", "ar": "محلل أعمال أول" }
+          },
+          {
             "image": "/img/faces/staff/Sfaa-A-badarneh.png",
-            "name": "Safa’ Al-Badarneh",
-            "role": "Senior Business Analyst"
-        },
-        {
+            "name": { "en": "Safa’ Al-Badarneh", "ar": "صفاء البدارنة" },
+            "role": { "en": "Senior Business Analyst", "ar": "محلل أعمال أول" }
+          },
+          {
             "image": "/img/faces/staff/Nibras-fawzy.png",
-            "name": "Nibras Fawzy",
-            "role": "Sr. BI analyst"
-        },
-        {
+            "name": { "en": "Nibras Fawzy", "ar": "نبراس فوزي" },
+            "role": { "en": "Sr. BI analyst", "ar": "محلل ذكاء الأعمال الأول" }
+          },
+          {
             "image": "/img/faces/staff/Rahaf-Khassawneh.png",
-            "name": "Rahaf Khassawneh",
-            "role": "Studies Manager"
-        },
-        {
+            "name": { "en": "Rahaf Khassawneh", "ar": "رهف الخصاونة" },
+            "role": { "en": "Studies Manager", "ar": "مدير الدراسات" }
+          },
+          {
             "image": "/img/faces/staff/Abdulrahman-al-taher.png",
-            "name": "Abdulrahman Al-taher",
-            "role": "Sr. Project Manager"
-        },
-        {
+            "name": { "en": "Abdulrahman Al-taher", "ar": "عبد الرحمن الطاهر" },
+            "role": { "en": "Sr. Project Manager", "ar": "مدير مشروع أول" }
+          },
+          {
             "image": "/img/faces/staff/Shatha_Alraba_a.png",
-            "name": "Shatha Al-Rabaa",
-            "role": "Head of Market Study Dep"
-        },
-        {
+            "name": { "en": "Shatha Al-Rabaa", "ar": "شذى الرباع" },
+            "role": { "en": "Head of Market Study Dep", "ar": "رئيس قسم دراسات السوق" }
+          },
+          {
             "image": "/img/faces/staff/Bahaa.png",
-            "name": "Baha' Al-Omari",
-            "role": "Junior Business Analyst"
-        },
-        {
+            "name": { "en": "Baha' Al-Omari", "ar": "بهاء العمري" },
+            "role": { "en": "Junior Business Analyst", "ar": "محلل أعمال مبتدئ" }
+          },
+          {
             "image": "/img/faces/staff/Nadeen.png",
-            "name": "Nadeen Alsmadi",
-            "role": "Junior Business Analyst"
-        },
-        {
+            "name": { "en": "Nadeen Alsmadi", "ar": "ندين الصمادي" },
+            "role": { "en": "Junior Business Analyst", "ar": "محلل أعمال مبتدئ" }
+          },
+          {
             "image": "/img/faces/staff/Ali.png",
-            "name": "Ali Mahmoud",
-            "role": "Junior Business Analyst"
-        },
-        {
+            "name": { "en": "Ali Mahmoud", "ar": "علي محمود" },
+            "role": { "en": "Junior Business Analyst", "ar": "محلل أعمال مبتدئ" }
+          },
+          {
             "image": "/img/faces/staff/Maeen_tneshat.png",
-            "name": "Maen Tubieshat",
-            "role": "Junior Business Analyst"
-        },
-        {
+            "name": { "en": "Maen Tubieshat", "ar": "معين الطوبيسات" },
+            "role": { "en": "Junior Business Analyst", "ar": "محلل أعمال مبتدئ" }
+          },
+          {
             "image": "/img/faces/staff/LOUI_BANI-MFRREJ.png",
-            "name": "Loui Bani Mfrrej",
-            "role": "Junior Business Analyst"
-        },
-        {
+            "name": { "en": "Loui Bani Mfrrej", "ar": "لؤي بني مفرج" },
+            "role": { "en": "Junior Business Analyst", "ar": "محلل أعمال مبتدئ" }
+          },
+          {
             "image": "/img/faces/staff/alaa-alqady.png",
-            "name": "Alaa Al-Qady",
-            "role": "Business Analyst"
-        },
-        {
+            "name": { "en": "Alaa Al-Qady", "ar": "علاء القاضي" },
+            "role": { "en": "Business Analyst", "ar": "محلل أعمال" }
+          },
+          {
             "image": "/img/faces/staff/Dina-Baniyasin.png",
-            "name": "Dina Baniyasin",
-            "role": "Junior Business Analyst"
-        },
-        {
+            "name": { "en": "Dina Baniyasin", "ar": "دينا بني ياسين" },
+            "role": { "en": "Junior Business Analyst", "ar": "محلل أعمال مبتدئ" }
+          },
+          {
             "image": "/img/faces/staff/Laith_Obeidat.png",
-            "name": "Laith Obeidat",
-            "role": "Business Analyst"
-        },
-        {
+            "name": { "en": "Laith Obeidat", "ar": "ليث عبيدات" },
+            "role": { "en": "Business Analyst", "ar": "محلل أعمال" }
+          },
+          {
             "image": "/img/faces/staff/saba.png",
-            "name": "Saba Ibrahim",
-            "role": "Junior Business Analyst"
-        },
-        {
+            "name": { "en": "Saba Ibrahim", "ar": "سبأ إبراهيم" },
+            "role": { "en": "Junior Business Analyst", "ar": "محلل أعمال مبتدئ" }
+          },
+          {
             "image": "/img/faces/staff/LEEN_AL-JAYOUSI.png",
-            "name": "Leen Jayousi",
-            "role": "Junior Business Analyst"
-        },
-        {
+            "name": { "en": "Leen Jayousi", "ar": "لين الجيوسي" },
+            "role": { "en": "Junior Business Analyst", "ar": "محلل أعمال مبتدئ" }
+          },
+          {
             "image": "/img/faces/staff/ahmed-alhamori.png",
-            "name": "Ahmad Alhamouri",
-            "role": "Head of the Export Studies Dep"
-        },
-        {
+            "name": { "en": "Ahmad Alhamouri", "ar": "أحمد الحاموري" },
+            "role": { "en": "Head of the Export Studies Dep", "ar": "رئيس قسم دراسات التصدير" }
+          },
+          {
             "image": "/img/faces/staff/ahmed-abu-assi.png",
-            "name": "Ahmad Abuassi",
-            "role": "Senior Business Analyst"
-        },
-        {
+            "name": { "en": "Ahmad Abuassi", "ar": "أحمد أبو عاصي" },
+            "role": { "en": "Senior Business Analyst", "ar": "محلل أعمال أول" }
+          },
+          {
             "image": "/img/faces/staff/saga.png",
-            "name": "Saja Hazaimeh",
-            "role": "Junior Business Analyst"
-        },
-        {
+            "name": { "en": "Saja Hazaimeh", "ar": "سجا هزايمة" },
+            "role": { "en": "Junior Business Analyst", "ar": "محلل أعمال مبتدئ" }
+          },
+          {
             "image": "/img/faces/staff/Hamzeh-Alkhaldi.png",
-            "name": "Hamza Al-khaldi",
-            "role": "Head of Database Dep"
-        },
-        {
+            "name": { "en": "Hamza Al-khaldi", "ar": "حمزة الخالدي" },
+            "role": { "en": "Head of Database Dep", "ar": "رئيس قسم قواعد البيانات" }
+          },
+          {
             "image": "/img/faces/staff/zain.png",
-            "name": "Zein Almomani",
-            "role": "Business Analyst"
-        },
-        {
+            "name": { "en": "Zein Almomani", "ar": "زين المومني" },
+            "role": { "en": "Business Analyst", "ar": "محلل أعمال" }
+          },
+          {
             "image": "/img/faces/staff/raya.png",
-            "name": "Raya Aldohni",
-            "role": "Data Analyst"
-        },
-        {
+            "name": { "en": "Raya Aldohni", "ar": "رايا الدهني" },
+            "role": { "en": "Data Analyst", "ar": "محلل بيانات" }
+          },
+          {
             "image": "/img/faces/staff/Hanen.png",
-            "name": "Haneen Abu Alhaija",
-            "role": "Data Analyst"
-        },
-        {
+            "name": { "en": "Haneen Abu Alhaija", "ar": "حنين أبو الهيجا" },
+            "role": { "en": "Data Analyst", "ar": "محلل بيانات" }
+          },
+          {
             "image": "/img/faces/staff/Sewar-Aljarrah.png",
-            "name": "Sewar Al-Jarrah",
-            "role": "Business Analysis and Research Specialist"
-        },
-        {
+            "name": { "en": "Sewar Al-Jarrah", "ar": "سوار الجراح" },
+            "role": { "en": "Business Analysis and Research Specialist", "ar": "أخصائي تحليل الأعمال والبحوث" }
+          },
+          {
             "image": "/img/faces/staff/Odai.png",
-            "name": "Audai Al-Saedeen",
-            "role": "Business Analyst"
-        },
-        {
+            "name": { "en": "Audai Al-Saedeen", "ar": "عدي السعيدين" },
+            "role": { "en": "Business Analyst", "ar": "محلل أعمال" }
+          },
+          {
             "image": "/img/faces/staff/abdulrazzaq.png",
-            "name": "Abdel Razzaq Alrababah",
-            "role": "Data Analyst"
-        },
-        {
+            "name": { "en": "Abdel Razzaq Alrababah", "ar": "عبد الرزاق الربابعه" },
+            "role": { "en": "Data Analyst", "ar": "محلل بيانات" }
+          },
+          {
             "image": "/img/faces/staff/Ola-Abdalla.png",
-            "name": "Ola Abdallah",
-            "role": "Senior Data Analyst"
-        },
-        {
+            "name": { "en": "Ola Abdallah", "ar": "علا عبد الله" },
+            "role": { "en": "Senior Data Analyst", "ar": "محلل بيانات أول" }
+          },
+          {
             "image": "/img/faces/staff/Wasan-Yaqob.png",
-            "name": "Wasan Yacoub",
-            "role": "Senior Data Analyst"
-        },
-        {
+            "name": { "en": "Wasan Yacoub", "ar": "وسن يعقوب" },
+            "role": { "en": "Senior Data Analyst", "ar": "محلل بيانات أول" }
+          },
+          {
             "image": "/img/faces/staff/anwar.png",
-            "name": "Anwar Alshiyab",
-            "role": "Head of Design Dep"
-        },
-        {
+            "name": { "en": "Anwar Alshiyab", "ar": "أنور الشياب" },
+            "role": { "en": "Head of Design Dep", "ar": "رئيس قسم التصميم" }
+          },
+          {
             "image": "/img/faces/staff/Mohammad_Alqudah.png",
-            "name": "Mohammad Alqudah",
-            "role": "Associate Content Editor"
-        },
-        {
+            "name": { "en": "Mohammad Alqudah", "ar": "محمد القضاه" },
+            "role": { "en": "Associate Content Editor", "ar": "محرر محتوى مشارك" }
+          },
+          {
             "image": "/img/faces/staff/Maram_Kanan.png",
-            "name": "Maram Kanaan",
-            "role": "Graphic Designer"
-        },
-        {
+            "name": { "en": "Maram Kanaan", "ar": "مرام كنعان" },
+            "role": { "en": "Graphic Designer", "ar": "مصمم جرافيك" }
+          },
+          {
             "image": "/img/faces/staff/al-sukhni.png",
-            "name": "Mohammad Alsukhni",
-            "role": "IT Support"
-        }
+            "name": { "en": "Mohammad Alsukhni", "ar": "محمد السخني" },
+            "role": { "en": "IT Support", "ar": "دعم فني" }
+          }
     ]
 }

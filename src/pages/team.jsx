@@ -12,10 +12,10 @@ const Team = () => {
   const { activeLocale } = useLocale();
   const TeamData = data.TeamData;
 
-  const pageTitle = "Our Team - A&B Consulting";
-  const description = "Meet the team of difference makers at A&B Consulting. Our dedicated professionals are here to help you achieve your business goals.";
-  const keywords = "team, professionals, business consulting, A&B Consulting";
-
+  const pageTitle = activeLocale === 'ar' ? "فريقنا - A&B Consulting" : "Our Team - A&B Consulting";
+  const description = activeLocale === 'ar' ? "تعرف على فريق صناع الفرق في A&B Consulting. مهنيونا الملتزمون هنا لمساعدتك في تحقيق أهداف عملك." : "Meet the team of difference makers at A&B Consulting. Our dedicated professionals are here to help you achieve your business goals.";
+  const keywords = activeLocale === 'ar' ? "الفريق, المهنيين, استشارات الأعمال, A&B Consulting" : "team, professionals, business consulting, A&B Consulting";
+  
   return (
     <Layouts>
       <NextSeo
@@ -50,26 +50,36 @@ const Team = () => {
         ]}
       />
 
-      <PageBanner pageTitle={"Difference <br>  <span class=\"mil-thin\">Makers</span>"} breadTitle={"Team"} anchorLabel={"Our team"} anchorLink={"#team"} />
+<PageBanner 
+  pageTitle={activeLocale === 'ar' ? "صنّاع الفرق" : "Difference <br>  <span class=\"mil-thin\">Makers</span>"} 
+  breadTitle={activeLocale === 'ar' ? "الفريق" : "Team"} 
+  anchorLabel={activeLocale === 'ar' ? "فريقنا" : "Our team"} 
+  anchorLink={"#team"} 
+/>
+
       <div className="logoStyle">
         <ABLogoDark />
       </div>
       {/* team */}
-      <section id="team">
-        <div className="container mil-p-0-90">
-          <SimpleGrid 
-           cols={{ base: 1, sm: 2, lg: 3 }}
-            spacing="40px"
-           
-          >
-            {TeamData.map((item, key) => (
-              <Box key={`team-item-${key}`}>
-                <IdCard name={item.name} position={item.role} img={item.image} />
-              </Box>
-            ))}
-          </SimpleGrid>
-        </div>
-      </section>
+   
+<section id="team">
+  <div className="container mil-p-0-90">
+    <SimpleGrid 
+      cols={{ base: 1, sm: 2, lg: 3 }}
+      spacing="40px"
+    >
+      {TeamData.map((item, key) => (
+        <Box key={`team-item-${key}`}>
+          <IdCard 
+            name={activeLocale === 'ar' ? item.name.ar : item.name.en} 
+            position={activeLocale === 'ar' ? item.role.ar : item.role.en} 
+            img={item.image} 
+          />
+        </Box>
+      ))}
+    </SimpleGrid>
+  </div>
+</section>
       {/* team end */}
 
       <CallToActionSection />

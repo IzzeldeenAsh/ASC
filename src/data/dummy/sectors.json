@@ -165,11 +165,11 @@
       "contentHtml": "",
       "title": {
         "english": "Metals and Mining",
-        "arabic": "المعادن والتعدين"
+        "arabic": "قطاع التعدين"
       },
       "preview_title": {
         "english": "Metals and Mining",
-        "arabic": "المعادن والتعدين"
+        "arabic": "قطاع التعدين"
       },
       "short": {
         "english": "We create tailored mining strategies, offering solutions and market analysis to elevate global projects. Our experts help mining companies navigate challenges and adopt sustainable practices.",
@@ -177,7 +177,7 @@
       },
       "introTitle": {
         "english": "Metals and Mining",
-        "arabic": "المعادن والتعدين"
+        "arabic": "قطاع التعدين"
       },
       "description": {
         "title": {
@@ -186,7 +186,7 @@
         },
         "content": {
           "english": "Our global perspective on the importance of the metal and mining sector motivates us to tailor the mining strategies that will take our clients’ mining endeavors to the next level.<br><br> Our proven track record of success is due to offering objective-aligned solutions and in-depth market analysis that help our clients drive sustainable business success.<br><br>  With many challenges and risks facing the sources of many industrial supply chains, A&B mining experts continuously support mining companies to help them navigate the multi-dimensional mining market and adopt the necessary governmental and environmentally friendly operational best practices.",
-          "arabic": "تحفزنا الرؤية العالمية لأهمية قطاع المعادن والتعدين على تخصيص استراتيجيات التعدين التي ستأخذ مشاريع التعدين لعملائنا إلى المستوى التالي. تعود سجلاتنا الناجحة إلى تقديم حلول تتماشى مع الأهداف وتحليلات سوق عميقة تساعد عملائنا على تحقيق نجاح أعمال مستدام. مع وجود العديد من التحديات والمخاطر التي تواجه مصادر العديد من سلاسل التوريد الصناعية، يقدم خبراء التعدين في A&B الدعم المستمر لشركات التعدين لمساعدتهم في التنقل في السوق التعدينية متعددة الأبعاد واعتماد أفضل الممارسات الحكومية والبيئية الصديقة للتشغيل."
+          "arabic": "من منظور يشمل السوق العالمي، ندرك أهمية قطاع التعدين والدور الذي يؤديه عملاؤنا العاملين في هذا القطاع في المساهمة في التنمية الاقتصادية المحلية والعالمية. فنسخر أبحاثنا ودراسات خبرائنا لتصميم استراتيجيات تعدين متخصصة تقدم حلولا لتحديات القطاع الجيولوجية والتقنية والبيئية.<br><br>بالإضافة إلى دراسات السوق الشاملة، يدعم خبراؤنا في A&B شركات التعدين ليقدموا حلولا متكاملة تتوافق مع أهدافهم لمساعدتهم على التنقل في سوق متعدد الأبعاد، كتقنيات التعدين النظيفة الصديقة للبيئة وإعادة التأهيل البيئي للمواقع التعدين وتقليل تأثير عمليات التعدين على المجتمع المحلي. ونعرض لهم أفضل ممارسات التشغيل المتماشية مع الأنظمة والقوانين الحكومية اللازمة لتحقيق نجاح تجاري مستدام في ظل التحديات والمخاطر التي تواجه مصادر سلاسل التوريد الصناعية."
         },
         "button": {
           "link": "/projects",
@@ -228,7 +228,7 @@
             "id" :"Operating-Model",
             "label": {
               "english": "Supply chain and operational performance",
-              "arabic": "أداء سلسلة التوريد والعمليات"
+              "arabic": "سلسلة التوريد والأداء التشغيلي"
             },
             "value": {
               "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
