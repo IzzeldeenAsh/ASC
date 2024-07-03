@@ -133,12 +133,18 @@ const SectorDetail = () => {
                 <div className="row" style={{ gap: "20px", padding: "0 40px" }}>
                   {sector.list.items.map((item, key) => (
                     <div
-                      className="col-lg-5 card-shadow"
+                      className="col-lg-5 card-shadow "
                       style={{ padding: "0 40px", maxWidth: "340px" }}
                       key={`blog-post-${key}`}
                     >
                       <Link href={`/subservice/${item.id}`} legacyBehavior>
-                        <a className="mil-blog-card mil-mb-60">
+                        <a className="mil-blog-card mil-mb-30">
+                    {item.image &&
+                        <div className="service-image-abs-wrapper">
+                        <div className="service-image-abs">
+                            <img className="w-100" style={{minHeight: "189px"}} src={item.image} alt="service-image"/>
+                          </div>
+                        </div>}
                           <div className="mil-post-descr">
                             <h5 className="mil-up mil-mb-30">
                               {activeLocale === "ar" ? item.label.arabic : item.label.english}
