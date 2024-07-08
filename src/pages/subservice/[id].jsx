@@ -22,7 +22,7 @@ const Subservice = (props) => {
   const metaTitle = activeLocale === "ar" ? subservice.title.arabic : subservice.title.english;
   const pageTitle = activeLocale === "ar" ? subservice.introTitle.arabic : subservice.introTitle.english;
   const breadTitle = activeLocale === "ar" ? subservice.title.arabic : subservice.title.english;
-  const description = activeLocale === "ar" ? subservice.short.arabic : subservice.short.english;
+  const description = activeLocale === "ar" ? subservice.short.arabic.replace(/{{locale}}/g, activeLocale) : subservice.short.english;
   const keywords = subservice.keywords.join(", ");
   const imageUrl = subservice.image;
 
@@ -88,7 +88,7 @@ const Subservice = (props) => {
               </div>
             </div>
             <div className="col-lg-12 mil-mb-90">
-              <div className={`mil-text mil-up mil-text-lg`} dangerouslySetInnerHTML={{ __html:activeLocale ==='ar' ? subservice.contentHtml.arabic :  subservice.contentHtml.english }} />
+              <div className={`mil-text mil-up mil-text-lg`} dangerouslySetInnerHTML={{ __html:activeLocale ==='ar' ? subservice.contentHtml.arabic.replace(/{{locale}}/g, activeLocale) :  subservice.contentHtml.english }} />
               {typeof subservice.gallery !== "undefined" && subservice.gallery.enabled == 1 && (
                 <div className="row">
                   {subservice.gallery.items.map((item, key) => (
@@ -134,8 +134,8 @@ const Subservice = (props) => {
 
       <section className="mil-soft-bg">
         <RequestService 
-          messageAr={"هل أنت مستعد لتحويل أفكارك إلى واقع؟ <br> اطلب هذه الخدمة "}
-          messageEn={"Ready to bring your <span class=\"mil-thin\">ideas to</span> life? <br> Ask <span class=\"mil-thin\"> about this service</span> "}
+          messageAr={" اطلب هذه الخدمة "}
+          messageEn={"Ask <span class=\"mil-thin\"> about this service</span> "}
           serviceName={activeLocale === 'ar' ? subservice.title.arabic : subservice.title.english}
         />
       </section>
