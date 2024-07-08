@@ -13,7 +13,7 @@ import Image from "next/image";
 import RequestService from "@components/sections/RequestService";
 import { NextSeo } from 'next-seo';
 import {HeaderMegaMenu} from "@components/HeeaderMegaMenu";
-
+import QuotesIcons from "@/src/layouts/svg-icons/Quotes";
 const ServiceDetail = () => {
   const { activeLocale } = useLocale();
   const router = useRouter();
@@ -104,24 +104,24 @@ const ServiceDetail = () => {
         <HeaderMegaMenu/>
         </div>
         <div className="nav-shadow"></div>
+        
         <section id="service">
+        <div className="slogan-bg">
+        <div className="slogan-container container">
+                      <span
+                        className="slogan-text" 
+                        dangerouslySetInnerHTML={{ __html: slogan }}
+                      />
+                         <div className="quotes-icons"><QuotesIcons side={"right"}/></div>
+        </div>
+        </div>
           <div className="container mil-p-30-30">
             <div className="row justify-content-between">
               <div className="mil-relative mil-mb-30 col-lg-12">
                 <div className="position-relative justify-content-between flex-1">
-                  <div className="title-yellow-head">
-                    <ABQuoations />
-                  </div>
-                  <ul className={`  ${activeLocale === "en" ? "mil-lines-highlight-en " : "mil-lines-highlight-ar "}`}>
-                    <li>
-                      <h4
-                        className=" mil-mb-30 italic"
-                        dangerouslySetInnerHTML={{ __html: slogan }}
-                      />
-                    </li>
-                  </ul>
+        
                 </div>
-                <p className="mil-up mil-mb-30 mil-text-lg" dangerouslySetInnerHTML={{ __html: content }} />
+                <p className="mil-up mil-mb-30 mil-text-lg mil-p-120-0" dangerouslySetInnerHTML={{ __html: content }} />
                 {service.infograph &&
                   <div className="infograph d-flex flex-column justify-content-center align-items-center">
                     <div className="responsive-image">
