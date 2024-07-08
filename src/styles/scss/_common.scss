@@ -1503,8 +1503,6 @@ transform: rotate(0deg);
     position: absolute;
     background-color: #F6D84D;
     top: 0;
-    left: -13%;
-    height: 12vh;
     width: 100vw;
     min-height: 90px;
 }
@@ -1512,10 +1510,9 @@ transform: rotate(0deg);
     font-size: 40px;
     font-weight: 500;
     color: #0A1B2F;
-    padding-top: 5px;
 }
 .quotes-icons{
     position: absolute;
-    left: -50px;
+    right: 90%;
     top: 20px;
 }
