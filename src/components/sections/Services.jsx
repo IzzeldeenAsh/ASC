@@ -14,7 +14,7 @@ const ServicesSection = () => {
       <section id="servcise">
         
         <div className="mi-invert-fix">
-          <div className="container mil-p-100-0 d-flex flex-column align-items-center">
+          <div className="container mil-p-60-0 d-flex flex-column align-items-center">
           <div className="row mil-services-grid mil-mb-120">
             <div className="featured">
               <div>{t("featured")}</div>
