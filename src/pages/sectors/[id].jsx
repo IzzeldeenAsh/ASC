@@ -91,8 +91,8 @@ const SectorDetail = () => {
         </div>
         <div className="nav-shadow"></div>
         <section id="service">
-          <div className="container mil-p-30-90 position-relative">
-            <div className="slogan-bg"></div>
+        <div className="slogan-bg"></div>
+          <div className="container mil-p-30-90">
             <div className="quotes-icons"><QuotesIcons side={"right"}/></div>
             <div className="row justify-content-between">
               <div className="mil-relative col-lg-12">
