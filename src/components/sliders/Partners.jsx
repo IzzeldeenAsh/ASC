@@ -9,7 +9,7 @@ const PartnersSlider = () => {
 return (
   <>
   {/* partners */}
-  <div className="mil-soft-bg   mil-p-120-120">
+  <div className="mil-soft-bg   mil-p-100-120">
       <div className="container">
       <div
               className="mil-complex-text flex-column justify-content-center mil-up mil-center "

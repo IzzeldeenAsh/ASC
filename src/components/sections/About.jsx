@@ -8,7 +8,7 @@ const AboutSection = () => {
         <>
             {/* about */}
             <section id="about" className="mil-soft-bg" >
-                <div className="container mil-p-120-30">
+                <div className="container mil-p-100-30">
                     <div className="row justify-content-between align-items-center">
                         <div className="col-lg-6 col-xl-5">
                             <div className="mil-mb-60">
