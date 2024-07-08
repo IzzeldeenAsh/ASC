@@ -1510,9 +1510,26 @@ transform: rotate(0deg);
     font-size: 40px;
     font-weight: 500;
     color: #0A1B2F;
+    position: relative;
+    z-index: 2;
+    line-height: 1;
+    @media screen and (max-width:992px) {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    @media screen and (max-width:460px) {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+}
+.slogan-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 90px;
+    position: relative;
 }
 .quotes-icons{
     position: absolute;
-    right: 90%;
-    top: 20px;
+    left: -5%;
 }

@@ -49,7 +49,7 @@ const ServiceDetail = () => {
   const pageTitle = activeLocale === "ar" ? service.introTitle.arabic : service.introTitle.english;
   const breadTitle = activeLocale === "ar" ? service.title.arabic : service.title.english;
   const slogan = activeLocale === "ar" ? service.description.title.arabic : service.description.title.english;
-  const content = activeLocale === "ar" ? service.description.content.arabic : service.description.content.english;
+  const content = activeLocale === "ar" ? service.description.content.arabic.replace(/{{locale}}/g, activeLocale) : service.description.content.english;
   const keywords = service.keywords.join(", ");
   const description = activeLocale === "ar" ? service.short.arabic : service.short.english;
   const imageUrl = service.imgURL;
@@ -186,8 +186,8 @@ const ServiceDetail = () => {
 
         <section className="mil-soft-bg">
           <RequestService
-            messageAr={"هل أنت مستعد لتحويل أفكارك إلى واقع؟ <br> اطلب هذه الخدمة "}
-            messageEn={"Ready to bring your <span class=\"mil-thin\">ideas to</span> life? <br> Ask <span class=\"mil-thin\"> about this service</span> "}
+            messageAr={" اطلب هذه الخدمة "}
+            messageEn={" Ask <span class=\"mil-thin\"> about this service</span> "}
             serviceName={breadTitle}
           />
         </section>

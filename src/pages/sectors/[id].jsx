@@ -91,24 +91,29 @@ const SectorDetail = () => {
         </div>
         <div className="nav-shadow"></div>
         <section id="service">
-        <div className="slogan-bg"></div>
+        <div className="slogan-bg">
+        <div className="slogan-container container">
+                      <span
+                        className="slogan-text" 
+                        dangerouslySetInnerHTML={{ __html: slogan }}
+                      />
+                         <div className="quotes-icons"><QuotesIcons side={"right"}/></div>
+        </div>
+        </div>
           <div className="container mil-p-30-90">
-            <div className="quotes-icons"><QuotesIcons side={"right"}/></div>
+          
             <div className="row justify-content-between">
               <div className="mil-relative col-lg-12">
                 <div className="position-relative justify-content-between flex-1">
 
                   <ul >
-                    <li>
-                      <div
-                        className=" mil-mb-60 slogan-text" 
-                        dangerouslySetInnerHTML={{ __html: slogan }}
-                      />
+                    <li className="position-relative">
+                   
                     </li>
                   </ul>
                 </div>
                 <p
-                  className="mil-up mil-mb-30 mil-text-lg"
+                  className="mil-up mil-mb-30 mil-text-lg mil-p-120-0"
                   dangerouslySetInnerHTML={{ __html: content }}
                 />
               </div>
