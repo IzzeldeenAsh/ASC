@@ -1531,5 +1531,13 @@ transform: rotate(0deg);
 }
 .quotes-icons{
     position: absolute;
+}
+[dir="rtl"] .quotes-icons{
+    right: -5%;
+    transform: rotateY(180deg);
+}
+[dir="ltr"] .quotes-icons{
     left: -5%;
+    transform: rotateY(0deg);
+ 
 }
