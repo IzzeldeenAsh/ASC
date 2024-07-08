@@ -65,7 +65,7 @@ const ServicesSection = () => {
                   style={{ position: "relative" }}
                 >
                     
-                  <Link href={activeLocale==='ar' ? item.link.replace(/{{locale}}/g, activeLocale) : item.link} className="mil-service-card-sm mil-up">
+                  <Link href={activeLocale === 'ar' ? item.link.replace(/{{locale}}/g, activeLocale) : item.link.replace(/{{locale}}/g, 'en')} className="mil-service-card-sm mil-up">
                     <div
                       className="mil-squares service-squares"
                       style={

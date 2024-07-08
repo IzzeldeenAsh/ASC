@@ -96,12 +96,12 @@ useEffect(() => {
                                   <Link href={`/services/${item.id}`} className= "mil-service-card-lg mil-more mil-accent-cursor ">
                                       <h4 className="mil-muted mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale === 'en' ? item.preview_title.english :item.preview_title.arabic }} />
                                       </Link>
-                                      <p className="mil-descr mil-light-soft mil-up mil-mb-30">
+                                      {/* <p className="mil-descr mil-light-soft mil-up mil-mb-30">
                                         { activeLocale === 'en' ?
                                          <Truncate text={item.description.content.english} maxLength={120} /> 
                                          :
                                          <Truncate text={item.description.content.arabic} maxLength={120} /> }
-                                      </p>
+                                      </p> */}
                                       <ul className="mil-service-list mil-light mil-mb-30">
                                         {item.list.items.map((list_item, list_key) => (
                                           <li className="mil-up" key={`services-item-${key}-list-${list_key}`}>
