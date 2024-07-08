@@ -23,7 +23,7 @@ import aboutData from "@data/sections/about.json"
 import Link from 'next/link';
 
 
-export function HeaderMegaMenu() {
+export function HeaderMegaMenu({mode="light"}) {
     const { activeLocale } = useLocale();
     const clipboard = useClipboard({ timeout: 500 });
     const [notificationKey, setNotificationKey] = useState(null);
@@ -38,7 +38,7 @@ export function HeaderMegaMenu() {
             <UnstyledButton className={classes.subLink}>
                 <Group wrap="nowrap" align="flex-start">
                     <div>
-                        <Text size="sm" fw={500} dangerouslySetInnerHTML={{__html:label}}/>
+                        <Text  size="sm" fw={500} dangerouslySetInnerHTML={{__html:label}}/>
                         {description && (
                             <Text size="xs" c="dimmed">
                                 {description}
@@ -158,7 +158,7 @@ export function HeaderMegaMenu() {
                         <HoverCard.Target>
                             <Link href={section.link} className={classes.link}>
                                 <Center inline>
-                                    <Box component="span" me={5}>{
+                                    <Box c="#fff" component="span" me={5}>{
                                         activeLocale=== 'en' ?
                                             section.title.english :
                                             section.title.arabic
@@ -226,7 +226,7 @@ export function HeaderMegaMenu() {
                     <HoverCard.Target>
                         <Link href={"/contact"} className={classes.link}>
                             <Center inline>
-                                <Box component="span" me={5}>{activeLocale ==='en' ? "Contact" : "تواصل معنا"}</Box>
+                                <Box c="#fff" component="span" me={5}>{activeLocale ==='en' ? "Contact" : "تواصل معنا"}</Box>
                                 {/* <IconChevronDown style={{ width: rem(16), height: rem(16) }} color={"#F5D84C"} /> */}
                             </Center>
                         </Link>

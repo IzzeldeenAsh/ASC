@@ -60,7 +60,7 @@ const TeamSection = () => {
                       >
                         <div
                           className="mil-squares team-squares"
-                          style={{ right: "-4px" }}
+                          style={activeLocale ==='ar' ?  { right: "3px" , transform: "rotateY(180deg)" } : { right: "-4px" }  }
                         >
                           <span className="mil-square"></span>
                           <span className="mil-square"></span>

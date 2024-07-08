@@ -8,7 +8,7 @@ import Together from "@components/sections/Together";
 import CustomizedTimeline from "@components/mobile-timeline";
 import ABLogoLight from "../layouts/svg-icons/AB-Logo-Light";
 import { NextSeo } from 'next-seo';
-
+import {HeaderMegaMenu} from "@components/HeeaderMegaMenu";
 const About = () => {
   const postData = aboutData;
   const { activeLocale } = useLocale();
@@ -79,7 +79,10 @@ const About = () => {
         paddingBottom={0}
         bg={postData.image}
       />
-
+   <div className="hero-nav">
+        <HeaderMegaMenu/>
+        </div>
+        <div className="nav-shadow"></div>
       {/* publication */}
       <section id="blog">
         <div className="container mil-p-90-90">

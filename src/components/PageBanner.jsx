@@ -7,13 +7,15 @@ import Image from 'next/image';
 import { useEffect, useRef, useMemo } from 'react';
 import { useLocale } from '@/utils/getLocale';
 import aboutData from "@data/sections/about.json"
+
 const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 0, paddingBottom, align, headingSize = 1 ,imgUrl,bg,isService}) => {
   const { activeLocale } = useLocale();
   const bgBanner = useMemo(() => ({
     position: 'relative',
     overflow: 'hidden',
     minHeight: '35em',
-    backgroundColor:"#0a1b30"
+    backgroundColor:"#0a1b30",
+    height:"88vh"
   }), []);
 
   const labels = {
@@ -60,11 +62,11 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor,subtext="",anchorLink = 
   
   return (
     <div className={paddingBottom ? "mil-inner-banner mil-p-0-120" : "mil-inner-banner"}>
-      <div className={align == "center" ? "mil-banner-content mil-center mil-up" : "mil-banner-content mil-up"} style={bg ? bgBanner : {}}>
+      <div className={align == "center" ? "mil-banner-content mil-up" : "mil-banner-content mil-up"} style={bg ? bgBanner : {}}>
         {bg && <div style={bgBannerBefore} className='d-none d-sm-block' />}
         <div className={bg ? "bannderOverlay" : ""}>
-          <div className={paddingBottom ? "container mil-p-0-30" : "container"}>
-            <ul className={breadColor === "light" ? "mil-breadcrumbs-light mil-breadcrumbs mil-mb-120" : "mil-breadcrumbs mil-mb-120"}>
+          <div className={paddingBottom ? "container mil-p-0-30" : "container" } >
+            <ul className={breadColor === "light" ? "mil-breadcrumbs-light mil-breadcrumbs mil-mb-120" : "mil-breadcrumbs mil-mb-120"} >
              
               <li className={breadColor === "light" ? "mil-light" : ""}>
                 <Link href="/">{activeLocale === 'ar' ? "الرئيسية" : "Homepage"}</Link>

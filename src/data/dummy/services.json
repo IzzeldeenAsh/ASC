@@ -848,6 +848,119 @@
         "تطوير القيادة",
         "إشراك الموظفين"
       ]
+    },
+    {
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717673950/2648_vsebfk.webp",
+      "id": "service-8",
+      "contentHtml": "",
+      "sector": [
+        "Management Consulting"
+      ],
+      "title": {
+        "english": "Business & Organizations",
+        "arabic": "الأعمال والمؤسسات"
+      },
+      "preview_title": {
+        "english": "Business & Organizations",
+        "arabic": "الأعمال والمؤسسات"
+      },
+      "short": {
+        "english": "Empowering Entrepreneurs, Igniting Innovation, Building Communities",
+        "arabic": "تمكين رواد الأعمال، إشعال الابتكار، بناء المجتمعات"
+      },
+      "introTitle": {
+        "english": "Business and <br> <span class=\"mil-thin\"> Organizations</span>",
+        "arabic": "الأعمال والمؤسسات"
+      },
+      "description": {
+        "title": {
+          "english": "Your Trusted Partner for Business Transformation.",
+          "arabic": "شريكك الموثوق لتحويل الأعمال."
+        },
+        "content": {
+          "english": "In today's dynamic business landscape, organizations face numerous challenges in establishing their brand, cultivating a positive company culture, and navigating through transformative changes. At A&B Consulting, we offer expert guidance and tailored solutions to help businesses overcome these obstacles and achieve sustainable growth.",
+          "arabic": "في المشهد التجاري الديناميكي اليوم، تواجه المؤسسات العديد من التحديات في ترسيخ علامتها التجارية، وتنمية ثقافة شركة إيجابية، والملاحة خلال التغييرات التحويلية. في A&B Consulting، نقدم إرشادات الخبراء والحلول المصممة خصيصًا لمساعدة الشركات على التغلب على هذه العقبات وتحقيق نمو مستدام."
+        },
+        "button": {
+          "link": "/projects",
+          "label": {
+            "english": "View Our Projects",
+            "arabic": "عرض المشاريع الخاصة بنا"
+          }
+        }
+      },
+      "list": {
+        "items": [
+          {
+            "id": "s8-branding",
+            "isSubService": true,
+            "label": {
+              "english": "Branding",
+              "arabic":"بناء الهوية والعلامة التجارية "
+            },
+            "value": {
+              "english": "Branding is not limited to motos and logos; it is that overall distinctive experience associated with your organization that sets you apart from other competitors. A&B branding experts help organizations establish trusted emotional connections with their target audience. By aligning their mission and vision with what they aspire to achieve, we craft that suitable branding strategy to facilitate increasing brand visibility and awareness, and ultimately drive sales.",
+              "arabic": "لا تقتصر العلامة التجارية على الشعارات والعبارات فقط ؛ بل تتعلق بالتجارب المرتبطة بالمؤسسة والتي تميزها عن المنافسين الآخرين.<br><br>يساعد خبراء بناء الهوية في A&B المؤسسات على بناء روابط عاطفية موثوقة مع جمهورها المستهدف. فاستراتيجياتنا تعتمد على مواءمة رسالة ورؤية المؤسسة مع طموحاتها. فيقومون بصياغة استراتيجية العلامة التجارية المناسبة لتسهيل زيادة رؤية العلامة التجارية والوعي بها، وفي النهاية زيادة المبيعات."
+            }
+          },
+          {
+            "id": "s8-company-culture",
+            "isSubService": true,
+            "label": {
+              "english": "Company culture",
+              "arabic": "الثقافة المؤسسية"
+            },
+            "value": {
+              "english": "The values, beliefs and attitudes of workers integrate to shape the general employee behavior. Our Leadership and Management experts at A&B Consulting believe that unique innovations are the result of a well-enhanced company culture and a genuine brand. By involving directors, managers, human resources and employees, we help organizations get to the level of excellence they hope for by drafting effective strategies to affect positive change throughout the entire company.",
+              "arabic": "تتكامل قيم ومعتقدات ومواقف العاملين لتشكيل السلوك العام للموظفين. يؤمن خبراء القيادة والإدارة لدينا في A&B Consulting بأن الابتكارات الفريدة هي نتيجة ثقافة شركة محسنة بشكل جيد وعلامة تجارية أصلية. من خلال إشراك المديرين والمدراء والموارد البشرية والموظفين، نساعد المؤسسات على الوصول إلى مستوى التميز الذي يأملون فيه من خلال صياغة استراتيجيات فعالة لإحداث تغيير إيجابي في جميع أنحاء الشركة."
+            }
+          },
+          {
+            "id": "s8-business-transformation",
+            "isSubService": true,
+            "label": {
+              "english": "Business Transformation",
+              "arabic": "تحول الأعمال"
+            },
+            "value": {
+              "english": "Frequent Market disruptions and changing customer expectations require that organizations stay on top of challenges to maintain profitability.  Transforming principal operations, technologies and even company culture requires tailored business transformation strategies that will help successfully redefine how an organization operates and delivers value. At A&B, our business transformation strategies help clients go through business transformation as effectively and smoothly as possible by assessing their current state, zooming in on the desired target, and involving stakeholders to seamlessly incorporate visions and missions with the needed change.",
+              "arabic": "إن تغيّرات السوق المتكررة وتعدد واختلاف توقعات العملاء يتطلب من الشركات البقاء على رأس التحديات من أجل الحفاظ على الربحية.<br>والشروع بتحول الاعمال الذي يتضمن أيا من العمليات والتقنيات الأساسية وحتى ثقافة الشركة يتطلب استراتيجيات مصممة خصيصًا لتحويل الأعمال الذي من شأنه أن يساعد بنجاح في إعادة تعريف كيفية عمل المؤسسة وتقديم القيمة ( value) للعملاء.<br><br>في A&B، نقدّم استراتيجيات تحويل الأعمال التي تساعد عملائنا على تجاوز عمليات التحول بأكبر قدر من الفعالية والسلاسة، من خلال تقييم حالتهم الحالية، وتحديد الأهداف المرغوبة وإشراك أصحاب المصلحة لدمج رسالتهم ورؤيتهم المؤسسية بسلاسة مع التغييرات المطلوبة."
+            }
+          }
+          ,
+          {
+            "id": "s8-IPO-readiness",
+            "isSubService": true,
+            "label": {
+              "english": "IPO Readiness",
+              "arabic": "جاهزية الطرح العام الأولي"
+            },
+              "value": {
+                "english": "<p>Valuation is a critical component of the IPO process as it helps determine the offering price of the company's shares. In addition to other <a class=\"hyper-link\" href=\"/services/service-8\" target=\"__blank\">business transformation</a> support tools we offer to our clients, A&B provides a thorough assessment and valuation of their technical assets to help clients go smoothly in their Initial Public Offering (IPO) transformation journey and highlight their commercial potential.</p><p>As experts in the <a class=\"hyper-link\" href=\"/sectors/sector-1\" target=\"__blank\">industrial sector</a>, we can make your tangible asset due diligence as accurate as it ever can be by:</p><ul><li>Assets Market Value: Estimating the fair market value of the subject equipment.</li><li>Comparable Sales Value: Comparing equipment to similar assets sold in the market.</li><li>Income Capitalization: Estimating the value of equipment based on its income-producing potential.</li></ul>",
+                "arabic": "<p>تُعد التقييمات مكونًا حاسمًا في عملية الطرح العام الأولي لأنها تساعد في تحديد سعر عرض أسهم الشركة. بالإضافة إلى أدوات الدعم الأخرى <a class=\"hyper-link\" href=\"/services/service-8\" target=\"__blank\">للتحول التجاري</a> التي نقدمها لعملائنا، توفر A&B تقييمًا شاملاً لأصولهم التقنية لمساعدة العملاء على المضي قدمًا بسلاسة في رحلة تحولهم للطرح العام الأولي وإبراز إمكاناتهم التجارية.</p><p>كخبراء في <a class=\"hyper-link\" href=\"/sectors/sector-1\" target=\"__blank\">القطاع الصناعي</a>، يمكننا جعل العناية الواجبة للأصول الملموسة دقيقة قدر الإمكان من خلال:</p><ul><li>قيمة السوق للأصول: تقدير القيمة السوقية العادلة للمعدات المعنية.</li><li>قيمة المبيعات المقارنة: مقارنة المعدات بأصول مشابهة تم بيعها في السوق.</li><li>رسملة الدخل: تقدير قيمة المعدات بناءً على إمكاناتها في توليد الدخل.</li></ul>"
+              }
+            
+          }
+        ]
+      },
+      "keywords": [
+        "Business consulting",
+        "Organizational development",
+        "Branding strategy",
+        "Company culture consulting",
+        "Business transformation",
+        "Change management",
+        "Leadership development",
+        "Employee engagement",
+        "استشارات الأعمال",
+        "تطوير تنظيمي",
+        "استراتيجية العلامة التجارية",
+        "استشارات ثقافة الشركة",
+        "تحول الأعمال",
+        "إدارة التغيير",
+        "تطوير القيادة",
+        "إشراك الموظفين"
+      ]
     }
   ]
 }

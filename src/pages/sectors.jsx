@@ -11,6 +11,7 @@ import ArrowIcon from "@layouts/svg-icons/Arrow";
 import sectorsData from "@data/dummy/sectors.json"
 import {  TextInput } from '@mantine/core';
 import { IoIosSearch } from "react-icons/io";
+import {HeaderMegaMenu} from "@components/HeeaderMegaMenu";
 const Sectors = () => {
 const {activeLocale} = useLocale();
 const [isMounted,setIsMounted] = useState(false); // Need this for the react-tooltip
@@ -56,7 +57,9 @@ useEffect(() => {
       breadTitle={activeLocale ==='ar' ? breadTitle.arabic : breadTitle.english} 
       anchorLabel={activeLocale ==='ar' ?anchorLabel.arabic : anchorLabel.english} 
       anchorLink={"#sectors"} />
-
+  <div className="hero-nav">
+        <HeaderMegaMenu/>
+        </div>
       {/* services */}
       <section id="sectors" className="mil-p-0-90">
       <div className="search container ">
@@ -108,15 +111,9 @@ useEffect(() => {
                                         ))}
                                       </ul> */}
                                       <Link href={`/sectors/${item.id}`}>
-                                      <div className="mil-link mil-accent mil-arrow-place mil-up">
-                                          <span>{
-                                             activeLocale ==="ar" ?
-                                             "اكتشف":
-                                             "Discover"
-                                             }
-                                             </span>
+                                      <div className="mil-link mil-accent mil-arrow-place mil-up" >
                                           <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
-                                          <ArrowIcon  />
+                                          <ArrowIcon margin={"0"}  />
                                           </div>
                                       </div>
                                       </Link>

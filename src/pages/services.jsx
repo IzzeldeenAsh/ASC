@@ -11,7 +11,7 @@ import servicesData from "@data/dummy/services.json"
 import {  TextInput } from '@mantine/core';
 import { IoIosSearch } from "react-icons/io";
 import Truncate from "@components/Truncate";
-
+import {HeaderMegaMenu} from "@components/HeeaderMegaMenu";
 const Services = () => {
 const {activeLocale , t} = useLocale();
 const pageTitle ={
@@ -26,6 +26,7 @@ const anchorLabel= {
   english: "Our services",
   arabic: "خدماتنا"
 }
+
 const [isMounted,setIsMounted] = useState(false); // Need this for the react-tooltip
 const [selectedSector , setSelectedSector] = useState('All');
 const [searchTerm,setSearchTerm] = useState('');
@@ -50,19 +51,22 @@ useEffect(() => {
     setIsMounted(true);
 },[]);
   return (isMounted &&
-    <Layouts>
+
+  <Layouts>
        <div className="logoStyle">
           <ABLogoLight/>
         </div>
   {/* banner */}
-  <div className="mil-dark-bg" >
+      <div className="mil-dark-bg" >
       <PageBannerDark
-   pageTitle={activeLocale ==="ar" ? pageTitle.arabic : pageTitle.english} 
-   breadTitle={activeLocale ==='ar' ? breadTitle.arabic : breadTitle.english} 
-   anchorLabel={activeLocale ==='ar' ?anchorLabel.arabic : anchorLabel.english} 
+          pageTitle={activeLocale ==="ar" ? pageTitle.arabic : pageTitle.english} 
+          breadTitle={activeLocale ==='ar' ? breadTitle.arabic : breadTitle.english} 
+          anchorLabel={activeLocale ==='ar' ?anchorLabel.arabic : anchorLabel.english} 
           anchorLink={"#services"} />
-
       {/* services */}
+      <div className="hero-nav">
+        <HeaderMegaMenu/>
+        </div>
       <section id="services">
       <div className="search container ">
            <div className="search-bar mil-up">
@@ -113,19 +117,12 @@ useEffect(() => {
                                   
                                       <Link href={`/services/${item.id}`}>
                                       <div className="mil-link mil-accent mil-arrow-place mil-up">
-                                          <span>{
-                                             activeLocale ==="ar" ?
-                                             "اكتشف":
-                                             "Discover"
-                                             }
-                                             </span>
+                                          
                                           <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
-                                          <ArrowIcon  />
+                                          <ArrowIcon margin={"0"}  />
                                           </div>
                                       </div>
                                       </Link>
-                                     
-                                 
                               </div>
                               ))}
                           </div>
@@ -134,9 +131,8 @@ useEffect(() => {
               </div>
           </div>
       </section>
-  </div>
-  {/* services end */}
-
+      </div>
+      {/* services end */}
   <CallToActionSection />
   
 </Layouts>

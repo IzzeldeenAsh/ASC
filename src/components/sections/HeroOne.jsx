@@ -11,15 +11,13 @@ const HeroOne = () => {
         <div className="hero-nav">
         <HeaderMegaMenu/>
         </div>
-        <div className="bottom-border-nav"></div>
+        <div className="nav-shadow"></div>
            <div className="logoStyle">
           <ABLogoLight/>
         </div>
-  
+       
             {/* banner */}
-            
             <section className="mil-banner mil-dark-bg " >
-
             <div className="hero-image" 
            style={{
             backgroundImage: `url(${activeLocale === 'ar' ? bgImageAr : bgImageEn})`,
@@ -28,9 +26,7 @@ const HeroOne = () => {
             backgroundRepeat: 'no-repeat',
             height: '100vh', // Ensure the container has height
             width: '100%', // Ensure the container has width
-        }}
-            
-            ></div>
+        }}></div>
                 <div className="mi-invert-fix">
                     <div className="mil-gradient" />
                     <div className="container" style={{marginTop:'80px'}}> 

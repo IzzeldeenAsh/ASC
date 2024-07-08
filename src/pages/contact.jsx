@@ -4,14 +4,13 @@ import { Formik } from "formik";
 import AppData from "@data/app.json";
 import { useLocale } from "@/utils/getLocale";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
-import WorldMap from "../components/WorldMap";
-import ABLogoDark from "@layouts/svg-icons/AB-Logo-Dark";
 import { SelectDropdownSearch } from "@components/SelectDropdownWithSearch";
-import { IconCopy, IconX, IconCheck } from '@tabler/icons-react';
+import {  IconX, IconCheck } from '@tabler/icons-react';
 import { useState } from "react";
 import { Notification, rem } from '@mantine/core';
 import { NextSeo } from 'next-seo';
-
+import ABLogoLight from "../layouts/svg-icons/AB-Logo-Light";
+import {HeaderMegaMenu} from "@components/HeeaderMegaMenu";
 const Contact = () => {
   const { activeLocale } = useLocale();
   const pageTitle = {
@@ -140,8 +139,12 @@ const Contact = () => {
       />
 
       <div className="logoStyle">
-        <ABLogoDark />
+        <ABLogoLight />
       </div>
+      <div className="hero-nav">
+        <HeaderMegaMenu/>
+        </div>
+        <div className="nav-shadow"></div>
       <PageBanner
         pageTitle={activeLocale === "ar" ? pageTitle.arabic : pageTitle.english}
         breadTitle={activeLocale === 'ar' ? breadTitle.arabic : breadTitle.english}

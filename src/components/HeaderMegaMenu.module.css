@@ -35,7 +35,7 @@
   }
   
   .dropdownFooter {
-    background-color: #091A2E;
+    background-color: #0A1B2E;
     margin: calc(var(--mantine-spacing-md) * -1);
     color:#fff;
     margin-top: var(--mantine-spacing-sm);

@@ -1,12 +1,10 @@
-import Data from "@data/sections/services.json";
+import Data from "@data/dummy/featured.json";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
-import ABQuoations from "@layouts/svg-icons/AB-Quotations";
 import { IconArrowNarrowRight } from '@tabler/icons-react';
-import Truncate from "../Truncate";
-import Image from "next/image";
+
 const ServicesSection = () => {
   const { activeLocale, t } = useLocale();
   return (
@@ -60,14 +58,14 @@ const ServicesSection = () => {
                 </Link>
               </div>
             </div>
-              {Data.items.slice(0, 4).map((item, key) => (
+              {Data.featured.map((item, key) => (
                 <div
                   key={`services-item-${key}`}
-                  className="col-md-6 col-lg-3 mil-services-grid-item p-0 "
+                  className=" mil-services-grid-item p-0 "
                   style={{ position: "relative" }}
                 >
                     
-                  <Link href={item.link} className="mil-service-card-sm mil-up">
+                  <Link href={activeLocale==='ar' ? item.link.replace(/{{locale}}/g, activeLocale) : item.link} className="mil-service-card-sm mil-up">
                     <div
                       className="mil-squares service-squares"
                       style={
@@ -82,7 +80,7 @@ const ServicesSection = () => {
                     </div>
                     <div className="service-image-abs-wrapper">
                     <div className="service-image-abs">
-                        <img className="w-100" src={item.miniImage} alt="service-image"/>
+                        <img className="w-100" src={item.image} alt="service-image"/>
                       </div>
                     </div>
                     

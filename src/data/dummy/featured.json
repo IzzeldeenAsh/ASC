@@ -1,0 +1,50 @@
+{
+    "featured": [
+      {
+        "image":"https://res.cloudinary.com/dahiaq28x/image/upload/v1720082081/industrial-mini_a1q1es.webp",
+        "title" :{
+            "english": "Industrial",
+            "arabic": "الصناعة"
+        },
+        "link" : "/{{locale}}/sectors/sector-1",
+        "type" :"sector"
+      },
+      {
+        "image":"https://res.cloudinary.com/dahiaq28x/image/upload/v1720013271/New_Project_swcvbm.webp",
+        "title" :{
+            "english": "Smart Cities and Mobility",
+             "arabic": "المدن الذكية والتنقل"
+        },
+        "link" : "/{{locale}}/serivces/service-1",
+        "type" :"service"
+      },
+      {
+        "image":"https://res.cloudinary.com/dahiaq28x/image/upload/v1720013653/digital-mini_sbugfv.webp",
+        "title" :{
+            "english": "Digital Transformation",
+            "arabic": "التحول الرقمي"
+        },
+        "link" : "/{{locale}}/serivces/service-2",
+        "type" :"service"
+      },
+      {
+        "image":"https://res.cloudinary.com/dahiaq28x/image/upload/v1719742905/mini-energy_aw8in4.webp",
+        "title" :{
+            "english": "Renewable Energy",
+            "arabic": "تحويل الطاقة المتجددة"
+        },
+        "link" : "/{{locale}}/serivces/service-3",
+        "type" :"service"
+      },
+      {
+        "image":"https://res.cloudinary.com/dahiaq28x/image/upload/v1720013796/sus-min_swwj5o.webp",
+        "title" :{
+            "english": "Sustainable Manufacturing",
+            "arabic": "التصنيع المستدام"
+        },
+        "link" : "/{{locale}}/serivces/service-4",
+        "type" :"service"
+      }
+
+    ]
+  }

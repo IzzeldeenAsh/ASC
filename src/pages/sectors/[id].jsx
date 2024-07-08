@@ -7,13 +7,13 @@ import { Accordion } from "../../common/utilits";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import sectorsData from "@data/dummy/sectors.json";
-import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
+import QuotesIcons from "@/src/layouts/svg-icons/Quotes";
 import ABLogoLight from "@layouts/svg-icons/AB-Logo-Light";
 import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
 import Image from "next/image";
 import Truncate from "@/src/components/Truncate";
 import { NextSeo } from 'next-seo';
-
+import { HeaderMegaMenu } from "@components/HeeaderMegaMenu"
 const SectorDetail = () => {
   const { activeLocale } = useLocale();
   const router = useRouter();
@@ -28,7 +28,7 @@ const SectorDetail = () => {
   const sector = sectorsData.sectors.find((sector) => sector.id === id);
 
   if (!sector) return <div>Sector not found</div>;
-  const metaTitle =  activeLocale === "ar" ? sector.title.arabic : sector.title.english;
+  const metaTitle = activeLocale === "ar" ? sector.title.arabic : sector.title.english;
   const pageTitle = activeLocale === "ar" ? sector.introTitle.arabic : sector.introTitle.english;
   const breadTitle = activeLocale === "ar" ? sector.title.arabic : sector.title.english;
   const slogan = activeLocale === "ar" ? sector.description.title.arabic : sector.description.title.english;
@@ -73,32 +73,35 @@ const SectorDetail = () => {
             },
           ]}
         />
-        
+
         <div className="logoStyle">
           {logoColor === "light" && <ABLogoLight />}
           {logoColor === "dark" && <ABLogoDark />}
         </div>
         <PageBanner
-          pageTitle={pageTitle}
+          pageTitle={activeLocale === "ar" ? sector.introTitle.arabic : sector.introTitle.english}
           breadTitle={breadTitle}
           breadColor={breadColor}
           anchorLink="#sectors"
           subtext={description}
           bg={sector.imgURL}
         />
-
+        <div className="hero-nav">
+          <HeaderMegaMenu />
+        </div>
+        <div className="nav-shadow"></div>
         <section id="service">
-          <div className="container mil-p-30-90">
+          <div className="container mil-p-30-90 position-relative">
+            <div className="slogan-bg"></div>
+            <div className="quotes-icons"><QuotesIcons side={"right"}/></div>
             <div className="row justify-content-between">
               <div className="mil-relative col-lg-12">
                 <div className="position-relative justify-content-between flex-1">
-                  <div className="title-yellow-head">
-                    <ABQuoations />
-                  </div>
-                  <ul className={` ${activeLocale === "en" ? "mil-lines-highlight-en " : "mil-lines-highlight-ar "}`}>
+
+                  <ul >
                     <li>
-                      <h4
-                        className=" mil-mb-30 italic"
+                      <div
+                        className=" mil-mb-60 slogan-text" 
                         dangerouslySetInnerHTML={{ __html: slogan }}
                       />
                     </li>
@@ -139,12 +142,12 @@ const SectorDetail = () => {
                     >
                       <Link href={`/subservice/${item.id}`} legacyBehavior>
                         <a className="mil-blog-card mil-mb-30">
-                    {item.image &&
-                        <div className="service-image-abs-wrapper">
-                        <div className="service-image-abs">
-                            <img className="w-100" style={{minHeight: "189px"}} src={item.image} alt="service-image"/>
-                          </div>
-                        </div>}
+                          {item.image &&
+                            <div className="service-image-abs-wrapper">
+                              <div className="service-image-abs">
+                                <img className="w-100" style={{ minHeight: "189px" }} src={item.image} alt="service-image" />
+                              </div>
+                            </div>}
                           <div className="mil-post-descr">
                             <h5 className="mil-up mil-mb-30">
                               {activeLocale === "ar" ? item.label.arabic : item.label.english}
