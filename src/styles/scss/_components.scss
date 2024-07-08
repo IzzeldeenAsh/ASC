@@ -1297,6 +1297,9 @@ services
   top: 0;
   left: 0;
 }
+.service-image-abs img{
+min-height: 134px;
+}
 .service-image-abs::after{
 content: "";
 position: absolute;
@@ -1311,7 +1314,7 @@ pointer-events: none;
 .mil-service-card-sm {
   position: relative;
   display: block;
-  min-width: 190px;
+  min-width: 188px;
   padding: 172px 30px 50px 30px;
   & p {
     opacity: 1;

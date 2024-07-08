@@ -37,7 +37,7 @@ const HeroOne = () => {
                            </div>
                             <div className="row">
                                 <div className="col-md-7 col-lg-5">
-                                    <p className="mil-light-soft mil-mb-60" style={{fontSize:'18px'}}>{t("heroDescription")}</p>
+                                    <p className="mil-light-soft mil-mb-60" style={{fontSize:'20px'}}>{t("heroDescription")}</p>
                                     
                                 </div>
                             </div>
