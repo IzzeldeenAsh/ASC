@@ -4,12 +4,12 @@ import { useRouter } from "next/router";
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import Link from "next/link";
-import InfographManager from "@/src/components/infographs/InfographManager";
 import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
 import RequestService from "@components/sections/RequestService";
 import Image from "next/image";
 import { NextSeo } from 'next-seo';
-
+import {HeaderMegaMenu} from "@components/HeeaderMegaMenu";
+import ABLogoLight from "@/src/layouts/svg-icons/AB-Logo-Light";
 const Subservice = (props) => {
   const { activeLocale } = useLocale();
   const router = useRouter();
@@ -60,9 +60,14 @@ const Subservice = (props) => {
         ]}
       />
       <div className="logoStyle">
-        <ABLogoDark />
+        <ABLogoLight />
       </div>
+      
       <PageBanner pageTitle={pageTitle} breadTitle={breadTitle} align={"center"} headingSize={2} />
+      <div className="hero-nav">
+        <HeaderMegaMenu/>
+        </div>
+        <div className="nav-shadow"></div>
       <section id="blog">
         <div className="container mil-p-60-0">
           <div className="row justify-content-center">

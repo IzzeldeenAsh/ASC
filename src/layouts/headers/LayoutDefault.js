@@ -161,7 +161,7 @@ const DefaultHeader = ({ extraClass }) => {
         <div className="mil-frame-top">
           <Link href={AppData.header.logo.link} className="mil-logo ">
             <span className="d-block d-xl-none">A&B</span>
-            </Link>
+          </Link>
           <div style={{ display: "flex", gap: "20px" }}>
           <SearchBar/>
             <LanguageSwitch />

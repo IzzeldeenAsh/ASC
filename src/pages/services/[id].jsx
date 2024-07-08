@@ -12,6 +12,7 @@ import Truncate from "@/src/components/Truncate";
 import Image from "next/image";
 import RequestService from "@components/sections/RequestService";
 import { NextSeo } from 'next-seo';
+import {HeaderMegaMenu} from "@components/HeeaderMegaMenu";
 
 const ServiceDetail = () => {
   const { activeLocale } = useLocale();
@@ -99,7 +100,10 @@ const ServiceDetail = () => {
           bg={service.imgURL}
           isService={true}
         />
-
+   <div className="hero-nav">
+        <HeaderMegaMenu/>
+        </div>
+        <div className="nav-shadow"></div>
         <section id="service">
           <div className="container mil-p-30-30">
             <div className="row justify-content-between">
