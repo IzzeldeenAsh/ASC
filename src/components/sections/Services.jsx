@@ -106,7 +106,7 @@ const ServicesSection = () => {
               </div>
             </div>
          
-            <div className="row">
+            {/* <div className="row">
                 <div className="col-lg-12">
                   <span 
                     className="mil-suptitle-right mil-suptitle mil-suptitle-dark mil-up"
@@ -114,7 +114,7 @@ const ServicesSection = () => {
                     dangerouslySetInnerHTML={{ __html: t("servicesSubtitle1") }}
                   />
                 </div>
-              </div>
+              </div> */}
 
           </div>
         </div>
