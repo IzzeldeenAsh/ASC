@@ -8,6 +8,16 @@
     max-width: 95%;
     margin: auto;
 }
+.cards-2 {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  gap: 20px;
+  max-width: 95%;
+  margin: auto;
+}
 
 .card--1 .card__img, .card--1 .card__img--hover {
     background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989833/2151021171_qdcgwc.webp');
@@ -15,14 +25,18 @@
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-image: url("https://res.cloudinary.com/dahiaq28x/image/upload/v1716988597/104221_j5di9w.webp");
 }
 
 .card--3 .card__img, .card--3 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp');
 }
-.card:hover .card__img--hover {
 
+.card--4 .card__img, .card--4 .card__img--hover {
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp');
+}
+.card--5 .card__img, .card--5 .card__img--hover {
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp');
 }
 
 .card__like {
@@ -56,28 +70,30 @@ border-top-right-radius: 12px;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-  position: absolute;
+    position: absolute;
     height: 235px;
-bottom: 0;
+    bottom: 0;
   
 }
 .card {
   margin-right: 25px;
-  transition: all .3s ease-in-out;
+  transition: all .3s ease-out;
   background-color: #fff;
   width: 33.3%;
   position: relative;
   overflow: hidden;
   box-shadow: 2px 15px 14px -6px rgba(0, 0, 0, 0.3);
-  max-height: 450px;
+  max-height: 433px;
   max-width: 330px;
+  // min-width: 330px;
+  overflow: hidden;
+  cursor: pointer;
   border: 1px solid $accent;
   display: inline-block; /* Ensure cards are inline-block for expansion */
 }
 
 .card:hover {
-
-  width: 70%;
+    width: 70%;
     box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
     max-width: 660px;
 }
@@ -96,7 +112,12 @@ z-index: 2;
   
 }
 .card:hover .card__img--hover {
-    // height: 100%;
+    //  height: 100%;
+  background-color: steelblue;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: #fff;
     opacity: 0;
     visibility: hidden;
 }
@@ -104,9 +125,11 @@ z-index: 2;
 .card:hover .card__title {
    color:#fff;
    font-size:30px;
-   width: 70%;
+   width: 250px;
+   min-width: 250px;
+   max-width: 250px
 }
-/* .card:hover .card__img--hover::after {
+ .card:hover .card__img--hover::after {
     content: "";
     display: block;
     position: absolute;
@@ -115,7 +138,7 @@ z-index: 2;
     height: 100%;
     width: 100%;
  
-} */
+} 
 .card:hover .card__info {
     background-color: transparent;
     position: relative;
@@ -125,26 +148,79 @@ z-index: 2;
 }
 .card__description{
   opacity: 0.8;
-
   font-weight: 500;
+  max-width: 248px;
+  max-height: 81px;
+  overflow: hidden;
+}
+.card__description__hover{
+  visibility:hidden;
+  opacity: 0;
+  display: none;
+  color:#fff;
+  width: 430px;
+  min-width: 430px;
+  max-width: 430px
 }
 .card:hover .card__description{
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+.card:hover .card__description__hover{
   visibility:visible;
   opacity: 1;
   display: block;
   color:#fff;
   width: 80%;
 }
-.card:hover .card--1 .card__img, .card--1 .card__img--hover {
+
+.card--1:hover{
   background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989833/2151021171_qdcgwc.webp');
   background-color: steelblue;
   background-size: cover;
-  background-position: center;
+    background-position: center;
   background-blend-mode: multiply;
-  color: #fff;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-    top: 0;
-    left: 0;
+}
+.card--2:hover{
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716988597/104221_j5di9w.webp');
+  background-color: steelblue;
+  background-size: cover;
+    background-position: center;
+  background-blend-mode: multiply;
+}
+.card--3:hover{
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp');
+  background-color: steelblue;
+  background-size: cover;
+    background-position: center;
+  background-blend-mode: multiply;
+}
+.card--4:hover{
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp');
+  background-color: steelblue;
+  background-size: cover;
+    background-position: center;
+  background-blend-mode: multiply;
+}
+.card--5:hover{
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp');
+  background-color: steelblue;
+  background-size: cover;
+    background-position: center;
+  background-blend-mode: multiply;
+}
+.up-1550px{
+  display: none;
+}
+.down-1550px{
+  display: flex;
+}
+@media screen and (min-width:1550px) {
+  .up-1550px{
+    display: flex;
+  }
+  .down-1550px{
+    display: none;
+  }
 }
