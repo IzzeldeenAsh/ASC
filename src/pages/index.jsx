@@ -11,6 +11,8 @@ const TestimonialSlider = dynamic(() => import("@components/sliders/Testimonial"
 const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), { ssr: false });
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import nextI18NextConfig from '../../next-i18next.config';
+import CardGrid from "../components/Hover-cards/CardGrid";
+
 
 const Home1 = (props) => {
   const router = useRouter();
@@ -57,6 +59,7 @@ const Home1 = (props) => {
         }]}
       />
       <HeroOneSection />
+      <CardGrid/>
       <ServicesSection />
       <AboutSection />
       <TeamSection id="leaders" />
