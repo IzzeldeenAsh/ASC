@@ -4,7 +4,6 @@
     display: -webkit-flex;
     justify-content: center;
     -webkit-justify-content: center;
-    gap: 20px;
     max-width: 95%;
     margin: auto;
 }
@@ -14,7 +13,6 @@
   display: -webkit-flex;
   justify-content: center;
   -webkit-justify-content: center;
-  gap: 20px;
   max-width: 95%;
   margin: auto;
 }
@@ -33,10 +31,10 @@
 }
 
 .card--4 .card__img, .card--4 .card__img--hover {
-  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp');
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716187406/futuristic-christmas-celebration-concept_23-2150979860_2_mgpnnq.webp');
 }
 .card--5 .card__img, .card--5 .card__img--hover {
-  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp');
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1720529531/standard-quality-control-collage-concept_nzb12q.webp');
 }
 
 .card__like {
@@ -76,13 +74,12 @@ border-top-right-radius: 12px;
   
 }
 .card {
-  margin-right: 25px;
   transition: all .3s ease-out;
   background-color: #fff;
   width: 33.3%;
   position: relative;
   overflow: hidden;
-  box-shadow: 2px 15px 14px -6px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 15px 14px -6px rgba(0, 0, 0, 0.2);
   max-height: 433px;
   max-width: 330px;
   // min-width: 330px;
@@ -121,13 +118,20 @@ z-index: 2;
     opacity: 0;
     visibility: hidden;
 }
-
+.card__quote{
+  display: none;
+}
+.card:hover .card__quote{
+display: inline-block;
+}
 .card:hover .card__title {
    color:#fff;
    font-size:30px;
    width: 250px;
    min-width: 250px;
-   max-width: 250px
+   max-width: 250px;
+   display: flex;
+   gap: 10px;
 }
  .card:hover .card__img--hover::after {
     content: "";
@@ -173,6 +177,7 @@ z-index: 2;
   display: block;
   color:#fff;
   width: 80%;
+  padding: 0 40px;
 }
 
 .card--1:hover{
@@ -197,14 +202,14 @@ z-index: 2;
   background-blend-mode: multiply;
 }
 .card--4:hover{
-  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp');
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716187406/futuristic-christmas-celebration-concept_23-2150979860_2_mgpnnq.webp');
   background-color: steelblue;
   background-size: cover;
     background-position: center;
   background-blend-mode: multiply;
 }
 .card--5:hover{
-  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp');
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1720529531/standard-quality-control-collage-concept_nzb12q.webp');
   background-color: steelblue;
   background-size: cover;
     background-position: center;
@@ -214,13 +219,33 @@ z-index: 2;
   display: none;
 }
 .down-1550px{
-  display: flex;
+  display: block;
 }
 @media screen and (min-width:1550px) {
   .up-1550px{
-    display: flex;
+    display: block;
   }
   .down-1550px{
     display: none;
+  }
+}
+
+@media screen and (max-width:768px) {
+ .cards , .cards-2{
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+ }
+ .card{
+ width: 100%;
+ max-width: none;
+ }
+}
+
+@media screen and (max-width:1200px) {
+  .card__description__hover{
+    width: 90% !important;
+    min-width: none;
+    max-width: none
   }
 }
