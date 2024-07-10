@@ -87,7 +87,7 @@ const SectorDetail = () => {
       />
 
       <div className="logoStyle">
-        {logoColor === "light" ? <ABLogoLight /> : <ABLogoDark />}
+      <ABLogoLight />
       </div>
       <PageBanner
         pageTitle={pageTitle}

@@ -63,7 +63,13 @@ const Subservice = (props) => {
         <ABLogoLight />
       </div>
       
-      <PageBanner pageTitle={pageTitle} breadTitle={breadTitle} align={"center"} headingSize={2} />
+      <PageBanner 
+  pageTitle={pageTitle} 
+  breadTitle={breadTitle} 
+  align={"center"} 
+  headingSize={2} 
+  service={subservice.service} 
+/>
       <div className="hero-nav">
         <HeaderMegaMenu/>
         </div>
