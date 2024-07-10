@@ -12,8 +12,8 @@
           "arabic": "نستفيد من التقنيات الرئيسية والحلول الذكية للتعامل مع تعقيدات تطوير المدن الذكية والتنقل."
         },
         "link": {
-          "en": "/serivces/service-1",
-          "ar": "/ar/serivces/service-1"
+          "en": "services/service-1",
+          "ar": "ar/services/service-1"
         },
         "type": "service"
       },
@@ -28,8 +28,8 @@
           "arabic": "أصبح من الضروري للشركات الاعتماد على التقنيات الرقمية الصحيحة ودمجها في مختلف جوانب عمليات المؤسسة وثقافتها وتجربة العملاء للبقاء تنافسية."
         },
         "link": {
-          "en": "/serivces/service-2",
-          "ar": "/ar/serivces/service-2"
+          "en": "services/service-2",
+          "ar": "ar/services/service-2"
         },
         "type": "service"
       },
@@ -44,8 +44,8 @@
         "arabic": "تمكين المنظمات من اعتماد حلول الطاقة المتجددة لمستقبل مستدام."
         },
         "link": {
-          "en": "/serivces/service-3",
-          "ar": "/ar/serivces/service-3"
+          "en": "services/service-3",
+          "ar": "ar/services/service-3"
         },
         "type": "service"
       },
@@ -60,8 +60,8 @@
           "arabic": "التصنيع المستدام"
         },
         "link": {
-          "en": "/serivces/service-4",
-          "ar": "/ar/serivces/service-4"
+          "en": "services/service-4",
+          "ar": "ar/services/service-4"
         },
         "type": "service"
       }
