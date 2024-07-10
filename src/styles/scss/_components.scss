@@ -1296,10 +1296,11 @@ services
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
 }
 .service-image-abs img{
 min-height: 193.57px;
-max-height: 193.58px;
+max-height: 225px;
 
 }
 
@@ -1911,7 +1912,7 @@ blog
   }
 
   & .mil-post-descr {
-    padding: 220px 30px 0 0;
+    padding: 250px 30px 0 0;
     position: relative;
 
 
