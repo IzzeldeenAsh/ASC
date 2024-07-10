@@ -2,6 +2,7 @@ import Data from "@data/sections/team.json";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
+import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 const TeamSection = () => {
   const { activeLocale, t } = useLocale();
   return (
@@ -10,23 +11,26 @@ const TeamSection = () => {
       <section id="leaders">
         <div className="container mil-p-60-30">
           <div className="row justify-content-between align-items-center">
-            <div className="col-lg-5 col-xl-4">
+            <div className="col-lg-5 col-xl-4" style={{flex:'1'}}>
               <div className="mil-mb-90">
+             <div className="d-flex">
+             <TitleHead />
                 <h2
-                  className="mil-up mil-mb-60"
+                  className="mil-up mil-mb-60 "
                   dangerouslySetInnerHTML={{ __html: activeLocale ==="ar" ? Data.title.arabic : Data.title.english }}
                 />
+             </div>
                 <div
-                  className="mil-text-lg mil-up mil-mb-60 "
+                  className="mil-text-lg mil-up mil-mb-60  px-40px"
                   dangerouslySetInnerHTML={{ __html: activeLocale ==="ar" ? Data.description.arabic : Data.description.english  }}
                 />
-     <div className="mil-about-quote mil-mb-60">
+     <div className="mil-about-quote mil-mb-60 px-40px">
                                     <Link href={"/CEO-Word"} className="mil-avatar mil-up">
                                         <img  src={Data.avatar.image} alt={Data.avatar.alt}  />
                                     </Link>
                                     <h5 className="mil-quote mil-up"  style={activeLocale ==='ar' ? {'paddingRight' : '30px'} : {'paddingLeft' : '30px'}} dangerouslySetInnerHTML={{__html : activeLocale ==="ar" ?  Data.subtitle.arabic :Data.subtitle.english }} />
                                 </div>
-                <div className="mil-up">
+                <div className="mil-up px-40px">
                   <Link
                     href={Data.button.link}
                     className="mil-button mil-arrow-place mil-mb-60"

@@ -2,6 +2,7 @@ import Data from "@data/sections/about.json";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import  { useLocale } from '@/utils/getLocale';
+import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 const AboutSection = () => {
     const {activeLocale, t} = useLocale();
     return (
@@ -10,15 +11,19 @@ const AboutSection = () => {
             <section id="about"  >
                 <div className="container mil-p-60-30">
                     <div className="row justify-content-between align-items-center">
-                        <div className="col-lg-6 col-xl-5">
+                        <div className="col-lg-6 col-xl-5" style={{flex:'1'}}>
                             <div className="mil-mb-60">
+                          <div className="d-flex">
+                          <TitleHead />
                                 <h2 className="mil-up mil-mb-60">
                                 {t("aboutDiscover")} <br/>{t("aboutWe")}  {t("aboutOur")} 
+                                
                                 </h2>
-                                <div className="mil-text-lg mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.description.arabic : Data.description.english}} />
+                          </div>
+                                <div className="mil-text-lg mil-up mil-mb-30 px-40px" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.description.arabic : Data.description.english}} />
                                
                             </div>
-                            <div className="mil-up">
+                            <div className="mil-up px-40px">
                             <Link href={Data.button.link} className="mil-button mil-arrow-place mil-mb-60"><span>{
                             activeLocale ==='ar' ? Data.button.label.arabic : Data.button.label.english
                             }</span>
