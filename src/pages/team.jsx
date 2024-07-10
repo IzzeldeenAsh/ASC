@@ -8,6 +8,8 @@ import { NextSeo } from 'next-seo';
 import IdCard from "@components/IdCard";
 import { SimpleGrid, Box } from '@mantine/core';
 import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
+import ABLogoLight from '../layouts/svg-icons/AB-Logo-Light';
+import { HeaderMegaMenu } from '../components/HeeaderMegaMenu';
 const Team = () => {
   const { activeLocale } = useLocale();
   const TeamData = data.TeamData;
@@ -56,12 +58,14 @@ const Team = () => {
   anchorLabel={activeLocale === 'ar' ? "فريقنا" : "Our team"} 
   anchorLink={"#team"} 
 />
-
+<div className="hero-nav">
+        <HeaderMegaMenu />
+      </div>
       <div className="logoStyle">
-        <ABLogoDark />
+      <ABLogoLight />
       </div>
       {/* team */}
-   
+      <div className="nav-shadow"></div>
 <section id="team">
   <div className="container mil-p-0-90">
     <SimpleGrid 
