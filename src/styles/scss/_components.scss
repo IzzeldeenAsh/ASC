@@ -1298,24 +1298,17 @@ services
   left: 0;
 }
 .service-image-abs img{
-min-height: 134px;
+min-height: 193.57px;
+max-height: 193.58px;
+
 }
-.service-image-abs::after{
-content: "";
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.8) 90%,rgba(255, 255, 255, 1) 100%);
-pointer-events: none;
-}
+
 
 .mil-service-card-sm {
   position: relative;
   display: block;
   min-width: 188px;
-  padding: 172px 30px 50px 30px;
+  padding: 210px 30px 30px 30px;
   & p {
     opacity: 1;
     transform: translateY(-10px);
@@ -1424,7 +1417,7 @@ z-index:10;
     border-left: solid 1px $dt-10;
     flex: 1;
     border-bottom: solid 1px $dt-10;
-    max-width: 230px ;
+    max-width: 292px ;
     &:first-child {
       border-left: solid 1px $dt-10;
     }
