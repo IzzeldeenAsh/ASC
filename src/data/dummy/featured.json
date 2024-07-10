@@ -1,22 +1,15 @@
 {
     "featured": [
+     
       {
-        "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1720082081/industrial-mini_a1q1es.webp",
-        "title": {
-          "english": "Industrial",
-          "arabic": "الصناعة"
-        },
-        "link": {
-          "en": "/sectors/sector-1",
-          "ar": "/ar/sectors/sector-1"
-        },
-        "type": "sector"
-      },
-      {
-        "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1720013271/New_Project_swcvbm.webp",
+        "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716989833/2151021171_qdcgwc.webp",
         "title": {
           "english": "Smart Cities and Mobility",
           "arabic": "المدن الذكية والتنقل"
+        },
+        "text": {
+          "english": "We leverage key technologies and solutions to navigate the complexity of smart city and mobility development.",
+          "arabic": "نستفيد من التقنيات الرئيسية والحلول الذكية للتعامل مع تعقيدات تطوير المدن الذكية والتنقل."
         },
         "link": {
           "en": "/serivces/service-1",
@@ -25,10 +18,14 @@
         "type": "service"
       },
       {
-        "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1720013653/digital-mini_sbugfv.webp",
+        "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988597/104221_j5di9w.webp",
         "title": {
           "english": "Digital Transformation",
           "arabic": "التحول الرقمي"
+        },
+        "text": {
+          "english": "We partner with clients to foster the needed digital culture.",
+          "arabic": "أصبح من الضروري للشركات الاعتماد على التقنيات الرقمية الصحيحة ودمجها في مختلف جوانب عمليات المؤسسة وثقافتها وتجربة العملاء للبقاء تنافسية."
         },
         "link": {
           "en": "/serivces/service-2",
@@ -37,10 +34,14 @@
         "type": "service"
       },
       {
-        "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719742905/mini-energy_aw8in4.webp",
+        "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp",
         "title": {
           "english": "Renewable Energy",
           "arabic": "تحويل الطاقة المتجددة"
+        },
+        "text": {
+          "english": "A&B team of experts is dedicated to helping businesses and organizations lower their energy costs and reduce their carbon footprint.",
+        "arabic": "تمكين المنظمات من اعتماد حلول الطاقة المتجددة لمستقبل مستدام."
         },
         "link": {
           "en": "/serivces/service-3",
@@ -49,9 +50,13 @@
         "type": "service"
       },
       {
-        "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1720013796/sus-min_swwj5o.webp",
+        "image":  "https://res.cloudinary.com/dahiaq28x/image/upload/v1720590215/2150196629_haiwvb.jpg",
         "title": {
           "english": "Sustainable Manufacturing",
+          "arabic": "التصنيع المستدام"
+        },
+        "text": {
+          "english": "Sustainable Manufacturing offers clean manufacturing solutions for environmental excellence, aiding organizations in reducing their carbon footprint and energy costs while meeting sustainability goals.",
           "arabic": "التصنيع المستدام"
         },
         "link": {

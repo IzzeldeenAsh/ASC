@@ -4,6 +4,8 @@ import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import { IconArrowNarrowRight } from '@tabler/icons-react';
+import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
+import Truncate from "../Truncate";
 
 const ServicesSection = () => {
   const { activeLocale, t } = useLocale();
@@ -58,15 +60,13 @@ const ServicesSection = () => {
                     <h5
                      className="mil-mb-20"
                       dangerouslySetInnerHTML={{ __html: activeLocale ==='en'? item.title.english :item.title.arabic }}/>
-                    {/* <div className="quotations" style={activeLocale ==='ar' ? {transformOrigin:'100%'} : {transformOrigin:'0%'}}>
-                      <ABQuoations side={'right'}/></div> */}
-                      {/* <p className="mil-mb-10">{
-                      activeLocale ==='en'? <Truncate text={item.text.english} maxLength={10}/> :  <Truncate text={item.text.arabic} maxLength={10}/>
-                      }</p> */}
+                     <div className="quotations" style={activeLocale ==='ar' ? {transformOrigin:'100%'} : {transformOrigin:'0%'}}>
+                      <ABQuoations side={'right'}/></div> 
+                       <p className="mil-mb-10">{
+                      activeLocale ==='en'? <Truncate text={item.text.english} maxLength={50}/> :  <Truncate text={item.text.arabic} maxLength={50}/>
+                      }</p> 
                    <div className="d-flex align-items-center gap-10">
-                   <span className="mil-text-xs discover"> 
-                   {activeLocale ==='en'? 'Discover' :'اكتشف'}
-                   </span>
+                  
                     <div className="mil-button mil-icon-button-sm mil-arrow-place">
                      
                       <div
