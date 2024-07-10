@@ -1413,6 +1413,7 @@ z-index:10;
   width: fit-content;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   & .mil-services-grid-item {
     border-right: solid 1px $dt-10;
     border-left: solid 1px $dt-10;
@@ -1420,6 +1421,7 @@ z-index:10;
     flex: 1;
     border-bottom: solid 1px $dt-10;
     max-width: 292px ;
+    min-width: 220px;
     &:first-child {
       border-left: solid 1px $dt-10;
     }
