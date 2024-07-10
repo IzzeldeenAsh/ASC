@@ -1236,6 +1236,22 @@ spaces
         padding-top: 30px;
     }
 }
+.mil-p-60-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (max-width: 992px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+.mil-p-60-90 {
+    padding-top: 60px;
+    padding-bottom: 90px;
+    @media screen and (max-width: 992px) {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+}
 .mil-p-60-30{
     padding-top: 60px;
     padding-bottom: 30px;
@@ -1469,10 +1485,11 @@ body[dir="ltr"] .title-yellow-head{
 }
 .card-shadow {
     transition: all 0.2s ease-in; /* Added 's' for seconds */
-    border: 1px solid $accent;
+    background-color: #fff;
     position: relative;
     &:hover {
         transform: translate(4px, -4px);
+        border: 1px solid $accent;
         box-shadow: -8px 8px 0 $accent;    
         border: 1px solid $accent;
     }
