@@ -96,7 +96,7 @@ const Subservice = (props) => {
                
               </div>}
             </div>
-            <div className="col-lg-12 mil-mb-90">
+            <div className="col-lg-12 ">
               <div className={`mil-text mil-up mil-text-lg`} dangerouslySetInnerHTML={{ __html:activeLocale ==='ar' ? subservice.contentHtml.arabic.replace(/{{locale}}/g, activeLocale) :  subservice.contentHtml.english }} />
               {typeof subservice.gallery !== "undefined" && subservice.gallery.enabled == 1 && (
                 <div className="row">
