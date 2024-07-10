@@ -13,7 +13,7 @@ const ServicesSection = () => {
     <>
       {/* services */}
    
-      <section id="servcise">
+      <section id="servcise" className="mil-soft-bg">
         
         <div className="mi-invert-fix">
           <div className="container mil-p-60-0 d-flex flex-column align-items-center">
