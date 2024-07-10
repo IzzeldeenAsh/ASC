@@ -15,7 +15,76 @@ const ServicesSection = () => {
         
         <div className="mi-invert-fix">
           <div className="container mil-p-60-0 d-flex flex-column align-items-center">
-          
+          <div className="row mil-services-grid mil-mb-120">
+            <div className="featured">
+              <div>{t("featured")}</div>
+              <div  className="anchor-link ">
+                <Link href="/services" className="d-flex align-items-center">
+               <div >{t("seeAll")}</div>
+                <div className="d-flex align-items-center left-right-arrow ">
+                  <div className="see-all-arrow">
+                  <IconArrowNarrowRight color="#336AEA"/>
+                  </div>
+                </div>
+                </Link>
+              </div>
+            </div>
+              {Data.featured.map((item, key) => (
+                <div
+                  key={`services-item-${key}`}
+                  className=" mil-services-grid-item p-0 "
+                  style={{ position: "relative" }}
+                >
+                    
+                  <Link href={activeLocale === 'ar' ? item.link.ar.replace(/{{locale}}/g, activeLocale) : item.link.en} className="mil-service-card-sm mil-up">
+                    <div
+                      className="mil-squares service-squares"
+                      style={
+                        activeLocale === "ar"
+                          ? { left: "4px" }
+                          : { right: "-4px" }
+                      }
+                    >
+                      <span className="mil-square"></span>
+                      <span className="mil-square"></span>
+                      <span className="mil-square"></span>
+                    </div>
+                    <div className="service-image-abs-wrapper">
+                    <div className="service-image-abs">
+                        <img className="w-100" src={item.image} alt="service-image"/>
+                      </div>
+                    </div>
+                    
+                    <h5
+                     className="mil-mb-20"
+                      dangerouslySetInnerHTML={{ __html: activeLocale ==='en'? item.title.english :item.title.arabic }}/>
+                    {/* <div className="quotations" style={activeLocale ==='ar' ? {transformOrigin:'100%'} : {transformOrigin:'0%'}}>
+                      <ABQuoations side={'right'}/></div> */}
+                      {/* <p className="mil-mb-10">{
+                      activeLocale ==='en'? <Truncate text={item.text.english} maxLength={10}/> :  <Truncate text={item.text.arabic} maxLength={10}/>
+                      }</p> */}
+                   <div className="d-flex align-items-center gap-10">
+                   <span className="mil-text-xs discover"> 
+                   {activeLocale ==='en'? 'Discover' :'اكتشف'}
+                   </span>
+                    <div className="mil-button mil-icon-button-sm mil-arrow-place">
+                     
+                      <div
+                        style={
+                          activeLocale === "ar"
+                            ? { transform: "rotate(180deg)", paddingTop: "5px" }
+                            : { transform: "rotate(0deg)", paddingTop: "5px" }
+                        }
+                      >
+                       
+                        <ArrowIcon />
+                      </div>
+                    </div>
+                   </div>
+                  </Link>
+                </div>
+              ))}
+            </div>
             <div className="mil-mb-120">
               <div
                 className="mil-complex-text  justify-content-center mil-up mil-mb-15"
@@ -25,7 +94,7 @@ const ServicesSection = () => {
                     : { flexDirection: "column", gap: "10px" }}>
                 <span className="d-flex" style={{ position: "relative" }}>
                  
-                    <TitleHead/>
+                    <TitleHead />
                   <h2
                     className="mil-h2  mil-center"
                     dangerouslySetInnerHTML={{ __html: t("servicesTitle1") }}/>

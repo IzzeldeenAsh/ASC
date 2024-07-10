@@ -59,7 +59,7 @@ const Home1 = (props) => {
         }]}
       />
       <HeroOneSection />
-      <CardGrid/>
+      {/* <CardGrid/> */}
       <ServicesSection />
       <AboutSection />
       <TeamSection id="leaders" />
