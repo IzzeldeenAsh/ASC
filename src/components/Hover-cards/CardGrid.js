@@ -99,7 +99,7 @@ const CardGrid = () => {
       <div className="d-flex justify-content-end m-auto mil-p-30-30" style={{maxWidth:'1110px'}}>
         <div className="mil-text-accent-dark mil-hover-primary mil-center">
                 <Link
-                  href="/contact"
+                  href={activeLocale ==='ar' ? "/ar/sectors/sector-1" : "/sectors/sector-1"}
                     className="mil-button mil-arrow-place "
                   >
                     <span>
