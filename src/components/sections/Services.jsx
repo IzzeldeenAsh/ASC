@@ -16,7 +16,7 @@ const ServicesSection = () => {
       <section id="servcise" className="mil-soft-bg">
         
         <div className="mi-invert-fix">
-        <div className="row mil-services-grid mil-mb-120">
+        <div className="row flex-column  mil-p-60-90">
             <div className="featured">
               <div className="d-flex">
               {/* <TitleHead /> */}
@@ -43,7 +43,8 @@ const ServicesSection = () => {
                 
                 </div>
             </div>
-              {Data.featured.map((item, key) => (
+            <div className="mil-services-grid">
+            {Data.featured.map((item, key) => (
                 <div
                   key={`services-item-${key}`}
                   className=" mil-services-grid-item p-0 "
@@ -96,6 +97,8 @@ const ServicesSection = () => {
                   </Link>
                 </div>
               ))}
+            </div>
+             
             </div>
         </div>
       </section>
