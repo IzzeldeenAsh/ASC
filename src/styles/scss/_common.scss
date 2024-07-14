@@ -299,6 +299,14 @@ blockquote {
         font-size: $text + 4px;
     }
 }
+.mil-text-xxl {
+    font-size: $text + 15px;
+    line-height: 180%;
+
+    @media screen and (max-width: 768px) {
+        font-size: $text + 12px;
+    }
+}
 
 .mil-upper {
     text-transform: uppercase;

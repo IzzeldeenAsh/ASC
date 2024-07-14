@@ -18,12 +18,12 @@ const CardGrid = () => {
         <div className="d-flex">
           <TitleHead />
           <h2
-            className="mil-h2"
+            style={{fontSize:"40px"}}
             dangerouslySetInnerHTML={{
               __html:
                 activeLocale === "ar"
                   ? "استراتيجيات صناعية ذات تأثير دائم"
-                  : "Industrial strategies with lasting impact",
+                  : "Innovating industrial strategies for a<br> lasting impact",
             }}
           />
         </div>
