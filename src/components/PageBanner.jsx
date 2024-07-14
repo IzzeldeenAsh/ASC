@@ -7,6 +7,8 @@ import Image from 'next/image';
 import { useEffect, useRef, useMemo } from 'react';
 import { useLocale } from '@/utils/getLocale';
 import aboutData from "@data/sections/about.json";
+import AboutContent from './AboutContent';
+import aboutDataContent from "@/src/data/sections/aboutUs.json";
 
 const PageBanner = ({ pageTitle, breadTitle, breadColor, subtext = "", anchorLink = 0, paddingBottom, align, headingSize = 1, imgUrl, bg, isService, service }) => {
   const { activeLocale } = useLocale();
@@ -63,7 +65,7 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor, subtext = "", anchorLin
   const headTitle = `${AppData.settings.siteName} - ${clearBreadTitle}`;
 
   return (
-    <div className={paddingBottom ? "mil-inner-banner mil-p-0-120" : "mil-inner-banner"}>
+    <div className={paddingBottom ? "mil-inner-banner mil-p-0-120 position-relative" : "mil-inner-banner position-relative"}>
       <div className={align == "center" ? "mil-banner-content mil-up" : "mil-banner-content mil-up"} style={bg ? bgBanner : {}}>
         {bg && <div style={bgBannerBefore} className='d-none d-sm-block' />}
         <div className={bg ? "bannderOverlay" : ""}>
@@ -144,6 +146,14 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor, subtext = "", anchorLin
           </div>
         </div>
       </div>
+      {asPath.indexOf('/about') !== -1 &&
+       <div className='about-banner'>
+        <AboutContent content={  activeLocale === "ar"
+           ? aboutDataContent.contentHtml.arabic
+           : aboutDataContent.contentHtml.english} opacity={1} />
+        </div>
+      }
+     
     </div>
   );
 };

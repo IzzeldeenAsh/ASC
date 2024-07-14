@@ -9,18 +9,28 @@ import Link from "next/link";
 import sectorsData from "@data/dummy/sectors.json";
 import QuotesIcons from "@/src/layouts/svg-icons/Quotes";
 import ABLogoLight from "@layouts/svg-icons/AB-Logo-Light";
-import ABLogoDark from "@/src/layouts/svg-icons/AB-Logo-Dark";
 import Image from "next/image";
 import Truncate from "@/src/components/Truncate";
 import { NextSeo } from 'next-seo';
 import { HeaderMegaMenu } from "@components/HeeaderMegaMenu";
-import { IconArrowDown } from "@tabler/icons-react";
+import { IconArrowDown, IconCaretLeftFilled, IconCaretRightFilled } from "@tabler/icons-react";
 
 const SectorDetail = () => {
   const { activeLocale } = useLocale();
   const router = useRouter();
   const { id } = router.query;
-
+  const labels = {
+    english: {
+      experts: "Experts",
+      relatedArticles: "Related articles",
+      projects: "Projects",
+    },
+    arabic: {
+      experts: "الخبراء",
+      relatedArticles: "مقالات ذات صلة",
+      projects: "مشاريع",
+    },
+  };
   useEffect(() => {
     Accordion();
   }, []);
@@ -134,9 +144,10 @@ const SectorDetail = () => {
                 </ul>
               </div>
               <p
-                className="mil-up mil-mb-30 mil-text-lg mil-p-120-0"
+                className="mil-up mil-mb-30 mil-text-xl mil-p-120-0"
                 dangerouslySetInnerHTML={{ __html: content }}
               />
+              
             </div>
             <div className="col-lg-12">
               {sector.infograph && (
@@ -155,7 +166,16 @@ const SectorDetail = () => {
               )}
             </div>
           </div>
+          <div className="d-flex align-items-end justify-content-center mil-p-30-30">
+                      <ul className="service-banner-links p-inline-start-40 mil-text mil-up d-flex gap-20 justify-content-center  ">
+                        <li ><span className="mil-text-sm text-dark  anchor-link">
+                           {activeLocale==='ar' ?<IconCaretLeftFilled /> :<IconCaretRightFilled /> }  {activeLocale === 'ar' ? labels.arabic.experts : labels.english.experts}</span></li>
+                        <li><span className="mil-text-sm text-dark anchor-link"> {activeLocale==='ar' ?<IconCaretLeftFilled /> :<IconCaretRightFilled /> }{activeLocale === 'ar' ? labels.arabic.relatedArticles : labels.english.relatedArticles}</span></li>
+                        <li><span className="mil-text-sm text-dark anchor-link"> {activeLocale==='ar' ?<IconCaretLeftFilled /> :<IconCaretRightFilled /> }{activeLocale === 'ar' ? labels.arabic.projects : labels.english.projects}</span></li>
+                      </ul>
+                    </div>
         </div>
+      
       </section>
       {sector.list.items.length > 0 && (
         <section className="mil-soft-bg mil-p-60-90">
@@ -205,6 +225,7 @@ const SectorDetail = () => {
                           </div>
                         </div>
                       </div>
+                     
                     </a>
                   </Link>
                 </div>

@@ -338,7 +338,19 @@ a {
 .mil-complex-title {
     line-height: normal;
 }
-
+.read-more-fade{
+    display: block;
+    background: linear-gradient(to bottom, #484848a1, transparent);
+    color: transparent;
+    background-clip: text;
+}
+.read-more-fading{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+bottom: 0;
+font-weight: 500;
+}
 .mil-accent {
     color: $accent;
 }
@@ -519,6 +531,18 @@ link
                 fill: $dark;
             }
         }
+        
+    }
+    &.mil-accent {
+        & svg {
+            background-color:$accent;
+            transition: $t-md;
+
+            & path {
+                fill: $dark;
+            }
+        }
+        
     }
 
     &:hover {
@@ -957,7 +981,10 @@ backgrounds
         transform: scale(1);
         opacity: 0.7;
         transition: all 0.2s ease-in-out;
-        
+        span{
+            display: flex;
+            align-items: center;
+        }
         cursor: pointer;
         &:hover{
             transform: scale(1.1);
@@ -1220,6 +1247,15 @@ spaces
         padding-bottom: 60px;
     }
 }
+.mil-p-90-60 {
+    padding-top: 90px;
+    padding-bottom: 60px;
+
+    @media screen and (max-width: 992px) {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}
 
 .mil-p-30-90 {
     padding-top: 30px;
@@ -1475,7 +1511,8 @@ body[dir="ltr"] .title-yellow-head{
     padding: 9px 0px;
 }
 [dir="rtl"] .ab-quoations{
-    margin-inline-start: auto;
+    margin-inline-end: auto;
+    transform: rotateY(180deg) !important;
 }
 .hyper-link{
     color:#3D9BF2;
@@ -1638,7 +1675,7 @@ transform: rotate(0deg);
     background-color: #F6D84D;
     top: 0;
     width: 100vw;
-    min-height: 90px;
+    min-height: 12vh;
 }
 .slogan-text{
     font-size: 40px;
@@ -1661,6 +1698,7 @@ transform: rotate(0deg);
     justify-content: start;
     align-items: center;
     height: 90px;
+    min-height: 12vh;
     position: relative;
 }
 .quotes-icons{
@@ -1674,4 +1712,30 @@ transform: rotate(0deg);
     left: -5%;
     transform: rotateY(0deg);
  
+}
+.about-banner{
+    position: absolute;
+    top: 80%;
+    width: 75%;
+    background-color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 60px;
+    z-index: 4;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.08);
+    @media screen and (max-width:1200px) {
+        display: none;
+    }
+}
+.about-page-content-section{
+  opacity: 0;
+  visibility: hidden;
+  margin-bottom: 0;
+}
+.about-page-content-section{
+    @media screen and (max-width:1200px) {
+       opacity: 1;
+       visibility: visible;
+       margin-bottom: 60px;
+    }
 }

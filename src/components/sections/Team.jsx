@@ -3,13 +3,14 @@ import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
+import { IconCaretDownFilled } from "@tabler/icons-react";
 const TeamSection = () => {
   const { activeLocale, t } = useLocale();
   return (
     <>
       {/* team */}
-      <section id="leaders">
-        <div className="container mil-p-60-30">
+      <section id="leaders" className="mil-soft-bg">
+        <div className="container mil-p-60-30 ">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-5 col-xl-4" style={{flex:'1'}}>
               <div className="mil-mb-90">
@@ -20,10 +21,13 @@ const TeamSection = () => {
                   dangerouslySetInnerHTML={{ __html: activeLocale ==="ar" ? Data.title.arabic : Data.title.english }}
                 />
              </div>
-                <div
-                  className="mil-text-lg mil-up mil-mb-60  px-40px"
+               <div  className="mil-text-xl mil-up mil-mb-60  px-40px position-relative">
+               <div 
+                
                   dangerouslySetInnerHTML={{ __html: activeLocale ==="ar" ? Data.description.arabic : Data.description.english  }}
                 />
+                <div className="text-primary read-more-fading"><Link href={"/CEO-Word"}><IconCaretDownFilled size={40} /></Link></div>
+               </div>
      <div className="mil-about-quote mil-mb-60 px-40px">
                                     <Link href={"/CEO-Word"} className="mil-avatar mil-up">
                                         <img  src={Data.avatar.image} alt={Data.avatar.alt}  />

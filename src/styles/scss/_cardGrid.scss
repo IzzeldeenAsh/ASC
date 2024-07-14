@@ -82,17 +82,18 @@ border-top-right-radius: 12px;
   box-shadow: 2px 15px 14px -6px rgba(0, 0, 0, 0.2);
   max-height: 433px;
   max-width: 330px;
+  z-index: 0;
   // min-width: 330px;
   overflow: hidden;
   cursor: pointer;
-  border: 1px solid $accent;
+  border: 1px solid #e6e6e6;
   display: inline-block; /* Ensure cards are inline-block for expansion */
 }
 
 .card:hover {
     width: 70%;
     box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
-    max-width: 660px;
+    max-width: 560px;
 }
 .card__info {
 z-index: 2;
@@ -152,7 +153,6 @@ display: inline-block;
 }
 .card__description{
   opacity: 0.8;
-  font-weight: 500;
   max-width: 248px;
   max-height: 81px;
   overflow: hidden;
@@ -230,7 +230,12 @@ display: inline-block;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
+  .card__description__hover{
+    width: 100%;
+    min-width:auto;
+    max-width:none;
+  }
  .cards , .cards-2{
   flex-direction: column;
   align-items: center;
@@ -242,10 +247,90 @@ display: inline-block;
  }
 }
 
-@media screen and (max-width:1200px) {
-  .card__description__hover{
-    width: 90% !important;
-    min-width: none;
-    max-width: none
-  }
+
+.card.active,
+.card:hover {
+  width: 70%;
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  max-width: 560px;
+}
+
+.card.active .card__img--hover,
+.card:hover .card__img--hover {
+  background-color: steelblue;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: #fff;
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+.card.active .card__quote,
+.card:hover .card__quote {
+  display: inline-block;
+}
+
+.card.active .card__title,
+.card:hover .card__title {
+  color: #fff;
+  font-size: 30px;
+  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
+  display: flex;
+  gap: 10px;
+}
+
+.card.active .card__img--hover::after,
+.card:hover .card__img--hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.card.active .card__info,
+.card:hover .card__info {
+  background-color: transparent;
+  position: relative;
+}
+
+.card.active .card__info-hover,
+.card:hover .card__info-hover {
+  opacity: 1;
+}
+
+.card.active .card__description,
+.card:hover .card__description {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.card.active .card__description__hover,
+.card:hover .card__description__hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  color: #fff;
+  width: 80%;
+  padding: 0 40px;
+}
+
+/* Add initial styles for the active card */
+.card.active {
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989833/2151021171_qdcgwc.webp');
+}
+
+.card--2.active {
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716988597/104221_j5di9w.webp');
+}
+
+.card--3.active {
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp');
 }
