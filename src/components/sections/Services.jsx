@@ -25,7 +25,7 @@ const ServicesSection = () => {
                 </div>
               <div className="mil-text-accent-dark mil-hover-primary mil-center">
                 <Link
-                  href="/contact"
+                  href={activeLocale==='ar' ? "/ar/services" : "/services"}
                     className="mil-button mil-arrow-place "
                   >
                     <span>
