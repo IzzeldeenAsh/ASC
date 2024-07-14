@@ -8,7 +8,7 @@ const AboutSection = () => {
     return (
         <>
             {/* about */}
-            <section id="about"  >
+            <section id="about"   >
                 <div className="container mil-p-60-30">
                     <div className="row justify-content-between align-items-center">
                         <div className="col-lg-6 col-xl-5" style={{flex:'1'}}>
@@ -20,7 +20,7 @@ const AboutSection = () => {
                                 
                                 </h2>
                           </div>
-                                <div className="mil-text-lg mil-up mil-mb-30 px-40px" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.description.arabic : Data.description.english}} />
+                                <div className="mil-text-xl mil-up mil-mb-30 px-40px" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.description.arabic : Data.description.english}} />
                                
                             </div>
                             <div className="mil-up px-40px">

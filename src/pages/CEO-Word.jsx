@@ -10,9 +10,9 @@ import { NextSeo } from 'next-seo';
 const CEOWord = () => {
   const { activeLocale } = useLocale();
 
-  const pageTitle = "CEO's Word - A&B Consulting";
-  const description =  "CEO's Word - A&B Consulting";
-  const keywords = "CEO, A&B Consulting, leadership, business strategy";
+  const pageTitle = activeLocale === 'ar' ? "كلمة الرئيس التنفيذي - A&B للاستشارات" : "CEO's Word - A&B Consulting";
+  const description = activeLocale === 'ar' ? "كلمة الرئيس التنفيذي - A&B للاستشارات" : "CEO's Word - A&B Consulting";
+  const keywords = activeLocale === 'ar' ? "الرئيس التنفيذي, A&B للاستشارات, القيادة, استراتيجية الأعمال" : "CEO, A&B Consulting, leadership, business strategy";
 
   return (
     <>
@@ -72,11 +72,11 @@ const CEOWord = () => {
               <div className="row align-items-start">
                 <div className="col-lg-6">
                   <div className="mil-personal-text">
-                    <p className="mil-mb-90">{Data.subtitle}</p>
-                    <h1 className="mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.title }} />
+                    <p className="mil-mb-90">{activeLocale === 'ar' ? Data.subtitle.arabic : Data.subtitle.english}</p>
+                    <h1 className="mil-mb-30" dangerouslySetInnerHTML={{ __html: activeLocale === 'ar' ? Data.title.arabic : Data.title.english }} />
                     <div className="row justify-content-center">
                       <div className="col-lg-8">
-                        <span style={{ opacity: "0.7" }} className="mil-suptitle mil-suptitle-dark mil-mb-60" dangerouslySetInnerHTML={{ __html: Data.text }} />
+                        <span style={{ opacity: "0.7" }} className="mil-suptitle mil-suptitle-dark mil-mb-60" dangerouslySetInnerHTML={{ __html: activeLocale === 'ar' ? Data.text.arabic : Data.text.english }} />
                       </div>
                     </div>
                   </div>
@@ -87,12 +87,12 @@ const CEOWord = () => {
                   <img src={Data.image.url} alt={Data.image.alt} />
                 </div>
                 <div className="mil-banner-panel">
-                  <h5 dangerouslySetInnerHTML={{ __html: Data.bottom.title.english }} />
-                  <p dangerouslySetInnerHTML={{ __html: Data.bottom.content.english }} />
-                  <h5 dangerouslySetInnerHTML={{ __html: Data.bottom.ending.english }} />
+                  <h5 dangerouslySetInnerHTML={{ __html: activeLocale === 'ar' ? Data.bottom.title.arabic : Data.bottom.title.english }} />
+                  <p dangerouslySetInnerHTML={{ __html: activeLocale === 'ar' ? Data.bottom.content.arabic : Data.bottom.content.english }} />
+                  <h5 dangerouslySetInnerHTML={{ __html: activeLocale === 'ar' ? Data.bottom.ending.arabic : Data.bottom.ending.english }} />
                   <div className="text-dark" style={{ display: "flex", flexDirection: "column", fontWeight: "bolder" }}>
-                    <span>CEO, A&B Consulting</span>
-                    <span>KHALDUN ZOMOT</span>
+                    <span>{activeLocale === 'ar' ? "الرئيس التنفيذي، A&B للاستشارات" : "CEO, A&B Consulting"}</span>
+                    <span>{activeLocale === 'ar' ? "خلدون زعمط" : "KHALDUN ZOMOT"}</span>
                   </div>
                   <div></div>
                 </div>

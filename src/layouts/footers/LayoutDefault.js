@@ -18,15 +18,28 @@ const DefaultFooter = ( { extraClass } ) => {
                     <div className="col-md-4 col-lg-4 mil-mb-10 col-12">
                         <Link href={"/"} className="mil-muted mil-logo mil-mb-30 footer-logo">{AppData.footer.logo.text}</Link>
                         <div className="mil-mb-30"></div>
-                       
+                                              
+                        {/* <div className="mil-light-soft mil-text-xs footer-location">
+                        <span className="text-primary">Jordan (Operations Office):</span>
+            <br />
+            Amman,Jordan
+            <br />
+            +962 790 000000
+</div> */}
                         <div className="mil-light-soft mil-text-xs footer-location">
+                        <span className="text-primary">Jordan (Operations Office):</span>
+            <br />
+            Amman ,Jordan
+            <br />
+            +962 790 0000 00
+</div>
+<div className="mil-light-soft mil-text-xs footer-location">
                         <span className="text-primary">USA (Headquarters):</span>
             <br />
             Delaware, Wilmington - Downtown 1000 N.
             <br />
             West Street. Suite 1200. Wilmington.19801
 </div>
-
                       
                     </div>
                     <div className="col-md-2 col-lg-2 col-12" style={{marginTop:'auto'}}>
@@ -51,9 +64,9 @@ const DefaultFooter = ( { extraClass } ) => {
                                         ))}
                                     </ul>
                                 </nav>
-                        <div className="mil-mb-30"></div>
+                        <div className="mil-mb-90"></div>
                        
-                                <div className="mil-light-soft mil-text-xs copy-right" >
+                                <div className="mil-light-soft mil-text-xs copy-right"  >
                                         <span >{
                                             activeLocale ==='ar' ?
                                             AppData.footer.copy.arabic:

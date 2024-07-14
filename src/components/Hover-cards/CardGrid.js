@@ -1,283 +1,123 @@
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import { useLocale } from "@/utils/getLocale";
-import React from "react";
+import React, { useState } from "react";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Link from "next/link";
+
 const CardGrid = () => {
   const { activeLocale, t } = useLocale();
+  const [activeCard, setActiveCard] = useState(0);
+
+  const handleMouseEnter = (index) => {
+    setActiveCard(index);
+  };
+
   return (
-    <>
-      <div className=" mil-p-60-0 ">
-        <section className="cards ">
-          <article className="card card--1">
-        <Link href={`services/service-1`}>
-            <div className="card__info">
-              <h3 className="card__title">
-                <div className="card__quote">
-                  <TitleHead width={"30px"} />
-                </div>
-                <div>Smart Cities and Mobility</div>
-              </h3>
-              <div className="card__description ">
-                <span>
-                  {" "}
-                  We leverage key technologies and smart solutions to navigate
-                  the complexity of...
-                </span>
-              </div>
-              <div className="card__description__hover">
-               <div> We leverage key technologies and smart solutions to navigate the
-                complexity of smart city and mobility development. As ITS &
-                MaaS, AI and IoT have a lot to offer.</div>
-               
-                <div
-                  className="mil-link mil-accent mil-arrow-place mil-up pt-3"
-                >
-                  <div
-                    style={
-                      activeLocale === "ar"
-                        ? { transform: "rotate(180deg)", display: "flex" }
-                        : { transform: "rotate(0deg)", display: "flex" }
-                    }
-                  >
-                    <ArrowIcon margin={"0"} />
-                  </div>
-                </div>
-             
-              </div>
-           
-            </div>
-            <div className="card__img"></div>
-              <div className="card__img--hover"></div>
-          </Link>
-          </article>
-          <article className="card card--2">
-          <Link href={`services/service-2`}>
-            <div className="card__info">
-              <h3 className="card__title">
-                <div className="card__quote">
-                  <TitleHead width={"30px"} />
-                </div>
-                <div>Digital Transformation</div>
-              </h3>
-              <div className="card__description">
-                Adopting the right digital technologies and integrating them
-                into the various...
-              </div>
-              <div className="card__description__hover">
-               <div>
-               Adopting the right digital technologies and integrating them
-                into the various aspects of an organization's operations,
-                culture, and customer experience has become essential for
-                businesses to remain competitive.
-               </div>
-                <div
-                  className="mil-link mil-accent mil-arrow-place mil-up pt-3"
-                >
-                  <div
-                    style={
-                      activeLocale === "ar"
-                        ? { transform: "rotate(180deg)", display: "flex" }
-                        : { transform: "rotate(0deg)", display: "flex" }
-                    }
-                  >
-                    <ArrowIcon margin={"0"} />
-                  </div>
-                </div>
-             
-              </div>
-            </div>
-            <div className="card__img"></div>
-              <div className="card__img--hover"></div>
-          </Link>
-          </article>
-          <article className="card card--3">
-          <Link href={`services/service-3`}>
-            <div className="card__info">
-              <h3 className="card__title">
-                <div className="card__quote">
-                  <TitleHead width={"30px"} />
-                </div>
-                <div>Renewable Energy</div>
-              </h3>
-              <div className="card__description">
-                A&B team of experts is dedicated to helping businesses ...
-              </div>
-              <div className="card__description__hover">
-               <div> A&B team of experts is dedicated to helping businesses and
-                organizations lower their energy costs and reduce their carbon
-                footprint.</div>
-                <div
-                  className="mil-link mil-accent mil-arrow-place mil-up pt-3"
-                >
-                  <div
-                    style={
-                      activeLocale === "ar"
-                        ? { transform: "rotate(180deg)", display: "flex" }
-                        : { transform: "rotate(0deg)", display: "flex" }
-                    }
-                  >
-                    <ArrowIcon margin={"0"} />
-                  </div>
-                </div>
-             
-              </div>
-            </div>
-            </Link>
-            <div className="card__img"></div>
-              <div className="card__img--hover"></div>
-          </article>
-          <article className="card card--4 up-1550px">
-          <Link href={`services/service-4`}>
-            <div className="card__info">
-              <h3 className="card__title">
-                <div className="card__quote">
-                  <TitleHead width={"30px"} />
-                </div>
-                <div>Sustainable Manufacturing</div>
-              </h3>
-              <div className="card__description">
-        
-                Sustainable Manufacturing offers clean manufacturing...
-              </div>
-              <div className="card__description__hover">
-               
-                <div>
-                Sustainable Manufacturing offers clean manufacturing solutions for environmental excellence, aiding organizations in reducing their carbon footprint and energy costs while meeting sustainability goals.
-               </div>
-                <div
-                  className="mil-link mil-accent mil-arrow-place mil-up pt-3"
-                >
-                  <div
-                    style={
-                      activeLocale === "ar"
-                        ? { transform: "rotate(180deg)", display: "flex" }
-                        : { transform: "rotate(0deg)", display: "flex" }
-                    }
-                  >
-                    <ArrowIcon margin={"0"} />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="card__img"></div>
-              <div className="card__img--hover"></div>
-          </Link>
-          </article>
-          <article className="card card--5 up-1550px">
-          <Link href={`services/service-6`}>
-            <div className="card__info">
-              <h3 className="card__title">
-                <div className="card__quote">
-                  <TitleHead width={"30px"} />
-                </div>
-                <div>Operations</div>
-              </h3>
-              <div className="card__description">
-              
-                To successfully achieve strategic goals, organizations...
-              </div>
-              <div className="card__description__hover">
-              <div>
-              To successfully achieve strategic goals, organizations must have a clearly defined strategy and operations processes that are thoroughly tailored to lead to the desired objectives efficiently and sustainably.
-               </div>
-                <div
-                  className="mil-link mil-accent mil-arrow-place mil-up pt-3"
-                >
-                  <div
-                    style={
-                      activeLocale === "ar"
-                        ? { transform: "rotate(180deg)", display: "flex" }
-                        : { transform: "rotate(0deg)", display: "flex" }
-                    }
-                  >
-                    <ArrowIcon margin={"0"} />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="card__img"></div>
-              <div className="card__img--hover"></div>
-            </Link>
-          </article>
-        </section>
-        <section className="cards-2 mil-p-30-30 ">
-          <article className="card card--4 down-1550px">
-          <Link href={`services/service-4`}>
-          <div className="card__info">
-              <h3 className="card__title">
-                <div className="card__quote">
-                  <TitleHead width={"30px"} />
-                </div>
-                <div>Sustainable Manufacturing</div>
-              </h3>
-              <div className="card__description">
-        
-                Sustainable Manufacturing offers clean manufacturing...
-              </div>
-              <div className="card__description__hover">
-               
-                <div>
-                Sustainable Manufacturing offers clean manufacturing solutions for environmental excellence, aiding organizations in reducing their carbon footprint and energy costs while meeting sustainability goals.
-               </div>
-                <div
-                  className="mil-link mil-accent mil-arrow-place mil-up pt-3"
-                >
-                  <div
-                    style={
-                      activeLocale === "ar"
-                        ? { transform: "rotate(180deg)", display: "flex" }
-                        : { transform: "rotate(0deg)", display: "flex" }
-                    }
-                  >
-                    <ArrowIcon margin={"0"} />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="card__img"></div>
-              <div className="card__img--hover"></div>
-              </Link>
-          </article>
-          <article className="card card--5 down-1550px">
-          <Link href={`services/service-6`}>
-          <div className="card__info">
-              <h3 className="card__title">
-                <div className="card__quote">
-                  <TitleHead width={"30px"} />
-                </div>
-                <div>Operations</div>
-              </h3>
-              <div className="card__description">
-               
-                To successfully achieve strategic goals, organizations...
-              </div>
-              <div className="card__description__hover">
-              <div>
-              To successfully achieve strategic goals, organizations must have a clearly defined strategy and operations processes that are thoroughly tailored to lead to the desired objectives efficiently and sustainably.
-               </div>
-                <div
-                  className="mil-link mil-accent mil-arrow-place mil-up pt-3"
-                >
-                  <div
-                    style={
-                      activeLocale === "ar"
-                        ? { transform: "rotate(180deg)", display: "flex" }
-                        : { transform: "rotate(0deg)", display: "flex" }
-                    }
-                  >
-                    <ArrowIcon margin={"0"} />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="card__img"></div>
-              <div className="card__img--hover"></div>
-              </Link>
-          </article>
-        </section>
+    <div className="mil-p-60-90">
+      <div className="container mil-mb-60">
+        <div className="d-flex">
+          <TitleHead />
+          <h2
+            className="mil-h2"
+            dangerouslySetInnerHTML={{
+              __html:
+                activeLocale === "ar"
+                  ? "استراتيجيات صناعية ذات تأثير دائم"
+                  : "Industrial strategies with lasting impact",
+            }}
+          />
+        </div>
       </div>
-    </>
+      <section className="cards">
+        {[
+          {
+            title: "Smart Cities and Mobility",
+            description:
+              "We leverage key technologies and smart solutions to navigate the complexity of...",
+            fullDescription:
+              "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer.",
+            link: "services/service-1",
+            imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1716989833/2151021171_qdcgwc.webp",
+          },
+          {
+            title: "Digital Transformation",
+            description:
+              "Adopting the right digital technologies and integrating them into the various...",
+            fullDescription:
+              "Adopting the right digital technologies and integrating them into the various aspects of an organization's operations, culture, and customer experience has become essential for businesses to remain competitive.",
+            link: "services/service-2",
+            imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988597/104221_j5di9w.webp",
+          },
+          {
+            title: "Renewable Energy",
+            description:
+              "A&B team of experts is dedicated to helping businesses ...",
+            fullDescription:
+              "A&B team of experts is dedicated to helping businesses and organizations lower their energy costs and reduce their carbon footprint.",
+            link: "services/service-3",
+            imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp",
+          },
+        ].map((card, index) => (
+          <article
+            key={index}
+            className={`card card--${index + 1} ${activeCard === index ? "active" : ""}`}
+            onMouseEnter={() => handleMouseEnter(index)}
+          >
+            <Link href={card.link}>
+              <div className="card__info">
+                <h3 className="card__title">
+                  <div className="card__quote">
+                    <TitleHead width={"30px"} />
+                  </div>
+                  <div>{card.title}</div>
+                </h3>
+                <div className="card__description">
+                  <span>{card.description}</span>
+                </div>
+                <div className="card__description__hover">
+                  <div>{card.fullDescription}</div>
+                  <div className="mil-link mil-accent mil-arrow-place mil-up pt-3">
+                    <div
+                      style={
+                        activeLocale === "ar"
+                          ? { transform: "rotate(180deg)", display: "flex" }
+                          : { transform: "rotate(0deg)", display: "flex" }
+                      }
+                    >
+                      <ArrowIcon margin={"0"} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="card__img" style={{ backgroundImage: `url(${card.imgUrl})` }}></div>
+              <div className="card__img--hover" style={{ backgroundImage: `url(${card.imgUrl})` }}></div>
+            </Link>
+          </article>
+        ))}
+      
+      </section>
+      <div className="d-flex justify-content-end m-auto mil-p-30-30" style={{maxWidth:'1214px'}}>
+        <div className="mil-text-accent-dark mil-hover-primary mil-center">
+                <Link
+                  href="/contact"
+                    className="mil-button mil-arrow-place "
+                  >
+                    <span>
+                    {activeLocale === 'ar' ? "المزيد" : "Explore More"}</span>
+                    <div
+                      style={
+                        activeLocale === "ar"
+                          ? { transform: "rotate(180deg)", display: "flex" }
+                          : { transform: "rotate(0deg)", display: "flex" }
+                      }
+                    >
+                      <ArrowIcon />
+                    </div>
+                  </Link>
+                
+                </div>
+        </div>
+    </div>
   );
 };
 

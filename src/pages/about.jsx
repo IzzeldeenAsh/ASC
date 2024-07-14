@@ -9,6 +9,7 @@ import CustomizedTimeline from "@components/mobile-timeline";
 import ABLogoLight from "../layouts/svg-icons/AB-Logo-Light";
 import { NextSeo } from 'next-seo';
 import {HeaderMegaMenu} from "@components/HeeaderMegaMenu";
+import AboutContent from "../components/AboutContent";
 const About = () => {
   const postData = aboutData;
   const { activeLocale } = useLocale();
@@ -84,13 +85,13 @@ const About = () => {
         </div>
         <div className="nav-shadow"></div>
       {/* publication */}
-      <section id="blog">
+      <section id="blog" className="mil-soft-bg">
         <div className="container mil-p-90-90">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-12">
               <div
-                className="mil-text mil-up mil-mb-60"
-                style={{ textAlign: "justify" }}
+                className="mil-text mil-up mil-text-xl about-page-content-section"
+               
                 dangerouslySetInnerHTML={{ __html: getContentHtml }}
               />
             </div>
@@ -130,7 +131,7 @@ const About = () => {
                   <img src={item.logo} alt="logo"></img>
                 </p>
                 <h1>{activeLocale === 'ar' ? item.title.arabic : item.title.english}</h1>
-                <p className="mil-text-sm">{activeLocale === 'ar' ? item.content.arabic : item.content.english}</p>
+                <p className="mil-text-sm" >{activeLocale === 'ar' ? item.content.arabic : item.content.english}</p>
               </div>
             </div>
           ))}
@@ -159,7 +160,7 @@ const About = () => {
                 }
               </div>
               <div
-                className="mil-center mil-up mil-mb-60"
+                className="mil-center mil-up mil-mb-60 mil-text-xl"
                 style={{ textAlign: "center" }}
                 dangerouslySetInnerHTML={{ __html: activeLocale === 'ar' ? postData.mission.arabic : postData.mission.english }}
               />

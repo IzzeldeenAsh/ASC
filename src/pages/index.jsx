@@ -61,9 +61,11 @@ const Home1 = (props) => {
       <HeroOneSection />
       {/* <CardGrid/> */}
       <ServicesSection />
+      <CardGrid/>
       <TeamSection id="leaders" />
-      <PartnersSlider />
+     
       <AboutSection />
+      <PartnersSlider />
     </Layouts>
   );
 };

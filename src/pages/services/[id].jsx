@@ -143,7 +143,7 @@ const ServiceDetail = () => {
           <div className="row justify-content-between">
             <div className="mil-relative mil-mb-30 col-lg-12">
               <div className="position-relative justify-content-between flex-1"></div>
-              <p className="mil-up mil-mb-30 mil-text-lg mil-p-120-0" dangerouslySetInnerHTML={{ __html: content }} />
+              <p className="mil-up mil-mb-30 mil-text-xl mil-p-120-0" dangerouslySetInnerHTML={{ __html: content }} />
               {service.infograph && (
                 <div className="infograph d-flex flex-column justify-content-center align-items-center">
                   <div className="responsive-image">
@@ -185,7 +185,7 @@ const ServiceDetail = () => {
                       </div>
                     </div>
                     <div className="mil-accordion-content mil-text " style={{ height: key === activeAccordion ? "auto" : "0" }}>
-                      <div className="mil-mb-20 mil-text-lg">
+                      <div className="mil-mb-20 mil-text-xl">
                         {activeLocale === "ar" ? <Truncate text={item.value.arabic} maxLength={280} /> : <Truncate text={item.value.english} maxLength={280} />}
                       </div>
                       {item.isSubService && (

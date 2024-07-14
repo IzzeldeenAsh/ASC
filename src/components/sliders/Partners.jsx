@@ -9,8 +9,8 @@ const PartnersSlider = () => {
 return (
   <>
   {/* partners */}
-  <div className="mil-soft-bg   mil-p-60-30">
-      <div className="container">
+  <div className=" mil-p-60-30 mil-soft-bg">
+      <div className="container ">
       <div
               className="mil-complex-text flex-column justify-content-center mil-up mil-center "
               style={
@@ -25,7 +25,7 @@ return (
                   dangerouslySetInnerHTML={{ __html: activeLocale==='ar' ? Data.title.arabic: Data.title.english }}/>
               </span>
              <div className="col-8">
-             <div className="mil-text-lg mil-up mil-mb-60 mil-p-30-30 " dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.content.arabic : Data.content.english}} />
+             <div className="mil-text-xl mil-up mil-mb-60 mil-p-30-30 italic" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.content.arabic : Data.content.english}} />
              </div>
             </div>
            
