@@ -1,7 +1,7 @@
 {
     "title": {
-        "english": "Meet Our <br>  Leaders",
-        "arabic":   "تعرّف  على<br>  رؤسائنا "
+        "english": "<span class=\"mil-thin\">Meet</span><br> Our   Leaders",
+        "arabic":   "   <span class=\"mil-thin\"> تعرّف </span>على <br>  رؤسائنا "
     },
     "avatar": {
         "image": "/img/faces/khaldoun-zomot.png",
@@ -12,7 +12,7 @@
         "arabic": "<p>نحن أفراد موهوبون وشغوفون بإحياء الأفكار. من خلال مجموعة متنوعة من الخلفيات والمهارات، نتعاون لإنتاج حلول فعالة لعملائنا.</p><p>معًا، يلتزم فريقنا الإبداعي بتقديم عمل مؤثر يتجاوز التوقعات.</p>"
     },
     "subtitle":{
- "english": "<span class=\"mil-thin\"></span> Khaldun Zomot <br><span class=\"mil-thin\">CEO</span>",
+ "english": " Khaldun Zomot <br><span class=\"mil-thin\">CEO</span>",
  "arabic":" خلدون زعمط <br><span class=\"mil-thin\">CEO</span> "
     },
     "button": {

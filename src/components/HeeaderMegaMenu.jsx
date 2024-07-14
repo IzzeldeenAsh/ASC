@@ -96,15 +96,15 @@ export function HeaderMegaMenu({mode="light"}) {
             link: '/sectors',
             links: generateLinks(sectors.items),
             footerText: {
-                english: 'Discover the Perfect Fit for You',
-                arabic: 'اكتشف الخيار المثالي لك'
+                english: 'Explore all sectors and tailor your search to find exactly what you need.',
+                 arabic: 'استكشف جميع القطاعات وخصص بحثك للعثور على ما تحتاجه بالضبط.'
             },
             footerDescription: {
-                english: 'Explore all sectors and tailor your search to find exactly what you need.',
-                arabic: 'استكشف جميع القطاعات وخصص بحثك للعثور على ما تحتاجه بالضبط.'
+                english: '',
+                arabic: ''
             },
             buttonText: {
-                english: 'Browse Sectors',
+                english: 'More Sectors',
                 arabic: 'تصفح القطاعات'
             },
         },

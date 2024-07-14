@@ -5,6 +5,7 @@ import  { useLocale } from '@/utils/getLocale';
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 const AboutSection = () => {
     const {activeLocale, t} = useLocale();
+    const header = activeLocale ==='ar' ? "<span  class=\"mil-thin\">تعرّف</span> <br> من نحن" : "<span  class=\"mil-thin\">Who</span> <br> We Are"
     return (
         <>
             {/* about */}
@@ -15,10 +16,10 @@ const AboutSection = () => {
                             <div className="mil-mb-60">
                           <div className="d-flex">
                           <TitleHead />
-                                <h2 className="mil-up mil-mb-60">
-                                {t("aboutDiscover")} <br/>{t("aboutWe")}  {t("aboutOur")} 
-                                
-                                </h2>
+                         <div className="d-flex flex-column">
+                         <h2 className="mil-up mil-mb-60" dangerouslySetInnerHTML={{__html:header }} />
+                              
+                         </div>
                           </div>
                                 <div className="mil-text-xl mil-up mil-mb-30 px-40px" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.description.arabic : Data.description.english}} />
                                

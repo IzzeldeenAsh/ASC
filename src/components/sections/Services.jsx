@@ -20,7 +20,7 @@ const ServicesSection = () => {
             <div className="featured">
               <div className="d-flex">
               {/* <TitleHead /> */}
-                <h3 className="mil-h3">{t("featured")}</h3>
+                <h3 className="mil-h3" >{t("featured")}</h3>
                 
                 </div>
               <div className="mil-text-accent-dark mil-hover-primary mil-center">
