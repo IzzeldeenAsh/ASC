@@ -81,7 +81,7 @@ border-top-right-radius: 12px;
   overflow: hidden;
   box-shadow: 2px 15px 14px -6px rgba(0, 0, 0, 0.2);
   max-height: 460px;
-  max-width: 275px;
+  max-width: 300px;
   z-index: 0;
   // min-width: 330px;
   overflow: hidden;
@@ -282,6 +282,7 @@ display: inline-block;
   max-width: 250px;
   display: flex;
   gap: 10px;
+  text-transform: uppercase;
 }
 
 .card.active .card__img--hover::after,
