@@ -96,7 +96,7 @@ const CardGrid = () => {
         ))}
       
       </section>
-      <div className="d-flex justify-content-end m-auto mil-p-30-30" style={{maxWidth:'1214px'}}>
+      <div className="d-flex justify-content-end m-auto mil-p-30-30" style={{maxWidth:'1110px'}}>
         <div className="mil-text-accent-dark mil-hover-primary mil-center">
                 <Link
                   href="/contact"
