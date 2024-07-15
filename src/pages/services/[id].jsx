@@ -6,16 +6,14 @@ import { Accordion } from "../../common/utilits";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import servicesData from "@data/dummy/services.json";
-import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
 import ABLogoLight from "@/src/layouts/svg-icons/AB-Logo-Light";
 import Truncate from "@/src/components/Truncate";
-import Image from "next/image";
+import { Image } from '@mantine/core';
 import RequestService from "@components/sections/RequestService";
 import { NextSeo } from 'next-seo';
 import { HeaderMegaMenu } from "@components/HeeaderMegaMenu";
 import QuotesIcons from "@/src/layouts/svg-icons/Quotes";
 import { IconArrowDown } from "@tabler/icons-react";
-
 const ServiceDetail = () => {
   const { activeLocale } = useLocale();
   const router = useRouter();
@@ -174,9 +172,10 @@ const ServiceDetail = () => {
                       className={key === activeAccordion ? "mil-accordion-menu mil-active" : "mil-accordion-menu"}
                       onClick={() => toggleAccordion(key)}
                     >
-                      <p className="mil-accordion-head mil-text-xl">
-                        {activeLocale === "ar" ? item.label.arabic : item.label.english}
-                      </p>
+                      <div className="mil-accordion-head ">
+                      {activeLocale === "ar" ? item.label.arabic : item.label.english}
+                       
+                      </div>
                       <div className="d-flex align-items-center gap-20">
                         <div className="mil-symbol mil-h3 ">
                           <div style={{ display: key === activeAccordion ? "none" : "block" }}>+</div>
@@ -185,16 +184,26 @@ const ServiceDetail = () => {
                       </div>
                     </div>
                     <div className="mil-accordion-content mil-text " style={{ height: key === activeAccordion ? "auto" : "0" }}>
-                      <div className="mil-mb-20 mil-text-xl">
-                        {activeLocale === "ar" ? <Truncate text={item.value.arabic} maxLength={280} /> : <Truncate text={item.value.english} maxLength={280} />}
-                      </div>
-                      {item.isSubService && (
+                    <div className="d-flex gap-40 flex-column flex-md-row mil-mb-20">
+                     {item.image &&
+                      
+                      <Image src={item.image} fit="contain"  h={200}
+                      w={300} alt="service-image"   />
+                    }
+                    <div className=" mil-text-lg">
+                        {activeLocale === "ar" ? <Truncate text={item.value.arabic} maxLength={300} /> : <Truncate text={item.value.english} maxLength={300} />}
+                       <div>
+                       {item.isSubService && (
                         <Link href={`/subservice/${item.id}`}>
                           <div className="mil-button mil-button-sm mil-mb-25">
                             {activeLocale === 'ar' ? "المزيد " : "Read More"}
                           </div>
                         </Link>
                       )}
+                       </div>
+                      </div>
+                    </div>
+                 
                     </div>
                   </div>
                 </div>
