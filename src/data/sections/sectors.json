@@ -78,6 +78,13 @@
                 "arabic": "القطاع العام"
               },
             "link": "/sectors/sector-10"
-        }
+        },
+        {
+          "title": {
+              "english": "Healthcare",
+              "arabic": "القطاع الصجي"
+            },
+          "link": "/sectors/sector-11"
+      }
     ]
 }

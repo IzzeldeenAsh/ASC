@@ -581,7 +581,7 @@
           "arabic": "تحويل الاستراتيجيات إلى نجاح"
         },
         "content": {
-          "english": "To successfully achieve strategic goals, organizations must have a clearly defined strategy and operations processes that are thoroughly tailored to lead to the desired objectives efficiently and sustainably. At A&B, our management and operations consultants help clients transform their organizations’ strategies into success by analyzing their current operating model, pinpointing areas for improvement, and solving operational challenges. They examine the entire value chain and employ all data-driven insights to craft new operating models that meet the needs of our clients.",
+          "english": "<div>To successfully achieve strategic goals, organizations must have a clearly defined strategy and operations processes that are thoroughly tailored to lead to the desired objectives efficiently and sustainably. At A&B, our management and operations consultants help clients transform their organizations’ strategies into success by analyzing their current operating model, pinpointing areas for improvement, and solving operational challenges. They examine the entire value chain and employ all data-driven insights to craft new operating models that meet the needs of our clients.<div class=\"d-flex justify-content-center\" ><img class=\"w-100\" style=\"max-width:850px\" src=\"/img/infographs/OperationsInfo.svg\"></div> <div class=\"mil-center mil-text-xs\">A&B Comprehensive Operating Model for Achieving Strategic Goals</div></div>",
            "arabic": "لتحقيق الأهداف الاستراتيجية بفعالية، تحتاج المنظمات إلى وضع استراتيجية واضحة وتصميم عمليات التشغيل بدقة لتضمن تحقيق النتائج المرجوة بكفاءة واستدامة. في B&A، يعمل مستشارونا المتخصصون في الإدارة والعمليات على مساعدة عملائنا في تحويل استراتيجيات مؤسساتهم إلى نتائج ملموسة ومستدامة من خلال تحليل نموذج التشغيل الحالي، وتحديد مجالات التحسين، وحل التحديات التشغيلية. كما يتمثل دور الشركة بفحص سلسلة القيمة بالكامل وتقديم رؤى مبنية على البيانات لصياغة نماذج تشغيل مبتكرة تتماشى مع احتياجات عملائنا."
         }
       },
@@ -592,6 +592,7 @@
           "arabic": "عرض المشاريع الخاصة بنا"
         }
       },
+   
       "list": {
         "items": [
           {
