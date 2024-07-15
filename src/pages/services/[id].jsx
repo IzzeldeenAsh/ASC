@@ -156,6 +156,7 @@ const ServiceDetail = () => {
                   <div className="mil-center mil-text-xs">{service.infograph.name}</div>
                 </div>
               )}
+           
             </div>
           </div>
         </div>
