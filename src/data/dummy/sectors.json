@@ -14,7 +14,7 @@
         "arabic": "الصناعة"
       },
       "short": {
-        "english": "A&B Consulting boosts economic growth by optimizing industrial profits, automating operations, and developing sustainable manufacturing strategies.",
+        "english": "Discover how A&B boosts economic growth by optimizing industrial profits, automating operations, and developing sustainable manufacturing strategies.",
         "arabic": "تُعزز A&B Consulting النمو الاقتصادي من خلال تحسين أرباح الصناعات، وأتمتة العمليات، وتطوير استراتيجيات تصنيع مستدامة."
       },
       "introTitle": {
@@ -27,7 +27,7 @@
           "arabic": "نحو التميز الصناعي من أجل مستقبل مستدام"
         },
         "content": {
-          "english": "Marching steadily towards economic growth by supporting the industrial sector, our industrial strategies and solutions help organizations realize optimum potential profits using a sophisticated industrial business evaluation matrix that goes beyond technical feasibility.<br><br>A&B consulting experts work with clients to encompass crucial investment factors such as market trends and competition. We help them utilize automation to streamline operations and achieve efficient energy consumption. Our industrial experts always extend a helping hand to manufacturers and businesses by thoroughly examining their ventures and crafting insightful <a class=\"hyper-link\" href=\"/subservice/clean-manufacturing\" target=\"_blank\">clean manufacturing</a> strategies to improve their sustainability and reduce their environmental impact.",
+          "english": "Marching steadily towards economic growth by supporting the industrial sector, our industrial strategies and solutions help organizations realize optimum potential profits using a sophisticated industrial business evaluation matrix that goes beyond technical feasibility.<br><br>A&B consulting experts work with clients to encompass crucial investment factors such as market trends and competition. We help them utilize automation to streamline operations and achieve efficient energy consumption. Our industrial experts always extend a helping hand to manufacturers and businesses in the industrial sector by thoroughly examining their industrial project ventures and and crafting insightful <a class=\"hyper-link\" href=\"/subservice/clean-manufacturing\" target=\"_blank\">clean manufacturing</a> strategies to improve their sustainability and reduce their environmental impact.",
           "arabic": "نساهم بدفع عجلة النمو الاقتصادي من خلال تقديمنا للاستراتيجيات الصناعية والحلول لمؤسسات القطاع الصناعي. فخبراؤنا الصناعيين يحرصون على أن تجني المؤسسات الصناعية الأرباح المحتملة وبصورة مثلى، فيقيّمون المشاريع الصناعية لعملائنا باستخدام مصفوفة A&B المتقدمة للأعمال الصناعية التي تتجاوز في تفاصيلها دراسات الجدوى الفنية.<br><br>يعمل الفريق الاستشاري للقطاع الصناعي في A&B بشكل وثيق مع عملائنا لتشمل دراساتهم أهم عوامل الاستثمار الصناعي مثل اتجاهات السوق market trends والمنافسة.<br><br>نكشف لعملائنا عن الجوانب المفصلية المطلوبة لنجاح استثماراتهم في القطاع الصناعي كتفعيل التكنولوجيا الأمثل وتنظيم العمليات الصناعية عبر الاتمتة إضافة الى استراتيجيات ترشيد استهلاك الطاقة ومصادر <a class=\"hyper-link\" href=\"/{{locale}}/services/service-3\" target=\"_blank\">الطاقة المتجددة</a>  للصناعة. كما ويقوم خبراؤنا بإجراء تقييم شامل لمشاريع العملاء ووضع استراتيجيات <a class=\"hyper-link\" href=\"/{{locale}}/subservice/clean-manufacturing\" target=\"_blank\">التصنيع النظيف</a> المبتكرة لتحسين استدامتهم وتقليل بصمتهم الكربونية."
         },
         "button": {
@@ -293,7 +293,7 @@
           "arabic": "نحو التميز الرقمي من أجل مستقبل مستدام"
         },
         "content": {
-          "english": "Let's discover the potential of technology and innovate digital ventures.<br><br> Once we've identified your target, we'll outline the strategies that will help you maximize the value you can create by leveraging the full potential of available technology. Our team of <a class=\"hyper-link\" href=\"/services/service-2\" target=\"_blank\">digital transformation</a> experts will guide you through the complexities of data utilization, ensuring you capture customer-centric solutions and enhance efficiency.",
+          "english": "Once we've identified your target, we'll outline the strategies that will help you maximize the value you can create by leveraging the full potential of available technology. Our team of <a class=\"hyper-link\" href=\"/services/service-2\" target=\"_blank\">digital transformation</a> experts will guide you through the complexities of data utilization, ensuring you capture customer-centric solutions and enhance efficiency.",
           "arabic": "نستكشف سوية كيفية تحقيق أهدافك ونبتكر الحلول الرقمية للوصول اليها. بمجرد تحديد اهدافك، نقوم بوضع استراتيجيات تساعدك في تحقيق أقصى قيمة ممكنة من استغلال إمكانيات التكنولوجية المتاحة. يقوم فريقنا المتخصص من خبراء <a class=\"hyper-link\" href=\"/{{locale}}/services/service-2\" target=\"_blank\">التحول الرقمي</a> بتوجيهك عبر تحليلات البيانات والمعلومات وتوفير الحلول التي ترتكز على رضا العملاء وتعزيز الكفاءة والفعالية في العمل."
         },
         "button": {
@@ -834,7 +834,7 @@
         "arabic": "تجارة"
       },
       "short": {
-        "english": "Unlock global markets and boost your business resilience with expert international trade strategies.",
+        "english": "Unlocking global markets and elevating business resilience.",
         "arabic": "افتح الأسواق العالمية وعزز مرونة عملك باستراتيجيات تجارة دولية خبيرة."
       },
       "introTitle": {
@@ -907,7 +907,7 @@
           "arabic": "القطاع العام"
       },
       "short": {
-          "english": "Dedicated to enhancing governance, community development,   <br>and sustainable growth.",
+          "english": "Standing by governments to enhance governance, community development and sustainable growth.",
           "arabic": "ملتزمون بتحسين الحوكمة، وتطوير المجتمع، والنمو المستدام."
       },
       "introTitle": {
@@ -972,7 +972,7 @@
        "arabic": "القطاع الصحي"
       },
       "short": {
-        "english": "Experts in enhancing healthcare management and facility.",
+        "english": "Increasing institutions’ efficiency and service quality by developing appropriate healthcare sector investment strategies.",
         "arabic": "خبراء في تحسين الإدارة وتطوير المنشآت الصحية."
       },
       "introTitle": {
