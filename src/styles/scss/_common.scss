@@ -1747,3 +1747,10 @@ transform: rotate(0deg);
        margin-bottom: 60px;
     }
 }
+.scale-up-1-1{
+transform: scale(1);
+transition: all 0.2s ease-out;
+}
+.scale-up-1-1:hover{
+    transform: scale(1.1);
+}
