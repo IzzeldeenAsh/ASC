@@ -265,11 +265,11 @@
         "Energy and Sustainability"
       ],
       "title": {
-        "english": "Renewable Energy Transformation",
+        "english": "Renewable Energy Transition",
         "arabic":"التحول إلى الطاقة المتجددة"
       },
       "preview_title": {
-        "english":  "Renewable Energy Transformation",
+        "english":  "Renewable Energy Transition",
         "arabic": "التحول إلى الطاقة المتجددة"
       },
       "short": {
@@ -284,7 +284,7 @@
         "height" : 551
        },
       "introTitle": {
-        "english": "Renewable Energy <br> <span class=\"mil-thin\">Transformation</span>",
+        "english": "Renewable Energy <br> <span class=\"mil-thin\">Transition</span>",
         "arabic":  "التحول إلى<br> الطاقة المتجددة"
       }, 
       "description": {
