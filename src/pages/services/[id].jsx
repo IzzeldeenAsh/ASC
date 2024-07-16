@@ -14,14 +14,19 @@ import { NextSeo } from 'next-seo';
 import { HeaderMegaMenu } from "@components/HeeaderMegaMenu";
 import QuotesIcons from "@/src/layouts/svg-icons/Quotes";
 import { IconArrowDown } from "@tabler/icons-react";
+
 const ServiceDetail = () => {
   const { activeLocale } = useLocale();
   const router = useRouter();
   const { id, section, sectionKey } = router.query;
-  const [activeAccordion, setActiveAccordion] = useState(-1);
+  const [activeAccordion, setActiveAccordion] = useState([]);
 
   const toggleAccordion = (key) => {
-    setActiveAccordion(key === activeAccordion ? -1 : key);
+    setActiveAccordion((prevState) =>
+      prevState.includes(key)
+        ? prevState.filter((accordionKey) => accordionKey !== key)
+        : [...prevState, key]
+    );
   };
 
   useEffect(() => {
@@ -33,12 +38,12 @@ const ServiceDetail = () => {
       const sectionElement = document.getElementById(section);
       if (sectionElement) {
         sectionElement.scrollIntoView({ behavior: "smooth" });
-        setActiveAccordion(parseInt(sectionKey));
+        setActiveAccordion([parseInt(sectionKey)]);
       }
     } else {
-      setActiveAccordion(0);
+      setActiveAccordion(servicesData.services.find((service) => service.id === id)?.list?.items.map((_, index) => index) || []);
     }
-  }, [section, sectionKey]);
+  }, [section, sectionKey, id]);
 
   if (!id) return null;
 
@@ -156,7 +161,6 @@ const ServiceDetail = () => {
                   <div className="mil-center mil-text-xs">{service.infograph.name}</div>
                 </div>
               )}
-           
             </div>
           </div>
         </div>
@@ -170,41 +174,37 @@ const ServiceDetail = () => {
                 <div className="container">
                   <div className="mil-accordion-group mil-up">
                     <div
-                      className={key === activeAccordion ? "mil-accordion-menu mil-active" : "mil-accordion-menu"}
+                      className={activeAccordion.includes(key) ? "mil-accordion-menu mil-active" : "mil-accordion-menu"}
                       onClick={() => toggleAccordion(key)}
                     >
                       <div className="mil-accordion-head ">
-                      {activeLocale === "ar" ? item.label.arabic : item.label.english}
-                       
+                        {activeLocale === "ar" ? item.label.arabic : item.label.english}
                       </div>
                       <div className="d-flex align-items-center gap-20">
                         <div className="mil-symbol mil-h3 ">
-                          <div style={{ display: key === activeAccordion ? "none" : "block" }}>+</div>
-                          <div style={{ display: key === activeAccordion ? "block" : "none" }}>-</div>
+                          <div style={{ display: activeAccordion.includes(key) ? "none" : "block" }}>+</div>
+                          <div style={{ display: activeAccordion.includes(key) ? "block" : "none" }}>-</div>
                         </div>
                       </div>
                     </div>
-                    <div className="mil-accordion-content mil-text " style={{ height: key === activeAccordion ? "auto" : "0" }}>
-                    <div className="d-flex gap-40 flex-column flex-md-row mil-mb-20">
-                     {item.image &&
-                      
-                      <Image src={item.image} fit="contain"  h={200}
-                      w={300} alt="service-image"   />
-                    }
-                    <div className=" mil-text-lg">
-                        {activeLocale === "ar" ? <Truncate text={item.value.arabic} maxLength={300} /> : <Truncate text={item.value.english} maxLength={300} />}
-                       <div>
-                       {item.isSubService && (
-                        <Link href={`/subservice/${item.id}`}>
-                          <div className="mil-button mil-button-sm mil-mb-25">
-                            {activeLocale === 'ar' ? "المزيد " : "Read More"}
+                    <div className="mil-accordion-content mil-text " style={{ height: activeAccordion.includes(key) ? "auto" : "0" }}>
+                      <div className="d-flex gap-40 flex-column flex-md-row mil-mb-20">
+                        {item.image && (
+                          <Image src={item.image} fit="contain" h={200} w={300} alt="service-image" />
+                        )}
+                        <div className="mil-text-lg">
+                          {activeLocale === "ar" ? <Truncate text={item.value.arabic} maxLength={300} /> : <Truncate text={item.value.english} maxLength={300} />}
+                          <div>
+                            {item.isSubService && (
+                              <Link href={`/subservice/${item.id}`}>
+                                <div className="mil-button mil-button-sm mil-mb-25">
+                                  {activeLocale === 'ar' ? "المزيد " : "Read More"}
+                                </div>
+                              </Link>
+                            )}
                           </div>
-                        </Link>
-                      )}
-                       </div>
+                        </div>
                       </div>
-                    </div>
-                 
                     </div>
                   </div>
                 </div>
