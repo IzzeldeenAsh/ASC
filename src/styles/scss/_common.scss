@@ -1754,3 +1754,21 @@ transition: all 0.2s ease-out;
 .scale-up-1-1:hover{
     transform: scale(1.1);
 }
+.mil-share{
+    margin-inline-start: 40px;
+    background-color: #f5d74c;
+    display: inline-block;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #000;
+    align-items: center;
+    border-radius: 40px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.mil-share:hover{
+    transform: scale(1.1);
+}

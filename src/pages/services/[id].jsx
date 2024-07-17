@@ -54,6 +54,7 @@ const ServiceDetail = () => {
 
   const metaTitle = activeLocale === "ar" ? service.title.arabic : service.title.english;
   const pageTitle = activeLocale === "ar" ? service.introTitle.arabic : service.introTitle.english;
+
   const breadTitle = activeLocale === "ar" ? service.title.arabic : service.title.english;
   const slogan = activeLocale === "ar" ? service.description.title.arabic : service.description.title.english;
   const content = activeLocale === "ar" 
@@ -62,7 +63,8 @@ const ServiceDetail = () => {
   const keywords = service.keywords.join(", ");
   const description = activeLocale === "ar" ? service.short.arabic : service.short.english;
   const imageUrl = service.imgURL;
-
+const shareTitle =  activeLocale === "ar" ? service.title.arabic :  service.title.english 
+const shareDescription =  activeLocale === "ar" ? service.short.arabic :  service.short.english 
   const handleScrollToService = (e) => {
     e.preventDefault();
     const element = document.getElementById("service");
@@ -111,6 +113,8 @@ const ServiceDetail = () => {
       <PageBanner
         pageTitle={pageTitle}
         breadTitle={breadTitle}
+        shareDescription={shareDescription}
+        shareTitle={shareTitle}
         breadColor="light"
         anchorLink="#service"
         bg={service.imgURL}
