@@ -113,16 +113,18 @@ const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, bread
                     </div>
                   } 
                   <div className='mil-share d-flex'>
-                    <FaShareAlt/>
-                    {/* <FacebookShareButton url={shareUrl} quote={shareTitle} hashtag="#consulting" description={shareDescription} media={imgUrl}>
+                  <span className='share-icon'>  <FaShareAlt style={{paddingBottom:"1px"}}/></span>
+                   <div className="d-flex gap-10 share-icons">
+                   <FacebookShareButton className='social-media-btn' url={shareUrl} quote={shareTitle} hashtag="#consulting" description={shareDescription} media={imgUrl}>
                       <FacebookIcon size={32} round />
                     </FacebookShareButton>
-                    <TwitterShareButton url={shareUrl} title={shareTitle}  hashtag="#consulting" description={shareDescription} media={imgUrl}>
+                    <TwitterShareButton className='social-media-btn' url={shareUrl} title={shareTitle}  hashtag="#consulting" description={shareDescription} media={imgUrl}>
                       <TwitterIcon size={32} round />
                     </TwitterShareButton>
-                    <LinkedinShareButton url={shareUrl} title={shareTitle} summary={shareDescription} source={shareUrl}>
+                    <LinkedinShareButton className='social-media-btn' url={shareUrl} title={shareTitle} summary={shareDescription} source={shareUrl}>
                       <LinkedinIcon size={32} round />
-                    </LinkedinShareButton> */}
+                    </LinkedinShareButton>
+                   </div>
                   </div>
                   <p style={{ paddingInlineStart: "50px" }} className={bg ? "mil-light mil-mb-60 max-w-600px mil-text-xl" : "mil-mb-60"} dangerouslySetInnerHTML={{ __html: subtext }} />
                   {isService &&
@@ -136,7 +138,7 @@ const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, bread
                   }
                 </div>
                 {imgUrl && <div className='service-image' ref={serviceImageRef}>
-                  <Image src={imgUrl} width={585} height={280} alt="service-image" priority fetchPriority="high" />
+                  <Image src={imgUrl} width={585} height={280} alt="service-image"  fetchPriority="high" />
                 </div>}
               </div>
             }

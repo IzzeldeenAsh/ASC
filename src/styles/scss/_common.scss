@@ -1761,14 +1761,90 @@ transition: all 0.2s ease-out;
     width: fit-content;
     display: flex;
     justify-content: center;
+    position: relative;
     padding: 10px;
     color: #000;
     align-items: center;
     border-radius: 40px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
     cursor: pointer;
+    overflow:hidden ;
+    width: 40px;
+}
+.share-icons{
+    transform: translateY(50px);
+    position: absolute;
+    transition: transform 0.2s 0.1s ease-in;
+    opacity: 0;
+    visibility: hidden;
+  
+}
+.social-media-btn:hover{
+    transition: all 0.1s ease-in-out;
+}
+    .social-media-btn:hover{
+        transform: scale(1.1);
+    }
+.share-icon{
+    max-height: 19px;
 }
 
 .mil-share:hover{
-    transform: scale(1.1);
+    padding-top: 18px;
+    width: 150px;
+    .share-icon{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .share-icons{
+      opacity: 1;
+         visibility: visible;
+        transform: translateY(0);
+    }
 }
+.share-buttons-container {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    opacity: 0;
+    max-width: 0;
+    transition: max-width 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .share-buttons-container.show {
+    opacity: 1;
+    max-width: 500px; /* Adjust based on the number of buttons */
+  }
+  
+  .share-button {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  
+  .share-buttons-container.show .share-button {
+    animation: slide-in 0.5s forwards;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .share-buttons-container.show .share-button:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .share-buttons-container.show .share-button:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  
+  .share-buttons-container.show .share-button:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+  

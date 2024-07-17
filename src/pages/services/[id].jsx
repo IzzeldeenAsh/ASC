@@ -158,7 +158,6 @@ const shareDescription =  activeLocale === "ar" ? service.short.arabic :  servic
                     <Image
                       src={service.infograph.english}
                       alt="infograph"
-                      priority
                       width={service.infograph.width}
                       height={service.infograph.height}
                     />
