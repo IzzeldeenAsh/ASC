@@ -112,28 +112,36 @@ const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, bread
                       <h2 className={bg ? "mil-light mil-mb-20 pt-2" : " pt-2"} dangerouslySetInnerHTML={{ __html: pageTitle }} />
                     </div>
                   } 
-                  <div className='mil-share d-flex'>
-                  <span className='share-icon'>  <FaShareAlt style={{paddingBottom:"1px"}}/></span>
-                   <div className="d-flex gap-10 share-icons">
-                   <FacebookShareButton className='social-media-btn' url={shareUrl} quote={shareTitle} hashtag="#consulting" description={shareDescription} media={imgUrl}>
-                      <FacebookIcon size={32} round />
-                    </FacebookShareButton>
-                    <TwitterShareButton className='social-media-btn' url={shareUrl} title={shareTitle}  hashtag="#consulting" description={shareDescription} media={imgUrl}>
-                      <TwitterIcon size={32} round />
-                    </TwitterShareButton>
-                    <LinkedinShareButton className='social-media-btn' url={shareUrl} title={shareTitle} summary={shareDescription} source={shareUrl}>
-                      <LinkedinIcon size={32} round />
-                    </LinkedinShareButton>
-                   </div>
-                  </div>
-                  <p style={{ paddingInlineStart: "50px" }} className={bg ? "mil-light mil-mb-60 max-w-600px mil-text-xl" : "mil-mb-60"} dangerouslySetInnerHTML={{ __html: subtext }} />
+                       { asPath.indexOf('/sectors/') !== -1 && <p style={{ paddingInlineStart: "50px" }} className={bg ? "mil-light mil-mb-15 max-w-600px mil-text-xl" : "mil-mb-15"} dangerouslySetInnerHTML={{ __html: subtext }} />}
+                
+             
+               
+                  
+                  
                   {isService &&
-                    <div className="d-flex align-items-end ">
-                      <ul className="service-banner-links p-inline-start-40 mil-text mil-up d-flex gap-20 justify-content-start mil-light">
+                    <div className="d-flex align-items-end " >
+                      <ul className="service-banner-links p-inline-start-40 mil-text mil-up d-flex gap-20 justify-content-start mil-light " style={{position:"relative"}}>
                         <li><span>{activeLocale === 'ar' ? labels.arabic.experts : labels.english.experts}</span></li>
                         <li><span>{activeLocale === 'ar' ? labels.arabic.relatedArticles : labels.english.relatedArticles}</span></li>
                         <li><span>{activeLocale === 'ar' ? labels.arabic.projects : labels.english.projects}</span></li>
                       </ul>
+                    </div>
+                  }
+                   {
+                  ( asPath.indexOf('/sectors/') !== -1 || asPath.indexOf('/services/') !== -1 || asPath.indexOf('/subservice/') !== -1) && 
+                    <div className='mil-share d-flex' >
+                    <span className='share-icon'>  <FaShareAlt style={{paddingBottom:"1px"}}/></span>
+                     <div className="d-flex gap-10 share-icons">
+                     <FacebookShareButton className='social-media-btn' url={shareUrl} quote={shareTitle} hashtag="#consulting" description={shareDescription} media={imgUrl}>
+                        <FacebookIcon size={32} round />
+                      </FacebookShareButton>
+                      <TwitterShareButton className='social-media-btn' url={shareUrl} title={shareTitle}  hashtag="#consulting" description={shareDescription} media={imgUrl}>
+                        <TwitterIcon size={32} round />
+                      </TwitterShareButton>
+                      <LinkedinShareButton className='social-media-btn' url={shareUrl} title={shareTitle} summary={shareDescription} source={shareUrl}>
+                        <LinkedinIcon size={32} round />
+                      </LinkedinShareButton>
+                     </div>
                     </div>
                   }
                 </div>
