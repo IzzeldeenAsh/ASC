@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from "next/link";
 import { useRouter } from 'next/router';
 import AppData from "@data/app.json";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
@@ -9,8 +8,19 @@ import { useLocale } from '@/utils/getLocale';
 import aboutData from "@data/sections/about.json";
 import AboutContent from './AboutContent';
 import aboutDataContent from "@/src/data/sections/aboutUs.json";
+import Link from "next/link";
+import ArrowIcon from "@layouts/svg-icons/Arrow";
+import { FaShareAlt } from "react-icons/fa";
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  LinkedinShareButton,
+  FacebookIcon,
+  TwitterIcon,
+  LinkedinIcon
+} from 'react-share';
 
-const PageBanner = ({ pageTitle, breadTitle, breadColor, subtext = "", anchorLink = 0, paddingBottom, align, headingSize = 1, imgUrl, bg, isService, service }) => {
+const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, breadColor, subtext = "", anchorLink = 0, paddingBottom, align, headingSize = 1, imgUrl, bg, isService, service }) => {
   const { activeLocale } = useLocale();
   const bgBanner = useMemo(() => ({
     position: 'relative',
@@ -63,6 +73,7 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor, subtext = "", anchorLin
   }
 
   const headTitle = `${AppData.settings.siteName} - ${clearBreadTitle}`;
+  const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
 
   return (
     <div className={paddingBottom ? "mil-inner-banner mil-p-0-120 position-relative" : "mil-inner-banner position-relative"}>
@@ -100,7 +111,19 @@ const PageBanner = ({ pageTitle, breadTitle, breadColor, subtext = "", anchorLin
                       <TitleHead />
                       <h2 className={bg ? "mil-light mil-mb-20 pt-2" : " pt-2"} dangerouslySetInnerHTML={{ __html: pageTitle }} />
                     </div>
-                  }
+                  } 
+                  <div className='mil-share d-flex'>
+                    <FaShareAlt/>
+                    {/* <FacebookShareButton url={shareUrl} quote={shareTitle} hashtag="#consulting" description={shareDescription} media={imgUrl}>
+                      <FacebookIcon size={32} round />
+                    </FacebookShareButton>
+                    <TwitterShareButton url={shareUrl} title={shareTitle}  hashtag="#consulting" description={shareDescription} media={imgUrl}>
+                      <TwitterIcon size={32} round />
+                    </TwitterShareButton>
+                    <LinkedinShareButton url={shareUrl} title={shareTitle} summary={shareDescription} source={shareUrl}>
+                      <LinkedinIcon size={32} round />
+                    </LinkedinShareButton> */}
+                  </div>
                   <p style={{ paddingInlineStart: "50px" }} className={bg ? "mil-light mil-mb-60 max-w-600px mil-text-xl" : "mil-mb-60"} dangerouslySetInnerHTML={{ __html: subtext }} />
                   {isService &&
                     <div className="d-flex align-items-end ">
