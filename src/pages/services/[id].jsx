@@ -191,7 +191,8 @@ const ServiceDetail = () => {
                     <div className="mil-accordion-content mil-text " style={{ height: activeAccordion.includes(key) ? "auto" : "0" }}>
                       <div className="d-flex gap-40 flex-column flex-md-row mil-mb-20">
                         {item.image && (
-                          <Image src={item.image} fit="contain" h={200} w={300} alt="service-image" />
+                            <Link  href={`/subservice/${item.id}`}> <Image src={item.image} fit="contain" h={200} w={300} alt="service-image" /></Link>
+                         
                         )}
                         <div className="mil-text-lg">
                           {activeLocale === "ar" ? <Truncate text={item.value.arabic} maxLength={300} /> : <Truncate text={item.value.english} maxLength={300} />}

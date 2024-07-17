@@ -1021,6 +1021,7 @@
           "arabic" :"العمليات"
         }
       },
+                  "image":"https://res.cloudinary.com/dahiaq28x/image/upload/v1721200899/160_1_uuia3q.webp",
       "title": {
         "english": "Logistics and Supply Chain",
         "arabic": "الخدمات اللوجستية وسلسلة التوريد"
@@ -1099,12 +1100,13 @@
         "english": "From our consulting experts' standpoint, the strategies encompassing service delivery operations must position customer satisfaction at the center of its mission and vision. Adequate allocation of resources is also paramount to expediting processes and reducing costs.",
         "arabic": "من منظور خبرائنا الاستشاريين، تُعتبر استراتيجيات العمليات الخدمية التي تشتمل في كل مراحلها على خدمة العملاء أساسًا للنجاح. فتضع رضا العملاء في صلب مهمتها ورؤيتها. كذلك يعد تخصيص الموارد المطلوبة بشكل مناسب أمرًا أساسيًا يحرص خبراؤنا على دراسته بعناية، فهو عماد تسريع العمليات وتقليل التكاليف بفعالية."
       },
+      "image":"https://res.cloudinary.com/dahiaq28x/image/upload/v1721201222/160_3_yepfp6.webp",
       "short": {
         "english": "From our consulting experts' standpoint, the strategies encompassing service delivery operations must position customer satisfaction at the center of its mission and vision. Adequate allocation of resources is also paramount to expediting processes and reducing costs.",
         "arabic": "من منظور خبرائنا الاستشاريين، تُعتبر استراتيجيات العمليات الخدمية التي تشتمل في كل مراحلها على خدمة العملاء أساسًا للنجاح. فتضع رضا العملاء في صلب مهمتها ورؤيتها. كذلك يعد تخصيص الموارد المطلوبة بشكل مناسب أمرًا أساسيًا يحرص خبراؤنا على دراسته بعناية، فهو عماد تسريع العمليات وتقليل التكاليف بفعالية."
       },
       "introTitle": {
-        "english": "Service Operations",
+        "english":"<span class=\"mil-thin\">Service</span> Operations",
            "arabic": "عمليات خدمة العملاء"
       },
       "gallery": {
@@ -1566,7 +1568,7 @@
     "english": "Comprehensive assessments of Operations, Products and Facilities",
     "arabic": "تقييمات شاملة لعمليات التصنيع والمنتجات والمرافق الصناعية"
   },
-  "image": "",
+"image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1721201580/160_5_z1ijl2.webp",  
   "sector": [
     {
       "id": "sector-1",
