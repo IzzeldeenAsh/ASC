@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useLocale } from "@/utils/getLocale";
 import { Accordion } from "../../common/utilits";
 import Link from "next/link";
+import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useRouter } from "next/router";
 import servicesData from "@data/dummy/services.json";
 import ABLogoLight from "@/src/layouts/svg-icons/AB-Logo-Light";
@@ -196,11 +197,16 @@ const ServiceDetail = () => {
                           {activeLocale === "ar" ? <Truncate text={item.value.arabic} maxLength={300} /> : <Truncate text={item.value.english} maxLength={300} />}
                           <div>
                             {item.isSubService && (
-                              <Link href={`/subservice/${item.id}`}>
-                                <div className="mil-button mil-button-sm mil-mb-25">
-                                  {activeLocale === 'ar' ? "المزيد " : "Read More"}
-                                </div>
-                              </Link>
+                              <div className="pt-3">
+                                 <Link  href={`/subservice/${item.id}`}>
+                               <div className="mil-link mil-accent mil-arrow-place mil-up " >
+                                   <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
+                                   <ArrowIcon margin={"0"}  />
+                                   </div>
+                               </div>
+                               </Link>
+                              </div>
+                            
                             )}
                           </div>
                         </div>
