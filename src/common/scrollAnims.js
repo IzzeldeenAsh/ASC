@@ -10,7 +10,7 @@ export const ScrollAnimation = () => {
     appearance.forEach((section) => {
         gsap.fromTo(section, {
             opacity: 0,
-            y: 10,
+            y:0,
             scale: .98,
             ease: 'sine',
 
