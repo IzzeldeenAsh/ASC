@@ -206,7 +206,8 @@
             "value": {
               "english": "<div>We help organizations embrace digital transformation while we highlight the risks that might come along the way. A&B offers a comprehensive suite of cybersecurity consulting services aimed at safeguarding organizations' digital assets against evolving digital threats. As some threats are hard to predict, understanding, recognizing and being prepared for such risks is the definition of digital resilience. Our experts work in collaboration with clients to put in place the needed robust and effective security strategy that will help them assess and mitigate risks, and detect and respond to threats to preserve their business value.</div>",
               "arabic": "نحن في A&B نساعد المؤسسات على اعتماد التحول الرقمي، ونحرص أيضا على توضيح المخاطر المحتملة له. نقدم مجموعة شاملة من الخدمات الاستشارية في مجال الأمن السيبراني، بهدف حماية الأصول الرقمية للمؤسسات من التهديدات الرقمية المحتملة . ونظرًا لتعقيد بعض هذه التهديدات وصعوبة تنبؤها، فإن فهمها والاعتراف بخطورتها والاستعداد لها هو ما يشكل جوهر المرونة الرقمية. فيعمل خبراؤنا بالتعاون مع عملائنا لوضع استراتيجيات أمنية قوية وفعالة، تساعدهم في تقييم المخاطر وتخفيف اثارها، وكذلك في اكتشاف التهديدات والاستجابة لها، لضمان استمرارية وازدهار أعمالهم."
-            }
+            },
+            "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1718175690/1066_lra1vr.webp"
           },
           {
             "id": "s-data-security-privacy",
@@ -737,10 +738,10 @@
               "arabic": "حاضنات الأعمال"
             },
             "value": {
-              "english": "Although business incubators may seem like a convenient workspace with a desk and a network cable, they, in reality, are way more complex than they may seem. The value business incubators have is beyond measure as their sole purpose is to unlock limitless possibilities.<br><br>Our entrepreneurial strategies involve researching sector-related challenges and opportunities incubators need to focus on to help them maintain a competitive edge as successful business incubators in the market. We project to our clients the technical, financial, and market analysis to highlight their success roadmap and locate available funding sources. Our experts will project the potential revenue streams that will help stakeholders attract future startups.",
-              "arabic": "على الرغم من بساطتها الظاهرية كمكان عمل، الا اننا ندرك أن حاضنات الأعمال هي بيئات مركبة تكمن قيمتها في القدرة على إطلاق العنان لإمكانات غير محدودة، وهذا يعني أن قيمتها لا يمكن قياسها بالطرق التقليدية.<br><br>تعتمد استراتيجيات ريادة الأعمال التي نقدمها لحاضنات الاعمال نهجًا يرتكز على استكشاف التحديات والفرص في القطاعات المختلفة، فذلك يعتبر نقطة حيوية يجب مراعاتها من أجل تحافظ حاضنات الاعمال المختلفة على تنافسيتها في السوق.<br><br>يتضمن عملنا تحليلًا دقيقًا للجوانب التقنية والمالية والسوقية للحواضن، بهدف توضيح الخطوات المستقبلية لعملائنا وتحديد مصادر التمويل الملائمة. كما يُعد خبراؤنا توقعات الإيرادات المحتملة التي تسهم في جذب الاستثمارات والشركات الناشئة."
+              "english": "Although business incubators may seem like a convenient workspace with a desk and a network cable, they, in reality, are way more complex than they may seem. The value business incubators have is beyond measure as their sole purpose is to unlock limitless possibilities.Our entrepreneurial strategies involve researching sector-related challenges and opportunities incubators need to focus on to help them maintain a competitive edge as successful business incubators in the market. We project to our clients the technical, financial, and market analysis to highlight their success roadmap and locate available funding sources. Our experts will project the potential revenue streams that will help stakeholders attract future startups.",
+              "arabic": "على الرغم من بساطتها الظاهرية كمكان عمل، الا اننا ندرك أن حاضنات الأعمال هي بيئات مركبة تكمن قيمتها في القدرة على إطلاق العنان لإمكانات غير محدودة، وهذا يعني أن قيمتها لا يمكن قياسها بالطرق التقليدية.<br><br>تعتمد استراتيجيات ريادة الأعمال التي نقدمها لحاضنات الاعمال نهجًا يرتكز على استكشاف التحديات والفرص في القطاعات المختلفة، فذلك يعتبر نقطة حيوية يجب مراعاتها من أجل تحافظ حاضنات الاعمال المختلفة على تنافسيتها في السوق.يتضمن عملنا تحليلًا دقيقًا للجوانب التقنية والمالية والسوقية للحواضن، بهدف توضيح الخطوات المستقبلية لعملائنا وتحديد مصادر التمويل الملائمة. كما يُعد خبراؤنا توقعات الإيرادات المحتملة التي تسهم في جذب الاستثمارات والشركات الناشئة."
             },
-            "image" : ""
+            "image" : "https://res.cloudinary.com/dahiaq28x/image/upload/v1721199123/2150041850_lnhlaf_1_1_hybfdi.webp"
           }
         ]
       },
