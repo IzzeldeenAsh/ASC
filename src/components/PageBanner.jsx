@@ -92,6 +92,13 @@ const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, bread
                   </Link>
                 </li>
               }
+              {asPath.indexOf('/services/') !== -1 &&
+                <li className={breadColor === "light" ? "mil-light" : ""}>
+                  <Link href="/services">
+                    {activeLocale === 'ar' ? "الخدمات" : "Services"}
+                  </Link>
+                </li>
+              }
               {service?.id &&
                 <li className={breadColor === "light" ? "mil-light" : ""}>
                   <Link href={`/services/${service.id}`}>
