@@ -1848,4 +1848,12 @@ transition: all 0.2s ease-out;
   .share-buttons-container.show .share-button:nth-child(3) {
     animation-delay: 0.2s;
   }
-  
+  .subservice-slogan{
+    position: absolute;
+    bottom: 32px;
+    left: 30px;
+    font-size: 34px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: rgb(0, 0, 0) 2px 5px;
+  }
