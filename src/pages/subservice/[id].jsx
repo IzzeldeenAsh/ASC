@@ -84,7 +84,7 @@ const Subservice = (props) => {
               {subservice.image && (
                 <div className="mil-image-frame mil-up">
                   <img src={subservice.image} alt={subservice.title.english} className="mil-scale" data-value-1=".90" data-value-2="1.15" />
-                  <div className="subservice-slogan" dangerouslySetInnerHTML={{__html:slogan}}/>
+                  {/* <div className="subservice-slogan" dangerouslySetInnerHTML={{__html:slogan}}/> */}
                 </div>
               )}
                {!subservice.service.id && <div className="mil-p-30-30"></div>}
