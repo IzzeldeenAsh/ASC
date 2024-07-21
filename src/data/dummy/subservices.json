@@ -4,7 +4,7 @@
       "id": "Operating-Model",
       "title": {
         "english": "Operating Model",
-        "arabic": "Operating Model"
+          "arabic": "نماذج التشغيل "
       },
       "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717049607/107684_csa96n.webp",
       "sector": [
@@ -20,10 +20,12 @@
           "arabic" :"العمليات"
         }
       },
-      "contentHtml": {
-        "english": "<p>To deliver value in the most efficient manner, organizations need to take a thorough look at their back offices and examine all processes, technologies, and capabilities involved in executing their goal-aligned strategies. We help businesses refine and optimize their operating models by working closely with their leaders and key personnel to implement the needed<a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\"> technology transformation</a>, processes and organizational- design changes and create a room for innovation.</p><p>In addition to establishing the right <a class=\"hyper-link\" href=\"/services/service-6\" target=\"__blank\">governance mechanisms</a>, our target will be crafting the operating model transformation strategy that will enhance your service delivery, making it efficient, resilient and innovation-enabling.</p>",
-        "arabic": "<p>To deliver value in the most efficient manner, organizations need to take a thorough look at their back offices and examine all processes, technologies, and capabilities involved in executing their goal-aligned strategies. We help businesses refine and optimize their operating models by working closely with their leaders and key personnel to implement the needed<a class=\"hyper-link\" href=\"/{{locale}}/services/service-2\" target=\"__blank\"> technology transformation</a>, processes and organizational- design changes and create a room for innovation.</p><p>In addition to establishing the right <a class=\"hyper-link\" href=\"/{{locale}}/services/service-6\" target=\"__blank\">governance mechanisms</a>, our target will be crafting the operating model transformation strategy that will enhance your service delivery, making it efficient, resilient and innovation-enabling.</p>"
-      },
+        "contentHtml": {
+          "english": "<p>To deliver value in the most efficient manner, organizations need to take a thorough look at their back offices and examine all processes, technologies, and capabilities involved in executing their goal-aligned strategies. We help businesses refine and optimize their operating models by working closely with their leaders and key personnel to implement the needed<a class=\"hyper-link\" href=\"/services/service-2\" target=\"__blank\"> technology transformation</a>, processes and organizational- design changes and create a room for innovation.</p><p>In addition to establishing the right <a class=\"hyper-link\" href=\"/services/service-6\" target=\"__blank\">governance mechanisms</a>, our target will be crafting the operating model transformation strategy that will enhance your service delivery, making it efficient, resilient and innovation-enabling.</p>",
+ "arabic": "يشدد خبراؤنا على أن خلق القيمة المؤسسية المثلى يتطلب تحليلا وافيا وفحصا منهجيا لجميع عمليات وتقنيات المؤسسة.<br><br>ويتعين كذلك النظر في القدرات المشاركة في ترجمة استراتيجيات المؤسسة المتوافقة مع أهداف المؤسسة على أرض الواقع عبر نموذج التشغيل.<br><br>نحن نساعد الشركات على تحسين وتحويل نماذج التشغيل الخاصة بها من خلال العمل مع قادتها وموظفيها لتنفيذ <a class=\"hyper-link\" href=\"/ar/services/service-2\" target=\"__blank\">التحول العملياتي والتكنولوجي</a> وإعادة التصميم التنظيمي لها عبر صياغة استراتيجية تحويل نموذج التشغيل لخلق مجال للابتكار وإنشاء آليات <a class=\"hyper-link\" href=\"/ar/services/service-6\" target=\"__blank\">الحوكمة</a> الصحيحة، وتعزيز تقديم الخدمات الخاصة بها وزيادة كفاءتها ومرونتها."
+        },
+      
+      
       "short": {
         "english": "",
         "arabic": ""
@@ -34,7 +36,7 @@
       },
       "introTitle": {
         "english": "Operating <span class=\"mil-thin\">Model</span>",
-        "arabic": "Operating <span class=\"mil-thin\">Model</span>"
+                  "arabic": "<span class=\"mil-thin\">نماذج </span>التشغيل "
       },
       "gallery": {
         "enabled": 0,
