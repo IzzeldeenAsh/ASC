@@ -626,11 +626,12 @@
             "id": "Operating-Model",
             "label": {
               "english": "Operating Model",
-              "arabic": "Operating Model"
+               "arabic": "نماذج التشغيل "
             },
             "value": {
               "english": "Organizations need to optimize their back-office processes, technologies, and capabilities to enhance efficiency and innovation. By working with business leaders, we implement necessary technology transformations and organizational changes. Our goal is to develop a strategy that improves service delivery, making it more efficient, resilient, and innovation-friendly.",
-              "arabic": "Organizations need to optimize their back-office processes, technologies, and capabilities to enhance efficiency and innovation. By working with business leaders, we implement necessary technology transformations and organizational changes. Our goal is to develop a strategy that improves service delivery, making it more efficient, resilient, and innovation-friendly."
+              "arabic": "يشدد خبراؤنا على أن خلق القيمة المؤسسية المثلى يتطلب تحليلا وافيا وفحصا منهجيا لجميع عمليات وتقنيات المؤسسة.<br><br>ويتعين كذلك النظر في القدرات المشاركة في ترجمة استراتيجيات المؤسسة المتوافقة مع أهداف المؤسسة على أرض الواقع عبر نموذج التشغيل.<br><br>نحن نساعد الشركات على تحسين وتحويل نماذج التشغيل الخاصة بها من خلال العمل مع قادتها وموظفيها لتنفيذ التحول العملياتي والتكنولوجي وإعادة التصميم التنظيمي لها عبر صياغة استراتيجية تحويل نموذج التشغيل لخلق مجال للابتكار وإنشاء آليات الحوكمة الصحيحة، وتعزيز تقديم الخدمات الخاصة بها وزيادة كفاءتها ومرونتها."
+
             },
             "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717049607/107684_csa96n.webp",
             "isSubService": true
