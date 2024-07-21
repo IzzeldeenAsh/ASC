@@ -129,7 +129,7 @@ const DefaultHeader = ({ extraClass }) => {
                               items={dataSectors.sectors}
                               basePath="sectors"
                               onLinkClick={handleChildLinkClick}
-                              listLabel={activeLocale === 'ar' ? 'قائمة القطاعات' : 'Sectors List'}
+                              listLabel={activeLocale === 'ar' ? 'قائمة المجالات' : 'Sectors List'}
                             />
                           )}
                           {isAboutActive && (
