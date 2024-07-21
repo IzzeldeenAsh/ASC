@@ -22,7 +22,7 @@ const CardGrid = () => {
             dangerouslySetInnerHTML={{
               __html:
                 activeLocale === "ar"
-                  ? "استراتيجيات صناعية ذات تأثير دائم"
+                  ? "استراتيجيات فعّالة لقطاع الصناعة"
                   : "Innovating industrial strategies for a<br> lasting impact",
             }}
           />

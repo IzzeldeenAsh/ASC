@@ -88,7 +88,7 @@ const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, bread
               {asPath.indexOf('/sectors/') !== -1 &&
                 <li className={breadColor === "light" ? "mil-light" : ""}>
                   <Link href="/sectors">
-                    {activeLocale === 'ar' ? "القطاعات" : "Sectors"}
+                    {activeLocale === 'ar' ? "المجالات" : "Sectors"}
                   </Link>
                 </li>
               }

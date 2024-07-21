@@ -91,13 +91,13 @@ export function HeaderMegaMenu({mode="light"}) {
         {
             title: {
                 english: 'Sectors',
-                arabic: 'القطاعات'
+                arabic: 'المجالات'
             },
             link: '/sectors',
             links: generateLinks(sectors.items),
             footerText: {
                 english: 'Explore all sectors and tailor your search to find exactly what you need.',
-                 arabic: 'استكشف جميع القطاعات وخصص بحثك للعثور على ما تحتاجه بالضبط.'
+                 arabic: 'استكشف جميع المجالات وخصص بحثك للعثور على ما تحتاجه بالضبط.'
             },
             footerDescription: {
                 english: '',
@@ -105,7 +105,7 @@ export function HeaderMegaMenu({mode="light"}) {
             },
             buttonText: {
                 english: 'More Sectors',
-                arabic: 'تصفح القطاعات'
+                arabic: ' مجالات أخرى'
             },
         },
         {

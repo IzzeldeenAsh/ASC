@@ -14,14 +14,14 @@
         {
             "title": {
                 "english": "Metals and Mining",
-                "arabic":"قطاع التعدين"
+                "arabic":"التعدين"
               },
             "link": "/sectors/sector-2"
         },
         {
             "title": {
                 "english": "Digital",
-                "arabic":"قطاع التكنلوجيا الرقمية"
+                "arabic":"التكنولوجيا الرقمية"
               },
             "link": "/sectors/sector-3"
         },
@@ -67,7 +67,7 @@
         {
             "title": {
                 "english": "International trade",
-                "arabic": "التجارة العالمية"
+                "arabic": "التجارة الدولية"
               },
             "link": "/sectors/sector-9"
         }
@@ -82,7 +82,7 @@
         {
           "title": {
               "english": "Healthcare",
-              "arabic": "القطاع الصجي"
+              "arabic": "القطاع الصحي"
             },
           "link": "/sectors/sector-11"
       }
