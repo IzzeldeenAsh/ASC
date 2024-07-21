@@ -33,7 +33,7 @@ function MenuAccordion({onLinkClick}) {
                              items={dataSectors.sectors}
                              basePath="sectors"
                              onLinkClick={onLinkClick}
-                             listLabel={activeLocale === 'ar' ? 'قائمة المجالات' : 'Sectors List'}
+                             listLabel={activeLocale === 'ar' ? 'قائمة القطاعات' : 'Sectors List'}
                            />}
               {item.value === "About" &&   <MenuList
                               items={aboutData.sections}
