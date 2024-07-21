@@ -151,7 +151,7 @@ const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, bread
                       <TwitterShareButton className='social-media-btn' url={shareUrl} title={shareTitle}  hashtag="#consulting" description={shareDescription} media={imgUrl}>
                       <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="15.9647" cy="15.5" r="15.5" fill="#0A1B2F"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M13.5374 9.84705H9.39996L14.3055 16.2928L9.71377 21.7H11.8353L15.3082 17.6104L18.392 21.6624H22.5294L17.4813 15.0293L17.4902 15.0408L21.8367 9.92234H19.7152L16.4874 13.7234L13.5374 9.84705ZM11.6837 10.9759H12.9718L20.2456 20.5335H18.9576L11.6837 10.9759Z" fill="white"/>
+<path fillRule="evenodd" clip-rule="evenodd" d="M13.5374 9.84705H9.39996L14.3055 16.2928L9.71377 21.7H11.8353L15.3082 17.6104L18.392 21.6624H22.5294L17.4813 15.0293L17.4902 15.0408L21.8367 9.92234H19.7152L16.4874 13.7234L13.5374 9.84705ZM11.6837 10.9759H12.9718L20.2456 20.5335H18.9576L11.6837 10.9759Z" fill="white"/>
 </svg>
 
                       </TwitterShareButton>
