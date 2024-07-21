@@ -18,11 +18,11 @@ const [isMounted,setIsMounted] = useState(false); // Need this for the react-too
 const [searchTerm,setSearchTerm] = useState('');
 const pageTitle ={
   english: "Sectors List",
-  arabic: "قائمة المجالات"
+  arabic: "قائمة القطاعات"
 }
 const breadTitle={
   english: "Sectors",
-  arabic: "المجالات"
+  arabic: "القطاعات"
 }
 const anchorLabel= {
   english: "Our sectors",
