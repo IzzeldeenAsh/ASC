@@ -27,6 +27,7 @@ function MyApp({ Component, pageProps }) {
     fontFamily: outfit.style.fontFamily,
   });
   return (
+    
     <MantineProvider theme={theme}>
       <style jsx global>
         {`

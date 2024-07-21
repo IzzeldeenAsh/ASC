@@ -1,6 +1,6 @@
+import { useState, useEffect } from 'react';
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@/src/components/PageBanner";
-import { useEffect } from "react";
 import { useLocale } from "@/utils/getLocale";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { Accordion } from "../../common/utilits";
@@ -14,11 +14,46 @@ import Truncate from "@/src/components/Truncate";
 import { NextSeo } from 'next-seo';
 import { HeaderMegaMenu } from "@components/HeeaderMegaMenu";
 import { IconArrowDown, IconCaretLeftFilled, IconCaretRightFilled } from "@tabler/icons-react";
+import Loader from '@/src/components/Loader';
 
-const SectorDetail = () => {
+export const getStaticPaths = async () => {
+  const paths = sectorsData.sectors.map((sector) => ({
+    params: { id: sector.id },
+  }));
+  return { paths, fallback: 'blocking' };
+};
+
+export const getStaticProps = async ({ params }) => {
+  const sector = sectorsData.sectors.find((sector) => sector.id === params.id);
+
+  if (!sector) {
+    return { notFound: true };
+  }
+
+  return {
+    props: { sector },
+    revalidate: 10, // ISR: Regenerate the page at most once every 10 seconds
+  };
+};
+
+const SectorDetail = ({ sector }) => {
   const { activeLocale } = useLocale();
   const router = useRouter();
   const { id } = router.query;
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a loading delay for demonstration purposes
+    setTimeout(() => {
+      Accordion();
+      setLoading(false);
+    }, 1000); // Adjust the timeout as needed
+  }, []);
+
+  if (loading) return <Loader />;
+
+  if (!sector) return <div>Sector not found</div>;
+
   const labels = {
     english: {
       experts: "Experts",
@@ -31,15 +66,6 @@ const SectorDetail = () => {
       projects: "مشاريع",
     },
   };
-  useEffect(() => {
-    Accordion();
-  }, []);
-
-  if (!id) return null;
-
-  const sector = sectorsData.sectors.find((sector) => sector.id === id);
-
-  if (!sector) return <div>Sector not found</div>;
 
   const metaTitle = activeLocale === "ar" ? sector.title.arabic : sector.title.english;
   const pageTitle = activeLocale === "ar" ? sector.introTitle.arabic : sector.introTitle.english;
@@ -97,7 +123,7 @@ const SectorDetail = () => {
       />
 
       <div className="logoStyle">
-      <ABLogoLight />
+        <ABLogoLight />
       </div>
       <PageBanner
         pageTitle={pageTitle}
@@ -147,7 +173,6 @@ const SectorDetail = () => {
                 className="mil-up mil-mb-30 mil-text-xl mil-p-120-0"
                 dangerouslySetInnerHTML={{ __html: content }}
               />
-              
             </div>
             <div className="col-lg-12">
               {sector.infograph && (
@@ -167,15 +192,25 @@ const SectorDetail = () => {
             </div>
           </div>
           <div className="d-flex align-items-end justify-content-center mil-p-30-30">
-                      <ul className="service-banner-links p-inline-start-40 mil-text mil-up d-flex gap-20 justify-content-center  ">
-                        <li ><span className="mil-text-sm text-dark  anchor-link">
-                           {activeLocale==='ar' ?<IconCaretLeftFilled /> :<IconCaretRightFilled /> }  {activeLocale === 'ar' ? labels.arabic.experts : labels.english.experts}</span></li>
-                        <li><span className="mil-text-sm text-dark anchor-link"> {activeLocale==='ar' ?<IconCaretLeftFilled /> :<IconCaretRightFilled /> }{activeLocale === 'ar' ? labels.arabic.relatedArticles : labels.english.relatedArticles}</span></li>
-                        <li><span className="mil-text-sm text-dark anchor-link"> {activeLocale==='ar' ?<IconCaretLeftFilled /> :<IconCaretRightFilled /> }{activeLocale === 'ar' ? labels.arabic.projects : labels.english.projects}</span></li>
-                      </ul>
-                    </div>
+            <ul className="service-banner-links p-inline-start-40 mil-text mil-up d-flex gap-20 justify-content-center">
+              <li>
+                <span className="mil-text-sm text-dark anchor-link">
+                  {activeLocale === 'ar' ? <IconCaretLeftFilled /> : <IconCaretRightFilled />} {activeLocale === 'ar' ? labels.arabic.experts : labels.english.experts}
+                </span>
+              </li>
+              <li>
+                <span className="mil-text-sm text-dark anchor-link">
+                  {activeLocale === 'ar' ? <IconCaretLeftFilled /> : <IconCaretRightFilled />} {activeLocale === 'ar' ? labels.arabic.relatedArticles : labels.english.relatedArticles}
+                </span>
+              </li>
+              <li>
+                <span className="mil-text-sm text-dark anchor-link">
+                  {activeLocale === 'ar' ? <IconCaretLeftFilled /> : <IconCaretRightFilled />} {activeLocale === 'ar' ? labels.arabic.projects : labels.english.projects}
+                </span>
+              </li>
+            </ul>
+          </div>
         </div>
-      
       </section>
       {sector.list.items.length > 0 && (
         <section className="mil-soft-bg mil-p-60-90">
@@ -225,7 +260,6 @@ const SectorDetail = () => {
                           </div>
                         </div>
                       </div>
-                     
                     </a>
                   </Link>
                 </div>
