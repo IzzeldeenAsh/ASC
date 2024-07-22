@@ -134,6 +134,7 @@ const ServiceDetail = ({ service }) => {
         shareDescription={shareDescription}
         shareTitle={shareTitle}
         breadColor="light"
+        
         anchorLink="#service"
         bg={service.imgURL}
         isService={true}

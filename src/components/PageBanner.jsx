@@ -1,4 +1,4 @@
-import Head from 'next/head';
+
 import { useRouter } from 'next/router';
 import AppData from "@data/app.json";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
@@ -9,16 +9,13 @@ import aboutData from "@data/sections/about.json";
 import AboutContent from './AboutContent';
 import aboutDataContent from "@/src/data/sections/aboutUs.json";
 import Link from "next/link";
-import { IconBrandFacebookFilled, IconBrandLinkedin, IconBrandX, IconBrandXFilled } from '@tabler/icons-react';
 import { FaShareAlt } from "react-icons/fa";
 import {
   FacebookShareButton,
   TwitterShareButton,
   LinkedinShareButton,
-  FacebookIcon,
-  TwitterIcon,
-  LinkedinIcon
-} from 'react-share';
+  WhatsappShareButton,
+} from 'next-share';
 
 const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, breadColor, subtext = "", anchorLink = 0, paddingBottom, align, headingSize = 1, imgUrl, bg, isService, service }) => {
   const { activeLocale } = useLocale();
@@ -139,7 +136,12 @@ const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, bread
                     <div className='mil-share d-flex' >
                     <span className='share-icon'>  <FaShareAlt style={{paddingBottom:"1px"}}/></span>
                      <div className="d-flex gap-10 share-icons">
-                     <FacebookShareButton className='social-media-btn' url={shareUrl} quote={shareTitle} hashtag="#consulting" description={shareDescription} media={imgUrl}>
+                     <FacebookShareButton 
+                     className='social-media-btn' 
+                     url={shareUrl} 
+                     quote={shareTitle} 
+                     hashtag="#consulting" 
+                     media={imgUrl}>
                      <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="15.5" cy="15.5" r="15.5" fill="#0A1B2F"/>
 <path d="M16.347 16.721V22.0648H13.8923V16.721H11.853V14.5542H13.8923V13.7658C13.8923 10.839 15.115 9.30005 17.7019 9.30005C18.495 9.30005 18.6932 9.42751 19.1275 9.53136V11.6745C18.6413 11.5896 18.5044 11.5424 17.9993 11.5424C17.3998 11.5424 17.0788 11.7123 16.7861 12.0475C16.4934 12.3826 16.347 12.9633 16.347 13.7941V14.5589H19.1275L18.3817 16.7257H16.347V16.721Z" fill="white"/>
@@ -148,14 +150,19 @@ const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, bread
 
 
                       </FacebookShareButton>
-                      <TwitterShareButton className='social-media-btn' url={shareUrl} title={shareTitle}  hashtag="#consulting" description={shareDescription} media={imgUrl}>
+                      <TwitterShareButton 
+                      className='social-media-btn' 
+                      url={shareUrl} 
+                      title={shareTitle}  
+                      hashtag="#consulting" 
+                      media={imgUrl}>
                       <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="15.9647" cy="15.5" r="15.5" fill="#0A1B2F"/>
 <path fillRule="evenodd" clipRule="evenodd" d="M13.5374 9.84705H9.39996L14.3055 16.2928L9.71377 21.7H11.8353L15.3082 17.6104L18.392 21.6624H22.5294L17.4813 15.0293L17.4902 15.0408L21.8367 9.92234H19.7152L16.4874 13.7234L13.5374 9.84705ZM11.6837 10.9759H12.9718L20.2456 20.5335H18.9576L11.6837 10.9759Z" fill="white"/>
 </svg>
 
                       </TwitterShareButton>
-                      <LinkedinShareButton className='social-media-btn' url={shareUrl} title={shareTitle} summary={shareDescription} source={shareUrl}>
+                      <LinkedinShareButton className='social-media-btn' url={shareUrl} title={shareTitle}  source={shareUrl}>
                       <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="16.1058" cy="15.5" r="15.5" fill="#0A1B2F"/>
 <path d="M12.6058 13.4976H9.93854V22.0033H12.6058V13.4976Z" fill="white"/>
@@ -164,6 +171,14 @@ const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, bread
 </svg>
 
                       </LinkedinShareButton>
+                      <WhatsappShareButton className='social-media-btn' url={shareUrl} title={shareTitle} separator=":: ">
+                      <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="15.5" cy="15.5" r="15.5" fill="#0A1B2F"/>
+<path d="M21.4482 12.9725C21.1238 12.2558 20.6582 11.6123 20.0671 11.0578C19.4759 10.5085 18.7906 10.0743 18.0268 9.77088C17.2369 9.45699 16.3998 9.30005 15.5367 9.30005C14.6735 9.30005 13.8364 9.45699 13.0465 9.77088C12.2827 10.0743 11.5974 10.5033 11.0062 11.0578C10.4151 11.6123 9.94948 12.2558 9.62514 12.9725C9.29032 13.7154 9.11768 14.5106 9.11768 15.3267C9.11768 16.7548 9.65128 18.1255 10.6296 19.2136L10.1064 22.0648L12.8895 20.8249C13.7213 21.1806 14.6055 21.3585 15.5314 21.3585C16.3946 21.3585 17.2316 21.2016 18.0216 20.8877C18.7854 20.5843 19.4707 20.1553 20.0619 19.6007C20.653 19.0462 21.1186 18.4027 21.4429 17.686C21.7778 16.9432 21.9504 16.148 21.9504 15.3319C21.9556 14.5106 21.783 13.7206 21.4482 12.9725Z" fill="white"/>
+<path d="M18.1419 16.5298C17.8699 16.3938 17.6711 16.3101 17.5299 16.2578C17.4409 16.2264 17.2317 16.1322 17.1584 16.1898C16.9282 16.3781 16.6824 16.9117 16.4208 17.0111C15.7721 16.8856 15.1705 16.4409 14.6996 15.9858C14.4904 15.787 14.1033 15.222 14.0196 15.0703C14.0039 14.9133 14.2864 14.7041 14.3491 14.5837C14.6735 14.2175 14.4276 13.9874 14.3858 13.8356C14.3125 13.6787 14.187 13.3962 14.0771 13.166C13.9829 13.0143 13.962 12.7894 13.7946 12.7057C13.0831 12.3395 12.6751 13.0719 12.5077 13.4537C11.498 15.8864 17.5665 20.5162 18.8011 17.325C18.8639 17.0477 18.8377 16.9431 18.7435 16.8176C18.5552 16.6868 18.3355 16.6292 18.1419 16.5298Z" fill="#0A1B2F"/>
+</svg>
+
+</WhatsappShareButton>
                      </div>
                     </div>
                   }

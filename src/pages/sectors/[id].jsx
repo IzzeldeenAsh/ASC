@@ -71,7 +71,7 @@ const SectorDetail = ({ sector }) => {
   const imageUrl = sector.imgURL;
   const logoColor = sector.logoColor;
   const breadColor = logoColor !== "light" ? "dark" : "light";
-
+ 
   const handleScrollToService = (e) => {
     e.preventDefault();
     const element = document.getElementById("service");
@@ -121,6 +121,7 @@ const SectorDetail = ({ sector }) => {
         pageTitle={pageTitle}
         breadTitle={breadTitle}
         breadColor={breadColor}
+        shareTitle={breadTitle}
         anchorLink="#services"
         subtext={description}
         bg={imageUrl}
