@@ -23,7 +23,7 @@ const CardGrid = () => {
               __html:
                 activeLocale === "ar"
                   ? "استراتيجيات فعّالة لقطاع الصناعة"
-                  : "Innovating industrial strategies for a<br> lasting impact",
+                  : "Innovating industrial strategies for a lasting impact",
             }}
           />
         </div>

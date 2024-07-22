@@ -114,7 +114,7 @@ const Subservice = (props) => {
               )}
               <div className="py-3">
                 <div className="mil-text-accent-dark mil-hover-primary mil-center">
-                <Link
+                {/* <Link
                   href="/contact"
                     className="mil-button mil-arrow-place mil-mb-60"
                   >
@@ -129,7 +129,7 @@ const Subservice = (props) => {
                     >
                       <ArrowIcon />
                     </div>
-                  </Link>
+                  </Link> */}
                 
                 </div>
               </div>

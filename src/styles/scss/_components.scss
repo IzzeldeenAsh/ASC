@@ -292,10 +292,7 @@ frame
       display: none !important;
     }
 }
-.hero-title{
-  width: fit-content;
-  text-align: end;
-}
+
 .hero-description{
   width: fit-content;
   text-align: end;
@@ -3208,8 +3205,12 @@ Timeline
 .tl-content p img{
  width: 90px;
 }
-.hero-title{
+.pt-100px{
   padding-top: 100px;
+}
+.hero-title{
+  width: fit-content;
+  text-align: end;
 }
 /***************************
 
