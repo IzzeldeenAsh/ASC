@@ -16,7 +16,27 @@ import { HeaderMegaMenu } from "@components/HeeaderMegaMenu";
 import QuotesIcons from "@/src/layouts/svg-icons/Quotes";
 import { IconArrowDown } from "@tabler/icons-react";
 
-const ServiceDetail = () => {
+export const getStaticPaths = async () => {
+  const paths = servicesData.services.map((service) => ({
+    params: { id: service.id },
+  }));
+  return { paths, fallback: 'blocking' };
+};
+
+export const getStaticProps = async ({ params }) => {
+  const service = servicesData.services.find((service) => service.id === params.id);
+
+  if (!service) {
+    return { notFound: true };
+  }
+
+  return {
+    props: { service },
+    revalidate: 10, // ISR: Regenerate the page at most once every 10 seconds
+  };
+};
+
+const ServiceDetail = ({ service }) => {
   const { activeLocale } = useLocale();
   const router = useRouter();
   const { id, section, sectionKey } = router.query;
@@ -42,29 +62,27 @@ const ServiceDetail = () => {
         setActiveAccordion([parseInt(sectionKey)]);
       }
     } else {
-      setActiveAccordion(servicesData.services.find((service) => service.id === id)?.list?.items.map((_, index) => index) || []);
+      setActiveAccordion(
+        servicesData.services.find((service) => service.id === id)?.list?.items.map((_, index) => index) || []
+      );
     }
   }, [section, sectionKey, id]);
-
-  if (!id) return null;
-
-  const service = servicesData.services.find((service) => service.id === id);
 
   if (!service) return <div>Service not found</div>;
 
   const metaTitle = activeLocale === "ar" ? service.title.arabic : service.title.english;
   const pageTitle = activeLocale === "ar" ? service.introTitle.arabic : service.introTitle.english;
-
   const breadTitle = activeLocale === "ar" ? service.title.arabic : service.title.english;
   const slogan = activeLocale === "ar" ? service.description.title.arabic : service.description.title.english;
-  const content = activeLocale === "ar" 
-    ? service.description.content.arabic.replace(/{{locale}}/g, activeLocale) 
+  const content = activeLocale === "ar"
+    ? service.description.content.arabic.replace(/{{locale}}/g, activeLocale)
     : service.description.content.english;
   const keywords = service.keywords.join(", ");
   const description = activeLocale === "ar" ? service.short.arabic : service.short.english;
   const imageUrl = service.imgURL;
-const shareTitle =  activeLocale === "ar" ? service.title.arabic :  service.title.english 
-const shareDescription =  activeLocale === "ar" ? service.short.arabic :  service.short.english 
+  const shareTitle = activeLocale === "ar" ? service.title.arabic : service.title.english;
+  const shareDescription = activeLocale === "ar" ? service.short.arabic : service.short.english;
+
   const handleScrollToService = (e) => {
     e.preventDefault();
     const element = document.getElementById("service");
@@ -156,7 +174,7 @@ const shareDescription =  activeLocale === "ar" ? service.short.arabic :  servic
                 <div className="infograph d-flex flex-column justify-content-center align-items-center">
                   <div className="responsive-image">
                     <Image
-                      src={activeLocale ==='ar' ? service.infograph.arabic: service.infograph.english}
+                      src={activeLocale === 'ar' ? service.infograph.arabic : service.infograph.english}
                       alt="infograph"
                       width={service.infograph.width}
                       height={service.infograph.height}
@@ -194,23 +212,23 @@ const shareDescription =  activeLocale === "ar" ? service.short.arabic :  servic
                     <div className="mil-accordion-content mil-text " style={{ height: activeAccordion.includes(key) ? "auto" : "0" }}>
                       <div className="d-flex gap-40 flex-column flex-md-row mil-mb-20">
                         {item.image && (
-                            <Link  href={`/subservice/${item.id}`}> <Image src={item.image} fit="contain" h={200} w={300} alt="service-image" /></Link>
-                         
+                          <Link href={`/subservice/${item.id}`}>
+                            <Image src={item.image} fit="contain" h={200} w={300} alt="service-image" />
+                          </Link>
                         )}
                         <div className="mil-text-lg">
                           {activeLocale === "ar" ? <Truncate text={item.value.arabic} maxLength={300} /> : <Truncate text={item.value.english} maxLength={300} />}
                           <div>
                             {item.isSubService && (
                               <div className="pt-3">
-                                 <Link  href={`/subservice/${item.id}`}>
-                               <div className="mil-link mil-accent mil-arrow-place mil-up " >
-                                   <div  style={ activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}} >
-                                   <ArrowIcon margin={"0"}  />
-                                   </div>
-                               </div>
-                               </Link>
+                                <Link href={`/subservice/${item.id}`}>
+                                  <div className="mil-link mil-accent mil-arrow-place mil-up ">
+                                    <div style={activeLocale === 'ar' ? { 'transform': 'rotate(180deg)', display: 'flex' } : { 'transform': 'rotate(0deg)', display: 'flex' }}>
+                                      <ArrowIcon margin={"0"} />
+                                    </div>
+                                  </div>
+                                </Link>
                               </div>
-                            
                             )}
                           </div>
                         </div>
