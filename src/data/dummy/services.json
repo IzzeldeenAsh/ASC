@@ -279,8 +279,8 @@
       },
       "infograph":{
         "english": "/img/infographs/Renewable.svg",
-        "arabic": "/img/infographs/Renewable.svg",
-        "name" :"A&B Renewable Energy Roadmap",
+        "arabic": "/img/infographs/ARABIC-CLEAN.svg",
+        "name" :"",
         "width": 1000,
         "height" : 551
        },
@@ -460,8 +460,8 @@
       },
       "infograph":{
         "english": "/img/infographs/agricultural.svg",
-        "arabic": "/img/infographs/agricultural.svg",
-        "name" :"A&B Agricultural Sustainability Roadmap",
+        "arabic": "/img/infographs/agriculture-Arabic.svg",
+        "name" :"",
         "width": 1000,
         "height" : 551
        },
