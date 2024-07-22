@@ -843,9 +843,9 @@
       },
       "infograph": {
         "enabled": 1,
-        "name": "A&B International Trade Roadmap",
+        "name": "",
          "english": "/img/infographs/trade.svg",
-        "arabic": "/img/infographs/trade.svg",
+        "arabic": "/img/infographs/tradeAr.svg",
         "width":1000,
         "height":422
       },

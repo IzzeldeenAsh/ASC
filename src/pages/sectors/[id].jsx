@@ -179,7 +179,7 @@ const SectorDetail = ({ sector }) => {
                 <div className="infograph d-flex flex-column justify-content-center align-items-center">
                   <div className="responsive-image">
                     <Image
-                      src={sector.infograph.english}
+                     src={activeLocale ==='ar' ? sector.infograph.arabic: sector.infograph.english}
                       alt="infograph"
                       priority
                       width={sector.infograph.width}

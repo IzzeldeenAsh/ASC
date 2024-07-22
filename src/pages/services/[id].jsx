@@ -156,7 +156,7 @@ const shareDescription =  activeLocale === "ar" ? service.short.arabic :  servic
                 <div className="infograph d-flex flex-column justify-content-center align-items-center">
                   <div className="responsive-image">
                     <Image
-                      src={service.infograph.english}
+                      src={activeLocale ==='ar' ? service.infograph.arabic: service.infograph.english}
                       alt="infograph"
                       width={service.infograph.width}
                       height={service.infograph.height}

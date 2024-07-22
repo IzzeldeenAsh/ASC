@@ -245,7 +245,7 @@
       },
       "infograph": {
         "enabled": 1,
-        "name": "A&B Smart City Roadmap",
+        "name": "",
         "english": "/img/infographs/Smart-City.svg",
         "arabic": "/img/infographs/Smart-City.svg",
         "width": 1000,
@@ -343,7 +343,7 @@
       },
       "infograph": {
         "enabled": 1,
-        "name": "A&B Smart Mobility Roadmap",
+        "name": "",
         "english": "/img/infographs/Smart-Mobility.svg",
         "arabic": "/img/infographs/Smart-Mobility.svg",
         "width": 1000,
@@ -978,7 +978,7 @@
       "image" : "https://res.cloudinary.com/dahiaq28x/image/upload/v1721199123/2150041850_lnhlaf_1_1_hybfdi.webp",
       "infograph": {
         "enabled": 0,
-        "name": "A&B Smart City Roadmap",
+        "name": "",
         "english": "/img/infographs/Smart-City.svg",
         "arabic": "/img/infographs/Smart-City.svg",
         "width": 1000,
