@@ -20,7 +20,7 @@ const HeroOne = () => {
             <section className="mil-banner mil-dark-bg " >
             <div className="hero-image" 
            style={{
-            backgroundImage: `url(${activeLocale === 'ar' ? bgImageAr : bgImageEn})`,
+            backgroundImage: `url(${activeLocale === 'ar' ? bgImageEn : bgImageEn})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
@@ -30,14 +30,14 @@ const HeroOne = () => {
                 <div className="mi-invert-fix">
                     <div className="mil-gradient" />
                     <div className="container" style={{marginTop:'80px'}}> 
-                        <div className="mil-banner-content mil-up">
+                        <div className="mil-banner-content mil-up " style={{direction:"ltr"}}>
                      
-                           <h2 className="mil-h2 mil-muted hero-title mil-mb-60" dangerouslySetInnerHTML={{__html : t("heroTitle")}} style={activeLocale==='ar' ? {lineHeight:'1.5'} :  {lineHeight:'1.1'} } />
+                           <h2 className="mil-h2 mil-muted hero-title mil-mb-60 hero-title"  dangerouslySetInnerHTML={{__html : t("heroTitle")}} style={activeLocale==='ar' ? {lineHeight:'1.5' } :  {lineHeight:'1.1'} } />
                            <div className="row">
                            </div>
                             <div className="row">
-                                <div className="col-lg-7">
-                                    <p className="mil-light-soft mil-mb-60 mil-text-xl" style={{lineHeight:'1.3'}} >{t("heroDescription")}</p>
+                                <div className="col-lg-7" >
+                                    <p className="mil-light-soft mil-mb-60 mil-text-xl hero-description" style={{lineHeight:'1.3'}} >{t("heroDescription")}</p>
                                     
                                 </div>
                             </div>
