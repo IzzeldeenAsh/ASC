@@ -1826,7 +1826,9 @@ transition: all 0.2s ease-out;
   .share-buttons-container.show .share-button {
     animation: slide-in 0.5s forwards;
   }
-  
+  .mil-text-start{
+    text-align: start;
+  }
   @keyframes slide-in {
     0% {
       transform: translateX(-100%);
