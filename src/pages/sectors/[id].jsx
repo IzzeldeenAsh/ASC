@@ -8,13 +8,12 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import sectorsData from "@data/dummy/sectors.json";
 import QuotesIcons from "@/src/layouts/svg-icons/Quotes";
-import ABLogoLight from "@layouts/svg-icons/AB-Logo-Light";
+import ABLogoLight from "@/src/layouts/svg-icons/AB-Logo-Light";
 import Image from "next/image";
 import Truncate from "@/src/components/Truncate";
 import { NextSeo } from 'next-seo';
 import { HeaderMegaMenu } from "@components/HeeaderMegaMenu";
 import { IconArrowDown, IconCaretLeftFilled, IconCaretRightFilled } from "@tabler/icons-react";
-import Loader from '@/src/components/Loader';
 
 export const getStaticPaths = async () => {
   const paths = sectorsData.sectors.map((sector) => ({
@@ -40,17 +39,10 @@ const SectorDetail = ({ sector }) => {
   const { activeLocale } = useLocale();
   const router = useRouter();
   const { id } = router.query;
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate a loading delay for demonstration purposes
-    setTimeout(() => {
-      Accordion();
-      setLoading(false);
-    }, 1000); // Adjust the timeout as needed
+    Accordion();
   }, []);
-
-  if (loading) return <Loader />;
 
   if (!sector) return <div>Sector not found</div>;
 

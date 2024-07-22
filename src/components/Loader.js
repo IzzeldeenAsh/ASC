@@ -5,7 +5,7 @@ import loaderGif from '../../public/loader.gif'; // Make sure to place your GIF 
 
 const Loader = () => (
   <div className="loader">
-    <Image src={loaderGif} alt="Loading..." width={330} height={150} />
+    <Image src={loaderGif} alt="Loading..." width={430} height={250} />
     <style jsx>{`
       .loader {
         position: fixed;
@@ -16,7 +16,7 @@ const Loader = () => (
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: white;
+        background-color: #0A1B30;
         z-index: 9999; // Ensure it appears above all other content
       }
     `}</style>
