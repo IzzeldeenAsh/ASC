@@ -50,7 +50,6 @@ const About = () => {
               width: 800,
               height: 600,
               alt: pageTitle,
-              type: 'image/jpeg',
             },
           ],
           siteName: 'A&B Alokab Consulting',

@@ -120,7 +120,6 @@ const Contact = () => {
               width: 800,
               height: 600,
               alt: pageTitle.english,
-              type: 'image/jpeg',
             },
           ],
           siteName: 'A&B Alokab Consulting',
