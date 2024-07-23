@@ -1,5 +1,15 @@
 import { aggregatedData } from "@data/Search-Engine/searchAggregatedData";
 
+// Add the normalizeText function
+const normalizeText = (text) => {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
+    .replace(/[\u064B-\u065F]/g, '') // Remove Arabic diacritics
+    .replace(/\s+/g, ''); // Remove whitespace
+};
+
 export default function handler(req, res) {
   const { query } = req.query;
 
@@ -7,9 +17,9 @@ export default function handler(req, res) {
     return res.status(400).json({ error: "Query is required" });
   }
 
-  const lowerCaseQuery = query.toLowerCase();
+  // Normalize the query
+  const normalizedQuery = normalizeText(query);
 
-  // Robust data validation:
   if (!aggregatedData || !Array.isArray(aggregatedData)) {
     console.error("Error: aggregatedData is undefined or not an array.");
     return res.status(500).json({ error: "Internal Server Error" }); 
@@ -18,15 +28,22 @@ export default function handler(req, res) {
   // Optimized Filtering & Null/Undefined Checks
   const results = aggregatedData.filter(item => {
     const searchFields = [
-      item.title?.toLowerCase(),
-      item.shortDescription?.toLowerCase(),
-      item.keywords?.join(' ').toLowerCase() // Join keywords and convert to lowercase
-    ].filter(Boolean); // Remove undefined values
-    return searchFields.some(field => field.includes(lowerCaseQuery));
+      item.title?.english,
+      item.title?.arabic,
+      item.shortDescription?.english,
+      item.shortDescription?.arabic,
+      item.keywords?.join(' ')
+    ].filter(Boolean);
+
+    // Debugging: Log the fields and normalized fields
+    console.log("Search Fields:", searchFields);
+    const normalizedFields = searchFields.map(field => normalizeText(field));
+    console.log("Normalized Fields:", normalizedFields);
+    
+    return normalizedFields.some(field => field.includes(normalizedQuery));
   });
 
-  // Limit Results (Optional but recommended for performance)
-  const limitedResults = results.slice(0, 10); // Adjust the limit as needed
+  const limitedResults = results.slice(0, 10);
 
   res.status(200).json(limitedResults);
 }

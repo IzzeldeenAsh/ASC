@@ -140,6 +140,15 @@
         "testing",
         "commissioning",
         "commercial production",
+        "industrial automation",
+        "industrial sustainability",
+        "industrial innovation",
+        "lean manufacturing",
+        "green technology",
+        "industrial process optimization",
+        "digital transformation",
+        "smart manufacturing",
+        "industrial growth strategies",
         "القطاع الصناعي",
         "النمو الاقتصادي",
         "الأرباح الصناعية",
@@ -160,8 +169,18 @@
         "التركيب",
         "الاختبار",
         "التشغيل",
-        "الإنتاج التجاري"
+        "الإنتاج التجاري",
+        "أتمتة الصناعة",
+        "استدامة الصناعة",
+        "الابتكار الصناعي",
+        "التصنيع المرن",
+        "التكنولوجيا الخضراء",
+        "تحسين العمليات الصناعية",
+        "التحول الرقمي",
+        "التصنيع الذكي",
+        "استراتيجيات النمو الصناعي"
       ]
+      
     }
 ,    
     {
@@ -261,8 +280,37 @@
         "social responsibility",
         "risk management",
         "supply chain performance",
-        "operational performance"
+        "operational performance",
+        "mining sustainability",
+        "clean mining technologies",
+        "environmental rehabilitation",
+        "health and safety",
+        "mining innovation",
+        "resource efficiency",
+        "community impact",
+        "الفلزات",
+        "التعدين",
+        "استراتيجيات التعدين",
+        "تحليل السوق",
+        "مشاريع عالمية",
+        "ممارسات مستدامة",
+        "النجاح التجاري",
+        "سلاسل التوريد الصناعية",
+        "صديقة للبيئة",
+        "أفضل ممارسات التشغيل",
+        "المسؤولية الاجتماعية",
+        "إدارة المخاطر",
+        "أداء سلسلة التوريد",
+        "الأداء التشغيلي",
+        "استدامة التعدين",
+        "تكنولوجيا التعدين النظيف",
+        "إعادة التأهيل البيئي",
+        "الصحة والسلامة",
+        "ابتكار التعدين",
+        "كفاءة الموارد",
+        "تأثير المجتمع"
       ]
+      
     }
     ,
     {
