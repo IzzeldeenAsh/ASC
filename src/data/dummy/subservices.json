@@ -1114,13 +1114,13 @@
         "content": ""
       },
       "infograph": {
-        "enabled": 1,
+        "enabled": 0,
       "name": {
     "english": "A&B Logistics and Supply Chain Roadmap",
     "arabic": "خارطة طريق الخدمات اللوجستية وسلسلة التوريد لشركة A&B"
   },
-        "english": "/img/infographs/Logistics.svg",
-        "arabic": "/img/infographs/Logistics.svg",
+        "english": "",
+        "arabic": "",
         "width": 1000,
         "height": 338
       },
