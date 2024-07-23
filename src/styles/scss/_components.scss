@@ -295,8 +295,11 @@ frame
 
 .hero-description{
   width: fit-content;
-  text-align: end;
-  max-width: 510px;
+  max-width: 488px;
+}
+body[dir='rtl'] .hero-description{
+  text-align: justify;
+  direction: rtl;
 }
 .bottom-border-nav{
   position: absolute;
