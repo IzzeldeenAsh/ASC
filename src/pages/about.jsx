@@ -39,9 +39,9 @@ const About = () => {
       <NextSeo
         title={pageTitle}
         description={description}
-        canonical="https://alokab.co/about"
+        canonical="https://asc-seven-liard.vercel.app/about"
         openGraph={{
-          url: "https://alokab.co/about",
+          url: "https://asc-seven-liard.vercel.app/about",
           title: pageTitle,
           description: description,
           images: [

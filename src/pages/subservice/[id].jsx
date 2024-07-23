@@ -39,47 +39,39 @@ const Subservice = (props) => {
 
   return (
     <Layouts>
-      <NextSeo
-        title={metaTitle}
-        description={description}
-        canonical={`https://alokab.co/subservice/${id}`}
-        openGraph={{
-          url: `https://alokab.co/subservice/${id}`,
-          title: pageTitle,
-          description: description,
-          images: [
-            {
-              url: imageUrl,
-              width: 800,
-              height: 600,
-              alt: pageTitle,
-              type: 'image/jpeg',
-            },
-          ],
-          siteName: 'A&B Alokab Consulting',
-        }}
-        twitter={{
-          handle: '@handle',
-          site: '@site',
-          cardType: 'summary_large_image',
-        }}
-        additionalMetaTags={[
-          {
-            name: 'keywords',
-            content: keywords,
-          },
-        ]}
-      />
-      <div className="logoStyle">
-        <ABLogoLight />
-      </div>
-      
-      <PageBanner 
-  pageTitle={pageTitle} 
-  breadTitle={breadTitle} 
-  align={"center"} 
-  headingSize={2} 
-  service={subservice.service} 
+     <NextSeo
+  title={metaTitle}
+  description={description}
+  canonical={`https://asc-seven-liard.vercel.app/subservice/${id}`}
+  openGraph={{
+    url: `https://asc-seven-liard.vercel.app/subservice/${id}`,
+    title: metaTitle, // Use metaTitle here instead of pageTitle
+    description: description,
+    images: [
+      {
+        url: imageUrl,
+        width: 800,
+        height: 600,
+        alt: metaTitle, // Use metaTitle here as well
+        type: 'image/webp',
+      },
+    ],
+    siteName: 'A&B Alokab Consulting',
+  }}
+  twitter={{
+    handle: '@YourTwitterHandle',
+    site: '@YourSite',
+    cardType: 'summary_large_image',
+    title: metaTitle,
+    description: description,
+    image: imageUrl,
+  }}
+  additionalMetaTags={[
+    {
+      name: 'keywords',
+      content: keywords,
+    },
+  ]}
 />
       <div className="hero-nav">
         <HeaderMegaMenu/>
@@ -109,8 +101,8 @@ const Subservice = (props) => {
                      <div className="d-flex gap-10 share-icons">
                      <FacebookShareButton 
                      className='social-media-btn' 
-                     url={shareUrl} 
-                     quote={breadTitle} 
+                     url={`https://asc-seven-liard.vercel.app/subservice/${id}`}
+                     quote={metaTitle} 
                      hashtag="#consulting" 
                      media={imageUrl}>
                      <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -123,9 +115,9 @@ const Subservice = (props) => {
                       </FacebookShareButton>
                       <TwitterShareButton 
                       className='social-media-btn' 
-                      url={shareUrl} 
-                      title={breadTitle}  
-                      hashtag="#consulting" 
+                       url={`https://asc-seven-liard.vercel.app/subservice/${id}`} 
+                      title={metaTitle}  
+                      hashtags={["consulting"]}
                       media={imageUrl}>
                       <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="15.9647" cy="15.5" r="15.5" fill="#0A1B2F"/>
@@ -133,7 +125,7 @@ const Subservice = (props) => {
 </svg>
 
                       </TwitterShareButton>
-                      <LinkedinShareButton className='social-media-btn' url={shareUrl} title={breadTitle} media={imageUrl}  source={shareUrl}>
+                      <LinkedinShareButton className='social-media-btn'  url={`https://asc-seven-liard.vercel.app/subservice/${id}`} title={metaTitle} media={imageUrl} summary={description} source={shareUrl}>
                       <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="16.1058" cy="15.5" r="15.5" fill="#0A1B2F"/>
 <path d="M12.6058 13.4976H9.93854V22.0033H12.6058V13.4976Z" fill="white"/>
@@ -142,7 +134,7 @@ const Subservice = (props) => {
 </svg>
 
                       </LinkedinShareButton>
-                      <WhatsappShareButton className='social-media-btn' url={shareUrl} media={imageUrl} title={breadTitle} separator=":: ">
+                      <WhatsappShareButton className='social-media-btn'  url={`https://asc-seven-liard.vercel.app/subservice/${id}`} media={imageUrl} title={metaTitle} separator=":: ">
                       <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="15.5" cy="15.5" r="15.5" fill="#0A1B2F"/>
 <path d="M21.4482 12.9725C21.1238 12.2558 20.6582 11.6123 20.0671 11.0578C19.4759 10.5085 18.7906 10.0743 18.0268 9.77088C17.2369 9.45699 16.3998 9.30005 15.5367 9.30005C14.6735 9.30005 13.8364 9.45699 13.0465 9.77088C12.2827 10.0743 11.5974 10.5033 11.0062 11.0578C10.4151 11.6123 9.94948 12.2558 9.62514 12.9725C9.29032 13.7154 9.11768 14.5106 9.11768 15.3267C9.11768 16.7548 9.65128 18.1255 10.6296 19.2136L10.1064 22.0648L12.8895 20.8249C13.7213 21.1806 14.6055 21.3585 15.5314 21.3585C16.3946 21.3585 17.2316 21.2016 18.0216 20.8877C18.7854 20.5843 19.4707 20.1553 20.0619 19.6007C20.653 19.0462 21.1186 18.4027 21.4429 17.686C21.7778 16.9432 21.9504 16.148 21.9504 15.3319C21.9556 14.5106 21.783 13.7206 21.4482 12.9725Z" fill="white"/>

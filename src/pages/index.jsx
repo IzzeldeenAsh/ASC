@@ -32,9 +32,9 @@ const Home1 = (props) => {
       <NextSeo
         title="A&B Alokab Consulting"
         description="A&B Alokab Consulting provides expert guidance, innovative methodologies, and leading consulting services that help businesses and organizations thrive. Alokab offers its services systematically in seven stages, essential for developing businesses and companies."
-        canonical="https://alokab.co"
+        canonical="https://asc-seven-liard.vercel.app"
         openGraph={{
-          url: 'https://alokab.co',
+          url: 'https://asc-seven-liard.vercel.app',
           title: 'A&B Alokab Consulting',
           description: 'A&B Alokab Consulting provides expert guidance, innovative methodologies, and leading consulting services.',
           images: [

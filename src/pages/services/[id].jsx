@@ -96,9 +96,9 @@ const ServiceDetail = ({ service }) => {
       <NextSeo
         title={metaTitle}
         description={description}
-        canonical={`https://alokab.co/services/${id}`}
+        canonical={`https://asc-seven-liard.vercel.app/services/${id}`}
         openGraph={{
-          url: `https://alokab.co/services/${id}`,
+          url: `https://asc-seven-liard.vercel.app/services/${id}`,
           title: pageTitle,
           description: description,
           images: [
@@ -107,7 +107,7 @@ const ServiceDetail = ({ service }) => {
               width: 800,
               height: 600,
               alt: pageTitle,
-              type: 'image/jpeg',
+              type: 'image/webp',
             },
           ],
           siteName: 'A&B Alokab Consulting',
