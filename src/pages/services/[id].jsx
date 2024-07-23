@@ -99,14 +99,14 @@ const ServiceDetail = ({ service }) => {
         canonical={`https://asc-seven-liard.vercel.app/services/${id}`}
         openGraph={{
           url: `https://asc-seven-liard.vercel.app/services/${id}`,
-          title: pageTitle,
+          title: metaTitle,
           description: description,
           images: [
             {
               url: imageUrl,
               width: 800,
               height: 600,
-              alt: pageTitle,
+              alt: metaTitle,
               type: 'image/webp',
             },
           ],
@@ -134,7 +134,6 @@ const ServiceDetail = ({ service }) => {
         shareDescription={shareDescription}
         shareTitle={shareTitle}
         breadColor="light"
-        
         anchorLink="#service"
         bg={service.imgURL}
         isService={true}
