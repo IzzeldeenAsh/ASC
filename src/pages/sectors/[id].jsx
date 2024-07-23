@@ -88,7 +88,7 @@ const SectorDetail = ({ sector }) => {
         canonical={`https://asc-seven-liard.vercel.app/sectors/${id}`}
         openGraph={{
           url: `https://asc-seven-liard.vercel.app/sectors/${id}`,
-          title: pageTitle,
+          title: breadTitle,
           description: description,
           images: [
             {
