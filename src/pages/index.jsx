@@ -43,7 +43,6 @@ const Home1 = (props) => {
               width: 800,
               height: 600,
               alt: 'A&B Alokab Consulting Logo',
-              type: 'image/jpeg',
             },
           ],
           siteName: 'A&B Alokab Consulting',

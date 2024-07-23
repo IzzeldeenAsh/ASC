@@ -1779,14 +1779,15 @@ transition: all 0.2s ease-out;
     transition: transform 0.2s 0.1s ease-in;
     opacity: 0;
     visibility: hidden;
-  
+ 
 }
-.social-media-btn:hover{
-    transition: all 0.1s ease-in-out;
+
+.share-icons button{
+    transition: transform 0.1s ease-in;
 }
-    .social-media-btn:hover{
-        transform: scale(1.1);
-    }
+.share-icons button:hover{
+   transform: scale(1.1);
+}
 .share-icon{
     max-height: 19px;
 }

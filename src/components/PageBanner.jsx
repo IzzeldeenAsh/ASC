@@ -134,7 +134,7 @@ const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, bread
                    {
                   ( asPath.indexOf('/sectors/') !== -1 || asPath.indexOf('/services/') !== -1 || asPath.indexOf('/subservice/') !== -1) && 
                     <div className='mil-share d-flex' >
-                    <span className='share-icon'>  <FaShareAlt style={{paddingBottom:"1px"}}/></span>
+                    <span className='share-icon'>  <FaShareAlt color="#0A1B2F" style={{paddingBottom:"1px"}}/></span>
                      <div className="d-flex gap-10 share-icons">
                      <FacebookShareButton 
                      className='social-media-btn' 
