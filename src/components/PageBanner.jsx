@@ -139,9 +139,9 @@ const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, bread
                      <FacebookShareButton 
                      className='social-media-btn' 
                      url={shareUrl} 
-                     quote={shareTitle} 
+                     quote={breadTitle} 
                      hashtag="#consulting" 
-                     media={imgUrl}>
+                     media={bg ? bg : imgUrl}>
                      <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="15.5" cy="15.5" r="15.5" fill="#0A1B2F"/>
 <path d="M16.347 16.721V22.0648H13.8923V16.721H11.853V14.5542H13.8923V13.7658C13.8923 10.839 15.115 9.30005 17.7019 9.30005C18.495 9.30005 18.6932 9.42751 19.1275 9.53136V11.6745C18.6413 11.5896 18.5044 11.5424 17.9993 11.5424C17.3998 11.5424 17.0788 11.7123 16.7861 12.0475C16.4934 12.3826 16.347 12.9633 16.347 13.7941V14.5589H19.1275L18.3817 16.7257H16.347V16.721Z" fill="white"/>
@@ -155,7 +155,7 @@ const PageBanner = ({ pageTitle, breadTitle, shareTitle, shareDescription, bread
                       url={shareUrl} 
                       title={shareTitle}  
                       hashtag="#consulting" 
-                      media={imgUrl}>
+                      media={bg ? bg : imgUrl}>
                       <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="15.9647" cy="15.5" r="15.5" fill="#0A1B2F"/>
 <path fillRule="evenodd" clipRule="evenodd" d="M13.5374 9.84705H9.39996L14.3055 16.2928L9.71377 21.7H11.8353L15.3082 17.6104L18.392 21.6624H22.5294L17.4813 15.0293L17.4902 15.0408L21.8367 9.92234H19.7152L16.4874 13.7234L13.5374 9.84705ZM11.6837 10.9759H12.9718L20.2456 20.5335H18.9576L11.6837 10.9759Z" fill="white"/>

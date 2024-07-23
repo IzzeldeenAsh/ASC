@@ -4,11 +4,11 @@ const config: DefaultSeoProps = {
     titleTemplate: '%s | A&B Alokab', // Ensures consistent title format 
     title: 'A&B Alokab Consulting',  // Default homepage title
     description: 'A&B Alokab Consulting provides expert guidance, Innovative Methodologies and a Leading consulting that help businesses and organizations. Alokab provides its services systematically consisting of seven stages, which are essential for developing businesses and companies in general',
-    canonical: 'https://asc-seven-liard.vercel.app/', // Your main domain
+    canonical: 'https://asc-seven-liard.vercel.app', // Your main domain
     openGraph: {
         type: 'website',
         locale: 'en', // Adjust to your target region
-        url: 'https://asc-seven-liard.vercel.app/',
+        url: 'https://asc-seven-liard.vercel.app',
         title: 'A&B Alokab Consulting',
         description: 'A&B Alokab Consulting provides expert guidance, Innovative Methodologies and a Leading consulting.',
         images: [

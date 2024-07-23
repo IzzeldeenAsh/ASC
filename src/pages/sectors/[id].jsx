@@ -85,9 +85,9 @@ const SectorDetail = ({ sector }) => {
       <NextSeo
         title={metaTitle}
         description={description}
-        canonical={`https://alokab.co/sectors/${id}`}
+        canonical={`https://asc-seven-liard.vercel.app/sectors/${id}`}
         openGraph={{
-          url: `https://alokab.co/sectors/${id}`,
+          url: `https://asc-seven-liard.vercel.app/sectors/${id}`,
           title: pageTitle,
           description: description,
           images: [
@@ -96,7 +96,7 @@ const SectorDetail = ({ sector }) => {
               width: 800,
               height: 600,
               alt: pageTitle,
-              type: 'image/jpeg',
+              type: 'image/webp',
             },
           ],
           siteName: 'A&B Alokab Consulting',

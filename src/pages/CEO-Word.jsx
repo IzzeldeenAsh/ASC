@@ -20,9 +20,9 @@ const CEOWord = () => {
       <NextSeo
         title={pageTitle}
         description={description}
-        canonical="https://alokab.co/ceo-word"
+        canonical="https://asc-seven-liard.vercel.app/ceo-word"
         openGraph={{
-          url: "https://alokab.co/ceo-word",
+          url: "https://asc-seven-liard.vercel.app/ceo-word",
           title: pageTitle,
           description: description,
           images: [

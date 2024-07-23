@@ -109,9 +109,9 @@ const Contact = () => {
       <NextSeo
         title={pageTitle.english}
         description={activeLocale === 'ar' ? pageTitle.arabic : pageTitle.english}
-        canonical="https://alokab.co/contact"
+        canonical="https://asc-seven-liard.vercel.app/contact"
         openGraph={{
-          url: "https://alokab.co/contact",
+          url: "https://asc-seven-liard.vercel.app/contact",
           title: pageTitle.english,
           description: activeLocale === 'ar' ? pageTitle.arabic : pageTitle.english,
           images: [
