@@ -3,7 +3,7 @@ import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useLocale } from "@/utils/getLocale";
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
-import { IconCaretDownFilled } from "@tabler/icons-react";
+
 const TeamSection = () => {
   const { activeLocale, t } = useLocale();
   return (
@@ -26,7 +26,7 @@ const TeamSection = () => {
                 
                   dangerouslySetInnerHTML={{ __html: activeLocale ==="ar" ? Data.description.arabic : Data.description.english  }}
                 />
-                <div className="text-primary read-more-fading"><Link href={"/CEO-Word"}><IconCaretDownFilled size={40} /></Link></div>
+                {/* <div className="text-primary "><Link href={"/CEO-Word"}><IconCaretDownFilled size={40} /></Link></div> */}
                </div>
      <div className="mil-about-quote mil-mb-60 px-40px">
                                     <Link href={"/CEO-Word"} className="mil-avatar mil-up">

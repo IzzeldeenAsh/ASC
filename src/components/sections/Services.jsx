@@ -76,7 +76,7 @@ const ServicesSection = () => {
                      <div className="quotations" style={activeLocale ==='ar' ? {transformOrigin:'100%'} : {transformOrigin:'0%'}}>
                       <ABQuoations side={'right'}/></div> 
                        <p className="mil-mb-10">{
-                      activeLocale ==='en'? <Truncate text={item.text.english} maxLength={50}/> :  <Truncate text={item.text.arabic} maxLength={50}/>
+                      activeLocale ==='en'? <Truncate text={item.text.english} maxLength={70}/> :  <Truncate text={item.text.arabic} maxLength={70}/>
                       }</p> 
                    <div className="d-flex align-items-center gap-10">
                   
