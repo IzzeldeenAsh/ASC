@@ -49,7 +49,7 @@ const Subservice = (props) => {
     description: description,
     images: [
       {
-        url: imageUrl || 'https://res.cloudinary.com/dahiaq28x/image/upload/v1721725641/leadership-popo_mtlrkd.webp',
+        url: imageUrl ,
         width: 1200,
         height: 630,
         alt: metaTitle,
@@ -111,7 +111,7 @@ const Subservice = (props) => {
                      url={`https://asc-seven-liard.vercel.app/subservice/${id}`}
                      quote={metaTitle} 
                      hashtag="#consulting" 
-                     media="https://res.cloudinary.com/dahiaq28x/image/upload/v1721725641/leadership-popo_mtlrkd.webp">
+                     media={imageUrl}>
                      <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="15.5" cy="15.5" r="15.5" fill="#0A1B2F"/>
 <path d="M16.347 16.721V22.0648H13.8923V16.721H11.853V14.5542H13.8923V13.7658C13.8923 10.839 15.115 9.30005 17.7019 9.30005C18.495 9.30005 18.6932 9.42751 19.1275 9.53136V11.6745C18.6413 11.5896 18.5044 11.5424 17.9993 11.5424C17.3998 11.5424 17.0788 11.7123 16.7861 12.0475C16.4934 12.3826 16.347 12.9633 16.347 13.7941V14.5589H19.1275L18.3817 16.7257H16.347V16.721Z" fill="white"/>
