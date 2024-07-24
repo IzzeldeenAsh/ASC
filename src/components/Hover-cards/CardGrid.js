@@ -38,16 +38,16 @@ const CardGrid = () => {
               "  Regulatory compliance requires a thorough understanding of relevant regulations and the implementation of robust systems to continuously monitor and enhance manufacturing processes.",
             
             link: "subservice/industrial-regulatory-compliance-and-licensing",
-            imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1721821421/123213_r6tjkh.webp",
+            imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1721836825/38690_jmdpiq.webp",
           },
           {
-            title: "Digital Transformation",
+            title:  "Funding",
             description:
-              "Adopting the right digital technologies and integrating them into the various...",
+                           "From bank loans to government grants, or partnering with companies through joint...",
             fullDescription:
-              "Adopting the right digital technologies and integrating them into the various aspects of an organization's operations, culture, and customer experience has become essential for businesses to remain competitive.",
-            link: "services/service-2",
-            imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988597/104221_j5di9w.webp",
+             "From bank loans to government grants, or partnering with companies through joint ventures, A&B industrial project funding solutions involve several strategies, depending on the projects.",
+            link: "subservice/industrial-funding",
+            imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1721836396/2295_lilkvv.png",
           },
           {
             title: "Renewable Energy",

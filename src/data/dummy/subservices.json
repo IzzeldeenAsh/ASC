@@ -223,7 +223,7 @@
         "english": "Regulatory compliance and licensing",
         "arabic": "الامتثال التنظيمي والترخيص"
       },
-      "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1721821421/123213_r6tjkh.webp",
+      "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1721836825/38690_jmdpiq.webp",
       "sector": [
         {
           "id": "sector-1",
@@ -2095,6 +2095,68 @@
     "تطوير المواهب",
     "برامج التدريب",
     "تحليل احتياجات التدريب"
+  ]
+}
+,
+{
+  "id": "industrial-funding",
+  "title": {
+    "english": "Funding",
+    "arabic": "دراسات التمويل"
+  },
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1721836396/2295_lilkvv.png",
+  "sector": [
+    {
+      "id": "sector-1",
+      "name": "Industrial"
+    }
+  ],
+  "service": {},
+  "contentHtml": {
+    "english": "From bank loans to government grants, or partnering with companies through joint ventures, A&B industrial project funding solutions involve several strategies, depending on the projects' specific needs and manufacturers’ unique situations.<br><br>Our funding strategy experts work with clients to touch on their funding needs and perform thorough financial analyses to help understand the manufacturer's current financial position, projection, and income statement before exploring available funding options.<br><br>We stand by our clients to negotiate terms with loaners and investors and perform needed risk analysis before securing the best financial deal in order to ensure their way is clear to sustainable growth. Our consulting experts continue the funding journey with clients and help them integrate funding into their business success. They tailor strategic business planning and guide them through <a class=\"hyper-link\" href=\"/subservice/industrial-regulatory-compliance-and-licensing\" target=\"__blank\">regulations</a> to ensure they continue to meet all funding legal requirements and avoid potential drawbacks.",
+    "arabic": "From bank loans to government grants, or partnering with companies through joint ventures, A&B industrial project funding solutions involve several strategies, depending on the projects' specific needs and manufacturers’ unique situations.<br><br>Our funding strategy experts work with clients to touch on their funding needs and perform thorough financial analyses to help understand the manufacturer's current financial position, projection, and income statement before exploring available funding options.<br><br>We stand by our clients to negotiate terms with loaners and investors and perform needed risk analysis before securing the best financial deal in order to ensure their way is clear to sustainable growth. Our consulting experts continue the funding journey with clients and help them integrate funding into their business success. They tailor strategic business planning and guide them through <a class=\"hyper-link\" href=\"/subservice/industrial-regulatory-compliance-and-licensing\" target=\"__blank\">regulations</a> to ensure they continue to meet all funding legal requirements and avoid potential drawbacks."
+  },
+  "short": {
+    "english": "A&B offers tailored industrial project funding solutions, including financial analyses, negotiation support, and strategic planning to ensure sustainable growth and regulatory compliance.",
+    "arabic": "A&B offers tailored industrial project funding solutions, including financial analyses, negotiation support, and strategic planning to ensure sustainable growth and regulatory compliance."
+  },
+  "introTitle": {
+    "english": "Funding",
+    "arabic": "دراسات التمويل"
+  },
+  "gallery": {
+    "enabled": 0,
+    "items": []
+  },
+  "slogan": {
+    "english": "",
+    "arabic": ""
+  },
+  "additional": {
+    "enabled": 0,
+    "content": ""
+  },
+  "infograph": {
+    "enabled": 0,
+    "name": "Training Process"
+  },
+  "keywords": [
+    "financial",
+    "industrial project funding",
+    "financial analyses",
+    "bank loans",
+    "government grants",
+    "joint ventures",
+    "funding strategies",
+    "negotiation support",
+    "risk analysis",
+    "strategic business planning",
+    "regulatory compliance",
+    "sustainable growth",
+    "funding integration",
+    "financial position",
+    "income statement",
+    "loan negotiation"
   ]
 }
 
