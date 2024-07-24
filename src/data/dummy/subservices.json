@@ -223,7 +223,7 @@
         "english": "Regulatory compliance and licensing",
         "arabic": "الامتثال التنظيمي والترخيص"
       },
-      "image": "",
+      "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1721821421/123213_r6tjkh.webp",
       "sector": [
         {
           "id": "sector-1",
@@ -233,8 +233,8 @@
       "service": {
         "id": "",
         "name": {
-          "english" : "Operations",
-          "arabic" :"العمليات"
+          "english" : "Industrial",
+          "arabic" :"الصناعة"
         }
       },
       "slogan":{
@@ -242,16 +242,16 @@
         "arabic": ""
       },
       "contentHtml": {
-        "english": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>",
-        "arabic": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>"
+        "english": "Regulatory compliance requires a thorough understanding of relevant regulations and the implementation of robust systems to continuously monitor and enhance manufacturing processes.<br><br> Our experts in regulatory requirements assist clients in obtaining the necessary licenses, permits, and health, safety, and environmental certifications before beginning operations. We ensure compliance by identifying and understanding applicable local, national, and international regulations for product design and manufacturing processes. <br><br> A&B comprehensive compliance strategies assist organizations in the industrial sector develop and conduct detailed assessments of their operations to identify potential regulatory risks and address identified gaps with a tailored action plan, ensuring that their policies and procedures align with current regulations. <br><br> Establishing proper process controls, maintaining accurate, up-to-date technical documentation and auditing manufacturing processes to identify and rectify gaps are crucial for detecting and mitigating risks. Therefore, our QMS consultants work with manufacturers to help them establish quality management systems that encompass all compliance-related aspects of their operations.",
+        "arabic": "Regulatory compliance requires a thorough understanding of relevant regulations and the implementation of robust systems to continuously monitor and enhance manufacturing processes.<br><br> Our experts in regulatory requirements assist clients in obtaining the necessary licenses, permits, and health, safety, and environmental certifications before beginning operations. We ensure compliance by identifying and understanding applicable local, national, and international regulations for product design and manufacturing processes. <br><br> A&B comprehensive compliance strategies assist organizations in the industrial sector develop and conduct detailed assessments of their operations to identify potential regulatory risks and address identified gaps with a tailored action plan, ensuring that their policies and procedures align with current regulations. <br><br> Establishing proper process controls, maintaining accurate, up-to-date technical documentation and auditing manufacturing processes to identify and rectify gaps are crucial for detecting and mitigating risks. Therefore, our QMS consultants work with manufacturers to help them establish quality management systems that encompass all compliance-related aspects of their operations."
       },
       "short": {
-        "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "english": "Our experts ensure regulatory compliance by assisting with licenses, permits, and certifications, developing tailored action plans, and establishing quality management systems.",
+        "arabic":  "Our experts ensure regulatory compliance by assisting with licenses, permits, and certifications, developing tailored action plans, and establishing quality management systems."
       },
       "introTitle": {
-        "english": "Leadership <span class=\"mil-thin\">and <br> Talent</span>   Development ",
-        "arabic": "Leadership <span class=\"mil-thin\">and</span>  Talent Development "
+        "english": "Regulatory  compliance  <br>  <span class=\"mil-thin\">and</span>   licensing",
+        "arabic": "الامتثال التنظيمي والترخيص"
       },
       "gallery": {
         "enabled": 0,
@@ -276,9 +276,30 @@
         "english": "/img/infographs/agricultural.svg",
         "arabic": "/img/infographs/agricultural.svg"
       },
-      "keywords": [
-        "Regulatory compliance and licensing"
-      ]
+     "keywords": [
+    "Regulatory compliance and licensing",
+    "regulatory requirements",
+    "licenses",
+    "permits",
+    "health certifications",
+    "safety certifications",
+    "environmental certifications",
+    "compliance strategies",
+    "industrial sector",
+    "regulatory risks",
+    "action plan",
+    "policies and procedures",
+    "process controls",
+    "technical documentation",
+    "auditing manufacturing processes",
+    "quality management systems",
+    "QMS consultants",
+    "local regulations",
+    "national regulations",
+    "international regulations",
+    "product design regulations",
+    "manufacturing processes regulations"
+  ]
     },
     {
       "id": "s1-smart-cities",

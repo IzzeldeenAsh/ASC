@@ -31,13 +31,14 @@ const CardGrid = () => {
       <section className="cards">
         {[
           {
-            title: "Smart Cities and Mobility",
+            title: "Regulatory compliance and licensing",
             description:
-              "We leverage key technologies and smart solutions to navigate the complexity of...",
+              "  Regulatory compliance requires a thorough understanding of relevant regulations and the implementation of...",
             fullDescription:
-              "We leverage key technologies and smart solutions to navigate the complexity of smart city and mobility development. As ITS & MaaS, AI and IoT have a lot to offer.",
-            link: "services/service-1",
-            imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1716989833/2151021171_qdcgwc.webp",
+              "  Regulatory compliance requires a thorough understanding of relevant regulations and the implementation of robust systems to continuously monitor and enhance manufacturing processes.",
+            
+            link: "subservice/industrial-regulatory-compliance-and-licensing",
+            imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1721821421/123213_r6tjkh.webp",
           },
           {
             title: "Digital Transformation",
