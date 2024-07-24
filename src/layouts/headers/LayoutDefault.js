@@ -163,7 +163,7 @@ const DefaultHeader = ({ extraClass }) => {
             <span className="d-block d-xl-none">A&B</span>
           </Link>
           <div style={{ display: "flex", gap: "20px" }}>
-          <SearchBar/>
+      
             <LanguageSwitch />
             <div className={`mil-menu-btn ${toggle ? "mil-active" : ""}`} onClick={() => setToggle(!toggle)}><span /></div>
           </div>

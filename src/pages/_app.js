@@ -13,6 +13,7 @@ import NProgress from 'nprogress'; // Import NProgress
 import 'nprogress/nprogress.css'; // Import NProgress styles
 import Router from 'next/router';
 import Loader from '@components/Loader'; // Import your custom Loader component
+import SearchBar from '../components/SearchBar';
 
 const ibmPlexSansArabic = IBM_Plex_Sans_Arabic({
   subsets: ['latin', 'arabic'], // Include Arabic subset
@@ -127,6 +128,7 @@ function MyApp({ Component, pageProps }) {
           {/* SEO end */}
         </Head>
         {loading && <Loader />} {/* Conditionally render Loader */}
+        <SearchBar/>
         <Component {...pageProps} />
       </>
     </MantineProvider>

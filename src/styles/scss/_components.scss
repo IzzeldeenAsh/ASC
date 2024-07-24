@@ -20,13 +20,14 @@ animation: float 2s ease-in-out infinite;
 
 Search bar
 
+
 ------------------------------------------- */
 .global-search-bar{
-  position: relative;
+  position: fixed;
   transition: width 0.2s ease-in-out;
   pointer-events: all;
-  top: -5px;
-  z-index: 400;
+  top: 20px;
+  z-index: 1000;
   border-radius: 3px;
   overflow: hidden;
   height: 40px;
@@ -48,8 +49,22 @@ Search bar
   }
  
 }
-
-
+body[dir="rtl"] .global-search-bar{
+  left: 150px;
+  transform: scaleX(-1);
+  @media screen and (max-width:1200px) {
+    left: 120px;
+    top: 15px;
+  }
+}
+body[dir="ltr"] .global-search-bar{
+  right: 150px;
+  transform: scaleX(1);
+  @media screen and (max-width:1200px) {
+    right: 120px;
+    top: 15px;
+  }
+}
 .icon-input-container input:active,
 .icon-input-container input:focus {
   width: 200px;
