@@ -20,52 +20,19 @@ animation: float 2s ease-in-out infinite;
 
 Search bar
 
+
 ------------------------------------------- */
 .global-search-bar{
-  position: relative;
+  position: fixed;
   transition: width 0.2s ease-in-out;
   pointer-events: all;
-  top: -5px;
-  z-index: 400;
+  top: 20px;
+  z-index: 1000;
   border-radius: 3px;
   overflow: hidden;
   height: 40px;
-  input{
-    width: 20px;
-    padding: 0 !important;
-    background: none !important;
-    box-sizing: 'border-box' ;
-    pointer-events: all;
-    transition: all 0.2s ease-in-out;
-    border:none !important;
-    margin: 0 !important;
-  }
-  input::placeholder{
-    opacity: 0;
-  }
-  ul{
-    position: fixed;
-    background-color: #fff;
-    z-index: 500;
-    width: 200px;
-    font-size: 14px;
-    font-weight: 500;
-    box-shadow: 1px 10px 20px rgba(40, 40, 40, 0.1);
-    color: #0a1b30;
-    overflow: scroll;
-    max-height: 275px;
-   
-    li{
-      padding: 2px 12px !important;
-      &:hover{
-        background-color: #fbefb6;
-      }
-    }
-    .selected {
-      background-color: #e7cb47;
-      color: white;
-    }
-  }
+  width: 40px;
+  cursor: pointer;
   svg{
     position: absolute;
     top: 9px; 
@@ -80,13 +47,24 @@ Search bar
     width: 200px;
     background-color: #fff !important;
   }
-  &:hover svg{
-    right: unset;
-    left: 10px;
+ 
+}
+body[dir="rtl"] .global-search-bar{
+  left: 150px;
+  transform: scaleX(-1);
+  @media screen and (max-width:1200px) {
+    left: 120px;
+    top: 15px;
   }
 }
-
-
+body[dir="ltr"] .global-search-bar{
+  right: 150px;
+  transform: scaleX(1);
+  @media screen and (max-width:1200px) {
+    right: 120px;
+    top: 15px;
+  }
+}
 .icon-input-container input:active,
 .icon-input-container input:focus {
   width: 200px;

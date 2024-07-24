@@ -110,8 +110,18 @@
         "حلول مواقف السيارات",
         "المجتمعات القابلة للعيش",
         "المدن المتينة",
-        "المدن المتصلة"
+        "المدن المتصلة",
+        "renewable energy",
+        "sustainable transportation",
+        "digital connectivity",
+        "alternative transportation",
+        "shared micromobility",
+        "urban resilience",
+        "urban competitiveness",
+        "smart city initiatives",
+        "ecosystem complexity"
       ]
+      
     }
 ,    
     {
@@ -224,7 +234,7 @@
           }
         ]
       },
-      "keywords": [
+      "keywords":[
         "digital transformation",
         "digital culture",
         "digital technology",
@@ -253,9 +263,27 @@
         "الأمن السيبراني",
         "الحماية الرقمية",
         "أمان البيانات",
-        "حماية البيانات و الخصوصية",
-        "الخصوصية"
+        "حماية البيانات والخصوصية",
+        "الخصوصية",
+        "digitized operations",
+        "digital growth",
+        "digital integration",
+        "data-driven decision-making",
+        "competitive advantage",
+        "stakeholder engagement",
+        "digital resilience",
+        "technology integration",
+        "strategic growth",
+        "digital assets",
+        "digital threats",
+        "risk mitigation",
+        "threat detection",
+        "data protection",
+        "digital efficiency",
+        "innovation",
+        "technology adoption"
       ]
+      
     }
     ,
     {
@@ -330,10 +358,22 @@
         "حلول الطاقة المتجددة",
         "استراتيجية مخصصة",
         "الطاقة الشمسية",
-        "الطاقة الرياح",
+        "طاقة الرياح",
         "سياسات حكومية",
-        "حوافز"
+        "حوافز",
+        "energy transition",
+        "renewable resources",
+        "sustainable future",
+        "innovative energy solutions",
+        "energy use assessment",
+        "regional energy research",
+        "national energy research",
+        "sustainable development",
+        "green energy",
+        "environmental impact",
+        "renewable technology"
       ]
+      
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716187406/futuristic-christmas-celebration-concept_23-2150979860_2_mgpnnq.webp",
@@ -352,7 +392,7 @@
       },
       "short": {
         "english": "Sustainable Manufacturing offers clean manufacturing solutions for environmental excellence, aiding organizations in reducing their carbon footprint and energy costs while meeting sustainability goals.",
-        "arabic": "التصنيع المستدام"
+        "arabic": "يقدم التصنيع المستدام حلول تصنيع نظيفة لتحقيق التميز البيئي، ومساعدة المؤسسات في تقليل البصمة الكربونية وتكاليف الطاقة مع تحقيق أهداف الاستدامة."
       },
       "introTitle": {
         "english": "Sustainable <br> <span class=\"mil-thin\">Manufacturing</span>",
@@ -431,8 +471,19 @@
         "الكفاءة التشغيلية",
         "تقليل التكاليف",
         "الاقتصاد المحلي",
-        "المستهلكين ذوي الوعي البيئي"
+        "المستهلكين ذوي الوعي البيئي",
+        "green goals",
+        "competitive edge",
+        "comprehensive assessments",
+        "product assessment",
+        "facility assessment",
+        "innovative manufacturing processes",
+        "market differentiation",
+        "environmental performance",
+        "quantitative indicators",
+        "day-to-day operations"
       ]
+      
     }
 ,    
     {
@@ -550,8 +601,17 @@
         "الإنتاجية",
         "الذكاء الاصطناعي",
         "تعلم الآلة",
-        "البلوكتشين"
+        "البلوكتشين",
+        "market analysis",
+        "gap analysis",
+        "agricultural innovation",
+        "agricultural technology",
+        "precision farming",
+        "climate-smart agriculture",
+        "digital agriculture",
+        "sustainable practices"
       ]
+      
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1720529531/standard-quality-control-collage-concept_nzb12q.webp",
@@ -693,8 +753,29 @@
         "نموذج التشغيل",
         "التحول الرقمي",
         "القيادة",
-        "تطوير المواهب"
+        "تطوير المواهب",
+        "operational efficiency",
+        "strategic goals",
+        "value chain analysis",
+        "data-driven insights",
+        "process improvement",
+        "cost reduction",
+        "customer satisfaction",
+        "resource allocation",
+        "competitive edge",
+        "technology integration",
+        "organizational changes",
+        "innovation",
+        "flexible logistics",
+        "stakeholder engagement",
+        "service delivery",
+        "environmental impact",
+        "agile operations",
+        "lean manufacturing",
+        "continuous improvement",
+        "collaboration"
       ]
+      
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988796/2476_rramgr.jpg",
@@ -760,8 +841,47 @@
         "بناء المجتمعات",
         "ريادة الأعمال",
         "نسج الخيوط لاحتضان النجاح",
-        "الخدمات اللوجستية وسلسلة التوريد"
+        "الخدمات اللوجستية وسلسلة التوريد",
+        "business incubators",
+        "حاضنات الأعمال",
+        "startup support",
+        "دعم الشركات الناشئة",
+        "economic growth",
+        "النمو الاقتصادي",
+        "community development",
+        "تطوير المجتمع",
+        "innovation",
+        "الابتكار",
+        "entrepreneurial strategies",
+        "استراتيجيات ريادية",
+        "government partnerships",
+        "شراكات حكومية",
+        "NGO collaborations",
+        "تعاون مع المنظمات غير الحكومية",
+        "educational institutions",
+        "المؤسسات التعليمية",
+        "professional institutions",
+        "المؤسسات المهنية",
+        "sector-related challenges",
+        "تحديات القطاع",
+        "opportunities",
+        "فرص",
+        "competitive edge",
+        "ميزة تنافسية",
+        "technical analysis",
+        "تحليل تقني",
+        "financial analysis",
+        "تحليل مالي",
+        "market analysis",
+        "تحليل السوق",
+        "funding sources",
+        "مصادر التمويل",
+        "revenue streams",
+        "تدفقات الإيرادات",
+        "startup attraction",
+        "جذب الشركات الناشئة"
       ]
+      
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717673950/2648_vsebfk.webp",
@@ -877,8 +997,50 @@
         "تحول الأعمال",
         "إدارة التغيير",
         "تطوير القيادة",
-        "إشراك الموظفين"
+        "إشراك الموظفين",
+        "Entrepreneurship",
+        "ريادة الأعمال",
+        "Empowering Entrepreneurs",
+        "إشعال الابتكار",
+        "Building Communities",
+        "بناء المجتمعات",
+        "Business potential",
+        "نمو مستدام",
+        "Strategic guidance",
+        "توجيه استراتيجي",
+        "Brand visibility",
+        "رؤية العلامة التجارية",
+        "Customer satisfaction",
+        "رضا العملاء",
+        "Operational efficiency",
+        "الكفاءة التشغيلية",
+        "Market disruptions",
+        "تغيرات السوق",
+        "Customer expectations",
+        "توقعات العملاء",
+        "Sustainable growth",
+        "نمو مستدام",
+        "Competitive edge",
+        "ميزة تنافسية",
+        "Transformative changes",
+        "تغيرات تحويلية",
+        "IPO readiness",
+        "جاهزية الطرح العام الأولي",
+        "Valuation",
+        "التقييم",
+        "Technical assets",
+        "الأصول التقنية",
+        "Commercial potential",
+        "إمكانات تجارية",
+        "Asset market value",
+        "قيمة السوق للأصول",
+        "Comparable sales value",
+        "قيمة المبيعات المقارنة",
+        "Income capitalization",
+        "رسملة الدخل"
       ]
+      
+      
     }
   ]
 }

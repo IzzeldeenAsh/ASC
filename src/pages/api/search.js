@@ -1,7 +1,7 @@
 import { aggregatedData } from "@data/Search-Engine/searchAggregatedData";
 
 export default function handler(req, res) {
-  const { query } = req.query;
+  const { query, locale = 'en' } = req.query; // Assume 'en' as default locale
 
   if (!query) {
     return res.status(400).json({ error: "Query is required" });
@@ -18,10 +18,11 @@ export default function handler(req, res) {
   // Optimized Filtering & Null/Undefined Checks
   const results = aggregatedData.filter(item => {
     const searchFields = [
-      item.title?.toLowerCase(),
-      item.shortDescription?.toLowerCase(),
-      item.keywords?.join(' ').toLowerCase() // Join keywords and convert to lowercase
-    ].filter(Boolean); // Remove undefined values
+      typeof item.title[locale] === 'string' ? item.title[locale].toLowerCase() : '',
+      typeof item.shortDescription[locale] === 'string' ? item.shortDescription[locale].toLowerCase() : '',
+      Array.isArray(item.keywords) ? item.keywords.join(' ').toLowerCase() : ''
+    ].filter(Boolean); // Remove undefined or empty values
+
     return searchFields.some(field => field.includes(lowerCaseQuery));
   });
 

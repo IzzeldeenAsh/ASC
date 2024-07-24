@@ -5,18 +5,36 @@ import sectorsData from "@data/dummy/sectors.json";
 export const aggregatedData = [
     ...sectorsData.sectors.map((sector) => ({
       id: sector.id,
-      title: sector.title.english,
-      previewTitle: sector.preview_title.english,
-      shortDescription: sector.short.english,
+      title:   {
+        english : sector.title.english,
+        arabic : sector.title.arabic
+      } ,
+      previewTitle: {
+        english :   sector.preview_title.english,
+        arabic :   sector.preview_title.arabic
+      },
+      shortDescription: {
+        english : sector.short.english,
+        arabic : sector.short.arabic
+      },
       type: 'sector',
       link: `/sectors/${sector.id}`,
       keywords:sector.keywords
     })),
     ...servicesData.services.map((service) => ({
       id: service.id,
-      title: service.title.english,
-      previewTitle: service.preview_title.english,
-      shortDescription: service.short.english,
+      title:   {
+        english : service.title.english,
+        arabic : service.title.arabic
+      },
+      previewTitle: {
+        english :   service.preview_title.english,
+        arabic :   service.preview_title.arabic
+      },
+      shortDescription:  {
+        english : service.short.english,
+        arabic : service.short.arabic
+      },
       type: 'service',
       imgURL: service.imgURL,
       link: `/services/${service.id}`,
@@ -24,9 +42,18 @@ export const aggregatedData = [
     })),
     ...subservicesData.subservices.map((subservice) => ({
       id: subservice.id,
-      title: subservice.title.english,
-      previewTitle: subservice.title.english,
-      shortDescription: subservice.short.english,
+      title:   {
+        english : subservice.title.english,
+        arabic : subservice.title.arabic
+      },
+      previewTitle:  {
+        english : subservice.title.english,
+        arabic : subservice.title.arabic
+      },
+      shortDescription:  {
+        english : subservice.short.english,
+        arabic : subservice.short.arabic
+      },
       type: 'subservice',
       imgURL: subservice.image,
       link: `/subservice/${subservice.id}`,
