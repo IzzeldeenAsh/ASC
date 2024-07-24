@@ -18,7 +18,7 @@
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989833/2151021171_qdcgwc.webp');
+    background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1721821421/123213_r6tjkh.webp');
     
 }
 
@@ -182,7 +182,7 @@ display: inline-block;
 }
 
 .card--1:hover{
-  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989833/2151021171_qdcgwc.webp');
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1721821421/123213_r6tjkh.webp');
   background-color: steelblue;
   background-size: cover;
     background-position: center;
@@ -277,9 +277,9 @@ display: inline-block;
 .card:hover .card__title {
   color: #fff;
   font-size: 30px;
-  width: 250px;
-  min-width: 250px;
-  max-width: 250px;
+  width: 350px;
+  min-width: 350px;
+  max-width: 350px;
   display: flex;
   gap: 10px;
   text-transform: uppercase;
@@ -326,7 +326,7 @@ display: inline-block;
 
 /* Add initial styles for the active card */
 .card.active {
-  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716989833/2151021171_qdcgwc.webp');
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1721821421/123213_r6tjkh.webp');
 }
 
 .card--2.active {

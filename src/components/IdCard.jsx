@@ -107,7 +107,7 @@ const IdCard = ({ name = "Abdulrahman Al-Taher", position = "SR.PROJECT MANAGER"
                     justify-content: center;
                     align-items: center;
                     position:relative;
-                    z-index:10;
+                    z-index:7;
                 }
                
             `}</style>

@@ -1,6 +1,6 @@
 {
     "title": {
-        "english": "<span class=\"mil-thin\">Meet</span><br> Our<br>   Consultants",
+        "english": "<span class=\"mil-thin\">Meet</span> Our<br>   Consultants",
         "arabic":   "   <span class=\"mil-thin\"> تعرّف </span>على <br>  مستشارينا "
     },
     "avatar": {
@@ -31,8 +31,8 @@
                 "arabic" : "د. عاطف أبو الرُب"
             },
             "role": {
-                "english": "Consultant",
-                "arabic" : "مستشار"
+                "english": "",
+                "arabic" : ""
             }
         },
         {
@@ -42,8 +42,8 @@
                 "arabic" :"د.أديب الصافي"
             },
             "role": {
-                "english": "Consultant",
-                "arabic" : "مستشار"
+                "english": "",
+                "arabic" : ""
             }
         },
         {
@@ -53,8 +53,8 @@
                 "arabic" :"د.عمر السنقلاوي"
             },
             "role": {
-                "english": "Consultant",
-                "arabic" : "مستشار"
+                "english": "",
+                "arabic" : ""
             }
         },
         {
@@ -64,8 +64,8 @@
                 "arabic" :"د.ماهر خضر"
             },
             "role": {
-                "english": "Consultant",
-                "arabic" : "مستشار"
+                "english": "",
+                "arabic" : ""
             }
         },
         
@@ -76,8 +76,8 @@
                 "arabic" :"د.نسيم زعمط"
             },
             "role": {
-                "english": "Consultant",
-                "arabic" : "مستشار"
+                "english": "",
+                "arabic" : ""
             }
         },
         {
@@ -87,8 +87,8 @@
                 "arabic" :"د.محمد زريقات"
             },
             "role": {
-                "english": "Consultant",
-                "arabic" : "مستشار"
+                "english": "",
+                "arabic" : ""
             }
         },
         {
@@ -98,8 +98,8 @@
                 "arabic" :"محمد زعمط "
             },
             "role": {
-                "english": "Consultant",
-                "arabic" : "مستشار"
+                "english": "",
+                "arabic" : ""
             }
         },
   
@@ -110,8 +110,8 @@
                 "arabic" :"محمود الرمحي "
             },
             "role": {
-                "english": "Consultant",
-                "arabic" : "مستشار"
+                "english": "",
+                "arabic" : ""
             }
         },
         {
@@ -121,8 +121,8 @@
                 "arabic" :"رامي حمام "
             },
             "role": {
-                "english": "Consultant",
-                "arabic" : "مستشار"
+                "english": "",
+                "arabic" : ""
             }
         }
         ,
@@ -133,8 +133,8 @@
                 "arabic" :"كمال غريب "
             },
             "role": {
-                "english": "Consultant",
-                "arabic" : "مستشار"
+                "english": "",
+                "arabic" : ""
             }
         },
   
@@ -145,8 +145,8 @@
                 "arabic" :"رامي عبيدات "
             },
             "role": {
-                "english": "Consultant",
-                "arabic" : "مستشار"
+                "english": "",
+                "arabic" : ""
             }
         },
         {
@@ -156,8 +156,8 @@
                 "arabic" :"محمد السييد "
             },
             "role": {
-                "english": "Consultant",
-                "arabic" : "مستشار"
+                "english": "",
+                "arabic" : ""
             }
         }
     ]
