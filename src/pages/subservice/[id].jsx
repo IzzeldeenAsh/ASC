@@ -8,7 +8,7 @@ import RequestService from "@components/sections/RequestService";
 import Image from "next/image";
 import { NextSeo } from 'next-seo';
 import {HeaderMegaMenu} from "@components/HeeaderMegaMenu";
-import ABLogoLight from "@/src/layouts/svg-icons/AB-Logo-Light";
+
 import { FaShareAlt } from "react-icons/fa";
 import {
   FacebookShareButton,
@@ -16,6 +16,7 @@ import {
   LinkedinShareButton,
   WhatsappShareButton,
 } from 'next-share';
+import ABLogoLight from "@/src/layouts/svg-icons/AB-Logo-Light";
 
 
 
@@ -80,6 +81,9 @@ const Subservice = (props) => {
   headingSize={2} 
   service={subservice.service} 
 />
+<div className="logoStyle">
+        <ABLogoLight />
+      </div>
       <div className="hero-nav">
         <HeaderMegaMenu/>
         </div>
