@@ -18,12 +18,12 @@
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1721821421/123213_r6tjkh.webp');
+    background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1721836825/38690_jmdpiq.webp');
     
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url("https://res.cloudinary.com/dahiaq28x/image/upload/v1716988597/104221_j5di9w.webp");
+    background-image: url("https://res.cloudinary.com/dahiaq28x/image/upload/v1721836396/2295_lilkvv.png");
 }
 
 .card--3 .card__img, .card--3 .card__img--hover {
@@ -182,14 +182,14 @@ display: inline-block;
 }
 
 .card--1:hover{
-  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1721821421/123213_r6tjkh.webp');
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1721836825/38690_jmdpiq.webp');
   background-color: steelblue;
   background-size: cover;
     background-position: center;
   background-blend-mode: multiply;
 }
 .card--2:hover{
-  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716988597/104221_j5di9w.webp');
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1721836396/2295_lilkvv.png');
   background-color: steelblue;
   background-size: cover;
     background-position: center;
@@ -326,11 +326,11 @@ display: inline-block;
 
 /* Add initial styles for the active card */
 .card.active {
-  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1721821421/123213_r6tjkh.webp');
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1721836825/38690_jmdpiq.webp');
 }
 
 .card--2.active {
-  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1716988597/104221_j5di9w.webp');
+  background-image: url('https://res.cloudinary.com/dahiaq28x/image/upload/v1721836396/2295_lilkvv.png');
 }
 
 .card--3.active {

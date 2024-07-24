@@ -226,7 +226,7 @@ const SectorDetail = ({ sector }) => {
                       {item.image && (
                         <div className="service-image-abs-wrapper">
                           <div className="service-image-abs">
-                            <img className="w-100" style={{ minHeight: "189px" }} src={item.image} alt="service-image" />
+                            <img className="w-100" style={{ minHeight: "225px" }} src={item.image} alt="service-image" />
                           </div>
                         </div>
                       )}
