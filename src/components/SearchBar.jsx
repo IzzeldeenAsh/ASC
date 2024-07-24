@@ -102,9 +102,9 @@ const SearchBar = () => {
                     <div key={action.id} className="spotlight-result" onClick={action.onClick}>
                     <div style={{flex:1,maxWidth:"30px"}}>  {action.icon}</div>
                       <div>
-                        <div>{action.label}</div>
-                        <div className="mil-text-xs mil-dark-soft" style={{lineHeight:"1.1"}}>
-                          <Truncate text={action.description} maxLength={100} />
+                        <div className="result-search-title">{action.label}</div>
+                        <div className="mil-text-xs mil-dark-soft">
+                          <Truncate  style={{lineHeight:"1.1",fontSize:"14px"}} text={action.description} maxLength={100} />
                         </div>
                       </div>
                     </div>
