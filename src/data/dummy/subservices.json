@@ -2159,6 +2159,66 @@
     "loan negotiation"
   ]
 }
+,
+{
+  "id": "industrial-strategic-partnerships",
+  "title": {
+    "english": "Industrial Strategic Partnerships",
+    "arabic": "دراسات الشراكات الاستراتيجية"
+  },
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1721893788/strategic_partnership_opmid0.webp",
+  "sector": [
+    {
+      "id": "sector-1",
+      "name": "Industrial"
+    }
+  ],
+  "service": {},
+  "contentHtml": {
+    "english": "Helping industrial ventures achieve more getting into Strategic partnerships in the industrial sector is essential for leveraging cutting-edge technologies, optimizing supply chains, and expanding market reach. At A&B, we help clients navigate the complexities of forming and managing strategic partnerships, where benefits are maximized and risks are minimized.<br><br>Partnerships should align with partners’ objectives; therefore, we conduct thorough market research to identify potential partners with complementary strengths to ensure that the partnership suits the specific needs of our clients and contracting parties’ mutual goals. Our legal experts ensure all partnership agreements adhere to relevant regulations and standards and that all parties are fully prepared to meet their commitments.<br><br><b>We can help you with:</b><br>• Joint Ventures<br>• Strategic Alliances<br>• Equity Partnerships<br>• Outsourcing and Contract Manufacturing<br>• Technology Transfer Agreements<br>• Supplier Partnerships<br>• Licensing Agreements",
+    "arabic": "Helping industrial ventures achieve more getting into Strategic partnerships in the industrial sector is essential for leveraging cutting-edge technologies, optimizing supply chains, and expanding market reach. At A&B, we help clients navigate the complexities of forming and managing strategic partnerships, where benefits are maximized and risks are minimized.<br><br>Partnerships should align with partners’ objectives; therefore, we conduct thorough market research to identify potential partners with complementary strengths to ensure that the partnership suits the specific needs of our clients and contracting parties’ mutual goals. Our legal experts ensure all partnership agreements adhere to relevant regulations and standards and that all parties are fully prepared to meet their commitments.<br><br><b>We can help you with:</b><br>• Joint Ventures<br>• Strategic Alliances<br>• Equity Partnerships<br>• Outsourcing and Contract Manufacturing<br>• Technology Transfer Agreements<br>• Supplier Partnerships<br>• Licensing Agreements"
+  },
+  "short": {
+    "english": "A&B assists industrial ventures in forming strategic partnerships, conducting market research, and ensuring compliance with regulations to maximize benefits and minimize risks.",
+    "arabic": "A&B assists industrial ventures in forming strategic partnerships, conducting market research, and ensuring compliance with regulations to maximize benefits and minimize risks."
+  },
+  "introTitle": { 
+    "english": "<span class=\"mil-thin\">Industrial</span> <br> Strategic Partnerships",
+    "arabic": "دراسات الشراكات الاستراتيجية"
+  },
+  "gallery": {
+    "enabled": 0,
+    "items": []
+  },
+  "slogan": {
+    "english": "",
+    "arabic": ""
+  },
+  "additional": {
+    "enabled": 0,
+    "content": ""
+  },
+  "infograph": {
+    "enabled": 0,
+    "name": "Training Process"
+  },
+  "keywords": [
+    "industrial partnerships",
+    "strategic partnerships",
+    "joint ventures",
+    "strategic alliances",
+    "equity partnerships",
+    "outsourcing",
+    "contract manufacturing",
+    "technology transfer",
+    "supplier partnerships",
+    "licensing agreements",
+    "market research",
+    "regulatory compliance",
+    "legal agreements",
+    "partnership management"
+  ]
+}
 
   ]
 }

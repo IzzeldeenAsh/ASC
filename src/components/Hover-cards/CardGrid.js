@@ -35,7 +35,7 @@ const CardGrid = () => {
             description:
               "  Regulatory compliance requires a thorough understanding of relevant regulations and the implementation of...",
             fullDescription:
-              "  Regulatory compliance requires a thorough understanding of relevant regulations and the implementation of robust systems to continuously monitor and enhance manufacturing processes.",
+              "A&B's compliance strategies help industrial organizations assess operations, identify regulatory risks, and address gaps with tailored action plans.",
             
             link: "subservice/industrial-regulatory-compliance-and-licensing",
             imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1721837829/61331_1_px0rjk.webp",
@@ -45,18 +45,18 @@ const CardGrid = () => {
             description:
                            "From bank loans to government grants, or partnering with companies through joint...",
             fullDescription:
-             "From bank loans to government grants, or partnering with companies through joint ventures, A&B industrial project funding solutions involve several strategies, depending on the projects.",
+             " A&B industrial project funding solutions involve several strategies, depending on the projects' specific needs and manufacturers’ unique situations.",
             link: "subservice/industrial-funding",
             imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1721836849/2295_i0etlb.webp",
           },
           {
-            title: "Renewable Energy",
-            description:
-              "A&B team of experts is dedicated to helping businesses ...",
+            title: "Industrial/ Strategic Partnerships",
+            description: `Helping industrial ventures achieve more
+            Getting into Strategic partnerships in the industrial sector is essential for leveraging cutting-edge technologies, optimizing supply chains, and expanding market reach.`,
             fullDescription:
-              "A&B team of experts is dedicated to helping businesses and organizations lower their energy costs and reduce their carbon footprint.",
-            link: "services/service-3",
-            imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1716989528/322_3_rkxygu.webp",
+              "At A&B, we help clients navigate the complexities of forming and managing strategic partnerships, where benefits are maximized and risks are minimized.",
+            link: "subservice/industrial-strategic-partnerships",
+            imgUrl: "https://res.cloudinary.com/dahiaq28x/image/upload/v1721893788/strategic_partnership_opmid0.webp",
           },
         ].map((card, index) => (
           <article
