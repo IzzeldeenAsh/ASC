@@ -1,12 +1,16 @@
 import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import { useLocale } from "@/utils/getLocale";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Link from "next/link";
 
 const CardGrid = () => {
   const { activeLocale, t } = useLocale();
   const [activeCard, setActiveCard] = useState(0);
+
+  useEffect(() => {
+    handleMouseEnter(1);
+  }, []);
 
   const handleMouseEnter = (index) => {
     setActiveCard(index);

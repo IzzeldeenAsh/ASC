@@ -296,7 +296,7 @@ blockquote {
     line-height: 180%;
 
     @media screen and (max-width: 768px) {
-        font-size: $text + 4px;
+        font-size: $text  - 2px;
     }
 }
 .mil-text-xxl {
@@ -1125,7 +1125,7 @@ spaces
     padding-top: 120px;
 
     @media screen and (max-width: 992px) {
-        padding-top: 90px;
+        padding-top: 110px;
     }
 }
 
@@ -1416,7 +1416,6 @@ body[dir="ltr"] .title-yellow-head{
 }
 .mil-text-gray-800{
     color: #4a4e54;
-    font-size: 18px;
     line-height: 1.5;
 }
 .mil-text-gray-600{
@@ -1531,17 +1530,80 @@ body[dir="ltr"] .title-yellow-head{
         border-bottom: 1px solid #0c3acf;
     }
 }
+.card-shadow-hoverd{
+    display: none;
+}
 .card-shadow {
     transition: all 0.2s ease-in; /* Added 's' for seconds */
     background-color: #fff;
     position: relative;
+    height: 480px;
+    min-height: 480px;
     &:hover {
-        transform: translate(4px, -4px);
-        border: 1px solid $accent;
-        box-shadow: -8px 8px 0 $accent;    
-        border: 1px solid $accent;
+      transform: translate(4px, -4px);
+      border: 1px solid $accent;
+      box-shadow: -8px 8px 0 $accent;
+      
+      .mil-arrow-place {
+        padding-top: 30px;
+        padding-inline-start: 30px;
+      }
+      
+      .card-shadow-hoverd {
+        background-size: cover;
+        background-color: steelblue;
+        background-blend-mode: multiply;
+        color: #fff;
+        opacity: 1;
+        visibility: visible;
+        display: block;
+        position: absolute;
+        top: 0 !important;
+        left: 0 !important;
+        bottom: 0;
+        padding: 20px;
+        z-index: 10; /* Ensure it's above other content */
+        animation: slide-bg 0.2s ease-in-out forwards; /* Adding slide animation */
+  
+        .csh-title {
+          padding: 20px 0;
+          font-size: 30px;
+          font-weight: 600;
+          line-height: 1.4;
+          min-width: 310px;
+       
+          .pattern {
+            flex: 1;
+            max-width: fit-content;
+          }
+  
+          span {
+            padding-top: 10px;
+            text-transform: uppercase;
+          }
+        }
+  
+        .csh-subtitle {
+          padding-inline-start: 30px;
+        }
+      }
+  
+      .mil-blog-card {
+        display: none;
+      }
     }
-}
+  }
+  
+  @keyframes slide-bg {
+    from {
+      background-position: right center;
+    }
+    to {
+      background-position: 70% center;
+    }
+  }
+  
+  
 .depth-yellow-cards{
     box-shadow: -5px 5px 0 $accent;    
     border: 1px solid $accent;
