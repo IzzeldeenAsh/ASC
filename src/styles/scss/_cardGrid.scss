@@ -96,8 +96,8 @@ border-top-right-radius: 12px;
     max-width: 560px;
 }
 .card__info {
-z-index: 2;
-  background-color: #fff;
+   z-index: 2;
+   background-color: #fff;
    padding: 40px;
 }
 
@@ -244,7 +244,8 @@ display: inline-block;
  }
  .card{
  width: 100%;
- max-width: none;
+ max-width: 300px;
+ margin: 10px 0;
  }
 }
 

@@ -215,48 +215,63 @@ const SectorDetail = ({ sector }) => {
                   __html: activeLocale === "ar" ? sector.list.title.arabic : sector.list.title.english,
                 }}
               />
-              {sector.list.items.map((item, key) => (
-                <div
-                  className="col-lg-5 card-shadow"
-                  style={{ padding: "0 40px", maxWidth: "340px" }}
-                  key={`blog-post-${key}`}
-                >
-                  <Link href={`/subservice/${item.id}`} legacyBehavior>
-                    <a className="mil-blog-card mil-mb-30">
-                      {item.image && (
-                        <div className="service-image-abs-wrapper">
-                          <div className="service-image-abs">
-                            <img className="w-100" style={{ minHeight: "225px" }} src={item.image} alt="service-image" />
-                          </div>
-                        </div>
-                      )}
-                      <div className="mil-post-descr">
-                        <h5 className="mil-up mil-mb-30">
-                          {activeLocale === "ar" ? item.label.arabic : item.label.english}
-                        </h5>
-                        <p className="mil-up mil-mb-30">
-                          {activeLocale === "ar" ? (
-                            <Truncate text={item.value.arabic} maxLength={70} />
-                          ) : (
-                            <Truncate text={item.value.english} maxLength={70} />
-                          )}
-                        </p>
-                        <div className="mil-link mil-dark mil-arrow-place mil-up">
-                          <div
-                            style={
-                              activeLocale === "ar"
-                                ? { transform: "rotate(180deg)", display: "flex" }
-                                : { transform: "rotate(0deg)", display: "flex" }
-                            }
-                          >
-                            <ArrowIcon margin={"0px"} />
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-              ))}
+{sector.list.items.map((item, key) => (
+  <div
+    className="col-lg-5 card-shadow"
+    style={{ padding: "0 40px", maxWidth: "340px" }}
+    key={`blog-post-${key}`}
+  >
+    <a> {/* Ensuring the link is on top */}
+      <div className='card-shadow-hoverd' style={{backgroundImage: `url(${item.image})`}}>
+        <div className="csh-title d-flex"> 
+          <div className="pattern">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fillRule="evenodd" clipRule="evenodd" d="M30 0H0V7.66667V30H19.9048V7.66667L30 7.66667V0Z" fill="#F5D74C"/>
+            </svg>
+          </div>
+          <span>{activeLocale === "ar" ? item.label.arabic : item.label.english}</span>
+        </div>
+        <div className="csh-subtitle">
+          {activeLocale === "ar" ? (
+            <Truncate text={item.value.arabic} maxLength={100} />
+          ) : (
+            <Truncate text={item.value.english} maxLength={100} />
+          )}
+        </div>
+        <Link href={`/subservice/${item.id}`} legacyBehavior>
+          <div className="mil-link mil-accent mil-arrow-place mil-up">
+            <div style={activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}}>
+              <ArrowIcon margin={"0"} />
+            </div>
+          </div>
+        </Link>
+      </div>
+      <div className="mil-blog-card mil-mb-30">
+        {item.image && (
+          <div className="service-image-abs-wrapper">
+            <div className="service-image-abs">
+              <img className="w-100" style={{ minHeight: "225px" }} src={item.image} alt="service-image" />
+            </div>
+          </div>
+        )}
+        <div className="mil-post-descr">
+          <h5 className="mil-up mil-mb-30">
+            {activeLocale === "ar" ? item.label.arabic : item.label.english}
+          </h5>
+          <p className="mil-up mil-mb-30">
+            {activeLocale === "ar" ? (
+              <Truncate text={item.value.arabic} maxLength={70} />
+            ) : (
+              <Truncate text={item.value.english} maxLength={70} />
+            )}
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+))}
+
+
             </div>
           </div>
         </section>

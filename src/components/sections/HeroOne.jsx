@@ -32,7 +32,7 @@ const HeroOne = () => {
                     <div className="container" style={{marginTop:'80px'}}> 
                         <div className="mil-banner-content mil-up " style={{direction:"ltr"}}>
                      
-                           <h2 className={`mil-h2 mil-muted pt-100px  mil-mb-60 ${activeLocale==='ar' ? "hero-title" : "mil-text-start"}`} dangerouslySetInnerHTML={{__html : t("heroTitle")}} style={activeLocale==='ar' ? {lineHeight:'1.5' } :  {lineHeight:'1.1'} } />
+                           <h2 className={`mil-h2 mil-muted pt-140px  mil-mb-60 ${activeLocale==='ar' ? "hero-title" : "mil-text-start"}`} dangerouslySetInnerHTML={{__html : t("heroTitle")}} style={activeLocale==='ar' ? {lineHeight:'1.5' } :  {lineHeight:'1.1'} } />
                            <div className="row">
                            </div>
                             <div className="row">

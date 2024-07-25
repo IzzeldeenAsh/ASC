@@ -1306,9 +1306,10 @@ services
   padding: 10px 0;
   font-weight: 400;
   width: 94%;
-  max-width: 1200px;
+  max-width: 1220px;
   margin: auto;
   align-items: center;   
+  text-transform: capitalize;
 }
 
 .service-image-abs{
@@ -3187,8 +3188,8 @@ Timeline
 .tl-content p img{
  width: 90px;
 }
-.pt-100px{
-  padding-top: 100px;
+.pt-140px{
+  padding-top: 150px;
 }
 .hero-title{
   width: fit-content;
