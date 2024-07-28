@@ -129,6 +129,7 @@ function MyApp({ Component, pageProps }) {
         </Head>
         {loading && <Loader />} {/* Conditionally render Loader */}
         <SearchBar/>
+        <div className='blur-action-bg'/>
         <Component {...pageProps} />
       </>
     </MantineProvider>

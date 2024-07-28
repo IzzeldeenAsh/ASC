@@ -375,117 +375,7 @@
       ]
       
     },
-    {
-      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716187406/futuristic-christmas-celebration-concept_23-2150979860_2_mgpnnq.webp",
-      "id": "service-4",
-      "contentHtml": "",
-      "sector": [
-        "Industrial"
-      ],
-      "title": {
-        "english": "Sustainable Manufacturing",
-        "arabic": "التصنيع المستدام"
-      },
-      "preview_title": {
-        "english": "Sustainable <br> Manufacturing",
-        "arabic": "التصنيع المستدام"
-      },
-      "short": {
-        "english": "Sustainable Manufacturing offers clean manufacturing solutions for environmental excellence, aiding organizations in reducing their carbon footprint and energy costs while meeting sustainability goals.",
-        "arabic": "يقدم التصنيع المستدام حلول تصنيع نظيفة لتحقيق التميز البيئي، ومساعدة المؤسسات في تقليل البصمة الكربونية وتكاليف الطاقة مع تحقيق أهداف الاستدامة."
-      },
-      "introTitle": {
-        "english": "Sustainable <br> <span class=\"mil-thin\">Manufacturing</span>",
-        "arabic": "التصنيع <br>المستدام"
-      },
-      "description": {
-        "title": {
-          "english": "Achieve Green Goals and Stay Competitive.",
-          "arabic":"حقق أهدافك البيئية وحافظ على تنافسيتك"
-        },
-        "content": {
-          "english": "In today's world, our understanding of the importance of sustainable manufacturing across various industries makes us committed to helping our clients achieve their environmental goals while maintaining a competitive edge in the market. To offer you an effective strategy, we start by conducting comprehensive assessments of your operations, facility, and product.",
-          "arabic": "إن إدراكنا لأهمية التصنيع المستدام في مختلف الصناعات هو ما يجعلنا نلتزم بمساعدة عملائنا في تحقيق أهدافهم البيئية مع الحفاظ على تفوقهم التنافسي في السوق. ولكي نحرص على تقديم استراتيجيات التصنيع المستدام الفعّالة نبدأ بإجراء تقييمات شاملة لعملياتكم ومنشآتكم ومنتجاتكم، لضمان تحقيق أفضل النتائج الممكنة وتعزيز مكانتكم في السوق."
-        }
-      },
-      "button": {
-        "link": "/projects",
-        "label": {
-          "english": "View works",
-          "arabic": "عرض الأعمال"
-        }
-      },
-      "list": {
-        "items": [
-          {
-            "id": "clean-manufacturing",
-            "isSubService": true,
-            "label": {
-              "english": "Clean Manufacturing",
-              "arabic": "التصنيع النظيف"
-            },
-            "value": {
-              "english": "Our clean manufacturing transformation strategy focuses on reducing the environmental impact of manufacturers and businesses and improving their sustainability. A&B provides strategic solutions that would lead to innovative manufacturing processes and helps clients adopt and implement practices that not only benefit the environment but also improve their operational efficiency and reduce costs.<br><br>Although clean manufacturing may seem like a responsibility, we see it as an opportunity. Organizations can differentiate themselves in the market by contributing to their local economy and meeting the demands of the increasing number of environmentally conscious consumers.",
-              "arabic": "نهجنا في تحويل التصنيع النظيف يركز على خفض الآثار البيئية للشركات والمصانع مع التركيز على تعزيز استدامتها. تقدم A&B حلولاً استراتيجية مبتكرة تسهم في تنظيم عمليات التصنيع ودعم العملاء في تبني ممارسات صديقة للبيئة. هدفنا ليس فقط الحفاظ على البيئة، بل أيضًا تعزيز كفاءة العمليات وتقليل التكاليف.<br><br>لا يقتصر التصنيع النظيف على المسؤولية البيئية فحسب، بل هو فرصة حقيقية للشركات لكي تبرز في ساحة الأعمال. من خلال التصنيع النظيف، يمكن للمؤسسات تحقيق الفوائد الاقتصادية والبيئية في آن واحد، مما يعزز مكانتها في السوق ويساهم في تلبية توقعات العملاء المهتمين بالبيئة والاستدامة."
-            },
-            "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719907155/18581_picmhf.webp"
-          },
-          {
-            "id": "comprehensive-assessments",
-            "isSubService": true,
-            "label": {
-              "english": "Comprehensive assessments of Operations, Products and Facilities",
-              "arabic": "تقييمات شاملة لعمليات التصنيع والمنتجات والمرافق الصناعية"
-            },
-            "value": {
-              "english": "A&B sustainability experts stress the fact that to identify areas for improvement and develop customized clean manufacturing strategies, organizations need to undergo comprehensive assessments focusing on key quantitative indicators for environmental performance, which will lead to clean manufacturing processes that are to be integrated into the implemented practices and day-to-day operations.",
-              "arabic": "يؤكد خبراء الاستدامة في A&B على أهمية إجراء تقييمات شاملة للعمليات والمنتجات والمرافق، حيث تُعتبر هذه التقييمات أساسية لتحديد فرص التحسين وتطوير استراتيجيات التصنيع النظيف المخصصة. تركز هذه التقييمات على المؤشرات الرئيسية للأداء البيئي، مما يسهم في تطبيق عمليات تصنيع نظيفة ومتكاملة مع العمليات اليومية للمؤسسات."
-            },
-            "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1721656587/63751_oskcuw.webp"
-          }
-        ]
-      },
-      "keywords": [
-        "sustainable manufacturing",
-        "clean manufacturing",
-        "environmental excellence",
-        "carbon footprint reduction",
-        "energy costs reduction",
-        "sustainability goals",
-        "manufacturing transformation",
-        "environmental impact reduction",
-        "sustainable practices",
-        "operational efficiency",
-        "cost reduction",
-        "local economy",
-        "environmentally conscious consumers",
-        "التصنيع المستدام",
-        "التصنيع النظيف",
-        "التميز البيئي",
-        "تخفيض الأثر الكربوني",
-        "تخفيض تكاليف الطاقة",
-        "أهداف الاستدامة",
-        "تحول التصنيع",
-        "التأثير البيئي",
-        "الممارسات المستدامة",
-        "الكفاءة التشغيلية",
-        "تقليل التكاليف",
-        "الاقتصاد المحلي",
-        "المستهلكين ذوي الوعي البيئي",
-        "green goals",
-        "competitive edge",
-        "comprehensive assessments",
-        "product assessment",
-        "facility assessment",
-        "innovative manufacturing processes",
-        "market differentiation",
-        "environmental performance",
-        "quantitative indicators",
-        "day-to-day operations"
-      ]
-      
-    }
-,    
+   
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988340/30280_1_tnzuno.webp",
       "id": "service-5",
@@ -613,6 +503,7 @@
       ]
       
     },
+  
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1720529531/standard-quality-control-collage-concept_nzb12q.webp",
       "id": "service-6",
@@ -628,9 +519,9 @@
         "english": "Operations ",
         "arabic": "استشارات العمليات"
       },
-      "short": {
-        "english": "Operations Consulting",
-        "arabic": "استشارات العمليات"
+    "short": {
+        "english": "Organizations need a clear strategy and tailored operations for efficient goals. At A&B, our consultants turn strategies into success by analyzing models, identifying improvements, and solving challenges with data-driven insights.",
+        "arabic": "تحتاج المنظمات إلى استراتيجية واضحة وعمليات مخصصة لتحقيق الأهداف بكفاءة. في B&A، نحول الاستراتيجيات إلى نجاح من خلال تحليل النماذج الحالية، وتحديد التحسينات، وحل التحديات باستخدام رؤى مستندة إلى البيانات."
       },
       "introTitle": {
         "english": "Operations",
@@ -778,7 +669,120 @@
       
     },
     {
+      "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716187406/futuristic-christmas-celebration-concept_23-2150979860_2_mgpnnq.webp",
+      "homeImage":"https://res.cloudinary.com/dahiaq28x/image/upload/v1722146383/parallax-2_jwwict.jpg",
+      "id": "service-4",
+      "contentHtml": "",
+      "sector": [
+        "Industrial"
+      ],
+      "title": {
+        "english": "Sustainable Manufacturing",
+        "arabic": "التصنيع المستدام"
+      },
+      "preview_title": {
+        "english": "Sustainable <br> Manufacturing",
+        "arabic": "التصنيع المستدام"
+      },
+      "short": {
+        "english": "Sustainable Manufacturing offers clean manufacturing solutions for environmental excellence, aiding organizations in reducing their carbon footprint and energy costs while meeting sustainability goals.",
+        "arabic": "يقدم التصنيع المستدام حلول تصنيع نظيفة لتحقيق التميز البيئي، ومساعدة المؤسسات في تقليل البصمة الكربونية وتكاليف الطاقة مع تحقيق أهداف الاستدامة."
+      },
+      "introTitle": {
+        "english": "Sustainable <br> <span class=\"mil-thin\">Manufacturing</span>",
+        "arabic": "التصنيع <br>المستدام"
+      },
+      "description": {
+        "title": {
+          "english": "Achieve Green Goals and Stay Competitive.",
+          "arabic":"حقق أهدافك البيئية وحافظ على تنافسيتك"
+        },
+        "content": {
+          "english": "In today's world, our understanding of the importance of sustainable manufacturing across various industries makes us committed to helping our clients achieve their environmental goals while maintaining a competitive edge in the market. To offer you an effective strategy, we start by conducting comprehensive assessments of your operations, facility, and product.",
+          "arabic": "إن إدراكنا لأهمية التصنيع المستدام في مختلف الصناعات هو ما يجعلنا نلتزم بمساعدة عملائنا في تحقيق أهدافهم البيئية مع الحفاظ على تفوقهم التنافسي في السوق. ولكي نحرص على تقديم استراتيجيات التصنيع المستدام الفعّالة نبدأ بإجراء تقييمات شاملة لعملياتكم ومنشآتكم ومنتجاتكم، لضمان تحقيق أفضل النتائج الممكنة وتعزيز مكانتكم في السوق."
+        }
+      },
+      "button": {
+        "link": "/projects",
+        "label": {
+          "english": "View works",
+          "arabic": "عرض الأعمال"
+        }
+      },
+      "list": {
+        "items": [
+          {
+            "id": "clean-manufacturing",
+            "isSubService": true,
+            "label": {
+              "english": "Clean Manufacturing",
+              "arabic": "التصنيع النظيف"
+            },
+            "value": {
+              "english": "Our clean manufacturing transformation strategy focuses on reducing the environmental impact of manufacturers and businesses and improving their sustainability. A&B provides strategic solutions that would lead to innovative manufacturing processes and helps clients adopt and implement practices that not only benefit the environment but also improve their operational efficiency and reduce costs.<br><br>Although clean manufacturing may seem like a responsibility, we see it as an opportunity. Organizations can differentiate themselves in the market by contributing to their local economy and meeting the demands of the increasing number of environmentally conscious consumers.",
+              "arabic": "نهجنا في تحويل التصنيع النظيف يركز على خفض الآثار البيئية للشركات والمصانع مع التركيز على تعزيز استدامتها. تقدم A&B حلولاً استراتيجية مبتكرة تسهم في تنظيم عمليات التصنيع ودعم العملاء في تبني ممارسات صديقة للبيئة. هدفنا ليس فقط الحفاظ على البيئة، بل أيضًا تعزيز كفاءة العمليات وتقليل التكاليف.<br><br>لا يقتصر التصنيع النظيف على المسؤولية البيئية فحسب، بل هو فرصة حقيقية للشركات لكي تبرز في ساحة الأعمال. من خلال التصنيع النظيف، يمكن للمؤسسات تحقيق الفوائد الاقتصادية والبيئية في آن واحد، مما يعزز مكانتها في السوق ويساهم في تلبية توقعات العملاء المهتمين بالبيئة والاستدامة."
+            },
+            "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1719907155/18581_picmhf.webp"
+          },
+          {
+            "id": "comprehensive-assessments",
+            "isSubService": true,
+            "label": {
+              "english": "Comprehensive assessments of Operations, Products and Facilities",
+              "arabic": "تقييمات شاملة لعمليات التصنيع والمنتجات والمرافق الصناعية"
+            },
+            "value": {
+              "english": "A&B sustainability experts stress the fact that to identify areas for improvement and develop customized clean manufacturing strategies, organizations need to undergo comprehensive assessments focusing on key quantitative indicators for environmental performance, which will lead to clean manufacturing processes that are to be integrated into the implemented practices and day-to-day operations.",
+              "arabic": "يؤكد خبراء الاستدامة في A&B على أهمية إجراء تقييمات شاملة للعمليات والمنتجات والمرافق، حيث تُعتبر هذه التقييمات أساسية لتحديد فرص التحسين وتطوير استراتيجيات التصنيع النظيف المخصصة. تركز هذه التقييمات على المؤشرات الرئيسية للأداء البيئي، مما يسهم في تطبيق عمليات تصنيع نظيفة ومتكاملة مع العمليات اليومية للمؤسسات."
+            },
+            "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1721656587/63751_oskcuw.webp"
+          }
+        ]
+      },
+      "keywords": [
+        "sustainable manufacturing",
+        "clean manufacturing",
+        "environmental excellence",
+        "carbon footprint reduction",
+        "energy costs reduction",
+        "sustainability goals",
+        "manufacturing transformation",
+        "environmental impact reduction",
+        "sustainable practices",
+        "operational efficiency",
+        "cost reduction",
+        "local economy",
+        "environmentally conscious consumers",
+        "التصنيع المستدام",
+        "التصنيع النظيف",
+        "التميز البيئي",
+        "تخفيض الأثر الكربوني",
+        "تخفيض تكاليف الطاقة",
+        "أهداف الاستدامة",
+        "تحول التصنيع",
+        "التأثير البيئي",
+        "الممارسات المستدامة",
+        "الكفاءة التشغيلية",
+        "تقليل التكاليف",
+        "الاقتصاد المحلي",
+        "المستهلكين ذوي الوعي البيئي",
+        "green goals",
+        "competitive edge",
+        "comprehensive assessments",
+        "product assessment",
+        "facility assessment",
+        "innovative manufacturing processes",
+        "market differentiation",
+        "environmental performance",
+        "quantitative indicators",
+        "day-to-day operations"
+      ]
+      
+    }
+, 
+    {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1716988796/2476_rramgr.jpg",
+      "homeImage":"https://res.cloudinary.com/dahiaq28x/image/upload/v1722146383/parallax-2_jwwict.jpg",
       "id": "service-7",
       "contentHtml": "",
       "sector": [
@@ -885,6 +889,7 @@
     },
     {
       "imgURL": "https://res.cloudinary.com/dahiaq28x/image/upload/v1717673950/2648_vsebfk.webp",
+      "homeImage":"https://res.cloudinary.com/dahiaq28x/image/upload/v1722146383/parallax-2_jwwict.jpg",
       "id": "service-8",
       "contentHtml": "",
       "sector": [
