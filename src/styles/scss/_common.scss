@@ -1414,6 +1414,13 @@ body[dir="rtl"] .title-yellow-head{
 body[dir="ltr"] .title-yellow-head{
     transform:rotateY(0deg);
 }
+body[dir="rtl"] .pattern{
+    transform:rotateY(180deg);
+
+}
+body[dir="ltr"] .pattern{
+    transform:rotateY(0deg);
+}
 .mil-text-gray-800{
     color: #4a4e54;
     line-height: 1.5;
@@ -1435,6 +1442,9 @@ body[dir="ltr"] .title-yellow-head{
 }
 .w-80{
     width: 80%;
+}
+.w-50{
+    width: 50%;
 }
 .mil-text-highlight{
     color: #0a1b30;
@@ -1537,6 +1547,7 @@ body[dir="ltr"] .title-yellow-head{
     position: relative;
     height: 480px;
     min-height: 480px;
+   
     &:hover {
       transform: translate(4px, -4px);
       border: 1px solid $accent;
@@ -1548,6 +1559,9 @@ body[dir="ltr"] .title-yellow-head{
       }
       
       .card-shadow-hoverd {
+        @media screen and ( max-width:764px) {
+            max-width: 322px !important;
+        }
         background-size: cover;
         background-color: steelblue;
         background-blend-mode: multiply;
@@ -1562,7 +1576,7 @@ body[dir="ltr"] .title-yellow-head{
         padding: 20px;
         z-index: 10; /* Ensure it's above other content */
         animation: slide-bg 0.2s ease-in-out forwards; /* Adding slide animation */
-  
+       
         .csh-title {
           padding: 20px 0;
           font-size: 30px;
