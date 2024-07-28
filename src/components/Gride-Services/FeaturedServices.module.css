@@ -1,0 +1,124 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.serviceItem {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+
+.backgroundContainer {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  right: 0;
+  bottom: -50%;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  transform: translateY(0);
+  will-change: transform;
+}
+
+.service-name {
+  font-size: 18px;
+  margin: 0 !important;
+}
+
+.content {
+  width: 50%;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline-start: 75px;
+  padding-inline-end: 50px;
+}
+
+.content h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 1.1em !important;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.readMore {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .serviceItem {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .backgroundContainer,
+  .content {
+    width: 100%;
+  }
+
+  .content {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+  }
+
+  .backgroundContainer {
+    height: 200px;
+    order: 1 !important;
+  }
+
+  .backgroundImage {
+    top: 0;
+    bottom: 0;
+    background-position: center;
+    transform: translateY(0px) !important;
+  }
+
+  .content {
+    padding: 20px;
+  }
+}
+@media (min-width: 1540px) {
+  .serviceItem:nth-child(odd) .content {
+    padding-inline-end: 200px;
+  }
+
+  .serviceItem:nth-child(even) .content {
+    padding-inline-start: 200px;
+  }
+}
+
+
+@media (min-width: 1880px) {
+  .serviceItem:nth-child(odd) .content {
+    padding-inline-end: 300px;
+  }
+
+  .serviceItem:nth-child(even) .content {
+    padding-inline-start: 300px;
+  }
+}
+
+.rotateArrow {
+  transform: rotate(180deg) !important;
+}

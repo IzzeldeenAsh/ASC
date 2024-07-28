@@ -17,8 +17,8 @@ const CardGrid = () => {
   };
 
   return (
-    <div className="mil-p-60-90">
-      <div className="container mil-mb-60">
+    <div >
+      {/* <div className="container mil-mb-60">
         <div className="d-flex">
           <TitleHead />
           <h2
@@ -31,7 +31,7 @@ const CardGrid = () => {
             }}
           />
         </div>
-      </div>
+      </div> */}
       <section className="cards">
         {[
           {
@@ -101,7 +101,7 @@ const CardGrid = () => {
         ))}
       
       </section>
-      <div className="d-flex justify-content-end m-auto mil-p-30-30" style={{maxWidth:'1156px'}}>
+      <div className="d-flex justify-content-end m-auto mil-p-30-30 btn" style={{maxWidth:'1156px'}}>
         <div className="mil-text-accent-dark mil-hover-primary mil-center">
                 <Link
                   href={activeLocale ==='ar' ? "/ar/sectors/sector-1" : "/sectors/sector-1"}

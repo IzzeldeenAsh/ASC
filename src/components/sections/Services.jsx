@@ -6,6 +6,7 @@ import TitleHead from "@/src/layouts/svg-icons/TitleHead";
 import { IconArrowNarrowRight } from '@tabler/icons-react';
 import ABQuoations from "@/src/layouts/svg-icons/AB-Quotations";
 import Truncate from "../Truncate";
+import { Text } from '@mantine/core';
 
 const ServicesSection = () => {
   const { activeLocale, t } = useLocale();
@@ -20,8 +21,15 @@ const ServicesSection = () => {
             <div className="featured">
               <div className="d-flex">
               {/* <TitleHead /> */}
-                <h3 className="mil-h3 mil-text-gray-800" >{t("featured")}</h3>
-                
+                <Text
+                size="xl"
+                fw={600}
+                className="text-featured"
+                variant="gradient"
+                gradient={{ from: '#0A1B30', to: 'rgba(0, 47, 105, 1)', deg: 90 }}
+              >
+      {t("featured")}
+    </Text>
                 </div>
               <div className="mil-text-accent-dark mil-hover-primary mil-center">
                 <Link

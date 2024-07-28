@@ -1523,8 +1523,6 @@ body[dir="ltr"] .title-yellow-head{
 }
 .hyper-link{
     color:#3D9BF2;
-    
-    font-style: italic;
     &:hover{
         color:#0c3acf;
         border-bottom: 1px solid #0c3acf;
@@ -1781,7 +1779,7 @@ transform: rotate(0deg);
 [dir="ltr"] .quotes-icons{
     left: -5%;
     transform: rotateY(0deg);
- 
+
 }
 .about-banner{
     position: absolute;
@@ -2032,4 +2030,24 @@ font-weight: 400;
     padding: 10px;
     text-align: center;
     color: #999;
+  }
+  .blur-action-bg{
+    width: 151px;
+    height: 60px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    position: fixed;
+    top: 10px;
+    z-index: 2;
+    border-radius: 50px !important;
+    @media screen and (max-width:1200px) {
+        display: none;
+    }
+  }
+
+  body[dir="rtl"] .blur-action-bg{
+    left: 36px;
+  }
+  body[dir="ltr"] .blur-action-bg{
+    right: 36px !important;
   }

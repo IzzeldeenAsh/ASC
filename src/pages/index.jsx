@@ -12,12 +12,15 @@ const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), { s
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import nextI18NextConfig from '../../next-i18next.config';
 import CardGrid from "../components/Hover-cards/CardGrid";
+import BreakingBanner from "../components/BreakingBar";
+import { useLocale } from "@/utils/getLocale";
+import FeaturedServices from "../components/Gride-Services/FeaturedServices";
 
 
 const Home1 = (props) => {
   const router = useRouter();
   const { section } = router.query;
-
+  const {activeLocale} = useLocale()
   useEffect(() => {
     if (section) {
       const sectionElement = document.getElementById(section);
@@ -60,10 +63,22 @@ const Home1 = (props) => {
       <HeroOneSection />
       {/* <CardGrid/> */}
       <ServicesSection />
+      <BreakingBanner
+        text={ activeLocale === "ar"
+          ? "استراتيجيات فعّالة لقطاع الصناعة"
+          : "Innovating industrial strategies for a lasting impact"}
+        buttonText=""
+      />
       <CardGrid/>
-      <TeamSection id="leaders" />
-     
-      <AboutSection />
+      {/* <TeamSection id="leaders" />
+      <AboutSection /> */}
+       <BreakingBanner
+        text={ activeLocale === "ar"
+          ?"تمكين الأعمال لتحقيق النجاح والكفاءة المستدامة"
+          : "Empowering businesses for sustainable success and efficiency."}
+        buttonText=""
+      />
+      <FeaturedServices  language={activeLocale ==='ar' ? "arabic" : "english"} />
       <PartnersSlider />
     </Layouts>
   );
