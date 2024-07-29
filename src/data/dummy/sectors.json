@@ -92,18 +92,7 @@
             },
             "image" :"https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
           },
-          {
-            "id": "industrial-erection-testing-commissioning",
-            "label": {
-              "english": "Erection, testing, and commissioning",
-              "arabic": "تركيب خطوط الانتاج ولإنتاج الاختباري والتشغيل "
-            },
-            "value": {
-              "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
-              "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
-            },
-            "image" :"https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
-          },
+       
           {
             "id": "industrial-commercial-production",
             "label": {
@@ -111,10 +100,10 @@
               "arabic": "الإنتاج التجاري"
             },
             "value": {
-              "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
-              "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+               "english": "Tailoring production strategies to meet industrial needs and market dynamics for cost-effective commercial production.",
+    "arabic": "تكييف استراتيجيات الإنتاج لتلبية احتياجات الصناعات وديناميكيات السوق لتحقيق إنتاج تجاري فعال من حيث التكلفة."
             },
-            "image" :"https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
+            "image" :"https://res.cloudinary.com/dahiaq28x/image/upload/v1722247744/3487_tsrc3r.webp"
           }
         ]
       },
