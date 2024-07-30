@@ -4,22 +4,22 @@ import QuotesIcons from '../layouts/svg-icons/Quotes';
 import TitleHead from '../layouts/svg-icons/TitleHead';
 import { useLocale } from '@/utils/getLocale';
 
-const BreakingBanner = ({ text, buttonText }) => {
+const BreakingBanner = ({bg, text, buttonText }) => {
     const {activeLocale} = useLocale()
   return (
-    <div className="banner">
+    <div className="banner" style={bg ? {backgroundColor:"#0A1B2F"} : {backgroundColor:"transparent"}}>
       <div className="container position-relative">
 <div className="d-flex">
 <TitleHead width='30px' />
       <div className="quotes-icons" style={activeLocale =='ar' ? {  right: "0%" , top : "-10px" ,opacity: "0.2"} :{  left: "0%" ,  top : "-10px" , opacity: "0.2"}}>
-              <QuotesIcons  side="right" />
+              <QuotesIcons  side="right" mode="light" />
             </div>
       <Text
   size="xl"
   fw={600}
   className="text-featured"
   variant="gradient"
-  gradient={{ from: 'white', to: '#e0e0e0', deg: 45 }}
+  gradient={bg ? { from: 'white', to: '#e0e0e0', deg: 45 } : { from: 'black', to: '#0A1B2F', deg: 45 } }
 >
   {text}
 </Text>

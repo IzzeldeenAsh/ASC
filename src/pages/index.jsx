@@ -64,15 +64,17 @@ const Home1 = (props) => {
       {/* <CardGrid/> */}
       <ServicesSection />
       <BreakingBanner
+      bg={false}
         text={ activeLocale === "ar"
-          ? "استراتيجيات فعّالة لقطاع الصناعة"
-          : "Innovating industrial strategies for a lasting impact"}
+          ? "عقدين من الخبرة في تعزيز الكفاءة"
+          : "Two Decades of Expertise in Enhancing Efficiency"}
         buttonText=""
       />
       <CardGrid/>
       {/* <TeamSection id="leaders" />
       <AboutSection /> */}
        <BreakingBanner
+       bg={true}
         text={ activeLocale === "ar"
           ?"تمكين الأعمال لتحقيق النجاح والكفاءة المستدامة"
           : "Empowering businesses for sustainable success and efficiency."}
