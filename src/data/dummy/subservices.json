@@ -2229,6 +2229,69 @@
     "process optimization"
   ]
 }
+,
+{
+  "id": "industrial-technology",
+  "title": {
+    "english": "Industrial Technology",
+    "arabic": " التكنولوجيا الصناعية "
+  },
+  "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1722318462/130003_xazro0.webp",
+  "sector": [
+    {
+      "id": "sector-1",
+      "name": "Industrial"
+    }
+  ],
+  "service": {},
+  "contentHtml": {
+    "english": "<p>At A&B, we provide tailored technology selection strategies and solutions to help industrial organizations streamline processes, reduce manual labor, and enhance efficiency. With over 20 years of extensive experience offering meticulous market research, we stay at the forefront of industrial trends and technologies demonstrating the technology's value and scalability along with PoC services. We know how important it is for our clients to reduce costs, lower maintenance expenses, and optimize resource use and, therefore, we support our clients by offering comprehensive technology proposals, including automation tools, software platforms, hardware upgrades, and data analytics solutions- all supported by thorough cost-benefit analyses.</p><ul><li class=\"d-flex align-items-center gap-10\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"5\" cy=\"5\" r=\"5\" fill=\"#4c4c4c\"/></svg><strong class=\"ml-2\">Vendor Evaluation and Selection</strong></li><li class=\"d-flex align-items-center gap-10\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"5\" cy=\"5\" r=\"5\" fill=\"#4c4c4c\"/></svg><strong class=\"ml-2\">Technology Risk Management</strong></li><li class=\"d-flex align-items-center gap-10\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"5\" cy=\"5\" r=\"5\" fill=\"#4c4c4c\"/></svg><strong class=\"ml-2\">Implementation Planning</strong></li><li class=\"d-flex align-items-center gap-10\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"5\" cy=\"5\" r=\"5\" fill=\"#4c4c4c\"/></svg><strong class=\"ml-2\">Technology Performance Monitoring</strong></li></ul>",
+    "arabic": "<p>في A&B، نقدم استراتيجيات اختيار التكنولوجيا المخصصة والحلول التي تساعد المؤسسات الصناعية على تبسيط العمليات وتقليل العمل اليدوي وتعزيز الكفاءة. مع أكثر من 20 عامًا من الخبرة الواسعة في تقديم أبحاث السوق الدقيقة، نبقى في طليعة اتجاهات وتقنيات الصناعة، مما يوضح قيمة التكنولوجيا وقابليتها للتوسع جنبًا إلى جنب مع خدمات إثبات المفهوم. نحن ندرك مدى أهمية خفض التكاليف وتقليل نفقات الصيانة وتحسين استخدام الموارد لعملائنا، لذلك ندعم عملائنا من خلال تقديم مقترحات تكنولوجية شاملة، بما في ذلك أدوات الأتمتة، منصات البرمجيات، ترقيات الأجهزة، وحلول تحليل البيانات، كل ذلك مدعوم بتحليلات شاملة للتكاليف والفوائد.</p><ul><li class=\"d-flex align-items-center gap-10\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"5\" cy=\"5\" r=\"5\" fill=\"#4c4c4c\"/></svg><strong class=\"ml-2\">تقييم واختيار الموردين</strong></li><li class=\"d-flex align-items-center gap-10\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"5\" cy=\"5\" r=\"5\" fill=\"#4c4c4c\"/></svg><strong class=\"ml-2\">إدارة مخاطر التكنولوجيا</strong></li><li class=\"d-flex align-items-center gap-10\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"5\" cy=\"5\" r=\"5\" fill=\"#4c4c4c\"/></svg><strong class=\"ml-2\">تخطيط التنفيذ</strong></li><li class=\"d-flex align-items-center gap-10\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"5\" cy=\"5\" r=\"5\" fill=\"#4c4c4c\"/></svg><strong class=\"ml-2\">مراقبة أداء التكنولوجيا</strong></li></ul>"
+  },
+  "short": {
+    "english": "Providing tailored technology solutions to streamline processes, reduce costs, and enhance efficiency for industrial organizations.",
+    "arabic": "تقديم حلول تكنولوجية مخصصة لتبسيط العمليات، وتقليل التكاليف، وتعزيز الكفاءة للمؤسسات الصناعية."
+  },
+  "introTitle": {
+    "english": "<span class=\"mil-thin\">Industrial</span> Technology ",
+    "arabic": " التكنولوجيا الصناعية "
+  },
+  "gallery": {
+    "enabled": 0,
+    "items": []
+  },
+  "slogan": {
+    "english": "Enhancing Industrial Efficiency",
+    "arabic": "تعزيز الكفاءة الصناعية"
+  },
+  "additional": {
+    "enabled": 0,
+    "content": ""
+  },
+  "infograph": {
+    "enabled": 0,
+    "name": ""
+  },
+  "keywords": [
+    "industrial technology",
+    "technology selection",
+    "process automation",
+    "cost reduction",
+    "efficiency enhancement",
+    "market research",
+    "technology trends",
+    "scalability",
+    "PoC services",
+    "cost-benefit analysis",
+    "vendor evaluation",
+    "risk management",
+    "implementation planning",
+    "performance monitoring",
+    "software platforms",
+    "hardware upgrades",
+    "data analytics"
+  ]
+}
 
   ]
 }

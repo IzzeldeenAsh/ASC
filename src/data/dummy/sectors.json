@@ -81,16 +81,16 @@
             "image" :"https://res.cloudinary.com/dahiaq28x/image/upload/v1721893788/strategic_partnership_opmid0.webp"
           },
           {
-            "id": "industrial-technology-selection",
+            "id": "industrial-technology",
             "label": {
-              "english": "Technology selection and valuation",
-              "arabic": "اختيار التكنولوجيات الصناعية وتقييمها"
+              "english": "Industrial Technology",
+              "arabic": " التكنولوجيا الصناعية "
             },
             "value": {
-              "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
-              "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
+              "english": "Providing tailored technology solutions to streamline processes, reduce costs, and enhance efficiency for industrial organizations.",
+              "arabic": "تقديم حلول تكنولوجية مخصصة لتبسيط العمليات، وتقليل التكاليف، وتعزيز الكفاءة للمؤسسات الصناعية."
             },
-            "image" :"https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
+            "image": "https://res.cloudinary.com/dahiaq28x/image/upload/v1722318462/130003_xazro0.webp"
           },
        
           {
