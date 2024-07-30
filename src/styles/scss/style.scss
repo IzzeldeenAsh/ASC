@@ -55,6 +55,8 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
 @import 'common';
 @import 'components';
 @import 'cardGrid';
+@import '@mantine/notifications/styles.css';
+
 .m_d49bb8ef:where([data-selected]) {
   background-color: #F6D84D !important;
   color: #0A1B2F !important;

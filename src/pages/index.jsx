@@ -67,7 +67,7 @@ const Home1 = (props) => {
       bg={false}
         text={ activeLocale === "ar"
           ? "عقدين من الخبرة في تعزيز الكفاءة"
-          : "Two Decades of Expertise in Enhancing Efficiency"}
+          : "Two decades of expertise in enhancing industrial efficiency"}
         buttonText=""
       />
       <CardGrid/>
@@ -75,10 +75,11 @@ const Home1 = (props) => {
       <AboutSection /> */}
        <BreakingBanner
        bg={true}
-        text={ activeLocale === "ar"
-          ?"تمكين الأعمال لتحقيق النجاح والكفاءة المستدامة"
-          : "Empowering businesses for sustainable success and efficiency."}
+      text={ activeLocale === "ar"
+        ?"تمكين الأعمال لتحقيق النجاح والكفاءة المستدامة"
+        : "Empowering businesses for sustainable success and efficiency."}
         buttonText=""
+        
       />
       <FeaturedServices  language={activeLocale ==='ar' ? "arabic" : "english"} />
       <PartnersSlider />
