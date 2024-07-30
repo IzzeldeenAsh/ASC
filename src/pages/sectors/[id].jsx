@@ -113,7 +113,6 @@ const SectorDetail = ({ sector }) => {
           },
         ]}
       />
-
       <div className="logoStyle">
         <ABLogoLight />
       </div>
@@ -221,8 +220,9 @@ const SectorDetail = ({ sector }) => {
     style={{ padding: "0 40px", maxWidth: "340px" }}
     key={`blog-post-${key}`}
   >
-    <a> {/* Ensuring the link is on top */}
-      <div className='card-shadow-hoverd' style={{backgroundImage: `url(${item.image})`}}>
+      <Link href={`/subservice/${item.id}`} legacyBehavior>
+      <a target="_blank" rel="noopener noreferrer">
+      <div className='card-shadow-hoverd ' style={{backgroundImage: `url(${item.image})`}}>
         <div className="csh-title d-flex"> 
           <div className="pattern">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -238,14 +238,14 @@ const SectorDetail = ({ sector }) => {
             <Truncate text={item.value.english} maxLength={100} />
           )}
         </div>
-        <Link href={`/subservice/${item.id}`} legacyBehavior>
           <div className="mil-link mil-accent mil-arrow-place mil-up">
             <div style={activeLocale === 'ar' ? {'transform' : 'rotate(180deg)', display:'flex'} : {'transform' : 'rotate(0deg)', display:'flex'}}>
               <ArrowIcon margin={"0"} />
             </div>
           </div>
-        </Link>
       </div>
+      </a>
+      </Link>
       <div className="mil-blog-card mil-mb-30">
         {item.image && (
           <div className="service-image-abs-wrapper">
@@ -267,7 +267,6 @@ const SectorDetail = ({ sector }) => {
           </p>
         </div>
       </div>
-    </a>
   </div>
 ))}
 
