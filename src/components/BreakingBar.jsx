@@ -7,28 +7,23 @@ import { useLocale } from '@/utils/getLocale';
 const BreakingBanner = ({bg, text, buttonText }) => {
     const {activeLocale} = useLocale()
   return (
-    <div className="banner" style={bg ? {backgroundColor:"#0A1B2F"} : {backgroundColor:"transparent"}}>
+    <div className="banner" style={bg ? {backgroundColor:"#F2F2F2"} : {backgroundColor:"transparent"}}>
       <div className="container position-relative">
 <div className="d-flex">
 <TitleHead width='30px' />
       <div className="quotes-icons" style={activeLocale =='ar' ? {  right: "0%" , top : "-10px" ,opacity: "0.2"} :{  left: "0%" ,  top : "-10px" , opacity: "0.2"}}>
               <QuotesIcons  side="right" mode="light" />
             </div>
-      <Text
-  size="xl"
-  fw={600}
-  className="text-featured"
-  variant="gradient"
-  gradient={bg ? { from: 'white', to: '#e0e0e0', deg: 45 } : { from: 'black', to: '#0A1B2F', deg: 45 } }
->
-  {text}
-</Text>
+<h2 className= "mil-h2 mil-text-xxl fw-bold" >
+{text}
+</h2>
+  
 </div>
        {buttonText &&  <button>{buttonText}</button>}
       </div>
       <style jsx>{`
         .banner {
-          background-color: #0A1B2F;
+          background-color: #F2F2F2;
           color: white;
           padding: 2rem 0;
         }
@@ -51,6 +46,9 @@ const BreakingBanner = ({bg, text, buttonText }) => {
           padding: 0.5rem 1rem;
           font-size: 1rem;
           cursor: pointer;
+        }
+        .text-featured{
+          font-size:35px;
         }
       `}</style>
     </div>

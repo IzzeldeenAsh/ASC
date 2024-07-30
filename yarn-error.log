@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add @tabler/icons-react
+  /usr/local/bin/node /usr/local/bin/yarn add --exact --cwd /Users/izzeddinashour/Desktop/ashley --dev typescript @types/node
 
 PATH: 
-  /opt/homebrew/lib/ruby/gems/3.3.0/gems/cocoapods-1.15.2/lib/cocoapods.rb:/Users/izzeddinashour/.gem/bin:/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/opt/homebrew/lib/ruby/gems/3.3.0/gems/cocoapods-1.15.2/lib/cocoapods.rb:/Users/izzeddinashour/.gem/bin:/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/apache-maven-3.9.6/bin:/usr/local/mysql-8.3.0-macos14-arm64/bin:/Users/izzeddinashour/Library/Android/sdk/tools/bin:/Users/izzeddinashour/Library/Android/sdk/platform-tools:/Users/izzeddinashour/Library/Android/sdk/emulator:/Users/izzeddinashour/.rvm/bin:/Applications/apache-maven-3.9.6/bin:/usr/local/mysql-8.3.0-macos14-arm64/bin:/Users/izzeddinashour/Library/Android/sdk/tools/bin:/Users/izzeddinashour/Library/Android/sdk/platform-tools:/Users/izzeddinashour/Library/Android/sdk/emulator:/Users/izzeddinashour/.rvm/bin
+  /Users/izzeddinashour/Desktop/ashley/node_modules/.bin:/Users/izzeddinashour/Desktop/node_modules/.bin:/Users/izzeddinashour/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/opt/homebrew/lib/ruby/gems/3.3.0/gems/cocoapods-1.15.2/lib/cocoapods.rb:/Users/izzeddinashour/.gem/bin:/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/opt/homebrew/lib/ruby/gems/3.3.0/gems/cocoapods-1.15.2/lib/cocoapods.rb:/Users/izzeddinashour/.gem/bin:/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/apache-maven-3.9.6/bin:/usr/local/mysql-8.3.0-macos14-arm64/bin:/Users/izzeddinashour/Library/Android/sdk/tools/bin:/Users/izzeddinashour/Library/Android/sdk/platform-tools:/Users/izzeddinashour/Library/Android/sdk/emulator:/Users/izzeddinashour/.rvm/bin:/Applications/apache-maven-3.9.6/bin:/usr/local/mysql-8.3.0-macos14-arm64/bin:/Users/izzeddinashour/Library/Android/sdk/tools/bin:/Users/izzeddinashour/Library/Android/sdk/platform-tools:/Users/izzeddinashour/Library/Android/sdk/emulator:/Users/izzeddinashour/.rvm/bin
 
 Yarn version: 
   1.22.19
@@ -14,7 +14,7 @@ Platform:
   darwin arm64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/Users/izzeddinashour/Desktop/ashley/node_modules/.yarn-integrity'
+  Error: EACCES: permission denied, mkdir '/Users/izzeddinashour/Desktop/ashley/node_modules/@material-ui/styles'
 
 npm manifest: 
   {
@@ -28,9 +28,12 @@ npm manifest:
       "lint": "next lint"
     },
     "dependencies": {
-      "@mantine/core": "^7.9.1",
-      "@mantine/hooks": "^7.9.1",
+      "@mantine/core": "^7.11.2",
+      "@mantine/hooks": "^7.11.2",
+      "@mantine/spotlight": "^7.11.2",
       "@material-ui/core": "^4.12.4",
+      "@prisma/client": "^5.17.0",
+      "@tabler/icons-react": "^3.5.0",
       "date-fns": "^2.30.0",
       "formik": "^2.4.2",
       "gray-matter": "^4.0.3",
@@ -39,16 +42,22 @@ npm manifest:
       "next": "13.4.3",
       "next-i18next": "^15.3.0",
       "next-seo": "^6.5.0",
+      "next-share": "^0.27.0",
+      "nprogress": "^0.2.0",
       "parallax-js": "^3.1.0",
       "postcss-preset-mantine": "^1.15.0",
       "react": "18.2.0",
       "react-dom": "18.2.0",
+      "react-google-recaptcha": "^3.1.0",
       "react-i18next": "^14.1.0",
       "react-icons": "^5.2.1",
       "remark": "^14.0.3",
       "remark-html": "^15.0.2",
       "sass": "^1.49.7",
       "swiper": "^9.0.0"
+    },
+    "devDependencies": {
+      "prisma": "^5.17.0"
     }
   }
 
@@ -108,22 +117,34 @@ Lockfile:
     resolved "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.2.tgz"
     integrity sha512-J4yDIIthosAsRZ5CPYP/jQvUAQtlZTTD/4suA08/FEnlxqW3sKS9iAhgsa9VYLZ6vDHn/ixJgIqRQPotoBjxIw==
   
-  "@mantine/core@^7.9.1":
-    version "7.9.1"
-    resolved "https://registry.npmjs.org/@mantine/core/-/core-7.9.1.tgz"
-    integrity sha512-UXK11t1fAQ2ROQ9HTIZfyU52XdwS8sFJ2SRUh5uHMWSahJo3wTdKzaCvYN7wg+ONM9p6ENT0hC0dfv5qXoKU4w==
+  "@mantine/core@^7.11.2", "@mantine/core@7.11.2":
+    version "7.11.2"
+    resolved "https://registry.npmjs.org/@mantine/core/-/core-7.11.2.tgz"
+    integrity sha512-T64RjdgY8UPAv249miW1lQyPPot1JbCcKKsAZMNQHgcttcxLhrFpKVvglc4/48hdSoxI4LYJPNvqp7zciZmucQ==
     dependencies:
       "@floating-ui/react" "^0.26.9"
-      clsx "2.1.0"
+      clsx "^2.1.1"
       react-number-format "^5.3.1"
       react-remove-scroll "^2.5.7"
       react-textarea-autosize "8.5.3"
       type-fest "^4.12.0"
   
-  "@mantine/hooks@^7.9.1", "@mantine/hooks@7.9.1":
-    version "7.9.1"
-    resolved "https://registry.npmjs.org/@mantine/hooks/-/hooks-7.9.1.tgz"
-    integrity sha512-nb2Ar+2HfGxLjGZgObapeUeqcQsUWJ+rvj4X2KNTUy3+YpvLIMD3CqREowWHF7/5OTGh4BCyBqQNZ9JFpnMeHQ==
+  "@mantine/hooks@^7.11.2", "@mantine/hooks@7.11.2":
+    version "7.11.2"
+    resolved "https://registry.npmjs.org/@mantine/hooks/-/hooks-7.11.2.tgz"
+    integrity sha512-jhyVe/sbDEG2U8rr2lMecUPgQxcfr5hh9HazqGfkS7ZRIMDO7uJ947yAcTMGGkp5Lxtt5TBFt1Cb6tiB2/1agg==
+  
+  "@mantine/spotlight@^7.11.2":
+    version "7.11.2"
+    resolved "https://registry.npmjs.org/@mantine/spotlight/-/spotlight-7.11.2.tgz"
+    integrity sha512-/90ck+7wuRPyg7Ix8Wn6W6BUH5BX5pjAghugopLCEUcLL6gtuTHf9Pd5DG4Bd2Mf4iabpW2hiaBJoC1aJ7yDNA==
+    dependencies:
+      "@mantine/store" "7.11.2"
+  
+  "@mantine/store@7.11.2":
+    version "7.11.2"
+    resolved "https://registry.npmjs.org/@mantine/store/-/store-7.11.2.tgz"
+    integrity sha512-FfkmnOnCivOjqwNaTZeV4TgDANUs7fP+0uSgzp0GuvwTuDfQNVafPBRzPkjKuz5ug+Nn9l6WwjfJ6LBDv9U0LQ==
   
   "@material-ui/core@^4.12.4":
     version "4.12.4"
@@ -194,10 +215,10 @@ Lockfile:
     resolved "https://registry.npmjs.org/@next/env/-/env-13.4.3.tgz"
     integrity sha512-pa1ErjyFensznttAk3EIv77vFbfSYT6cLzVRK5jx4uiRuCQo+m2wCFAREaHKIy63dlgvOyMlzh6R8Inu8H3KrQ==
   
-  "@next/swc-win32-x64-msvc@13.4.3":
+  "@next/swc-darwin-arm64@13.4.3":
     version "13.4.3"
-    resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.4.3.tgz"
-    integrity sha512-jglUk/x7ZWeOJWlVoKyIAkHLTI+qEkOriOOV+3hr1GyiywzcqfI7TpFSiwC7kk1scOiH7NTFKp8mA3XPNO9bDw==
+    resolved "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.4.3.tgz"
+    integrity sha512-yx18udH/ZmR4Bw4M6lIIPE3JxsAZwo04iaucEfA2GMt1unXr2iodHUX/LAKNyi6xoLP2ghi0E+Xi1f4Qb8f1LQ==
   
   "@nodelib/fs.scandir@2.1.5":
     version "2.1.5"
@@ -220,12 +241,65 @@ Lockfile:
       "@nodelib/fs.scandir" "2.1.5"
       fastq "^1.6.0"
   
+  "@prisma/client@^5.17.0":
+    version "5.17.0"
+    resolved "https://registry.npmjs.org/@prisma/client/-/client-5.17.0.tgz"
+    integrity sha512-N2tnyKayT0Zf7mHjwEyE8iG7FwTmXDHFZ1GnNhQp0pJUObsuel4ZZ1XwfuAYkq5mRIiC/Kot0kt0tGCfLJ70Jw==
+  
+  "@prisma/debug@5.17.0":
+    version "5.17.0"
+    resolved "https://registry.npmjs.org/@prisma/debug/-/debug-5.17.0.tgz"
+    integrity sha512-l7+AteR3P8FXiYyo496zkuoiJ5r9jLQEdUuxIxNCN1ud8rdbH3GTxm+f+dCyaSv9l9WY+29L9czaVRXz9mULfg==
+  
+  "@prisma/engines-version@5.17.0-31.393aa359c9ad4a4bb28630fb5613f9c281cde053":
+    version "5.17.0-31.393aa359c9ad4a4bb28630fb5613f9c281cde053"
+    resolved "https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.17.0-31.393aa359c9ad4a4bb28630fb5613f9c281cde053.tgz"
+    integrity sha512-tUuxZZysZDcrk5oaNOdrBnnkoTtmNQPkzINFDjz7eG6vcs9AVDmA/F6K5Plsb2aQc/l5M2EnFqn3htng9FA4hg==
+  
+  "@prisma/engines@5.17.0":
+    version "5.17.0"
+    resolved "https://registry.npmjs.org/@prisma/engines/-/engines-5.17.0.tgz"
+    integrity sha512-+r+Nf+JP210Jur+/X8SIPLtz+uW9YA4QO5IXA+KcSOBe/shT47bCcRMTYCbOESw3FFYFTwe7vU6KTWHKPiwvtg==
+    dependencies:
+      "@prisma/debug" "5.17.0"
+      "@prisma/engines-version" "5.17.0-31.393aa359c9ad4a4bb28630fb5613f9c281cde053"
+      "@prisma/fetch-engine" "5.17.0"
+      "@prisma/get-platform" "5.17.0"
+  
+  "@prisma/fetch-engine@5.17.0":
+    version "5.17.0"
+    resolved "https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.17.0.tgz"
+    integrity sha512-ESxiOaHuC488ilLPnrv/tM2KrPhQB5TRris/IeIV4ZvUuKeaicCl4Xj/JCQeG9IlxqOgf1cCg5h5vAzlewN91Q==
+    dependencies:
+      "@prisma/debug" "5.17.0"
+      "@prisma/engines-version" "5.17.0-31.393aa359c9ad4a4bb28630fb5613f9c281cde053"
+      "@prisma/get-platform" "5.17.0"
+  
+  "@prisma/get-platform@5.17.0":
+    version "5.17.0"
+    resolved "https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.17.0.tgz"
+    integrity sha512-UlDgbRozCP1rfJ5Tlkf3Cnftb6srGrEQ4Nm3og+1Se2gWmCZ0hmPIi+tQikGDUVLlvOWx3Gyi9LzgRP+HTXV9w==
+    dependencies:
+      "@prisma/debug" "5.17.0"
+  
   "@swc/helpers@0.5.1":
     version "0.5.1"
     resolved "https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.1.tgz"
     integrity sha512-sJ902EfIzn1Fa+qYmjdQqh8tPsoxyBz+8yBKC2HKUxyezKJFwPGOn7pv4WY6QuQW//ySQi5lJjA/ZT9sNWWNTg==
     dependencies:
       tslib "^2.4.0"
+  
+  "@tabler/icons-react@^3.5.0":
+    version "3.5.0"
+    resolved "https://registry.npmjs.org/@tabler/icons-react/-/icons-react-3.5.0.tgz"
+    integrity sha512-bn05XKZV3ZfOv5Jr1FCTmVPOQGBVJoA4NefrnR919rqg6WGXAa08NovONHJGSuMxXUMV3b9Cni85diIW/E9yuw==
+    dependencies:
+      "@tabler/icons" "3.5.0"
+  
+  "@tabler/icons@3.5.0":
+    version "3.5.0"
+    resolved "https://registry.npmjs.org/@tabler/icons/-/icons-3.5.0.tgz"
+    integrity sha512-I53dC3ZSHQ2MZFGvDYJelfXm91L2bTTixS4w5jTAulLhHbCZso5Bih4Rk/NYZxlngLQMKHvEYwZQ+6w/WluKiA==
   
   "@types/debug@^4.0.0":
     version "4.1.12"
@@ -391,10 +465,10 @@ Lockfile:
     resolved "https://registry.npmjs.org/clsx/-/clsx-1.2.1.tgz"
     integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
   
-  clsx@2.1.0:
-    version "2.1.0"
-    resolved "https://registry.npmjs.org/clsx/-/clsx-2.1.0.tgz"
-    integrity sha512-m3iNNWpd9rl3jvvcBnu70ylMdrXt8Vlq4HYadnU5fwcOtvkSQWPmj7amUcDT2qYI7risszBjI5AUIUox9D16pg==
+  clsx@^2.1.1:
+    version "2.1.1"
+    resolved "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz"
+    integrity sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==
   
   comma-separated-tokens@^2.0.0:
     version "2.0.3"
@@ -435,6 +509,13 @@ Lockfile:
     integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
     dependencies:
       "@babel/runtime" "^7.21.0"
+  
+  debug@^2.1.3:
+    version "2.6.9"
+    resolved "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz"
+    integrity sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
+    dependencies:
+      ms "2.0.0"
   
   debug@^4.0.0:
     version "4.3.4"
@@ -533,6 +614,11 @@ Lockfile:
       react-fast-compare "^2.0.1"
       tiny-warning "^1.0.2"
       tslib "^2.0.0"
+  
+  fsevents@~2.3.2:
+    version "2.3.3"
+    resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+    integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
   
   get-nonce@^1.0.0:
     version "1.0.1"
@@ -754,6 +840,13 @@ Lockfile:
     dependencies:
       argparse "^1.0.7"
       esprima "^4.0.0"
+  
+  jsonp@^0.2.1:
+    version "0.2.1"
+    resolved "https://registry.npmjs.org/jsonp/-/jsonp-0.2.1.tgz"
+    integrity sha512-pfog5gdDxPdV4eP7Kg87M8/bHgshlZ5pybl+yKxAnCZ5O7lCIn7Ixydj03wOlnDQesky2BPyA91SQ+5Y/mNwzw==
+    dependencies:
+      debug "^2.1.3"
   
   jss-plugin-camel-case@^10.5.1:
     version "10.10.0"
@@ -1139,6 +1232,11 @@ Lockfile:
     resolved "https://registry.npmjs.org/mri/-/mri-1.2.0.tgz"
     integrity sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==
   
+  ms@2.0.0:
+    version "2.0.0"
+    resolved "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz"
+    integrity sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==
+  
   ms@2.1.2:
     version "2.1.2"
     resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
@@ -1164,6 +1262,13 @@ Lockfile:
     version "6.5.0"
     resolved "https://registry.npmjs.org/next-seo/-/next-seo-6.5.0.tgz"
     integrity sha512-MfzUeWTN/x/rsKp/1n0213eojO97lIl0unxqbeCY+6pAucViHDA8GSLRRcXpgjsSmBxfCFdfpu7LXbt4ANQoNQ==
+  
+  next-share@^0.27.0:
+    version "0.27.0"
+    resolved "https://registry.npmjs.org/next-share/-/next-share-0.27.0.tgz"
+    integrity sha512-Fmfl4LIL61g10vtiDECVldxtNgVNd4OQgnI5vk9IJxn/WMZLdhniUtV15xz4PGpo8UuDdTHwmDT8R/CP60EQHA==
+    dependencies:
+      jsonp "^0.2.1"
   
   "next@^8.1.1-canary.54 || >=9.0.0", "next@>= 12.0.0", next@13.4.3:
     version "13.4.3"
@@ -1192,6 +1297,11 @@ Lockfile:
     version "3.0.0"
     resolved "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz"
     integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
+  
+  nprogress@^0.2.0:
+    version "0.2.0"
+    resolved "https://registry.npmjs.org/nprogress/-/nprogress-0.2.0.tgz"
+    integrity sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==
   
   object-assign@^4.1.1:
     version "4.1.1"
@@ -1294,7 +1404,14 @@ Lockfile:
       picocolors "^1.0.0"
       source-map-js "^1.0.2"
   
-  prop-types@^15.6.2, prop-types@^15.7.2:
+  prisma@*, prisma@^5.17.0:
+    version "5.17.0"
+    resolved "https://registry.npmjs.org/prisma/-/prisma-5.17.0.tgz"
+    integrity sha512-m4UWkN5lBE6yevqeOxEvmepnL5cNPEjzMw2IqDB59AcEV6w7D8vGljDLd1gPFH+W6gUxw9x7/RmN5dCS/WTPxA==
+    dependencies:
+      "@prisma/engines" "5.17.0"
+  
+  prop-types@^15.5.0, prop-types@^15.6.2, prop-types@^15.7.2:
     version "15.8.1"
     resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
     integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -1320,6 +1437,14 @@ Lockfile:
     dependencies:
       performance-now "^2.1.0"
   
+  react-async-script@^1.2.0:
+    version "1.2.0"
+    resolved "https://registry.npmjs.org/react-async-script/-/react-async-script-1.2.0.tgz"
+    integrity sha512-bCpkbm9JiAuMGhkqoAiC0lLkb40DJ0HOEJIku+9JDjxX3Rcs+ztEOG13wbrOskt3n2DTrjshhaQ/iay+SnGg5Q==
+    dependencies:
+      hoist-non-react-statics "^3.3.0"
+      prop-types "^15.5.0"
+  
   "react-dom@^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.8.0 || ^17.0.0", react-dom@^18.2.0, react-dom@>=16.0.0, react-dom@>=16.6.0, react-dom@>=16.8.0, react-dom@18.2.0:
     version "18.2.0"
     resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
@@ -1332,6 +1457,14 @@ Lockfile:
     version "2.0.4"
     resolved "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-2.0.4.tgz"
     integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
+  
+  react-google-recaptcha@^3.1.0:
+    version "3.1.0"
+    resolved "https://registry.npmjs.org/react-google-recaptcha/-/react-google-recaptcha-3.1.0.tgz"
+    integrity sha512-cYW2/DWas8nEKZGD7SCu9BSuVz8iOcOLHChHyi7upUuVhkpkhYG/6N3KDiTQ3XAiZ2UAZkfvYKMfAHOzBOcGEg==
+    dependencies:
+      prop-types "^15.5.0"
+      react-async-script "^1.2.0"
   
   react-i18next@^14.1.0, "react-i18next@>= 13.5.0":
     version "14.1.1"
@@ -1405,7 +1538,7 @@ Lockfile:
       loose-envify "^1.4.0"
       prop-types "^15.6.2"
   
-  react@*, "react@^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", react@^18.2.0, "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>= 17.0.2", react@>=16.0.0, react@>=16.6.0, react@>=16.8.0, react@18.2.0:
+  react@*, "react@^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", react@^18.2.0, "react@>= 16", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>= 17.0.2", react@>=16.0.0, react@>=16.4.1, react@>=16.6.0, react@>=16.8.0, react@>=17.0.2, react@18.2.0:
     version "18.2.0"
     resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
     integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
