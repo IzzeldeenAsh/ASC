@@ -35,9 +35,10 @@ const BreakingBanner = ({bg, text, buttonText }) => {
           align-items: center;
         }
         h2 {
-          font-size: 1.5rem;
+          font-size: 1.9rem;
           margin: 0;
           color:#000;
+          font-weight:600;
         }
         button {
           background-color: white;

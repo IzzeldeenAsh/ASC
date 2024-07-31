@@ -687,6 +687,13 @@ button
     height: 30px !important;
    
 }
+.mil-button-disabled{
+    background-color: #fff1ac !important;
+color:#9a9c9f !important;
+     svg{
+        background-color: #69788b !important;
+    }
+}
 .see-all-arrow{
     transform: translateX(0%);
     display: flex;
@@ -732,12 +739,12 @@ form
 
 ------------------------------------------- */
 input,
-textarea {
+textarea,select , .file-input-label,.file-info{
     position: relative;
     height: 40px;
     padding: 0 30px;
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     color: $dark;
     border: none;
@@ -749,14 +756,22 @@ textarea {
     }
 
     &::placeholder {
-        font-size: 12px;
+        font-size: 14px;
         text-transform: uppercase;
         ;
         font-weight: 500;
         color: $dt-50;
     }
 }
-
+.file-input-label,.file-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.select-placeholder{
+    color: $dt-50;
+}
 textarea {
     padding: 15px 30px;
     height: 180px;
@@ -1615,7 +1630,14 @@ body[dir="ltr"] .pattern{
       }
     }
   }
-  
+  .error{
+    position: absolute;
+    bottom: -3px;
+    font-size: 12PX;
+    padding-inline-start: 30px;
+    /* margin-bottom: 50px; */
+    color: red;
+  }
   @keyframes slide-bg {
     from {
       background-position: right center;
