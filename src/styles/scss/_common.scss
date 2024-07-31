@@ -739,7 +739,7 @@ form
 
 ------------------------------------------- */
 input,
-textarea,select , .file-input-label{
+textarea,select , .file-input-label,.file-info{
     position: relative;
     height: 40px;
     padding: 0 30px;
@@ -763,7 +763,7 @@ textarea,select , .file-input-label{
         color: $dt-50;
     }
 }
-.file-input-label{
+.file-input-label,.file-info{
     display: flex;
     align-items: center;
     gap: 10px;

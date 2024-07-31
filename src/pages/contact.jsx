@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import { Formik } from "formik";
@@ -13,8 +14,9 @@ import sectorsData from "@data/dummy/sectors.json";
 import servicesData from "@data/dummy/services.json";
 import subservicesData from "@data/dummy/subservices.json";
 import positionsList from "@data/dummy/positions.json";
-import { IconUpload } from '@tabler/icons-react';
+import { IconUpload, IconX } from '@tabler/icons-react';
 import { notifications } from '@mantine/notifications';
+import Truncate from "../components/Truncate";
 
 const Contact = () => {
   const { activeLocale } = useLocale();
@@ -103,7 +105,42 @@ const Contact = () => {
         english: "Oops! There was a problem submitting your form",
         arabic: "عذرًا! حدثت مشكلة أثناء إرسال النموذج"
       }
+    },
+    fileUpload: {
+      error: {
+        fileType: {
+          english: "Only PDF, DOC, or image files are accepted",
+          arabic: "يُقبل فقط ملفات PDF، DOC أو الصور"
+        },
+        fileSize: {
+          english: "File size must be less than 5MB",
+          arabic: "يجب أن يكون حجم الملف أقل من 5 ميجابايت"
+        }
+      }
     }
+  };
+
+  const handleFileRead = (file, setFieldValue, setError) => {
+    if (file.size > 5242880) {
+      setError("fileSize");
+      return;
+    }
+
+    const fileTypes = ["application/pdf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "image/jpeg", "image/png", "image/gif"];
+    if (!fileTypes.includes(file.type)) {
+      setError("fileType");
+      return;
+    }
+
+    setError(null);
+    const reader = new FileReader();
+    reader.onloadend = () => {
+      setFieldValue('resume', {
+        fileName: file.name,
+        fileData: reader.result
+      });
+    };
+    reader.readAsDataURL(file);
   };
 
   return (
@@ -224,13 +261,18 @@ const Contact = () => {
                   }
                   return errors;
                 }}
-                onSubmit={(values, { setSubmitting }) => {
+                onSubmit={(values, { setSubmitting, resetForm }) => { // Added resetForm here
+                  const submissionData = {
+                    ...values,
+                    resume: values.resume?.fileData || null
+                  };
+
                   fetch('/api/contact', {
                     method: 'POST',
                     headers: {
                       'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify(values),
+                    body: JSON.stringify(submissionData),
                   })
                     .then((response) => {
                       if (response.ok) {
@@ -239,6 +281,7 @@ const Contact = () => {
                           message: activeLocale === 'ar' ? formLabels.formStatus.success.arabic : formLabels.formStatus.success.english,
                           color: 'green',
                         });
+                        resetForm(); // Reset form on successful submission
                       } else {
                         response.json().then((data) => {
                           if (data.errors) {
@@ -279,290 +322,338 @@ const Contact = () => {
                   isSubmitting,
                   isValid,
                   dirty,
-                }) => (
-                  <form
-                    onSubmit={handleSubmit}
-                    id="contactForm"
-                    className="row align-items-center"
-                  >
-                    <div className="col-lg-6 position-relative mil-mb-20">
-                      <input
-                        type="text"
-                        placeholder={activeLocale === 'ar' ? formLabels.name.arabic : formLabels.name.english}
-                        name="name"
-                        required="required"
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                        value={values.name}
-                      />
-                      {errors.name && touched.name && <div className="error">{errors.name}</div>}
-                    </div>
-                    <div className="col-lg-6 position-relative mil-mb-20">
-                      <SelectDropdownSearch />
-                    </div>
-                    <div className="col-lg-6 position-relative mil-mb-20">
-                      <input
-                        type="email"
-                        placeholder={activeLocale === 'ar' ? formLabels.email.arabic : formLabels.email.english}
-                        name="email"
-                        required="required"
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                        value={values.email}
-                      />
-                      {errors.email && touched.email && <div className="error">{errors.email}</div>}
-                    </div>
-                    <div className="col-lg-6 position-relative mil-mb-20">
-                      <input
-                        type="text"
-                        placeholder={activeLocale === 'ar' ? formLabels.phone.arabic : formLabels.phone.english}
-                        name="phone"
-                        required="required"
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                        value={values.phone}
-                      />
-                      {errors.phone && touched.phone && <div className="error">{errors.phone}</div>}
-                    </div>
-                    <div className="col-lg-12 position-relative mil-mb-20">
-                      <div className="form-group">
-                        <select
-                          name="howWeCanHelp"
-                          className="form-control"
+                  setFieldError,
+                  resetForm,
+                }) => {
+                  useEffect(() => {
+                    if (values.howWeCanHelp === "applyForJob") {
+                      setFieldValue('sector', '');
+                      setFieldValue('service', '');
+                      setFieldValue('subservice', '');
+                    } else if (values.howWeCanHelp === "dropInquiry") {
+                      setFieldValue('positionType', '');
+                      setFieldValue('consultingField', '');
+                      setFieldValue('position', '');
+                      setFieldValue('otherPosition', '');
+                      setFieldValue('resume', null);
+                    }
+                  }, [values.howWeCanHelp, setFieldValue]);
+
+                  return (
+                    <form
+                      onSubmit={handleSubmit}
+                      id="contactForm"
+                      className="row align-items-center"
+                    >
+                      <div className="col-lg-6 position-relative mil-mb-20">
+                        <input
+                          type="text"
+                          placeholder={activeLocale === 'ar' ? formLabels.name.arabic : formLabels.name.english}
+                          name="name"
+                          required="required"
                           onChange={handleChange}
                           onBlur={handleBlur}
-                          value={values.howWeCanHelp}
-                          required="required"
-                          style={{ textAlign: "center" }}
-                        >
-                          <option value="" disabled>
-                            {activeLocale === 'ar' ? formLabels.howWeCanHelp.arabic : formLabels.howWeCanHelp.english}
-                          </option>
-                          <option value="applyForJob">
-                            {activeLocale === 'ar' ? "تقديم طلب وظيفة" : "APPLY FOR A JOB"}
-                          </option>
-                          <option value="dropInquiry">
-                            {activeLocale === 'ar' ? "إرسال استفسار" : "DROP AN INQUIRY"}
-                          </option>
-                        </select>
+                          value={values.name}
+                        />
+                        {errors.name && touched.name && <div className="error">{errors.name}</div>}
                       </div>
-                      {errors.howWeCanHelp && touched.howWeCanHelp && <div className="error">{errors.howWeCanHelp}</div>}
-                    </div>
-                    {values.howWeCanHelp === "dropInquiry" && (
-                      <>
-                        <div className="col-lg-4 mil-mb-20 position-relative">
+                      <div className="col-lg-6 position-relative mil-mb-20">
+                        <SelectDropdownSearch />
+                      </div>
+                      <div className="col-lg-6 position-relative mil-mb-20">
+                        <input
+                          type="email"
+                          placeholder={activeLocale === 'ar' ? formLabels.email.arabic : formLabels.email.english}
+                          name="email"
+                          required="required"
+                          onChange={handleChange}
+                          onBlur={handleBlur}
+                          value={values.email}
+                        />
+                        {errors.email && touched.email && <div className="error">{errors.email}</div>}
+                      </div>
+                      <div className="col-lg-6 position-relative mil-mb-20">
+                        <input
+                          type="text"
+                          placeholder={activeLocale === 'ar' ? formLabels.phone.arabic : formLabels.phone.english}
+                          name="phone"
+                          required="required"
+                          onChange={handleChange}
+                          onBlur={handleBlur}
+                          value={values.phone}
+                        />
+                        {errors.phone && touched.phone && <div className="error">{errors.phone}</div>}
+                      </div>
+                      <div className="col-lg-12 position-relative mil-mb-20">
+                        <div className="form-group">
                           <select
-                            name="sector"
+                            name="howWeCanHelp"
                             className="form-control"
                             onChange={handleChange}
                             onBlur={handleBlur}
-                            value={values.sector}
+                            value={values.howWeCanHelp}
                             required="required"
+                            style={{ textAlign: "center" }}
                           >
                             <option value="" disabled>
-                              {activeLocale === 'ar' ? formLabels.sector.arabic : formLabels.sector.english}
+                              {activeLocale === 'ar' ? formLabels.howWeCanHelp.arabic : formLabels.howWeCanHelp.english}
                             </option>
-                            {sectorsData.sectors.map((sector) => (
-                              <option
-                                key={sector.title.english}
-                                value={sector.title.english}
-                              >
-                                {activeLocale === 'ar' ? sector.title.arabic : sector.title.english}
-                              </option>
-                            ))}
-                          </select>
-                          {errors.sector && touched.sector && <div className="error">{errors.sector}</div>}
-                        </div>
-                        <div className="col-lg-4 mil-mb-20 position-relative">
-                          <select
-                            name="service"
-                            className="form-control"
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            value={values.service}
-                            required="required"
-                          >
-                            <option value="" disabled>
-                              {activeLocale === 'ar' ? formLabels.service.arabic : formLabels.service.english}
+                            <option value="applyForJob">
+                              {activeLocale === 'ar' ? "تقديم طلب وظيفة" : "APPLY FOR A JOB"}
                             </option>
-                            {servicesData.services.map((service) => (
-                              <option
-                                key={service.title.english}
-                                value={service.title.english}
-                              >
-                                {activeLocale === 'ar' ? service.title.arabic : service.title.english}
-                              </option>
-                            ))}
-                          </select>
-                          {errors.service && touched.service && <div className="error">{errors.service}</div>}
-                        </div>
-                        <div className="col-lg-4 mil-mb-20 position-relative">
-                          <select
-                            name="subservice"
-                            className="form-control"
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            value={values.subservice}
-                            required="required"
-                          >
-                            <option value="" disabled>
-                              {activeLocale === 'ar' ? formLabels.subservice.arabic : formLabels.subservice.english}
+                            <option value="dropInquiry">
+                              {activeLocale === 'ar' ? "إرسال استفسار" : "DROP AN INQUIRY"}
                             </option>
-                            {subservicesData.subservices.map((subservice) => (
-                              <option
-                                key={subservice.title.english}
-                                value={subservice.title.english}
-                              >
-                                {activeLocale === 'ar' ? subservice.title.arabic : subservice.title.english}
-                              </option>
-                            ))}
                           </select>
-                          {errors.subservice && touched.subservice && <div className="error">{errors.subservice}</div>}
                         </div>
-                      </>
-                    )}
-                    {values.howWeCanHelp === "applyForJob" && (
-                      <>
-                        <div className="col-lg-6 position-relative mil-mb-20">
-                          <div className="form-group">
+                        {errors.howWeCanHelp && touched.howWeCanHelp && <div className="error">{errors.howWeCanHelp}</div>}
+                      </div>
+                      {values.howWeCanHelp === "dropInquiry" && (
+                        <>
+                          <div className="col-lg-4 mil-mb-20 position-relative">
                             <select
-                              name="positionType"
+                              name="sector"
                               className="form-control"
                               onChange={handleChange}
                               onBlur={handleBlur}
-                              value={values.positionType}
+                              value={values.sector}
                               required="required"
                             >
                               <option value="" disabled>
-                                {activeLocale === 'ar' ? formLabels.positionType.arabic : formLabels.positionType.english}
+                                {activeLocale === 'ar' ? formLabels.sector.arabic : formLabels.sector.english}
                               </option>
-                              <option value="consultant">
-                                {activeLocale === 'ar' ? "مستشار" : "Consultant"}
-                              </option>
-                              <option value="other">
-                                {activeLocale === 'ar' ? "أخرى" : "Other"}
-                              </option>
+                              <option
+                                  value="All"
+                                >
+                                  {activeLocale === 'ar' ? "الكل" : "All"}
+                                </option>
+                              {sectorsData.sectors.map((sector) => (
+                                <option
+                                  key={sector.title.english}
+                                  value={sector.title.english}
+                                >
+                                  {activeLocale === 'ar' ? sector.title.arabic : sector.title.english}
+                                </option>
+                              ))}
                             </select>
+                            {errors.sector && touched.sector && <div className="error">{errors.sector}</div>}
                           </div>
-                          {errors.positionType && touched.positionType && <div className="error">{errors.positionType}</div>}
-                        </div>
-                        {values.positionType === "consultant" && (
-                          <div className="col-lg-6 position-relative mil-mb-20">
-                            <input
-                              type="text"
-                              placeholder={activeLocale === 'ar' ? formLabels.consultingField.arabic : formLabels.consultingField.english}
-                              name="consultingField"
-                              required="required"
+                          <div className="col-lg-4 mil-mb-20 position-relative">
+                            <select
+                              name="service"
+                              className="form-control"
                               onChange={handleChange}
                               onBlur={handleBlur}
-                              value={values.consultingField}
-                            />
-                            {errors.consultingField && touched.consultingField && <div className="error">{errors.consultingField}</div>}
-                          </div>
-                        )}
-                        {values.positionType === "other" && (
-                          <>
-                            <div className="col-lg-6 position-relative mil-mb-20">
-                              <div className="form-group">
-                                <select
-                                  name="position"
-                                  className="form-control"
-                                  onChange={handleChange}
-                                  onBlur={handleBlur}
-                                  value={values.position}
-                                  required="required"
-                                >
-                                  <option value="" disabled>
-                                    {activeLocale === 'ar' ? formLabels.position.arabic : formLabels.position.english}
-                                  </option>
-                                  {positionsList.positions.map((position) => (
-                                    <option
-                                      key={position}
-                                      value={position}
-                                    >
-                                      {position}
-                                    </option>
-                                  ))}
-                                  <option value="other">
-                                    {activeLocale === 'ar' ? "أخرى" : "Other"}
-                                  </option>
-                                </select>
-                              </div>
-                              {errors.position && touched.position && <div className="error">{errors.position}</div>}
-                            </div>
-                            {values.position === "other" && (
-                              <div className="col-lg-12 position-relative mil-mb-20">
-                                <input
-                                  type="text"
-                                  placeholder={activeLocale === 'ar' ? formLabels.otherPosition.arabic : formLabels.otherPosition.english}
-                                  name="otherPosition"
-                                  required="required"
-                                  onChange={handleChange}
-                                  onBlur={handleBlur}
-                                  value={values.otherPosition}
-                                />
-                                {errors.otherPosition && touched.otherPosition && <div className="error">{errors.otherPosition}</div>}
-                              </div>
-                            )}
-                          </>
-                        )}
-                        <div className="col-lg-6 position-relative mil-mb-20">
-                          <div className="file-input-wrapper">
-                            <input
-                              type="file"
-                              name="resume"
-                              id="resume"
+                              value={values.service}
                               required="required"
-                              hidden
-                              onChange={(event) => {
-                                setFieldValue("resume", event.currentTarget.files[0]);
-                              }}
-                              className="file-input"
-                            />
-                            <label htmlFor="resume" className="file-input-label">
-                             {activeLocale === 'ar' ? "قم بتحميل سيرتك الذاتية" : "Upload Your Resume"} <IconUpload size={20} stroke={2} />
-                            </label>
+                            >
+                              <option value="" disabled>
+                                {activeLocale === 'ar' ? formLabels.service.arabic : formLabels.service.english}
+                              </option>
+                              <option
+                                  value="All"
+                                >
+                                  {activeLocale === 'ar' ? "الكل" : "All"}
+                                </option>
+                              {servicesData.services.map((service) => (
+                                <option
+                                  key={service.title.english}
+                                  value={service.title.english}
+                                >
+                                  {activeLocale === 'ar' ? service.title.arabic : service.title.english}
+                                </option>
+                              ))}
+                            </select>
+                            {errors.service && touched.service && <div className="error">{errors.service}</div>}
                           </div>
-                          {errors.resume && touched.resume && <div className="error">{errors.resume}</div>}
+                          <div className="col-lg-4 mil-mb-20 position-relative">
+                            <select
+                              name="subservice"
+                              className="form-control"
+                              onChange={handleChange}
+                              onBlur={handleBlur}
+                              value={values.subservice}
+                              required="required"
+                            >
+                              <option value="" disabled>
+                                {activeLocale === 'ar' ? formLabels.subservice.arabic : formLabels.subservice.english}
+                              </option>
+                              <option
+                                  value="All"
+                                >
+                                  {activeLocale === 'ar' ? "الكل" : "All"}
+                                </option>
+                              {subservicesData.subservices.map((subservice) => (
+                                <option
+                                  key={subservice.title.english}
+                                  value={subservice.title.english}
+                                >
+                                  {activeLocale === 'ar' ? subservice.title.arabic : subservice.title.english}
+                                </option>
+                              ))}
+                            </select>
+                            {errors.subservice && touched.subservice && <div className="error">{errors.subservice}</div>}
+                          </div>
+                        </>
+                      )}
+                      {values.howWeCanHelp === "applyForJob" && (
+                        <>
+                          <div className="col-lg-4 position-relative mil-mb-20">
+                            <div className="form-group">
+                              <select
+                                name="positionType"
+                                className="form-control"
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                                value={values.positionType}
+                                required="required"
+                              >
+                                <option value="" disabled>
+                                  {activeLocale === 'ar' ? formLabels.positionType.arabic : formLabels.positionType.english}
+                                </option>
+                                <option value="consultant">
+                                  {activeLocale === 'ar' ? "مستشار" : "Consultant"}
+                                </option>
+                                <option value="other">
+                                  {activeLocale === 'ar' ? "أخرى" : "Other"}
+                                </option>
+                              </select>
+                            </div>
+                            {errors.positionType && touched.positionType && <div className="error">{errors.positionType}</div>}
+                          </div>
+                          {values.positionType === "consultant" && (
+                            <div className="col-lg-4 position-relative mil-mb-20">
+                              <input
+                                type="text"
+                                placeholder={activeLocale === 'ar' ? formLabels.consultingField.arabic : formLabels.consultingField.english}
+                                name="consultingField"
+                                required="required"
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                                value={values.consultingField}
+                              />
+                              {errors.consultingField && touched.consultingField && <div className="error">{errors.consultingField}</div>}
+                            </div>
+                          )}
+                          {values.positionType === "other" && (
+                            <>
+                              <div className="col-lg-4 position-relative mil-mb-20">
+                                <div className="form-group">
+                                  <select
+                                    name="position"
+                                    className="form-control"
+                                    onChange={handleChange}
+                                    onBlur={handleBlur}
+                                    value={values.position}
+                                    required="required"
+                                  >
+                                    <option value="" disabled>
+                                      {activeLocale === 'ar' ? formLabels.position.arabic : formLabels.position.english}
+                                    </option>
+                                    {positionsList.positions.map((position) => (
+                                      <option
+                                        key={position}
+                                        value={position}
+                                      >
+                                        {position}
+                                      </option>
+                                    ))}
+                                    <option value="other">
+                                      {activeLocale === 'ar' ? "أخرى" : "Other"}
+                                    </option>
+                                  </select>
+                                </div>
+                                {errors.position && touched.position && <div className="error">{errors.position}</div>}
+                              </div>
+                              {values.position === "other" && (
+                                <div className="col-lg-12 position-relative mil-mb-20">
+                                  <input
+                                    type="text"
+                                    placeholder={activeLocale === 'ar' ? formLabels.otherPosition.arabic : formLabels.otherPosition.english}
+                                    name="otherPosition"
+                                    required="required"
+                                    onChange={handleChange}
+                                    onBlur={handleBlur}
+                                    value={values.otherPosition}
+                                  />
+                                  {errors.otherPosition && touched.otherPosition && <div className="error">{errors.otherPosition}</div>}
+                                </div>
+                              )}
+                            </>
+                          )}
+                          <div className="col-lg-4 position-relative mil-mb-20">
+                            <div className="file-input-wrapper">
+                              {values.resume ? (
+                                <div className="file-info">
+                                  <span><Truncate maxLength={25} text={values.resume.fileName}/></span>
+                                  <IconX
+                                    size={20}
+                                    stroke={2}
+                                    onClick={() => setFieldValue('resume', null)}
+                                    style={{ cursor: "pointer", marginLeft: "10px" }}
+                                  />
+                                </div>
+                              ) : (
+                                <>
+                                  <input
+                                    type="file"
+                                    name="resume"
+                                    id="resume"
+                                    hidden
+                                    onChange={(event) => {
+                                      handleFileRead(event.currentTarget.files[0], setFieldValue, setFieldError);
+                                    }}
+                                    className="file-input"
+                                  />
+                                  <label htmlFor="resume" className="file-input-label">
+                                    {activeLocale === 'ar' ? "قم بتحميل سيرتك الذاتية" : "Upload Your Resume"} <IconUpload size={20} stroke={2} />
+                                  </label>
+                                </>
+                              )}
+                            </div>
+                            {errors.resume && touched.resume && <div className="error">{errors.resume}</div>}
+                            {errors.fileType && <div className="error">{activeLocale === 'ar' ? formLabels.fileUpload.error.fileType.arabic : formLabels.fileUpload.error.fileType.english}</div>}
+                            {errors.fileSize && <div className="error">{activeLocale === 'ar' ? formLabels.fileUpload.error.fileSize.arabic : formLabels.fileUpload.error.fileSize.english}</div>}
+                          </div>
+                        </>
+                      )}
+                      {values.howWeCanHelp && (
+                        <div className="col-lg-12 position-relative mil-mb-20">
+                          <textarea
+                            placeholder={activeLocale === 'ar' ? formLabels.message.arabic : formLabels.message.english}
+                            name="message"
+                            required="required"
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                            value={values.message}
+                          />
+                          {errors.message && touched.message && <div className="error">{errors.message}</div>}
                         </div>
-                      </>
-                    )}
-                    {values.howWeCanHelp && (
+                      )}
                       <div className="col-lg-12 position-relative mil-mb-20">
-                        <textarea
-                          placeholder={activeLocale === 'ar' ? formLabels.message.arabic : formLabels.message.english}
-                          name="message"
-                          required="required"
-                          onChange={handleChange}
-                          onBlur={handleBlur}
-                          value={values.message}
-                        />
-                        {errors.message && touched.message && <div className="error">{errors.message}</div>}
-                      </div>
-                    )}
-                    <div className="col-lg-12 position-relative mil-mb-20">
-                      <div className="mil-adaptive-right mil-mb-30">
-                        <button
-                          type="submit"
-                          className={!isValid || !dirty || isSubmitting ? "mil-button mil-arrow-place mil-button-disabled" : "mil-button mil-arrow-place "}
-                          disabled={!isValid || !dirty || isSubmitting}
-                        >
-                          <span>{activeLocale === 'ar' ? formLabels.submitButton.arabic : formLabels.submitButton.english}</span>
-                          <div
-                            style={
-                              activeLocale === "ar"
-                                ? { transform: "rotate(180deg)", display: "flex" }
-                                : { transform: "rotate(0deg)", display: "flex" }
-                            }
+                        <div className="mil-adaptive-right mil-mb-30">
+                          <button
+                            type="submit"
+                            className={!isValid || !dirty || isSubmitting ? "mil-button mil-arrow-place mil-button-disabled" : "mil-button mil-arrow-place "}
+                            disabled={!isValid || !dirty || isSubmitting}
                           >
-                            <ArrowIcon />
-                          </div>
-                        </button>
+                            <span>{activeLocale === 'ar' ? formLabels.submitButton.arabic : formLabels.submitButton.english}</span>
+                            <div
+                              style={
+                                activeLocale === "ar"
+                                  ? { transform: "rotate(180deg)", display: "flex" }
+                                  : { transform: "rotate(0deg)", display: "flex" }
+                              }
+                            >
+                              <ArrowIcon />
+                            </div>
+                          </button>
+                        </div>
                       </div>
-                    </div>
-                    <div className="form-status" id="contactFormStatus" />
-                  </form>
-                )}
+                      <div className="form-status" id="contactFormStatus" />
+                    </form>
+                  );
+                }}
               </Formik>
             </div>
           </div>

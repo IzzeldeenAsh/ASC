@@ -199,7 +199,7 @@
           "arabic": "حلول استراتيجية في بيئة الاستدامة"
         },
         "content": {
-          "english": "Transitioning to renewable energy reveals a multitude of opportunities that lie ahead for the Metals and mining sector. Many challenges and risks face industrial supply chain sources, creating an unprecedented demand for crucial elements. That’s why A&B mining experts continuously support mining companies to help them navigate the multi-dimensional mining market and adopt necessary governmental and environmentally friendly operational best practices that are needed to address environmental and health concerns.<br><br>Our proven track record in offering strategic open-pit mining solutions for extracting and processing a major energy source element is due to being able to tackle exploration, extraction and processing challenges objectively while being focused on driving sustainable success for our clients.<br><br>Our global perspective on the importance of the sector motivates us to tailor mining strategies that will take our clients’ endeavors in mining essential materials, metals and minerals to the next level.",
+          "english": "Transitioning to renewable energy reveals a multitude of opportunities that lie ahead for the Metals and mining sector. Many challenges and risks face industrial supply chain sources, creating an unprecedented demand for extracting valuable minerals, metals, and other raw material. That’s why A&B mining experts continuously support mining companies to help them navigate the multi-dimensional mining market and adopt necessary governmental and environmentally friendly operational best practices that are needed to address environmental and health concerns.<br><br>Our proven track record in offering strategic open-pit mining solutions for extracting and processing a major energy source element is due to being able to tackle exploration, extraction and processing challenges objectively while being focused on driving sustainable success for our clients.<br><br>Our global perspective on the importance of the sector motivates us to tailor mining strategies that will take our clients’ endeavors in mining essential materials, metals and minerals to the next level.",
           "arabic": "من منظور يشمل السوق العالمي، ندرك أهمية التعدين والدور الذي يؤديه عملاؤنا العاملين في هذا القطاع في المساهمة في التنمية الاقتصادية المحلية والعالمية. فنسخّر أبحاثنا ودراسات خبرائنا لتصميم استراتيجيات تعدين متخصصة تقدم حلولا لتحديات القطاع الجيولوجية والتقنية والبيئية.<br><br>بالإضافة إلى دراسات السوق الشاملة، يدعم خبراؤنا في A&B شركات التعدين ليقدموا حلولا متكاملة تتوافق مع أهدافهم لمساعدتهم على التنقل في سوق متعدد الأبعاد، كتقنيات التعدين النظيفة الصديقة للبيئة وإعادة التأهيل البيئي للمواقع التعدين وتقليل تأثير عمليات التعدين على المجتمع المحلي. ونعرض لهم أفضل ممارسات التشغيل المتماشية مع الأنظمة والقوانين الحكومية اللازمة لتحقيق نجاح تجاري مستدام في ظل التحديات والمخاطر التي تواجه مصادر سلاسل التوريد الصناعية."
         },
         "button": {
@@ -241,16 +241,17 @@
             "image" :"https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
           },
           {
-            "id" :"Operating-Model",
+            "id" :"s2-mining-supply-chain-operationa-performance",
             "label": {
-              "english": "Supply chain and operational performance",
-              "arabic": "سلسلة التوريد والأداء التشغيلي"
+              "english": "Mining Supply Chain and Operational Performance.",
+              "arabic":"سلسلة توريد التعدين والأداء التشغيلي."
             },
             "value": {
-              "english": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .",
-              "arabic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ."
-            },
-            "image" :"https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
+              "english": "Navigating the complexities of the mining supply chain demands efficient ERP systems and integrated information solutions. A&B SCM experts tailor strategies to enhance extraction, production, and logistics, ensuring seamless operations. Our real-time data analytics optimize demand forecasting and inventory management to align production with market needs.",
+              "arabic": "تتطلب تعقيدات سلاسل التوريد في التعدين أنظمة ERP فعالة وأنظمة معلومات متكاملة. يقوم خبراء A&B بتصميم استراتيجيات لتعزيز الاستخراج والإنتاج والخدمات اللوجستية لضمان عمليات سلسة. تحليل البيانات في الوقت الفعلي يساعد على التنبؤ بالطلب وإدارة المخزون لمواءمة الإنتاج مع السوق."
+            }
+,            
+            "image" :"https://res.cloudinary.com/dahiaq28x/image/upload/v1722409990/155611_fqpwab.webp"
           }
           
         ]

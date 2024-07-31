@@ -45,12 +45,13 @@ const DefaultFooter = ({ extraClass }) => {
         <div className="mi-invert-fix">
           <div className="container footer-container" style={{ direction: 'ltr' }}>
             <div className="row justify-content-between">
-              <div className="col-md-4 col-lg-4 mil-mb-10 col-12">
-                <Link href={"/"} className="mil-muted mil-logo mil-mb-30 footer-logo">
+              <div className="col-md-4 col-lg-5 mil-mb-10 col-12 d-flex flex-column justify-content-end">
+                <Link href={"/"} className="mil-muted mil-logo footer-logo">
                   {AppData.footer.logo.text}
                 </Link>
                 <div className="mil-mb-30"></div>
-                <div className="mil-light-soft mil-text-xs footer-location">
+              <div className="d-flex gap-20">
+              <div className="mil-light-soft mil-text-xs footer-location">
                   <span className="text-primary">Jordan (Operations Office):</span>
                   <br />
                   Amman, Jordan
@@ -60,12 +61,13 @@ const DefaultFooter = ({ extraClass }) => {
                 <div className="mil-light-soft mil-text-xs footer-location">
                   <span className="text-primary">USA (Headquarters):</span>
                   <br />
-                  Delaware, Wilmington - Downtown 1000 N.
+                  Delaware, Wilmington.
                   <br />
-                  West Street. Suite 1200. Wilmington.19801
+                  West Street. Suite 1200.
                 </div>
               </div>
-              <div className="col-md-2 col-lg-2 col-12" style={{ marginTop: 'auto' }}>
+              </div>
+              <div className="col-md-2 col-lg-1 col-12" style={{ marginTop: 'auto' }}>
                 <ul className="mil-social-icons mil-mb-30">
                   <li>
                     <a href={"https://www.linkedin.com/company/alokab-consulting"} target="_blank" className="social-icon">
@@ -94,7 +96,7 @@ const DefaultFooter = ({ extraClass }) => {
                     ))}
                   </ul>
                 </nav>
-                <p className="mil-light-soft mil-up mil-mb-30">Subscribe to our newsletter:</p>
+                {/* <p className="mil-light-soft mil-up mil-mb-30">Subscribe to our newsletter:</p>
                 <form onSubmit={handleSubmit} className="mil-subscribe-form mil-up">
                   <input
                     type="email"
@@ -106,8 +108,7 @@ const DefaultFooter = ({ extraClass }) => {
                   <button type="submit" className="mil-button mil-icon-button-sm mil-arrow-place">
                     <ArrowIcon />
                   </button>
-                </form>
-                <div className="mil-mb-90"></div>
+                </form> */}
                 <div className="mil-light-soft mil-text-xs copy-right">
                   <span>
                     {activeLocale === 'ar' ? AppData.footer.copy.arabic : AppData.footer.copy.english}

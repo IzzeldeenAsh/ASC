@@ -25,7 +25,7 @@ return (
                   dangerouslySetInnerHTML={{ __html: activeLocale==='ar' ? Data.title.arabic: Data.title.english }}/>
               </span>
              <div className="col-8">
-             <div className="mil-text-xl mil-up mil-mb-60 mil-p-30-30 italic" dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.content.arabic : Data.content.english}} />
+             <div className="mil-text-xl mil-up mil-mb-60 mil-p-30-30 " dangerouslySetInnerHTML={{__html : activeLocale ==='ar' ? Data.content.arabic : Data.content.english}} />
              </div>
             </div>
            

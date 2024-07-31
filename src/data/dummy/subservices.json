@@ -2292,6 +2292,69 @@
     "data analytics"
   ]
 }
-
+,
+{
+  "id" :"s2-mining-supply-chain-operationa-performance",
+  "title": {
+    "english": "Mining Supply Chain and Operational Performance.",
+    "arabic":"سلسلة توريد التعدين والأداء التشغيلي."
+  },
+  "image" :"https://res.cloudinary.com/dahiaq28x/image/upload/v1722409990/155611_fqpwab.webp",
+  "sector": [
+    {
+      "id": "sector-1",
+      "name": "Industrial"
+    }
+  ],
+  "service": {},
+  "contentHtml": {
+    "english": "The complexity of the supply chain in mining activities requires adequate ERP and integrated information systems in order to ensure efficiency. Mining operations encompass several stages, starting from exploration and extraction to processing and distribution, and this entails tailoring an SCM strategy that involves extraction methods and techniques, equipment, and workforce management to be able to transfer processed raw material to warehouse storage efficiently.<br><br>In addition to waste and environmental risk management insights and region-specific challenges - like water scarcity, A&B SCM experts help mining companies overcome supply chain and logistics obstacles through their supply chain integration solutions. Our supply chain management strategies capitalize on real-time data analytics to forecast demand, monitor inventory levels, and manage logistics to help clients align extraction and production with the market.",
+    "arabic": "تتطلب تعقيدات سلاسل التوريد في أنشطة التعدين أنظمة فعالة لتخطيط الموارد (ERP) وتفعيل أنظمة معلومات متكاملة وذلك لضمان العمل بكفاءة. وتشمل عمليات التعدين عدة مراحل، بدءًا من الاستكشاف والاستخراج إلى المعالجة والتوزيع، وهذا يستلزم تصميم استراتيجية لإدارة سلسلة التوريد تتضمن أساليب وتقنيات الاستخراج والمعدات وإدارة القوى العاملة - لتكون قادرة على نقل المواد الخام المعالجة إلى مستودعات التخزين بكفاءة.<br><br>بالإضافة إلى إدارة النفايات، ومعالجة المخاوف البيئية، وتقديم حلول للتحديات المتعلقة بطبيعة منطقة التنقيب والتعدين- كندرة المياه مثلا- يساعد خبراء إدارة سلاسل التوريد لدينا شركات التعدين على التغلب على عقبات سلاسل التوريد والخدمات اللوجستية من خلال حلول تكامل سلسلة التوريد (supply chain integration) الخاصة بهم. فاستراتيجيات A&B لإدارة سلسلة التوريد ترتكز على تحليل البيانات في الوقت الفعلي (Real Time Data Analytics) للتنبؤ بالطلب ومراقبة مستويات المخزون وإدارة الخدمات اللوجستية لمساعدة العملاء على مواءمة الاستخراج والإنتاج مع السوق."
+  }
+,  
+  "short": {
+    "english": "Navigating the complexities of the mining supply chain demands efficient ERP systems and integrated information solutions. A&B SCM experts tailor strategies to enhance extraction, production, and logistics, ensuring seamless operations. Our real-time data analytics optimize demand forecasting and inventory management to align production with market needs.",
+              "arabic": "تتطلب تعقيدات سلاسل التوريد في التعدين أنظمة ERP فعالة وأنظمة معلومات متكاملة. يقوم خبراء A&B بتصميم استراتيجيات لتعزيز الاستخراج والإنتاج والخدمات اللوجستية لضمان عمليات سلسة. تحليل البيانات في الوقت الفعلي يساعد على التنبؤ بالطلب وإدارة المخزون لمواءمة الإنتاج مع السوق."
+  },
+  "introTitle": {
+    "english": " Mining Supply <span class=\"mil-thin\">Chain</span> <br> <span class=\"mil-thin\"> & Operational</span> Performance",
+    "arabic":"سلسلة توريد التعدين والأداء التشغيلي."
+  },
+  "gallery": {
+    "enabled": 0,
+    "items": []
+  },
+  "slogan": {
+    "english": "Enhancing Industrial Efficiency",
+    "arabic": "تعزيز الكفاءة الصناعية"
+  },
+  "additional": {
+    "enabled": 0,
+    "content": ""
+  },
+  "infograph": {
+    "enabled": 0,
+    "name": ""
+  },
+  "keywords": [
+    "industrial technology",
+    "technology selection",
+    "process automation",
+    "cost reduction",
+    "efficiency enhancement",
+    "market research",
+    "technology trends",
+    "scalability",
+    "PoC services",
+    "cost-benefit analysis",
+    "vendor evaluation",
+    "risk management",
+    "implementation planning",
+    "performance monitoring",
+    "software platforms",
+    "hardware upgrades",
+    "data analytics"
+  ]
+}
   ]
 }
