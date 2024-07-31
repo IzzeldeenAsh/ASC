@@ -2108,7 +2108,7 @@ footer
 
 ------------------------------------------- */
 .footer-container{
-  padding: 60px 20px 0px 20px;
+  padding: 40px 20px 0px 20px;
 }
 
 .mil-footer-menu {
@@ -2118,9 +2118,11 @@ footer
    gap: 20px;
    justify-content: end;
    flex-wrap: wrap;
+   padding-top: 100px;
    @media screen and (max-width: 768px) {
     justify-content: center;
   //  flex-direction: column;
+  padding: 0;
   }
   
     & li {
@@ -2175,13 +2177,26 @@ footer
   margin-inline-start: auto;
   width: fit-content;
 }
+
+@media screen and (max-width:1200px) {
+  .mil-form-title{
+    text-align: center;
+  }
+
+}
 .mil-subscribe-form {
   position: relative;
-  height: 70px;
+  height: 50px;
   width: 100%;
-  max-width: 360px;
-  margin-inline-start: auto;
+  max-width: 300px;
+  margin-inline-end: auto;
   margin-bottom: 20px;
+  @media screen and (max-width:1200px) {
+    margin-inline-end: 0;
+    margin: auto;
+ 
+  }
+  
   & input {
     height: 100%;
     width: 100%;
@@ -2212,10 +2227,19 @@ footer
     }
   }
 
-  & .mil-button {
+  & .mil-tab-arrow {
     position: absolute;
-    top: 17px;
+    top: 14px;
     right: 20px;
+    background: none;
+    color: #e5c21f;
+    border: none;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover{
+      transform: scale(1.2);
+    }
   }
 
   &.mil-subscribe-form-2 {

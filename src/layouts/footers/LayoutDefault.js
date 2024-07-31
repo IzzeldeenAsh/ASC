@@ -7,6 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { useState } from "react";
 import { notifications } from '@mantine/notifications';
+import { IconArrowRight } from '@tabler/icons-react';
 const DefaultFooter = ({ extraClass }) => {
   const { activeLocale, t } = useLocale();
   const { asPath } = useRouter();
@@ -46,10 +47,26 @@ const DefaultFooter = ({ extraClass }) => {
           <div className="container footer-container" style={{ direction: 'ltr' }}>
             <div className="row justify-content-between">
               <div className="col-md-4 col-lg-5 mil-mb-10 col-12 d-flex flex-column justify-content-end">
-                <Link href={"/"} className="mil-muted mil-logo footer-logo">
+                <Link href={"/"} className="mil-muted mil-mb-20 mil-logo footer-logo">
                   {AppData.footer.logo.text}
                 </Link>
-                <div className="mil-mb-30"></div>
+                <div className="mil-mb-20"></div>
+                <p className="mil-light-soft  mil-mb-10 mil-form-title" style={{fontSize:"14px"}}>{
+                  activeLocale ==='ar'  ? "!اشترك لمعرفة جديدنا": "Subscribe to our newsletter!"
+                }</p>
+                <form onSubmit={handleSubmit} className="mil-subscribe-form ">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                  />
+                  <button type="submit" className="mil-tab-arrow">
+                  <IconArrowRight stroke={2} />
+                  </button>
+                </form>
+                <div className="mil-mb-20"></div>
               <div className="d-flex gap-20">
               <div className="mil-light-soft mil-text-xs footer-location">
                   <span className="text-primary">Jordan (Operations Office):</span>
@@ -67,7 +84,7 @@ const DefaultFooter = ({ extraClass }) => {
                 </div>
               </div>
               </div>
-              <div className="col-md-2 col-lg-1 col-12" style={{ marginTop: 'auto' }}>
+              <div className="col-md-2 col-lg-1 col-12"  style={{ marginTop: 'auto' }}>
                 <ul className="mil-social-icons mil-mb-30">
                   <li>
                     <a href={"https://www.linkedin.com/company/alokab-consulting"} target="_blank" className="social-icon">
@@ -81,7 +98,8 @@ const DefaultFooter = ({ extraClass }) => {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-5 mil-mb-10 col-12">
+              <div className="col-md-5 mil-mb-10 col-12  d-flex flex-column justify-content-between " >
+              <div className="mil-mb-20"></div>
                 <nav className="mil-footer-menu">
                   <ul>
                     {AppData.header.menu.map((item, key) => (
@@ -96,23 +114,13 @@ const DefaultFooter = ({ extraClass }) => {
                     ))}
                   </ul>
                 </nav>
-                {/* <p className="mil-light-soft mil-up mil-mb-30">Subscribe to our newsletter:</p>
-                <form onSubmit={handleSubmit} className="mil-subscribe-form mil-up">
-                  <input
-                    type="email"
-                    placeholder="Enter your email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                  />
-                  <button type="submit" className="mil-button mil-icon-button-sm mil-arrow-place">
-                    <ArrowIcon />
-                  </button>
-                </form> */}
+             
+           <div className="mil-mb-30"></div>
                 <div className="mil-light-soft mil-text-xs copy-right">
                   <span>
                     {activeLocale === 'ar' ? AppData.footer.copy.arabic : AppData.footer.copy.english}
                   </span>
+                  
                   <br />
                   <span>
                     <Link href="/">
