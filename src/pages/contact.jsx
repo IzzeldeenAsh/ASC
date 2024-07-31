@@ -104,6 +104,10 @@ const Contact = () => {
       error: {
         english: "Oops! There was a problem submitting your form",
         arabic: "عذرًا! حدثت مشكلة أثناء إرسال النموذج"
+      },
+      methodNotAllowed: {
+        english: "Method Not Allowed",
+        arabic: "الطريقة غير مسموحة"
       }
     },
     fileUpload: {
@@ -282,6 +286,12 @@ const Contact = () => {
                           color: 'green',
                         });
                         resetForm(); // Reset form on successful submission
+                      } else if (response.status === 405) {
+                        notifications.show({
+                          title: formLabels.formStatus.methodNotAllowed.english,
+                          message: activeLocale === 'ar' ? formLabels.formStatus.methodNotAllowed.arabic : formLabels.formStatus.methodNotAllowed.english,
+                          color: 'red',
+                        });
                       } else {
                         response.json().then((data) => {
                           if (data.errors) {
