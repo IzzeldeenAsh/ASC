@@ -104,6 +104,10 @@ const Contact = () => {
       error: {
         english: "Oops! There was a problem submitting your form",
         arabic: "عذرًا! حدثت مشكلة أثناء إرسال النموذج"
+      },
+      methodNotAllowed: {
+        english: "Method Not Allowed",
+        arabic: "الطريقة غير مسموحة"
       }
     },
     fileUpload: {
@@ -282,6 +286,12 @@ const Contact = () => {
                           color: 'green',
                         });
                         resetForm(); // Reset form on successful submission
+                      } else if (response.status === 405) {
+                        notifications.show({
+                          title: formLabels.formStatus.methodNotAllowed.english,
+                          message: activeLocale === 'ar' ? formLabels.formStatus.methodNotAllowed.arabic : formLabels.formStatus.methodNotAllowed.english,
+                          color: 'red',
+                        });
                       } else {
                         response.json().then((data) => {
                           if (data.errors) {
@@ -380,6 +390,7 @@ const Contact = () => {
                           required="required"
                           onChange={handleChange}
                           onBlur={handleBlur}
+                          maxLength={14}
                           value={values.phone}
                         />
                         {errors.phone && touched.phone && <div className="error">{errors.phone}</div>}
@@ -566,7 +577,7 @@ const Contact = () => {
                                 {errors.position && touched.position && <div className="error">{errors.position}</div>}
                               </div>
                               {values.position === "other" && (
-                                <div className="col-lg-12 position-relative mil-mb-20">
+                                <div className="col-lg-4 position-relative mil-mb-20">
                                   <input
                                     type="text"
                                     placeholder={activeLocale === 'ar' ? formLabels.otherPosition.arabic : formLabels.otherPosition.english}
@@ -611,6 +622,7 @@ const Contact = () => {
                                 </>
                               )}
                             </div>
+                            <div className="error mil-text-gray-800" style={{color:"#7F7F7F"}}>PDF/DOC/JPEG</div>
                             {errors.resume && touched.resume && <div className="error">{errors.resume}</div>}
                             {errors.fileType && <div className="error">{activeLocale === 'ar' ? formLabels.fileUpload.error.fileType.arabic : formLabels.fileUpload.error.fileType.english}</div>}
                             {errors.fileSize && <div className="error">{activeLocale === 'ar' ? formLabels.fileUpload.error.fileSize.arabic : formLabels.fileUpload.error.fileSize.english}</div>}
