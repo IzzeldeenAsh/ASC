@@ -67,7 +67,7 @@ const Home1 = (props) => {
       bg={false}
         text={ activeLocale === "ar"
           ? "عقدين من الخبرة في تعزيز الكفاءة"
-          : "Two decades of expertise in enhancing industrial efficiency"}
+          : "Two decades of expertise in enhancing industrial efficiency."}
         buttonText=""
       />
       <CardGrid/>
