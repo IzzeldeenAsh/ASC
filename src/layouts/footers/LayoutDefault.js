@@ -50,7 +50,7 @@ const DefaultFooter = ({ extraClass }) => {
                 <Link href={"/"} className="mil-muted mil-mb-20 mil-logo footer-logo">
                   {AppData.footer.logo.text}
                 </Link>
-                <div className="mil-mb-20"></div>
+     
                 <p className="mil-light-soft  mil-mb-10 mil-form-title" style={{fontSize:"14px"}}>{
                   activeLocale ==='ar'  ? "!اشترك لمعرفة جديدنا": "Subscribe to our newsletter!"
                 }</p>
@@ -67,7 +67,7 @@ const DefaultFooter = ({ extraClass }) => {
                   </button>
                 </form>
                 <div className="mil-mb-20"></div>
-              <div className="d-flex gap-20">
+              {/* <div className="d-flex gap-20">
               <div className="mil-light-soft mil-text-xs footer-location">
                   <span className="text-primary">Jordan (Operations Office):</span>
                   <br />
@@ -82,7 +82,7 @@ const DefaultFooter = ({ extraClass }) => {
                   <br />
                   West Street. Suite 1200.
                 </div>
-              </div>
+              </div> */}
               </div>
               <div className="col-md-2 col-lg-1 col-12"  style={{ marginTop: 'auto' }}>
                 <ul className="mil-social-icons mil-mb-30">
@@ -99,7 +99,6 @@ const DefaultFooter = ({ extraClass }) => {
                 </ul>
               </div>
               <div className="col-md-5 mil-mb-10 col-12  d-flex flex-column justify-content-between " >
-              <div className="mil-mb-20"></div>
                 <nav className="mil-footer-menu">
                   <ul>
                     {AppData.header.menu.map((item, key) => (
